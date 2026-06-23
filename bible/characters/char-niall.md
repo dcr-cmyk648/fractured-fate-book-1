@@ -25,6 +25,8 @@ His unresolved grief over Alara is a core wound and core driver of his interacti
 
 Niall is rigid, controlled, and deeply invested in not appearing weak. Planning material frames part of his arc around moving from grief, rigidity, and needing to prove he can still stand alone toward accepting help and protecting the living people he values.
 
+Elric Rezin is Niall's father. Niall destroyed Elric's original body, but Elric's long-running plans continue through Ink and the Harbinger leader. Elric is a hidden source of Niall's fear around fate/Skein work and part of the pressure shaping Niall's rigidity.
+
 ## Abilities and Equipment
 
 Niall's current manuscript ability centers on lightning and electrical-charge manipulation. Maya's current explanation frames his method as connecting high electrical charge to lower charge and maintaining those connections over long distances.
@@ -51,6 +53,10 @@ Davian:
 
 Davian attacks Niall during the Heart theft. Davian's approved arc may later involve supporting Maya and Niall rather than needing to be the threat.
 
+Elric Rezin:
+
+Elric is Niall's father and a central hidden antagonist. Niall killed Elric's original body, but Elric remains alive through the Harbinger leader and continues manipulating events.
+
 ## Current Manuscript State
 
 In the prologue, Niall enters Maya's Presentation preparation with warmth and pride, reassures her before the High Clade Council, and then leaves when the citadel attack begins.
@@ -72,6 +78,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 ## Intended Arc Links
 
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
+- Related character: [Elric Rezin](char-elric.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
@@ -79,6 +86,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 ## Canonical Uncertainties
 
 - Exact Heart/silver conduit/zan-strike-line mechanics remain for later magic and object reviews.
+- Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
 - Detailed Alara history remains for `char-alara` and `event-alara-death-war-memory`.
 - Exact late-book Vorren fight execution remains candidate arc material.
 - Niall's possible older-brother or early-Presentation backstory is speculative only.

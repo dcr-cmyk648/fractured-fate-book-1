@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, `char-niall`, and `char-kelyra` approved; preparing next entity
+Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-kelyra`, and `char-elric` approved; preparing next entity
 
 Gate:
 
@@ -127,6 +127,10 @@ Observed entity-review summary from 2026-06-23:
 - Candidate Kelyra material was stored in `planning/candidates/characters/char-kelyra.md`.
 - Kelyra's approved broad Archeon trauma/family-protection arc seed was stored in `outline/arcs/thread-kelyra-archeon-recovery.md`.
 - Follow-up consistency items for Kelyra's magic terminology, trauma-blocked Shroud, Lirien spelling, and Lethira parentage were recorded in `CONSISTENCY_QUEUE.md`.
+- `char-elric` was reviewed, approved, and stored in `bible/characters/char-elric.md`.
+- Candidate Elric material was stored in `planning/candidates/characters/char-elric.md`.
+- Elric's approved broad reality/Skein endgame arc seed was stored in `outline/arcs/thread-elric-reality-skein.md`.
+- Follow-up consistency items for Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics were recorded in `CONSISTENCY_QUEUE.md`.
 
 ## Phase 5: Approved Durable Records
 

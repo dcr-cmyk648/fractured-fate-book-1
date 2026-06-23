@@ -5,23 +5,23 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-kelyra` approved, finalizing
+- Current migration phase: Phase 4 entity-by-entity review; `char-elric` approved, finalizing
 - Current entity under review: None
-- Latest completed entity: char-kelyra
-- Latest relevant commit: HEAD (`bible: approve Kelyra character record`)
+- Latest completed entity: char-elric
+- Latest relevant commit: f1fbc48 (`bible: approve Kelyra character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-kelyra` entity was approved and stored. Created the accepted Kelyra record at `bible/characters/char-kelyra.md`, candidate material at `planning/candidates/characters/char-kelyra.md`, an approved arc seed at `outline/arcs/thread-kelyra-archeon-recovery.md`, and a decision record at `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`. Level 1 consistency checks linked Kelyra from Davian and queued later spelling, magic, and Lethira consistency items in `CONSISTENCY_QUEUE.md`.
+The `char-elric` entity was approved and stored. Created the accepted Elric record at `bible/characters/char-elric.md`, candidate material at `planning/candidates/characters/char-elric.md`, an approved arc seed at `outline/arcs/thread-elric-reality-skein.md`, and a decision record at `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`. Level 1 consistency checks linked Elric from Davian and Niall and queued later Harbinger/Ink/Skein/Heart/codex consistency items in `CONSISTENCY_QUEUE.md`.
 
 ## Current work
 
-The approved `char-kelyra` files are being finalized, validated, and committed.
+The approved `char-elric` files are being finalized, validated, and committed.
 
 ## Next action
 
-Commit the approved Kelyra entity record, then begin preparing the next queued entity, `char-elric`, unless an exception applies.
+Commit the approved Elric entity record, then begin preparing the next queued entity, `char-harvick`, unless an exception applies.
 
 ## Awaiting author input
 
@@ -30,10 +30,11 @@ Commit the approved Kelyra entity record, then begin preparing the next queued e
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by six commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by seven commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -73,3 +74,8 @@ Commit the approved Kelyra entity record, then begin preparing the next queued e
 - planning/candidates/characters/char-kelyra.md
 - outline/arcs/thread-kelyra-archeon-recovery.md
 - decisions/0006-kelyra-archeon-lineage-shroud-and-family.md
+- reviews/entities/characters/char-elric.md
+- bible/characters/char-elric.md
+- planning/candidates/characters/char-elric.md
+- outline/arcs/thread-elric-reality-skein.md
+- decisions/0007-elric-rezin-remnant-and-reality-skein-role.md

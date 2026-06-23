@@ -38,6 +38,8 @@ Davian chose to steal the Heart both to protect his own family and to satisfy hi
 
 He acts under Harbinger/Syndicate coercion and manipulation, but the accepted record should not erase his agency. His moral arc depends on the tension between pressure and choice.
 
+Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndicate pressure on Davian, including the Ink/Heart-theft path. This does not erase Davian's accepted agency.
+
 Davian clearly murdered Arrek. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
 
 ## Abilities
@@ -93,6 +95,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 
 - Approved arc file: [thread-davian-identity-guilt](../../outline/arcs/thread-davian-identity-guilt.md)
 - Related character: [Niall Rezin](char-niall.md)
+- Related character: [Elric Rezin](char-elric.md)
 - Candidate material: [char-davian](../../planning/candidates/characters/char-davian.md)
 - Review packet: [char-davian](../../reviews/entities/characters/char-davian.md)
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
@@ -102,6 +105,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 
 - The final name/status of the Harbingers/Syndicate remains unresolved.
 - Broader Ink/Shroud/Subversion mechanics remain unresolved.
+- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-ink-boons`, `magic-fateweaving-skein`, and Harbinger/Syndicate reviews.
 - The real Arrek's background and full consequences of his murder remain for `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 
