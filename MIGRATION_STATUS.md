@@ -51,7 +51,7 @@ Gate:
 
 ## Phase 2: Source Normalization
 
-Status: not started
+Status: completed; changes not yet committed
 
 Gate:
 
@@ -59,6 +59,26 @@ Gate:
 - Normalize the three source documents into text/Markdown according to an approved method.
 - Preserve provenance and comments where possible.
 - Do not rewrite or reinterpret content during normalization.
+
+Observed normalization summary from 2026-06-23:
+
+- Generated `imports/normalized/melissa-copy.md` from `imports/raw/melissa-copy.docx`.
+  - 7,585 DOCX paragraphs scanned.
+  - 7,136 non-empty text blocks emitted.
+  - Chapter 1 through Chapter 37 detected.
+- Generated `imports/normalized/book-1-outline.md` from `imports/raw/book-1-outline.docx`.
+  - 3,763 DOCX paragraphs scanned.
+  - 3,027 non-empty text blocks emitted.
+  - Expected markers detected: `Ch37`, `Prior scene edits`, `Overarching changes`, `Major edits`.
+- Generated `imports/normalized/bullet-notes.md` from `imports/raw/bullet-notes.docx`.
+  - 164 DOCX paragraphs scanned.
+  - 95 non-empty text blocks emitted.
+  - Expected markers detected: `Future Scenes`, `Prior Scene Edits`, `Daily to do`, `Planning`.
+- Generated `imports/normalized/melissa-copy.comments.md`.
+  - 113 comments extracted from `word/comments.xml`.
+  - All extracted comments have derived anchors in the normalized manuscript.
+- Generated `imports/normalized/README.md` describing the normalization method and generated files.
+- Raw DOCX SHA-256 checksums still match the Phase 0 baseline after normalization.
 
 ## Phase 3: Entity Inventory
 

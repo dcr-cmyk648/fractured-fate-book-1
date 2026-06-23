@@ -5,23 +5,23 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 1 control files completed; Phase 0 raw import baseline committed
+- Current migration phase: Phase 2 source normalization completed and committed
 - Current entity under review: None
 - Latest completed entity: None
-- Latest relevant commit: HEAD, the workflow-controls commit. The raw baseline commit is `e815ec439e8fbeb48242c5e89e7bfb35cb87a6bd`.
+- Latest relevant commit: HEAD, the normalization commit. The workflow-controls commit is `c4e6a6e3eb634bbeb77204e497138f25ca66e7ed`; the raw baseline commit is `e815ec439e8fbeb48242c5e89e7bfb35cb87a6bd`.
 - Working tree expected to be clean: yes
 
 ## Last completed work
 
-Raw DOCX source files were placed in `imports/raw/`, verified without modifying or extracting them into the repository, and committed in `e815ec439e8fbeb48242c5e89e7bfb35cb87a6bd` (`chore: archive Drive document baseline`). Persistent workflow control files were created and committed in the current `HEAD` commit (`chore: add persistent Codex workflow controls`).
+Phase 2 source normalization generated Markdown files from the three archival DOCX sources without modifying the raw files and committed them in the current HEAD commit (`chore: normalize imported source documents`). Validation confirmed raw DOCX SHA-256 checksums still match the Phase 0 baseline, the manuscript normalization includes Chapter 1 through Chapter 37, expected outline and bullet-note markers are present, and 113 Melissa comments were extracted with derived anchors.
 
 ## Current work
 
-None. Normalization, entity inventory, entity review, and later migration phases have not started.
+None. Entity inventory, entity review, and later migration phases have not started.
 
 ## Next action
 
-Wait for explicit author authorization for the next migration phase. Do not begin normalization, entity inventory, entity review, or any later migration phase without that authorization.
+Wait for explicit author authorization to begin Phase 3 entity inventory. Do not begin entity inventory, entity review, or any later migration phase without explicit authorization.
 
 ## Awaiting author input
 
@@ -29,7 +29,6 @@ Wait for explicit author authorization for the next migration phase. Do not begi
 
 ## Known blockers or risks
 
-- Source documents have not been normalized yet.
 - Entity inventory has not been created yet.
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
 
@@ -42,3 +41,4 @@ Wait for explicit author authorization for the next migration phase. Do not begi
 - ENTITY_INDEX.md
 - MIGRATION_STATUS.md
 - decisions/index.md
+- imports/normalized/README.md
