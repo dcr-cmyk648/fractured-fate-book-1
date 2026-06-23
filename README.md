@@ -1,0 +1,28 @@
+# fractured-fate-book-1
+
+Repository for the Book 1 migration, source import, normalization, review, and durable story-reference files.
+
+## Structure
+
+- `imports/raw/` contains untouched archival DOCX exports from Google Docs.
+- `imports/normalized/` will contain later normalized text exports when that phase is authorized.
+- `reviews/entities/` will contain source-backed one-entity-at-a-time review packets.
+- `bible/` will contain approved world, character, organization, location, magic, object, and terminology records.
+- `outline/` will contain planned narrative structure and arcs.
+- `revision/` will contain proposed or accepted prose-change plans.
+- `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
+- `feedback/` will contain reader feedback when extracted or recorded.
+- `decisions/` records explicit author decisions.
+
+## Control Files
+
+- [AGENTS.md](AGENTS.md) contains permanent Codex operating rules.
+- [PROJECT_STATE.md](PROJECT_STATE.md) is the definitive handoff file for resuming work.
+- [ENTITY_INDEX.md](ENTITY_INDEX.md) is the master entity inventory and processing queue.
+- [WORKFLOW.md](WORKFLOW.md) defines the persistent migration and entity-review workflow.
+- [MIGRATION_STATUS.md](MIGRATION_STATUS.md) records migration phases and gates.
+- [decisions/index.md](decisions/index.md) indexes explicit author decisions.
+
+## Resuming Work
+
+A new Codex session should read [AGENTS.md](AGENTS.md) first, then follow the startup procedure there. The operational resume point is always [PROJECT_STATE.md](PROJECT_STATE.md); do not rely on prior conversation history as durable project memory.
