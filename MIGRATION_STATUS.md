@@ -51,7 +51,7 @@ Gate:
 
 ## Phase 2: Source Normalization
 
-Status: completed; changes not yet committed
+Status: completed and committed
 
 Gate:
 
@@ -82,7 +82,7 @@ Observed normalization summary from 2026-06-23:
 
 ## Phase 3: Entity Inventory
 
-Status: not started
+Status: completed and committed; awaiting authorization to begin entity review
 
 Gate:
 
@@ -90,6 +90,14 @@ Gate:
 - Create inventory and proposed review order only.
 - Do not write accepted canon.
 - Show inventory to the author and stop.
+
+Observed inventory summary from 2026-06-23:
+
+- Created proposed entity queue in `ENTITY_INDEX.md`.
+- No entity review packets were created.
+- No accepted bible, outline arc, revision, feedback, or candidate files were created.
+- No entity is marked `in-review`.
+- Inventory was visually reviewed by the author and committed.
 
 ## Phase 4: Entity-by-Entity Review
 

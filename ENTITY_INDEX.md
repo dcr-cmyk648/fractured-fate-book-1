@@ -18,6 +18,82 @@ There must normally be no more than one entity marked `in-review`.
 
 | Order | ID | Type | Name | Status | Review packet | Accepted file | Candidate file | Last reviewed |
 |---:|---|---|---|---|---|---|---|---|
+| 1 | char-maya | character | Maya Rezin | queued | reviews/entities/characters/char-maya.md | bible/characters/char-maya.md | planning/candidates/characters/char-maya.md |  |
+| 2 | char-davian | character | Davian / Arrek identity | queued | reviews/entities/characters/char-davian.md | bible/characters/char-davian.md | planning/candidates/characters/char-davian.md |  |
+| 3 | char-niall | character | Niall Rezin | queued | reviews/entities/characters/char-niall.md | bible/characters/char-niall.md | planning/candidates/characters/char-niall.md |  |
+| 4 | char-kelyra | character | Kelyra | queued | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md |  |
+| 5 | char-elric | character | Elric | queued | reviews/entities/characters/char-elric.md | bible/characters/char-elric.md | planning/candidates/characters/char-elric.md |  |
+| 6 | char-harvick | character | Harvick | queued | reviews/entities/characters/char-harvick.md | bible/characters/char-harvick.md | planning/candidates/characters/char-harvick.md |  |
+| 7 | char-selwin | character | Selwin Rezin | queued | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md |  |
+| 8 | char-jalen | character | Jalen | queued | reviews/entities/characters/char-jalen.md | bible/characters/char-jalen.md | planning/candidates/characters/char-jalen.md |  |
+| 9 | org-rezin | organization | Rezin family / Rezin Clade | queued | reviews/entities/organizations/org-rezin.md | bible/organizations/org-rezin.md | planning/candidates/organizations/org-rezin.md |  |
+| 10 | org-archeon | organization | Archeon | queued | reviews/entities/organizations/org-archeon.md | bible/organizations/org-archeon.md | planning/candidates/organizations/org-archeon.md |  |
+| 11 | org-drakhal | organization | Drakhal Clade | queued | reviews/entities/organizations/org-drakhal.md | bible/organizations/org-drakhal.md | planning/candidates/organizations/org-drakhal.md |  |
+| 12 | org-high-clades | organization | High Clades | queued | reviews/entities/organizations/org-high-clades.md | bible/organizations/org-high-clades.md | planning/candidates/organizations/org-high-clades.md |  |
+| 13 | org-harbingers-syndicate | organization | Harbingers / Syndicate | queued | reviews/entities/organizations/org-harbingers-syndicate.md | bible/organizations/org-harbingers-syndicate.md | planning/candidates/organizations/org-harbingers-syndicate.md |  |
+| 14 | org-concord | organization | Twilight Concord / Concord | queued | reviews/entities/organizations/org-concord.md | bible/organizations/org-concord.md | planning/candidates/organizations/org-concord.md |  |
+| 15 | org-registry | organization | Registry | queued | reviews/entities/organizations/org-registry.md | bible/organizations/org-registry.md | planning/candidates/organizations/org-registry.md |  |
+| 16 | magic-shroud | magic | Shroud / Shrouds | queued | reviews/entities/magic/magic-shroud.md | bible/magic/magic-shroud.md | planning/candidates/magic/magic-shroud.md |  |
+| 17 | magic-ink-boons | magic | Ink / Ink Boons / Ink Pact | queued | reviews/entities/magic/magic-ink-boons.md | bible/magic/magic-ink-boons.md | planning/candidates/magic/magic-ink-boons.md |  |
+| 18 | magic-subversion | magic | Subversion | queued | reviews/entities/magic/magic-subversion.md | bible/magic/magic-subversion.md | planning/candidates/magic/magic-subversion.md |  |
+| 19 | magic-fateweaving-skein | magic | Fateweaving / Skein / fate ties | queued | reviews/entities/magic/magic-fateweaving-skein.md | bible/magic/magic-fateweaving-skein.md | planning/candidates/magic/magic-fateweaving-skein.md |  |
+| 20 | magic-zan-lattices | magic | Zan / zan lattices / zanwrights | queued | reviews/entities/magic/magic-zan-lattices.md | bible/magic/magic-zan-lattices.md | planning/candidates/magic/magic-zan-lattices.md |  |
+| 21 | magic-antithesis | magic | Antithesis magic / antithesis principle | queued | reviews/entities/magic/magic-antithesis.md | bible/magic/magic-antithesis.md | planning/candidates/magic/magic-antithesis.md |  |
+| 22 | magic-codex-memory | magic | Codex / memory journals / auratic codices | queued | reviews/entities/magic/magic-codex-memory.md | bible/magic/magic-codex-memory.md | planning/candidates/magic/magic-codex-memory.md |  |
+| 23 | loc-rezin-citadel | location | Rezin Citadel / Rezin fortress | queued | reviews/entities/locations/loc-rezin-citadel.md | bible/locations/loc-rezin-citadel.md | planning/candidates/locations/loc-rezin-citadel.md |  |
+| 24 | loc-registry | location | Registry chamber | queued | reviews/entities/locations/loc-registry.md | bible/locations/loc-registry.md | planning/candidates/locations/loc-registry.md |  |
+| 25 | loc-treasury | location | Treasury / vault chamber | queued | reviews/entities/locations/loc-treasury.md | bible/locations/loc-treasury.md | planning/candidates/locations/loc-treasury.md |  |
+| 26 | loc-spire | location | Spire | queued | reviews/entities/locations/loc-spire.md | bible/locations/loc-spire.md | planning/candidates/locations/loc-spire.md |  |
+| 27 | loc-concord-manor | location | Concord manor | queued | reviews/entities/locations/loc-concord-manor.md | bible/locations/loc-concord-manor.md | planning/candidates/locations/loc-concord-manor.md |  |
+| 28 | loc-archeon | location | Archeon | queued | reviews/entities/locations/loc-archeon.md | bible/locations/loc-archeon.md | planning/candidates/locations/loc-archeon.md |  |
+| 29 | loc-sorevin-redbridge | location | Sorevin / Redbridge area | queued | reviews/entities/locations/loc-sorevin-redbridge.md | bible/locations/loc-sorevin-redbridge.md | planning/candidates/locations/loc-sorevin-redbridge.md |  |
+| 30 | object-seraph-heart | object | Heart / Seraph Heart | queued | reviews/entities/objects/object-seraph-heart.md | bible/objects/object-seraph-heart.md | planning/candidates/objects/object-seraph-heart.md |  |
+| 31 | object-tzorrax-sphere | object | Tzorrax Sphere | queued | reviews/entities/objects/object-tzorrax-sphere.md | bible/objects/object-tzorrax-sphere.md | planning/candidates/objects/object-tzorrax-sphere.md |  |
+| 32 | object-antithesis | object | Antithesis sword / broken Antithesis | queued | reviews/entities/objects/object-antithesis.md | bible/objects/object-antithesis.md | planning/candidates/objects/object-antithesis.md |  |
+| 33 | object-paradox | object | Paradox | queued | reviews/entities/objects/object-paradox.md | bible/objects/object-paradox.md | planning/candidates/objects/object-paradox.md |  |
+| 34 | object-davian-mask | object | Davian's mask | queued | reviews/entities/objects/object-davian-mask.md | bible/objects/object-davian-mask.md | planning/candidates/objects/object-davian-mask.md |  |
+| 35 | object-alara-journal | object | Alara's journal / memory journal | queued | reviews/entities/objects/object-alara-journal.md | bible/objects/object-alara-journal.md | planning/candidates/objects/object-alara-journal.md |  |
+| 36 | object-haloes | object | Haloes | queued | reviews/entities/objects/object-haloes.md | bible/objects/object-haloes.md | planning/candidates/objects/object-haloes.md |  |
+| 37 | culture-clade-hierarchy | culture | Clade hierarchy / caste system | queued | reviews/entities/cultures/culture-clade-hierarchy.md | bible/cultures/culture-clade-hierarchy.md | planning/candidates/cultures/culture-clade-hierarchy.md |  |
+| 38 | culture-naeroth-lineages | culture | Naeroth and non-human lineages | queued | reviews/entities/cultures/culture-naeroth-lineages.md | bible/cultures/culture-naeroth-lineages.md | planning/candidates/cultures/culture-naeroth-lineages.md |  |
+| 39 | culture-magus-presentation | culture | Magus status / Presentation | queued | reviews/entities/cultures/culture-magus-presentation.md | bible/cultures/culture-magus-presentation.md | planning/candidates/cultures/culture-magus-presentation.md |  |
+| 40 | culture-creator-sheol | culture | Creator / Sheol / gods and religious language | queued | reviews/entities/cultures/culture-creator-sheol.md | bible/cultures/culture-creator-sheol.md | planning/candidates/cultures/culture-creator-sheol.md |  |
+| 41 | culture-number-system-zan-script | culture | Number system / zan script | queued | reviews/entities/cultures/culture-number-system-zan-script.md | bible/cultures/culture-number-system-zan-script.md | planning/candidates/cultures/culture-number-system-zan-script.md |  |
+| 42 | char-aldira | character | Aldira | queued | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md |  |
+| 43 | char-erynn | character | Erynn | queued | reviews/entities/characters/char-erynn.md | bible/characters/char-erynn.md | planning/candidates/characters/char-erynn.md |  |
+| 44 | char-alara | character | Alara | queued | reviews/entities/characters/char-alara.md | bible/characters/char-alara.md | planning/candidates/characters/char-alara.md |  |
+| 45 | char-serathis | character | Serathis | queued | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md |  |
+| 46 | char-vorren | character | Vorren | queued | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md |  |
+| 47 | char-caius-drakhal | character | Caius Drakhal | queued | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md |  |
+| 48 | char-alden | character | Alden | queued | reviews/entities/characters/char-alden.md | bible/characters/char-alden.md | planning/candidates/characters/char-alden.md |  |
+| 49 | char-tanelle | character | Tanelle | queued | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md |  |
+| 50 | char-marek | character | Marek | queued | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md |  |
+| 51 | char-zirene | character | Zirene | queued | reviews/entities/characters/char-zirene.md | bible/characters/char-zirene.md | planning/candidates/characters/char-zirene.md |  |
+| 52 | char-karra | character | Karra | queued | reviews/entities/characters/char-karra.md | bible/characters/char-karra.md | planning/candidates/characters/char-karra.md |  |
+| 53 | char-arrek | character | Arrek | queued | reviews/entities/characters/char-arrek.md | bible/characters/char-arrek.md | planning/candidates/characters/char-arrek.md |  |
+| 54 | char-selina | character | Selina | queued | reviews/entities/characters/char-selina.md | bible/characters/char-selina.md | planning/candidates/characters/char-selina.md |  |
+| 55 | char-kael | character | Kael | queued | reviews/entities/characters/char-kael.md | bible/characters/char-kael.md | planning/candidates/characters/char-kael.md |  |
+| 56 | group-minor-glyphwrights-contractors | character-group | Minor glyphwrights and contractors | deferred | reviews/entities/character-groups/group-minor-glyphwrights-contractors.md | bible/character-groups/group-minor-glyphwrights-contractors.md | planning/candidates/character-groups/group-minor-glyphwrights-contractors.md |  |
+| 57 | thread-maya-davian-romance | narrative-thread | Maya / Davian romance and trust arc | queued | reviews/entities/threads/thread-maya-davian-romance.md | outline/arcs/thread-maya-davian-romance.md | planning/candidates/threads/thread-maya-davian-romance.md |  |
+| 58 | thread-niall-grief-recovery | narrative-thread | Niall grief, rigidity, and recovery arc | queued | reviews/entities/threads/thread-niall-grief-recovery.md | outline/arcs/thread-niall-grief-recovery.md | planning/candidates/threads/thread-niall-grief-recovery.md |  |
+| 59 | thread-davian-identity-guilt | narrative-thread | Davian identity, guilt, and agency arc | queued | reviews/entities/threads/thread-davian-identity-guilt.md | outline/arcs/thread-davian-identity-guilt.md | planning/candidates/threads/thread-davian-identity-guilt.md |  |
+| 60 | thread-elric-reality-skein | narrative-thread | Elric, trauma scripts, and reality/Skein arc | queued | reviews/entities/threads/thread-elric-reality-skein.md | outline/arcs/thread-elric-reality-skein.md | planning/candidates/threads/thread-elric-reality-skein.md |  |
+| 61 | thread-high-clade-politics | narrative-thread | High Clade politics and Archeon conflict | queued | reviews/entities/threads/thread-high-clade-politics.md | outline/arcs/thread-high-clade-politics.md | planning/candidates/threads/thread-high-clade-politics.md |  |
+| 62 | event-maya-presentation | historical-event | Maya's Presentation | queued | reviews/entities/events/event-maya-presentation.md | bible/events/event-maya-presentation.md | planning/candidates/events/event-maya-presentation.md |  |
+| 63 | event-heart-theft | historical-event | Heart theft / Treasury breach | queued | reviews/entities/events/event-heart-theft.md | bible/events/event-heart-theft.md | planning/candidates/events/event-heart-theft.md |  |
+| 64 | event-harbinger-raid | historical-event | Harbinger / Syndicate raid | queued | reviews/entities/events/event-harbinger-raid.md | bible/events/event-harbinger-raid.md | planning/candidates/events/event-harbinger-raid.md |  |
+| 65 | event-alara-death-war-memory | historical-event | Alara's death and war memories | queued | reviews/entities/events/event-alara-death-war-memory.md | bible/events/event-alara-death-war-memory.md | planning/candidates/events/event-alara-death-war-memory.md |  |
+| 66 | terminology-magic-social-glossary | terminology | Magic and social terminology glossary | deferred | reviews/entities/terminology/terminology-magic-social-glossary.md | bible/terminology/magic-social-glossary.md | planning/candidates/terminology/magic-social-glossary.md |  |
+
+## Grouping Notes
+
+- `char-davian` should review Davian's use of the Arrek identity, but `char-arrek` remains a separate queued entity because Arrek also appears as the killed glyphwright whose life, records, and identity matter to the plot.
+- `org-harbingers-syndicate` groups the Syndicate and Harbingers until review decides whether this is a rename, alias, faction change, or distinct organization.
+- `org-registry`, `loc-registry`, and `magic-zan-lattices` are separate because the sources appear to use Registry as an institution/system, a physical chamber, and a technical magical infrastructure.
+- `magic-antithesis` and `object-antithesis` are separate because the sources appear to use Antithesis both as a concept/principle and as a physical weapon.
+- `object-alara-journal` should be reviewed alongside `magic-codex-memory`, but kept separate unless the author chooses to fold all codex artifacts into one record.
+- `group-minor-glyphwrights-contractors` currently groups names such as Jessa, Kolvar, Drosin, Nire, and similar incidental contractor/glyphwright figures until review shows one needs a dedicated file.
+- `terminology-magic-social-glossary` is deferred as a catch-all for terms that may not deserve independent entity files after the first review pass.
 
 ## Default Review Order
 

@@ -58,6 +58,17 @@ Codex must distinguish:
 
 Feedback is not canon. Planning material is not automatically canon. Speculation and alternatives must remain clearly labeled.
 
+## Authoring Rules
+
+For outlining, scene work, prose drafting, revision, and critique, Codex must follow `AUTHORING.md`.
+
+- The author remains the primary author and controls plot, character decisions, scene purpose, POV, pacing, canon, and whether prose should be drafted at all.
+- Prose generation is opt-in. Codex may draft or polish prose only when the author clearly requests it, such as "draft this," "write this section," "turn these beats into prose," "rewrite this passage," or "polish this."
+- When prose is requested from detailed beats or an existing passage, Codex must stay within the supplied material, preserve the requested POV and scene boundary, and stop where the author's material stops.
+- Requests to outline, review, analyze, organize, continue planning, or work on a chapter do not by themselves authorize prose drafting.
+- Unless the author explicitly says to edit files directly, Codex must preview new or revised prose in the conversation before applying it to manuscript files.
+- Historical writing-thread transcripts are evidence of collaboration style only. They are not authoritative canon sources and must not be imported into the bible, manuscript, outline, or decisions merely because they appeared there.
+
 ## Required Session Handoff
 
 Before ending a substantial work session, Codex must update `PROJECT_STATE.md` so another session can resume. The handoff must record:

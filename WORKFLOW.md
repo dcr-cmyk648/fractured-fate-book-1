@@ -2,6 +2,8 @@
 
 This file defines the persistent migration and entity-review process. A new Codex session must be able to continue from repository files without relying on conversation history.
 
+For outlining, scene construction, prose drafting, local revision, critique, and manuscript application work, follow `AUTHORING.md`. `AUTHORING.md` supersedes any blanket implication that Codex must never generate prose: prose is allowed only when the author clearly opts in and within the boundaries defined there.
+
 ## Startup
 
 Before doing book work, Codex must:
@@ -27,6 +29,8 @@ Before doing book work, Codex must:
 Phase 0 is the raw source import and verification step. Raw DOCX files in `imports/raw/` are archival source material and must remain untouched.
 
 Phase 1 creates durable control files and the persistent review workflow. Entity inventory and review must not begin until the required normalized sources exist and the author authorizes that phase.
+
+Authoring work is separate from migration work. The existence of `AUTHORING.md` does not authorize Codex to draft manuscript prose, alter imported prose, turn outlines into prose, start entity review, skip migration gates, or classify speculative notes as canon.
 
 ## Entity Inventory
 
