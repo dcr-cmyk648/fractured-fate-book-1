@@ -131,6 +131,7 @@ Observed entity-review summary from 2026-06-23:
 - Candidate Elric material was stored in `planning/candidates/characters/char-elric.md`.
 - Elric's approved broad reality/Skein endgame arc seed was stored in `outline/arcs/thread-elric-reality-skein.md`.
 - Follow-up consistency items for Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics were recorded in `CONSISTENCY_QUEUE.md`.
+- Block-level consistency checkpoint after five approved entities found no broken Markdown links and no immediate substantive conflict requiring author input. Pending cross-file issues were deferred to their owning entity reviews in `CONSISTENCY_QUEUE.md`.
 
 ## Phase 5: Approved Durable Records
 

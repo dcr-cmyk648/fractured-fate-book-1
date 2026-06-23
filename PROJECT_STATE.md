@@ -5,23 +5,23 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-elric` approved, finalizing
+- Current migration phase: Phase 4 entity-by-entity review; first five-entity consistency checkpoint complete
 - Current entity under review: None
 - Latest completed entity: char-elric
-- Latest relevant commit: f1fbc48 (`bible: approve Kelyra character record`)
+- Latest relevant commit: HEAD (`bible: approve Elric character record`, followed by consistency checkpoint if committed)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-elric` entity was approved and stored. Created the accepted Elric record at `bible/characters/char-elric.md`, candidate material at `planning/candidates/characters/char-elric.md`, an approved arc seed at `outline/arcs/thread-elric-reality-skein.md`, and a decision record at `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`. Level 1 consistency checks linked Elric from Davian and Niall and queued later Harbinger/Ink/Skein/Heart/codex consistency items in `CONSISTENCY_QUEUE.md`.
+The `char-elric` entity was approved, stored, validated, and committed as `c5f3611`. Created the accepted Elric record at `bible/characters/char-elric.md`, candidate material at `planning/candidates/characters/char-elric.md`, an approved arc seed at `outline/arcs/thread-elric-reality-skein.md`, and a decision record at `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`. Level 1 consistency checks linked Elric from Davian and Niall and queued later Harbinger/Ink/Skein/Heart/codex consistency items in `CONSISTENCY_QUEUE.md`. The five-entity block consistency checkpoint found no broken Markdown links and no immediate substantive conflict requiring author input.
 
 ## Current work
 
-The approved `char-elric` files are being finalized, validated, and committed.
+Preparing to begin the next queued entity, `char-harvick`.
 
 ## Next action
 
-Commit the approved Elric entity record, then begin preparing the next queued entity, `char-harvick`, unless an exception applies.
+Begin preparing the `char-harvick` review packet unless an exception applies.
 
 ## Awaiting author input
 
