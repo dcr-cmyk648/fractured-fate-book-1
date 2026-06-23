@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya` approved, awaiting authorization to begin next entity
+Status: in progress; `char-maya` and `char-davian` approved; preparing next entity
 
 Gate:
 
@@ -116,6 +116,9 @@ Observed entity-review summary from 2026-06-23:
 - Candidate Maya material was stored in `planning/candidates/characters/char-maya.md`.
 - Approved prologue revision direction was stored in `revision/prologue/maya-shroud-attack.md`.
 - Broader demi-human worldbuilding items were opened for separate review in `ENTITY_INDEX.md`.
+- `char-davian` was reviewed, approved, and stored in `bible/characters/char-davian.md`.
+- Candidate Davian material was stored in `planning/candidates/characters/char-davian.md`.
+- Davian's approved broad arc seed was stored in `outline/arcs/thread-davian-identity-guilt.md`.
 
 ## Phase 5: Approved Durable Records
 

@@ -5,11 +5,11 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; one entity approved, streamlined workflow approved
+- Current migration phase: Phase 4 entity-by-entity review; `char-davian` approved, finalizing
 - Current entity under review: None
-- Latest completed entity: char-maya
-- Latest relevant commit: HEAD (`bible: approve Maya character record`)
-- Working tree expected to be clean: yes
+- Latest completed entity: char-davian
+- Latest relevant commit: `8fa0e7a` (`chore: streamline entity review workflow`)
+- Working tree expected to be clean: no
 
 ## Last completed work
 
@@ -17,11 +17,11 @@ The `char-maya` entity was approved and stored. Created the accepted Maya record
 
 ## Current work
 
-The permanent workflow instructions were updated to streamline entity approvals while retaining meaningful author review. The next queued entity remains `char-davian`.
+The `char-davian` entity was approved and stored. Created the accepted Davian record at `bible/characters/char-davian.md`, candidate material at `planning/candidates/characters/char-davian.md`, an approved arc seed at `outline/arcs/thread-davian-identity-guilt.md`, and a decision record at `decisions/0004-davian-heart-theft-agency-and-arc.md`.
 
 ## Next action
 
-Begin the next queued entity, `char-davian`, under the streamlined workflow unless an exception applies.
+Commit the approved Davian entity record, then begin preparing the next queued entity, `char-niall`, unless an exception applies.
 
 ## Awaiting author input
 
@@ -54,5 +54,8 @@ Begin the next queued entity, `char-davian`, under the streamlined workflow unle
 - decisions/0001-maya-naeroth-heritage-and-appearance.md
 - decisions/0002-naeroth-demi-human-worldbuilding.md
 - decisions/0003-maya-shroud-and-prologue-revision-direction.md
-- AGENTS.md
-- WORKFLOW.md
+- reviews/entities/characters/char-davian.md
+- bible/characters/char-davian.md
+- planning/candidates/characters/char-davian.md
+- outline/arcs/thread-davian-identity-guilt.md
+- decisions/0004-davian-heart-theft-agency-and-arc.md
