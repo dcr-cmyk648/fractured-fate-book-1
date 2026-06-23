@@ -13,14 +13,15 @@ Before doing book work, Codex must:
 3. Read `PROJECT_STATE.md`.
 4. Read `WORKFLOW.md`.
 5. Read `ENTITY_INDEX.md`.
-6. Read `MIGRATION_STATUS.md` if migration is not complete.
-7. Read the files listed under "Files to read for current task" in `PROJECT_STATE.md`.
-8. Run `pwd`.
-9. Run `git status --short --branch`.
-10. Compare the actual Git state with `PROJECT_STATE.md`.
-11. Report any discrepancy before modifying files.
-12. State the current phase, current entity, and the one task it intends to perform.
-13. Do not broaden the task without author permission.
+6. Read `CONSISTENCY_QUEUE.md` if it exists.
+7. Read `MIGRATION_STATUS.md` if migration is not complete.
+8. Read the files listed under "Files to read for current task" in `PROJECT_STATE.md`.
+9. Run `pwd`.
+10. Run `git status --short --branch`.
+11. Compare the actual Git state with `PROJECT_STATE.md`.
+12. Report any discrepancy before modifying files.
+13. State the current phase, current entity, and the one task it intends to perform.
+14. Do not broaden the task without author permission.
 
 ## Migration Phases
 
@@ -81,7 +82,7 @@ Default review order:
 
 The author should review substantive content decisions, not routine repository mechanics. Use one meaningful author checkpoint per entity or other review unit.
 
-Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
+Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
 Do not push, merge, tag, delete source or archival material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
 
@@ -308,6 +309,8 @@ Use this division:
 - `feedback/`: reader feedback
 - `reviews/entities/`: review evidence and audit trail
 
+During this same finalization pass, run the Level 1 lightweight consistency check described below and include straightforward dependent updates in the same commit.
+
 An accepted entity file should begin with metadata such as:
 
 ```yaml
@@ -371,14 +374,17 @@ After storing approved information:
 
 1. Set the entity status to `approved` in `ENTITY_INDEX.md`.
 2. Add links to the review packet, accepted file, candidate file if one exists, and relevant decision records.
-3. Update `PROJECT_STATE.md`.
-4. Identify the next queued entity.
-5. Run relevant validation.
-6. Inspect the staged file list and stop if any unexpected file is staged.
-7. Commit the approved entity locally using an appropriate commit message.
-8. Leave the working tree clean.
-9. Begin preparing the next queued entity unless an exception requires stopping.
-10. Stop only when the next entity review is ready for author review.
+3. Run Level 1 lightweight consistency checks.
+4. Automatically update straightforward dependent summaries, links, metadata, and references.
+5. Record non-straightforward dependent issues in `CONSISTENCY_QUEUE.md` and mark relevant entities `needs-revisit` when appropriate.
+6. Update `PROJECT_STATE.md`.
+7. Identify the next queued entity or whether a block-level consistency review is due.
+8. Run relevant validation.
+9. Inspect the staged file list and stop if any unexpected file is staged.
+10. Commit the approved entity locally using an appropriate commit message.
+11. Leave the working tree clean.
+12. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
+13. Stop only when the next entity review or block-level consistency checkpoint is ready for author review.
 
 Prefer one approved entity per commit, unless the author explicitly authorizes a small related batch.
 
@@ -397,6 +403,96 @@ After finalizing an entity, report concisely:
 - which entity is now being reviewed
 
 Do not narrate every Git command or every routine control-file update unless something unexpected occurs.
+
+## Cross-File Consistency
+
+Use a hybrid consistency model. The goal is to keep accepted files coherent without adding routine author approval burden.
+
+### Level 1: Lightweight Check After Each Approved Change
+
+During automatic finalization for an approved entity or other approved review unit:
+
+1. Identify the primary owner file for each changed fact.
+2. Search for direct dependent accepted files and links.
+3. Automatically update straightforward dependent summaries, links, metadata, and references in the same commit.
+4. Do not ask for separate author approval for routine dependent updates.
+5. Do not modify manuscript prose through this process.
+6. Do not rewrite historical review packets, old decisions, archival imports, or feedback.
+
+Straightforward dependent updates include:
+
+- fixing or adding links to newly created accepted files, candidate files, decisions, or arc files
+- updating metadata fields such as `last_reviewed`, `related_files`, `review_packet`, or `candidate_file`
+- updating concise summaries that merely reflect an already-approved fact without changing meaning
+- correcting stale entity IDs, file paths, or indexes
+
+When a dependent change is not straightforward:
+
+- do not guess
+- record it in `CONSISTENCY_QUEUE.md`
+- mark the relevant entity `needs-revisit` in `ENTITY_INDEX.md` when appropriate
+- continue the normal workflow unless the unresolved conflict makes the current approved record unsafe
+
+`CONSISTENCY_QUEUE.md` is a system-managed root file. The author should not normally need to edit it. Use this compact table:
+
+```markdown
+| ID | Triggering change | Affected entity/file | Issue | Severity | Status |
+|---|---|---|---|---|---|
+```
+
+Allowed severity:
+
+- `link-only`
+- `minor-summary`
+- `possible-conflict`
+- `direct-contradiction`
+- `broad-retcon`
+
+Allowed status:
+
+- `pending-block-review`
+- `resolved-automatically`
+- `needs-author-decision`
+- `deferred`
+- `resolved`
+
+Do not fill the queue with every relationship. Add only items that may require later checking or judgment.
+
+### Block-Level Consistency Review
+
+Run a fuller consistency review automatically at the end of a logical block.
+
+A block normally ends when:
+
+- all principal characters are reviewed
+- a major entity category is completed
+- work moves from one entity type to another
+- five approved entities have accumulated since the last review
+- the author says "finish this block," "check consistency," or equivalent
+
+Before beginning the next block:
+
+1. Read all accepted files created or changed in the completed block.
+2. Read their direct owner and dependent files.
+3. Review pending items in `CONSISTENCY_QUEUE.md`.
+4. Check for contradictory accepted facts, duplicated mechanics with divergent wording, ability/magic-rule inconsistencies, organization membership or leadership conflicts, relationship inconsistencies, stale summaries, broken links or entity IDs, and decisions not reflected in current accepted files.
+5. Automatically fix purely mechanical or unambiguous issues.
+6. Present the author only with substantive unresolved conflicts or creative choices.
+
+Use one concise author checkpoint for the entire block.
+
+After the author responds:
+
+- apply the approved resolutions
+- update dependent files
+- update `CONSISTENCY_QUEUE.md` and entity statuses
+- validate
+- commit locally
+- proceed into the next block automatically
+
+Do not stop merely to ask permission to run dependency searches, update links or metadata, update an unambiguous dependent summary, add an item to `CONSISTENCY_QUEUE.md`, mark an entity `needs-revisit`, run the block review, commit routine approved consistency fixes, or begin the next block after the review is resolved.
+
+Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
 ### Exceptions Requiring a Separate Stop
 
@@ -421,6 +517,7 @@ Stop and request explicit author approval before:
 - Codex must reload changed files before further work.
 - Codex must never restore removed language merely because it appeared in an earlier generated draft.
 - Codex must show manuscript diffs before any authorized manuscript application.
+- Before consistency work, reload affected files from disk, inspect Git changes, preserve author edits, and never use consistency propagation as authorization to alter manuscript prose.
 
 ## Desired Interaction Rhythm
 

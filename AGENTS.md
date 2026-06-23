@@ -4,7 +4,7 @@ Permanent operating instructions for Codex in this repository.
 
 ## Durable Memory
 
-The repository files, not the current Codex conversation, are the durable memory of the project. Anything needed to resume work must be stored in repository files and linked from `README.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, `WORKFLOW.md`, `MIGRATION_STATUS.md`, or `decisions/index.md`.
+The repository files, not the current Codex conversation, are the durable memory of the project. Anything needed to resume work must be stored in repository files and linked from `README.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, `WORKFLOW.md`, `CONSISTENCY_QUEUE.md`, `MIGRATION_STATUS.md`, or `decisions/index.md`.
 
 Never rely on statements such as "as discussed earlier" unless the discussion was concretely recorded in the repository.
 
@@ -17,14 +17,15 @@ Before doing book work, Codex must:
 3. Read `PROJECT_STATE.md`.
 4. Read `WORKFLOW.md`.
 5. Read `ENTITY_INDEX.md`.
-6. Read `MIGRATION_STATUS.md` if migration is not complete.
-7. Read the files listed under "Files to read for current task" in `PROJECT_STATE.md`.
-8. Run `pwd`.
-9. Run `git status --short --branch`.
-10. Compare the actual Git state with `PROJECT_STATE.md`.
-11. Report any discrepancy before modifying files.
-12. State the current phase, current entity, and the one task it intends to perform.
-13. Do not broaden the task without author permission.
+6. Read `CONSISTENCY_QUEUE.md` if it exists.
+7. Read `MIGRATION_STATUS.md` if migration is not complete.
+8. Read the files listed under "Files to read for current task" in `PROJECT_STATE.md`.
+9. Run `pwd`.
+10. Run `git status --short --branch`.
+11. Compare the actual Git state with `PROJECT_STATE.md`.
+12. Report any discrepancy before modifying files.
+13. State the current phase, current entity, and the one task it intends to perform.
+14. Do not broaden the task without author permission.
 
 ## Migration Safeguards
 
@@ -50,6 +51,12 @@ Before doing book work, Codex must:
 - After an approved entity has been committed, automatically begin the next queued entity unless the author requests a different entity, the queue is unclear, the working tree contains unexpected changes, or a blocker requires author input.
 - Do not ask for separate authorization for routine repository mechanics such as updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, validation, or the local commit associated with approved work.
 - Do not push, merge, tag, delete source material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
+- During automatic finalization after substantive approval, run lightweight cross-file consistency checks as described in `WORKFLOW.md`.
+- Automatically update straightforward dependent summaries, links, metadata, and references in the same commit when they do not change the meaning of approved content.
+- Do not modify manuscript prose, archival imports, feedback, historical review packets, or old decisions as part of consistency propagation.
+- Record non-straightforward dependent issues in `CONSISTENCY_QUEUE.md` and mark affected entities `needs-revisit` in `ENTITY_INDEX.md` when appropriate.
+- Do not add routine author checkpoints for dependency searches, unambiguous dependent updates, queue entries, `needs-revisit` marking, validation, local commits, or block-level consistency review.
+- Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
 Codex must distinguish:
 
@@ -61,6 +68,17 @@ Codex must distinguish:
 - reader feedback
 
 Feedback is not canon. Planning material is not automatically canon. Speculation and alternatives must remain clearly labeled.
+
+## Consistency Rules
+
+Use a hybrid consistency model:
+
+- Level 1: after each approved change, identify the primary owner file for each changed fact, search direct dependent accepted files and links, and update straightforward dependent summaries, links, metadata, and references in the same commit.
+- Level 2: at the end of each logical block, run a fuller consistency review before beginning the next block.
+- Logical blocks normally end when all principal characters are reviewed, a major entity category is completed, work moves from one entity type to another, five approved entities have accumulated since the last review, or the author asks to finish/check the block.
+- Maintain `CONSISTENCY_QUEUE.md` as a compact system-managed queue for issues that may require later checking or judgment.
+- Do not fill `CONSISTENCY_QUEUE.md` with every relationship; add only items that may require consistency review, conflict resolution, or dependent-file updates.
+- Manual-edit protection applies to all consistency work: reload affected files from disk, inspect Git changes, preserve author edits, and never restore removed text from earlier generated drafts.
 
 ## Authoring Rules
 
