@@ -18,7 +18,7 @@ There must normally be no more than one entity marked `in-review`.
 
 | Order | ID | Type | Name | Status | Review packet | Accepted file | Candidate file | Last reviewed |
 |---:|---|---|---|---|---|---|---|---|
-| 1 | char-maya | character | Maya Rezin | queued | reviews/entities/characters/char-maya.md | bible/characters/char-maya.md | planning/candidates/characters/char-maya.md |  |
+| 1 | char-maya | character | Maya Rezin | approved | reviews/entities/characters/char-maya.md | bible/characters/char-maya.md | planning/candidates/characters/char-maya.md | 2026-06-23 |
 | 2 | char-davian | character | Davian / Arrek identity | queued | reviews/entities/characters/char-davian.md | bible/characters/char-davian.md | planning/candidates/characters/char-davian.md |  |
 | 3 | char-niall | character | Niall Rezin | queued | reviews/entities/characters/char-niall.md | bible/characters/char-niall.md | planning/candidates/characters/char-niall.md |  |
 | 4 | char-kelyra | character | Kelyra | queued | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md |  |
@@ -84,6 +84,9 @@ There must normally be no more than one entity marked `in-review`.
 | 64 | event-harbinger-raid | historical-event | Harbinger / Syndicate raid | queued | reviews/entities/events/event-harbinger-raid.md | bible/events/event-harbinger-raid.md | planning/candidates/events/event-harbinger-raid.md |  |
 | 65 | event-alara-death-war-memory | historical-event | Alara's death and war memories | queued | reviews/entities/events/event-alara-death-war-memory.md | bible/events/event-alara-death-war-memory.md | planning/candidates/events/event-alara-death-war-memory.md |  |
 | 66 | terminology-magic-social-glossary | terminology | Magic and social terminology glossary | deferred | reviews/entities/terminology/terminology-magic-social-glossary.md | bible/terminology/magic-social-glossary.md | planning/candidates/terminology/magic-social-glossary.md |  |
+| 67 | culture-demi-human-peoples | culture | Demi-human peoples, origins, and social roles | queued | reviews/entities/cultures/culture-demi-human-peoples.md | bible/cultures/culture-demi-human-peoples.md | planning/candidates/cultures/culture-demi-human-peoples.md |  |
+| 68 | magic-convergence-heat-transfer | magic | Convergence heat transfer | queued | reviews/entities/magic/magic-convergence-heat-transfer.md | bible/magic/magic-convergence-heat-transfer.md | planning/candidates/magic/magic-convergence-heat-transfer.md |  |
+| 69 | thread-demi-human-mercenary-forces | narrative-thread | Demi-human mercenary forces and death payments | queued | reviews/entities/threads/thread-demi-human-mercenary-forces.md | outline/arcs/thread-demi-human-mercenary-forces.md | planning/candidates/threads/thread-demi-human-mercenary-forces.md |  |
 
 ## Grouping Notes
 
@@ -94,6 +97,7 @@ There must normally be no more than one entity marked `in-review`.
 - `object-alara-journal` should be reviewed alongside `magic-codex-memory`, but kept separate unless the author chooses to fold all codex artifacts into one record.
 - `group-minor-glyphwrights-contractors` currently groups names such as Jessa, Kolvar, Drosin, Nire, and similar incidental contractor/glyphwright figures until review shows one needs a dedicated file.
 - `terminology-magic-social-glossary` is deferred as a catch-all for terms that may not deserve independent entity files after the first review pass.
+- `culture-demi-human-peoples`, `magic-convergence-heat-transfer`, and `thread-demi-human-mercenary-forces` were opened from the Maya review so broader demi-human worldbuilding, Naeroth exceptions, and mercenary/death-payment material can be reviewed separately from Maya's accepted character record.
 
 ## Default Review Order
 

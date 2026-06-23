@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: not started
+Status: in progress; `char-maya` approved, awaiting authorization to begin next entity
 
 Gate:
 
@@ -109,6 +109,13 @@ Gate:
 - Create source-backed review packets.
 - Stop for author review.
 - Do not write accepted bible files until explicit entity approval.
+
+Observed entity-review summary from 2026-06-23:
+
+- `char-maya` was reviewed, approved, and stored in `bible/characters/char-maya.md`.
+- Candidate Maya material was stored in `planning/candidates/characters/char-maya.md`.
+- Approved prologue revision direction was stored in `revision/prologue/maya-shroud-attack.md`.
+- Broader demi-human worldbuilding items were opened for separate review in `ENTITY_INDEX.md`.
 
 ## Phase 5: Approved Durable Records
 
