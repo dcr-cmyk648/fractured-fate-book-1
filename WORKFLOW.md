@@ -79,9 +79,20 @@ Default review order:
 
 ## One-Entity-at-a-Time Review Loop
 
+The author should review substantive content decisions, not routine repository mechanics. Use one meaningful author checkpoint per entity or other review unit.
+
+Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
+
+Do not push, merge, tag, delete source or archival material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
+
 ### Step 1: Begin One Entity
 
-Select only the next approved entity from `ENTITY_INDEX.md`.
+After the prior entity has been approved and committed, automatically select the next queued entity from `ENTITY_INDEX.md` unless:
+
+- the author explicitly requests a different entity
+- the queue is unclear
+- the working tree contains unexpected changes
+- a blocker requires author input
 
 Update:
 
@@ -90,6 +101,8 @@ Update:
 - `PROJECT_STATE.md` with the source files that must be examined
 
 Do not begin a second entity.
+
+Do not ask the author for permission merely to begin the next queued entity.
 
 ### Step 2: Gather Source-Backed Material
 
@@ -238,15 +251,17 @@ Show the author a useful summary of the review packet in the Codex conversation.
 
 Present:
 
-- proposed accepted facts
+- proposed accepted information
 - important contradictions
-- speculative ideas worth preserving
-- targeted questions
-- proposed destinations
+- speculative or deferred material worth preserving
+- concrete questions requiring author judgment
+- proposed file destinations
 
 Then stop.
 
 Set the entity status to `awaiting-author`. Do not write proposed facts into accepted bible files yet. Do not move to another entity.
+
+Avoid presenting routine provenance detail in the conversation when it is already preserved in the review packet.
 
 ### Step 5: Incorporate Author Feedback
 
@@ -256,14 +271,20 @@ When the author provides feedback:
 2. Update the review packet.
 3. Preserve rejected alternatives in planning/candidates when they may remain useful, unless the author explicitly instructs deletion.
 4. Create decision records for important choices.
-5. Show any remaining ambiguity.
-6. Stop again if further author judgment is needed.
+5. Show any remaining substantive ambiguity.
+6. Stop again only if further author judgment is needed.
 
-Continue until the author explicitly approves the entity with `APPROVE ENTITY <entity-id>`.
+Do not require an exact approval phrase. Treat clear statements such as "looks good," "approved," "go ahead," "that works," "commit it," "continue," "yes, use that," or "add that to the file" as approval when all substantive questions have been resolved.
+
+When the author gives corrections and then says something equivalent to "looks good," treat that as approval of the corrected entity. Do not force the author to repeat approval using a special formula.
+
+Do not ask the author to approve decision-record wording separately unless the wording changes the substance of the decision.
+
+If genuine substantive ambiguity remains, ask only about that ambiguity.
 
 ### Step 6: Store Approved Information Concretely
 
-After approval, write accepted information into the appropriate durable files.
+After substantive approval, automatically write accepted information into the appropriate durable files.
 
 Examples:
 
@@ -351,10 +372,13 @@ After storing approved information:
 1. Set the entity status to `approved` in `ENTITY_INDEX.md`.
 2. Add links to the review packet, accepted file, candidate file if one exists, and relevant decision records.
 3. Update `PROJECT_STATE.md`.
-4. Identify the next queued entity, but do not begin it.
+4. Identify the next queued entity.
 5. Run relevant validation.
-6. Show changed files, concise diff summary, unresolved matters, `git status --short`, and proposed commit message.
-7. Stop before committing.
+6. Inspect the staged file list and stop if any unexpected file is staged.
+7. Commit the approved entity locally using an appropriate commit message.
+8. Leave the working tree clean.
+9. Begin preparing the next queued entity unless an exception requires stopping.
+10. Stop only when the next entity review is ready for author review.
 
 Prefer one approved entity per commit, unless the author explicitly authorizes a small related batch.
 
@@ -364,7 +388,49 @@ Suggested commit messages:
 - `bible: approve Rezin organization record`
 - `bible: approve Shroud magic record`
 
-After the author authorizes the commit, commit it and update `PROJECT_STATE.md` with the commit hash if appropriate.
+After finalizing an entity, report concisely:
+
+- entity approved and committed
+- commit hash
+- important files created or changed
+- any deferred issue
+- which entity is now being reviewed
+
+Do not narrate every Git command or every routine control-file update unless something unexpected occurs.
+
+### Exceptions Requiring a Separate Stop
+
+Stop and request explicit author approval before:
+
+- modifying manuscript prose
+- replacing or deleting manually edited prose
+- deleting source or archival material
+- resolving a major contradiction the author has not addressed
+- making a broad retcon across multiple approved entities
+- committing changes outside the approved review scope
+- pushing to GitHub
+- merging branches
+- tagging a release or milestone
+- rewriting Git history
+- installing dependencies
+- performing destructive operations
+
+## Manual-Edit Protection
+
+- Files on disk are authoritative after the author manually edits them.
+- Codex must reload changed files before further work.
+- Codex must never restore removed language merely because it appeared in an earlier generated draft.
+- Codex must show manuscript diffs before any authorized manuscript application.
+
+## Desired Interaction Rhythm
+
+The normal rhythm is:
+
+1. Codex presents an entity review.
+2. The author answers questions, corrects details, or approves.
+3. Codex applies approved content, validates, commits, and presents the next entity review.
+
+Extra turns should occur only when there is a genuine unresolved creative or canonical decision.
 
 ## Handoff
 

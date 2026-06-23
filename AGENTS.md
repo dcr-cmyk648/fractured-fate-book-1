@@ -32,7 +32,7 @@ Before doing book work, Codex must:
 - Do not convert DOCX files to Markdown until the normalization phase is explicitly authorized.
 - Do not edit, rewrite, reorganize, split, or normalize document content during raw import.
 - Do not install packages unless explicitly authorized.
-- Do not commit anything until explicitly authorized.
+- Do not commit unless the author has explicitly authorized the work or the streamlined entity workflow in `WORKFLOW.md` authorizes an automatic local commit after substantive approval.
 - Treat files in `imports/raw/` as untouched archival source material.
 - Keep Phase 0 and all phase gates in `MIGRATION_STATUS.md` intact.
 - Do not advance beyond the currently authorized migration phase.
@@ -43,9 +43,13 @@ Before doing book work, Codex must:
 - There must normally be no more than one entity marked `in-review` in `ENTITY_INDEX.md`.
 - Do not start reviewing entities until the normalized source documents exist and the author authorizes the inventory/review phase.
 - Do not create accepted canon during inventory.
-- Do not write proposed facts into accepted bible files until the author approves the entity with `APPROVE ENTITY <entity-id>`.
-- Do not interpret casual agreement as final entity approval when meaningful questions remain.
-- Do not begin the next entity until the author explicitly says `START NEXT ENTITY` or names a specific entity.
+- Use one meaningful author checkpoint per entity or other review unit. The author should review substantive content decisions, not routine repository mechanics.
+- Do not require exact approval phrases. Treat clear statements such as "looks good," "approved," "go ahead," "that works," "commit it," "continue," "yes, use that," or "add that to the file" as approval when substantive questions have been resolved.
+- Do not interpret casual agreement as final entity approval when meaningful questions remain. Ask only about the remaining substantive ambiguity.
+- After substantive approval, automatically apply the already-approved entity content, create the previously proposed durable files, update indexes and project-state files, run validation, inspect the staged file list, commit the approved entity locally, and begin preparing the next queued entity.
+- After an approved entity has been committed, automatically begin the next queued entity unless the author requests a different entity, the queue is unclear, the working tree contains unexpected changes, or a blocker requires author input.
+- Do not ask for separate authorization for routine repository mechanics such as updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, validation, or the local commit associated with approved work.
+- Do not push, merge, tag, delete source material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
 
 Codex must distinguish:
 
@@ -91,3 +95,10 @@ If work is interrupted during an entity review:
 - preserve the partial review packet
 - record the resume point in `PROJECT_STATE.md`
 - do not mark the entity approved
+
+## Manual-Edit Protection
+
+- Files on disk are authoritative after the author manually edits them.
+- Codex must reload changed files before further work.
+- Codex must never restore removed language merely because it appeared in an earlier generated draft.
+- Codex must show manuscript diffs before any authorized manuscript application.

@@ -5,7 +5,7 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; one entity approved, awaiting authorization to start next entity
+- Current migration phase: Phase 4 entity-by-entity review; one entity approved, streamlined workflow approved
 - Current entity under review: None
 - Latest completed entity: char-maya
 - Latest relevant commit: HEAD (`bible: approve Maya character record`)
@@ -17,11 +17,11 @@ The `char-maya` entity was approved and stored. Created the accepted Maya record
 
 ## Current work
 
-None. Waiting for author authorization to begin the next entity.
+The permanent workflow instructions were updated to streamline entity approvals while retaining meaningful author review. The next queued entity remains `char-davian`.
 
 ## Next action
 
-Wait for the author to say `START NEXT ENTITY` or name a specific entity. The next queued entity is `char-davian` unless the author reorders the queue.
+Begin the next queued entity, `char-davian`, under the streamlined workflow unless an exception applies.
 
 ## Awaiting author input
 
@@ -54,3 +54,5 @@ Wait for the author to say `START NEXT ENTITY` or name a specific entity. The ne
 - decisions/0001-maya-naeroth-heritage-and-appearance.md
 - decisions/0002-naeroth-demi-human-worldbuilding.md
 - decisions/0003-maya-shroud-and-prologue-revision-direction.md
+- AGENTS.md
+- WORKFLOW.md
