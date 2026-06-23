@@ -5,23 +5,23 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-niall` approved, finalizing
+- Current migration phase: Phase 4 entity-by-entity review; `char-kelyra` approved, finalizing
 - Current entity under review: None
-- Latest completed entity: char-niall
-- Latest relevant commit: HEAD (`bible: approve Niall character record`)
+- Latest completed entity: char-kelyra
+- Latest relevant commit: HEAD (`bible: approve Kelyra character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-niall` entity was approved and stored. Created the accepted Niall record at `bible/characters/char-niall.md`, candidate material at `planning/candidates/characters/char-niall.md`, an approved arc seed at `outline/arcs/thread-niall-grief-recovery.md`, and a decision record at `decisions/0005-niall-grief-arc-and-lightning-conduits.md`. Level 1 consistency checks added direct accepted-file links and queued later magic/mercenary consistency items in `CONSISTENCY_QUEUE.md`.
+The `char-kelyra` entity was approved and stored. Created the accepted Kelyra record at `bible/characters/char-kelyra.md`, candidate material at `planning/candidates/characters/char-kelyra.md`, an approved arc seed at `outline/arcs/thread-kelyra-archeon-recovery.md`, and a decision record at `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`. Level 1 consistency checks linked Kelyra from Davian and queued later spelling, magic, and Lethira consistency items in `CONSISTENCY_QUEUE.md`.
 
 ## Current work
 
-The approved `char-niall` files are being finalized, validated, and committed.
+The approved `char-kelyra` files are being finalized, validated, and committed.
 
 ## Next action
 
-Commit the approved Niall entity record, then begin preparing the next queued entity, `char-kelyra`, unless an exception applies.
+Commit the approved Kelyra entity record, then begin preparing the next queued entity, `char-elric`, unless an exception applies.
 
 ## Awaiting author input
 
@@ -30,9 +30,10 @@ Commit the approved Niall entity record, then begin preparing the next queued en
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by five commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by six commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
+- Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -67,3 +68,8 @@ Commit the approved Niall entity record, then begin preparing the next queued en
 - planning/candidates/characters/char-niall.md
 - outline/arcs/thread-niall-grief-recovery.md
 - decisions/0005-niall-grief-arc-and-lightning-conduits.md
+- reviews/entities/characters/char-kelyra.md
+- bible/characters/char-kelyra.md
+- planning/candidates/characters/char-kelyra.md
+- outline/arcs/thread-kelyra-archeon-recovery.md
+- decisions/0006-kelyra-archeon-lineage-shroud-and-family.md

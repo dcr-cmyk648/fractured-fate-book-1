@@ -65,6 +65,8 @@ Kelyra:
 
 Kelyra is Davian's mother. She is central to his family loyalty, Archeon lineage, and the Heart-theft plot. Her full relationship to Davian should be developed during `char-kelyra`.
 
+Accepted Kelyra record: [Kelyra](char-kelyra.md)
+
 Maya:
 
 Davian and Maya's relationship involves attraction, class resentment, misinterpretation, betrayal, guilt, and shared values around protecting innocents.
@@ -94,6 +96,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Candidate material: [char-davian](../../planning/candidates/characters/char-davian.md)
 - Review packet: [char-davian](../../reviews/entities/characters/char-davian.md)
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
+- Related character: [Kelyra](char-kelyra.md)
 
 ## Canonical Uncertainties
 

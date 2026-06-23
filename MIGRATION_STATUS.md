@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, and `char-niall` approved; preparing next entity
+Status: in progress; `char-maya`, `char-davian`, `char-niall`, and `char-kelyra` approved; preparing next entity
 
 Gate:
 
@@ -123,6 +123,10 @@ Observed entity-review summary from 2026-06-23:
 - Candidate Niall material was stored in `planning/candidates/characters/char-niall.md`.
 - Niall's approved broad grief/recovery arc seed was stored in `outline/arcs/thread-niall-grief-recovery.md`.
 - Follow-up consistency items for Niall's silver conduits and mercenary moral framing were recorded in `CONSISTENCY_QUEUE.md`.
+- `char-kelyra` was reviewed, approved, and stored in `bible/characters/char-kelyra.md`.
+- Candidate Kelyra material was stored in `planning/candidates/characters/char-kelyra.md`.
+- Kelyra's approved broad Archeon trauma/family-protection arc seed was stored in `outline/arcs/thread-kelyra-archeon-recovery.md`.
+- Follow-up consistency items for Kelyra's magic terminology, trauma-blocked Shroud, Lirien spelling, and Lethira parentage were recorded in `CONSISTENCY_QUEUE.md`.
 
 ## Phase 5: Approved Durable Records
 

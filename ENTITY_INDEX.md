@@ -21,7 +21,7 @@ There must normally be no more than one entity marked `in-review`.
 | 1 | char-maya | character | Maya Rezin | approved | reviews/entities/characters/char-maya.md | bible/characters/char-maya.md | planning/candidates/characters/char-maya.md | 2026-06-23 |
 | 2 | char-davian | character | Davian / Arrek identity | approved | reviews/entities/characters/char-davian.md | bible/characters/char-davian.md | planning/candidates/characters/char-davian.md | 2026-06-23 |
 | 3 | char-niall | character | Niall Rezin | approved | reviews/entities/characters/char-niall.md | bible/characters/char-niall.md | planning/candidates/characters/char-niall.md | 2026-06-23 |
-| 4 | char-kelyra | character | Kelyra | queued | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md |  |
+| 4 | char-kelyra | character | Kelyra | approved | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md | 2026-06-23 |
 | 5 | char-elric | character | Elric | queued | reviews/entities/characters/char-elric.md | bible/characters/char-elric.md | planning/candidates/characters/char-elric.md |  |
 | 6 | char-harvick | character | Harvick | queued | reviews/entities/characters/char-harvick.md | bible/characters/char-harvick.md | planning/candidates/characters/char-harvick.md |  |
 | 7 | char-selwin | character | Selwin Rezin | queued | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md |  |
@@ -87,6 +87,9 @@ There must normally be no more than one entity marked `in-review`.
 | 67 | culture-demi-human-peoples | culture | Demi-human peoples, origins, and social roles | queued | reviews/entities/cultures/culture-demi-human-peoples.md | bible/cultures/culture-demi-human-peoples.md | planning/candidates/cultures/culture-demi-human-peoples.md |  |
 | 68 | magic-convergence-heat-transfer | magic | Convergence heat transfer | queued | reviews/entities/magic/magic-convergence-heat-transfer.md | bible/magic/magic-convergence-heat-transfer.md | planning/candidates/magic/magic-convergence-heat-transfer.md |  |
 | 69 | thread-demi-human-mercenary-forces | narrative-thread | Demi-human mercenary forces and death payments | queued | reviews/entities/threads/thread-demi-human-mercenary-forces.md | outline/arcs/thread-demi-human-mercenary-forces.md | planning/candidates/threads/thread-demi-human-mercenary-forces.md |  |
+| 70 | thread-kelyra-archeon-recovery | narrative-thread | Kelyra Archeon trauma and family-protection arc | needs-revisit | reviews/entities/threads/thread-kelyra-archeon-recovery.md | outline/arcs/thread-kelyra-archeon-recovery.md | planning/candidates/threads/thread-kelyra-archeon-recovery.md | 2026-06-23 |
+| 71 | char-lirien | character | Lirien | queued | reviews/entities/characters/char-lirien.md | bible/characters/char-lirien.md | planning/candidates/characters/char-lirien.md |  |
+| 72 | char-lethira | character | Lethira | queued | reviews/entities/characters/char-lethira.md | bible/characters/char-lethira.md | planning/candidates/characters/char-lethira.md |  |
 
 ## Grouping Notes
 

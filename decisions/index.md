@@ -11,3 +11,4 @@ Do not use this file as a dump for unresolved questions.
 | Maya's Shroud and Prologue Revision Direction | 2026-06-23 | accepted; stored in approved `char-maya` record and prologue revision planning | [0003-maya-shroud-and-prologue-revision-direction.md](0003-maya-shroud-and-prologue-revision-direction.md) |
 | Davian Heart Theft Agency and Arc | 2026-06-23 | accepted; stored in approved `char-davian` record | [0004-davian-heart-theft-agency-and-arc.md](0004-davian-heart-theft-agency-and-arc.md) |
 | Niall Grief Arc and Lightning Conduits | 2026-06-23 | accepted; stored in approved `char-niall` record | [0005-niall-grief-arc-and-lightning-conduits.md](0005-niall-grief-arc-and-lightning-conduits.md) |
+| Kelyra Archeon Lineage, Shroud, and Family | 2026-06-23 | accepted; stored in approved `char-kelyra` record | [0006-kelyra-archeon-lineage-shroud-and-family.md](0006-kelyra-archeon-lineage-shroud-and-family.md) |

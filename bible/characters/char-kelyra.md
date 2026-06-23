@@ -1,0 +1,104 @@
+---
+id: char-kelyra
+entity_type: character
+display_name: Kelyra
+status: approved
+last_reviewed: 2026-06-23
+review_packet: reviews/entities/characters/char-kelyra.md
+candidate_file: planning/candidates/characters/char-kelyra.md
+arc_file: outline/arcs/thread-kelyra-archeon-recovery.md
+---
+
+# Kelyra
+
+## Identity
+
+Kelyra is Davian's mother, Jalen's partner, and a central Concord/underclass figure tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, and the Heart-theft aftermath.
+
+She is directly descended from Archeon breeding programs. The exact number of generations between Kelyra and Serathis remains unclear.
+
+## Personality and Psychological Patterns
+
+Kelyra is practical, dry, sharp, and strategically fast. When Jalen and Davian tell her the Syndicate/Harbingers have escalated the mission into stealing the Heart, she is shocked, then immediately pivots to planning because there is no time to waste.
+
+She is family-protective but also shaped by revenge, Archeon trauma, and the habit of acting against threats by running, hiding, lying, or striking back. Her intended arc parallels Davian's: she must move from acting negatively by running away from Archeon toward acting positively to protect her family and choose what she values.
+
+Kelyra understands Davian's pattern of self-sacrifice, glory-chasing, and acting alone to protect others. She criticizes him for volunteering to kill Niall without asking them, reading it as martyrdom, proving a point, or an excuse to chase glory by killing a High Clade.
+
+## Abilities and Training
+
+Kelyra has strong Archeon hereditary kinesis, which she calls Subversion. That terminology is her misnomer and should not finalize the broader magic-system vocabulary.
+
+She is a genius martial artist. Her martial talent is linked to speed of mind, but the speed-of-thought aspect should be shown through action and perception rather than codified or quantified in exposition.
+
+Kelyra taught Davian martial and kinesis/Subversion-adjacent foundations. Davian says she used Subversion to drain zan that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
+
+Kelyra's Shroud is blocked by trauma. She knows it is there, but the idea that she must suppress it to escape Archeon is deeply ingrained. Even thinking about manifesting a Shroud is very unpleasant for her.
+
+## Important Relationships
+
+Davian:
+
+Davian is Kelyra's son. She trained him, shaped his understanding of family and resistance, and is central to his loyalty, Archeon lineage, and Heart-theft motives.
+
+Jalen:
+
+Jalen is Kelyra's partner. Their relationship is tied to the Concord, family protection, Selina's death, and the Heart-theft aftermath.
+
+Kael and Lirien:
+
+Kael and Lirien are Kelyra's younger children. The accepted spelling is `Lirien`; later source text also contains `Lirin`, which should be treated as a spelling inconsistency until corrected in a later consistency pass.
+
+Selina:
+
+Selina is Kelyra's deceased child. Kelyra ran from Archeon when she realized she was pregnant with Selina because Archeon children are taken from mothers and trained rather than raised.
+
+Lethira:
+
+Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon. This remains unresolved pending later review.
+
+Serathis:
+
+Serathis claims Kelyra as daughter, granddaughter, and descendant. Kelyra is directly descended from Archeon breeding programs, but the exact number of generations between Kelyra and Serathis is unclear.
+
+## Current Manuscript State
+
+In Chapter 3, Kelyra manages the family space, sends Kael and Lirien away from adult business, and calls Davian and Jalen into the central hall after they return from the Syndicate/Harbingers.
+
+She participates in planning the Heart theft, understands the Registry's aura/name restrictions, and explains the passive-mode requirement and active-mode danger.
+
+Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zan defenses, and the body-based foundations she taught Davian.
+
+Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
+
+## Intended Arc Links
+
+- Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
+- Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
+- Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
+- Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
+
+## Canonical Uncertainties
+
+- Exact hereditary kinesis/Subversion mechanics remain for later magic review.
+- Exact Shroud manifestation mechanics remain for later magic review.
+- Exact number of generations between Kelyra and Serathis remains unresolved.
+- Lethira's parentage and exact relationship to Kelyra remain unresolved.
+- Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
+
+## Provenance
+
+- `imports/normalized/melissa-copy.md:1707-1746`: Kelyra as Davian's mother and family authority.
+- `imports/normalized/melissa-copy.md:1752-1848`: Heart mission, planning pivot, and criticism of Davian's self-sacrificial pattern.
+- `imports/normalized/melissa-copy.md:1854-1915`: Registry/aura/name planning.
+- `imports/normalized/melissa-copy.md:20305-20312`: claimed Archeon lineage and no manifested Shroud.
+- `imports/normalized/melissa-copy.md:20428-20452`: Kelyra's Subversion terminology and zan-draining use.
+- `imports/normalized/melissa-copy.md:20509-20525`: Harvick on Kelyra-taught movement foundations.
+- `imports/normalized/melissa-copy.md:20650-20725`: Kelyra's martial combat in the Archeon arena.
+- `imports/normalized/melissa-copy.md:20743-20883`: Lethira, Archeon children, Selina, and Shroud pressure.
+- `imports/normalized/melissa-copy.md:20949-21150`: Serathis's claims and Kelyra's Ink/mental reaction.
+- `imports/normalized/book-1-outline.md:366-379`: Kelyra's Subversion/kinesis, speed-of-mind planning, and Shroud notes.
+- `imports/normalized/book-1-outline.md:5247`: Kelyra running from Archeon while pregnant with Selina.
+- `imports/normalized/book-1-outline.md:7120`: Lethira candidate relationship.
+- `decisions/0004-davian-heart-theft-agency-and-arc.md`
+- `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
