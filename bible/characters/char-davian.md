@@ -90,6 +90,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 ## Intended Arc Links
 
 - Approved arc file: [thread-davian-identity-guilt](../../outline/arcs/thread-davian-identity-guilt.md)
+- Related character: [Niall Rezin](char-niall.md)
 - Candidate material: [char-davian](../../planning/candidates/characters/char-davian.md)
 - Review packet: [char-davian](../../reviews/entities/characters/char-davian.md)
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)

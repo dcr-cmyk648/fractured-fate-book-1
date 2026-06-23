@@ -5,36 +5,33 @@ Last updated: 2026-06-23
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-niall` awaiting author review
-- Current entity under review: char-niall
-- Latest completed entity: char-davian
-- Latest relevant commit: HEAD (`chore: add consistency workflow controls`)
+- Current migration phase: Phase 4 entity-by-entity review; `char-niall` approved, finalizing
+- Current entity under review: None
+- Latest completed entity: char-niall
+- Latest relevant commit: HEAD (`bible: approve Niall character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-davian` entity was approved, stored, validated, and committed in `fc70a88` (`bible: approve Davian character record`). Created the accepted Davian record at `bible/characters/char-davian.md`, candidate material at `planning/candidates/characters/char-davian.md`, an approved arc seed at `outline/arcs/thread-davian-identity-guilt.md`, and a decision record at `decisions/0004-davian-heart-theft-agency-and-arc.md`.
+The `char-niall` entity was approved and stored. Created the accepted Niall record at `bible/characters/char-niall.md`, candidate material at `planning/candidates/characters/char-niall.md`, an approved arc seed at `outline/arcs/thread-niall-grief-recovery.md`, and a decision record at `decisions/0005-niall-grief-arc-and-lightning-conduits.md`. Level 1 consistency checks added direct accepted-file links and queued later magic/mercenary consistency items in `CONSISTENCY_QUEUE.md`.
 
 ## Current work
 
-The `char-niall` review packet has been prepared and is awaiting author input. The low-friction cross-file consistency workflow has been approved and committed. No accepted Niall bible file has been created yet.
+The approved `char-niall` files are being finalized, validated, and committed.
 
 ## Next action
 
-Return to `reviews/entities/characters/char-niall.md`, answer the Niall-specific questions, and finalize/store the approved Niall record automatically under the streamlined workflow.
+Commit the approved Niall entity record, then begin preparing the next queued entity, `char-kelyra`, unless an exception applies.
 
 ## Awaiting author input
 
-- Decide whether Niall's broad grief/recovery arc seed should be stored now or deferred to `thread-niall-grief-recovery`.
-- Decide how to characterize Niall cutting down retreating enemies.
-- Decide whether "silver" should be listed in Niall's accepted abilities now.
-- Decide how much Alara-related material belongs in Niall's approved file before Alara/event reviews.
+- None
 
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by four commits unless pushed separately.
-- Niall's Heart/silver/charge mechanics are not yet reviewed.
+- Local branch is ahead of `origin/migration/drive-baseline` by five commits unless pushed separately.
+- Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 
 ## Files to read for current task
@@ -66,3 +63,7 @@ Return to `reviews/entities/characters/char-niall.md`, answer the Niall-specific
 - outline/arcs/thread-davian-identity-guilt.md
 - decisions/0004-davian-heart-theft-agency-and-arc.md
 - reviews/entities/characters/char-niall.md
+- bible/characters/char-niall.md
+- planning/candidates/characters/char-niall.md
+- outline/arcs/thread-niall-grief-recovery.md
+- decisions/0005-niall-grief-arc-and-lightning-conduits.md
