@@ -7,7 +7,7 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: none
+- Active or paused entity ID: magic-ink-boons
 - Latest completed entity: magic-shroud
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Shroud magic record`
@@ -29,15 +29,15 @@ The `magic-shroud` entity was approved by the author and stored in durable magic
 
 ## Current work
 
-Entity finalization for `magic-shroud` is complete and ready for validation, commit, and push.
+The `magic-ink-boons` review packet is ready for author review.
 
 ## Next action
 
-Validate, commit, and push `magic-shroud`, then begin the next queued entity, `magic-ink-boons`.
+Review the `magic-ink-boons` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
 
 ## Awaiting author input
 
-None
+- `magic-ink-boons` is awaiting author review.
 
 ## Known blockers or risks
 
@@ -117,6 +117,9 @@ None
 - bible/magic/magic-shroud.md
 - planning/candidates/magic/magic-shroud.md
 - decisions/0018-shroud-throughput-and-manifestation-model.md
+- reviews/entities/magic/magic-ink-boons.md
+- bible/magic/magic-ink-boons.md
+- planning/candidates/magic/magic-ink-boons.md
 - bible/characters/char-selwin.md
 - decisions/0009-selwin-dissolution-shroud-and-family-role.md
 
