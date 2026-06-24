@@ -22,6 +22,7 @@ Repository for the Book 1 migration, source import, normalization, review, and d
 - [PROJECT_STATE.md](PROJECT_STATE.md) is the definitive handoff file for resuming work.
 - [ENTITY_INDEX.md](ENTITY_INDEX.md) is the master entity inventory and processing queue.
 - [WORKFLOW.md](WORKFLOW.md) defines the persistent migration and entity-review workflow.
+- [REVISION_WORKFLOW.md](REVISION_WORKFLOW.md) defines the future chapter, scene, future-sequence, and next-draft outline workflow after the story-bible gate opens.
 - [AUTHORING.md](AUTHORING.md) defines the future outlining, prose, revision, and critique collaboration workflow.
 - [CONSISTENCY_QUEUE.md](CONSISTENCY_QUEUE.md) tracks cross-file consistency issues that may need later checking or author judgment.
 - [MIGRATION_STATUS.md](MIGRATION_STATUS.md) records migration phases and gates.

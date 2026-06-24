@@ -58,6 +58,26 @@ Before doing book work, Codex must:
 - Do not add routine author checkpoints for dependency searches, unambiguous dependent updates, queue entries, `needs-revisit` marking, validation, local commits, or block-level consistency review.
 - Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
+## Story-Bible-First Gate
+
+The project must proceed story-bible first. Do not begin chapter review, chapter outlining, scene review, future-sequence outlining, or next-draft outline construction while the initial story-bible inventory remains incomplete.
+
+Required order:
+
+1. Complete the story-bible review phase.
+2. Run a full story-bible consistency and dependency review.
+3. Receive author approval to open the outline phase.
+4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
+5. Build the next-draft outline, including unwritten future chapters.
+6. Complete whole-book structural and consistency reviews.
+7. Open prose work only after explicit later authorization under `AUTHORING.md`.
+
+The initial story-bible phase is complete only when every entity in approved project scope is `approved`, `deferred` by author, or `superseded`. Before chapter work opens, there should normally be no entity marked `discovered`, `queued`, `in-review`, `awaiting-author`, or `needs-revisit`; any exception must be explicitly documented and approved by the author.
+
+Before opening outline/chapter work, all direct contradictions and broad retcons affecting approved records must be resolved or explicitly deferred, all completed entity blocks must have passed consistency review, cross-file links and dependencies must validate, the final story-bible consistency report must be reviewed, the working tree must be clean, and the active branch must be synchronized according to repository policy.
+
+Do not open chapter work automatically after the last entity. Present a concise story-bible completion report and wait for clear author approval to move from story-bible review into chapter outlining.
+
 Codex must distinguish:
 
 - `present-canon`: true in the story's current world state at the latest manuscript cutoff
@@ -84,7 +104,8 @@ A current intention may be `present-canon` while its eventual execution is an `a
 - `ENTITY_INDEX.md` is the sole authority for entity ID, type, queue order, status, review packet path, accepted file path, candidate file path, and last-reviewed date.
 - `PROJECT_STATE.md` contains immediate operational handoff only: branch, phase, block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and blockers requiring author input.
 - `MIGRATION_STATUS.md` contains phase-level progress and phase gates only. Do not duplicate detailed entity queue state there.
-- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files, including setup/payoff, chronology, knowledge-state, and ability conflicts; add columns as needed for triggering chapter/scene/sequence, blocking yes/no, paused review unit, and resolution status.
+- `REVISION_WORKFLOW.md` owns the detailed future chapter, scene, future-sequence, and next-draft-outline process. It remains gated until the story bible is complete and the author opens outline work.
 - `decisions/index.md` indexes explicit author decisions only.
 - Do not embed a literal hash for the same commit that contains `PROJECT_STATE.md`; use stable wording such as `latest relevant commit: HEAD` and report actual hashes from Git commands.
 
@@ -113,12 +134,13 @@ Block-level consistency review becomes due when five entities have been approved
 
 ## Authoring Rules
 
-For outlining, scene work, prose drafting, revision, and critique, Codex must follow `AUTHORING.md`.
+For authoring collaboration style, scene work, prose drafting, revision, and critique, Codex must follow `AUTHORING.md`. For future chapter, scene, future-sequence, and next-draft outline workflow after the story-bible gate opens, Codex must follow `REVISION_WORKFLOW.md`.
 
 - The author remains the primary author and controls plot, character decisions, scene purpose, POV, pacing, canon, and whether prose should be drafted at all.
 - Prose generation is opt-in. Codex may draft or polish prose only when the author clearly requests it, such as "draft this," "write this section," "turn these beats into prose," "rewrite this passage," or "polish this."
 - When prose is requested from detailed beats or an existing passage, Codex must stay within the supplied material, preserve the requested POV and scene boundary, and stop where the author's material stops.
 - Requests to outline, review, analyze, organize, continue planning, or work on a chapter do not by themselves authorize prose drafting.
+- Requests to outline, review, analyze, organize, continue planning, or work on a chapter also do not bypass the story-bible-first gate.
 - Unless the author explicitly says to edit files directly, Codex must preview new or revised prose in the conversation before applying it to manuscript files.
 - Historical writing-thread transcripts are evidence of collaboration style only. They are not authoritative canon sources and must not be imported into the bible, manuscript, outline, or decisions merely because they appeared there.
 

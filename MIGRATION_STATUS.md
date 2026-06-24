@@ -106,9 +106,10 @@ Status: in progress
 Current phase notes:
 
 - Core-character block is complete.
-- Major-organization review is in progress.
+- Major-organization review is complete through the current approved organization queue; core magic-system review is in progress.
 - First core-entity consistency review has been completed.
 - Detailed entity queue status lives only in `ENTITY_INDEX.md`.
+- Story-bible review must complete before any chapter review, chapter outlining, future-sequence outlining, or next-draft outline construction begins.
 
 Gate:
 
@@ -116,6 +117,7 @@ Gate:
 - Create source-backed review packets.
 - Stop for author review.
 - Do not write accepted bible files until explicit entity approval.
+- Do not begin chapter review or chapter outlining during Phase 4.
 
 Observed entity-review notes:
 
@@ -132,6 +134,23 @@ Gate:
 - Store approved entity information in `bible/`, `outline/`, `revision/`, `planning/candidates/`, `decisions/`, `feedback/`, and `reviews/entities/` as appropriate.
 - Update `ENTITY_INDEX.md` and `PROJECT_STATE.md`.
 - Stop before committing unless commit authorization has been given.
+- The initial story-bible phase is complete only when every entity in approved project scope is `approved`, `deferred` by author, or `superseded`, with any exception explicitly documented and approved.
+- Before chapter work opens, there should normally be no entity marked `discovered`, `queued`, `in-review`, `awaiting-author`, or `needs-revisit`.
+- All direct contradictions and broad retcons affecting approved records must be resolved or explicitly deferred.
+- All completed entity blocks must have passed consistency review.
+- Cross-file links and dependencies must validate, the final story-bible consistency report must be reviewed, the working tree must be clean, and the active branch must be synchronized.
+- After the completion gate passes, present a story-bible completion report and wait for clear author approval before opening outline/chapter work.
+
+## Phase 5.5: Full Story-Bible Consistency Review
+
+Status: not started
+
+Gate:
+
+- Run after the initial story-bible inventory reaches the completion gate.
+- Review approved records, deferred/superseded entities, direct dependencies, pending consistency queue items, broad retcons, and cross-file links.
+- Produce the final story-bible consistency report.
+- Do not open outline/chapter work until the author reviews the report and clearly approves opening the outline phase.
 
 ## Phase 6: Chapter Manuscript Split
 
@@ -139,7 +158,7 @@ Status: not started
 
 Gate:
 
-- Split the normalized manuscript into chapter-based plain-text files only after explicit authorization.
+- Split the normalized manuscript into chapter-based plain-text files only after the story-bible completion gate, final story-bible consistency review, and clear author approval to open the outline/chapter phase.
 - Preserve source provenance.
 - Do not rewrite or draft prose during splitting.
 
@@ -149,8 +168,11 @@ Status: not started
 
 Gate:
 
-- Classify the large Book 1 outline into controlled outline, revision, candidate, and reference files.
+- After the story-bible gate opens outline/chapter work, map and review the current prose chapter by chapter and, when needed, scene by scene.
+- Then build the next-draft outline, including unwritten future chapters.
+- Classify the large Book 1 outline into controlled outline, revision, candidate, and reference files only within that opened outline phase.
 - Do not promote outline material to canon without author approval.
+- Do not generate or modify manuscript prose.
 
 ## Phase 8: Bullet Notes Inbox
 
@@ -187,10 +209,12 @@ Gate:
 
 - Add continuity and reference validation once the durable reference structure is stable.
 - Validation tools must not rewrite manuscript prose.
+- Whole-book reviews run after the complete initial story bible, after the current draft has been fully mapped, after the future gap-to-ending outline exists, after the next-draft structure is complete, before prose work begins, and after any broad retcon.
 
 ## Permanent Authoring Gate
 
 - Entity review and repository setup do not authorize manuscript drafting.
+- Chapter review, scene review, and future-outline work do not authorize manuscript drafting.
 - New prose remains opt-in under `AUTHORING.md`.
 - The authoring workspace must be deliberately opened by the author before prose drafting begins.
 - Manual edits to local manuscript files remain authoritative and must never be overwritten by generated text.

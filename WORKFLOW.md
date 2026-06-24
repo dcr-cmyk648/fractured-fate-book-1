@@ -2,7 +2,9 @@
 
 This file defines the persistent migration and entity-review process. A new Codex session must be able to continue from repository files without relying on conversation history.
 
-For outlining, scene construction, prose drafting, local revision, critique, and manuscript application work, follow `AUTHORING.md`. `AUTHORING.md` supersedes any blanket implication that Codex must never generate prose: prose is allowed only when the author clearly opts in and within the boundaries defined there.
+For authoring collaboration style, scene construction, prose drafting, local revision, critique, and manuscript application work, follow `AUTHORING.md`. `AUTHORING.md` supersedes any blanket implication that Codex must never generate prose: prose is allowed only when the author clearly opts in and within the boundaries defined there.
+
+For future chapter, scene, future-sequence, and next-draft outline workflow after the story-bible gate opens, follow `REVISION_WORKFLOW.md`. `REVISION_WORKFLOW.md` does not authorize chapter work until the story-bible completion gate below has passed and the author clearly approves opening the outline phase.
 
 ## Startup
 
@@ -32,6 +34,62 @@ Phase 0 is the raw source import and verification step. Raw DOCX files in `impor
 Phase 1 creates durable control files and the persistent review workflow. Entity inventory and review must not begin until the required normalized sources exist and the author authorizes that phase.
 
 Authoring work is separate from migration work. The existence of `AUTHORING.md` does not authorize Codex to draft manuscript prose, alter imported prose, turn outlines into prose, start entity review, skip migration gates, or classify speculative notes as canon.
+
+## Governing Sequence
+
+This repository uses a story-bible-first workflow. This supersedes any prior implication that story-bible review, chapter review, chapter outlining, future-sequence planning, or next-draft outline construction should happen in parallel, in alternating blocks, or interleaved before the initial story-bible inventory is complete.
+
+Proceed in this order:
+
+1. Complete the story-bible review phase.
+2. Run a full story-bible consistency and dependency review.
+3. Receive author approval to open the outline phase.
+4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
+5. Build the next-draft outline, including unwritten future chapters.
+6. Complete whole-book structural and consistency reviews.
+7. Open prose work only after explicit later authorization under `AUTHORING.md`.
+
+Do not begin chapter outlining while the initial story-bible inventory is incomplete.
+
+## Story-Bible Completion Gate
+
+The initial story-bible phase is complete only when every entity in the approved project scope has one of these statuses:
+
+- `approved`
+- `deferred` by author
+- `superseded`
+
+Before opening chapter work, there should normally be no entity marked:
+
+- `discovered`
+- `queued`
+- `in-review`
+- `awaiting-author`
+- `needs-revisit`
+
+Any exception must be explicitly documented and approved by the author.
+
+Also require:
+
+- all direct contradictions and broad retcons affecting approved records are resolved or explicitly deferred
+- all completed entity blocks have passed their consistency review
+- cross-file links and dependencies validate
+- the final story-bible consistency report has been reviewed
+- the working tree is clean
+- the active branch is synchronized according to repository policy
+
+`Complete` means the current known story-bible inventory has been reviewed. It does not mean the story bible can never gain a new item later.
+
+Do not open chapter work automatically after the last entity. First present a concise story-bible completion report containing:
+
+- approved entities
+- deliberately deferred entities
+- unresolved but explicitly accepted uncertainties
+- remaining consistency risks
+- validator results
+- recommended outline-readiness status
+
+Then wait for clear author approval to open chapter work. Do not require an exact phrase, but the authorization must clearly approve moving from story-bible review into chapter outlining.
 
 ## Entity Inventory
 
@@ -93,7 +151,8 @@ Approved entity work is committed locally after substantive approval. After each
 - `ENTITY_INDEX.md` is the sole authority for entity ID, entity type, queue order, entity status, review packet path, accepted file path, candidate file path, and last-reviewed date.
 - `PROJECT_STATE.md` contains immediate operational handoff information only: current branch, current phase, current block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and unresolved blockers requiring author input.
 - `MIGRATION_STATUS.md` contains phase-level progress and phase gates only.
-- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files, including setup/payoff, chronology, knowledge-state, and ability conflicts; add columns as needed for triggering chapter/scene/sequence, blocking yes/no, paused review unit, and resolution status.
+- `REVISION_WORKFLOW.md` owns the detailed future chapter, scene, future-sequence, and next-draft-outline process after the story-bible completion gate opens.
 - `decisions/index.md` indexes explicit author decisions only.
 
 Do not repeat the full approved or queued entity list outside `ENTITY_INDEX.md`.

@@ -10,9 +10,9 @@ Last updated: 2026-06-24
 - Active or paused entity ID: magic-ink-boons
 - Latest completed entity: magic-shroud
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Shroud magic record`
-- Working tree expected to be clean: yes
-- Remote synchronized: yes with `origin/beta`
+- Latest relevant commit message: `chore: enforce story-bible-first workflow`
+- Working tree expected to be clean: yes after approved workflow commit and sync
+- Remote synchronized: yes after approved workflow commit and sync
 
 ## Block status
 
@@ -21,7 +21,7 @@ Last updated: 2026-06-24
 - Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry, magic-shroud
 - Last consistency review: reports/consistency/2026-06-24-core-entities.md
 - Consistency review due: no
-- Remote synchronized: yes with `origin/beta`
+- Remote synchronized: yes after approved workflow commit and sync
 
 ## Last completed work
 
@@ -29,11 +29,11 @@ The `magic-shroud` entity was approved by the author and stored in durable magic
 
 ## Current work
 
-The `magic-ink-boons` review packet is ready for author review.
+The story-bible-first workflow update has been approved for commit and sync. The `magic-ink-boons` review packet remains ready for author review and was not advanced during the workflow task.
 
 ## Next action
 
-Review the `magic-ink-boons` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
+After syncing this workflow update, return to the `magic-ink-boons` author checkpoint on `beta`.
 
 ## Awaiting author input
 
@@ -61,6 +61,7 @@ Review the `magic-ink-boons` author checkpoint and answer the targeted questions
 - README.md
 - PROJECT_STATE.md
 - WORKFLOW.md
+- REVISION_WORKFLOW.md
 - CONSISTENCY_QUEUE.md
 - ENTITY_INDEX.md
 - MIGRATION_STATUS.md
