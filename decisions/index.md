@@ -15,3 +15,4 @@ Do not use this file as a dump for unresolved questions.
 | Elric Rezin Remnant and Reality/Skein Role | 2026-06-23 | accepted; stored in approved `char-elric` record | [0007-elric-rezin-remnant-and-reality-skein-role.md](0007-elric-rezin-remnant-and-reality-skein-role.md) |
 | Harvick Elric Ink and Mentorship | 2026-06-24 | accepted; stored in approved `char-harvick` record | [0008-harvick-elric-ink-and-mentorship.md](0008-harvick-elric-ink-and-mentorship.md) |
 | Selwin Dissolution Shroud and Family Role | 2026-06-24 | accepted; stored in approved `char-selwin` record | [0009-selwin-dissolution-shroud-and-family-role.md](0009-selwin-dissolution-shroud-and-family-role.md) |
+| Jalen and Kelyra Concord Role Swap | 2026-06-24 | accepted; stored in approved `char-jalen` record; marks `char-kelyra` needs-revisit | [0010-jalen-kelyra-concord-role-swap.md](0010-jalen-kelyra-concord-role-swap.md) |

@@ -63,11 +63,17 @@ Jalen:
 
 Jalen is Davian's father. Their relationship is loving, sharp, and violent-edged, built around tactical discipline, shared grief, family loyalty, and mutual fear of loss.
 
+Accepted Jalen record: [Jalen](char-jalen.md)
+
+Jalen is support/planning/logistics in the Concord, not the primary martial leader. Kelyra is the de facto Concord leader.
+
 Kelyra:
 
 Kelyra is Davian's mother. She is central to his family loyalty, Archeon lineage, and the Heart-theft plot. Her full relationship to Davian should be developed during `char-kelyra`.
 
 Accepted Kelyra record: [Kelyra](char-kelyra.md)
+
+Kelyra, not Jalen, uses Archeon training techniques to first train Selina and then Davian into killers.
 
 Maya:
 
@@ -108,6 +114,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Review packet: [char-davian](../../reviews/entities/characters/char-davian.md)
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
 - Related character: [Kelyra](char-kelyra.md)
+- Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 

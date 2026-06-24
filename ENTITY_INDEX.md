@@ -21,11 +21,11 @@ There must normally be no more than one entity marked `in-review`.
 | 1 | char-maya | character | Maya Rezin | approved | reviews/entities/characters/char-maya.md | bible/characters/char-maya.md | planning/candidates/characters/char-maya.md | 2026-06-23 |
 | 2 | char-davian | character | Davian / Arrek identity | approved | reviews/entities/characters/char-davian.md | bible/characters/char-davian.md | planning/candidates/characters/char-davian.md | 2026-06-23 |
 | 3 | char-niall | character | Niall Rezin | approved | reviews/entities/characters/char-niall.md | bible/characters/char-niall.md | planning/candidates/characters/char-niall.md | 2026-06-23 |
-| 4 | char-kelyra | character | Kelyra | approved | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md | 2026-06-23 |
+| 4 | char-kelyra | character | Kelyra | needs-revisit | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md | 2026-06-23 |
 | 5 | char-elric | character | Elric | approved | reviews/entities/characters/char-elric.md | bible/characters/char-elric.md | planning/candidates/characters/char-elric.md | 2026-06-23 |
 | 6 | char-harvick | character | Harvick | approved | reviews/entities/characters/char-harvick.md | bible/characters/char-harvick.md | planning/candidates/characters/char-harvick.md | 2026-06-24 |
 | 7 | char-selwin | character | Selwin Rezin | approved | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md | 2026-06-24 |
-| 8 | char-jalen | character | Jalen | queued | reviews/entities/characters/char-jalen.md | bible/characters/char-jalen.md | planning/candidates/characters/char-jalen.md |  |
+| 8 | char-jalen | character | Jalen | approved | reviews/entities/characters/char-jalen.md | bible/characters/char-jalen.md | planning/candidates/characters/char-jalen.md | 2026-06-24 |
 | 9 | org-rezin | organization | Rezin family / Rezin Clade | queued | reviews/entities/organizations/org-rezin.md | bible/organizations/org-rezin.md | planning/candidates/organizations/org-rezin.md |  |
 | 10 | org-archeon | organization | Archeon | queued | reviews/entities/organizations/org-archeon.md | bible/organizations/org-archeon.md | planning/candidates/organizations/org-archeon.md |  |
 | 11 | org-drakhal | organization | Drakhal Clade | queued | reviews/entities/organizations/org-drakhal.md | bible/organizations/org-drakhal.md | planning/candidates/organizations/org-drakhal.md |  |

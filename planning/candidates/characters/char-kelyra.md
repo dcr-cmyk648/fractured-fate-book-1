@@ -32,6 +32,9 @@ This file preserves useful but not fully approved Kelyra material. It should not
 - Kelyra being forced to channel kinesis/Subversion into weapons intended to kill Niall and Maya remains candidate material.
 - Kelyra's possible death, serious injury, or inability to lead the masked/Veiled Clades remains candidate material.
 - Kelyra's possible leadership dispute inside the Concord/Veiled group remains candidate material.
+- Exact Concord leadership chronology needs review now that Kelyra is accepted as the de facto primary Concord leader and Jalen is accepted as support/planning/logistics.
+- Exact Trial of Dominion fight execution belongs to Kelyra, not Jalen, and should be reviewed against the fully drafted prose.
+- Older Jalen-centered notes about Concord leadership, assassin training, and the Trial of Dominion should be transferred to Kelyra only where still useful.
 
 ## Provenance
 

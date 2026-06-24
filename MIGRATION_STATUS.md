@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-kelyra`, `char-elric`, `char-harvick`, and `char-selwin` approved; next queued entity is `char-jalen`
+Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-elric`, `char-harvick`, `char-selwin`, and `char-jalen` approved; `char-kelyra` marked needs-revisit for Concord role-swap chronology; next queued entity is `org-rezin`
 
 Gate:
 

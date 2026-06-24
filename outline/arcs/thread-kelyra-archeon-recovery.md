@@ -20,6 +20,8 @@ Her arc should parallel Davian's movement from negation toward values. Kelyra mu
 
 Her ultimate Shroud work should be emotionally and thematically tied to choosing to protect her family rather than only avoiding recapture.
 
+Later planning assigns Kelyra, not Jalen, the Concord leadership and broad revenge/family-endangerment arc. She is the de facto primary leader of the Concord after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact.
+
 ## Approved Boundaries
 
 - Kelyra is directly descended from Archeon breeding programs, but the exact number of generations between Kelyra and Serathis remains unresolved.
@@ -27,6 +29,7 @@ Her ultimate Shroud work should be emotionally and thematically tied to choosing
 - Kelyra's accepted children are Davian, Kael, Lirien, and Selina, deceased.
 - Lethira's exact parentage and relationship to Kelyra remain unresolved.
 - Kelyra's speed of mind should be shown rather than codified or quantified.
+- Kelyra canonically fights in the Trial of Dominion. Jalen supports her beforehand but does not participate.
 
 ## Deferred
 
@@ -36,6 +39,7 @@ Her ultimate Shroud work should be emotionally and thematically tied to choosing
 - Exact Serathis/Kelyra generation count
 - Exact Lethira relationship
 - Kelyra's possible injury/death/leadership consequences
+- Exact Concord leadership chronology and role-swap cleanup across older notes
 
 ## Provenance
 
@@ -45,3 +49,4 @@ Her ultimate Shroud work should be emotionally and thematically tied to choosing
 - `imports/normalized/book-1-outline.md:366-379`
 - `imports/normalized/book-1-outline.md:5247`
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
+- `decisions/0010-jalen-kelyra-concord-role-swap.md`

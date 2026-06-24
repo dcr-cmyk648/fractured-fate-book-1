@@ -13,9 +13,11 @@ arc_file: outline/arcs/thread-kelyra-archeon-recovery.md
 
 ## Identity
 
-Kelyra is Davian's mother, Jalen's partner, and a central Concord/underclass figure tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, and the Heart-theft aftermath.
+Kelyra is Davian's mother, Jalen's wife, and the de facto primary leader of the Concord. She is tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, Concord leadership, and the Heart-theft aftermath.
 
 She is directly descended from Archeon breeding programs. The exact number of generations between Kelyra and Serathis remains unclear.
+
+Kelyra became the Concord's de facto primary leader after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact. Exact Concord leadership structure and chronology remain for later organization review.
 
 ## Personality and Psychological Patterns
 
@@ -25,13 +27,15 @@ She is family-protective but also shaped by revenge, Archeon trauma, and the hab
 
 Kelyra understands Davian's pattern of self-sacrifice, glory-chasing, and acting alone to protect others. She criticizes him for volunteering to kill Niall without asking them, reading it as martyrdom, proving a point, or an excuse to chase glory by killing a High Clade.
 
+The broad arc around revenge and survival focus endangering the family now belongs primarily to Kelyra. Jalen acts more as a tempering force while remaining anti-Clade because of Selina's death.
+
 ## Abilities and Training
 
 Kelyra has strong Archeon hereditary kinesis, which she calls Subversion. That terminology is her misnomer and should not finalize the broader magic-system vocabulary.
 
 She is a genius martial artist. Her martial talent is linked to speed of mind, but the speed-of-thought aspect should be shown through action and perception rather than codified or quantified in exposition.
 
-Kelyra taught Davian martial and kinesis/Subversion-adjacent foundations. Davian says she used Subversion to drain zan that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
+Kelyra taught Selina and then Davian to be killers using Archeon training techniques, martial foundations, and kinesis/Subversion-adjacent foundations. Davian says she used Subversion to drain zan that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
 
 Kelyra's Shroud is blocked by trauma. She knows it is there, but the idea that she must suppress it to escape Archeon is deeply ingrained. Even thinking about manifesting a Shroud is very unpleasant for her.
 
@@ -43,7 +47,9 @@ Davian is Kelyra's son. She trained him, shaped his understanding of family and 
 
 Jalen:
 
-Jalen is Kelyra's partner. Their relationship is tied to the Concord, family protection, Selina's death, and the Heart-theft aftermath.
+Jalen is Kelyra's husband. They met after Kelyra escaped Archeon, when Jalen tried to rob her and she broke his arm.
+
+Jalen primarily acts in support, planning, and logistics. He is respected as an intelligent asset, but Kelyra is the Concord's primary martial and political force.
 
 Kael and Lirien:
 
@@ -71,9 +77,12 @@ Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
 
+Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforehand, gives advice, and supports her, but does not participate.
+
 ## Intended Arc Links
 
 - Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
+- Related character: [Jalen](char-jalen.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
@@ -85,6 +94,7 @@ Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
+- Exact Concord leadership chronology, prior-leader death, Ink Pact role, and Trial of Dominion execution need a later consistency pass.
 
 ## Provenance
 
@@ -102,3 +112,4 @@ Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being
 - `imports/normalized/book-1-outline.md:7120`: Lethira candidate relationship.
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
+- `decisions/0010-jalen-kelyra-concord-role-swap.md`
