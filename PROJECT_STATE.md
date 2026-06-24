@@ -4,15 +4,15 @@ Last updated: 2026-06-24
 
 ## Repository state
 
-- Current branch: migration/drive-baseline
+- Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-characters-and-major-organizations
 - Active or paused entity ID: org-harbingers-syndicate
 - Latest completed entity: org-high-clades
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `chore: run first core-entity consistency review`
+- Latest relevant commit message: `chore: record beta working branch`
 - Working tree expected to be clean: yes
-- Remote synchronized: yes after checkpoint push
+- Remote synchronized: yes with `origin/beta`
 
 ## Block status
 
@@ -21,7 +21,7 @@ Last updated: 2026-06-24
 - Approved entities since last consistency review: none
 - Last consistency review: reports/consistency/2026-06-24-core-entities.md
 - Consistency review due: no
-- Remote synchronized: yes after checkpoint push
+- Remote synchronized: yes with `origin/beta`
 
 ## Last completed work
 
@@ -29,11 +29,11 @@ The `org-high-clades` entity was approved by the author, stored, validated, and 
 
 ## Current work
 
-Repository stabilization checkpoint is complete pending final validation, push, and draft pull request creation.
+Repository stabilization checkpoint is complete. The GitHub repository now has `main` as the default branch, and local work has moved to the `beta` branch for ongoing development.
 
 ## Next action
 
-Review the stabilization checkpoint. When ready to resume entity work, continue with the already checkpointed `org-harbingers-syndicate` review questions or explicitly choose a different next task.
+Continue work on `beta`. When ready to resume entity work, continue with the already checkpointed `org-harbingers-syndicate` review questions or explicitly choose a different next task.
 
 ## Awaiting author input
 
@@ -42,7 +42,7 @@ Review the stabilization checkpoint. When ready to resume entity work, continue 
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch should be synchronized with `origin/migration/drive-baseline` after the checkpoint push.
+- Local branch should remain synchronized with `origin/beta` during ongoing work.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -114,4 +114,4 @@ Review the stabilization checkpoint. When ready to resume entity work, continue 
 
 ## Later branch recommendation
 
-After `migration/drive-baseline` is reviewed and eventually merged, create the next work block on a branch such as `bible/core-magic-review`. Do not switch branches during the current checkpoint.
+Use `beta` as the ongoing working branch below GitHub `main`. When a block is ready, merge to `main` through a pull request; do not merge without explicit author approval.
