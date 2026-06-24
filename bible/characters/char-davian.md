@@ -20,7 +20,7 @@ He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real A
 
 ## Background
 
-Davian comes from an underclass/Concord context shaped by hostility toward the High Clades. He works with Jalen and Kelyra, communicates through Concord sign, and uses underclass/Concord codes and tattoos that carry social meaning outside High Clade assumptions.
+Davian comes from a Twilight Concord / Masked Clade context shaped by hostility toward the High Clades. He works with Jalen and Kelyra, communicates through Concord sign, and uses underclass/Concord codes and tattoos that carry social meaning outside High Clade assumptions.
 
 Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develops Subversion-related magical ability through that line, though exact mechanics belong in future magic and family reviews.
 
@@ -119,6 +119,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
+- Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 
 ## Canonical Uncertainties
 

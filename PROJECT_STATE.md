@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-characters-and-major-organizations
-- Active or paused entity ID: org-concord
-- Latest completed entity: org-harbingers-syndicate
+- Active or paused entity ID: none
+- Latest completed entity: org-concord
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Concord organization packet`
+- Latest relevant commit message: `bible: approve Concord organization record`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes with `origin/beta`
 
@@ -18,7 +18,7 @@ Last updated: 2026-06-24
 
 - Current block: core-characters-and-major-organizations
 - Block scope: approved core character records through Jalen and major organization records through Harbingers/Syndicate
-- Approved entities since last consistency review: org-harbingers-syndicate
+- Approved entities since last consistency review: org-harbingers-syndicate, org-concord
 - Last consistency review: reports/consistency/2026-06-24-core-entities.md
 - Consistency review due: no
 - Remote synchronized: yes with `origin/beta`
@@ -29,15 +29,15 @@ The `org-harbingers-syndicate` entity was approved by the author, stored in dura
 
 ## Current work
 
-The `org-concord` review packet has been prepared and is awaiting author input.
+The `org-concord` entity was approved by the author, stored in durable organization and candidate files, linked from direct dependent records, validated, committed, and pushed.
 
 ## Next action
 
-Answer the targeted questions in `reviews/entities/organizations/org-concord.md`.
+Begin the next queued entity, `org-registry`, unless the author chooses a different next task.
 
 ## Awaiting author input
 
-- Answer the targeted questions in `reviews/entities/organizations/org-concord.md`.
+None
 
 ## Known blockers or risks
 

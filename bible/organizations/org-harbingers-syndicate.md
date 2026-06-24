@@ -48,7 +48,7 @@ The hidden truth is that Elric uses the Harbingers as an operational tool for hi
 
 The Harbingers pressure Davian's family and the Concord into the Heart theft. They use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
 
-The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. The implication is that someone else could be granted the same power to challenge her, and eventually is.
+The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
 
 Older manuscript material that frames this as a threat to Jalen's seat is suspect and should be repaired during Concord chronology or manuscript revision work.
 
@@ -70,6 +70,7 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related organization: [Archeon](org-archeon.md)
+- Related organization: [Twilight Concord / Concord](org-concord.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 
 ## Canonical Uncertainties
@@ -77,7 +78,7 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Exact Ink Boon / Ink Pact mechanics, including control, transfer, failure, depletion, and body takeover, remain for `magic-ink-boons`.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
-- Exact Concord Trial of Dominion mechanics and the later challenge to Kelyra remain for `org-concord`.
+- Exact detailed Trial of Dominion mechanics remain for `org-concord` and later revision/character reviews.
 - Exact late-book Harbinger / Drakhal / Vorren / Archeon operation sequence remains for later plot and character reviews.
 - Exact Masked Clade scripts, tattoos, signs, and mask customs remain for later culture or organization review.
 

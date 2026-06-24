@@ -12,7 +12,7 @@ candidate_file: planning/candidates/characters/char-jalen.md
 
 ## Identity and Role
 
-Jalen is Davian's father, Kelyra's husband, and a respected Twilight Concord support/planning/logistics figure.
+Jalen is Davian's father, Kelyra Virellis's husband, and a respected Twilight Concord support/planning/logistics figure.
 
 He is not the Concord's martial leader. Kelyra is the de facto primary leader of the Concord because of her Archeon-derived abilities, martial prowess, and history of killing the prior Concord leader with the help of an Ink Pact.
 
@@ -31,6 +31,8 @@ He loves Davian and protects him, but expresses that love through pressure, ange
 Kelyra:
 
 Jalen is Kelyra's husband. They met after Kelyra escaped Archeon, when Jalen tried to rob her and she broke his arm.
+
+Kelyra took Jalen's surname after marriage in the hope that it would help disguise her from Archeon.
 
 Jalen supports Kelyra's leadership and plans with her. He talks with her before the Trial of Dominion, gives advice, and generally supports her, but he does not participate in that fight.
 
@@ -70,8 +72,10 @@ Current manuscript material establishes Jalen as:
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
+- Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Decision record: [Jalen and Kelyra Concord Role Swap](../../decisions/0010-jalen-kelyra-concord-role-swap.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
+- Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
 
 ## Canonical Uncertainties
 

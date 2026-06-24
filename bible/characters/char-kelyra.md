@@ -13,13 +13,15 @@ arc_file: outline/arcs/thread-kelyra-archeon-recovery.md
 
 ## Identity
 
-Kelyra is Davian's mother, Jalen's wife, and the de facto primary leader of the Concord. She is tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, Concord leadership, and the Heart-theft aftermath.
+Kelyra Virellis is Davian's mother, Jalen's wife, and the de facto primary leader of the Twilight Concord. She took Jalen's surname after marriage in the hope that it would help disguise her from Archeon. She is tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, Concord leadership, and the Heart-theft aftermath.
 
 She is directly descended from Archeon breeding programs. The exact number of generations between Kelyra and Serathis remains unclear.
 
-Kelyra became the Concord's de facto primary leader after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact. Exact Concord leadership structure and chronology remain for later organization review.
+Kelyra became the Concord's de facto primary leader after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact in a Trial of Dominion. In the less rigidly structured Masked Clade system, she would probably be called `boss` or `leader`.
 
 The Harbingers' Heart-theft pressure now targets Kelyra's position as Concord leader. Because Kelyra gained power through an Ink Pact and Trial of Dominion, the implied threat is that someone else could be granted comparable power to challenge her.
+
+Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
 
 ## Personality and Psychological Patterns
 
@@ -87,6 +89,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related character: [Jalen](char-jalen.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
+- Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
@@ -98,7 +101,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
-- Exact Concord leadership chronology, prior-leader death, Ink Pact role, and Trial of Dominion execution need a later consistency pass.
+- Exact Concord leadership chronology, prior-leader death, Ink Pact role, Karra's challenge, and Trial of Dominion execution need a later consistency pass.
 
 ## Provenance
 

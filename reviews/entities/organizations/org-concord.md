@@ -2,7 +2,7 @@
 id: org-concord
 entity_type: organization
 display_name: Twilight Concord / Concord
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -20,7 +20,7 @@ last_updated: 2026-06-24
 
 ## Proposed identity
 
-The Twilight Concord / Concord is a Masked-Clade-adjacent criminal or underclass resistance organization operating from a dilapidated former Low Clade manor. It is Davian's family organization and Kelyra's de facto power base.
+The Twilight Concord, called the Concord for short, is a Masked Clade operating from a dilapidated former Low Clade manor. Masked Clades are mafia-esque criminal organizations, though the Concord likely considers itself a resistance group against the High Clade class structure.
 
 The record should establish the Concord as a distinct organization from the Harbingers/Syndicate, while preserving its dependence on Harbinger Ink and pressure during the Heart-theft plot.
 
@@ -91,24 +91,21 @@ No separate reader feedback is extracted for the Concord organization.
 
 ## Speculative or alternative material
 
-- Exact full name: Twilight Concord, Concord, Midnight/Darkness Concord, or another dramatic variant.
-- Exact title of Concord leader.
-- Whether `Virellis` is Kelyra's surname, alias, old name, or registry/index label.
-- Exact Trial of Dominion rules.
-- Exact status of Karra's challenge and whether Karra formally challenges Kelyra's leadership or is used as a Harbinger penalty/proxy.
-- Whether the Concord should be called a Masked Clade, a criminal organization, an underclass resistance group, or a hybrid.
+- Exact detailed leader title beyond informal `boss` or `leader`.
+- Exact detailed Trial of Dominion rules.
 - Which older Jalen fight beats should transfer to Kelyra or to another challenger.
 
 ## Proposed accepted record
 
-Proposal:
+Approved direction from author feedback on 2026-06-24:
 
 ### present-canon
 
 - Store one organization file for `org-concord`.
-- Name it `Twilight Concord / Concord` unless the author chooses a different formal name.
-- Treat the Concord as a Masked-Clade-adjacent underclass/criminal resistance organization rooted in Davian's family and Kelyra's leadership.
-- Kelyra is the de facto primary leader.
+- The formal name is the Twilight Concord; Concord is the short form.
+- Treat the Concord as a Masked Clade, meaning a mafia-esque criminal organization. The Concord likely considers itself a resistance group against the High Clade class structure.
+- High Clades consider the term `Masked Clade` a joke: they find it funny but wrong that people without high-caliber magic would call themselves a Clade.
+- Kelyra is the de facto primary leader and would probably be called `boss` or `leader` rather than by a rigid formal title.
 - Jalen is a respected support/planning/logistics figure and Kelyra's husband, not the martial or political leader.
 - Davian is a Concord operator/assassin tied to the organization through family, training, sign/cipher, masks, and missions.
 - The Concord operates from a patched, dilapidated former Low Clade manor / hideout with training, guards, central planning space, and maze-like escape/security features.
@@ -119,41 +116,33 @@ Proposal:
 
 - Kelyra received an Ink Pact after Selina's death.
 - Kelyra used Ink, Archeon-derived ability, and martial prowess to kill the prior Concord leader in a Trial of Dominion and take power.
+- Kelyra took Jalen's surname after marriage in the hope that it would help disguise her from Archeon, so she is canonically Kelyra Virellis.
 - Aldira's records noticed a Concord leadership change about ten or twelve years earlier and record `K. Virellis`.
+- The Trial of Dominion is the leadership-challenge mechanism for the Concord and other Masked Clades.
 
 ### accepted-future-plan
 
-- Someone else is eventually granted comparable Harbinger/Ink power to challenge Kelyra's position.
+- Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans.
 - Exact Trial of Dominion/challenge execution remains for outline/revision rather than the bible.
 
 ## Proposed planning or arc record
 
-- Preserve Trial of Dominion mechanics, challenger identity, Karra's role, and the later Concord/Harbinger betrayal sequence for outline or revision files.
+- Preserve detailed Trial of Dominion mechanics, Karra's role, and the later Concord/Harbinger betrayal sequence for outline or revision files.
 - Preserve older Jalen combat/fight beats as candidate transferable material, not accepted Jalen canon.
 
 ## Proposed candidate record
 
-- formal leader title
-- full formal organization name
-- `K. Virellis` name/alias meaning
 - detailed Trial of Dominion rules
-- exact Karra/challenger role
-- exact Masked Clade classification
 - older Jalen-seat/fight choreography as suspect material
 
 ## Contradictions to preserve
 
 - Older Jalen-seat/Trial material versus accepted Kelyra leadership and Trial role.
-- Concord as family/resistance organization versus Concord as criminal Masked-Clade-style organization, if the author wants a sharper distinction.
+- Concord as self-understood resistance organization versus Concord as mafia-esque criminal Masked Clade.
 
 ## Questions for the author
 
-1. Should the formal accepted name be `Twilight Concord`, `Concord`, or something else?
-2. Should the Concord be classified in the bible as a Masked Clade, a criminal organization, an underclass resistance group, or a hybrid?
-3. Is `K. Virellis` Kelyra's current/old surname, an alias, or just Aldira's intelligence label?
-4. Should Kelyra have a formal title in the Concord, or is her leadership mostly de facto?
-5. Should the Trial of Dominion be accepted now as the Concord leadership-challenge mechanism, with detailed rules deferred?
-6. Is Karra the person eventually empowered to challenge Kelyra, or should Karra remain only part of the Harbinger penalty/betrayal sequence for now?
+Resolved by author feedback on 2026-06-24. No open author questions remain for approving this organization record.
 
 ## Proposed file changes
 
