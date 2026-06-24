@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: None
+- Active or paused entity ID: magic-fateweaving-skein
 - Latest completed entity: magic-subversion
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Kinesis magic record`
+- Latest relevant commit message: `review: prepare Fateweaving/Skein magic packet`
 - Working tree expected to be clean: yes after approved workflow commit and sync
 - Remote synchronized: yes after approved workflow commit and sync
 
@@ -25,19 +25,19 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-ink-boons` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Ink Pact terminology, Davian's accepted Pact effects, healing limits, and Antithesis-as-knife direction. The Ink/systems block consistency review was completed and recorded in `reports/consistency/2026-06-24-ink-and-systems-block.md`.
+The `magic-subversion` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with kinesis terminology, `Subversion` as Kelyra's misnomer, Serathis's stack mastery, and candidate routing for Shroud interaction, tremorsense, and Antithesis/Zirene mechanics.
 
 ## Current work
 
-The `magic-subversion` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with kinesis terminology, `Subversion` as Kelyra's misnomer, Serathis's stack mastery, and candidate routing for Shroud interaction, tremorsense, and Antithesis/Zirene mechanics.
+The `magic-fateweaving-skein` review packet has been prepared and is awaiting author response. No accepted Fateweaving/Skein bible or candidate files have been created yet.
 
 ## Next action
 
-After committing and syncing the approved Kinesis record, begin preparing the next queued entity review, `magic-fateweaving-skein`.
+Present the `magic-fateweaving-skein` review summary and resolve the author questions. After substantive approval, store the accepted and candidate Fateweaving/Skein material, update dependencies, validate, commit, push, and continue according to the queue.
 
 ## Awaiting author input
 
-None
+- Author answers needed for `magic-fateweaving-skein` scope, Skein literalness, Elric fate-sight source, Maya's current fateweaving capability, Alara routing, resurrection routing, and original-sin/backstory routing.
 
 ## Known blockers or risks
 
@@ -123,6 +123,7 @@ None
 - planning/candidates/magic/magic-shroud.md
 - decisions/0018-shroud-throughput-and-manifestation-model.md
 - decisions/0019-ink-pact-terminology-and-core-mechanics.md
+- reviews/entities/magic/magic-fateweaving-skein.md
 - reviews/entities/magic/magic-subversion.md
 - bible/magic/magic-subversion.md
 - planning/candidates/magic/magic-subversion.md
