@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-ink-boons
-- Latest completed entity: magic-shroud
+- Active or paused entity ID: None
+- Latest completed entity: magic-ink-boons
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `chore: enforce story-bible-first workflow`
+- Latest relevant commit message: `bible: approve Ink Pact magic record`
 - Working tree expected to be clean: yes after approved workflow commit and sync
 - Remote synchronized: yes after approved workflow commit and sync
 
@@ -18,26 +18,26 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry, magic-shroud
+- Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry, magic-shroud, magic-ink-boons
 - Last consistency review: reports/consistency/2026-06-24-core-entities.md
-- Consistency review due: no
+- Consistency review due: yes; five approved entities have accumulated since the last review
 - Remote synchronized: yes after approved workflow commit and sync
 
 ## Last completed work
 
-The `magic-shroud` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with links and straightforward Shroud-model summaries. The first core-entity consistency review was completed and recorded in `reports/consistency/2026-06-24-core-entities.md`.
+The `magic-ink-boons` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Ink Pact terminology, Davian's accepted Pact effects, healing limits, and Antithesis-as-knife direction. The first core-entity consistency review was completed earlier and recorded in `reports/consistency/2026-06-24-core-entities.md`.
 
 ## Current work
 
-The story-bible-first workflow update has been approved for commit and sync. The `magic-ink-boons` review packet remains ready for author review and was not advanced during the workflow task.
+The approved Ink Pact entity is being finalized and committed. Because five entities have accumulated since the last consistency review, a block-level consistency review is due before preparing the next entity.
 
 ## Next action
 
-After syncing this workflow update, return to the `magic-ink-boons` author checkpoint on `beta`.
+Commit and sync the approved Ink Pact record, then run the required block-level consistency review before preparing the next queued entity.
 
 ## Awaiting author input
 
-- `magic-ink-boons` is awaiting author review.
+None
 
 ## Known blockers or risks
 
@@ -54,6 +54,8 @@ After syncing this workflow update, return to the `magic-ink-boons` author check
 - Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - The Central Spire / central amphitheater blast-hole direction and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
+- Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -118,6 +120,7 @@ After syncing this workflow update, return to the `magic-ink-boons` author check
 - bible/magic/magic-shroud.md
 - planning/candidates/magic/magic-shroud.md
 - decisions/0018-shroud-throughput-and-manifestation-model.md
+- decisions/0019-ink-pact-terminology-and-core-mechanics.md
 - reviews/entities/magic/magic-ink-boons.md
 - bible/magic/magic-ink-boons.md
 - planning/candidates/magic/magic-ink-boons.md

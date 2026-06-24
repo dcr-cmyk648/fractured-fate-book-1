@@ -28,7 +28,7 @@ This file preserves Jalen material that is useful but not fully settled as exact
 
 ## Chronology and Organization Questions
 
-- Current manuscript and older notes include references to Jalen's "seat," Syndicate threats against his position, and a Boon originally tuned for him. These need reinterpretation now that Kelyra is the de facto Concord leader.
+- Current manuscript and older notes include references to Jalen's "seat," Syndicate threats against his position, and an Ink Pact originally tuned for him. These need reinterpretation now that Kelyra is the de facto Concord leader.
 - The exact Concord leadership hierarchy and how Kelyra's leadership is publicly or privately recognized remain for `org-twilight-concord`.
 - Exact Trial of Dominion mechanics and Kelyra's canonical fight remain for Kelyra, Concord, and late-plot reviews.
 

@@ -22,12 +22,18 @@ These belong primarily to `thread-maya-davian-romance` and later raid/climax rev
 
 ## Magic and Combat Candidates
 
-- Ink/Shroud interaction remains unsettled, including whether Ink must be received before Shroud manifestation and whether Ink-adjacent abilities interrupt Shroud.
+- Ink/Shroud interaction remains unsettled. Current direction is that Ink may need to be received before Shroud manifestation, but whether Ink-adjacent abilities interrupt Shroud remains unresolved.
 - Davian and Kelyra may have tremorsense as an extension of kinesis and martial arts.
 - Zirene may etch silver zan lattices into Davian's skin or build further body-linked zanwork.
 - Davian using Antithesis to part a force blast may function as a physical image of being the stone in the river.
 
 Route to `magic-ink-boons`, `magic-shroud`, `magic-subversion`, `object-antithesis`, and `object-davian-mask`.
+
+## Superseded Antithesis Transformation
+
+Older material has Ink transforming Antithesis into or out of a knife form.
+
+Accepted direction: Antithesis is just a knife throughout Book 1. The exact concealment revision before Davian is searched inside the Rezin citadel remains for later scene work.
 
 ## Family and Intel Candidates
 
@@ -44,3 +50,4 @@ Route to `char-kelyra`, `char-jalen`, `org-concord`, and `thread-davian-identity
 - `imports/normalized/book-1-outline.md:413-417`: Davian's arc away from being the threat.
 - `imports/normalized/book-1-outline.md:9305-9623`: post-theft Davian planning.
 - `reviews/entities/characters/char-davian.md`
+- `decisions/0019-ink-pact-terminology-and-core-mechanics.md`

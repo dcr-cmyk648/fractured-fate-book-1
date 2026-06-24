@@ -24,7 +24,7 @@ Preserve for later:
 - ritual clothing or preparation
 - hand and foot wrap details
 - whether weapons are allowed
-- how Ink Boons are treated
+- how Ink Pacts are treated
 - how outside interference is prevented or exploited
 - which older Jalen fight beats should transfer to Kelyra, Karra, or another figure
 

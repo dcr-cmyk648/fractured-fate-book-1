@@ -50,7 +50,7 @@ Harvick's concern for Niall is tied to the Elric wound. He has already seen a br
 
 Harvick is an expert fighter and trainer.
 
-He has a hidden prototypical Ink Pact from Elric's first experiments with the concept. It did not give him a voice or command pressure like Davian's Ink; instead it imbues him with bursts of unnatural speed and precision and a feeling for faster or more correct ways to move.
+He has a hidden prototypical Ink Pact from Elric's first experiments with the concept. It did not give him a voice, psychotic pressure, or command pressure like Davian's Ink; instead it imbues him with bursts of unnatural speed and precision and a feeling for faster or more correct ways to move.
 
 Harvick has Naeroth or Naeroth-adjacent body-training knowledge that helps connect Davian's martial background, Archeon physical foundations, and later magic integration.
 
@@ -79,10 +79,12 @@ Current manuscript material establishes Harvick as:
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related arc seed: [thread-elric-reality-skein](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Harvick Elric Ink and Mentorship](../../decisions/0008-harvick-elric-ink-and-mentorship.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact Ink taxonomy and mechanics remain for `magic-ink-boons`.
+- Exact Ink/Skein movement mechanics remain for later magic reviews.
 - Exact Naeroth/Archeon body-training relationship remains for later culture, magic, and organization reviews.
 - Exact returning-weapon mechanics remain for later object/technology reviews.
 - Exact Harvick Codex/aura material remains candidate.

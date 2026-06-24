@@ -69,15 +69,15 @@ Preserve for later:
 - how Drakhal maintains deniability
 - whether Harbinger actions are routed through Drakhal, Archeon, or both in specific scenes
 
-## Ink and Boon Mechanics
+## Ink Pact Mechanics
 
 Keep for `magic-ink-boons`:
 
-- exact distinction between Ink Boons and Ink Pacts
+- accepted terminology: all Ink grantings are Ink Pacts
 - control, coercion, and body-takeover mechanics
 - transfer, depletion, failure, and voice/urge effects
-- Davian's final Boon set
-- whether Antithesis transformation remains in the final version
+- Davian's accepted Pact effects and any later refinements
+- obsolete Antithesis transformation cleanup
 
 ## Masked Clades and Public Face
 

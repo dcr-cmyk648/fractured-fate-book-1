@@ -43,6 +43,8 @@ Kelyra taught Selina and then Davian to be killers using Archeon training techni
 
 Kelyra's Shroud is blocked by trauma. She knows it is there, but the idea that she must suppress it to escape Archeon is deeply ingrained. Even thinking about manifesting a Shroud is very unpleasant for her.
 
+Kelyra's Ink Pact supports speed, force, perception, and Trial of Dominion combat, but she does not have the deeper forced-restructuring healing that Davian, Karra, and later Vorren have.
+
 ## Important Relationships
 
 Davian:
@@ -91,10 +93,12 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 

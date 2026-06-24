@@ -28,7 +28,7 @@ This file preserves Harvick material that is useful but not fully settled as exa
 
 ## Ink and Codex Material
 
-- Exact taxonomy of Harvick's prototypical Ink Pact remains for `magic-ink-boons`.
+- Exact Ink/Skein movement mechanics behind Harvick's prototypical Ink Pact remain for later magic reviews.
 - Harvick's Pact gives bursts of unnatural speed and precision, but the exact relationship between this and fate, Ink, Naeroth movement, or reality damage remains for later reviews.
 - Harvick may possess a Codex because of his closeness to Elric, and later may become more fixated after learning Elric placed aura into such systems.
 

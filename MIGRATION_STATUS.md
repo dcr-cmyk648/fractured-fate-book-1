@@ -108,6 +108,7 @@ Current phase notes:
 - Core-character block is complete.
 - Major-organization review is complete through the current approved organization queue; core magic-system review is in progress.
 - First core-entity consistency review has been completed.
+- A block-level consistency review is due after `magic-ink-boons` because five entities have accumulated since the last review.
 - Detailed entity queue status lives only in `ENTITY_INDEX.md`.
 - Story-bible review must complete before any chapter review, chapter outlining, future-sequence outlining, or next-draft outline construction begins.
 

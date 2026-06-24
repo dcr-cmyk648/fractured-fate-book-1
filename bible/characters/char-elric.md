@@ -113,7 +113,7 @@ Current manuscript material establishes:
 ## Canonical Uncertainties
 
 - Exact mechanics of Elric's fate-strand sight remain for `magic-fateweaving-skein`.
-- Exact mechanics of Ink Pacts, possession, and the Harbinger leader's takeover remain for `magic-ink-boons`.
+- Exact mechanics of fate-thread visibility, Ink simulacrum persistence, and the Harbinger leader's takeover remain for later Elric, Fateweaving/Skein, and Codex reviews.
 - Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.
 - Elric's one known birth contract and hidden lineage records remain unresolved.
@@ -136,5 +136,5 @@ Current manuscript material establishes:
 - `imports/normalized/book-1-outline.md:8728-8750`: Elric giving Davian Ink to set up the Heart theft.
 - `imports/normalized/bullet-notes.md:1-54`: Elric/Maya void note and six-strand structure.
 - `imports/normalized/bullet-notes.md:170-190`: Elric wanting Davian to run into Harvick and be set up to kill Niall.
-- `imports/normalized/melissa-copy.comments.md:924-950`: comments on Elric near Maya's rooms, Ink Boons, fate threads, and corrupted codex key.
+- `imports/normalized/melissa-copy.comments.md:924-950`: comments on Elric near Maya's rooms, older Ink Boon terminology, fate threads, and corrupted codex key.
 - Author feedback on 2026-06-23.

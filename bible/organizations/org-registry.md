@@ -50,7 +50,7 @@ The Registry is extremely strong. Rezin confidence in it is not simple overconfi
 
 The successful bypass comes from unknown Elric-supplied magic that exploits extremely specific circumstances. Elric was previously Head Magus of the citadel and knows the Registry very well.
 
-Davian's accepted heist path is that he adds Arrek's name and relies on the Ink Pact/Boon to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
+Davian's accepted heist path is that he adds Arrek's name and relies on the Ink Pact to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 
 The Registry is still vulnerable to overwhelming conditions. Rapid multi-attacker scenarios can exceed passive detection's practical response capacity.
 
@@ -70,7 +70,9 @@ Those redesign plans are not realized during the course of Book 1.
 - Related organization: [High Clades](org-high-clades.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 

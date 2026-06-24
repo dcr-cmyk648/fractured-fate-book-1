@@ -32,9 +32,9 @@ The leader's exact original name and pre-takeover history remain unresolved.
 
 The Harbingers operate through hidden meeting places, underground routes, guides, dead drops, codes, masks, intimidation, bargains, and reputation.
 
-They use Ink Boons and Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence. Exact Ink mechanics remain for `magic-ink-boons`.
+They use Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence.
 
-One accepted use of Harbinger/Elric Ink is Davian's Registry bypass: he adds Arrek's name and relies on the Ink Pact/Boon to maintain the aura/name match under extremely specific conditions made plausible by Elric's knowledge of the Rezin Registry.
+One accepted use of Harbinger/Elric Ink is Davian's Registry bypass: he adds Arrek's name and relies on the Ink Pact to maintain the aura/name match under extremely specific conditions made plausible by Elric's knowledge of the Rezin Registry.
 
 The five hooded figures from the early Syndicate meeting can remain part of the current canon. Elric has many allies whose identities he might want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people. Their exact identities and structural role remain unresolved.
 
@@ -74,12 +74,14 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Twilight Concord / Concord](org-concord.md)
 - Related organization: [Registry](org-registry.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact Ink Boon / Ink Pact mechanics, including control, transfer, failure, depletion, and body takeover, remain for `magic-ink-boons`.
+- Exact transfer, failure, depletion, and derivative/later-book Ink Pact mechanics remain unresolved.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
 - Exact detailed Trial of Dominion mechanics remain for `org-concord` and later revision/character reviews.
@@ -88,7 +90,7 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 
 ## Provenance
 
-- `imports/normalized/melissa-copy.md:984-1167`: early Syndicate meeting, five hooded figures, Heart-theft escalation, threat, and Ink Boon ritual.
+- `imports/normalized/melissa-copy.md:984-1167`: early Syndicate meeting, five hooded figures, Heart-theft escalation, threat, and Ink Pact ritual with older Boon terminology.
 - `imports/normalized/melissa-copy.md:16453-16888`: Kelyra's turn to the Harbingers, dead drop, Harbinger guide, leader, Heart delivery, Vorren figure, betrayal, and Harbinger rhetoric.
 - `imports/normalized/melissa-copy.md:17086-17110`, `18691-18718`: Masked Clade / criminal-organization framing.
 - `imports/normalized/melissa-copy.md:19447-19483`: Davian on Harbinger Ink pressure and information.

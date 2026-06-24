@@ -54,7 +54,7 @@ His combat contribution is primarily support and ranged weapons. Older planning 
 
 ## Current Manuscript State
 
-Current manuscript material still contains earlier-role traces where the Syndicate/Harbingers threaten Jalen's "seat" and initially plan to use him for the Heart theft with an aura-mimic Ink Boon. The accepted organization direction moves this threat to Kelyra's position as Concord leader. These older Jalen-seat references need chronology and manuscript revision review.
+Current manuscript material still contains earlier-role traces where the Syndicate/Harbingers threaten Jalen's "seat" and initially plan to use him for the Heart theft with an aura-mimic Ink Pact. The accepted organization direction moves this threat to Kelyra's position as Concord leader. These older Jalen-seat references need chronology and manuscript revision review.
 
 Current manuscript material establishes Jalen as:
 
@@ -80,7 +80,7 @@ Current manuscript material establishes Jalen as:
 ## Canonical Uncertainties
 
 - Exact Concord leadership titles, hierarchy, and Trial of Dominion mechanics remain for `org-twilight-concord`.
-- Exact handling of older manuscript references to Jalen's seat and Boons needs later chronology and manuscript revision review.
+- Exact handling of older manuscript references to Jalen's seat and Ink Pact role needs later chronology and manuscript revision review.
 - Exact Selina death history and Antithesis/blade backstory remain for later Selina and object reviews.
 - Exact Jalen/Kelyra logistics during the Heart theft and late Concord conflict need later plot review.
 
@@ -88,7 +88,7 @@ Current manuscript material establishes Jalen as:
 
 - `imports/normalized/melissa-copy.md:260-355`: Jalen and Davian in the prologue raid, Concord sign, mask criticism.
 - `imports/normalized/melissa-copy.md:900-1175`: Jalen criticizes Davian after the Low Clade magus fight and is threatened during the Syndicate/Harbinger Heart-theft escalation.
-- `imports/normalized/melissa-copy.md:1194-1260`: Jalen supports Davian after the Ink Boon ritual and explains Antithesis.
+- `imports/normalized/melissa-copy.md:1194-1260`: Jalen supports Davian after the Ink Pact ritual and explains Antithesis in a current-manuscript passage that still uses older Boon terminology.
 - `imports/normalized/melissa-copy.md:1688-1840`: family return, Heart mission briefing, and Davian's self-sacrifice conflict.
 - `imports/normalized/book-1-outline.md:2928-2952`: older Arrek-house/Jalen role planning.
 - `imports/normalized/book-1-outline.md:8170-8224`: older late-book Jalen/Kelyra/Trial role planning.

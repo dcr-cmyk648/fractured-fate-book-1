@@ -44,7 +44,7 @@ Preserve for `object-seraph-heart` and `magic-zan-lattices`:
 
 Accepted high-level facts:
 
-- Davian adds Arrek's name and relies on the Ink Pact/Boon
+- Davian adds Arrek's name and relies on the Ink Pact
 - he does not also add and remove his true name in the accepted version
 - Elric's knowledge as former Head Magus makes the bypass plausible under very specific circumstances
 

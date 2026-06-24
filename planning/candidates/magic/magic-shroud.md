@@ -14,8 +14,8 @@ The accepted Shroud record stores the throughput/anchoring/maintenance model. Th
 
 ## Ink Interaction
 
-- Exact Ink-before-Shroud timing remains tentative.
-- Whether Ink must be received before Shroud manifestation for certain effects remains unresolved.
+- Exact Ink-before-Shroud timing remains tentative. Current author direction is that Ink may need to be received before Shroud manifestation.
+- Whether Ink must be received before Shroud manifestation as a hard rule, or only for certain effects, remains unresolved.
 - Whether Ink-adjacent abilities temporarily interrupt or destabilize a Shroud remains unresolved.
 
 Route to `magic-ink-boons`.

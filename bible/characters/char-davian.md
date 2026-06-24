@@ -42,7 +42,7 @@ Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndi
 
 Davian clearly murdered Arrek. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
 
-Accepted Registry heist mechanics: Davian adds Arrek's name to the Registry and relies on the Ink Pact/Boon to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
+Accepted Registry heist mechanics: Davian adds Arrek's name to the Registry and relies on the Ink Pact to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 
 ## Abilities
 
@@ -54,10 +54,16 @@ Davian's current abilities include:
 - use of Antithesis
 - weak but real Shroud manifestation
 - Subversion-related magical ability
-- exposure to Harbinger/Syndicate Ink Boons
-- temporary aura theft/mimicry through Ink
+- exposure to Harbinger/Syndicate Ink Pact
+- aura absorption/mimicry through Ink Pact after killing a target
+- rapid movement related to moving through a wrinkle-in-space manner through the Skein
+- deeper Ink Pact healing through forced restructuring after Elric visits him in the Rezin citadel
 
 Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, Subversion, and Ink exposure without being controlled by the Ink's pressure.
+
+Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink, not a separate accepted Pact ability. Ink influence does not erase his agency.
+
+Antithesis transformation is no longer canon. Antithesis is a knife throughout Book 1; the exact concealment revision before Davian is searched inside the citadel remains for later scene work.
 
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
@@ -105,7 +111,7 @@ Davian saves Selwin during the Dissolution outburst, exposing Davian's underlyin
 
 In the prologue, Davian operates with the Twilight Concord under Jalen, fights a Low Clade magus with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
 
-In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after Jalen is threatened and receives Ink Boons.
+In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact.
 
 Later manuscript material establishes Davian's post-theft exposure, interrogation, and training: he admits the aura theft, describes Subversion, manifests a weak Shroud, trains with Maya/Harvick/Selwin, and tries to make things right while still carrying guilt and defensive anger.
 
@@ -128,12 +134,14 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
-- Broader Ink/Shroud/Subversion interaction mechanics remain unresolved, especially tentative Ink/Shroud timing and interruption questions.
-- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-ink-boons`, `magic-fateweaving-skein`, and Harbinger/Syndicate reviews.
+- Broader Ink/Shroud/Subversion interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
+- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
 - The real Arrek's background and full consequences of his murder remain for `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 
@@ -142,8 +150,8 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - `imports/normalized/melissa-copy.md:273-336`: prologue Concord mission, Jalen, mask, sign, Antithesis.
 - `imports/normalized/melissa-copy.md:393-429`, `imports/normalized/melissa-copy.md:570-617`: Davian fighting the Low Clade magus and breaking the Shroud.
 - `imports/normalized/melissa-copy.md:933-978`: Jalen criticizing Davian's recklessness.
-- `imports/normalized/melissa-copy.md:984-1167`: Syndicate/Harbinger meeting, Heart mission, Davian volunteering, Ink Boons.
-- `imports/normalized/melissa-copy.md:1223-1260`: Antithesis as workman's knife after Boon.
+- `imports/normalized/melissa-copy.md:984-1167`: Syndicate/Harbinger meeting, Heart mission, Davian volunteering, Ink Pact ritual with older Boon terminology.
+- `imports/normalized/melissa-copy.md:1223-1260`: now-superseded Antithesis transformation material.
 - `imports/normalized/melissa-copy.md:1707-1788`: Kelyra/Jalen/Davian family planning around the Heart mission.
 - `imports/normalized/melissa-copy.md:20185-20230`: Davian admits aura theft and murdering Arrek.
 - `imports/normalized/melissa-copy.md:20428-20452`: Davian describes Subversion, Treasury backlash, and Ink healing.
@@ -156,3 +164,4 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - `imports/normalized/melissa-copy.comments.md:916-918`, Comment 90.
 - `decisions/0002-naeroth-demi-human-worldbuilding.md`
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
+- `decisions/0019-ink-pact-terminology-and-core-mechanics.md`

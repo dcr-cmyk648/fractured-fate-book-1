@@ -97,14 +97,16 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
+- Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 
 - Exact kinesis/Subversion mechanics remain for `magic-subversion`.
 - Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and Subversion/Shroud interaction details remain for later magic reviews.
-- Exact Ink Pact mechanics remain for `magic-ink-boons`.
+- Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
 - Exact Zirene-derived Archeon technology remains for later technology/object reviews.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.

@@ -91,11 +91,13 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related organization: [High Clades](../organizations/org-high-clades.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
+- Related magic: [Ink Pact](magic-ink-boons.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact Ink/Shroud interaction remains tentative and belongs to `magic-ink-boons`.
+- Exact Ink-before-Shroud timing remains tentative. Current author direction is that Ink may need to be received before Shroud manifestation, but Shroud interruption and exact rule remain unresolved.
 - Selwin's long-term Shroud possibility or incompatibility remains for later Selwin, Alara, Naeroth, and Dissolution reviews.
 - Exact mental-combat mechanics when Shrouds overlap or magic contests magic remain candidate material.
 - Exact Archeon/Naeroth body-training interface with Shroud manifestation remains for later culture/magic reviews.
