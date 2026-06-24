@@ -18,22 +18,22 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry, magic-shroud, magic-ink-boons
-- Last consistency review: reports/consistency/2026-06-24-core-entities.md
-- Consistency review due: yes; five approved entities have accumulated since the last review
+- Approved entities since last consistency review: None
+- Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
+- Consistency review due: no
 - Remote synchronized: yes after approved workflow commit and sync
 
 ## Last completed work
 
-The `magic-ink-boons` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Ink Pact terminology, Davian's accepted Pact effects, healing limits, and Antithesis-as-knife direction. The first core-entity consistency review was completed earlier and recorded in `reports/consistency/2026-06-24-core-entities.md`.
+The `magic-ink-boons` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Ink Pact terminology, Davian's accepted Pact effects, healing limits, and Antithesis-as-knife direction. The Ink/systems block consistency review was completed and recorded in `reports/consistency/2026-06-24-ink-and-systems-block.md`.
 
 ## Current work
 
-The approved Ink Pact entity is being finalized and committed. Because five entities have accumulated since the last consistency review, a block-level consistency review is due before preparing the next entity.
+The approved Ink Pact entity and required block-level consistency review are complete. The next queued entity is `magic-subversion`; its review packet should be prepared next.
 
 ## Next action
 
-Commit and sync the approved Ink Pact record, then run the required block-level consistency review before preparing the next queued entity.
+Begin preparing the `magic-subversion` review packet.
 
 ## Awaiting author input
 
@@ -115,6 +115,7 @@ None
 - decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md
 - decisions/0014-high-clades-governance-and-central-amphitheater.md
 - reports/consistency/2026-06-24-core-entities.md
+- reports/consistency/2026-06-24-ink-and-systems-block.md
 - scripts/validate_project_state.py
 - reviews/entities/magic/magic-shroud.md
 - bible/magic/magic-shroud.md
