@@ -5,23 +5,23 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-jalen` approved and ready to commit
-- Current entity under review: None
-- Latest completed entity: char-jalen
-- Latest relevant commit: 43a2eed (`bible: approve Selwin character record`)
+- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-rezin` record
+- Current entity under review: org-rezin
+- Latest completed entity: org-rezin
+- Latest relevant commit: cdd0b78 (`bible: approve Jalen character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-jalen` entity was approved by the author and stored in durable files. Jalen is accepted as Kelyra's husband and a support/planning/logistics figure, not as Concord leader or a magical/martial lead. Kelyra was marked `needs-revisit` because the Jalen/Kelyra Concord role swap requires later chronology review.
+The `org-rezin` entity was approved by the author and stored in durable files. The Rezin family and Clade are generally synonymous; Aldira, Harvick, and Erynn are inner-circle household figures; Alden is an obsolete earlier Aldira name; Alara's Naeroth origin marks a Rezin divergence from general High Clade politics.
 
 ## Current work
 
-The `char-jalen` entity is approved and ready for validation and commit.
+The approved `org-rezin` content has been applied to review, bible, candidate, decision, index, and consistency files and is ready for validation and local commit.
 
 ## Next action
 
-Validate and commit the approved `char-jalen` entity, then begin preparing the next queued entity, `org-rezin`.
+Validate, stage, inspect, and locally commit the approved `org-rezin` files; then begin the next queued entity.
 
 ## Awaiting author input
 
@@ -30,7 +30,7 @@ Validate and commit the approved `char-jalen` entity, then begin preparing the n
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by eleven commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by twelve commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -38,6 +38,7 @@ Validate and commit the approved `char-jalen` entity, then begin preparing the n
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Selwin's Dissolution, Shroud inability, crossbreed/heritage implications, final-series role, and Niall/Alara postpartum blame mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Jalen/Kelyra Concord role swap, Kelyra's Trial of Dominion fight, obsolete Jalen magic/leadership notes, and Concord chronology need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -86,3 +87,4 @@ Validate and commit the approved `char-jalen` entity, then begin preparing the n
 - bible/characters/char-harvick.md
 - planning/candidates/characters/char-harvick.md
 - decisions/0008-harvick-elric-ink-and-mentorship.md
+- reviews/entities/organizations/org-rezin.md

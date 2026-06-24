@@ -26,7 +26,7 @@ There must normally be no more than one entity marked `in-review`.
 | 6 | char-harvick | character | Harvick | approved | reviews/entities/characters/char-harvick.md | bible/characters/char-harvick.md | planning/candidates/characters/char-harvick.md | 2026-06-24 |
 | 7 | char-selwin | character | Selwin Rezin | approved | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md | 2026-06-24 |
 | 8 | char-jalen | character | Jalen | approved | reviews/entities/characters/char-jalen.md | bible/characters/char-jalen.md | planning/candidates/characters/char-jalen.md | 2026-06-24 |
-| 9 | org-rezin | organization | Rezin family / Rezin Clade | queued | reviews/entities/organizations/org-rezin.md | bible/organizations/org-rezin.md | planning/candidates/organizations/org-rezin.md |  |
+| 9 | org-rezin | organization | Rezin family / Rezin Clade | approved | reviews/entities/organizations/org-rezin.md | bible/organizations/org-rezin.md | planning/candidates/organizations/org-rezin.md | 2026-06-24 |
 | 10 | org-archeon | organization | Archeon | queued | reviews/entities/organizations/org-archeon.md | bible/organizations/org-archeon.md | planning/candidates/organizations/org-archeon.md |  |
 | 11 | org-drakhal | organization | Drakhal Clade | queued | reviews/entities/organizations/org-drakhal.md | bible/organizations/org-drakhal.md | planning/candidates/organizations/org-drakhal.md |  |
 | 12 | org-high-clades | organization | High Clades | queued | reviews/entities/organizations/org-high-clades.md | bible/organizations/org-high-clades.md | planning/candidates/organizations/org-high-clades.md |  |
@@ -65,7 +65,7 @@ There must normally be no more than one entity marked `in-review`.
 | 45 | char-serathis | character | Serathis | queued | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md |  |
 | 46 | char-vorren | character | Vorren | queued | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md |  |
 | 47 | char-caius-drakhal | character | Caius Drakhal | queued | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md |  |
-| 48 | char-alden | character | Alden | queued | reviews/entities/characters/char-alden.md | bible/characters/char-alden.md | planning/candidates/characters/char-alden.md |  |
+| 48 | char-alden | character | Alden | deferred | reviews/entities/characters/char-alden.md | bible/characters/char-alden.md | planning/candidates/characters/char-alden.md |  |
 | 49 | char-tanelle | character | Tanelle | queued | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md |  |
 | 50 | char-marek | character | Marek | queued | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md |  |
 | 51 | char-zirene | character | Zirene | queued | reviews/entities/characters/char-zirene.md | bible/characters/char-zirene.md | planning/candidates/characters/char-zirene.md |  |
@@ -101,6 +101,7 @@ There must normally be no more than one entity marked `in-review`.
 - `group-minor-glyphwrights-contractors` currently groups names such as Jessa, Kolvar, Drosin, Nire, and similar incidental contractor/glyphwright figures until review shows one needs a dedicated file.
 - `terminology-magic-social-glossary` is deferred as a catch-all for terms that may not deserve independent entity files after the first review pass.
 - `culture-demi-human-peoples`, `magic-convergence-heat-transfer`, and `thread-demi-human-mercenary-forces` were opened from the Maya review so broader demi-human worldbuilding, Naeroth exceptions, and mercenary/death-payment material can be reviewed separately from Maya's accepted character record.
+- `char-alden` is deferred because `org-rezin` approval established Alden as the prior name/gender version of Aldira from earlier drafting. Old Alden references should be reconciled during `char-aldira` review or later manuscript cleanup.
 
 ## Default Review Order
 

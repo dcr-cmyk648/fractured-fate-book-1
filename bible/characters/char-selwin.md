@@ -61,6 +61,7 @@ Current manuscript material establishes:
 - Related character: [Maya Rezin](char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Davian](char-davian.md)
+- Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Decision record: [Selwin Dissolution Shroud and Family Role](../../decisions/0009-selwin-dissolution-shroud-and-family-role.md)
 
 ## Canonical Uncertainties
