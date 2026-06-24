@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: none
+- Active or paused entity ID: magic-zan-lattices
 - Latest completed entity: magic-fateweaving-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Fateweaving and Skein magic record`
+- Latest relevant commit message: `review: prepare Zan lattice magic packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,19 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-fateweaving-skein` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Skein/Fateweaving links, probabilistic trauma-script fate sight, Maya's developing ability, Davian's canon end-book resurrection, and candidate routing for Elric's fate-sight source, resurrection cost, Heart/Ink/Skein mechanics, and Naeroth/Convergence relationships.
+The `magic-fateweaving-skein` entity was approved by the author, committed, and pushed. The next review packet, `magic-zan-lattices`, was prepared as an unapproved review checkpoint.
 
 ## Current work
 
-Finalizing `magic-fateweaving-skein` approval. No entity is active until the approved Fateweaving/Skein commit is validated, committed, and pushed.
+Paused at the author-review checkpoint for `magic-zan-lattices`. No accepted Zan/zan lattice bible or candidate files have been created yet.
 
 ## Next action
 
-Validate the approved Fateweaving/Skein changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-zan-lattices`.
+Resume from `reviews/entities/magic/magic-zan-lattices.md`, present the Zan/zan lattice review summary, and resolve the author questions. After substantive approval, store accepted and candidate zan material, update dependencies, validate, commit, push, and continue according to the queue.
 
 ## Awaiting author input
 
-- None for `magic-fateweaving-skein`; author approval was received on 2026-06-24.
+- Author answers needed for `magic-zan-lattices` terminology/spelling, profession taxonomy, representation model, Heart-powered inefficiency, Zirene scope, language/sign derivation, number/archetype routing, and Skein-layer zan routing.
 
 ## Known blockers or risks
 
@@ -72,10 +72,16 @@ Validate the approved Fateweaving/Skein changes, inspect the staged file list, c
 - decisions/index.md
 - AUTHORING.md
 - reviews/entities/magic/magic-fateweaving-skein.md
+- reviews/entities/magic/magic-zan-lattices.md
 - bible/characters/char-maya.md
 - bible/characters/char-elric.md
+- bible/characters/char-niall.md
+- bible/organizations/org-registry.md
+- bible/organizations/org-archeon.md
 - bible/magic/magic-ink-boons.md
 - bible/magic/magic-shroud.md
+- bible/magic/magic-subversion.md
+- bible/magic/magic-fateweaving-skein.md
 - outline/arcs/thread-elric-reality-skein.md
 - decisions/0001-maya-naeroth-heritage-and-appearance.md
 - decisions/0002-naeroth-demi-human-worldbuilding.md
