@@ -5,35 +5,35 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint
+- Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-characters-and-major-organizations
 - Active or paused entity ID: org-harbingers-syndicate
 - Latest completed entity: org-high-clades
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: checkpoint org-harbingers-syndicate packet`
-- Working tree expected to be clean: no
-- Remote synchronized: no
+- Latest relevant commit message: `chore: run first core-entity consistency review`
+- Working tree expected to be clean: yes
+- Remote synchronized: yes after checkpoint push
 
 ## Block status
 
 - Current block: core-characters-and-major-organizations
 - Block scope: approved core character records through Jalen and major organization records through High Clades; Harbingers/Syndicate packet is unapproved and paused
-- Approved entities since last consistency review: char-harvick, char-selwin, char-jalen, org-rezin, org-archeon, org-drakhal, org-high-clades
-- Last consistency review: first entity consistency checkpoint after Elric (`chore: record first entity consistency checkpoint`)
-- Consistency review due: yes
-- Remote synchronized: no
+- Approved entities since last consistency review: none
+- Last consistency review: reports/consistency/2026-06-24-core-entities.md
+- Consistency review due: no
+- Remote synchronized: yes after checkpoint push
 
 ## Last completed work
 
-The `org-high-clades` entity was approved by the author, stored, validated, and committed. The unapproved `org-harbingers-syndicate` review packet was checkpointed for durability without creating accepted canon.
+The `org-high-clades` entity was approved by the author, stored, validated, and committed. The unapproved `org-harbingers-syndicate` review packet was checkpointed for durability without creating accepted canon. The first core-entity consistency review was completed and recorded in `reports/consistency/2026-06-24-core-entities.md`.
 
 ## Current work
 
-Repository stabilization checkpoint. Entity queue progression is paused.
+Repository stabilization checkpoint is complete pending final validation, push, and draft pull request creation.
 
 ## Next action
 
-Finish stabilization: update workflow/control instructions, add and run the deterministic validator, run the first core-entity consistency review, commit, push the feature branch, and create a draft pull request if available.
+Review the stabilization checkpoint. When ready to resume entity work, continue with the already checkpointed `org-harbingers-syndicate` review questions or explicitly choose a different next task.
 
 ## Awaiting author input
 
@@ -42,7 +42,7 @@ Finish stabilization: update workflow/control instructions, add and run the dete
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline`; push is authorized during this checkpoint after the working tree is clean and validated.
+- Local branch should be synchronized with `origin/migration/drive-baseline` after the checkpoint push.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -109,3 +109,9 @@ Finish stabilization: update workflow/control instructions, add and run the dete
 - decisions/0012-archeon-high-clade-rise-and-training-system.md
 - decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md
 - decisions/0014-high-clades-governance-and-central-amphitheater.md
+- reports/consistency/2026-06-24-core-entities.md
+- scripts/validate_project_state.py
+
+## Later branch recommendation
+
+After `migration/drive-baseline` is reviewed and eventually merged, create the next work block on a branch such as `bible/core-magic-review`. Do not switch branches during the current checkpoint.
