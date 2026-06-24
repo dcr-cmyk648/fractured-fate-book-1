@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-characters-and-major-organizations
-- Active or paused entity ID: none
+- Active or paused entity ID: org-concord
 - Latest completed entity: org-harbingers-syndicate
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Harbingers organization record`
+- Latest relevant commit message: `review: prepare Concord organization packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes with `origin/beta`
 
@@ -29,15 +29,15 @@ The `org-harbingers-syndicate` entity was approved by the author, stored in dura
 
 ## Current work
 
-Entity review is ready to continue on `beta` after approving `org-harbingers-syndicate`.
+The `org-concord` review packet has been prepared and is awaiting author input.
 
 ## Next action
 
-Begin the next queued entity, `org-concord`, unless the author chooses a different next task.
+Answer the targeted questions in `reviews/entities/organizations/org-concord.md`.
 
 ## Awaiting author input
 
-None
+- Answer the targeted questions in `reviews/entities/organizations/org-concord.md`.
 
 ## Known blockers or risks
 
@@ -101,6 +101,7 @@ None
 - reviews/entities/organizations/org-drakhal.md
 - reviews/entities/organizations/org-high-clades.md
 - reviews/entities/organizations/org-harbingers-syndicate.md
+- reviews/entities/organizations/org-concord.md
 - bible/organizations/org-rezin.md
 - bible/organizations/org-archeon.md
 - bible/organizations/org-drakhal.md
