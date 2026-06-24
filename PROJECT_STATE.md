@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: None
+- Active or paused entity ID: magic-subversion
 - Latest completed entity: magic-ink-boons
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Ink Pact magic record`
+- Latest relevant commit message: `review: prepare Subversion magic packet`
 - Working tree expected to be clean: yes after approved workflow commit and sync
 - Remote synchronized: yes after approved workflow commit and sync
 
@@ -29,15 +29,15 @@ The `magic-ink-boons` entity was approved by the author and stored in durable ma
 
 ## Current work
 
-The approved Ink Pact entity and required block-level consistency review are complete. The next queued entity is `magic-subversion`; its review packet should be prepared next.
+The `magic-subversion` review packet has been prepared and is awaiting author review.
 
 ## Next action
 
-Begin preparing the `magic-subversion` review packet.
+Review the `magic-subversion` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
 
 ## Awaiting author input
 
-None
+- `magic-subversion` is awaiting author review.
 
 ## Known blockers or risks
 
@@ -122,6 +122,7 @@ None
 - planning/candidates/magic/magic-shroud.md
 - decisions/0018-shroud-throughput-and-manifestation-model.md
 - decisions/0019-ink-pact-terminology-and-core-mechanics.md
+- reviews/entities/magic/magic-subversion.md
 - reviews/entities/magic/magic-ink-boons.md
 - bible/magic/magic-ink-boons.md
 - planning/candidates/magic/magic-ink-boons.md
