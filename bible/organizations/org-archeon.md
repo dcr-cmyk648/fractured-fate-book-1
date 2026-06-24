@@ -80,6 +80,8 @@ Davian inherits or develops Archeon-derived ability through Kelyra. His Shroud, 
 
 Archeon is politically involved with Drakhal and other High Clade maneuvering after the Heart theft. Drakhal may use Archeon as ally, leverage, blackmail, or a less-fortunate partner, while Serathis resents being treated as subordinate.
 
+Drakhal and Archeon have a canon verbal breeding-contract agreement in which Drakhal agrees to let Archeon breed Kelyra with Vorren. Whether Vorren knows, consents, or would follow through remains unresolved.
+
 Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid sequence belong to later Drakhal, High Clade politics, and revision reviews.
 
 ## Related Files
@@ -89,6 +91,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
+- Related organization: [Drakhal Clade](org-drakhal.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 
 ## Canonical Uncertainties

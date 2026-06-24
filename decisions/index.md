@@ -18,3 +18,4 @@ Do not use this file as a dump for unresolved questions.
 | Jalen and Kelyra Concord Role Swap | 2026-06-24 | accepted; stored in approved `char-jalen` record; marks `char-kelyra` needs-revisit | [0010-jalen-kelyra-concord-role-swap.md](0010-jalen-kelyra-concord-role-swap.md) |
 | Rezin Clade, Family, and Household Structure | 2026-06-24 | accepted; stored in approved `org-rezin` record | [0011-rezin-clade-family-and-household-structure.md](0011-rezin-clade-family-and-household-structure.md) |
 | Archeon High Clade Rise and Training System | 2026-06-24 | accepted; stored in approved `org-archeon` record | [0012-archeon-high-clade-rise-and-training-system.md](0012-archeon-high-clade-rise-and-training-system.md) |
+| Drakhal Political Strategy and Vorren Affiliation | 2026-06-24 | accepted; stored in approved `org-drakhal` record | [0013-drakhal-political-strategy-and-vorren-affiliation.md](0013-drakhal-political-strategy-and-vorren-affiliation.md) |

@@ -5,15 +5,15 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-archeon` record
-- Current entity under review: org-archeon
-- Latest completed entity: org-archeon
-- Latest relevant commit: e5857d7 (`bible: approve Rezin organization record`)
+- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-drakhal` record
+- Current entity under review: org-drakhal
+- Latest completed entity: org-drakhal
+- Latest relevant commit: bd5dc61 (`bible: approve Archeon organization record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `org-archeon` entity was approved by the author and stored in durable files. Archeon is a current High Clade by six-citadel possession; it rose from Low Clade status; Serathis is Head Magus; brutal child-training, breeding programs, release-and-catch, and moderate Elric influence are accepted.
+The `org-drakhal` entity was approved by the author and stored in durable files. Drakhal is accepted as a force-magic High Clade; Evana is current Head Magus; Caius is the marriage-candidate figure; Vorren is Caius's banished older brother and secretly Drakhal-affiliated; Drakhal's Niall/Maya proposal is a political trap.
 
 ## Current work
 
@@ -21,10 +21,11 @@ The `org-rezin` entity was approved, stored, validated, and committed as `e5857d
 
 ## Next action
 
-Validate, stage, inspect, and locally commit the approved `org-archeon` files; then begin the next queued entity.
+Validate, stage, inspect, and locally commit the approved `org-drakhal` files; then begin the next queued entity.
 
 ## Awaiting author input
 
+- None
 - None
 
 ## Known blockers or risks
@@ -40,6 +41,7 @@ Validate, stage, inspect, and locally commit the approved `org-archeon` files; t
 - Jalen/Kelyra Concord role swap, Kelyra's Trial of Dominion fight, obsolete Jalen magic/leadership notes, and Concord chronology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
 - Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -90,3 +92,4 @@ Validate, stage, inspect, and locally commit the approved `org-archeon` files; t
 - decisions/0008-harvick-elric-ink-and-mentorship.md
 - reviews/entities/organizations/org-rezin.md
 - reviews/entities/organizations/org-archeon.md
+- reviews/entities/organizations/org-drakhal.md

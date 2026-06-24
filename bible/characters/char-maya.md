@@ -112,6 +112,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
+- Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)

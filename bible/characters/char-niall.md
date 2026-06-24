@@ -88,6 +88,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
+- Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)

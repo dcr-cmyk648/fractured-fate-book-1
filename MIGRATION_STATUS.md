@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-elric`, `char-harvick`, `char-selwin`, `char-jalen`, `org-rezin`, and `org-archeon` approved; `char-kelyra` marked needs-revisit for Concord role-swap chronology; `char-alden` deferred as an obsolete Aldira name pending cleanup
+Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-elric`, `char-harvick`, `char-selwin`, `char-jalen`, `org-rezin`, `org-archeon`, and `org-drakhal` approved; `char-kelyra` marked needs-revisit for Concord role-swap chronology; `char-alden` deferred as an obsolete Aldira name pending cleanup
 
 Gate:
 
