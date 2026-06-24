@@ -16,6 +16,8 @@ The Rezin family and Rezin Clade are generally synonymous. The Rezins are a majo
 
 The Rezin citadel's access to the Registry is part of why the citadel position is so desirable. The other High Clades covet the Registry.
 
+The Rezin citadel is a massive fortress-city complex. The Registry is below ground, the Treasury is high up, and the citadel's central spire is an architectural feature distinct from the separate Presentation Spire.
+
 The current accepted record should not split family, Clade, household, military structure, and citadel administration into separate entities unless later reviews require it.
 
 ## Core Family
@@ -74,8 +76,10 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Registry](org-registry.md)
+- Related location: [Rezin Citadel / Rezin fortress](../locations/loc-rezin-citadel.md)
 - Decision record: [Rezin Clade Family and Household Structure](../../decisions/0011-rezin-clade-family-and-household-structure.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
+- Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 
 ## Canonical Uncertainties
 

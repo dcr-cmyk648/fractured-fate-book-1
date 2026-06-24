@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: loc-rezin-citadel
-- Latest completed entity: magic-codex-memory
+- Active or paused entity ID: none
+- Latest completed entity: loc-rezin-citadel
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Rezin citadel location packet`
+- Latest relevant commit message: `bible: approve Rezin citadel location`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,20 +25,19 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-codex-memory` entity was approved by the author. Durable files now record `auratic codex` as the accepted term, codices as immersive experiential memory systems accessed by key incantation plus aura/tether interaction, Elric's tampering with Alara's codex as the source of aura-imprint bridge behavior, and parent-memory idealization/distortion as part of the codex trap. The next queued entity, `loc-rezin-citadel`, has been opened for author review.
+The `loc-rezin-citadel` entity was approved by the author. Durable files now record the Rezin citadel as a massive fortress-city complex, with the Registry below ground, Treasury high up, no elevators, contractors allowed to leave under search/Registry monitoring, old tunnels and Elric's chamber in the ancient layer, and the Rezin central spire distinct from the separate Presentation Spire.
 
 ## Current work
 
-Review packet prepared for `loc-rezin-citadel`; awaiting author answers before creating accepted canon.
+Finalizing `loc-rezin-citadel` approval. No entity is active until the approved Rezin citadel commit is validated, committed, and pushed.
 
 ## Next action
 
-Present the `loc-rezin-citadel` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
+Validate the approved Rezin citadel changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `loc-registry`.
 
 ## Awaiting author input
 
-- `loc-rezin-citadel`: umbrella location boundary versus Registry/Treasury/Spire sublocations.
-- `loc-rezin-citadel`: fortress-city model, older city-wedge sheltering logic, contractor movement/search rules, old tunnels, Elric chamber, and deferred vertical layout/access issues.
+- None for `loc-rezin-citadel`; author approval was received on 2026-06-24.
 
 ## Known blockers or risks
 
@@ -60,6 +59,7 @@ Present the `loc-rezin-citadel` review summary and resolve the author questions.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
@@ -92,6 +92,9 @@ Present the `loc-rezin-citadel` review summary and resolve the author questions.
 - planning/candidates/magic/magic-codex-memory.md
 - decisions/0024-auratic-codex-memory-mechanics.md
 - reviews/entities/locations/loc-rezin-citadel.md
+- bible/locations/loc-rezin-citadel.md
+- planning/candidates/locations/loc-rezin-citadel.md
+- decisions/0025-rezin-citadel-location-boundaries.md
 
 ## Later branch recommendation
 

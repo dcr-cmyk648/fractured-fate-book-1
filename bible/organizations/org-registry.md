@@ -18,6 +18,8 @@ It is Rezin-specific. The Rezin citadel's access to the Registry is part of why 
 
 This file owns the Registry as an institution/system. The physical chamber belongs to `loc-registry`; detailed zä-lattice mechanics belong to `magic-zan-lattices`.
 
+The Registry chamber is below ground in the Rezin citadel.
+
 ## Functions
 
 The Registry records and verifies people through true name and aura.
@@ -68,6 +70,7 @@ Those redesign plans are not realized during the course of Book 1.
 - Candidate material: [org-registry](../../planning/candidates/organizations/org-registry.md)
 - Related organization: [Rezin Family / Rezin Clade](org-rezin.md)
 - Related organization: [High Clades](org-high-clades.md)
+- Related location: [Rezin Citadel / Rezin fortress](../locations/loc-rezin-citadel.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
@@ -75,11 +78,12 @@ Those redesign plans are not realized during the course of Book 1.
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 
 ## Canonical Uncertainties
 
 - Exact active/passive alarm thresholds and technical mechanics remain for `magic-zan-lattices`.
-- Exact physical chamber layout remains for `loc-registry`.
+- Exact physical chamber layout remains for `loc-registry`, but the chamber is below ground.
 - Exact Heart-to-Registry power path remains for `object-seraph-heart`.
 - Exact Caius active-mode encounter details remain for Drakhal/Caius and revision review.
 - Exact gateway/passive-only repair implementation remains candidate or future-book material.

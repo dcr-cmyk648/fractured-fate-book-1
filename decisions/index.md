@@ -30,3 +30,4 @@ Do not use this file as a dump for unresolved questions.
 | Zän Terminology and Lattice Principles | 2026-06-24 | accepted; stored in approved `magic-zan-lattices` record | [0022-zan-terminology-and-lattice-principles.md](0022-zan-terminology-and-lattice-principles.md) |
 | Antithesis Boundary and Paradox Future Plan | 2026-06-24 | accepted; stored in approved `magic-antithesis` boundary record | [0023-antithesis-boundary-and-paradox-future-plan.md](0023-antithesis-boundary-and-paradox-future-plan.md) |
 | Auratic Codex Memory Mechanics | 2026-06-24 | accepted; stored in approved `magic-codex-memory` record | [0024-auratic-codex-memory-mechanics.md](0024-auratic-codex-memory-mechanics.md) |
+| Rezin Citadel Location Boundaries | 2026-06-24 | accepted; stored in approved `loc-rezin-citadel` record | [0025-rezin-citadel-location-boundaries.md](0025-rezin-citadel-location-boundaries.md) |

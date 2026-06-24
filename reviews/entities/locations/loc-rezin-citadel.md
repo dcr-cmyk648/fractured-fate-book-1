@@ -2,7 +2,7 @@
 id: loc-rezin-citadel
 entity_type: location
 display_name: Rezin Citadel / Rezin fortress
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -24,7 +24,7 @@ It should not own detailed records for:
 
 - `loc-registry`: physical Registry chamber
 - `loc-treasury`: Treasury / vault chamber
-- `loc-spire`: central spire or historical Spire-specific questions
+- `loc-spire`: the separate Presentation Spire location
 - `org-rezin`: Rezin family/Clade governance and household
 - `org-registry`: Registry as institution/security system
 
@@ -35,7 +35,7 @@ It should not own detailed records for:
 - Maya explains that the original citadels were designed to shelter the whole city-wedge population during war, when cities were smaller. Many now-empty or odd courtyards were originally staging areas for supply storage, livestock, tents, and temporary shelters. Provenance: `imports/normalized/melissa-copy.md:21455-21479`.
 - The citadel has major outer defenses, including walls, ramparts, eastern and western defense zones, wall commanders, soldiers, archers, and battle access routes. Provenance: `imports/normalized/melissa-copy.md:392-760`; `imports/normalized/book-1-outline.md:1231`.
 - The citadel has inner courtyards and training courtyards, including secluded spaces used for Maya, Davian, Selwin, Harvick, and later group training. Provenance: `imports/normalized/melissa-copy.md:20296-20542`, `21332-21608`; `imports/normalized/book-1-outline.md:2155-2167`.
-- The central spire is visually and functionally important. Current outline material describes it as the original centerpiece, with walls and outbuildings radiating outward into a self-contained city. Exact spire mechanics and historical naming belong to `loc-spire`. Provenance: `imports/normalized/book-1-outline.md:2762-2774`.
+- The central architectural spire is visually and functionally important but is not a named special location. The separate Presentation Spire belongs to `loc-spire`. Provenance: `imports/normalized/book-1-outline.md:2762-2774`; author feedback on 2026-06-24.
 - Old tunnels beneath the citadel and base of the main spire are ancient, sparse in records, and older than much of the expanded aboveground structure. Provenance: `imports/normalized/melissa-copy.md:18880-19114`.
 - Elric's hidden chamber lies behind or beyond an old tunnel/alcove system connected to the place Maya found Alara's codex. It contains dense old zänwork and Ink/codex-related mechanisms. Exact chamber mechanics overlap Elric, zän, codex, and later location/object reviews. Provenance: `imports/normalized/melissa-copy.md:18859-19309`.
 
@@ -44,7 +44,7 @@ It should not own detailed records for:
 - The Rezin citadel is part of the Rezin power base and contains key assets: Heart, Treasury, Registry, soldiers, walls, household, advisers, healers, zänwrights, and contractors. Provenance: `bible/organizations/org-rezin.md`.
 - The Registry is Rezin-specific and one reason the citadel is politically desirable. Provenance: `bible/organizations/org-registry.md`.
 - Major Rezin systems are powerful but overbuilt around Heart input and become compromised or shrink/fail after the Heart is stolen. Provenance: `bible/magic/magic-zan-lattices.md`; `bible/organizations/org-registry.md`.
-- The physical Registry chamber, Treasury/vault chamber, and Spire remain separate queued location records.
+- The physical Registry chamber, Treasury/vault chamber, and Presentation Spire remain separate queued location records.
 
 ## Consistent information
 
@@ -59,13 +59,13 @@ It should not own detailed records for:
 ### Registry height / window escape
 
 - Comments flag that if Davian jumps out of a very high Registry window, the Registry's physical position may need to change, or a magical elevator/access solution may be needed.
-- Lifecycle: belongs primarily to `loc-registry` and later revision, but affects citadel vertical layout.
+- Resolution: Registry is below ground, Treasury is high up, and no elevator or similar vertical transport is accepted. Exact map and access routes remain deferred.
 - Provenance: `imports/normalized/melissa-copy.comments.md:45-47`.
 
 ### Central Spire terminology
 
 - Approved High Clade material says Central Spire is historical name for a central amphitheater built into a High Clade war blast hole, while Rezin citadel material also uses a central spire/main spire.
-- Lifecycle: route exact terminology to `loc-spire` and High Clade/city layout reviews.
+- Resolution: the Rezin citadel has a central spire as an architectural feature, but it is not named or special by itself. The Presentation Spire is a separate location for `loc-spire`.
 - Provenance: `CONSISTENCY_QUEUE.md:CQ-0019`.
 
 ### Scale and city sheltering
@@ -77,15 +77,15 @@ It should not own detailed records for:
 
 - Exact citadel map.
 - Exact relation among outer walls, central spire, Registry, Treasury, meeting outbuilding, family quarters, contractor barracks, training courtyards, and old tunnels.
-- Whether the Registry/Treasury are high in the spire, below ground, or connected through special access.
+- Exact routes between the below-ground Registry and the high Treasury.
 - Exact old tunnel network and Elric chamber access points.
 - Exact contractor movement/search protocol.
-- Exact magical elevator or vertical transport.
+- Magical elevator or vertical transport is rejected/not accepted.
 - Exact post-Heart security plan and passive Registry gate redesign.
 
 ## Proposed accepted record
 
-These points are proposed for author approval, not yet canonized by this packet.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
@@ -95,6 +95,10 @@ These points are proposed for author approval, not yet canonized by this packet.
 - The original citadel design could shelter much of the older city-wedge population during war; modern city growth means it cannot literally house the whole present-day city.
 - Many courtyards and open areas are old staging spaces for supplies, livestock, tents, temporary shelters, military assembly, or emergency use.
 - The citadel is secure but not sealed like a prison. Contractors/personnel may leave under search and Registry/security monitoring.
+- The Registry is below ground.
+- The Treasury is high up.
+- No elevators or similar vertical-transport solution are accepted.
+- The Rezin central spire is a plain architectural feature distinct from the separate Presentation Spire.
 
 ### backstory-canon
 
@@ -104,9 +108,8 @@ These points are proposed for author approval, not yet canonized by this packet.
 ### candidate
 
 - Exact map and vertical layout.
-- Exact Registry/Treasury/Spire placement.
+- Exact map and access routes among the Registry, Treasury, spire, courtyards, and tunnels.
 - Exact Elric hidden chamber relation to old tunnels.
-- Magical elevator or other access solution.
 - Post-Heart security redesign.
 
 ## Proposed candidate record
@@ -114,8 +117,9 @@ These points are proposed for author approval, not yet canonized by this packet.
 Retain in `planning/candidates/locations/loc-rezin-citadel.md` after approval:
 
 - map/layout variants
-- Registry height/window/elevator issues
-- central spire terminology conflict
+- exact Registry-to-Treasury access route
+- rejected elevator issue
+- separate Presentation Spire boundary
 - old tunnel network
 - Elric chamber access
 - contractor movement/search protocol
@@ -123,23 +127,25 @@ Retain in `planning/candidates/locations/loc-rezin-citadel.md` after approval:
 
 ## Questions for the author
 
-1. Should this file be the umbrella location record for the whole Rezin citadel, while `loc-registry`, `loc-treasury`, and `loc-spire` own detailed sublocations?
-2. Accept the fortress-city model: massive citadel complex with walls, towers, bridges, courtyards, old staging areas, and later expansions?
-3. Accept that the citadel was designed to shelter the older city-wedge population in wartime, but not the much larger modern city?
-4. Accept that contractors/personnel can leave, but are searched and tracked/monitored by Registry/security rather than imprisoned?
-5. Should old tunnels beneath the main spire and Elric's hidden chamber be accepted as part of the citadel's ancient layer, with exact map deferred?
-6. Should Registry/Treasury/Spire vertical placement and any magical elevator/access issue remain candidate for sublocation reviews?
-7. Should the central spire naming conflict stay deferred to `loc-spire`?
+Resolved by author feedback on 2026-06-24:
+
+1. This file is the umbrella location record for the whole Rezin citadel; `loc-registry`, `loc-treasury`, and `loc-spire` own detailed sublocations.
+2. The fortress-city model is accepted.
+3. The older city-wedge sheltering logic is accepted, but the modern city is too large for full sheltering.
+4. Contractors/personnel can leave, but are searched and tracked/monitored by Registry/security.
+5. Old tunnels and Elric's hidden chamber are part of the citadel's ancient layer; exact map deferred.
+6. Registry is below ground, Treasury is high up, and no elevators or similar vertical transport are accepted. Specific map/routes deferred.
+7. The Rezin citadel has a central spire as an architectural feature, but it is not named or special. The Presentation Spire is a separate location.
 
 ## Proposed file changes
 
-If approved, create:
+Created after approval:
 
 - `bible/locations/loc-rezin-citadel.md`
 - `planning/candidates/locations/loc-rezin-citadel.md`
 - a decision record for Rezin citadel layout boundaries
 
-Also update:
+Also updated:
 
 - `ENTITY_INDEX.md`
 - `PROJECT_STATE.md`
