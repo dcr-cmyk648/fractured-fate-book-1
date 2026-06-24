@@ -5,32 +5,32 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; finalizing `org-high-clades`
-- Current entity under review: org-high-clades
+- Current migration phase: Phase 4 entity-by-entity review; `org-harbingers-syndicate` awaiting author review
+- Current entity under review: org-harbingers-syndicate
 - Latest completed entity: org-high-clades
-- Latest relevant commit: pending local commit for `org-high-clades`
+- Latest relevant commit: 8cc24af (`bible: approve High Clades organization record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `org-drakhal` entity was approved by the author, stored, validated, and committed as `3a42d7d`.
+The `org-high-clades` entity was approved by the author, stored, validated, and committed as `8cc24af`.
 
 ## Current work
 
-The `org-high-clades` entity was approved by the author and is being stored in durable files.
+The `org-harbingers-syndicate` review packet has been prepared and is awaiting author input.
 
 ## Next action
 
-Validate and commit the approved `org-high-clades` entity, then begin the next queued organization review.
+Review `reviews/entities/organizations/org-harbingers-syndicate.md` and answer the targeted questions about Syndicate/Harbingers naming, leader origin, five-figure staging, Jalen's seat, false revolutionary ideology, Drakhal/Vorren/Archeon coordination, and the masked figure beside the leader.
 
 ## Awaiting author input
 
-- None
+- Author decision needed on the targeted questions in `reviews/entities/organizations/org-harbingers-syndicate.md`.
 
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by fifteen commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by sixteen commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -94,3 +94,4 @@ Validate and commit the approved `org-high-clades` entity, then begin the next q
 - reviews/entities/organizations/org-archeon.md
 - reviews/entities/organizations/org-drakhal.md
 - reviews/entities/organizations/org-high-clades.md
+- reviews/entities/organizations/org-harbingers-syndicate.md
