@@ -118,10 +118,11 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
+- Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 
 ## Canonical Uncertainties
 
-- The final name/status of the Harbingers/Syndicate remains unresolved.
+- The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
 - Broader Ink/Shroud/Subversion mechanics remain unresolved.
 - Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-ink-boons`, `magic-fateweaving-skein`, and Harbinger/Syndicate reviews.
 - The real Arrek's background and full consequences of his murder remain for `char-arrek`.

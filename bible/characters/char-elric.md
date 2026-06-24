@@ -62,7 +62,9 @@ His manipulations affect Davian, Niall, Maya, Harvick, the Harbingers/Syndicate,
 
 Elric gave the future Harbinger/Syndicate leader an Ink Pact before the book begins. After Elric's original body was destroyed, he used that pact as the route to slow possession.
 
-Through this takeover, he transformed the Syndicate criminal organization into the Harbingers. Exact organization history, naming, membership, and public-facing ideology remain for `org-harbingers-syndicate`.
+Through this takeover, he transformed the Syndicate criminal organization into the Harbingers. The name change is a proxy measure for Elric's takeover of the young leader's psyche.
+
+Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers, although the fact that he is Elric in another body is not generally known. Serathis may possibly suspect it.
 
 ## Important Relationships
 
@@ -104,12 +106,14 @@ Current manuscript material establishes:
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
+- Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
+- Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 
 ## Canonical Uncertainties
 
 - Exact mechanics of Elric's fate-strand sight remain for `magic-fateweaving-skein`.
-- Exact mechanics of Ink Pacts, possession, and the Harbinger leader's takeover remain for `magic-ink-boons` and `org-harbingers-syndicate`.
+- Exact mechanics of Ink Pacts, possession, and the Harbinger leader's takeover remain for `magic-ink-boons`.
 - Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.
 - Elric's one known birth contract and hidden lineage records remain unresolved.

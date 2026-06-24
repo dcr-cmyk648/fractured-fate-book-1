@@ -52,7 +52,7 @@ His combat contribution is primarily support and ranged weapons. Older planning 
 
 ## Current Manuscript State
 
-Current manuscript material still contains earlier-role traces where the Syndicate/Harbingers threaten Jalen's "seat" and initially plan to use him for the Heart theft with an aura-mimic Ink Boon. Because later planning swapped Jalen and Kelyra's Concord roles, these references need chronology and organization review.
+Current manuscript material still contains earlier-role traces where the Syndicate/Harbingers threaten Jalen's "seat" and initially plan to use him for the Heart theft with an aura-mimic Ink Boon. The accepted organization direction moves this threat to Kelyra's position as Concord leader. These older Jalen-seat references need chronology and manuscript revision review.
 
 Current manuscript material establishes Jalen as:
 
@@ -69,12 +69,14 @@ Current manuscript material establishes Jalen as:
 - Candidate material: [char-jalen](../../planning/candidates/characters/char-jalen.md)
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
+- Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Decision record: [Jalen and Kelyra Concord Role Swap](../../decisions/0010-jalen-kelyra-concord-role-swap.md)
+- Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 
 ## Canonical Uncertainties
 
 - Exact Concord leadership titles, hierarchy, and Trial of Dominion mechanics remain for `org-twilight-concord`.
-- Exact handling of older manuscript references to Jalen's seat and Boons needs later chronology review.
+- Exact handling of older manuscript references to Jalen's seat and Boons needs later chronology and manuscript revision review.
 - Exact Selina death history and Antithesis/blade backstory remain for later Selina and object reviews.
 - Exact Jalen/Kelyra logistics during the Heart theft and late Concord conflict need later plot review.
 

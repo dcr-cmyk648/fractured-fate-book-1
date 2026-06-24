@@ -24,6 +24,8 @@ Caius Drakhal is the main young Drakhal representative and marriage-candidate fi
 
 Vorren is Caius's older brother. He was publicly banished from Drakhal at Niall's insistence, which gave Caius the heir position. Vorren still works for Drakhal-aligned interests in secret, not because he cares about Drakhal, but because Evana and Elric can manipulate his desire for chaos and death into situations that serve their plans.
 
+Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers. That the Harbinger leader is actually Elric in another body is not generally known.
+
 `Ivana` and `Evand` are obsolete prior draft options for Drakhal leadership naming.
 
 ## Political Strategy
@@ -64,6 +66,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Rezin Family / Rezin Clade](org-rezin.md)
 - Related organization: [High Clades](org-high-clades.md)
+- Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
@@ -75,7 +78,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Caius's full character file remains unwritten.
 - Evana's full character file remains unwritten.
 - Vorren's full character file remains unwritten.
-- Exact Drakhal/Harbinger/Vorren operational details remain for later organization and narrative-thread reviews.
+- High-level Drakhal/Harbinger/Vorren coordination is accepted. Exact operational details, knowledge boundaries, and deniability remain for later organization, character, and narrative-thread reviews.
 - Exact execution of the Caius-Maya proposal, Niall-banishment gambit, and Archeon/Vorren trap remains for plot review.
 
 ## Provenance

@@ -68,6 +68,8 @@ Elric continues to mark Archeon members, including Kelyra. He also occasionally 
 
 Elric does not directly run Archeon day to day. His influence operates through fate-thread manipulation, long-range planning, occasional meetings with Serathis, and Ink/marking mechanisms.
 
+Elric also coordinates with Archeon, Drakhal, and Vorren through the Harbingers. Serathis may possibly suspect that the Harbinger leader is Elric in another body, but that remains unresolved.
+
 ## Current and Intended Heirs
 
 Kelyra and Davian are the heirs Serathis has been looking for: potential users able to fully combine kinesis, Ink Pacts, Shroud use, and martial arts.
@@ -93,6 +95,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
+- Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 
 ## Canonical Uncertainties

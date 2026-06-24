@@ -19,6 +19,8 @@ She is directly descended from Archeon breeding programs. The exact number of ge
 
 Kelyra became the Concord's de facto primary leader after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact. Exact Concord leadership structure and chronology remain for later organization review.
 
+The Harbingers' Heart-theft pressure now targets Kelyra's position as Concord leader. Because Kelyra gained power through an Ink Pact and Trial of Dominion, the implied threat is that someone else could be granted comparable power to challenge her.
+
 ## Personality and Psychological Patterns
 
 Kelyra is practical, dry, sharp, and strategically fast. When Jalen and Davian tell her the Syndicate/Harbingers have escalated the mission into stealing the Heart, she is shocked, then immediately pivots to planning because there is no time to waste.
@@ -84,6 +86,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Related character: [Jalen](char-jalen.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
+- Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)

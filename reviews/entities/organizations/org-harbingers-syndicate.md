@@ -2,7 +2,7 @@
 id: org-harbingers-syndicate
 entity_type: organization
 display_name: Harbingers / Syndicate
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -127,18 +127,22 @@ Approved adjacent facts:
 
 ## Proposed accepted record
 
-Proposal:
+Approved direction from author feedback on 2026-06-24:
 
 - Store one combined organization file for `org-harbingers-syndicate`.
-- Treat `Syndicate` as the earlier / former organization name and `Harbingers` as the current Ink-powered name, unless the author chooses otherwise.
-- The organization was once a smaller criminal syndicate / smuggling ring led by a minor nameless youth. After gaining access to Elric's Ink Pact / Ink Boon mechanisms, the leader distributed power and rapidly absorbed the underworld, Masked Clades, slums, and shadow economies.
+- Treat `Syndicate` as the earlier / former organization name and `Harbingers` as the current Ink-powered name. Some people may still call the organization the Syndicate if they knew it long ago. The name change is a proxy measure for Elric's takeover of the young leader's psyche.
+- The leader was much more minor before Elric's takeover, but was already up-and-coming because of tactical genius and an ability to make bargains. Elric picked him because it would be easy and convenient to continue that trajectory while effectively taking over the entire underworld.
 - The leader received an Ink Pact from Elric before the book begins. After Niall destroyed Elric's original body, Elric used that pact to slowly take over the leader. By the start of the book, the leader is almost completely controlled by Elric; possession completes near the end after Maya enters the Skein to resurrect Davian.
 - The Harbingers operate through hidden meeting places, underground routes, guides, dead drops, codes, masks, intimidation, bargains, and reputation.
 - The Harbingers use Ink Boons / Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence.
 - The Harbingers pressure Davian's family / Concord into the Heart theft and use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
-- Kelyra believes or wants to believe the Harbingers can provide power and safety for her family and the underclass. This belief is part of the lie Elric sells: power to the people against the High Clades.
+- The threat in the Heart-theft setup is now to Kelyra's position as Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over; the implication is that someone else could be granted the same power to challenge her, and eventually is.
+- Kelyra believes or wants to believe the Harbingers can provide power and safety for her family and the underclass. The Harbingers' public-facing cover story is revolutionary/populist: power to the people against the High Clades. Anyone deeply involved would know this is strained at best, but the organization understands that good public relations matter, and the cover gives justice-focused members a moral fig leaf for involvement in criminal activity.
 - The Harbingers' public reputation includes keeping bargains when someone still has value, but they betray or manipulate that expectation when it serves Elric's plan.
-- Keep exact Ink mechanics, leader name, five-figure structure, Drakhal/Vorren coordination, and Concord hierarchy conflicts as candidate / follow-up material unless the author settles them now.
+- The five hooded figures from the early meeting can remain canon. Elric has allies whose identities he may want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people.
+- Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers. That the leader is actually Elric in someone else's body would not be known by anyone except possibly suspected by Serathis.
+- The masked figure beside the Harbinger leader during Kelyra's Heart delivery is Vorren.
+- Keep exact Ink mechanics, leader name, five-figure identities, Concord Trial mechanics, and late plot execution as candidate / follow-up material.
 
 ## Proposed planning or arc record
 
@@ -149,23 +153,16 @@ Proposal:
 
 ## Proposed candidate record
 
-- Five hooded figures / council staging.
+- Exact identities and role of the five hooded figures / council staging.
 - Exact leader name, origin, and pre-Ink smuggling ring details.
-- Whether the masked figure beside the leader during Kelyra's Heart delivery is Vorren, another agent, or an older draft element.
-- Exact Drakhal / Archeon / Vorren coordination.
+- Exact Drakhal / Archeon / Vorren coordination mechanics and what each party knows.
 - Jalen-seat / Trial of Dominion mechanics after the Kelyra role swap.
 - Davian's final Boon set and Antithesis transformation.
 - Masked Clade scripts, tattoos, sign, and mask customs.
 
 ## Questions for the author
 
-1. Should `Syndicate` be stored as the former name and `Harbingers` as the current name, all in one organization file?
-2. Was the leader originally a minor smuggler / small syndicate leader before Elric's Ink Pact let him take over the underworld?
-3. Should the five hooded figures from the early meeting remain canon as a council/front, or should that be treated as old draft staging?
-4. With Kelyra now the Concord leader, should the early threat to Jalen's "seat" be marked suspect for later rewrite, or does Jalen still hold a formal seat the Harbingers can threaten?
-5. Should the Harbingers' public pitch be accepted as false revolutionary/populist power-to-the-people ideology against the High Clades?
-6. Should direct Harbinger coordination with Drakhal/Vorren/Archeon be accepted now at a high level, or kept candidate until Vorren / Harbingers / late-plot reviews?
-7. Is the masked figure beside the Harbinger leader during Kelyra's Heart delivery intended to be Vorren, or should that remain unresolved?
+Resolved by author feedback on 2026-06-24. No open author questions remain for approving this organization record.
 
 ## Proposed file changes
 

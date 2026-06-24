@@ -107,7 +107,7 @@ Current phase notes:
 
 - Core-character block is complete.
 - Major-organization review is in progress.
-- First core-entity consistency review is pending as part of repository stabilization.
+- First core-entity consistency review has been completed.
 - Detailed entity queue status lives only in `ENTITY_INDEX.md`.
 
 Gate:

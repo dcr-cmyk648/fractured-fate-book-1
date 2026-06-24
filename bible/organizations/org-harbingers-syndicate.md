@@ -1,0 +1,96 @@
+---
+id: org-harbingers-syndicate
+entity_type: organization
+display_name: Harbingers / Syndicate
+status: approved
+last_reviewed: 2026-06-24
+review_packet: reviews/entities/organizations/org-harbingers-syndicate.md
+candidate_file: planning/candidates/organizations/org-harbingers-syndicate.md
+---
+
+# Harbingers / Syndicate
+
+## Identity
+
+The Harbingers are the current Ink-powered form of the older Syndicate criminal organization. Some people may still call the organization the Syndicate if they knew it long ago.
+
+The Syndicate-to-Harbingers name change is a proxy measure for Elric's takeover of the young leader's psyche.
+
+The organization should remain one combined entity record unless later review requires splitting the earlier Syndicate from the later Harbingers.
+
+## Origin and Leadership
+
+Before Elric's intervention, the leader was much more minor than he is now, but already up-and-coming because of tactical genius and an ability to make bargains.
+
+Elric chose him because it would be easy and convenient to continue that existing trajectory while effectively taking over the entire underworld.
+
+The leader received an Ink Pact from Elric before the book begins. After Niall destroyed Elric's original body, Elric used that pact to slowly take over the leader. By the start of the book, the leader is almost completely controlled by Elric. The takeover completes near the end of the book, after Maya enters the Skein to resurrect Davian.
+
+The leader's exact original name and pre-takeover history remain unresolved.
+
+## Operations
+
+The Harbingers operate through hidden meeting places, underground routes, guides, dead drops, codes, masks, intimidation, bargains, and reputation.
+
+They use Ink Boons and Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence. Exact Ink mechanics remain for `magic-ink-boons`.
+
+The five hooded figures from the early Syndicate meeting can remain part of the current canon. Elric has many allies whose identities he might want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people. Their exact identities and structural role remain unresolved.
+
+## Public Ideology and Cover Story
+
+When the Harbingers are public-facing or scrutinized, their default cover story is revolutionary and populist: power to the people against the High Clades.
+
+Anyone deeply involved with them would know this is a stretch at best, but the organization understands that good public relations matter. The story also lets justice-focused members give themselves a moral fig leaf for involvement in criminal activity.
+
+The hidden truth is that Elric uses the Harbingers as an operational tool for his own endgame.
+
+## Heart Theft and Concord Pressure
+
+The Harbingers pressure Davian's family and the Concord into the Heart theft. They use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
+
+The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. The implication is that someone else could be granted the same power to challenge her, and eventually is.
+
+Older manuscript material that frames this as a threat to Jalen's seat is suspect and should be repaired during Concord chronology or manuscript revision work.
+
+## External Coordination
+
+Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers.
+
+The fact that the Harbinger leader is actually Elric in someone else's body is not known generally. Serathis may possibly suspect it, but this remains unresolved.
+
+The masked figure beside the Harbinger leader during Kelyra's Heart delivery is Vorren.
+
+## Related Files
+
+- Review packet: [org-harbingers-syndicate](../../reviews/entities/organizations/org-harbingers-syndicate.md)
+- Candidate material: [org-harbingers-syndicate](../../planning/candidates/organizations/org-harbingers-syndicate.md)
+- Related character: [Elric Rezin](../characters/char-elric.md)
+- Related character: [Davian](../characters/char-davian.md)
+- Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Jalen](../characters/char-jalen.md)
+- Related organization: [Drakhal Clade](org-drakhal.md)
+- Related organization: [Archeon](org-archeon.md)
+- Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
+
+## Canonical Uncertainties
+
+- Exact Ink Boon / Ink Pact mechanics, including control, transfer, failure, depletion, and body takeover, remain for `magic-ink-boons`.
+- Exact leader name and pre-Ink personal history remain unresolved.
+- Exact identities and authority of the five hooded figures remain unresolved.
+- Exact Concord Trial of Dominion mechanics and the later challenge to Kelyra remain for `org-concord`.
+- Exact late-book Harbinger / Drakhal / Vorren / Archeon operation sequence remains for later plot and character reviews.
+- Exact Masked Clade scripts, tattoos, signs, and mask customs remain for later culture or organization review.
+
+## Provenance
+
+- `imports/normalized/melissa-copy.md:984-1167`: early Syndicate meeting, five hooded figures, Heart-theft escalation, threat, and Ink Boon ritual.
+- `imports/normalized/melissa-copy.md:16453-16888`: Kelyra's turn to the Harbingers, dead drop, Harbinger guide, leader, Heart delivery, Vorren figure, betrayal, and Harbinger rhetoric.
+- `imports/normalized/melissa-copy.md:17086-17110`, `18691-18718`: Masked Clade / criminal-organization framing.
+- `imports/normalized/melissa-copy.md:19447-19483`: Davian on Harbinger Ink pressure and information.
+- `imports/normalized/book-1-outline.md:812`: Elric taking over underworld and Masked Clades through false revolutionary ideology.
+- `imports/normalized/book-1-outline.md:1575-1604`, `8316-8358`, `8728-8750`: Elric manipulating Kelyra and Davian through the Harbingers.
+- `imports/normalized/book-1-outline.md:8238-8262`: Drakhal, Vorren, and Harbinger underground coordination planning.
+- `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`
+- `decisions/0010-jalen-kelyra-concord-role-swap.md`
+- `decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md`
+- Author feedback on 2026-06-24.

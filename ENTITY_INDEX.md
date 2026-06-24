@@ -30,7 +30,7 @@ There must normally be no more than one entity marked `in-review`.
 | 10 | org-archeon | organization | Archeon | approved | reviews/entities/organizations/org-archeon.md | bible/organizations/org-archeon.md | planning/candidates/organizations/org-archeon.md | 2026-06-24 |
 | 11 | org-drakhal | organization | Drakhal Clade | approved | reviews/entities/organizations/org-drakhal.md | bible/organizations/org-drakhal.md | planning/candidates/organizations/org-drakhal.md | 2026-06-24 |
 | 12 | org-high-clades | organization | High Clades | approved | reviews/entities/organizations/org-high-clades.md | bible/organizations/org-high-clades.md | planning/candidates/organizations/org-high-clades.md | 2026-06-24 |
-| 13 | org-harbingers-syndicate | organization | Harbingers / Syndicate | awaiting-author | reviews/entities/organizations/org-harbingers-syndicate.md | bible/organizations/org-harbingers-syndicate.md | planning/candidates/organizations/org-harbingers-syndicate.md | 2026-06-24 |
+| 13 | org-harbingers-syndicate | organization | Harbingers / Syndicate | approved | reviews/entities/organizations/org-harbingers-syndicate.md | bible/organizations/org-harbingers-syndicate.md | planning/candidates/organizations/org-harbingers-syndicate.md | 2026-06-24 |
 | 14 | org-concord | organization | Twilight Concord / Concord | queued | reviews/entities/organizations/org-concord.md | bible/organizations/org-concord.md | planning/candidates/organizations/org-concord.md |  |
 | 15 | org-registry | organization | Registry | queued | reviews/entities/organizations/org-registry.md | bible/organizations/org-registry.md | planning/candidates/organizations/org-registry.md |  |
 | 16 | magic-shroud | magic | Shroud / Shrouds | queued | reviews/entities/magic/magic-shroud.md | bible/magic/magic-shroud.md | planning/candidates/magic/magic-shroud.md |  |
@@ -94,7 +94,7 @@ There must normally be no more than one entity marked `in-review`.
 ## Grouping Notes
 
 - `char-davian` should review Davian's use of the Arrek identity, but `char-arrek` remains a separate queued entity because Arrek also appears as the killed glyphwright whose life, records, and identity matter to the plot.
-- `org-harbingers-syndicate` groups the Syndicate and Harbingers until review decides whether this is a rename, alias, faction change, or distinct organization.
+- `org-harbingers-syndicate` groups the Syndicate and Harbingers. Review established Syndicate as the earlier/former name and Harbingers as the current Ink-powered identity.
 - `org-registry`, `loc-registry`, and `magic-zan-lattices` are separate because the sources appear to use Registry as an institution/system, a physical chamber, and a technical magical infrastructure.
 - `magic-antithesis` and `object-antithesis` are separate because the sources appear to use Antithesis both as a concept/principle and as a physical weapon.
 - `object-alara-journal` should be reviewed alongside `magic-codex-memory`, but kept separate unless the author chooses to fold all codex artifacts into one record.
