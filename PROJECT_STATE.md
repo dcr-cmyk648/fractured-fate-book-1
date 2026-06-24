@@ -7,7 +7,7 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-characters-and-major-organizations
-- Active or paused entity ID: none
+- Active or paused entity ID: magic-shroud
 - Latest completed entity: org-registry
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Registry organization record`
@@ -29,15 +29,15 @@ The `org-registry` entity was approved by the author, stored in durable organiza
 
 ## Current work
 
-Entity review is ready to continue on `beta` after approving `org-registry`.
+The `magic-shroud` review packet is ready for author review.
 
 ## Next action
 
-Begin the next queued entity, `magic-shroud`, unless the author chooses a different next task.
+Review the `magic-shroud` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
 
 ## Awaiting author input
 
-None
+- `magic-shroud` is awaiting author review.
 
 ## Known blockers or risks
 
@@ -113,6 +113,11 @@ None
 - decisions/0014-high-clades-governance-and-central-amphitheater.md
 - reports/consistency/2026-06-24-core-entities.md
 - scripts/validate_project_state.py
+- reviews/entities/magic/magic-shroud.md
+- bible/magic/magic-shroud.md
+- planning/candidates/magic/magic-shroud.md
+- bible/characters/char-selwin.md
+- decisions/0009-selwin-dissolution-shroud-and-family-role.md
 
 ## Later branch recommendation
 
