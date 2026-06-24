@@ -52,7 +52,7 @@ Maya's magic includes:
 - schema construction
 - heat and flame manipulation
 - Registry and zan-lattice work
-- emerging fate/Skein perception
+- emerging Fateweaving/Skein perception
 
 Her Shroud is effectively permanent while she is awake. She can mute it enough to eat and interact with objects, but muting requires conscious effort and can get out of control. Her Shroud can activate while she sleeps if triggered by a bad dream or similar stressor.
 
@@ -94,7 +94,9 @@ The current prose already shows Maya after the wall defense as dissociated and g
 
 In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zan lattices. She is sleep-deprived and under pressure.
 
-In Chapter 30, Maya experiences fate/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
+In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
+
+Maya is still developing as a fateweaver. In Book 1 she can perceive threads, follow a path through an object, alter spatial access in limited circumstances, glimpse branches, and eventually enter or tear the Skein to resurrect Davian. She should not yet be treated as someone who can freely rewrite fate.
 
 ## Intended Future State
 
@@ -105,7 +107,8 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 ## Canonical Uncertainties
 
 - The exact social mechanics of Naeroth heritage and demi-human status remain to be reviewed in broader worldbuilding files.
-- The exact details of Maya's fateweaving, Convergence heat transfer, and relationship to Naeroth abilities remain linked to future reviews.
+- The exact details of Maya's Convergence heat transfer and broader relationship to Naeroth abilities remain linked to future reviews.
+- Exact Fateweaving/Convergence relationship and resurrection mechanics remain unresolved, though Davian's end-book resurrection is accepted future-plan canon.
 - Maya's final arc integration remains planning/candidate material.
 
 ## Related Files
@@ -116,12 +119,14 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
+- Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)
 - Decision: [Naeroth Demi-Human Worldbuilding](../../decisions/0002-naeroth-demi-human-worldbuilding.md)
 - Decision: [Maya's Shroud and Prologue Revision Direction](../../decisions/0003-maya-shroud-and-prologue-revision-direction.md)
 - Decision: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 
 ## Provenance
 

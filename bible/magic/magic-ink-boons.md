@@ -118,6 +118,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Whether Ink-adjacent abilities interrupt or destabilize Shrouds remains unresolved.
 - Exact mechanics of Elric's Harbinger-leader possession remain for later Elric, Harbinger, and fate/Skein reviews.
 - Exact Ink/fate-thread visibility remains unresolved.
+- Exact relationship between Ink Pact movement, fate-thread visibility, and the Fateweaving/Skein structure remains unresolved.
 - Transfer between users or relatives remains candidate and is likely too confusing for the Book 1 plot unless later re-approved.
 - Derivative or mass-produced Ink Pacts are later-book or later-story material, not Book 1 accepted canon.
 - Exact mechanics linking Ink Pact rapid movement with Archeon kinesis, Shrouds, and martial technique remain for later magic reviews.
@@ -128,6 +129,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Candidate material: [magic-ink-boons](../../planning/candidates/magic/magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Kinesis](magic-subversion.md)
+- Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
@@ -137,6 +139,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Related organization: [Registry](../organizations/org-registry.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 
 ## Provenance
 

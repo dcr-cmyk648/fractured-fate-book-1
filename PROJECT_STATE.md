@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-fateweaving-skein
-- Latest completed entity: magic-subversion
+- Active or paused entity ID: none
+- Latest completed entity: magic-fateweaving-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `chore: hand off Fateweaving review pause`
+- Latest relevant commit message: `bible: approve Fateweaving and Skein magic record`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,26 +18,26 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: magic-subversion
+- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The `magic-subversion` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with kinesis terminology, `Subversion` as Kelyra's misnomer, Serathis's stack mastery, and candidate routing for Shroud interaction, tremorsense, and Antithesis/Zirene mechanics. The next review packet, `magic-fateweaving-skein`, was prepared and committed as an unapproved review checkpoint.
+The `magic-fateweaving-skein` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with Skein/Fateweaving links, probabilistic trauma-script fate sight, Maya's developing ability, Davian's canon end-book resurrection, and candidate routing for Elric's fate-sight source, resurrection cost, Heart/Ink/Skein mechanics, and Naeroth/Convergence relationships.
 
 ## Current work
 
-Paused at the author-review checkpoint for `magic-fateweaving-skein`. No accepted Fateweaving/Skein bible or candidate files have been created yet.
+Finalizing `magic-fateweaving-skein` approval. No entity is active until the approved Fateweaving/Skein commit is validated, committed, and pushed.
 
 ## Next action
 
-Resume from `reviews/entities/magic/magic-fateweaving-skein.md`, present the Fateweaving/Skein review summary, and resolve the author questions. After substantive approval, store the accepted and candidate Fateweaving/Skein material, update dependencies, validate, commit, push, and continue according to the queue.
+Validate the approved Fateweaving/Skein changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-zan-lattices`.
 
 ## Awaiting author input
 
-- Author answers needed for `magic-fateweaving-skein` scope, Skein literalness, Elric fate-sight source, Maya's current fateweaving capability, Alara routing, resurrection routing, and original-sin/backstory routing.
+- None for `magic-fateweaving-skein`; author approval was received on 2026-06-24.
 
 ## Known blockers or risks
 
@@ -57,6 +57,7 @@ Resume from `reviews/entities/magic/magic-fateweaving-skein.md`, present the Fat
 - Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, and exact Antithesis/Zirene mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 

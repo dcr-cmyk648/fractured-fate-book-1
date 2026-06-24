@@ -2,7 +2,7 @@
 id: magic-fateweaving-skein
 entity_type: magic
 display_name: Fateweaving / Skein / fate ties
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -155,11 +155,12 @@ The entity may need to split later if Naeroth fateweaving, the Skein as cosmolog
 
 ## Proposed accepted record
 
-This is a proposal only.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
 - The Skein is a real fate/reality structure that can be experienced through threads, strands, paths, possibility, and time-adjacent perception.
+- Human perception experiences the Skein through threads, strands, paths, possibility, and layered mind-space imagery, but those perceptions point to real underlying structures.
 - Maya currently has emerging fate/Skein perception. She can see bright threads tied to past/future possibilities, guilt, choices, and paths.
 - Maya's fate/Skein perception is emotionally dangerous because it interacts with vigilance, perfectionism, catastrophizing, and responsibility.
 - Elric can see fate strands tied to people acting out trauma or negative impulses, and uses that sight to nudge events toward his goals.
@@ -175,9 +176,10 @@ This is a proposal only.
 
 ### accepted-future-plan
 
+- Davian's resurrection is a canon event that will happen at the end of the book.
 - Maya's fateweaving/Skein ability is central to the late-book resurrection and reality-damage plot.
 - Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality.
-- Maya entering the Skein to resurrect Davian is part of the accepted future direction; exact mechanics and scene execution remain to be defined later.
+- Maya entering or tearing the Skein to resurrect Davian is part of the accepted future direction; exact mechanics and scene execution remain to be defined later.
 - Elric's apparent inevitability should be undermined by characters choosing values and relationships instead of following trauma scripts.
 
 ### candidate
@@ -214,14 +216,16 @@ Retain in `planning/candidates/magic/magic-fateweaving-skein.md`:
 
 ## Questions for the author
 
-1. Should this file remain the umbrella owner for Fateweaving, the Skein, and fate ties for now, or should Naeroth fateweaving and the Skein/cosmology be split immediately?
-2. Is the Skein canonically a literal structure/layer of reality, or should the accepted file keep that more flexible?
-3. Should Elric's fate sight be accepted as probabilistic trauma-script / path-of-least-resistance perception rather than deterministic future sight?
-4. What is the accepted current source of Elric's fate sight: Heart communion, Ink, original-sin/reality-fracture knowledge, a combination, or unresolved?
-5. For Book 1, what can Maya's fateweaving do now: perceive threads, follow a path through an object, alter spatial access, glimpse past/future branches, nudge choices, resurrect Davian, or something narrower?
-6. Should Alara's fateweaving and Convergence be stored here only at a high level until `char-alara` and `magic-convergence-heat-transfer`, or should more of it be accepted now?
-7. Is Maya resurrecting Davian by entering/tearing the Skein accepted as a future-plan fact in this file, or should it stay only in Elric/Maya/Davian arc files until plot review?
-8. Is original sin / first magus / fractured reality accepted as backstory-canon here, or should it remain an Elric-belief / world-history candidate until a later cosmology review?
+Resolved by author feedback on 2026-06-24:
+
+1. Keep one umbrella file for Fateweaving, the Skein, and fate ties for now.
+2. Accept the Skein as a real structure/layer; the human mind perceives it through certain images, but the underlying things exist.
+3. Accept Elric's fate sight as probabilistic trauma-script / path-of-least-resistance perception rather than deterministic future sight.
+4. Leave the source of Elric's fate sight unresolved.
+5. Accept Maya's Book 1 fateweaving as developmental: she can perceive threads, follow a path through an object, alter spatial access, glimpse branches, and ultimately resurrect Davian, but not freely rewrite fate.
+6. Store Alara's fateweaving and Convergence here only at high level until `char-alara` and `magic-convergence-heat-transfer`.
+7. Davian's resurrection is a canon event that will happen at the end of the book.
+8. Store original sin / first magus / fractured reality here at high level because those elements link together with Elric and the Skein.
 
 ## Proposed file changes
 

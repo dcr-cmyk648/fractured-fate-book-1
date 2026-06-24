@@ -75,6 +75,10 @@ Alara / Naeroth lineages:
 
 Naeroth lineages are a rare exception to the dominant cultural assumption that Shrouds and hereditary magic belong only to humans. Alara had a Shroud alongside fateweaving and Convergence-associated abilities.
 
+Fateweaving / Skein:
+
+The Skein is a real fate/reality structure, and Maya has emerging fate/Skein perception through Naeroth heritage. Fateweaving is distinct from Shrouds, though Alara had both and exact Naeroth ability relationships remain for later reviews.
+
 ## Archeon Public Claim
 
 Archeon publicly brands itself as having unusually powerful Shrouds that enhance martial ability and strength. This is propaganda / PR rather than a factual technical statement.
@@ -93,9 +97,11 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Kinesis](magic-subversion.md)
+- Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 
 ## Canonical Uncertainties
 

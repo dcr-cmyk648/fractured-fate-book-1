@@ -1,0 +1,114 @@
+---
+id: magic-fateweaving-skein
+entity_type: magic
+display_name: Fateweaving / Skein / fate ties
+status: approved
+last_reviewed: 2026-06-24
+review_packet: reviews/entities/magic/magic-fateweaving-skein.md
+candidate_file: planning/candidates/magic/magic-fateweaving-skein.md
+---
+
+# Fateweaving / Skein / Fate Ties
+
+## Identity
+
+`Fateweaving / Skein / fate ties` is the umbrella owner for the magic and metaphysics involving the Skein, fate threads, fate ties, Maya's emerging fateweaving, Elric's dark-thread sight, and the late-book resurrection/reality-damage plotline.
+
+This record keeps the umbrella together for now, while distinguishing:
+
+- Maya's developing Naeroth-linked fateweaving
+- the Skein as a real fate/reality structure or layer
+- Elric's perception and manipulation of trauma-path threads
+
+The Skein is real. Human perception experiences it through threads, strands, paths, possibility, time-adjacent perception, and layered mind-space imagery, but those perceptions point to real underlying structures.
+
+## Technical Model
+
+Fate-thread sight does not mean immutable destiny.
+
+The accepted Book 1 model is path reading and limited interaction with likely trajectories, especially where choices, trauma, compulsions, fear, guilt, avoidance, rage, responsibility, or attachment create strong paths of least resistance.
+
+Elric can see and lean on strands tied to people acting out trauma or negative impulses. This lets him make events feel inevitable, but it does not remove agency. Characters can move off the paths he expects by choosing values, relationships, and healthier patterns instead of trauma scripts.
+
+Ink, the Heart, original-sin/reality-fracture knowledge, and the Skein overlap in Elric's work, but the current source of Elric's fate sight remains unresolved.
+
+## Maya's Developing Fateweaving
+
+Maya has emerging fate/Skein perception in Book 1. She is still developing and should not be treated as a fully trained fateweaver.
+
+Accepted current and end-book capabilities include:
+
+- perceiving bright threads tied to past and future possibilities, guilt, choices, and paths
+- following a thread through an object or token toward a person or place
+- altering spatial access in limited circumstances by interacting with a strand of the Skein
+- glimpsing past/future branches or alternate lines of cause and consequence
+- entering or tearing the Skein at the end of the book to resurrect Davian
+
+Maya should not yet be treated as someone who can freely rewrite fate.
+
+Her fate/Skein perception is emotionally dangerous because it interacts with vigilance, perfectionism, catastrophizing, guilt, and responsibility. It can amplify the belief that every bad outcome is hers to foresee, prevent, or repair.
+
+## Alara and Naeroth Heritage
+
+Alara was from Naeroth and had rare access to fateweaving and Convergence heat transfer, as well as a Shroud.
+
+Naeroth heritage can rarely grant fateweaving and Convergence heat transfer despite the wider High Clade cultural assumption that only humans have hereditary magic and Shrouds.
+
+This file stores Alara's fateweaving and Convergence only at high level. Detailed Alara mechanics belong to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
+
+## Elric and Dark Threads
+
+Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. He uses that sight to nudge events toward his goals.
+
+His fate sight is accepted as real, but its source is unresolved. Possible contributors include Heart communion, Ink, original-sin/reality-fracture knowledge, old research, or some combination.
+
+Elric's fall is tied to idealism, perfectionism, and rigidity being twisted by his inability to accept imperfect reality. He learned that reality was fractured after the original sin of the first magus and chose negation rather than an imperfect world.
+
+The original sin / first magus / fractured reality backstory is accepted here at a high level because it links directly to Elric's reality/Skein endgame. Detailed cosmology remains for later world-history, Heart, and Skein reviews.
+
+## Accepted Future Plan
+
+Davian's resurrection is a canon end-of-book event.
+
+Maya enters or tears the Skein to resurrect Davian after Elric kills him. This event is central to the late-book resurrection and reality-damage plot. Exact scene execution, cost, and technical mechanics remain for later plot and endgame review.
+
+Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. His apparent inevitability should be undermined by characters choosing values and relationships instead of following trauma scripts.
+
+## Canonical Uncertainties
+
+- The current source of Elric's fate sight remains unresolved.
+- Exact Ink / fate-thread visibility remains unresolved.
+- Exact Heart / Skein / original-sin technical mechanics remain for later reviews.
+- Exact resurrection cost and reality-damage mechanics remain unresolved.
+- Exact Fateweaving / Convergence relationship remains unresolved.
+- Larger cosmology beyond the Skein remains candidate material.
+- Whether Niall's fear of fateweaving is correct, partly correct, or projection from Alara/Elric trauma remains unresolved.
+
+## Related Files
+
+- Review packet: [magic-fateweaving-skein](../../reviews/entities/magic/magic-fateweaving-skein.md)
+- Candidate material: [magic-fateweaving-skein](../../planning/candidates/magic/magic-fateweaving-skein.md)
+- Related character: [Maya Rezin](../characters/char-maya.md)
+- Related character: [Elric Rezin](../characters/char-elric.md)
+- Related magic: [Ink Pact](magic-ink-boons.md)
+- Related magic: [Shroud / Shrouds](magic-shroud.md)
+- Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
+- Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+
+## Provenance
+
+- `imports/normalized/melissa-copy.md:6463-6589`: Alara/Niall codex memory, Elric's strands-of-fate discussion, and Maya seeing threads in layered perception.
+- `imports/normalized/melissa-copy.md:15880-15935`: Maya's fate vision through Vorren's lineage, branching timelines, the Skein tapestry, and the torn gap.
+- `imports/normalized/melissa-copy.md:16935-16990`: Maya's dreams and waking perception of bright Skein threads tugging backward and forward through time.
+- `imports/normalized/melissa-copy.md:17749-17785`: Maya following a bright/golden thread from Davian's knife toward him.
+- `imports/normalized/melissa-copy.md:19000-19020`: Maya using a strand of the Skein to change spatial access to Elric's hidden tunnel.
+- `imports/normalized/melissa-copy.md:19220-19290`: Elric remnant discussing threads, corruption, and a plan to correct reality.
+- `imports/normalized/book-1-outline.md:580-700`: Elric dark-thread manipulation, trauma scripts, Davian's death, and Maya's resurrection.
+- `imports/normalized/book-1-outline.md:7508-7725`: Elric workspace, Heart/fate exposure, and candidate source mechanics.
+- `imports/normalized/book-1-outline.md:8316-8358`: future Davian/Elric clarification of trauma-path fate sight.
+- `imports/normalized/bullet-notes.md:45`, `imports/normalized/bullet-notes.md:105`: six-strand cord image.
+- `imports/normalized/bullet-notes.md:222`: Naeroth fateweaving / Convergence note.
+- `decisions/0002-naeroth-demi-human-worldbuilding.md`
+- `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`
+- `decisions/0019-ink-pact-terminology-and-core-mechanics.md`
+- Author feedback on 2026-06-24.

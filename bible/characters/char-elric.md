@@ -52,11 +52,11 @@ His villainy should preserve the shape of failed idealism rather than flattening
 
 ## Fate, Ink, and Manipulation
 
-Elric sees fate strands, at least those tied to people acting out trauma or negative impulses. He uses those strands to further his goals.
+Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. His sight is probabilistic trauma-script perception rather than deterministic future sight. He uses those strands to further his goals.
 
 He manipulates people by leaning on their trauma scripts, urges, fear, grief, perfectionism, rage, helplessness, and desire for agency. This makes events feel inevitable to the characters, even when growth and healthier choices can move them off the path he expected.
 
-His manipulations affect Davian, Niall, Maya, Harvick, the Harbingers/Syndicate, and the Heart theft. The exact mechanics of fate-strand sight, Ink Pacts, and dark-thread manipulation remain for later magic reviews.
+His manipulations affect Davian, Niall, Maya, Harvick, the Harbingers/Syndicate, and the Heart theft. The exact source of his fate sight remains unresolved.
 
 ## Harbingers and Syndicate
 
@@ -107,12 +107,14 @@ Current manuscript material establishes:
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
+- Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
+- Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact mechanics of Elric's fate-strand sight remain for `magic-fateweaving-skein`.
+- Elric's fate sight is accepted as trauma-script / path-of-least-resistance perception, but its source remains unresolved.
 - Exact mechanics of fate-thread visibility, Ink simulacrum persistence, and the Harbinger leader's takeover remain for later Elric, Fateweaving/Skein, and Codex reviews.
 - Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.

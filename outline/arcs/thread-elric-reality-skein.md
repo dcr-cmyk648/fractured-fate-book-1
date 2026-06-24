@@ -23,7 +23,7 @@ He comes to see suffering as the ultimate state of existence. Because perfection
 
 ## Manipulation Pattern
 
-Elric sees strands of fate tied to people acting out trauma and negative impulses. He uses those strands to push people along paths that feel inevitable:
+Elric sees strands of fate tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. This is probabilistic trauma-script perception rather than deterministic future sight. He uses those strands to push people along paths that feel inevitable:
 
 - Davian's rage, helplessness, family loyalty, desire to matter, and attraction to Maya
 - Niall's grief, rigidity, fear of weakness, and need to prove he can still stand alone
@@ -41,9 +41,9 @@ Harvick's prototypical Ink Pact, his history with Elric, and his unofficial plac
 
 ## Endgame Direction
 
-Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. He has backup plans and long-running manipulations because he has been planning for many years.
+Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and Davian's end-book resurrection to damage or unmake reality. He has backup plans and long-running manipulations because he has been planning for many years.
 
-Exact endgame execution remains candidate material until later plot review.
+Davian's resurrection is canon future-plan material. Exact endgame execution, resurrection mechanics, cost, and reality-damage mechanics remain candidate material until later plot review.
 
 ## Related Files
 
@@ -51,6 +51,7 @@ Exact endgame execution remains candidate material until later plot review.
 - Candidate material: [char-elric](../../planning/candidates/characters/char-elric.md)
 - Review packet: [char-elric](../../reviews/entities/characters/char-elric.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
+- Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Related accepted character: [Davian](../../bible/characters/char-davian.md)
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)
