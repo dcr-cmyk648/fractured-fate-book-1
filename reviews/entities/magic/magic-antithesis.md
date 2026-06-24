@@ -2,7 +2,7 @@
 id: magic-antithesis
 entity_type: magic
 display_name: Antithesis magic / antithesis principle
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -20,9 +20,11 @@ last_updated: 2026-06-24
 
 ## Proposed identity
 
-This packet treats `magic-antithesis` as the owner for the magical or conceptual principle behind Antithesis: negation, opposition, diffusion, Shroud-piercing, force-parting, and the way Archeon/Zirene zänwork may express that principle.
+This packet originally tested whether Antithesis needed a separate magic-system record. Author feedback resolved that it does not.
 
-It should not own the full object biography of the weapon. The physical knife, its construction, damage, repair, relationship to Paradox, and exact scene-by-scene use should remain with `object-antithesis` and `object-paradox`.
+`Antithesis` refers only to the knife Davian uses. The physical knife, its construction, damage, repair, relationship to Paradox, and exact scene-by-scene use remain with `object-antithesis` and `object-paradox`.
+
+This magic record exists only as a boundary record so later work does not invent a separate Antithesis magic system.
 
 ## Already-approved constraints
 
@@ -59,10 +61,12 @@ It should not own the full object biography of the weapon. The physical knife, i
 
 ## Consistent information
 
-- Antithesis is not just an ordinary blade; sources consistently associate it with zän, Shroud interaction, magic cutting/parting, and Archeon/Zirene-derived technology.
+- Antithesis is not a separate kind of magic or magical principle.
+- Antithesis is the knife Davian uses.
 - The approved direction makes its Book 1 physical form a knife, not a transforming sword.
-- The best current technical fit is that Antithesis helps route, diffuse, part, negate, or redirect incoming force or magical structure through zänwork and Archeon-style kinesis principles.
-- The exact relationship among Antithesis, anti-Shroud behavior, zä of negation, Archeon gauntlets, Zirene's better devices, and Paradox remains unresolved.
+- Antithesis is an effective but crude Archeon rip-off of Zirene's older/prototypical designs, stolen by Kelyra.
+- Force-parting or diffusion remains candidate material for an extension of Archeon kinesis, not something special about the knife.
+- Antithesis has no accepted direct link to `nïza` and no accepted unique anti-Shroud behavior.
 
 ## Contradictions and version conflicts
 
@@ -75,8 +79,8 @@ It should not own the full object biography of the weapon. The physical knife, i
 ### Magic principle versus object identity
 
 - Version A: Antithesis appears as the name of a physical weapon.
-- Version B: sources also use antithesis as an abstract/thematic principle: opposition to the system, negation, anti-Shroud function, or force-diffusion.
-- Current recommendation: let this file own the abstract magic/principle if the author wants it canonized; let `object-antithesis` own the weapon.
+- Version B: sources also use antithesis as an abstract/thematic idea.
+- Resolution: there is no separate technical Antithesis magic. The thematic use can remain in thread planning, but in-world Antithesis is the knife.
 
 ### Zirene lineage quality
 
@@ -86,38 +90,38 @@ It should not own the full object biography of the weapon. The physical knife, i
 
 ## Speculative or alternative material
 
-- Whether Antithesis literally uses a zä of negation, `nïza`, or some related archetypal zä.
-- Whether "antithesis" is a technical magical category or only this weapon's name plus thematic resonance.
-- Whether the force-parting model is exact mechanics or just a useful metaphor.
-- Whether anti-Shroud function is native to Antithesis, Archeon gauntlets, Zirene weapons, or a broader class of zänwork.
+- Exact object construction, zänwork, material, damage, concealment, and combat behavior.
+- Exact Archeon kinesis extensions that may part, diffuse, or route force.
+- Exact relationship between Archeon tools, gauntlets, anchors, and Zirene-derived technology.
 - Whether Kelyra, Serathis, or Archeon force kinesis/negation/diffusion into weapons as a repeatable technique.
-- Whether Paradox is the accepted future transformation/replacement of Antithesis or still a candidate object/arc.
 
 ## Proposed accepted record
 
-These points are proposed for author approval, not yet canonized by this packet.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
-- Antithesis is a Book 1 knife with zänwork, not a transforming sword.
-- Antithesis expresses a crude Archeon derivative of a Zirene/prototypical zänwork principle.
-- The principle behind Antithesis is best described as negation/diffusion/opposition expressed through zä-lattice circuitry and kinesis-compatible force routing.
-- Antithesis can help part, diffuse, or disrupt incoming force or Shroud/magic structures, but exact scene mechanics remain for `object-antithesis`.
+- Antithesis is not an independent kind of magic or a separate magical principle.
+- In Book 1, Antithesis refers only to Davian's knife.
+- Antithesis is a knife throughout Book 1 and does not transform into a sword.
+- Antithesis has no accepted direct link to a zä of negation or `nïza`.
+- Antithesis has no accepted unique anti-Shroud behavior.
 
 ### backstory-canon
 
 - Kelyra stole Antithesis from Archeon.
 - Archeon derived Antithesis from Zirene's older/prototypical design lineage rather than inventing it cleanly.
+- Antithesis is effective but crude compared with Zirene's intended or preferred work.
 
 ### accepted-future-plan
 
-- Antithesis may be broken and later reworked into Paradox, but exact object details belong to `object-antithesis` and `object-paradox`.
+- Paradox will canonically be made from the ruined Antithesis at the end of Book 1. Exact object details belong to `object-antithesis` and `object-paradox`.
+- The thematic idea of Maya as the product of the system and the Shade as its antithesis is accepted as useful thread material, but it does not create a separate Antithesis magic system.
 
 ### candidate
 
-- Exact zä of negation / `nïza` connection.
-- Exact anti-Shroud mechanics.
-- Exact force-parting / "stone in a river" model.
+- Exact Antithesis object mechanics.
+- Exact force-parting / "stone in a river" model as an extension of Archeon kinesis.
 - Exact relationship between Antithesis and Archeon gauntlets.
 - Exact role of Niall, Maya, or Zirene in repairing, replacing, or reworking Antithesis.
 
@@ -125,42 +129,44 @@ These points are proposed for author approval, not yet canonized by this packet.
 
 - Route object biography, physical properties, damage, concealment, and scene-by-scene use to `object-antithesis`.
 - Route future sword/replacement material to `object-paradox`.
-- Route zä of negation, balance, `nïza`, and number-system terminology to `culture-number-system-zan-script`.
+- Do not route Antithesis to `nïza` unless later object/culture review creates a new reason.
 - Route Archeon gauntlet and derivative technology mechanics to `org-archeon`, `char-zirene`, and later technology/object reviews.
 - Route thematic "system and its antithesis" material to `thread-davian-identity-guilt` and `thread-elric-reality-skein` unless the author wants it stored as part of the magic principle.
 
 ## Proposed candidate record
 
-Retain in `planning/candidates/magic/magic-antithesis.md` after approval:
+Retained in `planning/candidates/magic/magic-antithesis.md` after approval:
 
 - superseded transformation/sword-form Book 1 material
-- zä of negation / `nïza` / balance-mask links
-- force-parting / diffusion model details
-- anti-Shroud mechanism variants
+- rejected zä of negation / `nïza` links for Antithesis
+- force-parting / diffusion model details as Archeon kinesis candidates
+- rejected unique anti-Shroud mechanism variants
 - Archeon gauntlet links
 - Kelyra/Serathis weapon-channeling possibilities
 - Paradox/reforging object details
 
 ## Questions for the author
 
-1. Should `magic-antithesis` canonize an abstract negation/diffusion/opposition principle, while `object-antithesis` later owns the knife's physical history and exact powers?
-2. Confirm: Antithesis is a knife throughout Book 1, with all transformation/sword-form Book 1 material treated as obsolete.
-3. Confirm: Antithesis is an Archeon rip-off of Zirene's older/prototypical designs, stolen by Kelyra, and it is effective but crude compared with Zirene's intended work.
-4. Should the technical model be "force or magic parts/diffuses around the user like water around a stone," or should that stay candidate until object review?
-5. Should Antithesis have a direct accepted link to a zä of negation / `nïza`, or should that stay deferred to number-system/culture/object reviews?
-6. Should anti-Shroud behavior be accepted here at high level, or left unresolved until `object-antithesis` and Archeon technology reviews?
-7. Should Paradox, made from the ruined base of Antithesis, be treated as accepted future-plan now, or remain candidate until the object/ending review?
-8. Should the thematic "Maya as product of the system / Shade as its antithesis" stay in thread planning, or be recorded here as part of the magic concept?
+Resolved by author feedback on 2026-06-24:
+
+1. Antithesis is not a magic system or magical principle. In Book 1, Antithesis refers only to the knife Davian uses.
+2. Antithesis is a knife throughout Book 1; transformation/sword-form Book 1 material is obsolete.
+3. Antithesis is an effective but crude Archeon rip-off of Zirene's older/prototypical designs, stolen by Kelyra.
+4. The force-parting / "stone in a river" model remains candidate and would be an extension of Archeon kinesis rather than something special about the knife.
+5. There is no accepted specific link between Antithesis and `nïza`.
+6. There is no accepted unique anti-Shroud behavior; any such behavior would be an extension of Archeon kinesis.
+7. Paradox will canonically be made from the ruined Antithesis at the end of Book 1.
+8. The thematic "Maya as product of the system / Shade as its antithesis" idea is approved as useful thread material, not as technical magic.
 
 ## Proposed file changes
 
-If approved, create:
+Created after approval:
 
 - `bible/magic/magic-antithesis.md`
 - `planning/candidates/magic/magic-antithesis.md`
 - a decision record for Antithesis principle and object-boundary decisions
 
-Also update:
+Also updated:
 
 - `ENTITY_INDEX.md`
 - `PROJECT_STATE.md`

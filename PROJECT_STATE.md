@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-antithesis
-- Latest completed entity: magic-zan-lattices
+- Active or paused entity ID: none
+- Latest completed entity: magic-antithesis
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Antithesis magic packet`
+- Latest relevant commit message: `bible: approve Antithesis boundary record`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,29 +18,26 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices
+- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The `magic-zan-lattices` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with accepted zä/zän/zänwright terminology, circuitboard/strike-line/base-6 lattice principles, Heart-powered inefficiency, Zirene's high-level zänwright role, and candidate routing for number-system details, archetypal zä, Skein-layer zä, and exact object/device mechanics. The next queued entity, `magic-antithesis`, has been opened for author review.
+The `magic-antithesis` entity was approved by the author as a boundary record, not a magic system. Durable files now record that Antithesis is Davian's knife only, remains a knife throughout Book 1, has no accepted direct `nïza` or unique anti-Shroud behavior, and that Paradox is canonically made from ruined Antithesis at the end of Book 1. Direct dependent records were updated to route force-parting/diffusion to Archeon kinesis candidates and object details to later object reviews.
 
 ## Current work
 
-Review packet prepared for `magic-antithesis`; awaiting author answers before creating accepted canon.
+Finalizing `magic-antithesis` approval. No entity is active until the approved Antithesis boundary commit is validated, committed, and pushed.
 
 ## Next action
 
-Present the `magic-antithesis` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
+Validate the approved Antithesis boundary changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-codex-memory`.
 
 ## Awaiting author input
 
-- `magic-antithesis`: whether to canonize an abstract negation/diffusion/opposition principle.
-- `magic-antithesis`: whether to keep Antithesis as a Book 1 knife with all transformation/sword-form Book 1 material obsolete.
-- `magic-antithesis`: whether to accept the high-level origin as an effective but crude Archeon rip-off of Zirene's older/prototypical designs, stolen by Kelyra.
-- `magic-antithesis`: whether the force-parting / "stone in a river" model, anti-Shroud behavior, zä of negation / `nïza` link, Paradox future-plan, and thematic antithesis language are accepted here or deferred.
+- None for `magic-antithesis`; author approval was received on 2026-06-24.
 
 ## Known blockers or risks
 
@@ -59,9 +56,9 @@ Present the `magic-antithesis` review summary and resolve the author questions. 
 - The Central Spire / central amphitheater blast-hole direction and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
-- Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, and exact Antithesis/Zirene mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, and exact Zirene/Archeon/Antithesis device mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -77,6 +74,8 @@ Present the `magic-antithesis` review summary and resolve the author questions. 
 - AUTHORING.md
 - reviews/entities/magic/magic-zan-lattices.md
 - reviews/entities/magic/magic-antithesis.md
+- bible/magic/magic-antithesis.md
+- planning/candidates/magic/magic-antithesis.md
 - bible/organizations/org-archeon.md
 - bible/magic/magic-ink-boons.md
 - bible/magic/magic-subversion.md
@@ -85,6 +84,7 @@ Present the `magic-antithesis` review summary and resolve the author questions. 
 - decisions/0019-ink-pact-terminology-and-core-mechanics.md
 - decisions/0020-kinesis-terminology-and-mechanics.md
 - decisions/0022-zan-terminology-and-lattice-principles.md
+- decisions/0023-antithesis-boundary-and-paradox-future-plan.md
 
 ## Later branch recommendation
 

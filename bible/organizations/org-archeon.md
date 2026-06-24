@@ -100,11 +100,13 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Related magic boundary: [Antithesis boundary record](../magic/magic-antithesis.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 
 ## Canonical Uncertainties
 
@@ -113,6 +115,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
 - Exact Zirene-derived Archeon technology remains for later technology/object reviews.
 - Zirene is accepted at high level as the advanced zänwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact Archeon device mechanics remain for later reviews.
+- Antithesis is not a separate kind of magic; it refers only to Davian's knife. Force-parting or diffusion behavior remains candidate as an extension of Archeon kinesis, not a unique Antithesis property.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.
 - Exact Archeon location, citadel layout, and raid geography remain for `loc-archeon` and revision planning.

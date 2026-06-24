@@ -72,7 +72,9 @@ Kelyra and Davian working together can surpass Serathis. Both have the potential
 
 Antithesis is an Archeon rip-off of Zirene's designs, specifically her older and more prototypical designs at the time of Book 1. Kelyra stole it.
 
-Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Archeon technology, and zä-lattice reviews.
+Antithesis is not a separate kind of magic or magical principle. In Book 1, Antithesis refers only to Davian's knife.
+
+Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact object mechanics belong to the later `object-antithesis`, Zirene, Archeon technology, and zä-lattice reviews.
 
 ## Canonical Uncertainties
 
@@ -80,7 +82,7 @@ Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Arch
 - Tremorsense or heightened sensitivity to kinetic manifestations remains candidate; it may be too confusing.
 - Exact Ink Pact / kinesis / Shroud integration remains unresolved.
 - Exact broader energy-transformation limits remain unresolved beyond the accepted short-range primarily kinetic model.
-- Exact Antithesis and Archeon-gauntlet mechanics remain for later object/technology reviews.
+- Exact Antithesis object mechanics and Archeon-gauntlet mechanics remain for later object/technology reviews.
 
 ## Related Files
 
@@ -92,8 +94,10 @@ Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Arch
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
+- Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 
 ## Provenance
 

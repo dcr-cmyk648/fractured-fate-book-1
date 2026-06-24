@@ -28,3 +28,4 @@ Do not use this file as a dump for unresolved questions.
 | Kinesis Terminology and Mechanics | 2026-06-24 | accepted; stored in approved `magic-subversion` record | [0020-kinesis-terminology-and-mechanics.md](0020-kinesis-terminology-and-mechanics.md) |
 | Fateweaving, Skein, and Fate-Thread Mechanics | 2026-06-24 | accepted; stored in approved `magic-fateweaving-skein` record | [0021-fateweaving-skein-and-fate-thread-mechanics.md](0021-fateweaving-skein-and-fate-thread-mechanics.md) |
 | Zän Terminology and Lattice Principles | 2026-06-24 | accepted; stored in approved `magic-zan-lattices` record | [0022-zan-terminology-and-lattice-principles.md](0022-zan-terminology-and-lattice-principles.md) |
+| Antithesis Boundary and Paradox Future Plan | 2026-06-24 | accepted; stored in approved `magic-antithesis` boundary record | [0023-antithesis-boundary-and-paradox-future-plan.md](0023-antithesis-boundary-and-paradox-future-plan.md) |

@@ -62,7 +62,7 @@ Zirene is accepted at high level as an advanced zänwright whose work connects t
 
 Archeon and Antithesis:
 
-Archeon technology and Antithesis use or derive from zänwork, especially Zirene's older and prototypical designs. Exact gauntlet, force-buffer, Shroud-piercing, and Antithesis mechanics remain for later reviews.
+Archeon technology and Antithesis use or derive from zänwork, especially Zirene's older and prototypical designs. Antithesis is not a separate magic system; it is Davian's knife. Exact gauntlet, force-buffer, Archeon kinesis extension, and Antithesis object mechanics remain for later reviews.
 
 ## Language and Signs
 
@@ -92,7 +92,9 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Kinesis](magic-subversion.md)
 - Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
+- Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 
 ## Provenance
 
