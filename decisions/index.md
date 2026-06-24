@@ -25,3 +25,4 @@ Do not use this file as a dump for unresolved questions.
 | Registry Power, Modes, and Elric Bypass | 2026-06-24 | accepted; stored in approved `org-registry` record | [0017-registry-power-modes-and-elric-bypass.md](0017-registry-power-modes-and-elric-bypass.md) |
 | Shroud Throughput and Manifestation Model | 2026-06-24 | accepted; stored in approved `magic-shroud` record | [0018-shroud-throughput-and-manifestation-model.md](0018-shroud-throughput-and-manifestation-model.md) |
 | Ink Pact Terminology and Core Mechanics | 2026-06-24 | accepted; stored in approved `magic-ink-boons` record | [0019-ink-pact-terminology-and-core-mechanics.md](0019-ink-pact-terminology-and-core-mechanics.md) |
+| Kinesis Terminology and Mechanics | 2026-06-24 | accepted; stored in approved `magic-subversion` record | [0020-kinesis-terminology-and-mechanics.md](0020-kinesis-terminology-and-mechanics.md) |

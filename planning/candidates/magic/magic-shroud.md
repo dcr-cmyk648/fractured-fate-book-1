@@ -39,6 +39,16 @@ Archeon/Naeroth-adjacent body training may help internalize instincts needed for
 
 Exact mechanics remain for Archeon, Naeroth, martial training, and magic-system reviews.
 
+## Kinesis Interaction
+
+Exact kinesis/Shroud interaction remains candidate.
+
+Possibilities to preserve:
+
+- kinesis may interact with Shroud sublimation and backlash handling
+- kinesis may be difficult to combine with Shroud maintenance because both require energy handling and attention
+- Shrouds may protect the user from kinesis backlash without making the systems fully integrated
+
 ## Provenance
 
 - `imports/normalized/book-1-outline.md:360-390`

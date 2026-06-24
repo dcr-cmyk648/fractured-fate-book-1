@@ -109,6 +109,7 @@ Current phase notes:
 - Major-organization review is complete through the current approved organization queue; core magic-system review is in progress.
 - First core-entity consistency review has been completed.
 - The Ink/systems block-level consistency review was completed after `magic-ink-boons`.
+- Kinesis (`magic-subversion`) has been approved after the Ink/systems consistency review.
 - Detailed entity queue status lives only in `ENTITY_INDEX.md`.
 - Story-bible review must complete before any chapter review, chapter outlining, future-sequence outlining, or next-draft outline construction begins.
 

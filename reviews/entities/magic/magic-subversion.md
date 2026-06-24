@@ -1,8 +1,8 @@
 ---
 id: magic-subversion
 entity_type: magic
-display_name: Subversion / Archeon kinesis
-review_status: awaiting-author
+display_name: Kinesis
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -18,20 +18,13 @@ source_scope:
 last_updated: 2026-06-24
 ---
 
-# Entity Review: Subversion / Archeon Kinesis
+# Entity Review: Kinesis
 
 ## Proposed identity
 
-`Subversion` is Kelyra's name for her Archeon-derived hereditary magic. Accepted decisions already frame that term as Kelyra's misnomer until the magic taxonomy is reviewed.
+`Kinesis` is the accepted name for the Archeon hereditary magic. It may be referred to as `Archeon kinesis` or `Archeon hereditary magic`. `Subversion` is Kelyra's misnomer for the same ability and should not be treated as the technical name.
 
-The underlying magic appears to be short-range Archeon kinesis rooted in older/original magic. Current sources and planning variously describe it as draining zan, redirecting or transforming existing energy, countering or hijacking magical transformations, shaping kinetic force, and interacting with Shrouds through sublimation/backlash mechanics.
-
-The proposed stable distinction:
-
-- `Subversion`: Kelyra/Davian family terminology and practical technique language.
-- `Archeon kinesis`: underlying hereditary magic or technical taxonomy.
-
-This distinction is proposed, not approved.
+The accepted model is short-range, primarily kinetic redirection of energy. It can be combined with other elements, especially Ink Pact movement, Shrouds, martial arts, anchors, tools, and technology, to allow more outward or aggressive manifestations.
 
 ## Manuscript-established information
 
@@ -82,27 +75,27 @@ This distinction is proposed, not approved.
 
 - [0006: Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md): Kelyra's abilities are strong Archeon hereditary kinesis, which she calls Subversion, and genius martial art talent linked to speed of mind.
 - [0012: Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md): Archeon true power includes short-range kinesis based in original pre-refinement/pre-original-sin magic, Ink Pacts for speed, Shroud use, martial arts, and Zirene-derived technology.
-- [0019: Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md): Ink Pacts grant rapid wrinkle-in-space/Skein movement; exact integration with Subversion, Shrouds, and martial technique remains unresolved.
+- [0019: Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md): Ink Pacts grant rapid wrinkle-in-space/Skein movement; integration with kinesis supports more outward/aggressive manifestations, while exact Shroud interaction remains unresolved.
 
 ## Consistent information
 
-- Kelyra and Davian have Archeon-derived magic that Kelyra calls Subversion.
-- The underlying ability is not simple force generation; it works by redirecting, converting, draining, or repurposing existing energy.
+- Kelyra and Davian have Archeon-derived kinesis that Kelyra calls Subversion.
+- The underlying ability is not simple force generation; it primarily redirects kinetic energy at short range.
 - It is short-range, tool-friendly, and much stronger when paired with physical technique, anchors, gauntlets, knives, walls, or external substrates.
 - Inefficient use causes backlash, injury, exhaustion, or severe physical strain.
 - It has unusually high cognitive load compared with simpler destructive magics.
 - Archeon publicly disguises its true power as unusually strong Shrouds, but the accepted stack is kinesis + Ink Pact speed + Shroud use + martial arts + tools/technology.
-- Kelyra's word `Subversion` may not be technically accurate for the full underlying Archeon magic.
+- Kelyra's word `Subversion` is a misnomer for kinesis.
 
 ## Contradictions and version conflicts
 
 ### Name and taxonomy
 
 - Version A: Kelyra/Davian call the magic `Subversion`.
-- Version B: accepted Archeon decision calls the underlying ability short-range kinesis based in original magic.
+- Version B: author decision accepts `kinesis` as the technical name, with `Archeon kinesis` / `Archeon hereditary magic` as acceptable references.
 - Source of A: `imports/normalized/melissa-copy.md:20428`; `bible/characters/char-kelyra.md`.
 - Source of B: `decisions/0012-archeon-high-clade-rise-and-training-system.md`.
-- Likely consequence: decide whether to keep `Subversion` as the durable magic-file name, use `Archeon kinesis`, or use a dual-name structure.
+- Resolution: accepted name is `kinesis`. `Subversion` is only Kelyra's misnomer.
 
 ### Scope of effect
 
@@ -110,7 +103,7 @@ This distinction is proposed, not approved.
 - Version B: planning expands it to transforming any energy, especially kinetic energy, and possibly breaking/hijacking Shroud transformation pipelines.
 - Source of A: `imports/normalized/melissa-copy.md:2496`, `4502-4508`, `8028`, `20428`.
 - Source of B: `imports/normalized/book-1-outline.md:5651`, `6369-6529`.
-- Likely consequence: decide whether Book 1 accepted record should stay conservative or approve the broader energy-transformation model now.
+- Resolution: accepted Book 1 model is short-range, primarily kinetic redirection of energy. Broader energy-transformation and Shroud-pipeline language remains candidate.
 
 ### Relationship to Shrouds
 
@@ -118,42 +111,42 @@ This distinction is proposed, not approved.
 - Version B: planning says Subversion and Shrouds may be antagonistic because Shrouds automate transformation while Subversion consciously interrupts it.
 - Source of A: `imports/normalized/melissa-copy.md:7116-7129`, `13523`.
 - Source of B: `imports/normalized/book-1-outline.md:6509-6529`.
-- Likely consequence: decide whether to approve a Shroud interaction rule now or keep it candidate until broader magic-combat review.
+- Resolution: Shroud interaction remains candidate.
 
 ### Tools and artifacts
 
 - Version A: accepted Archeon record says tools/gauntlets are crutches or force-buffer/transfer technology for less accomplished users; Serathis hides dependence on them.
-- Version B: planning gives Antithesis/gauntlets/zan blades stronger roles as sinks, anti-Shroud tools, or Subversion weapons.
+- Version B: author decision accepts Antithesis as an Archeon rip-off of Zirene's designs, specifically of her older/prototypical designs at the point of Book 1.
 - Source of A: `bible/organizations/org-archeon.md`; `decisions/0012`.
 - Source of B: `imports/normalized/book-1-outline.md:4172`, `4259`, `4835`, `5657`, `6525`.
-- Likely consequence: keep exact tool mechanics for `object-antithesis`, `magic-zan-lattices`, and technology reviews unless author wants a rule now.
+- Resolution: Antithesis's origin is accepted at a high level; exact object mechanics remain for `object-antithesis`, `magic-zan-lattices`, Zirene, and technology reviews.
 
 ## Speculative or alternative material
 
-- Whether `Subversion` should remain the name or be treated only as Kelyra's misnomer.
-- Whether Subversion can transform any energy or only redirect/intercept magical/kinetic transformations.
-- Whether Subversion directly breaks Shrouds or only disrupts the transformations Shrouds rely on.
-- Whether tremorsense is accepted as a low-level kinesis extension.
+- Whether kinesis can transform broader energy beyond primarily kinetic redirection.
+- Whether kinesis directly breaks Shrouds or only disrupts the transformations Shrouds rely on.
+- Whether tremorsense / heightened sensitivity to kinetic manifestations is useful or too confusing.
 - Whether Subversion can create weapons or charge objects with stored diffusion/redirective effects.
 - Whether Subversion can offset Ink Pact acceleration and what happens when Ink and Subversion are used together.
-- Whether Serathis's own ability should be treated as perfected Subversion, broader Archeon kinesis, or a related but more complete technique.
-- Whether Antithesis is a precursor to Archeon gauntlets and what it can do as a knife.
+- Exact limits of Antithesis as an Archeon rip-off of Zirene's older/prototypical designs.
 
 ## Proposed accepted record
 
-This is a proposal, not accepted canon until author approval.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
-- `Subversion` is Kelyra's and Davian's family name for their Archeon-derived hereditary magic.
-- The underlying ability is best described for now as short-range Archeon kinesis, not as a separate fully understood magic taxonomy.
-- Subversion/Archeon kinesis works by redirecting, converting, draining, or repurposing existing energy rather than generating new energy.
+- `Kinesis` is the accepted name for the Archeon hereditary magic. It may also be referred to as `Archeon kinesis` or `Archeon hereditary magic`.
+- `Subversion` is Kelyra's misnomer for kinesis.
+- Kinesis is short-range, primarily kinetic redirection of energy.
+- Kinesis can be combined with other things, such as Ink Pact movement, Shrouds, martial arts, anchors, tools, and technology, to allow more outward or aggressive manifestations.
 - It is high-cognitive-load magic that becomes safer and more effective when the user has trained physical/motor patterns and can offload parts of the process into reflex.
 - Inefficient use creates backlash, injury, exhaustion, or physical strain.
 - Tools, anchors, gauntlets, knives, walls, and external substrates can make the magic easier or safer by giving redirected energy somewhere to go.
-- Kelyra has strong Archeon kinesis/Subversion and genius martial talent.
-- Davian has mild-to-moderate Subversion/Archeon kinesis and must learn to combine it with Shroud, Ink Pact movement, and martial training.
+- Kelyra has strong kinesis and genius martial talent.
+- Davian has mild-to-moderate kinesis and must learn to combine it with Shroud, Ink Pact movement, and martial training.
 - Archeon uses this ability as part of a broader stack with Ink Pacts, Shrouds, martial arts, and technology rather than as a standalone public-facing power.
+- Serathis is a near-perfected Archeon-kinesis user, but her total power comes from mastery of the Shroud / martial arts / Ink Pact / kinesis stack.
 
 ### backstory-canon
 
@@ -163,51 +156,43 @@ This is a proposal, not accepted canon until author approval.
 
 ### accepted-future-plan
 
-- Later training and combat should show Davian improving Subversion through efficiency, redirection, bodily awareness, and practiced patterns rather than through simple raw power.
+- Later training and combat should show Davian improving kinesis through efficiency, redirection, diversion, bodily awareness, and practiced patterns rather than through simple raw power.
 - Kelyra's future Archeon arc may reveal fuller implications of her ability, but exact weapon-channeling and late-book injury consequences are not yet approved in this packet.
+- Kelyra and Davian working together can surpass Serathis; both have potential to become better than Serathis because of strong fundamental abilities combined with Kelyra's version of Archeon martial arts.
 
 ### candidate
 
-- Tremorsense as a kinesis extension.
-- Subversion as explicit Shroud-pipeline hijacking.
-- Subversion weapons or stored diffusion/redirective effects.
-- Antithesis as a precursor to Archeon gauntlets.
+- Tremorsense or heightened sensitivity to kinetic manifestations as a kinesis extension.
+- Kinesis as explicit Shroud-pipeline hijacking.
+- Kinesis weapons or stored diffusion/redirective effects.
+- Exact Antithesis mechanics as an Archeon rip-off of Zirene's older/prototypical designs.
 - Exact Ink/Subversion/Shroud interaction rules.
-- Whether `Subversion` should be replaced by a more accurate technical term.
 
 ### contradiction
 
-- Kelyra's `Subversion` terminology may be narrower or misleading compared with the accepted Archeon-kinesis model.
+- Kelyra's `Subversion` terminology is a misnomer compared with accepted kinesis.
 - Older `Transcendence` / spirit-summoner Archeon label is obsolete.
 - Some planning assigns broader artifact/weapon mechanics than the current accepted files support.
 
 ## Proposed planning or arc record
 
-- Route Davian's training to a later arc/revision file focused on combining martial skill, Shroud, Ink Pact movement, and Subversion efficiently.
+- Route Davian's training to a later arc/revision file focused on combining martial skill, Shroud, Ink Pact movement, and kinesis efficiently.
 - Route Kelyra's weapon-channeling, Archeon captivity, and possible injury/leadership consequences to `thread-kelyra-archeon-recovery` and later revision planning.
 
 ## Proposed candidate record
 
 Retain in `planning/candidates/magic/magic-subversion.md`:
 
-- tremorsense
+- tremorsense / kinetic sensitivity
 - Shroud-pipeline hijacking
-- Subversion weapons
-- Antithesis/gauntlet precursor mechanics
-- Ink/Subversion/Shroud interaction
-- exact Serathis mastery model
+- kinesis weapons
+- Antithesis / Zirene / Archeon rip-off mechanics
+- Ink/kinesis/Shroud interaction
 - broad energy-transformation limits
 
 ## Questions for the author
 
-1. Should the accepted file be named/displayed as `Subversion`, `Archeon kinesis`, or `Subversion / Archeon kinesis`?
-2. Is `Subversion` only Kelyra's misnomer, or should it remain the in-world common name for this magic?
-3. For Book 1, should we accept the broader model that it transforms/redirects existing energy generally, or keep it narrower as draining/intercepting magical energy and kinetic force?
-4. Should the Shroud relationship be accepted now: Subversion consciously interrupts or hijacks transformation pipelines that Shrouds normally automate?
-5. Should tremorsense be accepted as an early low-level kinesis extension for Kelyra and Davian, or stay candidate?
-6. Should Antithesis be accepted now as a precursor/sink/anchor related to Archeon gauntlets, or leave that for the Antithesis object review?
-7. Should we accept that efficient Subversion favors redirection/diversion over dead-stopping or reversing energy because backlash is lower?
-8. How should Serathis be framed: perfected Subversion/Archeon kinesis user, exceptional stack user, or something not yet fully classified?
+Resolved by author feedback on 2026-06-24. Remaining later-review items are Shroud interaction, tremorsense/kinetic sensitivity, Antithesis object mechanics, broader energy-transformation limits, and exact Ink/kinesis/Shroud integration.
 
 ## Proposed file changes
 
@@ -215,7 +200,7 @@ After approval, Codex would create or modify:
 
 - `bible/magic/magic-subversion.md`
 - `planning/candidates/magic/magic-subversion.md`
-- a decision record for approved Subversion / Archeon kinesis terminology and mechanics
+- a decision record for approved kinesis terminology and mechanics
 - `decisions/index.md`
 - `ENTITY_INDEX.md`
 - `PROJECT_STATE.md`

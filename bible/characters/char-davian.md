@@ -22,7 +22,7 @@ He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real A
 
 Davian comes from a Twilight Concord / Masked Clade context shaped by hostility toward the High Clades. He works with Jalen and Kelyra, communicates through Concord sign, and uses underclass/Concord codes and tattoos that carry social meaning outside High Clade assumptions.
 
-Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develops Subversion-related magical ability through that line, though exact mechanics belong in future magic and family reviews.
+Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develops kinesis through that line; Kelyra calls that magic Subversion, but the accepted technical name is kinesis.
 
 ## Personality and Psychological Patterns
 
@@ -53,13 +53,13 @@ Davian's current abilities include:
 - Concord sign and covert communication
 - use of Antithesis
 - weak but real Shroud manifestation
-- Subversion-related magical ability
+- kinesis, called Subversion by Kelyra and Davian's family
 - exposure to Harbinger/Syndicate Ink Pact
 - aura absorption/mimicry through Ink Pact after killing a target
 - rapid movement related to moving through a wrinkle-in-space manner through the Skein
 - deeper Ink Pact healing through forced restructuring after Elric visits him in the Rezin citadel
 
-Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, Subversion, and Ink exposure without being controlled by the Ink's pressure.
+Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, kinesis, and Ink exposure without being controlled by the Ink's pressure.
 
 Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink, not a separate accepted Pact ability. Ink influence does not erase his agency.
 
@@ -136,11 +136,13 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Related magic: [Kinesis](../magic/magic-subversion.md)
+- Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
-- Broader Ink/Shroud/Subversion interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
+- Broader Ink/Shroud/kinesis interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
 - Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
 - The real Arrek's background and full consequences of his murder remain for `char-arrek`.
 - Late death/return/confession beats remain candidate material.
@@ -165,3 +167,4 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - `decisions/0002-naeroth-demi-human-worldbuilding.md`
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0019-ink-pact-terminology-and-core-mechanics.md`
+- `decisions/0020-kinesis-terminology-and-mechanics.md`

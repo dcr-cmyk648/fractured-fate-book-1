@@ -34,9 +34,9 @@ The true root of Archeon power is a constructed overlap of abilities and tools t
 - rigorous martial arts
 - for less accomplished practitioners, technology derived from Zirene's designs to help buffer and transfer force
 
-Because Archeon's kinesis is closer to original magic, it requires more balance and less simple reality-bending force than most refined High Clade magic. Exact mechanics belong to `magic-subversion`, `magic-ink-boons`, `magic-shroud`, and later technology/object reviews.
+Kinesis is short-range, primarily kinetic redirection of energy. Because Archeon's kinesis is closer to original magic, it requires more balance and less simple reality-bending force than most refined High Clade magic. Exact Shroud interaction, tremorsense/kinetic sensitivity, and tool mechanics remain for later reviews.
 
-Skilled users such as Serathis can combine these elements into extremely intense melee strikes. Most current Archeon practitioners cannot do this at Serathis's level and rely more heavily on buffering/transfer technology. Serathis hides that technology dependence because it embarrasses her and makes the Clade look weak.
+Serathis is a near-perfected Archeon-kinesis user, but her total power comes from mastery of the Shroud / martial arts / Ink Pact / kinesis stack. Most current Archeon practitioners cannot do this at Serathis's level and rely more heavily on buffering/transfer technology. Serathis hides that technology dependence because it embarrasses her and makes the Clade look weak.
 
 The older `Transcendence` / spirit-summoner label is obsolete.
 
@@ -72,11 +72,11 @@ Elric also coordinates with Archeon, Drakhal, and Vorren through the Harbingers.
 
 ## Current and Intended Heirs
 
-Kelyra and Davian are the heirs Serathis has been looking for: potential users able to fully combine kinesis, Ink Pacts, Shroud use, and martial arts.
+Kelyra and Davian are the heirs Serathis has been looking for: potential users able to fully combine kinesis, Ink Pacts, Shroud use, and martial arts. Working together, they can surpass Serathis, and both have the potential to become better than her because of strong fundamental abilities combined with Kelyra's version of Archeon martial arts.
 
-Kelyra has Archeon hereditary kinesis, which she calls Subversion, and genius martial talent, but her Shroud is trauma-blocked.
+Kelyra has strong kinesis, which she calls Subversion as a misnomer, and genius martial talent, but her Shroud is trauma-blocked.
 
-Davian inherits or develops Archeon-derived ability through Kelyra. His Shroud, Ink exposure, martial training, and kinesis/Subversion-related ability make him especially important to Serathis's long project.
+Davian inherits or develops kinesis through Kelyra. His Shroud, Ink exposure, martial training, and kinesis make him especially important to Serathis's long project.
 
 ## Political Position
 
@@ -98,14 +98,16 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Related magic: [Kinesis](../magic/magic-subversion.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact kinesis/Subversion mechanics remain for `magic-subversion`.
-- Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and Subversion/Shroud interaction details remain for later magic reviews.
+- Kinesis terminology and core mechanics are approved in `magic-subversion`.
+- Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and kinesis/Shroud interaction details remain for later magic reviews.
 - Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
 - Exact Zirene-derived Archeon technology remains for later technology/object reviews.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
@@ -125,3 +127,4 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - `bible/characters/char-davian.md`
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
 - Author feedback on 2026-06-24.
+- `decisions/0020-kinesis-terminology-and-mechanics.md`

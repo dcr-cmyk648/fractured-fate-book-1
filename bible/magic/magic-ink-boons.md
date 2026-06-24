@@ -29,7 +29,7 @@ Known accepted effects include:
 - pressure, psychotic symptoms, or compulsion
 - deep possession or puppet-like control in extreme cases
 
-The rapid movement effect is used by Davian, Archeon-linked users, Harvick, Serathis, and others, though exact overlap with Subversion, Shroud use, martial training, and Archeon technique remains for later reviews.
+The rapid movement effect is used by Davian, Archeon-linked users, Harvick, Serathis, and others. It can combine with kinesis to allow more outward or aggressive manifestations, though exact Shroud interaction remains for later reviews.
 
 ## Davian
 
@@ -120,13 +120,14 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Exact Ink/fate-thread visibility remains unresolved.
 - Transfer between users or relatives remains candidate and is likely too confusing for the Book 1 plot unless later re-approved.
 - Derivative or mass-produced Ink Pacts are later-book or later-story material, not Book 1 accepted canon.
-- Exact mechanics linking Ink Pact rapid movement with Archeon kinesis, Subversion, Shrouds, and martial technique remain for later magic reviews.
+- Exact mechanics linking Ink Pact rapid movement with Archeon kinesis, Shrouds, and martial technique remain for later magic reviews.
 
 ## Related Files
 
 - Review packet: [magic-ink-boons](../../reviews/entities/magic/magic-ink-boons.md)
 - Candidate material: [magic-ink-boons](../../planning/candidates/magic/magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
+- Related magic: [Kinesis](magic-subversion.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
@@ -135,6 +136,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 
 ## Provenance
 

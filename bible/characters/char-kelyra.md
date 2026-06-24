@@ -13,7 +13,7 @@ arc_file: outline/arcs/thread-kelyra-archeon-recovery.md
 
 ## Identity
 
-Kelyra Virellis is Davian's mother, Jalen's wife, and the de facto primary leader of the Twilight Concord. She took Jalen's surname after marriage in the hope that it would help disguise her from Archeon. She is tied to Archeon lineage, Archeon hereditary kinesis, martial training, family protection, Concord leadership, and the Heart-theft aftermath.
+Kelyra Virellis is Davian's mother, Jalen's wife, and the de facto primary leader of the Twilight Concord. She took Jalen's surname after marriage in the hope that it would help disguise her from Archeon. She is tied to Archeon lineage, kinesis, martial training, family protection, Concord leadership, and the Heart-theft aftermath.
 
 She is directly descended from Archeon breeding programs. The exact number of generations between Kelyra and Serathis remains unclear.
 
@@ -35,11 +35,11 @@ The broad arc around revenge and survival focus endangering the family now belon
 
 ## Abilities and Training
 
-Kelyra has strong Archeon hereditary kinesis, which she calls Subversion. That terminology is her misnomer and should not finalize the broader magic-system vocabulary.
+Kelyra has strong kinesis, the accepted name for Archeon hereditary magic. She calls it Subversion, but that is her misnomer.
 
 She is a genius martial artist. Her martial talent is linked to speed of mind, but the speed-of-thought aspect should be shown through action and perception rather than codified or quantified in exposition.
 
-Kelyra taught Selina and then Davian to be killers using Archeon training techniques, martial foundations, and kinesis/Subversion-adjacent foundations. Davian says she used Subversion to drain zan that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
+Kelyra taught Selina and then Davian to be killers using Archeon training techniques, martial foundations, and kinesis-adjacent foundations. Davian says she used Subversion, her name for kinesis, to drain zan that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
 
 Kelyra's Shroud is blocked by trauma. She knows it is there, but the idea that she must suppress it to escape Archeon is deeply ingrained. Even thinking about manifesting a Shroud is very unpleasant for her.
 
@@ -94,15 +94,17 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Related magic: [Kinesis](../magic/magic-subversion.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 
 ## Canonical Uncertainties
 
-- Exact hereditary kinesis/Subversion mechanics remain for later magic review.
+- Exact Shroud interaction and tremorsense/kinetic-sensitivity mechanics remain for later magic review.
 - Exact future Shroud manifestation scene and emotional integration remain for later arc/revision review.
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
@@ -121,6 +123,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - `imports/normalized/melissa-copy.md:20743-20883`: Lethira, Archeon children, Selina, and Shroud pressure.
 - `imports/normalized/melissa-copy.md:20949-21150`: Serathis's claims and Kelyra's Ink/mental reaction.
 - `imports/normalized/book-1-outline.md:366-379`: Kelyra's Subversion/kinesis, speed-of-mind planning, and Shroud notes.
+- `decisions/0020-kinesis-terminology-and-mechanics.md`
 - `imports/normalized/book-1-outline.md:5247`: Kelyra running from Archeon while pregnant with Selina.
 - `imports/normalized/book-1-outline.md:7120`: Lethira candidate relationship.
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`

@@ -22,7 +22,7 @@ These belong primarily to `thread-maya-davian-romance` and later raid/climax rev
 
 ## Magic and Combat Candidates
 
-- Ink/Shroud interaction remains unsettled. Current direction is that Ink may need to be received before Shroud manifestation, but whether Ink-adjacent abilities interrupt Shroud remains unresolved.
+- Ink/Shroud/kinesis interaction remains unsettled. Current direction is that Ink may need to be received before Shroud manifestation, but whether Ink-adjacent abilities interrupt Shroud remains unresolved.
 - Davian and Kelyra may have tremorsense as an extension of kinesis and martial arts.
 - Zirene may etch silver zan lattices into Davian's skin or build further body-linked zanwork.
 - Davian using Antithesis to part a force blast may function as a physical image of being the stone in the river.

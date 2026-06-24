@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-subversion
-- Latest completed entity: magic-ink-boons
+- Active or paused entity ID: None
+- Latest completed entity: magic-subversion
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Subversion magic packet`
+- Latest relevant commit message: `bible: approve Kinesis magic record`
 - Working tree expected to be clean: yes after approved workflow commit and sync
 - Remote synchronized: yes after approved workflow commit and sync
 
@@ -18,7 +18,7 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: None
+- Approved entities since last consistency review: magic-subversion
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes after approved workflow commit and sync
@@ -29,15 +29,15 @@ The `magic-ink-boons` entity was approved by the author and stored in durable ma
 
 ## Current work
 
-The `magic-subversion` review packet has been prepared and is awaiting author review.
+The `magic-subversion` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with kinesis terminology, `Subversion` as Kelyra's misnomer, Serathis's stack mastery, and candidate routing for Shroud interaction, tremorsense, and Antithesis/Zirene mechanics.
 
 ## Next action
 
-Review the `magic-subversion` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
+After committing and syncing the approved Kinesis record, begin preparing the next queued entity review, `magic-fateweaving-skein`.
 
 ## Awaiting author input
 
-- `magic-subversion` is awaiting author review.
+None
 
 ## Known blockers or risks
 
@@ -56,6 +56,7 @@ Review the `magic-subversion` author checkpoint and answer the targeted question
 - The Central Spire / central amphitheater blast-hole direction and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
+- Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, and exact Antithesis/Zirene mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -123,6 +124,9 @@ Review the `magic-subversion` author checkpoint and answer the targeted question
 - decisions/0018-shroud-throughput-and-manifestation-model.md
 - decisions/0019-ink-pact-terminology-and-core-mechanics.md
 - reviews/entities/magic/magic-subversion.md
+- bible/magic/magic-subversion.md
+- planning/candidates/magic/magic-subversion.md
+- decisions/0020-kinesis-terminology-and-mechanics.md
 - reviews/entities/magic/magic-ink-boons.md
 - bible/magic/magic-ink-boons.md
 - planning/candidates/magic/magic-ink-boons.md
