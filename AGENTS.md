@@ -60,14 +60,33 @@ Before doing book work, Codex must:
 
 Codex must distinguish:
 
-- accepted facts
-- manuscript facts
-- planned material
-- speculative ideas
-- contradictions
-- reader feedback
+- `present-canon`: true in the story's current world state at the latest manuscript cutoff
+- `backstory-canon`: accepted event or fact that occurred before the current manuscript state
+- `accepted-future-plan`: author-approved event, arc, revelation, or intended change that has not yet occurred in the manuscript
+- `candidate`: possibility, alternative, "what if," unresolved idea, or proposal that has not been accepted
+- `contradiction`: incompatible versions requiring later resolution
+- `historical-record`: review packets, old decisions, source imports, feedback, or other records that remain unchanged even when later canon supersedes them
 
 Feedback is not canon. Planning material is not automatically canon. Speculation and alternatives must remain clearly labeled.
+
+Route material by lifecycle:
+
+- `present-canon` and `backstory-canon` belong primarily in `bible/`.
+- `accepted-future-plan` belongs primarily in `outline/`, `revision/`, or an accepted plot/thread file.
+- `candidate` belongs in `planning/candidates/`.
+- `contradiction` belongs in the review packet and, when cross-file, `CONSISTENCY_QUEUE.md`.
+- `historical-record` remains where it is and is not rewritten to match newer decisions.
+
+A current intention may be `present-canon` while its eventual execution is an `accepted-future-plan`. Accepted bible files may link to accepted future-plan files, but should not duplicate the entire future plot sequence.
+
+## Control File Ownership
+
+- `ENTITY_INDEX.md` is the sole authority for entity ID, type, queue order, status, review packet path, accepted file path, candidate file path, and last-reviewed date.
+- `PROJECT_STATE.md` contains immediate operational handoff only: branch, phase, block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and blockers requiring author input.
+- `MIGRATION_STATUS.md` contains phase-level progress and phase gates only. Do not duplicate detailed entity queue state there.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only.
+- `decisions/index.md` indexes explicit author decisions only.
+- Do not embed a literal hash for the same commit that contains `PROJECT_STATE.md`; use stable wording such as `latest relevant commit: HEAD` and report actual hashes from Git commands.
 
 ## Consistency Rules
 
@@ -79,6 +98,18 @@ Use a hybrid consistency model:
 - Maintain `CONSISTENCY_QUEUE.md` as a compact system-managed queue for issues that may require later checking or judgment.
 - Do not fill `CONSISTENCY_QUEUE.md` with every relationship; add only items that may require consistency review, conflict resolution, or dependent-file updates.
 - Manual-edit protection applies to all consistency work: reload affected files from disk, inspect Git changes, preserve author edits, and never restore removed text from earlier generated drafts.
+
+Block-level consistency review becomes due when five entities have been approved since the last review, work changes to a different major entity category, a `broad-retcon` or `direct-contradiction` item affects multiple approved files, the author requests a consistency review, or the current logical block is complete.
+
+## GitHub Sync Rules
+
+- Approved entity work is committed locally after substantive approval.
+- After each successful approved-entity commit, push the current feature branch automatically.
+- Never force-push.
+- If the remote has diverged, stop and report rather than resolving automatically.
+- Do not push uncommitted work.
+- A review packet may receive a clearly labeled checkpoint commit when necessary for cross-computer durability, but it must remain unapproved.
+- `main` must never receive automatic direct commits from Codex.
 
 ## Authoring Rules
 

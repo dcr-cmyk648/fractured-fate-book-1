@@ -82,7 +82,7 @@ Observed normalization summary from 2026-06-23:
 
 ## Phase 3: Entity Inventory
 
-Status: completed and committed; awaiting authorization to begin entity review
+Status: completed and committed
 
 Gate:
 
@@ -101,7 +101,14 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-elric`, `char-harvick`, `char-selwin`, `char-jalen`, `org-rezin`, `org-archeon`, `org-drakhal`, and `org-high-clades` approved; `char-kelyra` marked needs-revisit for Concord role-swap chronology; `char-alden` deferred as an obsolete Aldira name pending cleanup; `org-harbingers-syndicate` awaiting author review
+Status: in progress
+
+Current phase notes:
+
+- Core-character block is complete.
+- Major-organization review is in progress.
+- First core-entity consistency review is pending as part of repository stabilization.
+- Detailed entity queue status lives only in `ENTITY_INDEX.md`.
 
 Gate:
 
@@ -110,35 +117,80 @@ Gate:
 - Stop for author review.
 - Do not write accepted bible files until explicit entity approval.
 
-Observed entity-review summary from 2026-06-23:
+Observed entity-review notes:
 
-- `char-maya` was reviewed, approved, and stored in `bible/characters/char-maya.md`.
-- Candidate Maya material was stored in `planning/candidates/characters/char-maya.md`.
-- Approved prologue revision direction was stored in `revision/prologue/maya-shroud-attack.md`.
-- Broader demi-human worldbuilding items were opened for separate review in `ENTITY_INDEX.md`.
-- `char-davian` was reviewed, approved, and stored in `bible/characters/char-davian.md`.
-- Candidate Davian material was stored in `planning/candidates/characters/char-davian.md`.
-- Davian's approved broad arc seed was stored in `outline/arcs/thread-davian-identity-guilt.md`.
-- `char-niall` was reviewed, approved, and stored in `bible/characters/char-niall.md`.
-- Candidate Niall material was stored in `planning/candidates/characters/char-niall.md`.
-- Niall's approved broad grief/recovery arc seed was stored in `outline/arcs/thread-niall-grief-recovery.md`.
-- Follow-up consistency items for Niall's silver conduits and mercenary moral framing were recorded in `CONSISTENCY_QUEUE.md`.
-- `char-kelyra` was reviewed, approved, and stored in `bible/characters/char-kelyra.md`.
-- Candidate Kelyra material was stored in `planning/candidates/characters/char-kelyra.md`.
-- Kelyra's approved broad Archeon trauma/family-protection arc seed was stored in `outline/arcs/thread-kelyra-archeon-recovery.md`.
-- Follow-up consistency items for Kelyra's magic terminology, trauma-blocked Shroud, Lirien spelling, and Lethira parentage were recorded in `CONSISTENCY_QUEUE.md`.
-- `char-elric` was reviewed, approved, and stored in `bible/characters/char-elric.md`.
-- Candidate Elric material was stored in `planning/candidates/characters/char-elric.md`.
-- Elric's approved broad reality/Skein endgame arc seed was stored in `outline/arcs/thread-elric-reality-skein.md`.
-- Follow-up consistency items for Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics were recorded in `CONSISTENCY_QUEUE.md`.
-- Block-level consistency checkpoint after five approved entities found no broken Markdown links and no immediate substantive conflict requiring author input. Pending cross-file issues were deferred to their owning entity reviews in `CONSISTENCY_QUEUE.md`.
+- Approved entity records are stored under `bible/`, with retained alternatives under `planning/candidates/`, review audit trails under `reviews/entities/`, and explicit decisions under `decisions/`.
+- Cross-file issues requiring later review are tracked in `CONSISTENCY_QUEUE.md`.
+- Current queue, statuses, and file paths live only in `ENTITY_INDEX.md`.
 
 ## Phase 5: Approved Durable Records
 
-Status: not started
+Status: in progress as entities are approved
 
 Gate:
 
 - Store approved entity information in `bible/`, `outline/`, `revision/`, `planning/candidates/`, `decisions/`, `feedback/`, and `reviews/entities/` as appropriate.
 - Update `ENTITY_INDEX.md` and `PROJECT_STATE.md`.
 - Stop before committing unless commit authorization has been given.
+
+## Phase 6: Chapter Manuscript Split
+
+Status: not started
+
+Gate:
+
+- Split the normalized manuscript into chapter-based plain-text files only after explicit authorization.
+- Preserve source provenance.
+- Do not rewrite or draft prose during splitting.
+
+## Phase 7: Outline Classification
+
+Status: not started
+
+Gate:
+
+- Classify the large Book 1 outline into controlled outline, revision, candidate, and reference files.
+- Do not promote outline material to canon without author approval.
+
+## Phase 8: Bullet Notes Inbox
+
+Status: not started
+
+Gate:
+
+- Convert Bullet notes into a controlled inbox.
+- Preserve unresolved, speculative, and discarded ideas without treating them as accepted canon.
+
+## Phase 9: Local Editing and Git Sync Procedures
+
+Status: not started
+
+Gate:
+
+- Add safe local manual-edit and Git synchronization procedures.
+- Manual edits to local manuscript files remain authoritative and must never be overwritten by generated text.
+
+## Phase 10: Assembly and Export Tools
+
+Status: not started
+
+Gate:
+
+- Add manuscript assembly and export tooling only after explicit authorization.
+- Do not install dependencies without explicit authorization.
+
+## Phase 11: Continuity and Reference Validation
+
+Status: not started
+
+Gate:
+
+- Add continuity and reference validation once the durable reference structure is stable.
+- Validation tools must not rewrite manuscript prose.
+
+## Permanent Authoring Gate
+
+- Entity review and repository setup do not authorize manuscript drafting.
+- New prose remains opt-in under `AUTHORING.md`.
+- The authoring workspace must be deliberately opened by the author before prose drafting begins.
+- Manual edits to local manuscript files remain authoritative and must never be overwritten by generated text.

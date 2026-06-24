@@ -5,32 +5,44 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `org-harbingers-syndicate` awaiting author review
-- Current entity under review: org-harbingers-syndicate
+- Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint
+- Current block: core-characters-and-major-organizations
+- Active or paused entity ID: org-harbingers-syndicate
 - Latest completed entity: org-high-clades
-- Latest relevant commit: 8cc24af (`bible: approve High Clades organization record`)
+- Latest relevant commit: HEAD
+- Latest relevant commit message: `review: checkpoint org-harbingers-syndicate packet`
 - Working tree expected to be clean: no
+- Remote synchronized: no
+
+## Block status
+
+- Current block: core-characters-and-major-organizations
+- Block scope: approved core character records through Jalen and major organization records through High Clades; Harbingers/Syndicate packet is unapproved and paused
+- Approved entities since last consistency review: char-harvick, char-selwin, char-jalen, org-rezin, org-archeon, org-drakhal, org-high-clades
+- Last consistency review: first entity consistency checkpoint after Elric (`chore: record first entity consistency checkpoint`)
+- Consistency review due: yes
+- Remote synchronized: no
 
 ## Last completed work
 
-The `org-high-clades` entity was approved by the author, stored, validated, and committed as `8cc24af`.
+The `org-high-clades` entity was approved by the author, stored, validated, and committed. The unapproved `org-harbingers-syndicate` review packet was checkpointed for durability without creating accepted canon.
 
 ## Current work
 
-The `org-harbingers-syndicate` review packet has been prepared and is awaiting author input.
+Repository stabilization checkpoint. Entity queue progression is paused.
 
 ## Next action
 
-Review `reviews/entities/organizations/org-harbingers-syndicate.md` and answer the targeted questions about Syndicate/Harbingers naming, leader origin, five-figure staging, Jalen's seat, false revolutionary ideology, Drakhal/Vorren/Archeon coordination, and the masked figure beside the leader.
+Finish stabilization: update workflow/control instructions, add and run the deterministic validator, run the first core-entity consistency review, commit, push the feature branch, and create a draft pull request if available.
 
 ## Awaiting author input
 
-- Author decision needed on the targeted questions in `reviews/entities/organizations/org-harbingers-syndicate.md`.
+- Deferred until after stabilization: answer the targeted questions in `reviews/entities/organizations/org-harbingers-syndicate.md`.
 
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by sixteen commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline`; push is authorized during this checkpoint after the working tree is clean and validated.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -53,13 +65,7 @@ Review `reviews/entities/organizations/org-harbingers-syndicate.md` and answer t
 - ENTITY_INDEX.md
 - MIGRATION_STATUS.md
 - decisions/index.md
-- imports/normalized/README.md
 - AUTHORING.md
-- imports/normalized/melissa-copy.md
-- imports/normalized/book-1-outline.md
-- imports/normalized/bullet-notes.md
-- imports/normalized/melissa-copy.comments.md
-- reviews/entities/characters/char-maya.md
 - bible/characters/char-maya.md
 - planning/candidates/characters/char-maya.md
 - revision/prologue/maya-shroud-attack.md
@@ -95,3 +101,11 @@ Review `reviews/entities/organizations/org-harbingers-syndicate.md` and answer t
 - reviews/entities/organizations/org-drakhal.md
 - reviews/entities/organizations/org-high-clades.md
 - reviews/entities/organizations/org-harbingers-syndicate.md
+- bible/organizations/org-rezin.md
+- bible/organizations/org-archeon.md
+- bible/organizations/org-drakhal.md
+- bible/organizations/org-high-clades.md
+- decisions/0011-rezin-clade-family-and-household-structure.md
+- decisions/0012-archeon-high-clade-rise-and-training-system.md
+- decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md
+- decisions/0014-high-clades-governance-and-central-amphitheater.md

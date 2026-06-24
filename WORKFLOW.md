@@ -84,7 +84,42 @@ The author should review substantive content decisions, not routine repository m
 
 Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
-Do not push, merge, tag, delete source or archival material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
+Do not merge, tag, delete source or archival material, install dependencies, rewrite Git history, force-push, or modify manuscript prose without separate explicit permission.
+
+Approved entity work is committed locally after substantive approval. After each successful approved-entity commit, push the current feature branch automatically. If the remote has diverged, stop and report. Do not push uncommitted work. A review packet may receive a clearly labeled checkpoint commit when necessary for cross-computer durability, but it must remain unapproved. `main` must never receive automatic direct commits from Codex.
+
+## Control File Ownership
+
+- `ENTITY_INDEX.md` is the sole authority for entity ID, entity type, queue order, entity status, review packet path, accepted file path, candidate file path, and last-reviewed date.
+- `PROJECT_STATE.md` contains immediate operational handoff information only: current branch, current phase, current block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and unresolved blockers requiring author input.
+- `MIGRATION_STATUS.md` contains phase-level progress and phase gates only.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only.
+- `decisions/index.md` indexes explicit author decisions only.
+
+Do not repeat the full approved or queued entity list outside `ENTITY_INDEX.md`.
+
+Do not embed a literal hash for the same commit that contains `PROJECT_STATE.md`; use stable wording such as `latest relevant commit: HEAD` and report actual hashes from Git commands.
+
+## Information Lifecycle and Routing
+
+Every substantive statement considered during review must be classified as one of:
+
+- `present-canon`: true in the story's current world state at the latest manuscript cutoff
+- `backstory-canon`: accepted event or fact that occurred before the current manuscript state
+- `accepted-future-plan`: author-approved event, arc, revelation, or intended change that has not yet occurred in the manuscript
+- `candidate`: possibility, alternative, "what if," unresolved idea, or proposal that has not been accepted
+- `contradiction`: incompatible versions requiring later resolution
+- `historical-record`: review packet, old decision, source import, feedback item, or other record that should remain unchanged even when later canon supersedes it
+
+Routing policy:
+
+- `present-canon` and `backstory-canon` belong primarily in `bible/`.
+- `accepted-future-plan` belongs primarily in `outline/`, `revision/`, or an accepted plot/thread file.
+- `candidate` belongs in `planning/candidates/`.
+- `contradiction` belongs in the review packet and, when cross-file, `CONSISTENCY_QUEUE.md`.
+- `historical-record` remains where it is and is not rewritten to match newer decisions.
+
+A current intention may be `present-canon` while its eventual execution is an `accepted-future-plan`. Accepted bible files may link to accepted future-plan files, but should not duplicate the entire future plot sequence.
 
 ### Step 1: Begin One Entity
 
@@ -222,13 +257,23 @@ Codex's proposed concise version of what should be stored as accepted.
 
 Clearly label it as a proposal.
 
+Divide proposed accepted material into:
+
+- `present-canon`
+- `backstory-canon`
+- `accepted-future-plan`
+
 ## Proposed planning or arc record
 
-Material that belongs in an outline or arc rather than the story bible.
+Material that belongs in an outline, revision file, or accepted plot/thread file rather than the story bible. Classify it as `accepted-future-plan` only when the author has already approved it; otherwise classify it as `candidate`.
 
 ## Proposed candidate record
 
 Material that should remain speculative.
+
+## Contradictions to preserve
+
+Material that should remain unresolved in the review packet and, when cross-file, `CONSISTENCY_QUEUE.md`.
 
 ## Questions for the author
 
@@ -382,9 +427,10 @@ After storing approved information:
 8. Run relevant validation.
 9. Inspect the staged file list and stop if any unexpected file is staged.
 10. Commit the approved entity locally using an appropriate commit message.
-11. Leave the working tree clean.
-12. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
-13. Stop only when the next entity review or block-level consistency checkpoint is ready for author review.
+11. Push the current feature branch normally without force. If the remote has diverged, stop and report.
+12. Leave the working tree clean.
+13. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
+14. Stop only when the next entity review or block-level consistency checkpoint is ready for author review.
 
 Prefer one approved entity per commit, unless the author explicitly authorizes a small related batch.
 
@@ -462,12 +508,13 @@ Do not fill the queue with every relationship. Add only items that may require l
 
 Run a fuller consistency review automatically at the end of a logical block.
 
-A block normally ends when:
+A block-level consistency review becomes due when:
 
 - all principal characters are reviewed
 - a major entity category is completed
 - work moves from one entity type to another
 - five approved entities have accumulated since the last review
+- a `broad-retcon` or `direct-contradiction` item affects multiple approved files
 - the author says "finish this block," "check consistency," or equivalent
 
 Before beginning the next block:
@@ -488,9 +535,10 @@ After the author responds:
 - update `CONSISTENCY_QUEUE.md` and entity statuses
 - validate
 - commit locally
+- push the current feature branch normally without force
 - proceed into the next block automatically
 
-Do not stop merely to ask permission to run dependency searches, update links or metadata, update an unambiguous dependent summary, add an item to `CONSISTENCY_QUEUE.md`, mark an entity `needs-revisit`, run the block review, commit routine approved consistency fixes, or begin the next block after the review is resolved.
+Do not stop merely to ask permission to run dependency searches, update links or metadata, update an unambiguous dependent summary, add an item to `CONSISTENCY_QUEUE.md`, mark an entity `needs-revisit`, run the block review, commit routine approved consistency fixes, push routine approved consistency fixes, or begin the next block after the review is resolved.
 
 Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
@@ -504,7 +552,7 @@ Stop and request explicit author approval before:
 - resolving a major contradiction the author has not addressed
 - making a broad retcon across multiple approved entities
 - committing changes outside the approved review scope
-- pushing to GitHub
+- force-pushing or pushing a diverged branch
 - merging branches
 - tagging a release or milestone
 - rewriting Git history
@@ -544,3 +592,19 @@ Before ending a substantial work session, update `PROJECT_STATE.md` with:
 - latest relevant commit if available
 
 Do not put essential state only in the conversation.
+
+## Branch and Milestone Policy
+
+After a logical block:
+
+1. Run the block consistency review.
+2. Resolve substantive author decisions.
+3. Validate.
+4. Commit.
+5. Push normally without force.
+6. Open or update a pull request into `main`.
+7. Do not merge without explicit author approval.
+
+Do not rename or merge the current branch unless explicitly authorized.
+
+After `migration/drive-baseline` is eventually merged, the recommended next branch should reflect the next work block, for example `bible/core-magic-review`.
