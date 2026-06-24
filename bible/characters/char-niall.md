@@ -49,6 +49,10 @@ Selwin Rezin:
 
 Selwin is Niall's son. Niall's harshness around Shroud training and family survival affects the pressure Maya feels when training Selwin.
 
+Accepted Selwin record: [Selwin Rezin](char-selwin.md)
+
+Niall subconsciously blames Selwin for Alara's postpartum psychosis. Niall does not consciously know he is doing this; he may make excuses to avoid or not train Selwin because Selwin makes him uncomfortable.
+
 Davian:
 
 Davian attacks Niall during the Heart theft. Davian's approved arc may later involve supporting Maya and Niall rather than needing to be the threat.
@@ -82,6 +86,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Selwin Rezin](char-selwin.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)

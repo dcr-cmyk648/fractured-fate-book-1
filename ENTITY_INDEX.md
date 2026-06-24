@@ -24,7 +24,7 @@ There must normally be no more than one entity marked `in-review`.
 | 4 | char-kelyra | character | Kelyra | approved | reviews/entities/characters/char-kelyra.md | bible/characters/char-kelyra.md | planning/candidates/characters/char-kelyra.md | 2026-06-23 |
 | 5 | char-elric | character | Elric | approved | reviews/entities/characters/char-elric.md | bible/characters/char-elric.md | planning/candidates/characters/char-elric.md | 2026-06-23 |
 | 6 | char-harvick | character | Harvick | approved | reviews/entities/characters/char-harvick.md | bible/characters/char-harvick.md | planning/candidates/characters/char-harvick.md | 2026-06-24 |
-| 7 | char-selwin | character | Selwin Rezin | queued | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md |  |
+| 7 | char-selwin | character | Selwin Rezin | approved | reviews/entities/characters/char-selwin.md | bible/characters/char-selwin.md | planning/candidates/characters/char-selwin.md | 2026-06-24 |
 | 8 | char-jalen | character | Jalen | queued | reviews/entities/characters/char-jalen.md | bible/characters/char-jalen.md | planning/candidates/characters/char-jalen.md |  |
 | 9 | org-rezin | organization | Rezin family / Rezin Clade | queued | reviews/entities/organizations/org-rezin.md | bible/organizations/org-rezin.md | planning/candidates/organizations/org-rezin.md |  |
 | 10 | org-archeon | organization | Archeon | queued | reviews/entities/organizations/org-archeon.md | bible/organizations/org-archeon.md | planning/candidates/organizations/org-archeon.md |  |

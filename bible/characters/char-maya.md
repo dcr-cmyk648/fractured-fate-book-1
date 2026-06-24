@@ -72,6 +72,10 @@ Selwin Rezin:
 
 Maya trains Selwin and is wary of reproducing the harshness of Niall's childhood Shroud training, even though she fears that pressure may have been necessary.
 
+Accepted Selwin record: [Selwin Rezin](char-selwin.md)
+
+Selwin currently cannot form a Shroud at all. Maya's training of him in Book 1 should preserve that limitation.
+
 Davian:
 
 Maya and Davian have a major current and intended arc involving attraction, misunderstanding, betrayal, guilt, and possible trust/partnership. Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this belongs partly to the Maya/Davian romance review.
@@ -106,6 +110,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 
 - Review packet: [char-maya](../../reviews/entities/characters/char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
+- Related character: [Selwin Rezin](char-selwin.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)

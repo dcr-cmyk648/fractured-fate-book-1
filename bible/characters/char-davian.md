@@ -87,6 +87,10 @@ Selwin:
 
 After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, apologizes for lying, and says he wants to help make things right.
 
+Accepted Selwin record: [Selwin Rezin](char-selwin.md)
+
+Davian saves Selwin during the Dissolution outburst, exposing Davian's underlying protective values and complicating his attempt to categorize all High Clades as enemies.
+
 ## Current Manuscript State
 
 In the prologue, Davian operates with the Twilight Concord under Jalen, fights a Low Clade magus with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
@@ -105,6 +109,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Selwin Rezin](char-selwin.md)
 
 ## Canonical Uncertainties
 

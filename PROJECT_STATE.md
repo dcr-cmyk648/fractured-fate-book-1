@@ -5,10 +5,10 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; `char-harvick` approved and committed
+- Current migration phase: Phase 4 entity-by-entity review; `char-selwin` approved and ready to commit
 - Current entity under review: None
-- Latest completed entity: char-harvick
-- Latest relevant commit: this commit (`bible: approve Harvick character record`)
+- Latest completed entity: char-selwin
+- Latest relevant commit: b1bc8e4 (`bible: approve Harvick character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
@@ -17,11 +17,11 @@ The `char-harvick` entity was approved by the author, stored in `bible/character
 
 ## Current work
 
-The approved `char-harvick` entity has been committed.
+The `char-selwin` entity was approved by the author and stored in durable files.
 
 ## Next action
 
-Begin preparing the next queued entity, `char-selwin`.
+Validate and commit the approved `char-selwin` entity, then begin preparing the next queued entity, `char-jalen`.
 
 ## Awaiting author input
 
@@ -30,12 +30,13 @@ Begin preparing the next queued entity, `char-selwin`.
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by nine commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by ten commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Selwin's Dissolution, Shroud inability, crossbreed/heritage implications, final-series role, and Niall/Alara postpartum blame mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
