@@ -2,7 +2,7 @@
 id: magic-codex-memory
 entity_type: magic
 display_name: Codex / memory journals / auratic codices
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -19,7 +19,7 @@ last_updated: 2026-06-24
 
 ## Proposed identity
 
-This packet treats `magic-codex-memory` as the owner for the general magic of auratic codices: memory journals that store vivid experiential memories, use aura-tied key incantations, can anchor aura-like imprints, and can be corrupted or bridged by Elric.
+This packet treats `magic-codex-memory` as the owner for the general magic of auratic codices: memory journals that store vivid experiential memories and use key incantation plus aura/tether interaction.
 
 It should not own the full object biography of Alara's specific journal. That belongs to `object-alara-journal`, which is queued separately and should inherit the general codex mechanics approved here.
 
@@ -65,8 +65,8 @@ It should not own the full object biography of Alara's specific journal. That be
 - `Auratic codex` is the current manuscript's technical term for the magic category.
 - Codices are books/journals that store memories in a way accessed by key incantation, aura, intent, and/or a carved tether.
 - Codex memories are immersive and can transmit sensory, emotional, bodily, and magical perspective.
-- Codices can anchor aura-like remnants or imprints, but whether those imprints are sentient is unresolved.
-- Elric corrupted or overlaid Alara's codex key with a bridge that lets him interact through some memories.
+- Codices do not anchor aura-like remnants or imprints by default.
+- Elric tampered with Alara's codex so it could anchor an aura-like imprint and act as a bridge that lets an Elric-like presence interact through some memories.
 - The codex trap is part of Elric's long-running plan to pull Maya toward fate/Skein knowledge.
 
 ## Contradictions and version conflicts
@@ -75,7 +75,7 @@ It should not own the full object biography of Alara's specific journal. That be
 
 - Version A: codices are memory journals that store experiential memories.
 - Version B: Alden says codices also anchor auras like the Registry, allowing possible imprints or pseudo-sentience.
-- Current recommendation: accept both at high level: normal function is memory access; advanced or corrupted function can involve aura anchoring. Exact imprint/sentience mechanics remain unresolved.
+- Resolution: normal codex function is memory access. Aura-imprint anchoring is not default; Elric's tampering made Alara's codex do this. Exact imprint/sentience mechanics remain unresolved.
 
 ### Elric presence
 
@@ -91,17 +91,17 @@ It should not own the full object biography of Alara's specific journal. That be
 
 ## Speculative or alternative material
 
-- Whether codices preserve aura, memory, intent, or all three.
+- Exact limits of memory, aura, intent, and tether interaction.
 - Whether a codex imprint can become sentient.
 - Whether Elric's codex bridge connects to his Ink persistence, the Harbinger leader, or only a dead imprint.
 - Whether Harvick has his own codex from Elric and how that affects his attachment to Elric. Provenance: `imports/normalized/book-1-outline.md:306`.
-- Whether the codex deliberately idealizes or "photoshops" Maya's parents, making it an elaborate trap that reinforces Maya's belief she can fix anything. Provenance: `imports/normalized/book-1-outline.md:679`.
+- How the codex deliberately idealizes or "photoshops" Maya's parents, making it an elaborate trap that reinforces Maya's belief she can fix anything. Provenance: `imports/normalized/book-1-outline.md:679`.
 - Exact relationship between codex aura anchoring, Registry aura records, true-name/aura theory, and zänwork.
 - Whether Niall showing Maya his codex is accepted, and when.
 
 ## Proposed accepted record
 
-These points are proposed for author approval, not yet canonized by this packet.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
@@ -109,23 +109,22 @@ These points are proposed for author approval, not yet canonized by this packet.
 - Codices store vivid experiential memories that can be accessed by a key incantation tied to the creator's aura or intent.
 - Access involves focus, recitation, and aura/tether interaction.
 - Codex memories can be dangerously immersive, carrying sensory, emotional, bodily, and magical perspective.
-- Codices can anchor aura-like imprints in addition to memories.
+- Codices do not anchor aura-like imprints by default.
 - Alara's journal is a specific auratic codex; its object history belongs to `object-alara-journal`.
 
 ### backstory-canon
 
-- Elric corrupted or overlaid Alara's codex key with a bridge mechanism long before Maya finds it.
+- Elric tampered with Alara's codex long before Maya finds it, causing it to anchor an aura-like imprint and carry a bridge mechanism.
 - The bridge lets an Elric-like imprint or remnant speak through some memories where Elric is represented or where he has enough connection.
 - It remains unresolved whether that interactive presence is true Elric consciousness, an aura imprint, an Ink-linked remnant, or a trap that imitates sentience.
 
 ### accepted-future-plan
 
-- The codex trap helps pull Maya toward fate/Skein knowledge and reinforces the end-book pattern in which she believes she can and must repair impossible losses.
+- The codex trap intentionally idealizes or distorts Maya's parents, helps pull Maya toward fate/Skein knowledge, and reinforces the end-book pattern in which she believes she can and must repair impossible losses.
 
 ### candidate
 
 - Niall showing Maya his codex to explain Alara's death.
-- Codex idealization of Maya's parents as part of Elric's trap.
 - Harvick having his own Elric-linked codex.
 - Exact aura-imprint sentience mechanics.
 - Exact Registry/codex/true-name relationship.
@@ -140,10 +139,10 @@ These points are proposed for author approval, not yet canonized by this packet.
 
 ## Proposed candidate record
 
-Retain in `planning/candidates/magic/magic-codex-memory.md` after approval:
+Retained in `planning/candidates/magic/magic-codex-memory.md` after approval:
 
 - Elric key-incantation appearance/revision mechanics
-- codex idealization / "photoshopped parents" trap
+- exact handling of codex idealization / "photoshopped parents" trap
 - Harvick's possible codex
 - Niall showing Maya Alara's death
 - aura-imprint sentience variants
@@ -152,24 +151,26 @@ Retain in `planning/candidates/magic/magic-codex-memory.md` after approval:
 
 ## Questions for the author
 
-1. Should `auratic codex` be the accepted technical term for this magic category?
-2. Should codices be accepted as storing immersive experiential memories accessed by key incantation plus aura/tether interaction?
-3. Should codices also be accepted as anchoring aura-like imprints, or should that remain candidate until Elric/Registry mechanics are reviewed?
-4. Is Elric's corrupted key/bridge accepted as canon, with the exact nature of the interactive Elric presence unresolved?
-5. Should the codex trap intentionally idealize or distort Maya's parents, reinforcing her belief that she can fix anything?
-6. Should Niall showing Maya his codex to explain Alara's death be accepted future-plan, or remain candidate?
-7. Should Harvick having an Elric-linked codex remain candidate, or be accepted?
-8. Should `object-alara-journal` remain separate from this magic record, with this file owning general codex mechanics only?
+Resolved by author feedback on 2026-06-24:
+
+1. `Auratic codex` is the accepted technical term.
+2. Codices store immersive experiential memories accessed by key incantation plus aura/tether interaction.
+3. Codices do not store aura imprints by default; Elric tampered with Alara's codex to make it do that.
+4. Elric's corrupted key/bridge is canon, with the exact nature of the interactive Elric presence unresolved.
+5. The codex trap intentionally idealizes or distorts Maya's parents, reinforcing her belief she can fix anything.
+6. Niall showing Maya his codex to explain Alara's death remains candidate.
+7. Harvick having an Elric-linked codex remains candidate.
+8. `object-alara-journal` remains separate from this magic record.
 
 ## Proposed file changes
 
-If approved, create:
+Created after approval:
 
 - `bible/magic/magic-codex-memory.md`
 - `planning/candidates/magic/magic-codex-memory.md`
 - a decision record for codex memory mechanics
 
-Also update:
+Also updated:
 
 - `ENTITY_INDEX.md`
 - `PROJECT_STATE.md`

@@ -73,6 +73,8 @@ Later current manuscript material shows Niall attacking Davian after the Heart t
 
 During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
 
+Niall has a codex connected to Alara that he cannot make himself open again but cannot destroy. Niall showing Maya his codex to explain Alara's death remains candidate, not accepted future-plan.
+
 ## Political and Military Role
 
 Niall's reputation is politically central. Enemies fear him enough to wait after the Heart theft to see whether his weakness is real, then plan around baiting, weakening, or legitimizing attacks against him.
@@ -90,16 +92,19 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 
 ## Canonical Uncertainties
 
 - Exact Heart/silver conduit/zan-strike-line mechanics remain for later magic and object reviews.
 - Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
 - Detailed Alara history remains for `char-alara` and `event-alara-death-war-memory`.
+- Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
 - Exact late-book Vorren fight execution remains candidate arc material.
 - Niall's possible older-brother or early-Presentation backstory is speculative only.
 

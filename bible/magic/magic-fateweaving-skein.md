@@ -81,6 +81,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Exact Heart / Skein / original-sin technical mechanics remain for later reviews.
 - Exact resurrection cost and reality-damage mechanics remain unresolved.
 - Exact Fateweaving / Convergence relationship remains unresolved.
+- Exact relationship among Elric's codex tampering, Ink persistence, Heart exposure, and fate-thread sight remains unresolved.
 - Larger cosmology beyond the Skein remains candidate material.
 - Skein-layer zä or reality-layer etching remains candidate for later cosmology or advanced-zän review.
 - Whether Niall's fear of fateweaving is correct, partly correct, or projection from Alara/Elric trauma remains unresolved.
@@ -94,9 +95,11 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
+- Related magic: [Codex / memory journals / auratic codices](magic-codex-memory.md)
 - Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 
 ## Provenance
 

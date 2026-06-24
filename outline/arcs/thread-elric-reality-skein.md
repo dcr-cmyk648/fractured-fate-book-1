@@ -45,6 +45,8 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and Davian's end-book 
 
 Davian's resurrection is canon future-plan material. Exact endgame execution, resurrection mechanics, cost, and reality-damage mechanics remain candidate material until later plot review.
 
+Elric's tampering with Alara's auratic codex is part of this pressure system. The codex trap intentionally idealizes or distorts Maya's parents and helps pull Maya toward fate/Skein knowledge. The exact nature of the interactive Elric-like presence remains unresolved.
+
 ## Related Files
 
 - Accepted character: [Elric Rezin](../../bible/characters/char-elric.md)
@@ -52,6 +54,7 @@ Davian's resurrection is canon future-plan material. Exact endgame execution, re
 - Review packet: [char-elric](../../reviews/entities/characters/char-elric.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+- Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Related accepted character: [Davian](../../bible/characters/char-davian.md)
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)

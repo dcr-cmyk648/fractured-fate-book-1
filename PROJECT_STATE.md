@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-codex-memory
-- Latest completed entity: magic-antithesis
+- Active or paused entity ID: none
+- Latest completed entity: magic-codex-memory
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Codex memory packet`
+- Latest relevant commit message: `bible: approve Codex memory mechanics`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,29 +18,26 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis
+- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis, magic-codex-memory
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The `magic-antithesis` entity was approved by the author as a boundary record, not a magic system. Durable files now record that Antithesis is Davian's knife only, remains a knife throughout Book 1, has no accepted direct `nïza` or unique anti-Shroud behavior, and that Paradox is canonically made from ruined Antithesis at the end of Book 1. Direct dependent records were updated to route force-parting/diffusion to Archeon kinesis candidates and object details to later object reviews. The next queued entity, `magic-codex-memory`, has been opened for author review.
+The `magic-codex-memory` entity was approved by the author. Durable files now record `auratic codex` as the accepted term, codices as immersive experiential memory systems accessed by key incantation plus aura/tether interaction, Elric's tampering with Alara's codex as the source of aura-imprint bridge behavior, and parent-memory idealization/distortion as part of the codex trap.
 
 ## Current work
 
-Review packet prepared for `magic-codex-memory`; awaiting author answers before creating accepted canon.
+Finalizing `magic-codex-memory` approval. No entity is active until the approved Codex memory commit is validated, committed, and pushed.
 
 ## Next action
 
-Present the `magic-codex-memory` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
+Validate the approved Codex memory changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `loc-rezin-citadel`.
 
 ## Awaiting author input
 
-- `magic-codex-memory`: accepted terminology and baseline mechanics for auratic codices.
-- `magic-codex-memory`: whether aura-like imprint anchoring is accepted or candidate.
-- `magic-codex-memory`: whether Elric's corrupted key/bridge is canon with the exact nature of the interactive presence unresolved.
-- `magic-codex-memory`: whether codex idealization of Maya's parents, Niall showing Maya his codex, Harvick's possible codex, and the separate `object-alara-journal` boundary are accepted or deferred.
+- None for `magic-codex-memory`; author approval was received on 2026-06-24.
 
 ## Known blockers or risks
 
@@ -61,6 +58,7 @@ Present the `magic-codex-memory` review summary and resolve the author questions
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
@@ -89,6 +87,9 @@ Present the `magic-codex-memory` review summary and resolve the author questions
 - decisions/0022-zan-terminology-and-lattice-principles.md
 - decisions/0023-antithesis-boundary-and-paradox-future-plan.md
 - reviews/entities/magic/magic-codex-memory.md
+- bible/magic/magic-codex-memory.md
+- planning/candidates/magic/magic-codex-memory.md
+- decisions/0024-auratic-codex-memory-mechanics.md
 
 ## Later branch recommendation
 

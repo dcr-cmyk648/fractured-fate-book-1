@@ -92,7 +92,7 @@ Current manuscript material establishes:
 
 - Elric as Niall's father and Maya's grandfather.
 - Niall's claim that he killed Elric and burned his body to ash.
-- Codex and aura mechanisms that may carry Elric's voice, trap, imprint, or direct presence.
+- Elric's tampering with Alara's auratic codex, including a corrupted key/bridge that can present an interactive Elric-like presence.
 - An Ink simulacrum or remnant that responds as Elric and speaks to Maya, Niall, and Harvick.
 - Elric's old records, lineage research, and reformist opposition to birth contracts.
 - Elric's hidden tie to Harvick's Ink Pact.
@@ -108,14 +108,16 @@ Current manuscript material establishes:
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+- Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 
 ## Canonical Uncertainties
 
 - Elric's fate sight is accepted as trauma-script / path-of-least-resistance perception, but its source remains unresolved.
-- Exact mechanics of fate-thread visibility, Ink simulacrum persistence, and the Harbinger leader's takeover remain for later Elric, Fateweaving/Skein, and Codex reviews.
+- Exact mechanics of fate-thread visibility, Ink simulacrum persistence, the Harbinger leader's takeover, and the interactive Elric presence in the tampered codex remain for later Elric, Fateweaving/Skein, Ink, and Heart reviews.
 - Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.
 - Elric's one known birth contract and hidden lineage records remain unresolved.
