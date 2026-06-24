@@ -99,10 +99,12 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 
 ## Canonical Uncertainties
 
@@ -110,6 +112,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and kinesis/Shroud interaction details remain for later magic reviews.
 - Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
 - Exact Zirene-derived Archeon technology remains for later technology/object reviews.
+- Zirene is accepted at high level as the advanced zänwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact Archeon device mechanics remain for later reviews.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.
 - Exact Archeon location, citadel layout, and raid geography remain for `loc-archeon` and revision planning.

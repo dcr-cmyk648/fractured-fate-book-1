@@ -1,8 +1,8 @@
 ---
 id: magic-zan-lattices
 entity_type: magic
-display_name: Zan / zan lattices / zanwrights
-review_status: awaiting-author
+display_name: Zän / zä lattices / zänwrights
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -161,23 +161,25 @@ It should not own every object that uses zan. Object-specific mechanics should r
 
 ## Proposed accepted record
 
-This is a proposal only.
+Approved by author feedback on 2026-06-24.
 
 ### present-canon
 
-- Zan/za are meaningful magical signs or components that can be etched, carved, written, or embedded into materials, architecture, tools, weapons, clothing, bodies, and aura-adjacent systems.
-- Zan lattices are connected systems of these signs/components. They can reinforce, route, store, amplify, detect, transform, maintain, or discharge magical effects.
-- Advanced zanwork depends on physical craft/tooling and on the representational fit between sign, material, target, and intended effect.
-- Modern practical zanwork is often treated as modular engineering; older and deeper systems can be more structural, embedded, representational, and persistent.
-- The Registry and Treasury sphere use ancient high-power zan lattices. Their modern Rezin operation is powerful but inefficient and relies heavily on the Heart's power.
-- Zirene is an advanced zanwright/technology figure whose work can anchor person-specific lattices to skin or metal and whose designs are connected to Niall's metals, Davian's bands, Archeon technology, and Antithesis lineage at high level.
-- Niall's hidden silver conduits are zan-etched lightning modifiers; exact mechanics remain unresolved.
+- The accepted in-world spelling is `zä`, `zän`, and `zänwright`; unaccented forms may remain in notes and control-file IDs for ease of typing.
+- `Zänwright` is the final profession term for Book 1.
+- Zä are meaningful magical signs or components that can be etched, carved, written, or embedded into materials, architecture, tools, weapons, clothing, bodies, and aura-adjacent systems.
+- Zä lattices work like magical circuitboards: connected systems of components that can reinforce, route, store, amplify, detect, transform, maintain, or discharge magical effects.
+- The base-6 number system is structurally linked to zä design, and the strike-line running through numbers and characters conducts energy between zä in a lattice.
+- Modern practical zänwork is modular, scalable, and durable. Ancient zä are more complex but less durable and less scalable; their complexity represents more complex circuitry.
+- The Registry and Treasury sphere use ancient high-power zä lattices. Their modern Rezin operation is powerful but inefficient and relies heavily on the Heart's power.
+- Zirene is an advanced zänwright/technology figure whose work can anchor person-specific lattices to skin or metal and whose designs are connected to Niall's metals, Davian's bands, Archeon technology, and Antithesis lineage at high level.
+- Niall's hidden silver conduits are zä-etched lightning modifiers; exact mechanics remain unresolved.
 
 ### backstory-canon
 
-- Older Rezin and Elric-associated systems used dense structural zanwork embedded into architecture and designed for persistence.
-- Modern writing systems and masked/Concord hand-sign systems may derive from older za/zan principles if author accepts that direction.
-- Ancient zan theory preserved more representational meaning than many practical modern systems retain.
+- Older Rezin and Elric-associated systems used dense structural zänwork embedded into architecture and designed for persistence.
+- Modern writing systems and masked/Concord hand-sign systems derive from older zä/zän principles.
+- Ancient zä theory preserved more representational meaning than many practical modern systems retain.
 
 ### accepted-future-plan
 
@@ -186,11 +188,10 @@ This is a proposal only.
 
 ### candidate
 
-- Exact terminology/spelling and profession taxonomy.
-- Number-system details, including Nizan/nïza and empty-value notation.
-- Archetypal/conceptual zan such as the Tyrant, negation, and balance.
-- Person-specific za, true-name/aura theory, and whether a person can be represented directly.
-- Skein-layer zan and deeper reality-interface mechanics.
+- Number-system details, including `Nizän` / `nïza` and empty-value notation.
+- Archetypal/conceptual zä such as the Tyrant, negation, and balance.
+- Person-specific zä, true-name/aura theory, and whether a person can be represented directly.
+- Skein-layer zä and deeper reality-interface mechanics.
 - Shroud-piercing weapons and guns/wands.
 - Naeroth/jin/jinwright origins and Elarion mass-production history.
 
@@ -225,14 +226,16 @@ Retain in `planning/candidates/magic/magic-zan-lattices.md`:
 
 ## Questions for the author
 
-1. What should the durable reference spelling be: unaccented `zan`/`za`, accented `zän`/`zä`, or a split where reference files use unaccented terms and manuscript/in-world prose can use accented terms?
-2. Should `zanwright`, `glyphwright`, and `jinwright` be separate in-world roles/terms, or should one term supersede the others for Book 1?
-3. Should we accept the layered model that practical modern zanwork is modular engineering, while advanced/ancient zanwork depends on representation and conceptual meaning?
-4. Should the Heart-powered inefficiency model be accepted broadly: major Rezin systems work, but many are overbuilt around near-limitless Heart input and fail or shrink after the Heart is stolen?
-5. Should Zirene be accepted now as the advanced zanwright behind Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage at high level, while exact device inventory waits for later reviews?
-6. Should modern writing systems and masked/Concord hand signs deriving from za/zan be accepted, or kept candidate?
-7. Should number-system/Nizan/nïza/archetypal zan material stay candidate until culture/terminology review?
-8. Should Skein-layer zan / reality-layer etching stay candidate until a later cosmology or advanced-zan review?
+Resolved by author feedback on 2026-06-24:
+
+1. Accepted spelling is accented: `zä`, `zän`, and `zänwright`. Unaccented note forms are typing shortcuts.
+2. `Zänwright` is the final profession term; `glyphwright` and `jinwright` should not supersede it.
+3. Accept the circuitboard model: zä are components in lattices, linked to the base-6 number system and strike-line conduction.
+4. Accept broad Heart-powered inefficiency: major Rezin systems work, but many are overbuilt around near-limitless Heart input and fail or shrink after the Heart is stolen.
+5. Accept Zirene at high level as the advanced zänwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact device inventory waits for later reviews.
+6. Accept modern writing systems and masked/Concord hand signs as deriving from zä/zän.
+7. Defer number-system, `Nizän` / `nïza`, and archetypal zä material to more specific reviews.
+8. Keep Skein-layer zä / reality-layer etching candidate until later cosmology or advanced-zän review.
 
 ## Proposed file changes
 

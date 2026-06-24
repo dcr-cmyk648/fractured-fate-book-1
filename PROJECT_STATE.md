@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: magic-zan-lattices
-- Latest completed entity: magic-fateweaving-skein
+- Active or paused entity ID: none
+- Latest completed entity: magic-zan-lattices
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Zan lattice magic packet`
+- Latest relevant commit message: `bible: approve Zän lattice magic record`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,26 +18,26 @@ Last updated: 2026-06-24
 
 - Current block: core-magic-systems
 - Block scope: core magic-system records beginning with Shroud
-- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein
+- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The `magic-fateweaving-skein` entity was approved by the author, committed, and pushed. The next review packet, `magic-zan-lattices`, was prepared as an unapproved review checkpoint.
+The `magic-zan-lattices` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with accepted zä/zän/zänwright terminology, circuitboard/strike-line/base-6 lattice principles, Heart-powered inefficiency, Zirene's high-level zänwright role, and candidate routing for number-system details, archetypal zä, Skein-layer zä, and exact object/device mechanics.
 
 ## Current work
 
-Paused at the author-review checkpoint for `magic-zan-lattices`. No accepted Zan/zan lattice bible or candidate files have been created yet.
+Finalizing `magic-zan-lattices` approval. No entity is active until the approved Zän lattice commit is validated, committed, and pushed.
 
 ## Next action
 
-Resume from `reviews/entities/magic/magic-zan-lattices.md`, present the Zan/zan lattice review summary, and resolve the author questions. After substantive approval, store accepted and candidate zan material, update dependencies, validate, commit, push, and continue according to the queue.
+Validate the approved Zän lattice changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-antithesis`.
 
 ## Awaiting author input
 
-- Author answers needed for `magic-zan-lattices` terminology/spelling, profession taxonomy, representation model, Heart-powered inefficiency, Zirene scope, language/sign derivation, number/archetype routing, and Skein-layer zan routing.
+- None for `magic-zan-lattices`; author approval was received on 2026-06-24.
 
 ## Known blockers or risks
 
@@ -58,6 +58,7 @@ Resume from `reviews/entities/magic/magic-zan-lattices.md`, present the Zan/zan 
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, and exact Antithesis/Zirene mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, and exact Zirene/Archeon/Antithesis device mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 

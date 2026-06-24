@@ -72,7 +72,7 @@ Kelyra and Davian working together can surpass Serathis. Both have the potential
 
 Antithesis is an Archeon rip-off of Zirene's designs, specifically her older and more prototypical designs at the time of Book 1. Kelyra stole it.
 
-Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Archeon technology, and zan-lattice reviews.
+Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Archeon technology, and zä-lattice reviews.
 
 ## Canonical Uncertainties
 
@@ -91,7 +91,9 @@ Exact Antithesis mechanics belong to the later `object-antithesis`, Zirene, Arch
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
+- Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 
 ## Provenance
 

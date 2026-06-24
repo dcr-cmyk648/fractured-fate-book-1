@@ -31,9 +31,9 @@ Elric Rezin is Niall's father. Niall destroyed Elric's original body, but Elric'
 
 Niall's current manuscript ability centers on lightning and electrical-charge manipulation. Maya's current explanation frames his method as connecting high electrical charge to lower charge and maintaining those connections over long distances.
 
-Niall wears hidden silver zan-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
+Niall wears hidden silver zä-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
 
-The exact mechanics of the silver conduits, zan-strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
+The exact mechanics of the silver conduits, zä strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
 
 ## Important Relationships
 
@@ -89,9 +89,11 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
+- Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 
 ## Canonical Uncertainties
 

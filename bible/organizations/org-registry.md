@@ -16,7 +16,7 @@ The Registry is the Rezin citadel's ancient magical security and identification 
 
 It is Rezin-specific. The Rezin citadel's access to the Registry is part of why that citadel position is so desirable, and the other High Clades covet it.
 
-This file owns the Registry as an institution/system. The physical chamber belongs to `loc-registry`; detailed zan-lattice mechanics belong to `magic-zan-lattices`.
+This file owns the Registry as an institution/system. The physical chamber belongs to `loc-registry`; detailed zä-lattice mechanics belong to `magic-zan-lattices`.
 
 ## Functions
 
@@ -58,7 +58,7 @@ The Registry is still vulnerable to overwhelming conditions. Rapid multi-attacke
 
 After the Heart theft, the Registry is mostly down or compromised.
 
-Maya attempts a band-aid repair after the loss of the Heart causes the Registry to attempt to run a grossly outsized and inefficient system. Her redesign ideas include isolating passive detection, focusing it around entrances or gateways, and using zan sinks or more efficient power arrangements.
+Maya attempts a band-aid repair after the loss of the Heart causes the Registry to attempt to run a grossly outsized and inefficient system. Her redesign ideas include isolating passive detection, focusing it around entrances or gateways, and using zä sinks or more efficient power arrangements.
 
 Those redesign plans are not realized during the course of Book 1.
 
@@ -71,8 +71,10 @@ Those redesign plans are not realized during the course of Book 1.
 - Related character: [Davian](../characters/char-davian.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 
 ## Canonical Uncertainties
 
