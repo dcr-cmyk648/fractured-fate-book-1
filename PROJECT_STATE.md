@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: none
+- Active or paused entity ID: magic-antithesis
 - Latest completed entity: magic-zan-lattices
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Zän lattice magic record`
+- Latest relevant commit message: `review: prepare Antithesis magic packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,22 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-zan-lattices` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with accepted zä/zän/zänwright terminology, circuitboard/strike-line/base-6 lattice principles, Heart-powered inefficiency, Zirene's high-level zänwright role, and candidate routing for number-system details, archetypal zä, Skein-layer zä, and exact object/device mechanics.
+The `magic-zan-lattices` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with accepted zä/zän/zänwright terminology, circuitboard/strike-line/base-6 lattice principles, Heart-powered inefficiency, Zirene's high-level zänwright role, and candidate routing for number-system details, archetypal zä, Skein-layer zä, and exact object/device mechanics. The next queued entity, `magic-antithesis`, has been opened for author review.
 
 ## Current work
 
-Finalizing `magic-zan-lattices` approval. No entity is active until the approved Zän lattice commit is validated, committed, and pushed.
+Review packet prepared for `magic-antithesis`; awaiting author answers before creating accepted canon.
 
 ## Next action
 
-Validate the approved Zän lattice changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-antithesis`.
+Present the `magic-antithesis` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
 
 ## Awaiting author input
 
-- None for `magic-zan-lattices`; author approval was received on 2026-06-24.
+- `magic-antithesis`: whether to canonize an abstract negation/diffusion/opposition principle.
+- `magic-antithesis`: whether to keep Antithesis as a Book 1 knife with all transformation/sword-form Book 1 material obsolete.
+- `magic-antithesis`: whether to accept the high-level origin as an effective but crude Archeon rip-off of Zirene's older/prototypical designs, stolen by Kelyra.
+- `magic-antithesis`: whether the force-parting / "stone in a river" model, anti-Shroud behavior, zä of negation / `nïza` link, Paradox future-plan, and thematic antithesis language are accepted here or deferred.
 
 ## Known blockers or risks
 
@@ -72,24 +75,16 @@ Validate the approved Zän lattice changes, inspect the staged file list, commit
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- reviews/entities/magic/magic-fateweaving-skein.md
 - reviews/entities/magic/magic-zan-lattices.md
-- bible/characters/char-maya.md
-- bible/characters/char-elric.md
-- bible/characters/char-niall.md
-- bible/organizations/org-registry.md
+- reviews/entities/magic/magic-antithesis.md
 - bible/organizations/org-archeon.md
 - bible/magic/magic-ink-boons.md
-- bible/magic/magic-shroud.md
 - bible/magic/magic-subversion.md
-- bible/magic/magic-fateweaving-skein.md
+- bible/magic/magic-zan-lattices.md
 - outline/arcs/thread-elric-reality-skein.md
-- decisions/0001-maya-naeroth-heritage-and-appearance.md
-- decisions/0002-naeroth-demi-human-worldbuilding.md
-- decisions/0007-elric-rezin-remnant-and-reality-skein-role.md
 - decisions/0019-ink-pact-terminology-and-core-mechanics.md
-- reviews/entities/magic/magic-ink-boons.md
-- reviews/entities/magic/magic-subversion.md
+- decisions/0020-kinesis-terminology-and-mechanics.md
+- decisions/0022-zan-terminology-and-lattice-principles.md
 
 ## Later branch recommendation
 
