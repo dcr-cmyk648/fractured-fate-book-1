@@ -19,3 +19,4 @@ Do not use this file as a dump for unresolved questions.
 | Rezin Clade, Family, and Household Structure | 2026-06-24 | accepted; stored in approved `org-rezin` record | [0011-rezin-clade-family-and-household-structure.md](0011-rezin-clade-family-and-household-structure.md) |
 | Archeon High Clade Rise and Training System | 2026-06-24 | accepted; stored in approved `org-archeon` record | [0012-archeon-high-clade-rise-and-training-system.md](0012-archeon-high-clade-rise-and-training-system.md) |
 | Drakhal Political Strategy and Vorren Affiliation | 2026-06-24 | accepted; stored in approved `org-drakhal` record | [0013-drakhal-political-strategy-and-vorren-affiliation.md](0013-drakhal-political-strategy-and-vorren-affiliation.md) |
+| High Clades Governance and Central Amphitheater | 2026-06-24 | accepted; stored in approved `org-high-clades` record | [0014-high-clades-governance-and-central-amphitheater.md](0014-high-clades-governance-and-central-amphitheater.md) |

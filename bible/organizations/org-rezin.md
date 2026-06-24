@@ -70,6 +70,7 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Harvick](../characters/char-harvick.md)
+- Related organization: [High Clades](org-high-clades.md)
 - Decision record: [Rezin Clade Family and Household Structure](../../decisions/0011-rezin-clade-family-and-household-structure.md)
 
 ## Canonical Uncertainties

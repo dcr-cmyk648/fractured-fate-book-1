@@ -63,6 +63,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Candidate material: [org-drakhal](../../planning/candidates/organizations/org-drakhal.md)
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Rezin Family / Rezin Clade](org-rezin.md)
+- Related organization: [High Clades](org-high-clades.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)

@@ -5,33 +5,32 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-drakhal` record
-- Current entity under review: org-drakhal
-- Latest completed entity: org-drakhal
-- Latest relevant commit: bd5dc61 (`bible: approve Archeon organization record`)
+- Current migration phase: Phase 4 entity-by-entity review; finalizing `org-high-clades`
+- Current entity under review: org-high-clades
+- Latest completed entity: org-high-clades
+- Latest relevant commit: pending local commit for `org-high-clades`
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `org-drakhal` entity was approved by the author and stored in durable files. Drakhal is accepted as a force-magic High Clade; Evana is current Head Magus; Caius is the marriage-candidate figure; Vorren is Caius's banished older brother and secretly Drakhal-affiliated; Drakhal's Niall/Maya proposal is a political trap.
+The `org-drakhal` entity was approved by the author, stored, validated, and committed as `3a42d7d`.
 
 ## Current work
 
-The `org-rezin` entity was approved, stored, validated, and committed as `e5857d7`.
+The `org-high-clades` entity was approved by the author and is being stored in durable files.
 
 ## Next action
 
-Validate, stage, inspect, and locally commit the approved `org-drakhal` files; then begin the next queued entity.
+Validate and commit the approved `org-high-clades` entity, then begin the next queued organization review.
 
 ## Awaiting author input
 
-- None
 - None
 
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by twelve commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by fifteen commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -42,6 +41,7 @@ Validate, stage, inspect, and locally commit the approved `org-drakhal` files; t
 - Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
 - Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- The Central Spire / central amphitheater blast-hole direction and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -93,3 +93,4 @@ Validate, stage, inspect, and locally commit the approved `org-drakhal` files; t
 - reviews/entities/organizations/org-rezin.md
 - reviews/entities/organizations/org-archeon.md
 - reviews/entities/organizations/org-drakhal.md
+- reviews/entities/organizations/org-high-clades.md
