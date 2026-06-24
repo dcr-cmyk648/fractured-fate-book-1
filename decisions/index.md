@@ -22,3 +22,4 @@ Do not use this file as a dump for unresolved questions.
 | High Clades Governance and Central Amphitheater | 2026-06-24 | accepted; stored in approved `org-high-clades` record | [0014-high-clades-governance-and-central-amphitheater.md](0014-high-clades-governance-and-central-amphitheater.md) |
 | Harbingers Name, Elric Takeover, and Coordination | 2026-06-24 | accepted; stored in approved `org-harbingers-syndicate` record | [0015-harbingers-name-elric-takeover-and-coordination.md](0015-harbingers-name-elric-takeover-and-coordination.md) |
 | Twilight Concord, Masked Clades, and Trial of Dominion | 2026-06-24 | accepted; stored in approved `org-concord` record | [0016-twilight-concord-masked-clade-and-trial.md](0016-twilight-concord-masked-clade-and-trial.md) |
+| Registry Power, Modes, and Elric Bypass | 2026-06-24 | accepted; stored in approved `org-registry` record | [0017-registry-power-modes-and-elric-bypass.md](0017-registry-power-modes-and-elric-bypass.md) |

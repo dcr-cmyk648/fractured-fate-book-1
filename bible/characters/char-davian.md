@@ -42,6 +42,8 @@ Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndi
 
 Davian clearly murdered Arrek. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
 
+Accepted Registry heist mechanics: Davian adds Arrek's name to the Registry and relies on the Ink Pact/Boon to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
+
 ## Abilities
 
 Davian's current abilities include:
@@ -120,6 +122,8 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
+- Related organization: [Registry](../organizations/org-registry.md)
+- Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 
 ## Canonical Uncertainties
 

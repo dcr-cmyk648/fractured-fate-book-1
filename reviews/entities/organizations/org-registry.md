@@ -2,7 +2,7 @@
 id: org-registry
 entity_type: organization
 display_name: Registry
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -108,31 +108,36 @@ No separate reader feedback is extracted for the Registry.
 
 ## Proposed accepted record
 
-Proposal:
+Approved direction from author feedback on 2026-06-24:
 
 ### present-canon
 
 - Store the Registry as the Rezin citadel's ancient magical security and identification system.
+- The Registry is Rezin-specific. The Rezin citadel's access to it is part of why the Rezin citadel position is so desirable, and the other High Clades covet it.
 - The Registry records and verifies people through true name and aura.
 - It supports contractor registration, clearance, location, verification, and intruder detection.
-- Passive mode can detect, verify, locate, and warn without full lethal response.
-- Active mode can trigger alarms and lethal magical response against unregistered/intruding auras.
+- Passive mode identifies and alarms without full lethal response.
+- Active mode identifies and triggers lethal magical response against unregistered/intruding auras.
+- Active mode has limited short-period discharge capacity, so it cannot be used during full-scale battles without almost immediately running out of power.
 - The Registry is the backbone of Rezin citadel security and a major political/administrative advantage.
 - It allows freer contractor/personnel movement than other High Clades can safely permit.
-- It is extremely strong but not infallible. Harbinger Ink can temporarily fool it through aura/name mimicry, and fast multi-attacker scenarios can overwhelm passive detection.
+- It is extremely strong. Rezin confidence in it is not simple overconfidence; the failure comes from unknown Elric-supplied magic that bypasses it under extremely specific circumstances. Elric was previously Head Magus of the citadel and knows the Registry very well.
+- Harbinger Ink can temporarily bypass it through aura/name mimicry, and fast multi-attacker scenarios can overwhelm passive detection.
 
 ### backstory-canon
 
 - The Registry is ancient and designed around older assumptions, including abundant centralized power and inefficient zan architecture.
+- The Registry originally was not designed with the Heart in mind. In its original form, it would have been assumed to operate only passively and at much more limited scope.
+- The Heart now provides most of the Registry's power, and the Registry cannot function in the overpowered way it was later designed to operate without the Heart.
 - The Rezin advantage from the Registry has shaped citadel security and centralization.
 
 ### accepted-future-plan
 
-- Maya attempts to repair or reconfigure the compromised Registry by isolating passive detection, focusing it around entrances/gateways, and using zan sinks or more efficient power arrangements.
+- Maya attempts a band-aid repair after the loss of the Heart causes the Registry to attempt to run a grossly outsized and inefficient system. Her gateway/passive-only redesign plans are not realized during the course of Book 1.
 
 ## Proposed planning or arc record
 
-- Keep Davian's exact add/remove true-name heist procedure as revision material until the author decides whether to simplify it.
+- Store the simplified heist path as accepted: Davian adds Arrek's name and relies on the Ink Pact/Boon to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 - Keep Heart-power storage, gateway identification, and zan-sink redesign details for magic/technology and revision files.
 - Keep the Archeon blitz / passive-overwhelm explanation for revision planning around the late attack.
 
@@ -141,24 +146,19 @@ Proposal:
 - exact active/passive mode mechanics
 - exact alarm types and thresholds
 - exact lethal response mechanism
-- exact Heart/Registry power path
+- exact Heart/Registry power path and storage/discharge limits
 - exact Registry chamber/aurametric array layout
 - whether other High Clades have comparable systems
-- heist-procedure simplification
+- exact Caius active-mode encounter details
 
 ## Contradictions to preserve
 
-- Current heist procedure versus later simplification note.
-- In-world claims that the Registry is foolproof versus accepted evidence that it can be fooled/overwhelmed.
+- Current older heist procedure versus accepted simplification where Davian only adds Arrek's name.
+- In-world confidence in the Registry versus unknown Elric-derived bypass under very specific circumstances.
 
 ## Questions for the author
 
-1. Should the Registry be accepted now as a Rezin-specific system rather than a generic High Clade institution?
-2. Should the Registry's active/passive distinction be accepted broadly now, with exact technical mechanics deferred?
-3. Should the Heart powering the Registry be accepted now, or deferred until `object-seraph-heart` / `magic-zan-lattices` review?
-4. Should the accepted record say the Registry is extremely strong but not infallible, with Rezin confidence in it treated as overconfidence?
-5. Should the Davian heist process be left unresolved for revision, or do you already want the simplified version accepted: he adds only Arrek's name and relies on the Ink Boon?
-6. Should Maya's gateway/passive-only redesign be stored as accepted future plan, or only as candidate repair direction?
+Resolved by author feedback on 2026-06-24. No open author questions remain for approving this organization record.
 
 ## Proposed file changes
 

@@ -34,6 +34,8 @@ The Harbingers operate through hidden meeting places, underground routes, guides
 
 They use Ink Boons and Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence. Exact Ink mechanics remain for `magic-ink-boons`.
 
+One accepted use of Harbinger/Elric Ink is Davian's Registry bypass: he adds Arrek's name and relies on the Ink Pact/Boon to maintain the aura/name match under extremely specific conditions made plausible by Elric's knowledge of the Rezin Registry.
+
 The five hooded figures from the early Syndicate meeting can remain part of the current canon. Elric has many allies whose identities he might want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people. Their exact identities and structural role remain unresolved.
 
 ## Public Ideology and Cover Story
@@ -71,7 +73,9 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Twilight Concord / Concord](org-concord.md)
+- Related organization: [Registry](org-registry.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
+- Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 
 ## Canonical Uncertainties
 

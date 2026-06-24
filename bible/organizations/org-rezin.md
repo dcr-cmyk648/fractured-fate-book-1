@@ -14,6 +14,8 @@ candidate_file: planning/candidates/organizations/org-rezin.md
 
 The Rezin family and Rezin Clade are generally synonymous. The Rezins are a major High Clade power centered on the Rezin citadel, inherited magus status, military command, and key assets such as the Heart, Treasury, Registry infrastructure, and citadel defenses.
 
+The Rezin citadel's access to the Registry is part of why the citadel position is so desirable. The other High Clades covet the Registry.
+
 The current accepted record should not split family, Clade, household, military structure, and citadel administration into separate entities unless later reviews require it.
 
 ## Core Family
@@ -71,7 +73,9 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related organization: [High Clades](org-high-clades.md)
+- Related organization: [Registry](org-registry.md)
 - Decision record: [Rezin Clade Family and Household Structure](../../decisions/0011-rezin-clade-family-and-household-structure.md)
+- Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 
 ## Canonical Uncertainties
 
