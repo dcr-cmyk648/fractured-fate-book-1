@@ -41,7 +41,7 @@ There must normally be no more than one entity marked `in-review`.
 | 21 | magic-antithesis | magic | Antithesis boundary record | approved | reviews/entities/magic/magic-antithesis.md | bible/magic/magic-antithesis.md | planning/candidates/magic/magic-antithesis.md | 2026-06-24 |
 | 22 | magic-codex-memory | magic | Codex / memory journals / auratic codices | approved | reviews/entities/magic/magic-codex-memory.md | bible/magic/magic-codex-memory.md | planning/candidates/magic/magic-codex-memory.md | 2026-06-24 |
 | 23 | loc-rezin-citadel | location | Rezin Citadel / Rezin fortress | approved | reviews/entities/locations/loc-rezin-citadel.md | bible/locations/loc-rezin-citadel.md | planning/candidates/locations/loc-rezin-citadel.md | 2026-06-24 |
-| 24 | loc-registry | location | Registry chamber | queued | reviews/entities/locations/loc-registry.md | bible/locations/loc-registry.md | planning/candidates/locations/loc-registry.md |  |
+| 24 | loc-registry | location | Registry chamber | awaiting-author | reviews/entities/locations/loc-registry.md | bible/locations/loc-registry.md | planning/candidates/locations/loc-registry.md | 2026-06-24 |
 | 25 | loc-treasury | location | Treasury / vault chamber | queued | reviews/entities/locations/loc-treasury.md | bible/locations/loc-treasury.md | planning/candidates/locations/loc-treasury.md |  |
 | 26 | loc-spire | location | Spire | queued | reviews/entities/locations/loc-spire.md | bible/locations/loc-spire.md | planning/candidates/locations/loc-spire.md |  |
 | 27 | loc-concord-manor | location | Concord manor | queued | reviews/entities/locations/loc-concord-manor.md | bible/locations/loc-concord-manor.md | planning/candidates/locations/loc-concord-manor.md |  |
