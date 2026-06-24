@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-rezin-citadel
 - Latest completed entity: magic-codex-memory
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Codex memory mechanics`
+- Latest relevant commit message: `review: prepare Rezin citadel location packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,20 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-codex-memory` entity was approved by the author. Durable files now record `auratic codex` as the accepted term, codices as immersive experiential memory systems accessed by key incantation plus aura/tether interaction, Elric's tampering with Alara's codex as the source of aura-imprint bridge behavior, and parent-memory idealization/distortion as part of the codex trap.
+The `magic-codex-memory` entity was approved by the author. Durable files now record `auratic codex` as the accepted term, codices as immersive experiential memory systems accessed by key incantation plus aura/tether interaction, Elric's tampering with Alara's codex as the source of aura-imprint bridge behavior, and parent-memory idealization/distortion as part of the codex trap. The next queued entity, `loc-rezin-citadel`, has been opened for author review.
 
 ## Current work
 
-Finalizing `magic-codex-memory` approval. No entity is active until the approved Codex memory commit is validated, committed, and pushed.
+Review packet prepared for `loc-rezin-citadel`; awaiting author answers before creating accepted canon.
 
 ## Next action
 
-Validate the approved Codex memory changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `loc-rezin-citadel`.
+Present the `loc-rezin-citadel` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
 
 ## Awaiting author input
 
-- None for `magic-codex-memory`; author approval was received on 2026-06-24.
+- `loc-rezin-citadel`: umbrella location boundary versus Registry/Treasury/Spire sublocations.
+- `loc-rezin-citadel`: fortress-city model, older city-wedge sheltering logic, contractor movement/search rules, old tunnels, Elric chamber, and deferred vertical layout/access issues.
 
 ## Known blockers or risks
 
@@ -90,6 +91,7 @@ Validate the approved Codex memory changes, inspect the staged file list, commit
 - bible/magic/magic-codex-memory.md
 - planning/candidates/magic/magic-codex-memory.md
 - decisions/0024-auratic-codex-memory-mechanics.md
+- reviews/entities/locations/loc-rezin-citadel.md
 
 ## Later branch recommendation
 
