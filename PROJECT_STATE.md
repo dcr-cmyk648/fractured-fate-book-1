@@ -7,10 +7,10 @@ Last updated: 2026-06-24
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: core-magic-systems
-- Active or paused entity ID: none
+- Active or paused entity ID: magic-codex-memory
 - Latest completed entity: magic-antithesis
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Antithesis boundary record`
+- Latest relevant commit message: `review: prepare Codex memory packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,22 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `magic-antithesis` entity was approved by the author as a boundary record, not a magic system. Durable files now record that Antithesis is Davian's knife only, remains a knife throughout Book 1, has no accepted direct `nïza` or unique anti-Shroud behavior, and that Paradox is canonically made from ruined Antithesis at the end of Book 1. Direct dependent records were updated to route force-parting/diffusion to Archeon kinesis candidates and object details to later object reviews.
+The `magic-antithesis` entity was approved by the author as a boundary record, not a magic system. Durable files now record that Antithesis is Davian's knife only, remains a knife throughout Book 1, has no accepted direct `nïza` or unique anti-Shroud behavior, and that Paradox is canonically made from ruined Antithesis at the end of Book 1. Direct dependent records were updated to route force-parting/diffusion to Archeon kinesis candidates and object details to later object reviews. The next queued entity, `magic-codex-memory`, has been opened for author review.
 
 ## Current work
 
-Finalizing `magic-antithesis` approval. No entity is active until the approved Antithesis boundary commit is validated, committed, and pushed.
+Review packet prepared for `magic-codex-memory`; awaiting author answers before creating accepted canon.
 
 ## Next action
 
-Validate the approved Antithesis boundary changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `magic-codex-memory`.
+Present the `magic-codex-memory` review summary and resolve the author questions. After approval, create the accepted bible/candidate/decision files, update dependents, validate, commit, push, and begin the next queued entity.
 
 ## Awaiting author input
 
-- None for `magic-antithesis`; author approval was received on 2026-06-24.
+- `magic-codex-memory`: accepted terminology and baseline mechanics for auratic codices.
+- `magic-codex-memory`: whether aura-like imprint anchoring is accepted or candidate.
+- `magic-codex-memory`: whether Elric's corrupted key/bridge is canon with the exact nature of the interactive presence unresolved.
+- `magic-codex-memory`: whether codex idealization of Maya's parents, Niall showing Maya his codex, Harvick's possible codex, and the separate `object-alara-journal` boundary are accepted or deferred.
 
 ## Known blockers or risks
 
@@ -85,6 +88,7 @@ Validate the approved Antithesis boundary changes, inspect the staged file list,
 - decisions/0020-kinesis-terminology-and-mechanics.md
 - decisions/0022-zan-terminology-and-lattice-principles.md
 - decisions/0023-antithesis-boundary-and-paradox-future-plan.md
+- reviews/entities/magic/magic-codex-memory.md
 
 ## Later branch recommendation
 
