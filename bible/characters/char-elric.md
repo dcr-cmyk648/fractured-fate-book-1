@@ -102,6 +102,7 @@ Current manuscript material establishes:
 - Candidate material: [char-elric](../../planning/candidates/characters/char-elric.md)
 - Review packet: [char-elric](../../reviews/entities/characters/char-elric.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
+- Related organization: [Archeon](../organizations/org-archeon.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
 
 ## Canonical Uncertainties

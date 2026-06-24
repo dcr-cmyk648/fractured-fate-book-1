@@ -83,6 +83,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 
 - Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Related character: [Jalen](char-jalen.md)
+- Related organization: [Archeon](../organizations/org-archeon.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)

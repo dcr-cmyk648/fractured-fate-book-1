@@ -17,3 +17,4 @@ Do not use this file as a dump for unresolved questions.
 | Selwin Dissolution Shroud and Family Role | 2026-06-24 | accepted; stored in approved `char-selwin` record | [0009-selwin-dissolution-shroud-and-family-role.md](0009-selwin-dissolution-shroud-and-family-role.md) |
 | Jalen and Kelyra Concord Role Swap | 2026-06-24 | accepted; stored in approved `char-jalen` record; marks `char-kelyra` needs-revisit | [0010-jalen-kelyra-concord-role-swap.md](0010-jalen-kelyra-concord-role-swap.md) |
 | Rezin Clade, Family, and Household Structure | 2026-06-24 | accepted; stored in approved `org-rezin` record | [0011-rezin-clade-family-and-household-structure.md](0011-rezin-clade-family-and-household-structure.md) |
+| Archeon High Clade Rise and Training System | 2026-06-24 | accepted; stored in approved `org-archeon` record | [0012-archeon-high-clade-rise-and-training-system.md](0012-archeon-high-clade-rise-and-training-system.md) |

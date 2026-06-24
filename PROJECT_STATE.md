@@ -5,23 +5,23 @@ Last updated: 2026-06-24
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-rezin` record
-- Current entity under review: org-rezin
-- Latest completed entity: org-rezin
-- Latest relevant commit: cdd0b78 (`bible: approve Jalen character record`)
+- Current migration phase: Phase 4 entity-by-entity review; finalizing approved `org-archeon` record
+- Current entity under review: org-archeon
+- Latest completed entity: org-archeon
+- Latest relevant commit: e5857d7 (`bible: approve Rezin organization record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `org-rezin` entity was approved by the author and stored in durable files. The Rezin family and Clade are generally synonymous; Aldira, Harvick, and Erynn are inner-circle household figures; Alden is an obsolete earlier Aldira name; Alara's Naeroth origin marks a Rezin divergence from general High Clade politics.
+The `org-archeon` entity was approved by the author and stored in durable files. Archeon is a current High Clade by six-citadel possession; it rose from Low Clade status; Serathis is Head Magus; brutal child-training, breeding programs, release-and-catch, and moderate Elric influence are accepted.
 
 ## Current work
 
-The approved `org-rezin` content has been applied to review, bible, candidate, decision, index, and consistency files and is ready for validation and local commit.
+The `org-rezin` entity was approved, stored, validated, and committed as `e5857d7`.
 
 ## Next action
 
-Validate, stage, inspect, and locally commit the approved `org-rezin` files; then begin the next queued entity.
+Validate, stage, inspect, and locally commit the approved `org-archeon` files; then begin the next queued entity.
 
 ## Awaiting author input
 
@@ -39,6 +39,7 @@ Validate, stage, inspect, and locally commit the approved `org-rezin` files; the
 - Selwin's Dissolution, Shroud inability, crossbreed/heritage implications, final-series role, and Niall/Alara postpartum blame mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Jalen/Kelyra Concord role swap, Kelyra's Trial of Dominion fight, obsolete Jalen magic/leadership notes, and Concord chronology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
+- Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -88,3 +89,4 @@ Validate, stage, inspect, and locally commit the approved `org-rezin` files; the
 - planning/candidates/characters/char-harvick.md
 - decisions/0008-harvick-elric-ink-and-mentorship.md
 - reviews/entities/organizations/org-rezin.md
+- reviews/entities/organizations/org-archeon.md

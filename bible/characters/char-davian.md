@@ -117,6 +117,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related organization: [Archeon](../organizations/org-archeon.md)
 
 ## Canonical Uncertainties
 
