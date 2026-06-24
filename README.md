@@ -13,6 +13,8 @@ Repository for the Book 1 migration, source import, normalization, review, and d
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
 - `feedback/` will contain reader feedback when extracted or recorded.
 - `decisions/` records explicit author decisions.
+- `reports/consistency/` contains block-level consistency-review reports.
+- `scripts/` contains repository validation and maintenance scripts.
 
 ## Control Files
 
@@ -28,3 +30,11 @@ Repository for the Book 1 migration, source import, normalization, review, and d
 ## Resuming Work
 
 A new Codex session should read [AGENTS.md](AGENTS.md) first, then follow the startup procedure there. The operational resume point is always [PROJECT_STATE.md](PROJECT_STATE.md); do not rely on prior conversation history as durable project memory.
+
+## Validation
+
+Run the deterministic project-state validator with:
+
+```sh
+python3 scripts/validate_project_state.py
+```
