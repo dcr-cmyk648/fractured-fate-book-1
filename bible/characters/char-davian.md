@@ -59,6 +59,8 @@ Davian's current abilities include:
 
 Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, Subversion, and Ink exposure without being controlled by the Ink's pressure.
 
+In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
+
 ## Important Relationships
 
 Jalen:
@@ -124,11 +126,13 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
+- Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
+- Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
-- Broader Ink/Shroud/Subversion mechanics remain unresolved.
+- Broader Ink/Shroud/Subversion interaction mechanics remain unresolved, especially tentative Ink/Shroud timing and interruption questions.
 - Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-ink-boons`, `magic-fateweaving-skein`, and Harbinger/Syndicate reviews.
 - The real Arrek's background and full consequences of his murder remain for `char-arrek`.
 - Late death/return/confession beats remain candidate material.

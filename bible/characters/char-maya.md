@@ -56,6 +56,8 @@ Maya's magic includes:
 
 Her Shroud is effectively permanent while she is awake. She can mute it enough to eat and interact with objects, but muting requires conscious effort and can get out of control. Her Shroud can activate while she sleeps if triggered by a bad dream or similar stressor.
 
+This awake-permanent Shroud pattern is a manifestation of Niall's childhood emotional abuse after Alara's death, when he was grieving and frantically punishing and pushing Maya to develop a Shroud. Although it comes from trauma, Niall and most magi would view the result as a positive protective ability.
+
 The earlier concept that Maya's Shroud was continuously permanent even while asleep is superseded.
 
 ## Important Relationships
@@ -113,11 +115,13 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
+- Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)
 - Decision: [Naeroth Demi-Human Worldbuilding](../../decisions/0002-naeroth-demi-human-worldbuilding.md)
 - Decision: [Maya's Shroud and Prologue Revision Direction](../../decisions/0003-maya-shroud-and-prologue-revision-direction.md)
+- Decision: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
 ## Provenance
 

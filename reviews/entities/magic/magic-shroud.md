@@ -2,7 +2,7 @@
 id: magic-shroud
 entity_type: magic
 display_name: Shroud / Shrouds
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -167,9 +167,7 @@ It appears to be a distinct magical modality from hereditary magic, but one that
 - Whether Selwin can ever form a Shroud, form a nonstandard equivalent, or remains incompatible.
 - Exact mental-combat framing when Shrouds overlap or magic contests magic.
 
-## Proposed accepted record
-
-This is a proposal, not accepted canon until author approval.
+## Approved accepted record
 
 ### present-canon
 
@@ -177,10 +175,10 @@ This is a proposal, not accepted canon until author approval.
 - Shroud use is tied to bodily awareness/proprioception and must be maintained under focus, stress, and combat pressure.
 - A Shroud is not only armor: it participates in sublimating incoming energy into forms aligned with the magus's internal circuits or hereditary magic, allowing the magus to redirect or dissipate dangerous force.
 - Unfocused magical energy is dangerous; Shroud manifestation is a major safety gate for High Clade children because it protects against backlash and accidents.
-- Shrouds have roughly similar baseline capacity. Practical "strength" comes from stability, training, reflexive maintenance, throughput, and how efficiently the magus sublimates energy before being overwhelmed.
+- Shrouds have roughly similar baseline capacity. Practical "strength" comes from throughput, appropriate energy absorption anchoring schema, stability, reflexive maintenance, and the ability to keep the Shroud up despite combat pressure.
 - Enough energy delivered fast enough can overwhelm a Shroud before the magus can sublimate it away.
 - High Clade culture treats Shroud manifestation, Presentation, lineage, and hereditary magic as a legitimacy package.
-- Maya is an advanced Shroud user whose Shroud is effectively permanent while she is awake, though she can consciously mute it.
+- Maya is an advanced Shroud user whose Shroud is effectively permanent while she is awake, though she can consciously mute it. This awake-permanent pattern comes from Niall's childhood emotional abuse after Alara's death, when he was grieving and frantically punishing and pushing Maya to develop a Shroud. Niall and most magi would still see the result as a positive protective ability.
 - Davian can form a weak but real Shroud and needs to train it to integrate martial arts, Subversion/kinesis, and Ink exposure.
 - Kelyra has a trauma-blocked Shroud: externally, she never manifested one; internally, the capacity is suppressed because she associated Shroud manifestation with Archeon captivity and child loss.
 - Selwin currently cannot form a Shroud at all.
@@ -189,7 +187,8 @@ This is a proposal, not accepted canon until author approval.
 
 - Maya's Shroud manifested after Niall's severe fear-based childhood pressure.
 - High Clade and Archeon training systems pressure children toward early Shroud manifestation because unmanifested or uncontrolled children are dangerous to themselves and others.
-- Archeon publicly brands itself as having unusually powerful Shrouds, but its true combat power depends on a stack of kinesis, Ink, Shroud use, martial arts, and technology.
+- Archeon publicly brands itself as having unusually powerful Shrouds, but this is propaganda / PR. Its true combat power depends on a stack of kinesis, Ink, Shroud use, martial arts, and technology.
+- High Clade magi generally try to keep their Shrouds up whenever they are not completely alone and safe.
 - Naeroth lineages are a rare exception to the dominant assumption that Shrouds and hereditary magic belong only to humans; Alara had a Shroud alongside fateweaving/Convergence-associated abilities.
 
 ### accepted-future-plan
@@ -199,49 +198,52 @@ This is a proposal, not accepted canon until author approval.
 
 ### candidate
 
-- Treat "strong Shroud" as in-world shorthand rather than literal greater baseline capacity.
-- Define Shroud as a separate inheritance/magic channel from hereditary magic, while High Clade culture treats the package as indivisible.
-- Preserve Ink-before-Shroud and Ink/Shroud interruption mechanics for `magic-ink-boons`.
-- Preserve Selwin's long-term Shroud possibility or incompatibility for later Selwin/Alara/Naeroth/Dissolution reviews.
+- Ink-before-Shroud and Ink/Shroud interruption mechanics remain tentative and belong to `magic-ink-boons`.
+- Selwin's long-term Shroud possibility or incompatibility remains unresolved for later Selwin/Alara/Naeroth/Dissolution reviews.
 
 ### contradiction
 
-- "Strong Shroud" language conflicts with the throughput model unless treated as shorthand.
-- Cultural dogma about Shrouds/hereditary magic conflicts with Naeroth, Archeon, Davian, Kelyra, and Selwin exception cases unless separated from underlying magical taxonomy.
+- No unresolved contradiction remains for the accepted Shroud throughput model after author approval. Historical sources using "strong Shroud" and "weak Shroud" should be interpreted as in-world shorthand for throughput/anchoring and maintaining the Shroud.
+- Cultural dogma about Shrouds/hereditary magic remains distinct from underlying magic taxonomy.
 
 ### historical-record
 
 - Older review packets, raw imports, comments, and feedback should not be rewritten to match this later Shroud clarification.
 
-## Proposed planning or arc record
+## Author decision summary
+
+On 2026-06-24, the author approved:
+
+- Throughput, appropriate energy absorption anchoring schema, and the ability to keep the Shroud up during combat are the primary technical factors in Shroud protection.
+- "Strong Shroud" and "weak Shroud" are in-world shorthand for a totalized heuristic combining throughput, anchoring, and maintaining the Shroud.
+- Shrouds are separate from hereditary magic, but culturally and in most magi's awareness they are part and parcel of the same package.
+- Archeon's powerful-Shroud branding is propaganda / PR rather than a factual technical statement.
+- Maya's awake-permanent Shroud is a manifestation of Niall's abusive childhood pressure after Alara's death, though Niall and most magi would view it as a positive protective ability.
+- High Clade magi generally try to keep their Shrouds up whenever they are not completely alone and safe.
+- Ink/Shroud interaction remains tentative.
+
+## Planning or arc routing
 
 - Kelyra's arc file should eventually own her future Shroud breakthrough and keep it tied to family-protection values.
 - Maya's prologue revision file already owns the accepted first-combat Shroud panic revision.
 - Davian's arc/training records should eventually track his practical Shroud development as the bridge that lets martial arts matter against magi.
 
-## Proposed candidate record
+## Candidate routing
 
 Retain in `planning/candidates/magic/magic-shroud.md`:
 
-- Exact Shroud taxonomy and inheritance model.
-- Ink-before-Shroud timing.
-- Ink-adjacent Shroud instability.
-- Selwin's long-term Shroud incompatibility or nonstandard equivalent.
+- Preserve Ink-before-Shroud and Ink/Shroud interruption mechanics for `magic-ink-boons`.
+- Preserve Selwin's long-term Shroud possibility or incompatibility for later Selwin/Alara/Naeroth/Dissolution reviews.
 - Mental struggle mechanics for overlapping Shrouds/magic contests.
 - Archeon/Naeroth body-training interface with Shroud manifestation.
 
 ## Questions for the author
 
-1. Should the accepted Shroud record use the throughput model as the primary technical rule: roughly equal baseline capacity, with practical strength coming from throughput, stability, reflexive maintenance, and training?
-2. Should "strong Shroud" remain valid in-world shorthand for high throughput/stability/training, rather than literal larger baseline capacity?
-3. Should the accepted record state that Shrouds are a separate magical inheritance/modality from hereditary magic, while High Clade culture treats Shroud plus hereditary magic as one legitimacy package?
-4. Should Archeon public claims of unusually powerful Shrouds be stored as propaganda/simplification masking the kinesis/Ink/Shroud/martial/technology stack?
-5. Should Maya's awake-permanent Shroud be treated as unusual but not a general rule for high-level magi?
-6. Should Ink-before-Shroud and Ink/Shroud interruption remain candidate material for `magic-ink-boons`, rather than being accepted in this Shroud pass?
+None. Resolved by author feedback on 2026-06-24.
 
-## Proposed file changes
+## Approved file changes
 
-After approval, Codex would create or modify:
+On approval, Codex created or modified:
 
 - `bible/magic/magic-shroud.md`
 - `planning/candidates/magic/magic-shroud.md`

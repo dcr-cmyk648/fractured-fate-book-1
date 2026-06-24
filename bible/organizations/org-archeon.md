@@ -24,7 +24,7 @@ Serathis treats Archeon as a long project of controlled bloodlines, disciplined 
 
 ## Public Branding and True Power
 
-Archeon publicly brands itself as having unusually powerful Shrouds that boost martial ability and strength beyond the normal level all Shrouds provide.
+Archeon publicly brands itself as having unusually powerful Shrouds that boost martial ability and strength beyond the normal level all Shrouds provide. This is propaganda / PR rather than a factual technical statement.
 
 The true root of Archeon power is a constructed overlap of abilities and tools that were not otherwise considered valuable enough on their own:
 
@@ -96,12 +96,14 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
+- Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
+- Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
 ## Canonical Uncertainties
 
 - Exact kinesis/Subversion mechanics remain for `magic-subversion`.
-- Exact Shroud mechanics remain for `magic-shroud`.
+- Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and Subversion/Shroud interaction details remain for later magic reviews.
 - Exact Ink Pact mechanics remain for `magic-ink-boons`.
 - Exact Zirene-derived Archeon technology remains for later technology/object reviews.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.

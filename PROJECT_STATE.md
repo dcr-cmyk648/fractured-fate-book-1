@@ -6,38 +6,38 @@ Last updated: 2026-06-24
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: core-characters-and-major-organizations
-- Active or paused entity ID: magic-shroud
-- Latest completed entity: org-registry
+- Current block: core-magic-systems
+- Active or paused entity ID: none
+- Latest completed entity: magic-shroud
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Registry organization record`
+- Latest relevant commit message: `bible: approve Shroud magic record`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes with `origin/beta`
 
 ## Block status
 
-- Current block: core-characters-and-major-organizations
-- Block scope: approved core character records through Jalen and major organization records through Registry
-- Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry
+- Current block: core-magic-systems
+- Block scope: core magic-system records beginning with Shroud
+- Approved entities since last consistency review: org-harbingers-syndicate, org-concord, org-registry, magic-shroud
 - Last consistency review: reports/consistency/2026-06-24-core-entities.md
 - Consistency review due: no
 - Remote synchronized: yes with `origin/beta`
 
 ## Last completed work
 
-The `org-registry` entity was approved by the author, stored in durable organization and candidate files, linked from direct dependent records, validated, committed, and pushed. The first core-entity consistency review was completed and recorded in `reports/consistency/2026-06-24-core-entities.md`.
+The `magic-shroud` entity was approved by the author and stored in durable magic and candidate files. Direct dependent records were updated with links and straightforward Shroud-model summaries. The first core-entity consistency review was completed and recorded in `reports/consistency/2026-06-24-core-entities.md`.
 
 ## Current work
 
-The `magic-shroud` review packet is ready for author review.
+Entity finalization for `magic-shroud` is complete and ready for validation, commit, and push.
 
 ## Next action
 
-Review the `magic-shroud` author checkpoint and answer the targeted questions, then finalize the entity automatically if the answers resolve the substantive issues.
+Validate, commit, and push `magic-shroud`, then begin the next queued entity, `magic-ink-boons`.
 
 ## Awaiting author input
 
-- `magic-shroud` is awaiting author review.
+None
 
 ## Known blockers or risks
 
@@ -45,7 +45,7 @@ Review the `magic-shroud` author checkpoint and answer the targeted questions, t
 - Local branch should remain synchronized with `origin/beta` during ongoing work.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
-- Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Kelyra's hereditary kinesis/Subversion terminology, future Shroud manifestation scene, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Selwin's Dissolution, Shroud inability, crossbreed/heritage implications, final-series role, and Niall/Alara postpartum blame mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -116,6 +116,7 @@ Review the `magic-shroud` author checkpoint and answer the targeted questions, t
 - reviews/entities/magic/magic-shroud.md
 - bible/magic/magic-shroud.md
 - planning/candidates/magic/magic-shroud.md
+- decisions/0018-shroud-throughput-and-manifestation-model.md
 - bible/characters/char-selwin.md
 - decisions/0009-selwin-dissolution-shroud-and-family-role.md
 

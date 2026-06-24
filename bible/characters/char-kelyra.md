@@ -90,14 +90,16 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
+- Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
+- Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
 ## Canonical Uncertainties
 
 - Exact hereditary kinesis/Subversion mechanics remain for later magic review.
-- Exact Shroud manifestation mechanics remain for later magic review.
+- Exact future Shroud manifestation scene and emotional integration remain for later arc/revision review.
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.

@@ -69,6 +69,8 @@ Birth contracts are a system-wide High Clade practice. They are exploitative, bu
 
 High Clade culture is hierarchical, violent, and status-bound. It treats hereditary magic, Shrouds, lineage, Presentation, and citadel control as foundations of legitimacy.
 
+Shrouds are technically separate from hereditary magic, but culturally and in most magi's awareness they are part and parcel of the same magus package. High Clade magi generally try to keep their Shrouds up whenever they are not completely alone and safe.
+
 High Clade culture also includes anti-demi-human racism. The dominant assumption is that hereditary magic and Shrouds belong to humans, with Naeroth demi-human lineages as a rare exception. This prejudice informs the whole system, including how Maya's dual heritage is perceived outside the Rezin sphere of influence.
 
 The Rezin version of High Clade culture is comparatively less harsh than some others because the Rezins hold an apex position and have exceptional magi such as Niall and Maya.
@@ -89,10 +91,12 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Registry](org-registry.md)
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
+- Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Decision record: [High Clades Governance and Central Amphitheater](../../decisions/0014-high-clades-governance-and-central-amphitheater.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
+- Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
 ## Canonical Uncertainties
 
