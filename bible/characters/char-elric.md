@@ -80,7 +80,7 @@ Elric manipulates Davian through the Harbingers, Ink, family pressure, rage agai
 
 Harvick:
 
-Elric was a major influence on Harvick. Harvick loved and admired him, received or participated in an Ink experiment with him, and blames himself for being unable to help Elric's depression.
+Elric was a major influence on Harvick. Harvick loved and admired him, received a prototypical Ink Pact from Elric's early experiments, and blames himself for being unable to help Elric's depression and madness.
 
 Harvick's dogged persistence at helping people overcome past traumas is the main fly in the ointment of Elric's plan. That persistence is rooted in Harvick's self-blame over Elric and in his continuing drive to keep others from being destroyed by similar patterns.
 

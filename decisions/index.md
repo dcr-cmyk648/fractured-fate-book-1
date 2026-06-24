@@ -13,3 +13,4 @@ Do not use this file as a dump for unresolved questions.
 | Niall Grief Arc and Lightning Conduits | 2026-06-23 | accepted; stored in approved `char-niall` record | [0005-niall-grief-arc-and-lightning-conduits.md](0005-niall-grief-arc-and-lightning-conduits.md) |
 | Kelyra Archeon Lineage, Shroud, and Family | 2026-06-23 | accepted; stored in approved `char-kelyra` record | [0006-kelyra-archeon-lineage-shroud-and-family.md](0006-kelyra-archeon-lineage-shroud-and-family.md) |
 | Elric Rezin Remnant and Reality/Skein Role | 2026-06-23 | accepted; stored in approved `char-elric` record | [0007-elric-rezin-remnant-and-reality-skein-role.md](0007-elric-rezin-remnant-and-reality-skein-role.md) |
+| Harvick Elric Ink and Mentorship | 2026-06-24 | accepted; stored in approved `char-harvick` record | [0008-harvick-elric-ink-and-mentorship.md](0008-harvick-elric-ink-and-mentorship.md) |

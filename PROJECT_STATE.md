@@ -1,27 +1,27 @@
 # Project State
 
-Last updated: 2026-06-23
+Last updated: 2026-06-24
 
 ## Repository state
 
 - Current branch: migration/drive-baseline
-- Current migration phase: Phase 4 entity-by-entity review; first five-entity consistency checkpoint complete
+- Current migration phase: Phase 4 entity-by-entity review; `char-harvick` approved and committed
 - Current entity under review: None
-- Latest completed entity: char-elric
-- Latest relevant commit: HEAD (`bible: approve Elric character record`, followed by consistency checkpoint if committed)
+- Latest completed entity: char-harvick
+- Latest relevant commit: this commit (`bible: approve Harvick character record`)
 - Working tree expected to be clean: no
 
 ## Last completed work
 
-The `char-elric` entity was approved, stored, validated, and committed as `c5f3611`. Created the accepted Elric record at `bible/characters/char-elric.md`, candidate material at `planning/candidates/characters/char-elric.md`, an approved arc seed at `outline/arcs/thread-elric-reality-skein.md`, and a decision record at `decisions/0007-elric-rezin-remnant-and-reality-skein-role.md`. Level 1 consistency checks linked Elric from Davian and Niall and queued later Harbinger/Ink/Skein/Heart/codex consistency items in `CONSISTENCY_QUEUE.md`. The five-entity block consistency checkpoint found no broken Markdown links and no immediate substantive conflict requiring author input.
+The `char-harvick` entity was approved by the author, stored in `bible/characters/char-harvick.md`, and supported by candidate material in `planning/candidates/characters/char-harvick.md` and decision record `decisions/0008-harvick-elric-ink-and-mentorship.md`. Level 1 consistency updates linked Harvick from Davian, Niall, Elric, and the Elric/Skein arc, and queued later Ink, returning-weapon, and lightning-revival consistency items in `CONSISTENCY_QUEUE.md`.
 
 ## Current work
 
-Preparing to begin the next queued entity, `char-harvick`.
+The approved `char-harvick` entity has been committed.
 
 ## Next action
 
-Begin preparing the `char-harvick` review packet unless an exception applies.
+Begin preparing the next queued entity, `char-selwin`.
 
 ## Awaiting author input
 
@@ -30,11 +30,12 @@ Begin preparing the `char-harvick` review packet unless an exception applies.
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch is ahead of `origin/migration/drive-baseline` by seven commits unless pushed separately.
+- Local branch is ahead of `origin/migration/drive-baseline` by nine commits unless pushed separately.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, trauma-blocked Shroud mechanics, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -79,3 +80,7 @@ Begin preparing the `char-harvick` review packet unless an exception applies.
 - planning/candidates/characters/char-elric.md
 - outline/arcs/thread-elric-reality-skein.md
 - decisions/0007-elric-rezin-remnant-and-reality-skein-role.md
+- reviews/entities/characters/char-harvick.md
+- bible/characters/char-harvick.md
+- planning/candidates/characters/char-harvick.md
+- decisions/0008-harvick-elric-ink-and-mentorship.md

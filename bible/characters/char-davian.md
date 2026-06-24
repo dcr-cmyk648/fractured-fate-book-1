@@ -79,6 +79,10 @@ Harvick:
 
 Harvick becomes an important trainer/mentor/friend figure for Davian, especially around Shroud practice, combat training, and challenging Davian's self-sabotage.
 
+Accepted Harvick record: [Harvick](char-harvick.md)
+
+During the Treasury confrontation, Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning. Davian may not understand the medical mechanism and may only perceive Niall shooting lightning through Harvick.
+
 Selwin:
 
 After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, apologizes for lying, and says he wants to help make things right.
@@ -100,6 +104,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Review packet: [char-davian](../../reviews/entities/characters/char-davian.md)
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
 - Related character: [Kelyra](char-kelyra.md)
+- Related character: [Harvick](char-harvick.md)
 
 ## Canonical Uncertainties
 

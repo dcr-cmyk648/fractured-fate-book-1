@@ -67,6 +67,8 @@ In Chapter 1, Niall responds to the wall commanders' failure with cold fury. He 
 
 Later current manuscript material shows Niall attacking Davian after the Heart theft while Maya interposes her Shroud. The scene frames Niall's power as terrifying and also weakened after the Heart theft.
 
+During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
+
 ## Political and Military Role
 
 Niall's reputation is politically central. Enemies fear him enough to wait after the Heart theft to see whether his weakness is real, then plan around baiting, weakening, or legitimizing attacks against him.
@@ -79,6 +81,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
 - Related character: [Elric Rezin](char-elric.md)
+- Related character: [Harvick](char-harvick.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)

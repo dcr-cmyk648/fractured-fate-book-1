@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-kelyra`, and `char-elric` approved; preparing next entity
+Status: in progress; `char-maya`, `char-davian`, `char-niall`, `char-kelyra`, `char-elric`, and `char-harvick` approved; next queued entity is `char-selwin`
 
 Gate:
 

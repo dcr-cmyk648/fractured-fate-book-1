@@ -37,6 +37,8 @@ Harvick is the major fly in the ointment of Elric's plan. His dogged persistence
 
 Elric's predictions depend on people following trauma scripts. Harvick's influence helps people recognize, resist, or outgrow those scripts.
 
+Harvick's prototypical Ink Pact, his history with Elric, and his unofficial place in the Rezin core make him one of the main living bridges between Elric's past influence and the book's present-day resistance to trauma-driven inevitability.
+
 ## Endgame Direction
 
 Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. He has backup plans and long-running manipulations because he has been planning for many years.
@@ -53,3 +55,4 @@ Exact endgame execution remains candidate material until later plot review.
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)
 - Related accepted character: [Maya Rezin](../../bible/characters/char-maya.md)
+- Related accepted character: [Harvick](../../bible/characters/char-harvick.md)
