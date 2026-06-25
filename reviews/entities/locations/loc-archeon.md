@@ -2,7 +2,7 @@
 id: loc-archeon
 entity_type: location
 display_name: Archeon
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -116,37 +116,54 @@ It should not own:
 
 - Archeon controls one of the six High Clade citadels and its attached city-wedge / legally distinct city in the Six Cities.
 - Archeon's citadel was seized from a prior occupying High Clade when Archeon rose from Low Clade status to High Clade status.
+- The Archeon citadel, like all High Clade citadels, has a central tower. The six High Clade citadel towers stand around the central Spire/amphitheater in a hexagon-like geometry and help define the outer shape of the Six Cities.
 - The Archeon citadel is the physical center of Serathis's power and contains concealed internal spaces for training, testing, imprisonment, and bloodline/breeding control.
-- Kelyra's Archeon captivity sequence occurs inside the Archeon citadel, likely in a lower or underground complex rather than a public formal level.
+- Kelyra's Archeon captivity sequence occurs inside the Archeon citadel in a lower or underground complex rather than a public formal level.
+- Many citadels have long-forgotten or recently reclaimed subterranean areas, similar to the Rezin citadel's forgotten underground areas and the Harbinger tunnel system beneath the city. These underground zones are sprawling and poorly characterized.
 - The internal arena is a dim stone training/testing pit with a sand floor, iron rings, grates, torches, and a raised stone lip where Serathis can observe.
 - The citadel/compound includes training halls and communal child-training infrastructure. Archeon children are taken at birth, trained institutionally, and returned to the compound around age five.
-- The citadel includes rough stone chambers, corridors, wall rings, chains, guards, healers, messenger routes, and controlled corridor access.
-- Archeon keeps much of its internal life hidden. Un-Presented Archeon magi and sensitive training/breeding systems can be kept inside and out of public view.
+- `Breeding pits` is an accepted concept for the Archeon citadel/compound, with exact layout and final terminology deferred.
+- The citadel includes rough stone chambers, corridors, wall rings, chains, guards, healers, messenger routes, controlled corridor access, and a central-tower throne room.
+- Serathis's final conflict will take place in a throne room in the Archeon central tower. The throne room has stained glass windows along the sides, remnants of Creator-worship from the prior High Clade occupants.
+- The throne room contains a trap that collapses the floor, dropping Niall into the subterranean areas below the Archeon citadel, where Vorren waits for him.
+- Archeon keeps much of its internal life hidden. Un-Presented Archeon magi and sensitive training/breeding systems are kept mostly inside the citadel, and access in and out is heavily restricted, as with most High Clade citadels.
 - The surrounding Archeon approach can pass through neglected/slum or city-wedge-boundary districts, especially away from the Spoke roads.
+- The final attack approach will lead through the slums and neglected city-wedge-boundary areas before the main characters enter the Archeon citadel and proceed toward the central tower.
 - The shared central Spire/amphitheater and the Archeon internal arena are separate locations.
 
 ### accepted-future-plan
 
 - A late-book Archeon rescue/attack sequence will involve the Archeon citadel or its controlled territory.
-- Exact raid geography remains unresolved, but current planning includes Niall/Maya attacking above ground while Davian/Harvick may use an underground route.
+- The current plan is for all main attackers to approach from aboveground, then move through the Archeon citadel toward the central tower for the battle in and under the throne room.
 
 ### candidate
 
 - Exact city map and approach route.
 - Exact outer wall/gate/tower configuration.
 - Exact lower-complex layout.
-- Exact literalness and final terminology of `breeding pits`.
+- Exact final terminology of `breeding pits`.
 - Exact underground route/catacomb relationship.
 - Exact prior High Clade owner.
 - Exact future rescue matchups and route choreography.
 
 ## Questions for the author
 
-1. Should `loc-archeon` own the physical Archeon citadel plus its city-wedge/territory, with `org-archeon` owning the Clade, leadership, breeding program, and power stack?
-2. Should the Archeon citadel be canonically one of the six High Clade citadels, seized from a prior High Clade, with the prior owner/name deferred?
-3. Is Kelyra's arena/chained-chamber/corridor sequence inside Archeon's own citadel, likely in a lower or underground complex?
-4. Should the internal arena be accepted as a durable Archeon location: deep stone, sand pit, iron rings/grates, torches, and Serathis observing from the lip?
-5. Should training halls, the child compound, and the "breeding pits" concept all be treated as parts of the Archeon citadel/compound, with exact layout and final terminology deferred?
-6. Should Archeon keep many un-Presented magi and sensitive descendants mostly inside the citadel, making outside appearances unusual and politically managed?
-7. For city geography, should the late attack approach through slums / neglected city-wedge-boundary areas be kept as the likely direction, while the older "central tower" conflict is treated as obsolete or a separate internal Archeon tower detail?
-8. Should the Niall/Maya above-ground and Davian/Harvick underground raid structure remain candidate future-plan material for now rather than accepted location canon?
+Resolved by author feedback on 2026-06-25:
+
+1. `loc-archeon` owns the physical Archeon citadel plus city-wedge/territory; `org-archeon` owns the Clade, leadership, breeding program, and power stack.
+2. The Archeon citadel is canonically one of the six High Clade citadels, seized from a prior High Clade, with the prior occupant deferred.
+3. Kelyra's arena/chained-chamber/corridor sequence is inside Archeon's citadel in lower/subterranean areas. Many citadels have forgotten or recently reclaimed sprawling underground areas.
+4. The internal arena is durable Archeon location canon: deep stone, sand pit, iron rings/grates, torches, and Serathis observing from the lip.
+5. Training halls, the child compound, and breeding-pit concept are parts of the Archeon citadel/compound, with exact layout and final terminology deferred. Serathis's final conflict will occur in the central-tower throne room with stained glass Creator-worship remnants from the prior High Clade occupants; a trap collapses the floor and drops Niall into the subterranean areas below, where Vorren waits.
+6. Archeon keeps many un-Presented magi and sensitive descendants mostly inside the citadel. Access in and out is heavily restricted, as with most High Clade citadels.
+7. All High Clade citadels have a central tower. The central Spire/amphitheater is surrounded by the six citadel towers at the points of a hexagon-like geometry. The final attack approach goes through slums and neglected city-wedge-boundary areas; once inside Archeon, the main characters proceed to the central tower for the battle in and under the throne room.
+8. The current final-attack plan is for all main attackers to approach from aboveground.
+
+## File changes after approval
+
+Created or updated:
+
+- `bible/locations/loc-archeon.md`
+- `planning/candidates/locations/loc-archeon.md`
+- `decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md`
+- direct dependent links/notes in `bible/organizations/org-archeon.md`, `bible/organizations/org-high-clades.md`, `bible/locations/loc-rezin-citadel.md`, `bible/locations/loc-spire.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, and `CONSISTENCY_QUEUE.md` as needed

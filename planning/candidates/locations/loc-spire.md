@@ -24,9 +24,12 @@ Deferred:
 
 Accepted direction: the site is an open-air amphitheater or arena built into an old blast hole at the center of the Six Cities. It is not an intact tower, and old rubble/remnants have been removed.
 
+Accepted direction from later `loc-archeon` review: all six High Clade citadels have central towers, which stand around the central Spire/amphitheater in a hexagon-like geometry.
+
 Deferred:
 
 - exact visual form of the blast-hole amphitheater
+- exact sightline/scale relationship between the central Spire/amphitheater and the six surrounding citadel towers
 - whether the bowl feels like a polished civic arena, a sunken forum, a crater refined into ceremonial architecture, or another final image
 - exact materials, scale, zä lighting, acoustics, and ceremonial engineering
 - exact way the site handles weather, shade, sound, and crowd control

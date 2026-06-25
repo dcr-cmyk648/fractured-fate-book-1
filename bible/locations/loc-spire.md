@@ -38,6 +38,8 @@ The Spire is at the center of the Six Cities.
 
 It sits at the symbolic and civic center of the six High Clade city-wedges and functions as shared ground rather than territory owned by any single High Clade.
 
+All six High Clade citadels have central towers. Seen from the Spire, those towers stand around the outer edge of the city at the points of a hexagon-like geometry, defining the rough shape of the Six Cities around the central shared location.
+
 There are six High Clade citadels, corresponding to the six canonical High Clades. One-off manuscript references to seven citadels are obsolete/suspect unless later geography deliberately creates a separate non-High-Clade structure.
 
 ## Access and Shared Security
@@ -73,7 +75,9 @@ Maya's Presentation happens in this open-air amphitheater version. Current liter
 - Candidate material: [loc-spire](../../planning/candidates/locations/loc-spire.md)
 - Related organization: [High Clades](../organizations/org-high-clades.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
+- Related location: [Archeon](loc-archeon.md)
 - Decision record: [Spire Name and Central Amphitheater Form](../../decisions/0028-spire-name-and-central-amphitheater-form.md)
+- Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 
 ## Provenance
 

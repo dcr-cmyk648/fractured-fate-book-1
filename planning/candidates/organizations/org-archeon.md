@@ -39,10 +39,10 @@ Preserve for later:
 - Archeon/Drakhal alliance, blackmail, and breeding-contract mechanics
 - Archeon relation to Harbingers and Elric's fate-thread planning
 - Kelyra's Trial of Dominion recapture
-- Archeon raid sequence and rescue of Kelyra
+- Archeon raid sequence and rescue of Kelyra; broad location direction now uses an aboveground approach through slums/boundary districts into the citadel and central tower
 - Serathis/Drosin matchup details
 - anti-Archeon knives and related Zirene technology
-- central-tower versus far-away Archeon geography issue
+- exact Archeon central-tower throne-room fight staging, floor-collapse trap, Niall/Vorren lower-complex separation, and route choreography
 
 ## Obsolete or Suspect Material
 

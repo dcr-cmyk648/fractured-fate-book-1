@@ -18,6 +18,8 @@ A High Clade is politically defined by holding one of the six citadels that form
 
 There are six canonical High Clades. They are named at Presentation.
 
+Each High Clade citadel has a central tower. The shared central Spire/amphitheater sits at the center of the Six Cities, surrounded by the six High Clade citadel towers at the points of a hexagon-like geometry.
+
 ## Current Canonical High Clades
 
 The six canonical High Clades named in current Presentation material are:
@@ -38,6 +40,8 @@ Each High Clade governs its city-wedge from its citadel. City-wedges in the Six 
 The Rezins have a more centralized administrative organization than is typical, helped by their Registry infrastructure and citadel security. Other High Clades may prioritize their citadels more heavily than broader city-wedge administration.
 
 The Rezin Registry is Rezin-specific and coveted by the other High Clades. Access to it is part of why the Rezin citadel position is especially desirable.
+
+Access in and out of most High Clade citadels is heavily restricted. The Rezin citadel's Registry lets it manage some movement more precisely than most, but High Clade citadels generally keep sensitive internal spaces, bloodline activity, and un-Presented or politically vulnerable people out of public view.
 
 Exact Low Clade council structures, city-wedge naming, caste hierarchy, and Masked Clade positioning belong to `culture-clade-hierarchy` and location reviews.
 
@@ -94,11 +98,13 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related location: [Spire / central amphitheater](../locations/loc-spire.md)
+- Related location: [Archeon](../locations/loc-archeon.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Decision record: [High Clades Governance and Central Amphitheater](../../decisions/0014-high-clades-governance-and-central-amphitheater.md)
 - Decision record: [Spire Name and Central Amphitheater Form](../../decisions/0028-spire-name-and-central-amphitheater-form.md)
+- Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 

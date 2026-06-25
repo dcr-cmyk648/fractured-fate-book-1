@@ -7,21 +7,21 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-archeon
-- Latest completed entity: loc-concord-manor
+- Active or paused entity ID: none
+- Latest completed entity: loc-archeon
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `consistency: review important locations block`
-- Working tree expected to be clean: no; `loc-archeon` review packet has reached author checkpoint and is being committed
-- Remote synchronized: yes
+- Latest relevant commit message: `bible: approve Archeon location`
+- Working tree expected to be clean: no; `loc-archeon` approval finalization is in progress
+- Remote synchronized: no; local approval changes are not pushed yet
 
 ## Block status
 
 - Current block: important-locations
 - Block scope: important location records beginning with Rezin citadel sublocations
-- Approved entities since last consistency review: none
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block.md
 - Consistency review due: no
-- Remote synchronized: yes
+- Remote synchronized: no; local approval changes are not pushed yet
 
 ## Last completed work
 
@@ -29,15 +29,15 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-The `loc-archeon` location review packet has been source-gathered and moved to author checkpoint.
+Author feedback for `loc-archeon` was applied. The approved record now stores Archeon as the physical citadel/city-wedge, its lower complex, arena, training halls, child compound, breeding-pit concept, central tower, throne-room final conflict, floor-collapse trap, and aboveground final-attack approach.
 
 ## Next action
 
-Present the `loc-archeon` summary/questions to the author, then apply approved answers to durable files after feedback.
+Run validation, inspect the staged file list, commit `bible: approve Archeon location`, push `beta`, then begin the next queued entity, `loc-sorevin-redbridge`.
 
 ## Awaiting author input
 
-- Author feedback is pending for `loc-archeon`.
+- None for `loc-archeon`; approval received 2026-06-25.
 
 ## Known blockers or risks
 
@@ -95,6 +95,9 @@ Present the `loc-archeon` summary/questions to the author, then apply approved a
 - planning/candidates/locations/loc-concord-manor.md
 - decisions/0029-concord-manor-identity-and-collapse.md
 - reviews/entities/locations/loc-archeon.md
+- bible/locations/loc-archeon.md
+- planning/candidates/locations/loc-archeon.md
+- decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md
 - bible/organizations/org-archeon.md
 - planning/candidates/organizations/org-archeon.md
 - decisions/0012-archeon-high-clade-rise-and-training-system.md

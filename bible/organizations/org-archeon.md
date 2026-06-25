@@ -16,6 +16,8 @@ Archeon is currently a High Clade because it holds one of the six citadels that 
 
 Archeon does not openly publish the true nuances of its power. Like other High and Low Clades, it avoids giving away details that enemies could exploit in combat.
 
+Physical Archeon territory, including the citadel, city-wedge, lower complex, arena, training halls, child compound, breeding-pit concept, central tower, and final-battle throne room, belongs to `loc-archeon`.
+
 ## Leadership
 
 Serathis is Archeon's current Head Magus and leader. She is also the mother, grandmother, or more distant ancestor of virtually all current Archeon members.
@@ -47,6 +49,8 @@ Archeon uses brutal child-training programs and dark breeding programs as integr
 Children born to Archeon mothers are taken at birth, handed to training halls, returned to the compound around five years old, and trained rather than raised. Mothers do not normally raise their children.
 
 Archeon uses breeding contracts and treats descendants as assets for magical development. Kelyra is directly descended from Archeon breeding programs, and that lineage is the origin of Kelyra's and therefore Davian's Archeon-derived abilities.
+
+The physical training halls, child compound, and breeding-pit concept are accepted as parts of the Archeon citadel/compound, with exact layout and final terminology deferred to location and revision work.
 
 ## Release and Catch
 
@@ -96,6 +100,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
+- Related location: [Archeon](../locations/loc-archeon.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
@@ -107,6 +112,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
+- Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 
 ## Canonical Uncertainties
 
@@ -118,7 +124,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Antithesis is not a separate kind of magic; it refers only to Davian's knife. Force-parting or diffusion behavior remains candidate as an extension of Archeon kinesis, not a unique Antithesis property.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.
-- Exact Archeon location, citadel layout, and raid geography remain for `loc-archeon` and revision planning.
+- Archeon location, citadel layout, and broad raid geography are approved in `loc-archeon`; exact map, route choreography, and final terminology remain for later revision planning.
 
 ## Provenance
 
