@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: none
+- Active or paused entity ID: object-paradox
 - Latest completed entity: object-antithesis
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Antithesis object packet`
-- Working tree expected to be clean: no; approved `object-antithesis` files are being finalized for commit
+- Latest relevant commit message: `bible: approve Antithesis object`
+- Working tree expected to be clean: no; `object-paradox` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-`object-antithesis` author answers were reviewed and accepted. Durable Antithesis object, candidate, and decision files are being created, with straightforward dependent updates to kinesis, zä, Archeon, Davian, Kelyra, Harbingers, Treasury, Heart, and consistency queue records.
+`object-antithesis` was approved, committed, and pushed. Antithesis is now accepted as Davian's dagger throughout Book 1: Kelyra's invented false-heirloom name for an Archeon copy of older Zirene designs. Its approved function is a schema sink/anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy. Alra's concealment role is accepted, and the final ruin point is Davian blocking Vorren's attack before Paradox is made from the ruined dagger.
 
 ## Current work
 
-Antithesis is now accepted as Davian's dagger throughout Book 1: Kelyra's invented false-heirloom name for an Archeon copy of older Zirene designs. Its approved function is a schema sink/anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy. Alra's concealment role is accepted, and the final ruin point is Davian blocking Vorren's attack before Paradox is made from the ruined dagger.
+`object-paradox` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet proposes Paradox as the weapon made from ruined Antithesis at the end of Book 1 and asks for decisions on name, maker, form, aura binding, mechanics, returning/thrown behavior, Niall's handoff, and symbolism.
 
 ## Next action
 
-Validate the approved `object-antithesis` updates, inspect the staged file list, commit and push them, then automatically open the next queued object entity, `object-paradox`.
+Review author answers for `object-paradox`; if approved, create the durable Paradox bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
 
 ## Awaiting author input
 
-- None.
+- `object-paradox` author checkpoint questions are pending in `reviews/entities/objects/object-paradox.md`.
 
 ## Known blockers or risks
 
@@ -108,6 +108,9 @@ Validate the approved `object-antithesis` updates, inspect the staged file list,
 - planning/candidates/objects/object-seraph-heart.md
 - decisions/0032-heart-name-containment-and-skein-links.md
 - reviews/entities/objects/object-antithesis.md
+- bible/objects/object-antithesis.md
+- decisions/0033-antithesis-dagger-schema-sink-and-concealment.md
+- reviews/entities/objects/object-paradox.md
 - bible/magic/magic-antithesis.md
 - bible/magic/magic-subversion.md
 - bible/magic/magic-zan-lattices.md
