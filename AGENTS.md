@@ -60,6 +60,26 @@ Before doing book work, Codex must:
 - Do not add routine author checkpoints for dependency searches, unambiguous dependent updates, queue entries, `needs-revisit` marking, validation, local commits, or block-level consistency review.
 - Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
+## Minimum Sufficient Canon
+
+During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.
+
+Codex should not try to exhaustively define every detail of every entity during the initial story-bible phase. Exact room dimensions, exact device manufacturing history, exact minor terminology variants, exhaustive lists of every object or subcomponent, distant cosmology that does not affect Book 1 structure, and minor cultural practices not needed for current plot, character, or world logic should usually remain candidate material unless they affect the outline.
+
+When in doubt, ask: "Does this decision materially affect the story bible, outline, continuity, or future prose?" If not, preserve it as candidate material and move on.
+
+For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, including core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
+
+For ordinary reviews, prefer this hierarchy:
+
+1. Identify the entity.
+2. Resolve the most important conflict.
+3. Decide what is accepted now versus candidate/deferred.
+4. Resolve one consequential relationship, ability, or future-plan issue if needed.
+5. Queue the rest.
+
+Do not ask the author about every potentially interesting detail. If a detail can safely be preserved as candidate material without blocking the outline, do that.
+
 ## Story-Bible-First Gate
 
 The project must proceed story-bible first. Do not begin chapter review, chapter outlining, scene review, future-sequence outlining, or next-draft outline construction while the initial story-bible inventory remains incomplete.
@@ -74,9 +94,11 @@ Required order:
 6. Complete whole-book structural and consistency reviews.
 7. Open prose work only after explicit later authorization under `AUTHORING.md`.
 
-The initial story-bible phase is complete only when every entity in approved project scope is `approved`, `deferred` by author, or `superseded`. Before chapter work opens, there should normally be no entity marked `discovered`, `queued`, `in-review`, `awaiting-author`, or `needs-revisit`; any exception must be explicitly documented and approved by the author.
+The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 
-Before opening outline/chapter work, all direct contradictions and broad retcons affecting approved records must be resolved or explicitly deferred, all completed entity blocks must have passed consistency review, cross-file links and dependencies must validate, the final story-bible consistency report must be reviewed, the working tree must be clean, and the active branch must be synchronized according to repository policy.
+This does not mean the story bible is frozen forever. During later chapter/scene outline work, blocking discoveries can reopen or create story-bible items, nonblocking discoveries should be queued without interrupting chapter review, and later changes should trigger impact scans and consistency queue items rather than silently contradicting earlier material.
+
+Before opening outline/chapter work, all direct contradictions and broad retcons affecting approved records that materially affect the outline must be resolved or explicitly deferred, all completed entity blocks must have passed consistency review, cross-file links and dependencies must validate, the final story-bible consistency report must be reviewed, the working tree must be clean, and the active branch must be synchronized according to repository policy.
 
 Do not open chapter work automatically after the last entity. Present a concise story-bible completion report and wait for clear author approval to move from story-bible review into chapter outlining.
 

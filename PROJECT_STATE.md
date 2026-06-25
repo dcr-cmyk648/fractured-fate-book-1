@@ -10,8 +10,8 @@ Last updated: 2026-06-25
 - Active or paused entity ID: object-alara-journal
 - Latest completed entity: object-davian-mask
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Davian mask object`
-- Working tree expected to be clean: no; `object-alara-journal` review packet is at author checkpoint
+- Latest relevant commit message: `review: prepare Alara journal object packet`
+- Working tree expected to be clean: yes; `object-alara-journal` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,19 @@ Last updated: 2026-06-25
 
 ## Current work
 
-`object-alara-journal` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet focuses on Alara's specific auratic codex: discovery, physical object details, key inscription, Elric's corrupted bridge, Niall taking the codex, and boundaries with Niall's separate codex and later Alara/event reviews.
+`object-alara-journal` remains the active entity at author checkpoint. The workflow-simplification checkpoint has not changed canon or entity status. The review packet focuses on Alara's specific auratic codex: discovery, physical object details, key inscription, Elric's corrupted bridge, Niall taking the codex, and boundaries with Niall's separate codex and later Alara/event reviews.
 
 ## Next action
 
-Review author answers for `object-alara-journal`; if approved, create the durable journal bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
+Resume `object-alara-journal` at the existing author checkpoint. After author answers are available, if approved, create the durable journal bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
 
 ## Awaiting author input
 
 - `object-alara-journal` author checkpoint questions are pending in `reviews/entities/objects/object-alara-journal.md`.
+
+## Workflow policy note
+
+- Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark an entity approved.
 
 ## Known blockers or risks
 

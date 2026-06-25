@@ -6,6 +6,23 @@ For authoring collaboration style, scene construction, prose drafting, local rev
 
 For future chapter, scene, future-sequence, and next-draft outline workflow after the story-bible gate opens, follow `REVISION_WORKFLOW.md`. `REVISION_WORKFLOW.md` does not authorize chapter work until the story-bible completion gate below has passed and the author clearly approves opening the outline phase.
 
+## Governing Objective
+
+The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
+
+The intended sequence is:
+
+1. Complete story-bible review.
+2. Run story-bible consistency review.
+3. Extract current prose into accurate chapter/scene maps.
+4. Discuss and approve current chapter/scene summaries.
+5. Integrate all relevant notes, feedback, candidates, decisions, plotlines, arcs, and consistency issues.
+6. Build a detailed next-draft outline, including future/unwritten chapters.
+7. Run whole-book structural and consistency review.
+8. Open prose work only later, by explicit author authorization.
+
+If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+
 ## Startup
 
 Before doing book work, Codex must:
@@ -51,32 +68,56 @@ Proceed in this order:
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
-## Story-Bible Completion Gate
+## Minimum Sufficient Canon
 
-The initial story-bible phase is complete only when every entity in the approved project scope has one of these statuses:
+The story-bible phase should settle only the amount of canon needed to:
+
+- understand the story
+- avoid major contradictions
+- support character and plot decisions
+- build the future chapter/scene outline
+- prepare later prose work
+
+Codex should not try to exhaustively define every detail of every entity during the initial story-bible phase.
+
+Details that should usually be preserved as candidates unless they affect the outline include:
+
+- exact room dimensions
+- exact device manufacturing history
+- exact minor terminology variants
+- exhaustive lists of every object or subcomponent
+- distant cosmology that does not affect Book 1 structure
+- minor cultural practices that are not needed for current plot, character, or world logic
+
+When in doubt, ask: "Does this decision materially affect the story bible, outline, continuity, or future prose?" If not, preserve it as candidate material and move on.
+
+## Story-Bible Complete-Enough Gate
+
+The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory has one of these statuses:
 
 - `approved`
 - `deferred` by author
 - `superseded`
 
-Before opening chapter work, there should normally be no entity marked:
-
-- `discovered`
-- `queued`
-- `in-review`
-- `awaiting-author`
-- `needs-revisit`
-
-Any exception must be explicitly documented and approved by the author.
-
 Also require:
 
-- all direct contradictions and broad retcons affecting approved records are resolved or explicitly deferred
-- all completed entity blocks have passed their consistency review
+- any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author
+- block-level consistency reviews have been run for completed entity categories
+- no known unresolved issue prevents understanding the book's causal structure
+- remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues
 - cross-file links and dependencies validate
 - the final story-bible consistency report has been reviewed
 - the working tree is clean
 - the active branch is synchronized according to repository policy
+- the author approves opening the outline phase
+
+This does not mean the story bible is frozen forever.
+
+During later chapter/scene outline work:
+
+- blocking discoveries can reopen or create story-bible items
+- nonblocking discoveries should be queued without interrupting the chapter review
+- a later change should trigger impact scans and consistency queue items rather than silently contradicting earlier material
 
 `Complete` means the current known story-bible inventory has been reviewed. It does not mean the story bible can never gain a new item later.
 
@@ -142,11 +183,29 @@ The author should review substantive content decisions, not routine repository m
 
 When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The final thing printed before waiting for author input must be the concrete numbered questions, so the author can audit and answer them without scrolling past later status text. The author should not have to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 
+For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, such as core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
+
+For ordinary reviews, prefer this hierarchy:
+
+1. Identify the entity.
+2. Resolve the most important conflict.
+3. Decide what is accepted now versus candidate/deferred.
+4. Resolve one consequential relationship, ability, or future-plan issue if needed.
+5. Queue the rest.
+
+Do not ask the author about every potentially interesting detail. If a detail can safely be preserved as candidate material without blocking the outline, do that.
+
 Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
 Do not merge, tag, delete source or archival material, install dependencies, rewrite Git history, force-push, or modify manuscript prose without separate explicit permission.
 
-Approved entity work is committed locally after substantive approval. After each successful approved-entity commit, push the current feature branch automatically. If the remote has diverged, stop and report. Do not push uncommitted work. A review packet may receive a clearly labeled checkpoint commit when necessary for cross-computer durability, but it must remain unapproved. `main` must never receive automatic direct commits from Codex.
+Approved entity work is committed locally after substantive approval. After each successful approved-entity commit, push the current feature branch automatically. If the remote has diverged, stop and report. Do not push uncommitted work. `main` must never receive automatic direct commits from Codex.
+
+Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. After approval, commit the approved entity normally. Do not create a separate unapproved packet commit unless durability actually matters.
+
+Create and push an unapproved checkpoint only when the session is ending, the author is switching computers or threads, context compaction or interruption is likely, the packet required substantial source-gathering and would be costly to recreate, or the author explicitly requests a checkpoint.
+
+Checkpoint commits must be clearly labeled, for example `review: checkpoint Spire location packet` or `review: prepare Spire location packet`. They must not create accepted bible files or mark the entity approved.
 
 ## Control File Ownership
 

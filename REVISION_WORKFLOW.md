@@ -9,18 +9,21 @@ It is not active yet. Do not begin chapter review, scene review, future-sequence
 The project proceeds in this order:
 
 1. Complete the story-bible review phase.
-2. Run a full story-bible consistency and dependency review.
-3. Receive author approval to open the outline phase.
-4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
-5. Build the next-draft outline, including unwritten future chapters.
-6. Complete whole-book structural and consistency reviews.
-7. Open prose work only after explicit later authorization under `AUTHORING.md`.
+2. Run story-bible consistency review.
+3. Extract current prose into accurate chapter/scene maps.
+4. Discuss and approve current chapter/scene summaries.
+5. Integrate all relevant notes, feedback, candidates, decisions, plotlines, arcs, and consistency issues.
+6. Build a detailed next-draft outline, including future/unwritten chapters.
+7. Run whole-book structural and consistency review.
+8. Open prose work only later, by explicit author authorization.
+
+The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline. If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
 ## Opening Outline Work
 
-After the story-bible completion gate passes, Codex must present a concise story-bible completion report containing:
+After the story-bible complete-enough gate in `WORKFLOW.md` passes, Codex must present a concise story-bible completion report containing:
 
 - approved entities
 - deliberately deferred entities
@@ -30,6 +33,8 @@ After the story-bible completion gate passes, Codex must present a concise story
 - recommended outline-readiness status
 
 Then stop for clear author approval to open chapter work. The author does not need to use an exact phrase, but the authorization must clearly approve moving from story-bible review into chapter outlining.
+
+Do not begin chapter/scene extraction until the author explicitly opens the outline phase. Outline work does not authorize prose drafting.
 
 ## Chapter and Scene Review
 
@@ -56,6 +61,7 @@ For a nonblocking discovery:
 - mark the affected chapter or future sequence `needs-revisit` if appropriate
 - continue the current chapter review
 - resolve the item at the next logical consistency checkpoint
+- run impact scans when later approved changes affect prior outline material
 
 Do not interrupt the author for minor naming, metadata, link, or nonessential details.
 

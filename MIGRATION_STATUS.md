@@ -111,7 +111,9 @@ Current phase notes:
 - The Ink/systems block-level consistency review was completed after `magic-ink-boons`.
 - Kinesis (`magic-subversion`) has been approved after the Ink/systems consistency review.
 - Detailed entity queue status lives only in `ENTITY_INDEX.md`.
-- Story-bible review must complete before any chapter review, chapter outlining, future-sequence outlining, or next-draft outline construction begins.
+- Story-bible review must be complete enough before any chapter review, chapter outlining, future-sequence outlining, or next-draft outline construction begins.
+- Complete enough means every entity in the approved initial inventory is `approved`, `deferred`, or `superseded`; any `needs-revisit` item that would materially affect the outline is resolved or explicitly deferred by the author; block-level consistency reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
+- Complete enough does not freeze the story bible forever. Later blocking chapter/scene discoveries can reopen or create story-bible items, and nonblocking discoveries should be queued without interrupting chapter review.
 
 Gate:
 
@@ -136,9 +138,8 @@ Gate:
 - Store approved entity information in `bible/`, `outline/`, `revision/`, `planning/candidates/`, `decisions/`, `feedback/`, and `reviews/entities/` as appropriate.
 - Update `ENTITY_INDEX.md` and `PROJECT_STATE.md`.
 - Stop before committing unless commit authorization has been given.
-- The initial story-bible phase is complete only when every entity in approved project scope is `approved`, `deferred` by author, or `superseded`, with any exception explicitly documented and approved.
-- Before chapter work opens, there should normally be no entity marked `discovered`, `queued`, `in-review`, `awaiting-author`, or `needs-revisit`.
-- All direct contradictions and broad retcons affecting approved records must be resolved or explicitly deferred.
+- The initial story-bible phase is complete enough when every entity in approved project scope is `approved`, `deferred` by author, or `superseded`, with any outline-material `needs-revisit` item resolved or explicitly deferred.
+- All direct contradictions and broad retcons affecting approved records that would materially affect the outline must be resolved or explicitly deferred.
 - All completed entity blocks must have passed consistency review.
 - Cross-file links and dependencies must validate, the final story-bible consistency report must be reviewed, the working tree must be clean, and the active branch must be synchronized.
 - After the completion gate passes, present a story-bible completion report and wait for clear author approval before opening outline/chapter work.
@@ -212,6 +213,17 @@ Gate:
 - Add continuity and reference validation once the durable reference structure is stable.
 - Validation tools must not rewrite manuscript prose.
 - Whole-book reviews run after the complete initial story bible, after the current draft has been fully mapped, after the future gap-to-ending outline exists, after the next-draft structure is complete, before prose work begins, and after any broad retcon.
+
+## Future Tooling Ideas
+
+Later, consider adding deterministic source indexes to reduce repeated scanning:
+
+- `reports/source-index/chapters.json`
+- `reports/source-index/entities.json`
+- `reports/source-index/aliases.json`
+- `reports/source-index/notes.json`
+
+Do not build these now. Their purpose would be to speed up chapter/entity lookup without replacing source-backed review.
 
 ## Permanent Authoring Gate
 

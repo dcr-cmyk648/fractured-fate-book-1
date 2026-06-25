@@ -2,6 +2,23 @@
 
 Repository for the Book 1 migration, source import, normalization, review, and durable story-reference files.
 
+## Governing Objective
+
+The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
+
+Intended sequence:
+
+1. Complete story-bible review.
+2. Run story-bible consistency review.
+3. Extract current prose into accurate chapter/scene maps.
+4. Discuss and approve current chapter/scene summaries.
+5. Integrate all relevant notes, feedback, candidates, decisions, plotlines, arcs, and consistency issues.
+6. Build a detailed next-draft outline, including future/unwritten chapters.
+7. Run whole-book structural and consistency review.
+8. Open prose work only later, by explicit author authorization.
+
+If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+
 ## Structure
 
 - `imports/raw/` contains untouched archival DOCX exports from Google Docs.
