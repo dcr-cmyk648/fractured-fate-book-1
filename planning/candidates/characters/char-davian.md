@@ -37,7 +37,7 @@ Accepted direction: Antithesis is just a knife throughout Book 1. The exact conc
 
 ## Family and Intel Candidates
 
-- Davian may have lied or altered intel about the Low Clade magus being out at Sorevin because he wanted to kill him.
+- Davian may have lied or altered intel about the Sorevin Head Magus being out because he wanted to kill him.
 - Alternatively, Kelyra may have altered intel, with Davian noticing a pattern.
 - Davian returning to his family after the theft should show that their vengeance plan will not bring peace, happiness, or resolution.
 

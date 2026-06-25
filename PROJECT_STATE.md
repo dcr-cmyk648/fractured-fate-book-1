@@ -7,21 +7,21 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-sorevin-redbridge
-- Latest completed entity: loc-archeon
+- Active or paused entity ID: none
+- Latest completed entity: loc-sorevin-redbridge
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Archeon location`
-- Working tree expected to be clean: no; `loc-sorevin-redbridge` review packet has reached author checkpoint and is being committed
-- Remote synchronized: yes
+- Latest relevant commit message: `bible: approve Sorevin Redbridge location`
+- Working tree expected to be clean: no; `loc-sorevin-redbridge` approval finalization is in progress
+- Remote synchronized: no; local approval changes are not pushed yet
 
 ## Block status
 
 - Current block: important-locations
 - Block scope: important location records beginning with Rezin citadel sublocations
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block.md
 - Consistency review due: no
-- Remote synchronized: yes
+- Remote synchronized: no; local approval changes are not pushed yet
 
 ## Last completed work
 
@@ -29,15 +29,15 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-`loc-archeon` was approved, committed, and pushed. The approved record now stores Archeon as the physical citadel/city-wedge, its lower complex, arena, training halls, child compound, breeding-pit concept, central tower, throne-room final conflict, floor-collapse trap, and aboveground final-attack approach.
+Author feedback for `loc-sorevin-redbridge` was applied. The approved record now stores Sorevin manor as the prologue Low Clade manor, Sorevin Head Magus as Davian's prologue opponent, Sorevin as a Rezin proxy administrator / contractor-vetting Low Clade, the Sorevin job as the Concord contractor-record operation, and Redbridge as candidate-only map material.
 
 ## Next action
 
-Present the `loc-sorevin-redbridge` summary/questions to the author, then apply approved answers to durable files after feedback.
+Run validation, inspect the staged file list, commit `bible: approve Sorevin Redbridge location`, push `beta`, then begin the next queued entity, `object-seraph-heart`.
 
 ## Awaiting author input
 
-- Author feedback is pending for `loc-sorevin-redbridge`.
+- None for `loc-sorevin-redbridge`; approval received 2026-06-25.
 
 ## Known blockers or risks
 
@@ -99,6 +99,9 @@ Present the `loc-sorevin-redbridge` summary/questions to the author, then apply 
 - planning/candidates/locations/loc-archeon.md
 - decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md
 - reviews/entities/locations/loc-sorevin-redbridge.md
+- bible/locations/loc-sorevin-redbridge.md
+- planning/candidates/locations/loc-sorevin-redbridge.md
+- decisions/0031-sorevin-manor-and-redbridge-candidate.md
 - bible/organizations/org-archeon.md
 - planning/candidates/organizations/org-archeon.md
 - decisions/0012-archeon-high-clade-rise-and-training-system.md

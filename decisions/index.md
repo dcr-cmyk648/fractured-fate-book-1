@@ -36,3 +36,4 @@ Do not use this file as a dump for unresolved questions.
 | Spire Name and Central Amphitheater Form | 2026-06-25 | accepted; stored in approved `loc-spire` record | [0028-spire-name-and-central-amphitheater-form.md](0028-spire-name-and-central-amphitheater-form.md) |
 | Concord Manor Identity and Collapse | 2026-06-25 | accepted; stored in approved `loc-concord-manor` record | [0029-concord-manor-identity-and-collapse.md](0029-concord-manor-identity-and-collapse.md) |
 | Archeon Citadel, Subterranean Complex, and Final Tower | 2026-06-25 | accepted; stored in approved `loc-archeon` record | [0030-archeon-citadel-subterranean-complex-and-final-tower.md](0030-archeon-citadel-subterranean-complex-and-final-tower.md) |
+| Sorevin Manor and Redbridge Candidate | 2026-06-25 | accepted; stored in approved `loc-sorevin-redbridge` record | [0031-sorevin-manor-and-redbridge-candidate.md](0031-sorevin-manor-and-redbridge-candidate.md) |

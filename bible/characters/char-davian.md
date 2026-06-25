@@ -109,7 +109,7 @@ Davian saves Selwin during the Dissolution outburst, exposing Davian's underlyin
 
 ## Current Manuscript State
 
-In the prologue, Davian operates with the Twilight Concord under Jalen, fights a Low Clade magus with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
+In the prologue, Davian operates with the Twilight Concord under Jalen, fights the Sorevin Head Magus at Sorevin manor with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
 
 In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact.
 
@@ -128,6 +128,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
+- Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related organization: [Registry](../organizations/org-registry.md)

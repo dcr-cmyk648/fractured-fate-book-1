@@ -37,6 +37,8 @@ Rezin, Archeon, and Drakhal have approved organization files. Nyctaris, Cryndor,
 
 Each High Clade governs its city-wedge from its citadel. City-wedges in the Six Cities are governed through Low Clade councils and proxy structures reporting to the relevant High Clade.
 
+Sorevin is an example of a Low Clade acting as a Rezin proxy administrator: it primarily vets contractors and handles other contracts and local tasks around Sorevin manor.
+
 The Rezins have a more centralized administrative organization than is typical, helped by their Registry infrastructure and citadel security. Other High Clades may prioritize their citadels more heavily than broader city-wedge administration.
 
 The Rezin Registry is Rezin-specific and coveted by the other High Clades. Access to it is part of why the Rezin citadel position is especially desirable.
@@ -99,12 +101,14 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related location: [Spire / central amphitheater](../locations/loc-spire.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
+- Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Decision record: [High Clades Governance and Central Amphitheater](../../decisions/0014-high-clades-governance-and-central-amphitheater.md)
 - Decision record: [Spire Name and Central Amphitheater Form](../../decisions/0028-spire-name-and-central-amphitheater-form.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
+- Decision record: [Sorevin Manor and Redbridge Candidate](../../decisions/0031-sorevin-manor-and-redbridge-candidate.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 

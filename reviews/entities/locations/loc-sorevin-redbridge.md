@@ -2,7 +2,7 @@
 id: loc-sorevin-redbridge
 entity_type: location
 display_name: Sorevin / Redbridge area
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -104,29 +104,46 @@ Complete enough for author checkpoint.
 
 ### present-canon
 
-- Sorevin is at minimum a Low Clade house/family and contractor-vetting network trusted by the Rezins for the ward-overhaul contractor list.
-- The Sorevin manor is a physical Low Clade manor or compound that was attacked for contractor records.
-- The Sorevins were wiped out around the Rezin attack / contractor-infiltration sequence.
+- Sorevin is a Low Clade house/family that acts as one of the Rezin proxy administrators.
+- Sorevin primarily vets contractors and handles other contracts, along with other local tasks around the Sorevin manor.
+- The Sorevin manor is the Low Clade manor from the prologue where Davian fights the Sorevin Head Magus.
+- The Sorevin manor was attacked for contractor records.
+- The Sorevins were not necessarily completely wiped out, but losing their Head Magus / only significant magic user and most of their personnel effectively cripples them for plot purposes.
 - Sorevin records include the approved contractor list and Arrek Hadrin's vetting packet.
-- Redbridge is a named city landmark or area near the tavern where Arrek drinks.
+- The Sorevin job was the specific Concord operation to retrieve contractor records.
+- The later Arrek / Rezin-citadel contractor infiltration is an add-on from the Harbingers.
+- Karra was saved by Davian during the Sorevin job.
+- Redbridge remains candidate-only location material: likely a district named for a landmark.
+- Redbridge is not established as Sorevin territory; it is just where Arrek happened to drink.
 - Arrek's routine near Redbridge lets the Concord locate and follow him into alleys as part of the replacement plan.
-- The Sorevin/Redbridge material is part of the path by which Davian infiltrates the Rezin citadel as Arrek Hadrin.
+- Arrek's fate and other details belong to his eventual character record or other plot-relevant files.
 
 ### candidate
 
-- Sorevin manor and the prologue Low Clade manor may be the same location.
 - Redbridge may be a bridge, neighborhood, market/tavern district, or street area.
-- Redbridge may or may not be in Sorevin-controlled territory.
-- The Sorevin contractor network may need a later organization/culture note rather than a location record.
+- Redbridge may be a district named for a landmark.
+- Exact relationship between Redbridge and broader city maps remains deferred.
+- Sorevin contractor/proxy-administrator details may need a later organization/culture note rather than a location record.
 - Exact map relationships remain deferred.
 
 ## Questions for the author
 
-1. Should this entity stay as one combined location record covering the Sorevin manor / Sorevin-associated physical spaces and the Redbridge tavern area, or should Redbridge be treated as only a candidate/map detail under Sorevin?
-2. Is Sorevin primarily a Low Clade house/family with a contractor-vetting network, rather than a district name?
-3. Is the Sorevin manor the same Low Clade manor from the prologue where Davian fights/kills the Low Clade magus, or are those separate Low Clade manor attacks?
-4. Should the "Sorevin job" mean the Concord operation around Sorevin records / Arrek / contractor infiltration, including Karra being saved by Davian?
-5. What is Redbridge physically: a bridge, neighborhood, tavern/market district, street area, or should exact form stay deferred?
-6. Is Redbridge Sorevin-associated territory, or just where Arrek happened to drink?
-7. Is it accepted that the Sorevins were wiped out for their contractor records and that this was part of the broader Low Clade head-magus assassination pattern?
-8. Should Arrek's final fate remain deferred here, with this location record only storing that the Concord targeted him through the Redbridge tavern lead?
+Resolved by author feedback on 2026-06-25:
+
+1. Redbridge stays candidate-only location material.
+2. Sorevin is a Low Clade that acts as one of the Rezin proxy administrators, primarily vetting contractors and handling other contracts and local tasks around the Sorevin manor.
+3. The Sorevin manor is the Low Clade manor from the prologue; the magus Davian fights is the Sorevin Head Magus.
+4. The Sorevin job was the specific Concord operation to retrieve contractor records. The later infiltration is an add-on from the Harbingers.
+5. Redbridge exact form remains deferred; it is probably a district named for a landmark.
+6. Redbridge is just where Arrek happened to drink, not established Sorevin-associated territory.
+7. The Sorevins were likely not completely wiped out, but the loss of their Head Magus / only significant magic user along with most personnel would accomplish essentially the same plot effect.
+8. Arrek's fate and other details remain for his record and other more plot-relevant files.
+
+## File changes after approval
+
+Created or updated:
+
+- `bible/locations/loc-sorevin-redbridge.md`
+- `planning/candidates/locations/loc-sorevin-redbridge.md`
+- `decisions/0031-sorevin-manor-and-redbridge-candidate.md`
+- direct dependent notes in `bible/characters/char-davian.md`, `bible/organizations/org-high-clades.md`, `planning/candidates/characters/char-davian.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, and `CONSISTENCY_QUEUE.md` as needed
