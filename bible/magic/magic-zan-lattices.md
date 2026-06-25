@@ -52,7 +52,7 @@ The physical chamber's approved interface is targeted rather than omniscient: th
 
 Treasury sphere / Heart containment:
 
-The Treasury sphere is sustained by redundant interwoven zä lattices. Candidate technical direction is that its sinks transform reality-distorting Heart energy into gravity negation, but exact Heart containment mechanics remain for `object-seraph-heart` and `loc-treasury`.
+The Treasury sphere is sustained by redundant interwoven zä lattices. Accepted location-level direction is that the Tzorrax Heart interacting with its containment armature produces chamber weightlessness as a side effect of containment. The effect is not operationally controlled by the Registry and ends when the sphere is shattered and the Heart removed. Exact zä-sink, Nizän-protection, and object mechanics remain for `object-seraph-heart`, `object-tzorrax-sphere`, and advanced zä reviews.
 
 Niall's silver:
 
@@ -78,7 +78,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - `Nizän` / `nïza`, archetypal zä, and conceptual zä such as negation or balance remain deferred to more specific reviews.
 - Exact person-specific zä, true-name/aura theory, and whether a person can be represented directly remain unresolved.
 - Skein-layer zä or reality-layer etching remains candidate for later cosmology or advanced-zän review.
-- Exact Registry/Treasury/Heart power path remains unresolved.
+- Exact Registry/Treasury/Heart power path remains unresolved beyond the accepted Treasury chamber function that Heart/containment-armature interaction produces non-Registry-operated weightlessness.
 - Exact Niall silver conduit mechanics remain unresolved.
 - Exact Zirene/Archeon/Antithesis object mechanics remain unresolved.
 - Exact Naeroth influence on zänwork remains for later culture reviews.
@@ -89,6 +89,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Candidate material: [magic-zan-lattices](../../planning/candidates/magic/magic-zan-lattices.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related location: [Registry Chamber](../locations/loc-registry.md)
+- Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
@@ -99,6 +100,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
+- Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 
 ## Provenance
 

@@ -2,7 +2,7 @@
 id: loc-treasury
 entity_type: location
 display_name: Treasury / vault chamber
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -35,7 +35,7 @@ It should not own:
 - The room is a huge open chamber with a high domed ceiling, glowing zä lighting, and enough scale to hold an enormous floating stone sphere. Provenance: `imports/normalized/melissa-copy.md:3930-3957`.
 - The massive floating stone sphere dominates the chamber and is identified publicly/operationally as the treasury itself; everything stored within is secured inside it. Provenance: `imports/normalized/melissa-copy.md:3930-3957`.
 - Current prose shows a dark doorway/opening cut into the sphere's surface, with no visible stairs, bridges, or walkways to reach it. Provenance: `imports/normalized/melissa-copy.md:3930-3990`; comments at `imports/normalized/melissa-copy.comments.md:54-72`.
-- The chamber can render people or objects weightless. Marek explains that the Registry can enable/disable this effect and target specific individuals or objects. Provenance: `imports/normalized/melissa-copy.md:3942-3975`.
+- The chamber can render people or objects weightless. Current manuscript has Marek explain this as Registry-controlled, but author feedback supersedes that operational explanation: the actual accepted mechanism is the Tzorrax Heart interacting with its containment armature. Provenance: `imports/normalized/melissa-copy.md:3942-3975`; author feedback on 2026-06-25.
 - The weightless field is used as both an access mechanism and a security trap. Workers are instructed to use ropes/anchors and avoid reckless jumps. Provenance: `imports/normalized/melissa-copy.md:3942-3975`.
 - Zänwrights inspect and repair zä on the chamber walls and exterior surface of the sphere. The work is precise, redundant, and unforgiving. Provenance: `imports/normalized/melissa-copy.md:3984-4029`; `imports/normalized/melissa-copy.md:4490-4545`.
 - The treasury sphere's support/defense lattices are extremely redundant. Draining one zä causes other zä to reinforce it, making sabotage difficult. Provenance: `imports/normalized/melissa-copy.md:4490-4545`.
@@ -51,12 +51,12 @@ It should not own:
 - Exact routes, stairs, access sequences, and Registry-to-Treasury spatial relationship remain deferred. Provenance: `bible/locations/loc-registry.md`.
 - The Registry map requires a named/specific target; it does not show everyone all the time. Provenance: `bible/locations/loc-registry.md`.
 - The Treasury sphere uses ancient high-power zä lattices and major Rezin systems are overbuilt around Heart input. Provenance: `bible/magic/magic-zan-lattices.md`.
-- Candidate technical direction already exists that sphere sinks transform reality-distorting Heart energy into gravity negation, but exact Heart containment mechanics remain for `object-seraph-heart` and `loc-treasury`. Provenance: `bible/magic/magic-zan-lattices.md`.
+- The accepted technical direction is that the Tzorrax Heart interacting with its containment armature produces the chamber's weightlessness as a side effect of containment. Exact object mechanics remain for `object-seraph-heart`, `object-tzorrax-sphere`, and advanced zä reviews. Provenance: author feedback on 2026-06-25; `bible/magic/magic-zan-lattices.md`.
 
 ## Consistent information
 
 - A high Treasury and below-ground Registry are compatible if the accepted access path is stairs/guarded spire routes rather than elevators.
-- The chamber can have an operational/public explanation that the Registry controls access/weightlessness while deeper zä/Heart mechanics remain hidden or misunderstood by ordinary zänwrights.
+- The chamber may have an inaccurate or simplified public explanation, but accepted canon is that the Registry does not operationally control weightlessness.
 - The sphere can be the visible Treasury/vault structure while the Heart and exact sphere-object identity remain separate object reviews.
 - The chamber's weightlessness works well as both workplace hazard, access method, and security feature.
 - The sphere's redundant zä lattices explain why Davian cannot simply drain a few components before the theft.
@@ -67,21 +67,21 @@ It should not own:
 
 - Current prose introduces a dark doorway/opening in the sphere and comments note the doorway may be lethal.
 - Later outline notes say it makes more sense if there is no usable entrance; the sphere may have once had an entrance, now blocked or patched; Davian searches and cannot find a way in.
-- Recommendation: decide whether the accepted version has no usable entrance / a sealed former entrance / a visible but lethal or permission-bound doorway.
+- Resolution: accepted direction has no visible usable entrance. A prior entrance was sealed or blocked.
 - Provenance: `imports/normalized/melissa-copy.md:3930-3990`; `imports/normalized/melissa-copy.comments.md:54-72`; `imports/normalized/book-1-outline.md:4272-4284`; `imports/normalized/melissa-copy.md:13705-13835`.
 
 ### Floating sphere vs side-effect weightlessness
 
 - Current prose describes the sphere as floating and weightlessness as a chamber effect the Registry can enable/disable.
 - Later notes say the sphere is not actually powered "to float"; the system contains the Heart and prevents it from being seen by the Nizän, with weightlessness as a side effect contained by outer zä in the tower.
-- Recommendation: accept the visible/operational fact of a weightless chamber and floating sphere now; keep the deeper containment/negation explanation candidate or object/magic-owned unless the author wants it accepted here.
+- Resolution: weightlessness is accepted as a feature produced by the Tzorrax Heart interacting with its containment armature, not a Registry-operated effect. Exact zä/Heart object mechanics remain for later reviews.
 - Provenance: `imports/normalized/melissa-copy.md:3930-3990`; `imports/normalized/book-1-outline.md:4302-4311`; `bible/magic/magic-zan-lattices.md`.
 
 ### "Sphere falling" language
 
 - Older notes include dropping/falling/crashing language for the sphere, but later notes explicitly say to remove references to the sphere falling.
 - Current manuscript theft sequence instead launches the sphere at Niall, the sphere shatters, and then gravity returns.
-- Recommendation: reject "sphere falls/drops" as final location language.
+- Resolution: "sphere falls/drops" is rejected as final location language.
 - Provenance: `imports/normalized/book-1-outline.md:2789`, `4284`, `8519-8555`; `imports/normalized/melissa-copy.md:15988-16130`.
 
 ## Speculative or alternative material
@@ -90,7 +90,7 @@ It should not own:
 - Exact route from ground/Registry to Treasury.
 - Exact number of doors, guard posts, landings, and access checks.
 - Exact final name: Treasury Sphere, vault sphere, Tzorrax Sphere, or another term.
-- Exact status of an old entrance, sealed entrance, or lethal/permission-bound doorway.
+- Exact visual appearance and former protocol of the sealed/blocked entrance.
 - Exact mechanics of weightlessness, Registry control, Heart containment, and Nizän protection.
 - Exact interior structure of the sphere and inner core.
 - Exact post-theft debris and repair state.
@@ -102,20 +102,23 @@ It should not own:
 - The Treasury/vault chamber is high in the Rezin citadel's spire.
 - It is reached by guarded doors and a long spiral staircase or stair-based access route. There are no elevators.
 - The room is a huge open chamber with a high domed ceiling, glowing zä, and an enormous stone Treasury/vault sphere suspended in the center.
-- The chamber/sphere system can render the space weightless and can be controlled for access/security through Registry-linked authorization.
+- The chamber/sphere system renders the space weightless through the Tzorrax Heart interacting with its containment armature.
+- Weightlessness is not operationally controlled by the Registry.
 - Weightlessness is both an access method and a trap/hazard; workers use ropes, anchors, and careful movement.
+- The sphere has no visible usable entrance. A prior entrance was sealed or blocked.
 - The sphere's exterior and the chamber walls are covered in intricate, redundant zä lattices.
 - Treasury wards are worked before the more dangerous inner/vault wards because the treasury wards envelope the vault wards and let workers move from outside inward.
 - Access is restricted by work hours, searches, assigned permissions, and Registry/vetting.
 - Davian cannot easily sabotage the system one zä at a time because the sphere's redundant lattice reinforces weakened components.
 - Davian ultimately uses Antithesis/Subversion/Ink to attack the sphere, launch it at Niall, shatter it, collapse the weightless field, and expose the Heart.
+- Heart containment and gravity negation as a side effect of that containment are accepted direction.
 
 ### candidate
 
 - Exact final name and object identity of the sphere.
-- Whether the sphere has no entrance, a sealed former entrance, or a visible-but-lethal permission-bound doorway.
-- Whether the deeper accepted technical explanation is Heart-containment/anti-Nizän protection causing weightlessness as a side effect.
+- Exact visible details of the sealed former entrance.
 - Exact Heart containment and inner-core mechanics.
+- Exact Nizän-protection mechanics.
 - Exact active defensive discharge behavior and Registry authorization implementation.
 - Exact debris/repair state after the Heart theft.
 
@@ -124,7 +127,7 @@ It should not own:
 Retain in `planning/candidates/locations/loc-treasury.md` after approval:
 
 - route/stair/height details
-- doorway/no-entrance/sealed-entrance variants
+- exact visual details of the sealed former entrance
 - final sphere name and relation to `object-tzorrax-sphere`
 - weightlessness deeper mechanics
 - Heart containment and Nizän protection mechanics
@@ -133,18 +136,20 @@ Retain in `planning/candidates/locations/loc-treasury.md` after approval:
 
 ## Questions for the author
 
-1. Should this location file own the physical high-up Treasury/vault chamber and workplace/access behavior, while the Heart object, Tzorrax Sphere object identity, and exact zä/Heart mechanics stay separate?
-2. Should the accepted physical baseline be: high in the spire, guarded stair access, huge domed zä-lit chamber, enormous central floating/suspended Treasury sphere, no elevators?
-3. Should the chamber's weightlessness be accepted as operationally controlled through Registry-linked authorization, while deeper true mechanics remain deferred?
-4. For the sphere entrance, which version is final: no usable entrance; sealed/blocked former entrance or patch; visible doorway that is lethal/permission-bound; or defer all exact entrance details?
-5. Should "the sphere falls/drops" be rejected, with the final theft version being Davian launches the sphere at Niall, it shatters, gravity returns, and the Heart is exposed?
-6. Should the treasury/vault ward layering be accepted: treasury wards envelop the more dangerous vault wards, so work proceeds outside-in?
-7. Should restricted work hours, searches on exit, and Registry/vetting-based access be accepted for Treasury security?
-8. Should the Heart-containment / Nizän-protection / gravity-negation side-effect explanation remain candidate until `object-seraph-heart`, `object-tzorrax-sphere`, or advanced zä reviews?
+Resolved by author feedback on 2026-06-25:
+
+1. `loc-treasury` owns the physical high-up Treasury/vault chamber and workplace/access behavior, while the Heart object, Tzorrax Sphere object identity, and exact zä/Heart mechanics stay separate.
+2. Accepted baseline: high in the spire, guarded stair access, huge domed zä-lit chamber, enormous central floating/suspended Treasury sphere, no elevators.
+3. Weightlessness is a feature of the chamber produced by the Tzorrax Heart interacting with its containment armature. It is not operationally controlled by the Registry.
+4. The sphere has no visible usable entrance. The prior entrance was sealed.
+5. "The sphere falls/drops" is rejected. Davian throws/launches it at Niall to shatter it and steal the Heart.
+6. Treasury/vault ward layering is accepted: treasury wards envelop the more dangerous vault wards, so work proceeds outside-in.
+7. Restricted work hours, searches on exit, and Registry/vetting-based access are accepted for Treasury security.
+8. Heart containment and gravity negation as a side effect are accepted direction. Exact object mechanics, zä sinks, Nizän-protection details, and inner armature design remain for later object and advanced zä reviews.
 
 ## Proposed file changes after approval
 
-If approved, create/update:
+Created/updated after approval:
 
 - `bible/locations/loc-treasury.md`
 - `planning/candidates/locations/loc-treasury.md`

@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-treasury
-- Latest completed entity: loc-registry
+- Active or paused entity ID: none
+- Latest completed entity: loc-treasury
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Treasury location packet`
-- Working tree expected to be clean: yes
+- Latest relevant commit message: `bible: approve Treasury location`
+- Working tree expected to be clean: no; Treasury approval finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The `loc-registry` entity was approved, committed, and pushed. Durable files now record the Registry chamber as a below-ground, guarded, circular/pale-stone zä-etched chamber with a central targeted location interface. The map/projection requires a named or otherwise specifically called-out target before it locates/zooms/refines; it is not a constantly visible display of everyone. Davian no longer returns to the Registry after stealing the Heart, and the old high-window/elevator solution is obsolete.
+The author approved `loc-treasury` on 2026-06-25. Durable files now record the Treasury/vault chamber as high in the Rezin spire with guarded stair access and no elevators; a huge domed zä-lit chamber with a central suspended Treasury sphere; no visible usable sphere entrance because the prior entrance was sealed or blocked; weightlessness produced by the Tzorrax Heart interacting with its containment armature rather than Registry operational control; and the accepted theft direction in which Davian launches the sphere at Niall, the sphere shatters, gravity returns, and the Heart is exposed.
 
 ## Current work
 
-The `loc-treasury` review packet has been prepared and is awaiting author input. No accepted Treasury bible or candidate record has been created yet.
+Finalizing the `loc-treasury` approval commit. Accepted bible, candidate, decision, index, review-packet, direct dependent zä-lattice, and consistency-queue updates have been prepared.
 
 ## Next action
 
-Present the `loc-treasury` checkpoint questions to the author. After substantive approval, create the accepted Treasury durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-spire`.
+Run validation, inspect the staged file list, commit `bible: approve Treasury location`, push `beta`, and then begin the next queued entity, `loc-spire`.
 
 ## Awaiting author input
 
-- `loc-treasury`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-treasury.md`, especially sphere entrance status, weightlessness mechanics boundary, ward layering, final theft language, and whether deeper Heart/Nizän mechanics remain candidate.
+- None for `loc-treasury`; approval received 2026-06-25.
 
 ## Known blockers or risks
 
@@ -59,8 +59,8 @@ Present the `loc-treasury` checkpoint questions to the author. After substantive
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Tzorrax Heart/Sphere object mechanics, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -83,6 +83,9 @@ Present the `loc-treasury` checkpoint questions to the author. After substantive
 - planning/candidates/locations/loc-registry.md
 - decisions/0026-registry-chamber-placement-and-interface.md
 - reviews/entities/locations/loc-treasury.md
+- bible/locations/loc-treasury.md
+- planning/candidates/locations/loc-treasury.md
+- decisions/0027-treasury-placement-and-containment-function.md
 - bible/organizations/org-registry.md
 - bible/magic/magic-zan-lattices.md
 - imports/normalized/melissa-copy.md
