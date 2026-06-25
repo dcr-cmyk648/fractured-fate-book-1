@@ -29,15 +29,15 @@ The author approved `loc-treasury` on 2026-06-25. Durable files now record the T
 
 ## Current work
 
-The `loc-spire` review packet has been opened, marked in review, committed, and pushed. Source gathering is not complete. The packet starts from the accepted boundary that the Presentation Spire / Central Spire location is separate from the Rezin citadel's ordinary central architectural spire.
+The `loc-spire` review packet has been expanded into a source-backed author checkpoint and is awaiting author input. It separates the Presentation Spire / Central Spire location from the Rezin citadel's ordinary central architectural spire, gathers the literal-tower versus blast-hole-amphitheater conflict, and proposes retaining `Spire` as historical/common terminology for the central High Clade Presentation/meeting location.
 
 ## Next action
 
-Gather all source-backed Presentation Spire / Central Spire material into contradictions, consistent facts, candidate material, and checkpoint questions for author review.
+Present the `loc-spire` checkpoint questions to the author. After substantive approval, create the accepted Spire durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-concord-manor`.
 
 ## Awaiting author input
 
-- None currently. `loc-spire` source gathering is in progress and not yet ready for author checkpoint.
+- `loc-spire`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-spire.md`, especially final physical form, historical `Spire` terminology, whether `Presentation Spire` is in-world, whether old tower/halls/open-crown language is obsolete, and whether six-citadel geography supersedes the one-off seven-citadel line.
 
 ## Known blockers or risks
 
@@ -88,6 +88,8 @@ Gather all source-backed Presentation Spire / Central Spire material into contra
 - decisions/0027-treasury-placement-and-containment-function.md
 - reviews/entities/locations/loc-spire.md
 - bible/organizations/org-high-clades.md
+- planning/candidates/organizations/org-high-clades.md
+- decisions/0014-high-clades-governance-and-central-amphitheater.md
 - bible/organizations/org-registry.md
 - bible/magic/magic-zan-lattices.md
 - imports/normalized/melissa-copy.md
