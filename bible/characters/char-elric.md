@@ -48,6 +48,8 @@ Elric's fall is the end result of idealism, perfectionism, and rigidity being tw
 
 He originally thought he could reform society. Over time, he learned that purity and perfection were impossible, and learned about the fractured state of reality after the original sin of the first magus. Because he could not accept an imperfect reality, he came to see suffering as the ultimate state of existence and decided negation was preferable.
 
+Elric believes the Creator made the world, set it in motion, and left. His absent-watchmaker view of the Creator and his belief that the created order is now broken are part of the cosmology beneath his psychotic depression.
+
 His villainy should preserve the shape of failed idealism rather than flattening him into simple appetite or malice. He is dangerous because his brilliance, certainty, and despair make destruction seem to him like the only pure solution.
 
 ## Fate, Ink, and Manipulation
@@ -109,6 +111,7 @@ Current manuscript material establishes:
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related culture: [Creator / Sheol / gods and religious language](../cultures/culture-creator-sheol.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)

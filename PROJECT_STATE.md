@@ -8,10 +8,10 @@ Last updated: 2026-06-25
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: cultures-and-world-systems
 - Active or paused entity ID: none
-- Latest completed entity: culture-magus-presentation
+- Latest completed entity: culture-creator-sheol
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Naeroth lineage culture`
-- Working tree expected to be clean: no; approved `culture-magus-presentation` changes are being finalized
+- Latest relevant commit message: `bible: approve Magus Presentation culture`
+- Working tree expected to be clean: no; approved `culture-creator-sheol` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
@@ -25,15 +25,15 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-`culture-magus-presentation` was approved by the author. Presentation is formal public recognition of a strong, controlled, useful, politically viable magus; requires reliable Shroud control plus a potent/flashy power display; unPresented magi are generally hidden and become targets if exposed; sleeveless High Clade fashion is universal here and symbolizes reliance on power.
+`culture-creator-sheol` was approved by the author. Creator is accepted as the in-world Creator, mostly used in oaths/curses/exclamations and older worship residue; modern practice generally acknowledges an absent Creator while ignoring active worship; Sheol is accepted as vague language for something or somewhere bad; fractured-reality and deeper cosmology remain preserved for later review.
 
 ## Current work
 
-`culture-magus-presentation` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct Clade hierarchy, High Clades, Shroud, Maya, Selwin, Niall, and consistency queue updates have been applied.
+`culture-creator-sheol` approval is being finalized. Accepted culture, candidate, and decision files have been drafted.
 
 ## Next action
 
-Validate approved `culture-magus-presentation` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-creator-sheol`, unless author direction changes.
+Validate approved `culture-creator-sheol` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-number-system-zan-script`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -83,6 +83,7 @@ Validate approved `culture-magus-presentation` changes, inspect the staged file 
 - reviews/entities/cultures/culture-clade-hierarchy.md
 - reviews/entities/cultures/culture-naeroth-lineages.md
 - reviews/entities/cultures/culture-magus-presentation.md
+- reviews/entities/cultures/culture-creator-sheol.md
 - reviews/entities/locations/loc-rezin-citadel.md
 - bible/locations/loc-rezin-citadel.md
 - planning/candidates/locations/loc-rezin-citadel.md
