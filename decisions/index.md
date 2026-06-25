@@ -34,3 +34,4 @@ Do not use this file as a dump for unresolved questions.
 | Registry Chamber Placement and Interface | 2026-06-25 | accepted; stored in approved `loc-registry` record | [0026-registry-chamber-placement-and-interface.md](0026-registry-chamber-placement-and-interface.md) |
 | Treasury Placement and Containment Function | 2026-06-25 | accepted; stored in approved `loc-treasury` record | [0027-treasury-placement-and-containment-function.md](0027-treasury-placement-and-containment-function.md) |
 | Spire Name and Central Amphitheater Form | 2026-06-25 | accepted; stored in approved `loc-spire` record | [0028-spire-name-and-central-amphitheater-form.md](0028-spire-name-and-central-amphitheater-form.md) |
+| Concord Manor Identity and Collapse | 2026-06-25 | accepted; stored in approved `loc-concord-manor` record | [0029-concord-manor-identity-and-collapse.md](0029-concord-manor-identity-and-collapse.md) |

@@ -73,9 +73,11 @@ Current manuscript material establishes Jalen as:
 - Related character: [Kelyra](char-kelyra.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
+- Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Decision record: [Jalen and Kelyra Concord Role Swap](../../decisions/0010-jalen-kelyra-concord-role-swap.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
+- Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 
 ## Canonical Uncertainties
 

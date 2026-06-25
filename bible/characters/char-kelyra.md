@@ -92,6 +92,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
+- Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
@@ -101,6 +102,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 
 ## Canonical Uncertainties
 

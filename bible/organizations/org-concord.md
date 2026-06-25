@@ -50,11 +50,15 @@ The Concord is vulnerable to Harbinger pressure because Kelyra received Ink powe
 
 ## Manor and Hideout
 
-The Concord operates from a patched, dilapidated former Low Clade manor or hideout in a grim district.
+The Concord operates from the Concord manor, a patched, dilapidated formerly abandoned Low Clade manor in an old, decrepit district.
 
-The manor includes a courtyard with training dummies, repairs, guards or members, and muted activity. Its central hall is a repurposed dining area used for planning.
+The manor is both the Concord's primary hideout/base and a communal home/base for Concord members and any family they have.
+
+The manor includes a courtyard with training dummies, repairs, guards or members, and muted activity. Its central hall is a repurposed dining area used for planning, and Selina's shrine is in the family meeting space.
 
 The hideout has maze-like security and escape features: grafted rooms, corridors, old stone, newer timber, and questionable structural integrity.
+
+After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. The manor eventually collapses during the Archeon attack.
 
 ## Current Manuscript State
 
@@ -69,9 +73,11 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Decision record: [Jalen and Kelyra Concord Role Swap](../../decisions/0010-jalen-kelyra-concord-role-swap.md)
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
+- Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 
 ## Canonical Uncertainties
 
@@ -79,6 +85,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Exact Karra character details remain for `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
 - Exact manuscript revision plan for older Jalen-seat references remains for later revision work.
+- Exact Concord manor district, prior owner, map, evacuation sequence, and damage state remain for location/revision work.
 
 ## Provenance
 

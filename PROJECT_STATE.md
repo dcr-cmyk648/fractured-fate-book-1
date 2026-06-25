@@ -7,37 +7,37 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-concord-manor
-- Latest completed entity: loc-spire
+- Active or paused entity ID: none
+- Latest completed entity: loc-concord-manor
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Concord manor location packet`
-- Working tree expected to be clean: yes
+- Latest relevant commit message: `bible: approve Concord manor location`
+- Working tree expected to be clean: no; Concord manor approval finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: important-locations
 - Block scope: important location records beginning with Rezin citadel sublocations
-- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis, magic-codex-memory
+- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis, magic-codex-memory, loc-rezin-citadel, loc-registry, loc-treasury, loc-spire, loc-concord-manor
 - Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
-- Consistency review due: no
+- Consistency review due: yes; threshold exceeded after current location approvals
 - Remote synchronized: yes
 
 ## Last completed work
 
-The author approved `loc-spire` on 2026-06-25. Durable files now record the Spire / Central Spire as the shared High Clade Presentation and central meeting location at the center of the Six Cities. It is an open-air amphitheater or arena built into the old High Clade war blast hole, not an intact tower. In-world characters commonly call it the Spire or Central Spire; `Presentation Spire` can be casual descriptive speech but is not official. The old rubble/remnants have been removed, Maya's Presentation happens in the open-air version, there are six High Clade citadels, and the Spire is one of the few places where the High Clades truly collaborate. The approval was committed and pushed.
+The author approved `loc-concord-manor` on 2026-06-25. Durable files now record the Concord manor / hideout / abandoned house as one primary compound: a formerly abandoned Low Clade manor in an old, decrepit district, used as both the Concord operational base and a communal home/base for Concord members and their families. Selina's shrine is in the family meeting space. Maze-like additions and questionable structural integrity are accepted. After Davian returns with the Heart, Kelyra worries the manor is compromised and goes to the Harbingers hoping for more power; when Kelyra is captured, Karra immediately moves everyone but Davian out. The eventual collapse of the manor during the Archeon attack is canon.
 
 ## Current work
 
-The `loc-concord-manor` review packet has been expanded into a source-backed author checkpoint and is awaiting author input. It gathers the Concord manor / hideout / abandoned-house material, proposes treating them as the same primary compound, and separates physical-location questions from Concord leadership and chronology issues.
+Finalizing the `loc-concord-manor` approval commit. Accepted bible, candidate, decision, review-packet, direct Concord/Kelyra/Jalen, index, project-state, and consistency-queue updates have been prepared.
 
 ## Next action
 
-Present the `loc-concord-manor` checkpoint questions to the author. After substantive approval, create the accepted Concord manor durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-archeon`.
+Run validation, inspect the staged file list, commit `bible: approve Concord manor location`, push `beta`, and then run the due important-locations consistency review before beginning `loc-archeon`.
 
 ## Awaiting author input
 
-- `loc-concord-manor`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-concord-manor.md`, especially whether manor/hideout/abandoned house are the same compound, whether it is both family base and Concord operational base, and how to classify later compromise/damage.
+- None for `loc-concord-manor`; approval received 2026-06-25.
 
 ## Known blockers or risks
 
@@ -91,6 +91,9 @@ Present the `loc-concord-manor` checkpoint questions to the author. After substa
 - planning/candidates/locations/loc-spire.md
 - decisions/0028-spire-name-and-central-amphitheater-form.md
 - reviews/entities/locations/loc-concord-manor.md
+- bible/locations/loc-concord-manor.md
+- planning/candidates/locations/loc-concord-manor.md
+- decisions/0029-concord-manor-identity-and-collapse.md
 - bible/organizations/org-concord.md
 - bible/characters/char-kelyra.md
 - bible/characters/char-jalen.md

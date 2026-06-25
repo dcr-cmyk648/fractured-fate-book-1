@@ -2,7 +2,7 @@
 id: loc-concord-manor
 entity_type: location
 display_name: Concord manor
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -91,20 +91,23 @@ It should not own:
 - Exact pre-attack and post-attack damage state.
 - Whether the Concord has additional safehouses distinct from this primary manor.
 
-## Proposed accepted record
+## Accepted record
 
 ### present-canon
 
 - The Concord manor is the Twilight Concord's primary hideout/base at the relevant Book 1 point.
-- It is also Kelyra and Jalen's family home or family base.
+- It is also Kelyra and Jalen's family home/base.
+- Concord members and any family they have live there communally, likely including younger people beyond those named so far.
 - It is a former Low Clade manor or fortified house in a grim district of ramshackle buildings, smoke, alleys, and surveillance risk.
-- The manor was abandoned after an unknown Low Clade conflict and later repurposed by the Concord.
+- The manor was abandoned after an unknown Low Clade conflict and later repurposed by the Concord. Exact history may be unknown in-world.
 - It is mismatched, weathered, patched, and dilapidated: old stone, scarred walls, newer wooden additions, repairs, decay, and questionable structural integrity.
 - It has gates, an outer wall or enclosed grounds, and a courtyard with uneven cobblestones, training dummies, Concord members/guards, repairs, and muted activity.
 - It contains a central hall, formerly a dining area, now used as a planning/meeting space with a long table, mismatched chairs, cracked walls, and patched plaster.
-- Selina's shrine stands in the central hall or adjacent family/meeting space.
+- Selina's shrine stands in the family meeting space.
 - The manor/hideout has maze-like security and escape features built from years of expansions and scavenged materials.
-- Later, after Davian returns with the Heart, the location is compromised; Kelyra wants to move immediately, and later Archeon attack material damages or collapses parts of the structure.
+- After Davian returns with the Heart, Kelyra is worried the location is compromised. She does not have a solid plan beyond going to the Harbingers and hoping for more power.
+- When Kelyra is captured, Karra immediately moves everyone but Davian out.
+- The eventual collapse of the manor during the Archeon attack is canon.
 
 ### candidate
 
@@ -112,7 +115,7 @@ It should not own:
 - Exact floor plan and escape-route geometry.
 - Exact former Low Clade owner and abandoned-conflict history.
 - Exact relationship between `manor`, `hideout`, `house`, and any other Concord safehouses.
-- Exact post-attack destruction and whether the Concord ever reuses the site.
+- Exact evacuation sequence, post-attack destruction, and whether the Concord ever reuses the site.
 
 ## Proposed candidate record
 
@@ -128,20 +131,22 @@ Retain in `planning/candidates/locations/loc-concord-manor.md` after approval:
 
 ## Questions for the author
 
-1. Should the Concord manor, Concord hideout, and abandoned house be treated as the same primary compound?
-2. Should it be accepted as both the Concord operational base and Kelyra/Jalen family home/base?
-3. Should the former Low Clade manor history be accepted at this level, with exact prior owner/conflict deferred?
-4. Should the grim district / ramshackle buildings / smoke / alleys setting be accepted, with exact district name deferred?
-5. Should Selina's shrine be accepted as located in the central hall or immediately adjacent family/meeting space?
-6. Should the maze-like additions and questionable structural integrity be accepted as a feature of the manor, supporting later escape/collapse scenes?
-7. Should the manor be accepted as compromised after Davian returns with the Heart, with Kelyra planning to move immediately?
-8. Should post-Archeon-attack damage/collapse remain accepted-future or revision material rather than current present-canon state?
+Resolved by author feedback on 2026-06-25:
 
-## Proposed file changes after approval
+1. The Concord manor is the Concord's hideout; manor/hideout/abandoned-house references are the same primary compound.
+2. It is both the Concord operational base and the communal home/base for Concord members and any family they have. Other younger people likely live there even if they have not been mentioned.
+3. Formerly abandoned Low Clade manor history is accepted. Exact prior owner/conflict remains deferred and may be unknown in-world.
+4. The old/decrepit district setting is accepted, with exact district name deferred.
+5. Selina's shrine is in the family meeting space.
+6. Maze-like additions and questionable structural integrity are accepted features.
+7. After Davian returns with the Heart, Kelyra is worried the manor is compromised but does not have a solid plan beyond going to the Harbingers and hoping for more power. When Kelyra is captured, Karra immediately moves everyone but Davian out.
+8. The eventual collapse of the manor during the Archeon attack is canon.
 
-If approved, create or update:
+## File changes after approval
+
+Created or updated:
 
 - `bible/locations/loc-concord-manor.md`
 - `planning/candidates/locations/loc-concord-manor.md`
-- a decision record for Concord manor identity and physical layout
+- `decisions/0029-concord-manor-identity-and-collapse.md`
 - direct dependent links/notes in `bible/organizations/org-concord.md`, `bible/characters/char-kelyra.md`, `bible/characters/char-jalen.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, and `CONSISTENCY_QUEUE.md` as needed
