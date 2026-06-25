@@ -67,6 +67,7 @@ The mask's long arc should support Davian's movement away from needing the Shade
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Related object: [Haloes](object-haloes.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 
 ## Provenance
@@ -79,6 +80,7 @@ The mask's long arc should support Davian's movement away from needing the Shade
 - `imports/normalized/book-1-outline.md:6260-6262`: Masked Clade masks and Davian carving a zan into his.
 - `imports/normalized/book-1-outline.md:8568-8580`: likely Treasury/Niall confrontation mask timing.
 - `imports/normalized/bullet-notes.md:144`: sign-language echo of mask-on and wanting others to notice.
+- `bible/objects/object-haloes.md`: Davian's mask vendor tests payment because Davian pays with a large value in haloes.
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0016-twilight-concord-masked-clade-and-trial.md`
 - Author feedback on 2026-06-25.

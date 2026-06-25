@@ -42,3 +42,4 @@ Do not use this file as a dump for unresolved questions.
 | Paradox Name, Maker, Form, and Symbolism | 2026-06-25 | accepted; stored in approved `object-paradox` record | [0034-paradox-name-maker-form-and-symbolism.md](0034-paradox-name-maker-form-and-symbolism.md) |
 | Davian Mask Zan Marks and Shade Symbolism | 2026-06-25 | accepted; stored in approved `object-davian-mask` record | [0035-davian-mask-zan-marks-and-shade-symbolism.md](0035-davian-mask-zan-marks-and-shade-symbolism.md) |
 | Alara Journal Discovery and Elric Codex Trap | 2026-06-25 | accepted; stored in approved `object-alara-journal` record | [0036-alara-journal-discovery-and-elric-codex-trap.md](0036-alara-journal-discovery-and-elric-codex-trap.md) |
+| Haloes Currency, Value, and Authenticity | 2026-06-25 | accepted; stored in approved `object-haloes` record | [0037-haloes-currency-value-and-authenticity.md](0037-haloes-currency-value-and-authenticity.md) |

@@ -8,32 +8,32 @@ Last updated: 2026-06-25
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
 - Active or paused entity ID: none
-- Latest completed entity: object-alara-journal
+- Latest completed entity: object-haloes
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Alara journal object`
-- Working tree expected to be clean: no; major-objects block consistency review is being finalized
+- Working tree expected to be clean: no; approved `object-haloes` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`object-alara-journal` was approved, committed, and pushed. The due major-objects block consistency review has been run across the Heart, Antithesis, Paradox, Davian's mask, Alara's journal, and direct dependent files. No author decision is required from the consistency pass.
+`object-haloes` was approved by the author. Haloes are the main coin currency: coins with a precious-metal center, cheaper-metal halo, center zan marking value from 1 to 6, and activatable authenticity check. Values are base 6: 6 copper = 1 silver, 6 silver = 1 gold; a 6-gold Moon equals 36 silver / one 36-day month of normal low-level wages. Minting is controlled by an unspecified High Clade other than Archeon, Drakhal, or Rezin, with Low Clade proxy day-to-day management.
 
 ## Current work
 
-Major-objects block consistency review is being finalized. Harvick's accepted record has been updated with the high-level codex fact from `object-alara-journal`, Harvick candidate material now keeps only the unresolved codex implications, and object-related queue items have been marked reviewed/deferred where appropriate.
+`object-haloes` approval is being finalized. Accepted object, candidate, and decision files have been drafted, direct dependencies updated, and validation/commit/push remain.
 
 ## Next action
 
-Validate the major-objects block consistency review, inspect the staged file list, commit and push. Then open the next queued entity, `object-haloes`, unless author direction changes.
+Validate approved `object-haloes` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-clade-hierarchy`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -79,6 +79,7 @@ Validate the major-objects block consistency review, inspect the staged file lis
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
+- reviews/entities/objects/object-haloes.md
 - reviews/entities/locations/loc-rezin-citadel.md
 - bible/locations/loc-rezin-citadel.md
 - planning/candidates/locations/loc-rezin-citadel.md
