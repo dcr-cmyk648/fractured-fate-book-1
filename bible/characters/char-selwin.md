@@ -14,6 +14,8 @@ candidate_file: planning/candidates/characters/char-selwin.md
 
 Selwin Rezin is Niall Rezin and Alara's young son, Maya Rezin's younger brother, and an unPresented High Clade child.
 
+His unPresented status matters politically and physically. High Clades generally hide unPresented magi because exposed unPresented magi are targets; if they cannot yet form a Shroud, even an ordinary assassin can kill them.
+
 He is cheerful, open, eager, and deeply admiring of Maya and Niall. He is also anxious about whether he is strong enough and whether Niall still wants to be with him.
 
 ## Family Role
@@ -63,10 +65,12 @@ Current manuscript material establishes:
 - Related character: [Davian](char-davian.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
+- Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Selwin Dissolution Shroud and Family Role](../../decisions/0009-selwin-dissolution-shroud-and-family-role.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
+- Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
 ## Canonical Uncertainties
 

@@ -77,6 +77,8 @@ The broader Clade hierarchy has only two real formal categories for Book 1: High
 
 Presented/unPresented status is a major hierarchy pressure point. A High Clade that fails to produce enough safely Presented magi shows weakness and may invite attack, but Presenting someone also publicly exposes that the Clade has a valuable and capable magus.
 
+Presentation includes a required power display. The candidate needs reliable Shroud control and hereditary magic potent and flashy enough that the display does not embarrass the Clade. Sleeveless High Clade fashion symbolizes reliance on one's own power.
+
 ## Culture
 
 High Clade culture is hierarchical, violent, and status-bound. It treats hereditary magic, Shrouds, lineage, Presentation, and citadel control as foundations of legitimacy.
@@ -104,6 +106,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
+- Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related location: [Spire / central amphitheater](../locations/loc-spire.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
@@ -117,6 +120,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
+- Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
 ## Canonical Uncertainties
 

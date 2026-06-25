@@ -66,6 +66,8 @@ Generally, more Presented magi is better, but only if they are high-quality enou
 
 Detailed ritual, fashion, training, speeches, and Presentation scene mechanics belong to `culture-magus-presentation`.
 
+Presentation includes a required power display as well as Shroud-control expectations. The candidate must be safe enough to announce and potent enough that the display is not embarrassing for the Clade.
+
 ## City-Wedge Hierarchy
 
 Each High Clade governs a city-wedge / legally distinct city from its citadel.
@@ -92,7 +94,9 @@ Areas far from Spoke roads and near city-wedge boundaries are poorer, less maint
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
 - Related object: [Haloes](../objects/object-haloes.md)
 - Related future culture: `culture-magus-presentation`
+- Related culture: [Magus status / Presentation](culture-magus-presentation.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
+- Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
 ## Provenance
 

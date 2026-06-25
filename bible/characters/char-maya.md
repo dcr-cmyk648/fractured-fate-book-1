@@ -90,6 +90,8 @@ Erynn and Aldira function as important grounding or corrective figures for Maya 
 
 Maya is presented in the prologue as a young noble and magus preparing for the High Clade Council and Presentation. She is attended by Erynn, reassured by Niall, and concerned about not letting him down.
 
+Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. Exact speech, choreography, exhaustion, and fallout remain for `event-maya-presentation`.
+
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
 In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zan lattices. She is sleep-deprived and under pressure.
@@ -121,6 +123,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
+- Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related object: [Paradox](../objects/object-paradox.md)
@@ -135,6 +138,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Decision: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
+- Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
 ## Provenance
 

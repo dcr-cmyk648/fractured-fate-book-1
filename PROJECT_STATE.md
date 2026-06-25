@@ -8,32 +8,32 @@ Last updated: 2026-06-25
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: cultures-and-world-systems
 - Active or paused entity ID: none
-- Latest completed entity: culture-naeroth-lineages
+- Latest completed entity: culture-magus-presentation
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Clade hierarchy culture`
-- Working tree expected to be clean: no; approved `culture-naeroth-lineages` changes are being finalized
+- Latest relevant commit message: `bible: approve Naeroth lineage culture`
+- Working tree expected to be clean: no; approved `culture-magus-presentation` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: cultures-and-world-systems
 - Block scope: culture and world-system records beginning with Clade hierarchy
-- Approved entities since last consistency review: 2
+- Approved entities since last consistency review: 3
 - Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`culture-naeroth-lineages` was approved by the author. The durable direction focuses narrowly on Naeroth lineage, accepts Alara as Naeroth and Maya/Selwin as mixed Rezin/Naeroth descendants, treats Naeroth as a rare Shroud/fateweaving/Convergence exception, and defers broader demi-human taxonomy and exact mechanics.
+`culture-magus-presentation` was approved by the author. Presentation is formal public recognition of a strong, controlled, useful, politically viable magus; requires reliable Shroud control plus a potent/flashy power display; unPresented magi are generally hidden and become targets if exposed; sleeveless High Clade fashion is universal here and symbolizes reliance on power.
 
 ## Current work
 
-`culture-naeroth-lineages` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct Maya, Selwin, Shroud, Fateweaving/Skein, and consistency queue updates have been applied.
+`culture-magus-presentation` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct Clade hierarchy, High Clades, Shroud, Maya, Selwin, Niall, and consistency queue updates have been applied.
 
 ## Next action
 
-Validate approved `culture-naeroth-lineages` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-magus-presentation`, unless author direction changes.
+Validate approved `culture-magus-presentation` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-creator-sheol`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -82,6 +82,7 @@ Validate approved `culture-naeroth-lineages` changes, inspect the staged file li
 - reviews/entities/objects/object-haloes.md
 - reviews/entities/cultures/culture-clade-hierarchy.md
 - reviews/entities/cultures/culture-naeroth-lineages.md
+- reviews/entities/cultures/culture-magus-presentation.md
 - reviews/entities/locations/loc-rezin-citadel.md
 - bible/locations/loc-rezin-citadel.md
 - planning/candidates/locations/loc-rezin-citadel.md

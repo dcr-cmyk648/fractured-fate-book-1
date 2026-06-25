@@ -33,6 +33,8 @@ Niall's current manuscript ability centers on lightning and electrical-charge ma
 
 Niall wears hidden silver zä-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
 
+Sleeveless High Clade fashion is universal in Presentation-era High Clade culture and symbolizes reliance on one's own power. Niall would have worn that style when he was Presented. His current military jacket remains an exception tied to hidden conduit mechanics and personal/military presentation; exact comments on the jacket during Maya's pre-Presentation sequence remain candidate scene material.
+
 The exact mechanics of the silver conduits, zä strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
 
 ## Important Relationships
@@ -95,6 +97,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
+- Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Related object: [Paradox](../objects/object-paradox.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
@@ -104,6 +107,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
 ## Canonical Uncertainties
 

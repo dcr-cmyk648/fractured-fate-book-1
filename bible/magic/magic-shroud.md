@@ -51,6 +51,8 @@ High Clade culture treats Shroud manifestation as central to magus legitimacy, P
 
 Until a High Clade child can form and maintain a Shroud, that child is dangerous to themself, politically vulnerable, and potentially embarrassing to the family. The Rezin version of this pressure is comparatively less harsh than some other Clades because Niall and Maya provide exceptional power, but the cultural expectation remains.
 
+Presentation also requires hereditary magic potent and flashy enough for the ceremony's power display. Shroud control is necessary for safety and status, but it is not the only Presentation gate.
+
 ## Known Users and Exceptions
 
 Maya Rezin:
@@ -96,6 +98,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
+- Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related organization: [High Clades](../organizations/org-high-clades.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
