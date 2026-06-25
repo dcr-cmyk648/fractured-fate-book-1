@@ -11,7 +11,7 @@ Last updated: 2026-06-25
 - Latest completed entity: loc-archeon
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Archeon location`
-- Working tree expected to be clean: no; `loc-sorevin-redbridge` review packet is being opened and source-gathered
+- Working tree expected to be clean: no; `loc-sorevin-redbridge` review packet has reached author checkpoint and is being committed
 - Remote synchronized: yes
 
 ## Block status
@@ -33,11 +33,11 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Next action
 
-Open and source-gather `loc-sorevin-redbridge`, focusing on Sorevin / Redbridge district references, contractor routes, Low Clade geography, and whether these are one area or separate concepts.
+Present the `loc-sorevin-redbridge` summary/questions to the author, then apply approved answers to durable files after feedback.
 
 ## Awaiting author input
 
-- None for `loc-sorevin-redbridge`; source gathering is in progress.
+- Author feedback is pending for `loc-sorevin-redbridge`.
 
 ## Known blockers or risks
 
