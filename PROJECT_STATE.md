@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-spire
 - Latest completed entity: loc-treasury
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Treasury location`
-- Working tree expected to be clean: no; Treasury approval finalization is in progress
+- Latest relevant commit message: `review: open Spire location packet`
+- Working tree expected to be clean: no; `loc-spire` opening commit is in progress
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The author approved `loc-treasury` on 2026-06-25. Durable files now record the Treasury/vault chamber as high in the Rezin spire with guarded stair access and no elevators; a huge domed zä-lit chamber with a central suspended Treasury sphere; no visible usable sphere entrance because the prior entrance was sealed or blocked; weightlessness produced by the Tzorrax Heart interacting with its containment armature rather than Registry operational control; and the accepted theft direction in which Davian launches the sphere at Niall, the sphere shatters, gravity returns, and the Heart is exposed.
+The author approved `loc-treasury` on 2026-06-25. Durable files now record the Treasury/vault chamber as high in the Rezin spire with guarded stair access and no elevators; a huge domed zä-lit chamber with a central suspended Treasury sphere; no visible usable sphere entrance because the prior entrance was sealed or blocked; weightlessness produced by the Tzorrax Heart interacting with its containment armature rather than Registry operational control; and the accepted theft direction in which Davian launches the sphere at Niall, the sphere shatters, gravity returns, and the Heart is exposed. The approval was committed and pushed.
 
 ## Current work
 
-Finalizing the `loc-treasury` approval commit. Accepted bible, candidate, decision, index, review-packet, direct dependent zä-lattice, and consistency-queue updates have been prepared.
+The `loc-spire` review packet has been opened and marked in review. Source gathering is not complete. The packet starts from the accepted boundary that the Presentation Spire / Central Spire location is separate from the Rezin citadel's ordinary central architectural spire.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `bible: approve Treasury location`, push `beta`, and then begin the next queued entity, `loc-spire`.
+Gather all source-backed Presentation Spire / Central Spire material into contradictions, consistent facts, candidate material, and checkpoint questions for author review.
 
 ## Awaiting author input
 
-- None for `loc-treasury`; approval received 2026-06-25.
+- None currently. `loc-spire` source gathering is in progress and not yet ready for author checkpoint.
 
 ## Known blockers or risks
 
@@ -86,6 +86,8 @@ Run validation, inspect the staged file list, commit `bible: approve Treasury lo
 - bible/locations/loc-treasury.md
 - planning/candidates/locations/loc-treasury.md
 - decisions/0027-treasury-placement-and-containment-function.md
+- reviews/entities/locations/loc-spire.md
+- bible/organizations/org-high-clades.md
 - bible/organizations/org-registry.md
 - bible/magic/magic-zan-lattices.md
 - imports/normalized/melissa-copy.md
