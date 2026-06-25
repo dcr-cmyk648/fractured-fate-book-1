@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-concord-manor
 - Latest completed entity: loc-spire
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Spire location`
-- Working tree expected to be clean: no; Spire approval finalization is in progress
+- Latest relevant commit message: `review: prepare Concord manor location packet`
+- Working tree expected to be clean: yes
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The author approved `loc-spire` on 2026-06-25. Durable files now record the Spire / Central Spire as the shared High Clade Presentation and central meeting location at the center of the Six Cities. It is an open-air amphitheater or arena built into the old High Clade war blast hole, not an intact tower. In-world characters commonly call it the Spire or Central Spire; `Presentation Spire` can be casual descriptive speech but is not official. The old rubble/remnants have been removed, Maya's Presentation happens in the open-air version, there are six High Clade citadels, and the Spire is one of the few places where the High Clades truly collaborate.
+The author approved `loc-spire` on 2026-06-25. Durable files now record the Spire / Central Spire as the shared High Clade Presentation and central meeting location at the center of the Six Cities. It is an open-air amphitheater or arena built into the old High Clade war blast hole, not an intact tower. In-world characters commonly call it the Spire or Central Spire; `Presentation Spire` can be casual descriptive speech but is not official. The old rubble/remnants have been removed, Maya's Presentation happens in the open-air version, there are six High Clade citadels, and the Spire is one of the few places where the High Clades truly collaborate. The approval was committed and pushed.
 
 ## Current work
 
-Finalizing the `loc-spire` approval commit. Accepted bible, candidate, decision, index, review-packet, direct dependent High Clade/Rezin-citadel, and consistency-queue updates have been prepared.
+The `loc-concord-manor` review packet has been expanded into a source-backed author checkpoint and is awaiting author input. It gathers the Concord manor / hideout / abandoned-house material, proposes treating them as the same primary compound, and separates physical-location questions from Concord leadership and chronology issues.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `bible: approve Spire location`, push `beta`, and then begin the next queued entity, `loc-concord-manor` unless a block-level consistency review is due.
+Present the `loc-concord-manor` checkpoint questions to the author. After substantive approval, create the accepted Concord manor durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-archeon`.
 
 ## Awaiting author input
 
-- None for `loc-spire`; approval received 2026-06-25.
+- `loc-concord-manor`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-concord-manor.md`, especially whether manor/hideout/abandoned house are the same compound, whether it is both family base and Concord operational base, and how to classify later compromise/damage.
 
 ## Known blockers or risks
 
@@ -90,6 +90,11 @@ Run validation, inspect the staged file list, commit `bible: approve Spire locat
 - bible/locations/loc-spire.md
 - planning/candidates/locations/loc-spire.md
 - decisions/0028-spire-name-and-central-amphitheater-form.md
+- reviews/entities/locations/loc-concord-manor.md
+- bible/organizations/org-concord.md
+- bible/characters/char-kelyra.md
+- bible/characters/char-jalen.md
+- planning/candidates/organizations/org-concord.md
 - bible/organizations/org-high-clades.md
 - planning/candidates/organizations/org-high-clades.md
 - decisions/0014-high-clades-governance-and-central-amphitheater.md

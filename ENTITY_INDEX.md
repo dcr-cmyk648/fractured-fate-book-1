@@ -44,7 +44,7 @@ There must normally be no more than one entity marked `in-review`.
 | 24 | loc-registry | location | Registry chamber | approved | reviews/entities/locations/loc-registry.md | bible/locations/loc-registry.md | planning/candidates/locations/loc-registry.md | 2026-06-25 |
 | 25 | loc-treasury | location | Treasury / vault chamber | approved | reviews/entities/locations/loc-treasury.md | bible/locations/loc-treasury.md | planning/candidates/locations/loc-treasury.md | 2026-06-25 |
 | 26 | loc-spire | location | Spire | approved | reviews/entities/locations/loc-spire.md | bible/locations/loc-spire.md | planning/candidates/locations/loc-spire.md | 2026-06-25 |
-| 27 | loc-concord-manor | location | Concord manor | queued | reviews/entities/locations/loc-concord-manor.md | bible/locations/loc-concord-manor.md | planning/candidates/locations/loc-concord-manor.md |  |
+| 27 | loc-concord-manor | location | Concord manor | awaiting-author | reviews/entities/locations/loc-concord-manor.md | bible/locations/loc-concord-manor.md | planning/candidates/locations/loc-concord-manor.md |  |
 | 28 | loc-archeon | location | Archeon | queued | reviews/entities/locations/loc-archeon.md | bible/locations/loc-archeon.md | planning/candidates/locations/loc-archeon.md |  |
 | 29 | loc-sorevin-redbridge | location | Sorevin / Redbridge area | queued | reviews/entities/locations/loc-sorevin-redbridge.md | bible/locations/loc-sorevin-redbridge.md | planning/candidates/locations/loc-sorevin-redbridge.md |  |
 | 30 | object-seraph-heart | object | Heart / Seraph Heart | queued | reviews/entities/objects/object-seraph-heart.md | bible/objects/object-seraph-heart.md | planning/candidates/objects/object-seraph-heart.md |  |
