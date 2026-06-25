@@ -10,7 +10,7 @@ Last updated: 2026-06-25
 - Active or paused entity ID: loc-treasury
 - Latest completed entity: loc-registry
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: open Treasury location packet`
+- Latest relevant commit message: `review: prepare Treasury location packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -29,15 +29,15 @@ The `loc-registry` entity was approved, committed, and pushed. Durable files now
 
 ## Current work
 
-The `loc-treasury` review packet has been opened and is in review. Source gathering has not yet been completed.
+The `loc-treasury` review packet has been prepared and is awaiting author input. No accepted Treasury bible or candidate record has been created yet.
 
 ## Next action
 
-Gather source-backed Treasury material from the normalized manuscript, outline, comments, and approved Rezin/Registry/zän files; then prepare the `loc-treasury` author checkpoint.
+Present the `loc-treasury` checkpoint questions to the author. After substantive approval, create the accepted Treasury durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-spire`.
 
 ## Awaiting author input
 
-- None currently. `loc-treasury` source gathering is the next Codex task.
+- `loc-treasury`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-treasury.md`, especially sphere entrance status, weightlessness mechanics boundary, ward layering, final theft language, and whether deeper Heart/Nizän mechanics remain candidate.
 
 ## Known blockers or risks
 
