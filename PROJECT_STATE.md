@@ -11,7 +11,7 @@ Last updated: 2026-06-25
 - Latest completed entity: loc-treasury
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `review: open Spire location packet`
-- Working tree expected to be clean: no; `loc-spire` opening commit is in progress
+- Working tree expected to be clean: yes
 - Remote synchronized: yes
 
 ## Block status
@@ -29,7 +29,7 @@ The author approved `loc-treasury` on 2026-06-25. Durable files now record the T
 
 ## Current work
 
-The `loc-spire` review packet has been opened and marked in review. Source gathering is not complete. The packet starts from the accepted boundary that the Presentation Spire / Central Spire location is separate from the Rezin citadel's ordinary central architectural spire.
+The `loc-spire` review packet has been opened, marked in review, committed, and pushed. Source gathering is not complete. The packet starts from the accepted boundary that the Presentation Spire / Central Spire location is separate from the Rezin citadel's ordinary central architectural spire.
 
 ## Next action
 
