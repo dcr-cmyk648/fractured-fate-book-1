@@ -51,6 +51,8 @@ Davian:
 
 Davian is Kelyra's son. She trained him, shaped his understanding of family and resistance, and is central to his loyalty, Archeon lineage, and Heart-theft motives.
 
+Kelyra stole Antithesis impulsively when she escaped Archeon, thinking she might need it to defend herself. She later gave it to Davian under a false name and false heirloom story, claiming it was a special weapon passed down through their family.
+
 Jalen:
 
 Jalen is Kelyra's husband. They met after Kelyra escaped Archeon, when Jalen tried to rob her and she broke his arm.
@@ -96,6 +98,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Candidate material: [char-kelyra](../../planning/candidates/characters/char-kelyra.md)
 - Review packet: [char-kelyra](../../reviews/entities/characters/char-kelyra.md)
 - Decision record: [Kelyra Archeon Lineage, Shroud, and Family](../../decisions/0006-kelyra-archeon-lineage-shroud-and-family.md)
@@ -103,6 +106,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Canonical Uncertainties
 

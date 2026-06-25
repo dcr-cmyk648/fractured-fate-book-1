@@ -62,7 +62,7 @@ The sphere and chamber are ancient high-power Rezin zä infrastructure built aro
 
 Davian does not make the sphere fall or drop.
 
-During the theft, Davian uses Antithesis, Subversion/kinesis, Ink, and the sphere's own lattice energy to launch the sphere at Niall. The sphere shatters, gravity returns, and the Heart is exposed.
+During the theft, Davian uses Antithesis, Subversion/kinesis, Ink, and the sphere's own lattice energy to launch the sphere at Niall. Antithesis functions as a schema sink/anchor and channel in this action; the sphere shatters, gravity returns, and the Heart is exposed.
 
 After the sphere shatters, the chamber has no active containment field and nothing remains floating.
 
@@ -82,10 +82,12 @@ After the sphere shatters, the chamber has no active containment field and nothi
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
 - Related location: [Registry Chamber](loc-registry.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Provenance
 

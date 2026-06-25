@@ -35,7 +35,7 @@ Kinesis can combine with other systems to become more outward or aggressive:
 - Ink Pact movement can supply rapid wrinkle-in-space / Skein-related motion that kinesis can exploit or stabilize.
 - Shrouds can protect the user and participate in energy handling, though exact Shroud interaction remains unresolved.
 - Martial arts provide body structure, timing, and practiced motor patterns.
-- Tools, anchors, gauntlets, knives, walls, and external substrates can give redirected energy somewhere to go.
+- Tools, anchors, gauntlets, daggers, walls, and external substrates can give redirected energy somewhere to go.
 - Zirene-derived technology can buffer or transfer force for less accomplished users.
 
 ## Archeon Stack
@@ -70,11 +70,13 @@ Kelyra and Davian working together can surpass Serathis. Both have the potential
 
 ## Antithesis
 
-Antithesis is an Archeon rip-off of Zirene's designs, specifically her older and more prototypical designs at the time of Book 1. Kelyra stole it.
+Antithesis is an attempted Archeon copy of Zirene's older and more prototypical designs at the time of Book 1. Kelyra stole it impulsively when she escaped Archeon and later lied that it was a family heirloom.
 
-Antithesis is not a separate kind of magic or magical principle. In Book 1, Antithesis refers only to Davian's knife.
+Antithesis is not a separate kind of magic or magical principle. In Book 1, Antithesis refers only to Davian's dagger.
 
-Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact object mechanics belong to the later `object-antithesis`, Zirene, Archeon technology, and zä-lattice reviews.
+The approved object mechanics define Antithesis as a schema sink or anchor that concentrates kinesis and reduces backlash. It can also store/release or buffer energy storage/release like other Archeon combat equipment, augmenting its schema-sink/anchor capacity.
+
+Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact low-level circuitry and broader device mechanics remain for later Zirene, Archeon technology, and zä-lattice reviews.
 
 ## Canonical Uncertainties
 
@@ -82,7 +84,7 @@ Force-parting, diffusion, or "stone in a river" behavior remains candidate mater
 - Tremorsense or heightened sensitivity to kinetic manifestations remains candidate; it may be too confusing.
 - Exact Ink Pact / kinesis / Shroud integration remains unresolved.
 - Exact broader energy-transformation limits remain unresolved beyond the accepted short-range primarily kinetic model.
-- Exact Antithesis object mechanics and Archeon-gauntlet mechanics remain for later object/technology reviews.
+- Exact low-level Antithesis circuitry and Archeon-gauntlet mechanics remain for later object/technology reviews.
 
 ## Related Files
 
@@ -95,9 +97,11 @@ Force-parting, diffusion, or "stone in a river" behavior remains candidate mater
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Provenance
 

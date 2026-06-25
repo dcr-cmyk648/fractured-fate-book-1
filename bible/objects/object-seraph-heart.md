@@ -54,7 +54,7 @@ Treasury chamber weightlessness is produced by interaction between the Heart and
 
 When Davian shatters the Treasury sphere and removes the Heart, the weightless field ends. The Treasury chamber has no active containment field afterward: nothing remains floating, and gravity returns.
 
-Davian uses Antithesis, kinesis/Subversion, Ink pressure, and the Treasury sphere's own lattice energy to hurl the sphere at Niall. The backlash shatters Davian's arms. The sphere breaks, exposing the Heart.
+Davian uses Antithesis, kinesis/Subversion, Ink pressure, and the Treasury sphere's own lattice energy to hurl the sphere at Niall. Antithesis functions as a schema sink/anchor and channel in the action. The backlash shatters Davian's arms. The sphere breaks, exposing the Heart.
 
 ## Skein, Elric, and Resurrection
 
@@ -89,7 +89,9 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related object: [Antithesis](object-antithesis.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Provenance
 

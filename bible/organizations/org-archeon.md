@@ -36,6 +36,8 @@ The true root of Archeon power is a constructed overlap of abilities and tools t
 - rigorous martial arts
 - for less accomplished practitioners, technology derived from Zirene's designs to help buffer and transfer force
 
+Antithesis is one such attempted Archeon copy of older Zirene designs. It is a dagger-schema-sink/anchor design related in concept to Archeon combat equipment, but it is not a direct precursor to the gauntlets; Archeon later favored gauntlets because they were easier for low-skill magi to use without changing their fighting style as much.
+
 Kinesis is short-range, primarily kinetic redirection of energy. Because Archeon's kinesis is closer to original magic, it requires more balance and less simple reality-bending force than most refined High Clade magic. Exact Shroud interaction, tremorsense/kinetic sensitivity, and tool mechanics remain for later reviews.
 
 Serathis is a near-perfected Archeon-kinesis user, but her total power comes from mastery of the Shroud / martial arts / Ink Pact / kinesis stack. Most current Archeon practitioners cannot do this at Serathis's level and rely more heavily on buffering/transfer technology. Serathis hides that technology dependence because it embarrasses her and makes the Clade look weak.
@@ -106,6 +108,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic boundary: [Antithesis boundary record](../magic/magic-antithesis.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
@@ -113,15 +116,16 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Canonical Uncertainties
 
 - Kinesis terminology and core mechanics are approved in `magic-subversion`.
 - Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and kinesis/Shroud interaction details remain for later magic reviews.
 - Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
-- Exact Zirene-derived Archeon technology remains for later technology/object reviews.
+- Exact broader Zirene-derived Archeon technology remains for later technology/object reviews.
 - Zirene is accepted at high level as the advanced zänwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact Archeon device mechanics remain for later reviews.
-- Antithesis is not a separate kind of magic; it refers only to Davian's knife. Force-parting or diffusion behavior remains candidate as an extension of Archeon kinesis, not a unique Antithesis property.
+- Antithesis is not a separate kind of magic; it refers only to Davian's dagger. Its schema-sink/anchor role is approved at object level. Force-parting or diffusion behavior remains candidate as an extension of Archeon kinesis, not a unique Antithesis property.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.
 - Archeon location, citadel layout, and broad raid geography are approved in `loc-archeon`; exact map, route choreography, and final terminology remain for later revision planning.

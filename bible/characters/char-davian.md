@@ -51,7 +51,7 @@ Davian's current abilities include:
 - skilled assassination and combat
 - strong hand-to-hand ability
 - Concord sign and covert communication
-- use of Antithesis
+- use of Antithesis, the Archeon-derived dagger Kelyra falsely presented as a family heirloom
 - weak but real Shroud manifestation
 - kinesis, called Subversion by Kelyra and Davian's family
 - exposure to Harbinger/Syndicate Ink Pact
@@ -63,7 +63,7 @@ Davian is not yet a competent High Clade-style magus. His Shroud is weak and uns
 
 Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink, not a separate accepted Pact ability. Ink influence does not erase his agency.
 
-Antithesis transformation is no longer canon. Antithesis is a knife throughout Book 1; the exact concealment revision before Davian is searched inside the citadel remains for later scene work.
+Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
@@ -132,6 +132,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related organization: [Registry](../organizations/org-registry.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
@@ -139,6 +140,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 
 ## Canonical Uncertainties
 

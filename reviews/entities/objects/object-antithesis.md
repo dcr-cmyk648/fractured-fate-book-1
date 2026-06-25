@@ -1,8 +1,8 @@
 ---
 id: object-antithesis
 entity_type: object
-display_name: Antithesis knife / broken Antithesis
-review_status: awaiting-author
+display_name: Antithesis
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -14,9 +14,12 @@ source_scope:
   - bible/characters/char-kelyra.md
   - CONSISTENCY_QUEUE.md
 last_updated: 2026-06-25
+accepted_file: bible/objects/object-antithesis.md
+candidate_file: planning/candidates/objects/object-antithesis.md
+decision_record: decisions/0033-antithesis-dagger-schema-sink-and-concealment.md
 ---
 
-# Entity Review: Antithesis Knife / Broken Antithesis
+# Entity Review: Antithesis
 
 ## Proposed identity
 
@@ -80,31 +83,30 @@ Complete for author checkpoint.
 - Tools, anchors, gauntlets, knives, walls, and external substrates can support kinesis by giving redirected energy somewhere to go. Provenance: `bible/magic/magic-subversion.md`.
 - Paradox will canonically be made from ruined Antithesis at the end of Book 1. Provenance: `bible/magic/magic-antithesis.md`; `CONSISTENCY_QUEUE.md`.
 
-## Proposed accepted canon
+## Approved canon
 
-If approved, the durable object record should store:
-
-- Antithesis is Davian's knife throughout Book 1.
-- Antithesis is a stolen Archeon tool with a false name and false heirloom story supplied by Kelyra.
-- Kelyra stole it from Archeon; exact theft circumstances remain unresolved unless approved now.
-- Antithesis derives from or copies older/prototypical Zirene designs, but Zirene did not personally make this knife.
-- Zirene regards Antithesis as a cheap, superficial, inferior copy of her work and possibly "basically garbage" compared with proper tools.
-- Antithesis resembles or relates to Archeon gauntlet technology enough for Davian/Zirene/Maya to connect the designs, but exact device relationship remains unresolved.
-- Antithesis works as a tool/substrate/channel for Davian's kinesis/Shroud/energy routing; it can concentrate or carry force better than an ordinary knife.
-- Antithesis does not have unique anti-Shroud magic by itself. When it pierces or grinds through Shrouds, that should be understood through Davian's Shroud/kinesis use plus the knife's tool design.
-- The current Rezin-citadel concealment/search route remains unresolved and belongs to revision planning; candidate directions include a tool/chisel cover, helper involvement, temporary confiscation/return, hidden pickup, or some combination.
-- Antithesis is damaged or ruined by the end of Book 1 and will be remade into Paradox; exact damage/forging sequence remains for `object-paradox` and ending review.
+- Antithesis is Davian's dagger throughout Book 1.
+- The name `Antithesis` is Kelyra's invented false-heirloom name.
+- Kelyra stole it impulsively when she escaped Archeon because she thought she might need it for defense.
+- Antithesis was not made by Zirene; it is an attempted Archeon copy of older Zirene designs.
+- It is a crude and inferior copy compared with Zirene's intended work, while still useful enough to matter.
+- Antithesis primarily acts as a schema sink or anchor for concentrating kinesis and reducing backlash.
+- It can store and release energy, or buffer energy storage and release, like other Archeon combat equipment.
+- It belongs to the same broad design concept as Archeon gauntlets but is not their direct precursor; gauntlets later proved more effective for low-skill magi who did not need to adapt their fighting style as much.
+- Antithesis has no unique anti-Shroud magic. Its Shroud/force behavior comes from Davian's kinesis/Shroud use plus the dagger's tool design.
+- Alra helps Davian conceal Antithesis before his Rezin-citadel search after Harbingers/Elric exploit her grief over her brother's death.
+- Alra facilitates both Davian's entry and the other disposable assassin's entry into the citadel; Davian later retrieves Antithesis.
+- Antithesis is ruined in the final conflict when Davian blocks Vorren's attack to give Maya and Niall respite.
+- Paradox will canonically be made from the ruined Antithesis at the end of Book 1.
 
 ## Candidate or deferred material
 
-- Exact physical description: length, material, hilt, guard/no guard, blade shape, and whether it looks more like dagger, chisel, etching tool, or specialist punch-through weapon.
-- Exact zä inscriptions and whether accepted spelling should call them zä/zän rather than older `zan` in all durable object prose.
-- Exact Archeon theft circumstances when Kelyra acquired it.
-- Exact original purpose: assassin's Shroud-punching tool, prototype gauntlet component, zänwright tool, military sidearm, or experimental focus.
-- Exact relation to Archeon gauntlets and whether it is literally a precursor to them.
-- Whether Antithesis redirects backlash into itself or merely provides a simpler line/substrate for Davian to redirect through.
-- Whether Antithesis is ruined during the Archeon attack, the final Elric/Vorren fight, Niall lightning, or another endgame sequence.
-- Whether Maya, Niall, Zirene, Kelyra, or someone else remakes it into Paradox.
+- Exact physical description: length, material, hilt, guard/no guard, blade shape, and how tool-like versus weapon-like it appears.
+- Exact zä inscriptions and low-level schema-sink circuitry.
+- Exact original Archeon designation, if any.
+- Exact Archeon development chronology around daggers, gauntlets, anchors, and other combat equipment.
+- Exact scene-level Rezin-citadel choreography for hiding, search, and retrieval.
+- Exact final damage state, remaking process, maker, symbolism, and properties of Paradox.
 
 ## Source tensions or obsolete material
 
@@ -124,3 +126,22 @@ If approved, the durable object record should store:
 6. Should Antithesis be treated as a precursor to Archeon gauntlets, a copy of older designs that later informed gauntlets, or just related to the same design family?
 7. For the Rezin-citadel concealment problem, do you want to choose a direction now, or leave it as revision-candidate? Current candidates: plausible zänwright tool/chisel cover, Alra/Alara helper, temporary confiscation and return, hidden pickup, or a combination.
 8. Is Antithesis definitely ruined in the final Elric/Vorren/endgame sequence before being remade into Paradox, or should the exact ruin point remain unresolved until `object-paradox`?
+
+## Author decisions on 2026-06-25
+
+1. The durable name is `Antithesis`; Kelyra made it up while pretending the dagger was a special family weapon.
+2. Antithesis is best described as a dagger.
+3. Kelyra stole it impulsively when she escaped Archeon because she thought she might need it to defend herself.
+4. Zirene did not make it; Antithesis is an attempted Archeon copy of older Zirene designs.
+5. It primarily acts as a schema sink for concentrating kinesis and reducing backlash, and can store/release or buffer energy storage/release like other Archeon combat equipment.
+6. It is not a direct precursor to gauntlets, but belongs to the same design concept; gauntlets later proved more effective for low-skill magi.
+7. Alra helps Davian conceal Antithesis before the search after Harbingers/Elric exploit her grief over her brother's death; she facilitates Davian's and the disposable assassin's entry.
+8. Antithesis is ruined when Davian blocks Vorren's attack to give Maya and Niall respite, and Paradox is made from the ruined dagger.
+
+## Approval result
+
+Approved durable files:
+
+- `bible/objects/object-antithesis.md`
+- `planning/candidates/objects/object-antithesis.md`
+- `decisions/0033-antithesis-dagger-schema-sink-and-concealment.md`

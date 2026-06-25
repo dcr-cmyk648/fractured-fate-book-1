@@ -64,7 +64,11 @@ Zirene is accepted at high level as an advanced zänwright whose work connects t
 
 Archeon and Antithesis:
 
-Archeon technology and Antithesis use or derive from zänwork, especially Zirene's older and prototypical designs. Antithesis is not a separate magic system; it is Davian's knife. Exact gauntlet, force-buffer, Archeon kinesis extension, and Antithesis object mechanics remain for later reviews.
+Archeon technology and Antithesis use or derive from zänwork, especially Zirene's older and prototypical designs. Antithesis is not a separate magic system; it is Davian's dagger.
+
+Antithesis is an attempted Archeon copy of older Zirene designs. It functions as a schema sink or anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy like other Archeon combat equipment. It belongs to the same design-concept family as Archeon gauntlets but is not their direct precursor.
+
+Exact gauntlet mechanics, low-level Antithesis circuitry, force-buffer limits, and Archeon kinesis extensions remain for later reviews.
 
 ## Language and Signs
 
@@ -80,7 +84,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Skein-layer zä or reality-layer etching remains candidate for later cosmology or advanced-zän review.
 - Exact Registry/Treasury/Heart power path remains unresolved beyond the accepted Treasury chamber function that Heart/containment-armature interaction produces non-Registry-operated weightlessness.
 - Exact Niall silver conduit mechanics remain unresolved.
-- Exact Zirene/Archeon/Antithesis object mechanics remain unresolved.
+- Exact low-level Zirene/Archeon/Antithesis object circuitry and gauntlet mechanics remain unresolved.
 - Exact Naeroth influence on zänwork remains for later culture reviews.
 
 ## Related Files
@@ -97,8 +101,10 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Related magic: [Kinesis](magic-subversion.md)
 - Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
+- Related object: [Antithesis](../objects/object-antithesis.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
+- Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
