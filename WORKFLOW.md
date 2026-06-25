@@ -140,6 +140,8 @@ Default review order:
 
 The author should review substantive content decisions, not routine repository mechanics. Use one meaningful author checkpoint per entity or other review unit.
 
+When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The author should not have to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
+
 Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
 Do not merge, tag, delete source or archival material, install dependencies, rewrite Git history, force-push, or modify manuscript prose without separate explicit permission.
@@ -362,9 +364,11 @@ Present:
 - concrete questions requiring author judgment
 - proposed file destinations
 
-Then stop.
+Then stop only if the questions require real author judgment before the current entity can be finalized.
 
-Set the entity status to `awaiting-author`. Do not write proposed facts into accepted bible files yet. Do not move to another entity.
+When real author judgment is needed, set the entity status to `awaiting-author`. Do not write proposed facts into accepted bible files yet, and do not move to another entity until the author answers.
+
+If the review packet does not contain real author questions and only records routine source-gathering status, durable checkpoint state, or unambiguous dependent updates, do not stop at the checkpoint. Continue directly to the next queued entity once validation, commit, push, and handoff state are complete.
 
 Avoid presenting routine provenance detail in the conversation when it is already preserved in the review packet.
 
@@ -489,7 +493,9 @@ After storing approved information:
 11. Push the current feature branch normally without force. If the remote has diverged, stop and report.
 12. Leave the working tree clean.
 13. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
-14. Stop only when the next entity review or block-level consistency checkpoint is ready for author review.
+14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information, important conflicts, and questions so the author can answer without opening the packet file.
+15. Continue directly through routine checkpoints that do not require real author judgment.
+16. Stop only when the next entity review or block-level consistency checkpoint has substantive author questions, or when another documented exception requires author input.
 
 Prefer one approved entity per commit, unless the author explicitly authorizes a small related batch.
 

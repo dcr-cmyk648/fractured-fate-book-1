@@ -45,10 +45,12 @@ Before doing book work, Codex must:
 - Do not start reviewing entities until the normalized source documents exist and the author authorizes the inventory/review phase.
 - Do not create accepted canon during inventory.
 - Use one meaningful author checkpoint per entity or other review unit. The author should review substantive content decisions, not routine repository mechanics.
+- When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. Do not require the author to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 - Do not require exact approval phrases. Treat clear statements such as "looks good," "approved," "go ahead," "that works," "commit it," "continue," "yes, use that," or "add that to the file" as approval when substantive questions have been resolved.
 - Do not interpret casual agreement as final entity approval when meaningful questions remain. Ask only about the remaining substantive ambiguity.
 - After substantive approval, automatically apply the already-approved entity content, create the previously proposed durable files, update indexes and project-state files, run validation, inspect the staged file list, commit the approved entity locally, and begin preparing the next queued entity.
 - After an approved entity has been committed, automatically begin the next queued entity unless the author requests a different entity, the queue is unclear, the working tree contains unexpected changes, or a blocker requires author input.
+- When finishing or checkpointing an entity, continue directly to the next queued entity whenever no real author decision is needed for the current entity. Do not stop merely because a routine checkpoint, source-gathering checkpoint, or durability checkpoint was reached.
 - Do not ask for separate authorization for routine repository mechanics such as updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, validation, or the local commit associated with approved work.
 - Do not push, merge, tag, delete source material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
 - During automatic finalization after substantive approval, run lightweight cross-file consistency checks as described in `WORKFLOW.md`.
