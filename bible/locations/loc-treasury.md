@@ -12,9 +12,9 @@ candidate_file: planning/candidates/locations/loc-treasury.md
 
 ## Identity
 
-The Treasury/vault chamber is the high-up Rezin citadel chamber that houses the Treasury sphere, the sealed Heart containment armature, and the most protected Rezin valuables.
+The Treasury/vault chamber is the high-up Rezin citadel chamber that houses the Treasury sphere, the Heart containment armature, and the most protected Rezin valuables.
 
-This file owns the physical chamber, access/workplace behavior, and accepted chamber-level containment function. The Tzorrax Heart as an object belongs to `object-seraph-heart`; the sphere's object identity belongs to `object-tzorrax-sphere`; detailed zä theory belongs to `magic-zan-lattices`; the full theft sequence belongs to `event-heart-theft`.
+This file owns the physical chamber, access/workplace behavior, and accepted chamber-level containment function. The Heart as an object and its containment/armature relationship belong to `object-seraph-heart`; detailed zä theory belongs to `magic-zan-lattices`; the full theft sequence belongs to `event-heart-theft`.
 
 ## Placement and Access
 
@@ -34,7 +34,7 @@ The sphere has no visible usable entrance in the accepted direction. It had a pr
 
 ## Weightlessness and Containment
 
-Weightlessness is a feature of the chamber produced by the Tzorrax Heart interacting with its containment armature.
+Weightlessness is a feature of the chamber produced by the Heart interacting with its containment armature.
 
 The weightless effect is not operationally controlled by the Registry. It depends on the Heart remaining contained in the sphere/armature system.
 
@@ -68,7 +68,7 @@ After the sphere shatters, the chamber has no active containment field and nothi
 
 ## Canonical Uncertainties
 
-- Exact final object name and formal distinction among Treasury sphere, vault sphere, and Tzorrax Sphere.
+- Exact final terminology around Treasury sphere versus vault sphere.
 - Exact route and stair layout.
 - Exact visual appearance of the sealed former entrance.
 - Exact inner-core structure.
@@ -81,9 +81,11 @@ After the sphere shatters, the chamber has no active containment field and nothi
 - Candidate material: [loc-treasury](../../planning/candidates/locations/loc-treasury.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
 - Related location: [Registry Chamber](loc-registry.md)
+- Related object: [Heart](../objects/object-seraph-heart.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
+- Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 
 ## Provenance
 

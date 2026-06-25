@@ -1,8 +1,8 @@
 ---
 id: object-seraph-heart
 entity_type: object
-display_name: Heart / Seraph Heart
-review_status: in-review
+display_name: Heart
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -15,16 +15,15 @@ source_scope:
 last_updated: 2026-06-25
 ---
 
-# Entity Review: Heart / Seraph Heart
+# Entity Review: Heart
 
 ## Proposed identity
 
-This packet treats `object-seraph-heart` as the Heart / Seraph Heart object: physical identity, containment, power source role, Treasury/Registry relationship, theft/removal consequences, Ink/Skein/fate implications, and object-specific future-plan material.
+This packet treats `object-seraph-heart` as the Heart object: physical identity, containment, power source role, Treasury/Registry relationship, theft/removal consequences, Ink/Skein/fate implications, and object-specific future-plan material.
 
 It should not own:
 
 - `loc-treasury`: Treasury chamber placement, sealed entrance, gravity/weightlessness as a location effect
-- `object-tzorrax-sphere`: the sphere/containment object as a separate artifact if kept separate
 - `org-registry`: Registry organization, modes, and operational procedures
 - `magic-zan-lattices`: zä lattice theory and Heart-powered inefficiency model
 - `magic-fateweaving-skein`: broad Skein/fate mechanics
@@ -121,3 +120,14 @@ If approved, the durable object record should store:
 6. Should Elric's Heart communion as a source or contributor to his fate-thread sight remain candidate-only for now?
 7. Should the Heart's role in Davian's accepted future resurrection remain unresolved/candidate here, with only a link to the accepted resurrection future-plan?
 8. Should the physical containment object be split cleanly so `object-seraph-heart` owns the dark sphere/power source and `object-tzorrax-sphere` owns the larger Sphere, inner core, armature, and casing mechanics?
+
+## Author decisions on 2026-06-25
+
+1. The in-world name is just `the Heart`. Some old manuscripts may call it the `Tzorrax Heart`, but those manuscripts may not be directly referenced in Book 1. `Seraph Heart` is not the accepted in-world name.
+2. The Heart's physical/sensory description is accepted: a perfectly dark sphere with light-bending edges and non-temperature cold/alien qualities.
+3. Niall removed the ability for anyone to access the Heart, though the Heart generally would have been in its containment armature even before Niall removed access.
+4. The Heart's exact origin/identity remains unresolved.
+5. The Heart itself doing something to the Skein is canon; exact details remain unresolved.
+6. Elric's fate sight is canonically at least somewhat linked to exposure to the Heart.
+7. The Heart will be present for Davian's resurrection and will interplay with Maya's fateweaving, the Skein, and related mechanics; exact technical details remain unresolved.
+8. `object-seraph-heart` owns the Heart object and its containment/armature terminology. `object-tzorrax-sphere` is an outdated queue item referring to the same thing and is superseded. The current Treasury sphere contains the Heart and the armature for containing it.

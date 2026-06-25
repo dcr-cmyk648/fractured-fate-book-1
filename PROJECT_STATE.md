@@ -7,18 +7,18 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: object-seraph-heart
-- Latest completed entity: loc-sorevin-redbridge
+- Active or paused entity ID: none
+- Latest completed entity: object-seraph-heart
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: open Heart object packet`
-- Working tree expected to be clean: no; `object-seraph-heart` review packet is at author checkpoint
+- Latest relevant commit message: `review: prepare Heart object packet`
+- Working tree expected to be clean: no; approved Heart files are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: none
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -33,11 +33,11 @@ The final important-locations consistency review was completed, committed, and p
 
 ## Next action
 
-Review author answers for `object-seraph-heart`; if approved, create the durable Heart bible/candidate/decision files, update dependent references, validate, commit, push, and open the next queued object entity.
+Finalize and commit approved `object-seraph-heart`; then open the next queued object entity, skipping superseded `object-tzorrax-sphere`.
 
 ## Awaiting author input
 
-- `object-seraph-heart` author checkpoint questions are pending in `reviews/entities/objects/object-seraph-heart.md`.
+- None.
 
 ## Known blockers or risks
 
@@ -57,10 +57,10 @@ Review author answers for `object-seraph-heart`; if approved, create the durable
 - Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Elric's fate-sight source is now accepted as at least partly Heart-exposure linked; remaining source mix, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Tzorrax Heart/Sphere object mechanics, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 
@@ -104,6 +104,9 @@ Review author answers for `object-seraph-heart`; if approved, create the durable
 - decisions/0031-sorevin-manor-and-redbridge-candidate.md
 - reports/consistency/2026-06-25-important-locations-block-final.md
 - reviews/entities/objects/object-seraph-heart.md
+- bible/objects/object-seraph-heart.md
+- planning/candidates/objects/object-seraph-heart.md
+- decisions/0032-heart-name-containment-and-skein-links.md
 - bible/locations/loc-treasury.md
 - planning/candidates/locations/loc-treasury.md
 - bible/locations/loc-registry.md

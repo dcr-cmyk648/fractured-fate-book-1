@@ -52,7 +52,7 @@ The physical chamber's approved interface is targeted rather than omniscient: th
 
 Treasury sphere / Heart containment:
 
-The Treasury sphere is sustained by redundant interwoven zä lattices. Accepted location-level direction is that the Tzorrax Heart interacting with its containment armature produces chamber weightlessness as a side effect of containment. The effect is not operationally controlled by the Registry and ends when the sphere is shattered and the Heart removed. Exact zä-sink, Nizän-protection, and object mechanics remain for `object-seraph-heart`, `object-tzorrax-sphere`, and advanced zä reviews.
+The Treasury sphere is sustained by redundant interwoven zä lattices and contains the Heart and the armature that contains it. Accepted direction is that the Heart interacting with its containment armature produces chamber weightlessness as a side effect of containment. The effect is not operationally controlled by the Registry and ends when the sphere is shattered and the Heart removed. Exact zä-sink, Nizän-protection, and detailed object mechanics remain for `object-seraph-heart` and later advanced zä reviews.
 
 Niall's silver:
 
@@ -101,6 +101,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
+- Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 
 ## Provenance
 

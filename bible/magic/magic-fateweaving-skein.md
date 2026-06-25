@@ -30,7 +30,7 @@ The accepted Book 1 model is path reading and limited interaction with likely tr
 
 Elric can see and lean on strands tied to people acting out trauma or negative impulses. This lets him make events feel inevitable, but it does not remove agency. Characters can move off the paths he expects by choosing values, relationships, and healthier patterns instead of trauma scripts.
 
-Ink, the Heart, original-sin/reality-fracture knowledge, and the Skein overlap in Elric's work, but the current source of Elric's fate sight remains unresolved.
+Ink, the Heart, original-sin/reality-fracture knowledge, and the Skein overlap in Elric's work. Elric's fate sight is canonically at least somewhat linked to exposure to the Heart, but the exact source mix remains unresolved.
 
 ## Maya's Developing Fateweaving
 
@@ -60,7 +60,7 @@ This file stores Alara's fateweaving and Convergence only at high level. Detaile
 
 Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. He uses that sight to nudge events toward his goals.
 
-His fate sight is accepted as real, but its source is unresolved. Possible contributors include Heart communion, Ink, original-sin/reality-fracture knowledge, old research, or some combination.
+His fate sight is accepted as real and is at least somewhat linked to exposure to the Heart. Possible additional contributors include Ink, original-sin/reality-fracture knowledge, old research, or some combination.
 
 Elric's fall is tied to idealism, perfectionism, and rigidity being twisted by his inability to accept imperfect reality. He learned that reality was fractured after the original sin of the first magus and chose negation rather than an imperfect world.
 
@@ -72,11 +72,11 @@ Davian's resurrection is a canon end-of-book event.
 
 Maya enters or tears the Skein to resurrect Davian after Elric kills him. This event is central to the late-book resurrection and reality-damage plot. Exact scene execution, cost, and technical mechanics remain for later plot and endgame review.
 
-Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. His apparent inevitability should be undermined by characters choosing values and relationships instead of following trauma scripts.
+Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. The Heart will be present for Davian's resurrection and will interplay with Maya's fateweaving, the Skein, and related mechanics, but exact technical details remain unresolved. Elric's apparent inevitability should be undermined by characters choosing values and relationships instead of following trauma scripts.
 
 ## Canonical Uncertainties
 
-- The current source of Elric's fate sight remains unresolved.
+- The full source mix of Elric's fate sight remains unresolved beyond accepted Heart exposure involvement.
 - Exact Ink / fate-thread visibility remains unresolved.
 - Exact Heart / Skein / original-sin technical mechanics remain for later reviews.
 - Exact resurrection cost and reality-damage mechanics remain unresolved.
@@ -96,10 +96,12 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](magic-codex-memory.md)
+- Related object: [Heart](../objects/object-seraph-heart.md)
 - Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
+- Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 
 ## Provenance
 

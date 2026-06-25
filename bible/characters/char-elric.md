@@ -118,7 +118,7 @@ Current manuscript material establishes:
 
 - Elric's fate sight is accepted as trauma-script / path-of-least-resistance perception, but its source remains unresolved.
 - Exact mechanics of fate-thread visibility, Ink simulacrum persistence, the Harbinger leader's takeover, and the interactive Elric presence in the tampered codex remain for later Elric, Fateweaving/Skein, Ink, and Heart reviews.
-- Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
+- Elric's fate sight is canonically at least somewhat linked to Heart exposure. Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.
 - Elric's one known birth contract and hidden lineage records remain unresolved.
 
