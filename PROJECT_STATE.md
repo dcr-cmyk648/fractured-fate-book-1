@@ -7,12 +7,12 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-sorevin-redbridge
 - Latest completed entity: loc-archeon
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Archeon location`
-- Working tree expected to be clean: no; `loc-archeon` approval finalization is in progress
-- Remote synchronized: no; local approval changes are not pushed yet
+- Working tree expected to be clean: no; `loc-sorevin-redbridge` review packet is being opened and source-gathered
+- Remote synchronized: yes
 
 ## Block status
 
@@ -21,7 +21,7 @@ Last updated: 2026-06-25
 - Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block.md
 - Consistency review due: no
-- Remote synchronized: no; local approval changes are not pushed yet
+- Remote synchronized: yes
 
 ## Last completed work
 
@@ -29,15 +29,15 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-Author feedback for `loc-archeon` was applied. The approved record now stores Archeon as the physical citadel/city-wedge, its lower complex, arena, training halls, child compound, breeding-pit concept, central tower, throne-room final conflict, floor-collapse trap, and aboveground final-attack approach.
+`loc-archeon` was approved, committed, and pushed. The approved record now stores Archeon as the physical citadel/city-wedge, its lower complex, arena, training halls, child compound, breeding-pit concept, central tower, throne-room final conflict, floor-collapse trap, and aboveground final-attack approach.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `bible: approve Archeon location`, push `beta`, then begin the next queued entity, `loc-sorevin-redbridge`.
+Open and source-gather `loc-sorevin-redbridge`, focusing on Sorevin / Redbridge district references, contractor routes, Low Clade geography, and whether these are one area or separate concepts.
 
 ## Awaiting author input
 
-- None for `loc-archeon`; approval received 2026-06-25.
+- None for `loc-sorevin-redbridge`; source gathering is in progress.
 
 ## Known blockers or risks
 
@@ -98,6 +98,7 @@ Run validation, inspect the staged file list, commit `bible: approve Archeon loc
 - bible/locations/loc-archeon.md
 - planning/candidates/locations/loc-archeon.md
 - decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md
+- reviews/entities/locations/loc-sorevin-redbridge.md
 - bible/organizations/org-archeon.md
 - planning/candidates/organizations/org-archeon.md
 - decisions/0012-archeon-high-clade-rise-and-training-system.md
