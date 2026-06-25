@@ -42,7 +42,7 @@ Approved object mechanics now define Antithesis as a schema sink or anchor for c
 
 Paradox is canonically made from the ruined Antithesis at the end of Book 1. Antithesis is ruined when Davian blocks Vorren's attack to give Maya and Niall respite.
 
-The exact forging, symbolism, object properties, and final scene mechanics belong to `object-antithesis`, `object-paradox`, and later ending/outline reviews.
+Paradox is a normal sword designed and named by Maya and made by Zirene. It inherits and improves Antithesis's schema-sink/anchor role, but it is not bound to Davian's aura. The exact forging scene and final end-book emotional sequence belong to `object-paradox` and later ending/outline reviews.
 
 ## Thematic Material
 
@@ -53,7 +53,7 @@ The thematic language of Maya as the product of the system and the Shade as its 
 - Exact physical construction and zänwork of Antithesis remain for `object-antithesis`.
 - Exact Zirene lineage and Archeon derivative technology remain for `char-zirene`, `org-archeon`, and later technology/object reviews.
 - Exact Archeon kinesis extensions that may part, diffuse, or route incoming force remain candidate material under kinesis/Archeon combat development.
-- Exact Paradox construction and properties remain for `object-paradox`.
+- Exact Paradox forging scene and final end-book dialogue remain for `object-paradox` and later ending/outline review.
 
 ## Related Files
 
@@ -63,8 +63,10 @@ The thematic language of Maya as the product of the system and the Shade as its 
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
+- Related object: [Paradox](../objects/object-paradox.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Provenance
 

@@ -57,6 +57,8 @@ Davian:
 
 Davian attacks Niall during the Heart theft. Davian's approved arc may later involve supporting Maya and Niall rather than needing to be the threat.
 
+Accepted future object direction: Niall gives Paradox to Davian in the end-book courtyard scene after the ruined Antithesis has been remade into a normal sword.
+
 Elric Rezin:
 
 Elric is Niall's father and a central hidden antagonist. Niall killed Elric's original body, but Elric remains alive through the Harbinger leader and continues manipulating events.
@@ -93,11 +95,13 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
+- Related object: [Paradox](../objects/object-paradox.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
+- Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Canonical Uncertainties
 

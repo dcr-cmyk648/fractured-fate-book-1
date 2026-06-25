@@ -58,7 +58,7 @@ The theft still depends on Davian's kinesis/Subversion, Ink pressure, the Treasu
 
 Antithesis is ruined in the final conflict when Davian blocks Vorren's attack to give Maya and Niall some respite.
 
-Paradox will canonically be made from the ruined Antithesis at the end of Book 1. The exact forging, object properties, symbolism, and scene-level execution belong to `object-paradox` and later ending/outline review.
+Paradox will canonically be made from the ruined Antithesis at the end of Book 1. Paradox is a normal sword designed and named by Maya and made by Zirene. The exact forging scene and end-book emotional sequence belong to `object-paradox` and later ending/outline review.
 
 ## Canonical Uncertainties
 
@@ -67,7 +67,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Exact original Archeon designation remains unresolved and may stay unknown.
 - Exact Archeon device inventory around Antithesis, gauntlets, anchors, and related combat equipment remains for later technology/Zirene/Archeon reviews.
 - Exact scene-level concealment choreography in the Rezin citadel remains for later revision, but Alra's role is accepted.
-- Exact mechanics and maker of Paradox remain for `object-paradox`.
+- Exact Paradox forging scene, timing, materials, and final end-book dialogue remain for `object-paradox` and later ending/outline review.
 
 ## Related Files
 
@@ -77,13 +77,14 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related object: [Heart](object-seraph-heart.md)
-- Related object: `object-paradox`
+- Related object: [Paradox](object-paradox.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Provenance
 

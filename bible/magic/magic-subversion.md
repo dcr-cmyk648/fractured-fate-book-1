@@ -78,13 +78,17 @@ The approved object mechanics define Antithesis as a schema sink or anchor that 
 
 Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact low-level circuitry and broader device mechanics remain for later Zirene, Archeon technology, and zä-lattice reviews.
 
+Paradox:
+
+Paradox is the normal sword made from ruined Antithesis at the end of Book 1. It inherits and improves Antithesis's schema-sink/anchor role, with greater mass and surface area to absorb, redirect, buffer, or burn off kinesis backlash.
+
 ## Canonical Uncertainties
 
 - Exact Shroud interaction remains candidate.
 - Tremorsense or heightened sensitivity to kinetic manifestations remains candidate; it may be too confusing.
 - Exact Ink Pact / kinesis / Shroud integration remains unresolved.
 - Exact broader energy-transformation limits remain unresolved beyond the accepted short-range primarily kinetic model.
-- Exact low-level Antithesis circuitry and Archeon-gauntlet mechanics remain for later object/technology reviews.
+- Exact low-level Antithesis/Paradox circuitry and Archeon-gauntlet mechanics remain for later object/technology reviews.
 
 ## Related Files
 
@@ -98,10 +102,12 @@ Force-parting, diffusion, or "stone in a river" behavior remains candidate mater
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
+- Related object: [Paradox](../objects/object-paradox.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Provenance
 

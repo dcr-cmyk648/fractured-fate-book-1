@@ -98,6 +98,8 @@ In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads c
 
 Maya is still developing as a fateweaver. In Book 1 she can perceive threads, follow a path through an object, alter spatial access in limited circumstances, glimpse branches, and eventually enter or tear the Skein to resurrect Davian. She should not yet be treated as someone who can freely rewrite fate.
 
+Accepted future object direction: Maya names and designs Paradox, the normal sword Zirene makes from ruined Antithesis at the end of Book 1.
+
 ## Intended Future State
 
 Maya's broader end-arc is not fully approved. Current candidate direction is that she becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force.
@@ -120,6 +122,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related object: [Paradox](../objects/object-paradox.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)
@@ -127,6 +130,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Decision: [Maya's Shroud and Prologue Revision Direction](../../decisions/0003-maya-shroud-and-prologue-revision-direction.md)
 - Decision: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+- Decision: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Provenance
 

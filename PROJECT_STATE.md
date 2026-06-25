@@ -7,37 +7,37 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: object-paradox
-- Latest completed entity: object-antithesis
+- Active or paused entity ID: none
+- Latest completed entity: object-paradox
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Antithesis object`
-- Working tree expected to be clean: no; `object-paradox` review packet is at author checkpoint
+- Latest relevant commit message: `review: prepare Paradox object packet`
+- Working tree expected to be clean: no; approved `object-paradox` files are being finalized for commit
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: 2
+- Approved entities since last consistency review: 3
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`object-antithesis` was approved, committed, and pushed. Antithesis is now accepted as Davian's dagger throughout Book 1: Kelyra's invented false-heirloom name for an Archeon copy of older Zirene designs. Its approved function is a schema sink/anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy. Alra's concealment role is accepted, and the final ruin point is Davian blocking Vorren's attack before Paradox is made from the ruined dagger.
+`object-paradox` author answers were reviewed and accepted. Durable Paradox object, candidate, and decision files are being created, with straightforward dependent updates to Antithesis, kinesis, zä, Davian, Maya, Niall, and the consistency queue.
 
 ## Current work
 
-`object-paradox` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet proposes Paradox as the weapon made from ruined Antithesis at the end of Book 1 and asks for decisions on name, maker, form, aura binding, mechanics, returning/thrown behavior, Niall's handoff, and symbolism.
+Paradox is now accepted as the durable in-world name of the normal sword made from ruined Antithesis at the end of Book 1. Maya names and designs it; Zirene makes it; it is not bound to anyone's aura; it inherits and improves Antithesis's schema-sink/anchor role; returning/thrown behavior remains candidate; Niall gives it to Davian in the end-book courtyard scene; and the Antithesis-to-Paradox symbolism is accepted.
 
 ## Next action
 
-Review author answers for `object-paradox`; if approved, create the durable Paradox bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
+Validate the approved `object-paradox` updates, inspect the staged file list, commit and push them, then automatically open the next queued object entity, `object-davian-mask`.
 
 ## Awaiting author input
 
-- `object-paradox` author checkpoint questions are pending in `reviews/entities/objects/object-paradox.md`.
+- None.
 
 ## Known blockers or risks
 
@@ -60,7 +60,7 @@ Review author answers for `object-paradox`; if approved, create the durable Para
 - Elric's fate-sight source is now accepted as at least partly Heart-exposure linked; remaining source mix, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the Antithesis-to-Paradox forging details remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 

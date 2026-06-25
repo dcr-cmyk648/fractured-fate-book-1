@@ -39,3 +39,4 @@ Do not use this file as a dump for unresolved questions.
 | Sorevin Manor and Redbridge Candidate | 2026-06-25 | accepted; stored in approved `loc-sorevin-redbridge` record | [0031-sorevin-manor-and-redbridge-candidate.md](0031-sorevin-manor-and-redbridge-candidate.md) |
 | Heart Name, Containment, and Skein Links | 2026-06-25 | accepted; stored in approved `object-seraph-heart` record | [0032-heart-name-containment-and-skein-links.md](0032-heart-name-containment-and-skein-links.md) |
 | Antithesis Dagger, Schema Sink, and Concealment | 2026-06-25 | accepted; stored in approved `object-antithesis` record | [0033-antithesis-dagger-schema-sink-and-concealment.md](0033-antithesis-dagger-schema-sink-and-concealment.md) |
+| Paradox Name, Maker, Form, and Symbolism | 2026-06-25 | accepted; stored in approved `object-paradox` record | [0034-paradox-name-maker-form-and-symbolism.md](0034-paradox-name-maker-form-and-symbolism.md) |

@@ -65,6 +65,8 @@ Davian's intrusive pressure to kill Niall is a psychotic side effect of receivin
 
 Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
+Accepted future object direction: Paradox is the normal sword made from ruined Antithesis after Davian blocks Vorren's attack. Niall gives Paradox to Davian in the end-book courtyard scene. It is not bound to Davian's aura.
+
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
 ## Important Relationships
@@ -133,6 +135,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
+- Related object: [Paradox](../objects/object-paradox.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
@@ -141,6 +144,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Canonical Uncertainties
 
