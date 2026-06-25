@@ -2,7 +2,7 @@
 id: object-davian-mask
 entity_type: object
 display_name: Davian's mask
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -13,13 +13,16 @@ source_scope:
   - decisions/0004-davian-heart-theft-agency-and-arc.md
   - decisions/0016-twilight-concord-masked-clade-and-trial.md
 last_updated: 2026-06-25
+accepted_file: bible/objects/object-davian-mask.md
+candidate_file: planning/candidates/objects/object-davian-mask.md
+decision_record: decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md
 ---
 
 # Entity Review: Davian's Mask
 
 ## Proposed identity
 
-This packet treats `object-davian-mask` as Davian's customized Concord/Masked Clade mask and the object-symbol for the Shade persona: its physical appearance, scratches/marks, use in missions, breakage/repair, possible zä, relationship to Concord mask customs, and symbolic function.
+This packet treats `object-davian-mask` as Davian's customized Concord/Masked Clade mask and the object-symbol for the Shade persona: its physical appearance, zan marks, use in missions, breakage/repair, relationship to Concord mask customs, and symbolic function.
 
 It should not own:
 
@@ -32,7 +35,7 @@ It should not own:
 ## Established constraints from approved records
 
 - `Shade` is Davian's assassin persona or reputation. Most Shade-specific symbolism should live in `object-davian-mask`; Davian's character record treats Shade as an alias/persona rather than a major independent character layer. Provenance: `bible/characters/char-davian.md`; `decisions/0004-davian-heart-theft-agency-and-arc.md`.
-- Davian wants to be seen. His prologue mask has five visible scratches for magi he has killed, and Jalen challenges this as attention-seeking rather than tactical necessity. Provenance: `bible/characters/char-davian.md`.
+- Davian wants to be seen. Earlier/current material uses five visible scratches, but the approved object direction replaces that durable design with zan marks. Provenance: author feedback on 2026-06-25.
 - The Concord is a Masked Clade. Concord members use matte black masks; Davian's customized mask is an exception that Jalen criticizes as tactically risky. Provenance: `bible/organizations/org-concord.md`; `decisions/0016-twilight-concord-masked-clade-and-trial.md`.
 - Modern writing systems and masked/Concord hand signs derive from older zä/zän principles. Provenance: `bible/magic/magic-zan-lattices.md`.
 
@@ -60,25 +63,27 @@ Complete for author checkpoint.
 - Bullet notes include sign-language phrasing around "mask [put on]" and "you want others to notice you," echoing the current prologue dynamic. Provenance: `imports/normalized/bullet-notes.md:144`.
 - Bullet notes mention Haloes and a mask purchase/test in the same note cluster, but this appears more relevant to `object-haloes` unless later review ties Davian's mask to Haloes. Provenance: `imports/normalized/bullet-notes.md:117`.
 
-## Proposed accepted canon
+## Approved canon
 
-If approved, the durable object record should store:
-
-- Davian's mask is a matte black Concord/Masked Clade mask customized with five bright scratches, one for each magus he has killed.
-- The customized scratches are deliberate and visible, and Jalen criticizes them as tactically risky because they draw attention.
+- Davian's durable mask is a matte black Concord/Masked Clade mask.
+- The mask always has a zan mark on it.
+- At the start of Book 1, Davian has carved the zan for equality/equilibrium into the mask.
+- Kelyra, not Jalen, criticizes the prologue/start-book mask mark in the accepted revision direction.
+- Later, when Kelyra wants Davian to return to the Rezin citadel, take the Heart, and kill Niall, she gives him a Concord mask with the Nizan on it as a toxic supportive gesture.
+- The Nizan is the zan of zero / negation / void. It is made from two sets of overlapping parallel lines, leaving a diamond-shaped empty section in the middle.
 - The mask belongs to the Shade persona/reputation and expresses Davian's desire to be seen without being known.
 - Concord mask discipline includes silence/hand-sign use while masked.
-- The prologue mask breaking can remain accepted if the author wants it, but it needs to be checked against revised Antithesis/prologue mechanics.
-- Repair/return, zä marks, and whether the mask changes later need author confirmation.
+- The prologue mask break/shatter is deferred to later prologue revision.
+- Kelyra gives Davian the later Nizan-marked mask, or a new mask with the Nizan; exact repaired-original versus new-mask detail remains unresolved.
+- Selina would have worn a Concord mask, but whether Davian's mask is hers remains unresolved.
+- Treasury/Niall confrontation mask timing remains for later revision, with likely direction that Davian puts it on after Maya confronts him as he is about to kill Niall.
 
 ## Candidate or deferred material
 
 - Whether the mask definitely breaks in the prologue after the revised dagger-throughout Antithesis mechanics.
-- Whether Jalen repairs and returns the same mask later.
-- Whether Kelyra returns/gives the mask instead, and whether that version has different emotional meaning.
+- Whether Kelyra gives Davian the repaired original mask or a different new Concord mask.
 - Whether the mask could be Selina's mask instead of Davian's repaired mask.
-- Whether the mask has a zä, and if so whether it is balance/equilibrium (`jezan`), negation/void (`nïza` or related), or only stylized nonfunctional zä-script.
-- Whether the mask visibly changes over Book 1.
+- Exact project-wide `zan`/`za` versus `zä`/`zän` terminology.
 - Whether Davian wears the mask during the Treasury theft / Niall confrontation and exactly when he puts it on.
 - Exact physical material, fastening, durability, and how common/expensive the mask is.
 - Whether any link exists between Davian's mask and Haloes; current evidence is weak and should probably stay separate.
@@ -86,9 +91,9 @@ If approved, the durable object record should store:
 ## Source tensions or obsolete material
 
 - The prologue mask break is currently attached to obsolete sword-form Antithesis and should be rechecked during prologue revision.
-- Zä terminology in notes uses unaccented `za/zan`; accepted technical spelling is zä/zän.
-- The balance-to-negation zä idea touches larger `nïza`/void terminology that is not approved for this object.
-- Jalen-return, Kelyra-return, and Selina-mask variants are mutually different emotional routes.
+- The older five-scratch version is superseded as the durable mask design unless later revision reuses it.
+- Current approved zä terminology conflicts with the author's new possible `zan` singular / `za` plural direction; route this to terminology review.
+- Jalen-return, Kelyra-return, and Selina-mask variants were mutually different emotional routes; approved direction is Kelyra gives the later Nizan-marked mask, while Selina-mask origin remains unresolved.
 
 ## Questions for the author
 
@@ -100,3 +105,22 @@ If approved, the durable object record should store:
 6. Should the mask have a zä on it? If yes, should it be balance/equilibrium, negation/void, a Concord/Masked Clade mark, or only stylized/nonfunctional zä-script?
 7. Should Davian wear/put on the mask during the Treasury theft or Niall confrontation, or leave exact scene use for later revision?
 8. Is the core symbolism accepted: the mask represents wanting to be seen but not known, the Shade persona, and Davian's movement from performative notoriety toward an integrated identity?
+
+## Author decisions on 2026-06-25
+
+1. Durable mask design is a matte black Concord mask with a zan mark, not the older five-scratch design. At the start of the book Davian has carved the zan for equality/equilibrium into it. Later Kelyra gives him a mask with the Nizan, the zan of zero/negation/void.
+2. Kelyra, not Jalen, criticizes the start-book zan mark. Later she gives Davian the Nizan mask as a toxic supportive gesture when she wants him to return to the citadel, take the Heart, and kill Niall.
+3. Prologue mask breakage is deferred.
+4. Kelyra gives Davian the later Nizan-marked Concord mask; whether it is repaired original or new remains unresolved.
+5. Selina would have worn a Concord mask, but whether Davian's mask is hers is undecided.
+6. The mask has balance/equilibrium at first, later zero/negation/void. The Nizan uses two sets of overlapping parallel lines leaving a diamond-shaped empty center.
+7. Treasury/Niall mask use remains for later revision; likely direction is Davian puts it on after Maya confronts him as he is about to kill Niall.
+8. Core symbolism is accepted: wanting to be seen but not known, Shade persona, and movement from performative notoriety toward integrated identity.
+
+## Approval result
+
+Approved durable files:
+
+- `bible/objects/object-davian-mask.md`
+- `planning/candidates/objects/object-davian-mask.md`
+- `decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md`

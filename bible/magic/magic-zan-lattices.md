@@ -76,6 +76,8 @@ Exact gauntlet mechanics, low-level Antithesis/Paradox circuitry, force-buffer l
 
 Modern writing systems and masked/Concord hand signs derive from older zä/zän principles.
 
+Davian's mask uses zan marks as object symbolism in the accepted object record: equality/equilibrium at the start of Book 1, later the Nizan of zero/negation/void. The Nizan is described for that object as two sets of overlapping parallel lines leaving a diamond-shaped empty center.
+
 Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal zä belong to later culture and terminology reviews.
 
 ## Canonical Uncertainties
@@ -88,6 +90,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Exact Niall silver conduit mechanics remain unresolved.
 - Exact low-level Zirene/Archeon/Antithesis/Paradox object circuitry and gauntlet mechanics remain unresolved.
 - Exact Naeroth influence on zänwork remains for later culture reviews.
+- The author raised a possible terminology change in which `zan` is singular and `za` is plural; this conflicts with the current approved `zä`/`zän` convention and remains for later terminology/culture review.
 
 ## Related Files
 
@@ -105,10 +108,12 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related object: [Paradox](../objects/object-paradox.md)
+- Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)

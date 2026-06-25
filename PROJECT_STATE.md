@@ -7,37 +7,37 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: object-davian-mask
-- Latest completed entity: object-paradox
+- Active or paused entity ID: none
+- Latest completed entity: object-davian-mask
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Paradox object`
-- Working tree expected to be clean: no; `object-davian-mask` review packet is at author checkpoint
+- Latest relevant commit message: `review: prepare Davian mask object packet`
+- Working tree expected to be clean: no; approved `object-davian-mask` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: 3
+- Approved entities since last consistency review: 4
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`object-paradox` was approved, committed, and pushed. Paradox is accepted as the durable in-world name of the normal sword made from ruined Antithesis at the end of Book 1. Maya names and designs it; Zirene makes it; it is not bound to anyone's aura; it inherits and improves Antithesis's schema-sink/anchor role; returning/thrown behavior remains candidate; Niall gives it to Davian in the end-book courtyard scene; and the Antithesis-to-Paradox symbolism is accepted.
+`object-davian-mask` was approved and durable files have been drafted. Davian's durable mask is a matte black Concord mask with phase-specific zan marks: equality/equilibrium at the start of Book 1, later Nizan/zero/negation/void when Kelyra gives him a Concord mask as toxic support for returning to the Rezin citadel, taking the Heart, and killing Niall. The five-scratch mask design is superseded; prologue breakage, Selina provenance, repaired-original versus new-mask detail, and Treasury/Niall timing remain deferred.
 
 ## Current work
 
-`object-davian-mask` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet focuses on Davian's customized Concord mask, the five scratches, prologue breakage, repair/return variants, possible zä marks, Treasury-use timing, and Shade symbolism.
+`object-davian-mask` approval is being finalized. The accepted object file, candidate file, decision record, dependent summaries, and consistency queue entry have been written; validation and commit/push remain.
 
 ## Next action
 
-Review author answers for `object-davian-mask`; if approved, create the durable mask bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
+Validate approved `object-davian-mask` changes, inspect the staged file list, commit and push, then open the next queued object entity: `object-alara-journal`.
 
 ## Awaiting author input
 
-- `object-davian-mask` author checkpoint questions are pending in `reviews/entities/objects/object-davian-mask.md`.
+- None.
 
 ## Known blockers or risks
 
@@ -61,6 +61,7 @@ Review author answers for `object-davian-mask`; if approved, create the durable 
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Project-wide `zan` singular / `za` plural versus current `zä` / `zän` terminology needs later author decision before broad replacement; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
 

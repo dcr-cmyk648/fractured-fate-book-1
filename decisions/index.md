@@ -40,3 +40,4 @@ Do not use this file as a dump for unresolved questions.
 | Heart Name, Containment, and Skein Links | 2026-06-25 | accepted; stored in approved `object-seraph-heart` record | [0032-heart-name-containment-and-skein-links.md](0032-heart-name-containment-and-skein-links.md) |
 | Antithesis Dagger, Schema Sink, and Concealment | 2026-06-25 | accepted; stored in approved `object-antithesis` record | [0033-antithesis-dagger-schema-sink-and-concealment.md](0033-antithesis-dagger-schema-sink-and-concealment.md) |
 | Paradox Name, Maker, Form, and Symbolism | 2026-06-25 | accepted; stored in approved `object-paradox` record | [0034-paradox-name-maker-form-and-symbolism.md](0034-paradox-name-maker-form-and-symbolism.md) |
+| Davian Mask Zan Marks and Shade Symbolism | 2026-06-25 | accepted; stored in approved `object-davian-mask` record | [0035-davian-mask-zan-marks-and-shade-symbolism.md](0035-davian-mask-zan-marks-and-shade-symbolism.md) |

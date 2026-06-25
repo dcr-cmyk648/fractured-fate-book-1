@@ -16,7 +16,7 @@ Davian is a principal POV character, Jalen and Kelyra's son, and a member of the
 
 He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real Arrek and using Harbinger/Syndicate Ink to steal or mimic Arrek's aura. The real Arrek remains a separate entity.
 
-`Shade` is Davian's assassin persona or reputation. Most Shade-specific symbolism should live in `object-davian-mask`; this file treats it as an alias/persona rather than a major independent character layer.
+`Shade` is Davian's assassin persona or reputation. Most Shade-specific symbolism lives in `object-davian-mask`; this file treats it as an alias/persona rather than a major independent character layer.
 
 ## Background
 
@@ -28,7 +28,7 @@ Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develop
 
 Davian is competent, dangerous, and loyal to his family, but his identity is entangled with needing to matter through threat, violence, and visible agency.
 
-He wants to be seen. His prologue mask is marked with five visible scratches for magi he has killed, and Jalen challenges this as attention-seeking rather than tactical necessity.
+He wants to be seen. His start-book matte black Concord mask is marked with the zan for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizan of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
 
 Davian's approved arc moves away from negation: wanting to tear everything down, hurt the High Clades, prove agency, and stop feeling helpless by destroying hated things. His intended movement is toward values: valuing Maya, protecting people and things he values, and choosing action because it serves those values rather than because it satisfies rage or control.
 
@@ -136,6 +136,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related object: [Paradox](../objects/object-paradox.md)
+- Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
@@ -145,6 +146,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 
 ## Canonical Uncertainties
 

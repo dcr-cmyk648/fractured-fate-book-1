@@ -42,7 +42,7 @@ Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's f
 
 The Concord operates through masks, sign, cipher, stealth, assassination and raid tactics, underworld contacts, and guarded hideout infrastructure.
 
-Concord members use matte black masks. Davian's customized mask is an exception that Jalen criticizes as tactically risky.
+Concord members use matte black masks. Davian's customized mask is an exception: at the start of Book 1 it bears the zan for equality/equilibrium, which Kelyra criticizes as tactically risky and attention-seeking. Later Kelyra gives Davian a Concord mask marked with the Nizan of zero/negation/void as a toxic supportive gesture.
 
 The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zan, stripped of flourish, used phonetically and rearranged in a precise sequence.
 
@@ -73,17 +73,20 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Decision record: [Jalen and Kelyra Concord Role Swap](../../decisions/0010-jalen-kelyra-concord-role-swap.md)
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
+- Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 
 ## Canonical Uncertainties
 
 - Exact detailed Trial of Dominion rules remain for later review.
 - Exact Karra character details remain for `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
+- Exact project-wide `zan` / `za` / `zä` / `zän` terminology remains for terminology review.
 - Exact manuscript revision plan for older Jalen-seat references remains for later revision work.
 - Exact Concord manor district, prior owner, map, evacuation sequence, and damage state remain for location/revision work.
 
