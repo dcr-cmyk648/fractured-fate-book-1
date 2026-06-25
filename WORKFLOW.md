@@ -140,7 +140,7 @@ Default review order:
 
 The author should review substantive content decisions, not routine repository mechanics. Use one meaningful author checkpoint per entity or other review unit.
 
-When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The author should not have to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
+When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The final thing printed before waiting for author input must be the concrete numbered questions, so the author can audit and answer them without scrolling past later status text. The author should not have to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 
 Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
@@ -493,7 +493,7 @@ After storing approved information:
 11. Push the current feature branch normally without force. If the remote has diverged, stop and report.
 12. Leave the working tree clean.
 13. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
-14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information, important conflicts, and questions so the author can answer without opening the packet file.
+14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
 15. Continue directly through routine checkpoints that do not require real author judgment.
 16. Stop only when the next entity review or block-level consistency checkpoint has substantive author questions, or when another documented exception requires author input.
 
