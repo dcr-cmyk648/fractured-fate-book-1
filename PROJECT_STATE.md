@@ -6,18 +6,18 @@ Last updated: 2026-06-25
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: major-objects
+- Current block: cultures-and-world-systems
 - Active or paused entity ID: none
-- Latest completed entity: object-haloes
+- Latest completed entity: culture-clade-hierarchy
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Alara journal object`
-- Working tree expected to be clean: no; approved `object-haloes` changes are being finalized
+- Latest relevant commit message: `bible: approve Haloes currency object`
+- Working tree expected to be clean: no; approved `culture-clade-hierarchy` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: major-objects
-- Block scope: important object records beginning with the Heart / Seraph Heart
+- Current block: cultures-and-world-systems
+- Block scope: culture and world-system records beginning with Clade hierarchy
 - Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
 - Consistency review due: no
@@ -25,15 +25,15 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-`object-haloes` was approved by the author. Haloes are the main coin currency: coins with a precious-metal center, cheaper-metal halo, center zan marking value from 1 to 6, and activatable authenticity check. Values are base 6: 6 copper = 1 silver, 6 silver = 1 gold; a 6-gold Moon equals 36 silver / one 36-day month of normal low-level wages. Minting is controlled by an unspecified High Clade other than Archeon, Drakhal, or Rezin, with Low Clade proxy day-to-day management.
+`culture-clade-hierarchy` was approved by the author. The durable direction uses High Clades and Low Clades as the only real formal categories, treats Masked Clades as criminal/unofficial terminology, accepts Low Clades as Shroud-producing hereditary-magic houses, and includes Presented/unPresented status as a core hierarchy pressure point.
 
 ## Current work
 
-`object-haloes` approval is being finalized. Accepted object, candidate, and decision files have been drafted, direct dependencies updated, and validation/commit/push remain.
+`culture-clade-hierarchy` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct High Clade and Concord summaries and the consistency queue have been updated.
 
 ## Next action
 
-Validate approved `object-haloes` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-clade-hierarchy`, unless author direction changes.
+Validate approved `culture-clade-hierarchy` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-naeroth-lineages`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -80,6 +80,7 @@ Validate approved `object-haloes` changes, inspect the staged file list, commit 
 - decisions/index.md
 - AUTHORING.md
 - reviews/entities/objects/object-haloes.md
+- reviews/entities/cultures/culture-clade-hierarchy.md
 - reviews/entities/locations/loc-rezin-citadel.md
 - bible/locations/loc-rezin-citadel.md
 - planning/candidates/locations/loc-rezin-citadel.md

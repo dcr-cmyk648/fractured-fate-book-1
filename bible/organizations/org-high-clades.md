@@ -73,6 +73,10 @@ High Clade families manage lineage, intermarriage, fertility / birth contracts, 
 
 Birth contracts are a system-wide High Clade practice. They are exploitative, but some people subject to them may experience them as leverage or protection because the system gives them few other guarantees.
 
+The broader Clade hierarchy has only two real formal categories for Book 1: High Clades and Low Clades. Low Clades also have Shroud-producing hereditary magi; otherwise they could not hold important subordinate positions for long. Finer distinctions are usually handled by family name and reputation rather than formal middle tiers.
+
+Presented/unPresented status is a major hierarchy pressure point. A High Clade that fails to produce enough safely Presented magi shows weakness and may invite attack, but Presenting someone also publicly exposes that the Clade has a valuable and capable magus.
+
 ## Culture
 
 High Clade culture is hierarchical, violent, and status-bound. It treats hereditary magic, Shrouds, lineage, Presentation, and citadel control as foundations of legitimacy.
@@ -99,6 +103,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Registry](org-registry.md)
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
+- Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related location: [Spire / central amphitheater](../locations/loc-spire.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
@@ -111,6 +116,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Decision record: [Sorevin Manor and Redbridge Candidate](../../decisions/0031-sorevin-manor-and-redbridge-candidate.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 
 ## Canonical Uncertainties
 

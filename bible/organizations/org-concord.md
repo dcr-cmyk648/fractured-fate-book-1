@@ -18,6 +18,8 @@ The Twilight Concord is a Masked Clade. Masked Clades are mafia-esque criminal o
 
 High Clades consider the term `Masked Clade` a joke. They find it funny, but also wrong, that people without high-caliber magic would call themselves a Clade.
 
+Masked Clades are not a real formal Clade category. They use criminal, underworld, or revolutionary terminology that appropriates Clade language. Even when they see themselves as revolutionaries, they implicitly buy into the Clade system's might-makes-right assumptions.
+
 ## Leadership
 
 Kelyra Virellis is the Concord's de facto primary leader. In the less rigidly structured Masked Clade system, she would probably be called `boss` or `leader` rather than by a formal High-Clade-style title.
@@ -73,6 +75,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
@@ -80,6 +83,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
+- Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 
 ## Canonical Uncertainties
 

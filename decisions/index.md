@@ -43,3 +43,4 @@ Do not use this file as a dump for unresolved questions.
 | Davian Mask Zan Marks and Shade Symbolism | 2026-06-25 | accepted; stored in approved `object-davian-mask` record | [0035-davian-mask-zan-marks-and-shade-symbolism.md](0035-davian-mask-zan-marks-and-shade-symbolism.md) |
 | Alara Journal Discovery and Elric Codex Trap | 2026-06-25 | accepted; stored in approved `object-alara-journal` record | [0036-alara-journal-discovery-and-elric-codex-trap.md](0036-alara-journal-discovery-and-elric-codex-trap.md) |
 | Haloes Currency, Value, and Authenticity | 2026-06-25 | accepted; stored in approved `object-haloes` record | [0037-haloes-currency-value-and-authenticity.md](0037-haloes-currency-value-and-authenticity.md) |
+| Clade Hierarchy Categories and Presented Status | 2026-06-25 | accepted; stored in approved `culture-clade-hierarchy` record | [0038-clade-hierarchy-categories-and-presented-status.md](0038-clade-hierarchy-categories-and-presented-status.md) |
