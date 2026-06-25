@@ -6,22 +6,22 @@ Last updated: 2026-06-25
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: important-locations
-- Active or paused entity ID: none
+- Current block: major-objects
+- Active or paused entity ID: object-seraph-heart
 - Latest completed entity: loc-sorevin-redbridge
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `consistency: review final important locations block`
-- Working tree expected to be clean: no; final important-locations consistency review is in progress
-- Remote synchronized: no; local approval changes are not pushed yet
+- Working tree expected to be clean: no; `object-seraph-heart` review packet is being opened and source-gathered
+- Remote synchronized: yes
 
 ## Block status
 
-- Current block: important-locations
-- Block scope: important location records beginning with Rezin citadel sublocations
+- Current block: major-objects
+- Block scope: important object records beginning with the Heart / Seraph Heart
 - Approved entities since last consistency review: none
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
 - Consistency review due: no
-- Remote synchronized: no; local approval changes are not pushed yet
+- Remote synchronized: yes
 
 ## Last completed work
 
@@ -29,15 +29,15 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-The final important-locations consistency review was completed after `loc-archeon` and `loc-sorevin-redbridge`. No direct contradictions were found. The review confirmed the central Spire/amphitheater versus six citadel towers model, Archeon central-tower/lower-complex geography, Sorevin manor as the prologue Low Clade manor, and Redbridge as candidate-only map material.
+The final important-locations consistency review was completed, committed, and pushed after `loc-archeon` and `loc-sorevin-redbridge`. No direct contradictions were found. The review confirmed the central Spire/amphitheater versus six citadel towers model, Archeon central-tower/lower-complex geography, Sorevin manor as the prologue Low Clade manor, and Redbridge as candidate-only map material.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `consistency: review final important locations block`, push `beta`, then begin the next queued entity, `object-seraph-heart`.
+Open and source-gather `object-seraph-heart`, focusing on Heart identity, containment, power-source function, Registry/Treasury relationship, theft consequences, and unresolved Ink/Skein/resurrection mechanics.
 
 ## Awaiting author input
 
-- None for `loc-sorevin-redbridge`; approval received 2026-06-25.
+- None for `object-seraph-heart`; source gathering is in progress.
 
 ## Known blockers or risks
 
@@ -103,6 +103,12 @@ Run validation, inspect the staged file list, commit `consistency: review final 
 - planning/candidates/locations/loc-sorevin-redbridge.md
 - decisions/0031-sorevin-manor-and-redbridge-candidate.md
 - reports/consistency/2026-06-25-important-locations-block-final.md
+- reviews/entities/objects/object-seraph-heart.md
+- bible/locations/loc-treasury.md
+- planning/candidates/locations/loc-treasury.md
+- bible/locations/loc-registry.md
+- bible/objects/object-seraph-heart.md
+- planning/candidates/objects/object-seraph-heart.md
 - bible/organizations/org-archeon.md
 - planning/candidates/organizations/org-archeon.md
 - decisions/0012-archeon-high-clade-rise-and-training-system.md
