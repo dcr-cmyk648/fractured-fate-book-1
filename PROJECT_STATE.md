@@ -7,10 +7,10 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-treasury
 - Latest completed entity: loc-registry
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Registry chamber location`
+- Latest relevant commit message: `review: open Treasury location packet`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The `loc-registry` entity was approved by the author. Durable files now record the Registry chamber as a below-ground, guarded, circular/pale-stone zä-etched chamber with a central targeted location interface. The map/projection requires a named or otherwise specifically called-out target before it locates/zooms/refines; it is not a constantly visible display of everyone. Davian no longer returns to the Registry after stealing the Heart, and the old high-window/elevator solution is obsolete.
+The `loc-registry` entity was approved, committed, and pushed. Durable files now record the Registry chamber as a below-ground, guarded, circular/pale-stone zä-etched chamber with a central targeted location interface. The map/projection requires a named or otherwise specifically called-out target before it locates/zooms/refines; it is not a constantly visible display of everyone. Davian no longer returns to the Registry after stealing the Heart, and the old high-window/elevator solution is obsolete.
 
 ## Current work
 
-Finalizing `loc-registry` approval. No entity is active until the approved Registry chamber commit is validated, committed, and pushed.
+The `loc-treasury` review packet has been opened and is in review. Source gathering has not yet been completed.
 
 ## Next action
 
-Validate the approved Registry chamber changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `loc-treasury`.
+Gather source-backed Treasury material from the normalized manuscript, outline, comments, and approved Rezin/Registry/zän files; then prepare the `loc-treasury` author checkpoint.
 
 ## Awaiting author input
 
-- None for `loc-registry`; author approval was received on 2026-06-25.
+- None currently. `loc-treasury` source gathering is the next Codex task.
 
 ## Known blockers or risks
 
@@ -82,6 +82,7 @@ Validate the approved Registry chamber changes, inspect the staged file list, co
 - bible/locations/loc-registry.md
 - planning/candidates/locations/loc-registry.md
 - decisions/0026-registry-chamber-placement-and-interface.md
+- reviews/entities/locations/loc-treasury.md
 - bible/organizations/org-registry.md
 - bible/magic/magic-zan-lattices.md
 - imports/normalized/melissa-copy.md
