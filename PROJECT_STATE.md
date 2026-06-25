@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: none
+- Active or paused entity ID: loc-archeon
 - Latest completed entity: loc-concord-manor
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `consistency: review important locations block`
-- Working tree expected to be clean: no; important-locations consistency review finalization is in progress
+- Working tree expected to be clean: no; `loc-archeon` review packet is being opened and source-gathered
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The important-locations consistency review was completed after `loc-concord-manor`. No direct contradictions were found among the approved location records. Straightforward wording was updated so current accepted files use `Spire / central amphitheater` rather than treating `Presentation Spire` as the durable formal label. Location-related queue items were reviewed and left as downstream revision/object/culture reminders where appropriate.
+The important-locations consistency review was completed, committed, and pushed after `loc-concord-manor`. No direct contradictions were found among the approved location records. Straightforward wording was updated so current accepted files use `Spire / central amphitheater` rather than treating `Presentation Spire` as the durable formal label. Location-related queue items were reviewed and left as downstream revision/object/culture reminders where appropriate.
 
 ## Current work
 
-Finalizing the important-locations consistency review commit.
+Opening and source-gathering the `loc-archeon` location review packet.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `consistency: review important locations block`, push `beta`, and then begin the next queued entity, `loc-archeon`.
+Gather source-backed material for `loc-archeon`, especially Archeon citadel/city-wedge geography, arena/training spaces, child-training compound, Kelyra captivity/rescue geography, and any contradictions between central-tower and far-away Archeon notes.
 
 ## Awaiting author input
 
-- None for `loc-concord-manor`; approval received 2026-06-25.
+- None for `loc-archeon`; source gathering is in progress.
 
 ## Known blockers or risks
 
@@ -94,6 +94,10 @@ Run validation, inspect the staged file list, commit `consistency: review import
 - bible/locations/loc-concord-manor.md
 - planning/candidates/locations/loc-concord-manor.md
 - decisions/0029-concord-manor-identity-and-collapse.md
+- reviews/entities/locations/loc-archeon.md
+- bible/organizations/org-archeon.md
+- planning/candidates/organizations/org-archeon.md
+- decisions/0012-archeon-high-clade-rise-and-training-system.md
 - bible/organizations/org-concord.md
 - bible/characters/char-kelyra.md
 - bible/characters/char-jalen.md
