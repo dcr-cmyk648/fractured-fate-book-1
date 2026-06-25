@@ -21,13 +21,13 @@ accepted_file: bible/locations/loc-rezin-citadel.md
 
 - Registry chamber details belong to `loc-registry`.
 - Treasury / vault chamber details belong to `loc-treasury`.
-- Presentation Spire details belong to `loc-spire`.
+- Spire / central amphitheater details belong to `loc-spire`.
 - The Rezin citadel's central spire is only an architectural feature unless later review gives a specific sublocation role.
 
 ## Rejected / Not Accepted
 
 - Magical elevator or similar vertical transport is not accepted.
-- The Rezin central spire is not the Presentation Spire.
+- The Rezin central spire is not the Spire / central amphitheater.
 - The Rezin central spire is not a named special location.
 
 ## Future Security Candidates

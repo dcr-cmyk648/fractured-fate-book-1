@@ -18,13 +18,13 @@ This file is the umbrella location record for the whole citadel. Detailed subloc
 
 - `loc-registry`: physical Registry chamber
 - `loc-treasury`: Treasury / vault chamber
-- `loc-spire`: the separate Presentation Spire location, not the Rezin citadel's ordinary central spire
+- `loc-spire`: the separate Spire / central amphitheater location, not the Rezin citadel's ordinary central spire
 
 ## Overall Structure
 
 The citadel includes outer walls, gates, ramparts, towers, bridges, covered walkways, halls, family and command spaces, contractor areas, training courtyards, old statues and hedges, the central architectural spire, the Registry, the Treasury, Heart infrastructure, and ancient hidden tunnels/chambers.
 
-The Rezin citadel has a central spire as an architectural feature. It is not a named special location and is distinct from the Presentation Spire.
+The Rezin citadel has a central spire as an architectural feature. It is not a named special location and is distinct from the Spire / central amphitheater.
 
 The citadel's present form is layered: ancient base, central spire, and tunnels beneath it, plus later aboveground expansions and rebuilding.
 
@@ -57,7 +57,7 @@ Old tunnels beneath the main spire and Elric's hidden chamber are part of the ci
 - Exact citadel map and route layout remain deferred.
 - Exact Registry chamber layout belongs to `loc-registry`.
 - Exact Treasury / vault chamber layout belongs to `loc-treasury`.
-- Exact Presentation Spire details belong to `loc-spire`.
+- Exact Spire / central amphitheater details belong to `loc-spire`.
 - Exact old tunnel network and Elric hidden chamber access remain deferred.
 - Exact post-Heart security repairs and passive Registry redesign remain candidate.
 

@@ -10,30 +10,30 @@ Last updated: 2026-06-25
 - Active or paused entity ID: none
 - Latest completed entity: loc-concord-manor
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Concord manor location`
-- Working tree expected to be clean: no; Concord manor approval finalization is in progress
+- Latest relevant commit message: `consistency: review important locations block`
+- Working tree expected to be clean: no; important-locations consistency review finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: important-locations
 - Block scope: important location records beginning with Rezin citadel sublocations
-- Approved entities since last consistency review: magic-subversion, magic-fateweaving-skein, magic-zan-lattices, magic-antithesis, magic-codex-memory, loc-rezin-citadel, loc-registry, loc-treasury, loc-spire, loc-concord-manor
-- Last consistency review: reports/consistency/2026-06-24-ink-and-systems-block.md
-- Consistency review due: yes; threshold exceeded after current location approvals
+- Approved entities since last consistency review: none
+- Last consistency review: reports/consistency/2026-06-25-important-locations-block.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The author approved `loc-concord-manor` on 2026-06-25. Durable files now record the Concord manor / hideout / abandoned house as one primary compound: a formerly abandoned Low Clade manor in an old, decrepit district, used as both the Concord operational base and a communal home/base for Concord members and their families. Selina's shrine is in the family meeting space. Maze-like additions and questionable structural integrity are accepted. After Davian returns with the Heart, Kelyra worries the manor is compromised and goes to the Harbingers hoping for more power; when Kelyra is captured, Karra immediately moves everyone but Davian out. The eventual collapse of the manor during the Archeon attack is canon.
+The important-locations consistency review was completed after `loc-concord-manor`. No direct contradictions were found among the approved location records. Straightforward wording was updated so current accepted files use `Spire / central amphitheater` rather than treating `Presentation Spire` as the durable formal label. Location-related queue items were reviewed and left as downstream revision/object/culture reminders where appropriate.
 
 ## Current work
 
-Finalizing the `loc-concord-manor` approval commit. Accepted bible, candidate, decision, review-packet, direct Concord/Kelyra/Jalen, index, project-state, and consistency-queue updates have been prepared.
+Finalizing the important-locations consistency review commit.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `bible: approve Concord manor location`, push `beta`, and then run the due important-locations consistency review before beginning `loc-archeon`.
+Run validation, inspect the staged file list, commit `consistency: review important locations block`, push `beta`, and then begin the next queued entity, `loc-archeon`.
 
 ## Awaiting author input
 

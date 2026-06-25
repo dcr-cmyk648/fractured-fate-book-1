@@ -16,7 +16,7 @@ The Rezin family and Rezin Clade are generally synonymous. The Rezins are a majo
 
 The Rezin citadel's access to the Registry is part of why the citadel position is so desirable. The other High Clades covet the Registry.
 
-The Rezin citadel is a massive fortress-city complex. The Registry is below ground, the Treasury is high up, and the citadel's central spire is an architectural feature distinct from the separate Presentation Spire.
+The Rezin citadel is a massive fortress-city complex. The Registry is below ground, the Treasury is high up, and the citadel's central spire is an architectural feature distinct from the separate Spire / central amphitheater.
 
 The current accepted record should not split family, Clade, household, military structure, and citadel administration into separate entities unless later reviews require it.
 
