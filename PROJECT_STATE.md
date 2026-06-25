@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: none
+- Active or paused entity ID: object-antithesis
 - Latest completed entity: object-seraph-heart
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Heart object packet`
-- Working tree expected to be clean: no; approved Heart files are being finalized
+- Latest relevant commit message: `bible: approve Heart object`
+- Working tree expected to be clean: no; `object-antithesis` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -33,11 +33,11 @@ The final important-locations consistency review was completed, committed, and p
 
 ## Next action
 
-Finalize and commit approved `object-seraph-heart`; then open the next queued object entity, skipping superseded `object-tzorrax-sphere`.
+Review author answers for `object-antithesis`; if approved, create the durable Antithesis bible/candidate/decision files, update dependent references, validate, commit, push, and open the next queued object entity.
 
 ## Awaiting author input
 
-- None.
+- `object-antithesis` author checkpoint questions are pending in `reviews/entities/objects/object-antithesis.md`.
 
 ## Known blockers or risks
 
@@ -107,6 +107,12 @@ Finalize and commit approved `object-seraph-heart`; then open the next queued ob
 - bible/objects/object-seraph-heart.md
 - planning/candidates/objects/object-seraph-heart.md
 - decisions/0032-heart-name-containment-and-skein-links.md
+- reviews/entities/objects/object-antithesis.md
+- bible/magic/magic-antithesis.md
+- bible/magic/magic-subversion.md
+- bible/magic/magic-zan-lattices.md
+- bible/characters/char-davian.md
+- bible/characters/char-kelyra.md
 - bible/locations/loc-treasury.md
 - planning/candidates/locations/loc-treasury.md
 - bible/locations/loc-registry.md
