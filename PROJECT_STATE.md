@@ -10,8 +10,8 @@ Last updated: 2026-06-25
 - Active or paused entity ID: object-seraph-heart
 - Latest completed entity: loc-sorevin-redbridge
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `consistency: review final important locations block`
-- Working tree expected to be clean: no; `object-seraph-heart` review packet is being opened and source-gathered
+- Latest relevant commit message: `review: open Heart object packet`
+- Working tree expected to be clean: no; `object-seraph-heart` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -33,11 +33,11 @@ The final important-locations consistency review was completed, committed, and p
 
 ## Next action
 
-Open and source-gather `object-seraph-heart`, focusing on Heart identity, containment, power-source function, Registry/Treasury relationship, theft consequences, and unresolved Ink/Skein/resurrection mechanics.
+Review author answers for `object-seraph-heart`; if approved, create the durable Heart bible/candidate/decision files, update dependent references, validate, commit, push, and open the next queued object entity.
 
 ## Awaiting author input
 
-- None for `object-seraph-heart`; source gathering is in progress.
+- `object-seraph-heart` author checkpoint questions are pending in `reviews/entities/objects/object-seraph-heart.md`.
 
 ## Known blockers or risks
 
