@@ -7,37 +7,37 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: object-alara-journal
-- Latest completed entity: object-davian-mask
+- Active or paused entity ID: none
+- Latest completed entity: object-alara-journal
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `review: prepare Alara journal object packet`
-- Working tree expected to be clean: yes; `object-alara-journal` review packet is at author checkpoint
+- Working tree expected to be clean: no; approved `object-alara-journal` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: 4
+- Approved entities since last consistency review: 5
 - Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
-- Consistency review due: no
+- Consistency review due: yes; five approved major-object entities have accumulated since the last consistency review
 - Remote synchronized: yes
 
 ## Last completed work
 
-`object-davian-mask` was approved, committed, and pushed as `c1c53bf`. Davian's durable mask is a matte black Concord mask with phase-specific zan marks: equality/equilibrium at the start of Book 1, later Nizan/zero/negation/void when Kelyra gives him a Concord mask as toxic support for returning to the Rezin citadel, taking the Heart, and killing Niall. The five-scratch mask design is superseded; prologue breakage, Selina provenance, repaired-original versus new-mask detail, and Treasury/Niall timing remain deferred.
+`object-alara-journal` was approved and durable files have been drafted. Alara's journal is Alara's specific auratic codex, separate from Niall's codex. Elric developed auratic codex technology from fateweaving work and provided journals to Alara, Niall, Harvick, and himself under a benign memory-preservation pretext. Maya's discovery sequence, Elric-linked trap/bridge, parent-memory distortion, and Niall taking the codex are accepted; footprints, exact giver/maker, exact memory truth, key-appearance staging, and whether it returns to Maya remain candidate/deferred.
 
 ## Current work
 
-`object-alara-journal` remains the active entity at author checkpoint. The workflow-simplification checkpoint has not changed canon or entity status. The review packet focuses on Alara's specific auratic codex: discovery, physical object details, key inscription, Elric's corrupted bridge, Niall taking the codex, and boundaries with Niall's separate codex and later Alara/event reviews.
+`object-alara-journal` approval is being finalized. The accepted object file, candidate file, decision record, dependent summaries, and consistency queue entry have been written; validation and commit/push remain.
 
 ## Next action
 
-Resume `object-alara-journal` at the existing author checkpoint. After author answers are available, if approved, create the durable journal bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
+Validate approved `object-alara-journal` changes, inspect the staged file list, commit and push. Because five entities have been approved since the last consistency review, run the due major-objects block consistency review before opening the next entity.
 
 ## Awaiting author input
 
-- `object-alara-journal` author checkpoint questions are pending in `reviews/entities/objects/object-alara-journal.md`.
+- None.
 
 ## Workflow policy note
 

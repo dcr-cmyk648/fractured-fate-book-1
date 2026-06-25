@@ -75,7 +75,7 @@ Later current manuscript material shows Niall attacking Davian after the Heart t
 
 During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
 
-Niall has a codex connected to Alara that he cannot make himself open again but cannot destroy. Niall showing Maya his codex to explain Alara's death remains candidate, not accepted future-plan.
+Niall has a codex connected to Alara that he cannot make himself open again but cannot destroy. It is one of the journals Elric provided under the pretext of benign memory preservation. Niall showing Maya his codex to explain Alara's death remains candidate, not accepted future-plan.
 
 ## Political and Military Role
 
@@ -95,12 +95,14 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
+- Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Related object: [Paradox](../objects/object-paradox.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
+- Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 
 ## Canonical Uncertainties

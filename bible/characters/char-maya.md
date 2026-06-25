@@ -123,6 +123,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related object: [Paradox](../objects/object-paradox.md)
+- Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
 - Prologue revision planning: [maya-shroud-attack](../../revision/prologue/maya-shroud-attack.md)
 - Decision: [Maya's Naeroth Heritage and Appearance](../../decisions/0001-maya-naeroth-heritage-and-appearance.md)
@@ -131,6 +132,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Decision: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 
 ## Provenance
 

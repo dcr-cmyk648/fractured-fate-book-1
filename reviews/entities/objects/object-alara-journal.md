@@ -2,7 +2,7 @@
 id: object-alara-journal
 entity_type: object
 display_name: Alara's journal / memory journal
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -16,6 +16,9 @@ source_scope:
   - bible/locations/loc-rezin-citadel.md
   - decisions/0024-auratic-codex-memory-mechanics.md
 last_updated: 2026-06-25
+accepted_file: bible/objects/object-alara-journal.md
+candidate_file: planning/candidates/objects/object-alara-journal.md
+decision_record: decisions/0036-alara-journal-discovery-and-elric-codex-trap.md
 ---
 
 # Entity Review: Alara's Journal / Memory Journal
@@ -113,11 +116,26 @@ Complete enough for author checkpoint.
 
 ## Questions for the author
 
-1. Should the durable object name be `Alara's journal`, `Alara's codex`, or `Alara's memory journal`? I can store technical type as `auratic codex` either way.
-2. Is this object specifically Alara's auratic codex, separate from Niall's own codex/memory book?
-3. Should Maya finding it via the dream, inky faceless figure, old tunnel alcove, presence/whisper, and hidden stone hollow remain accepted canon?
-4. Should the discovery presence be treated as Elric-linked trap/bridge activity rather than Alara guiding Maya?
-5. Should the physical details be accepted: small aged leather-bound book, `Alara Rezin` on the cover, ciphered pages, later visible key incantation inside the front cover, faint zän on parchment, and dented metal corner after Maya drops it?
-6. Should the Book 1 object sequence be accepted: Maya hides it in her room, uses Alden's materials, enters multiple Alara memories, triggers Elric's bridge, and Niall takes the codex afterward?
-7. Should the parent-memory distortion be stored here as accepted object function, while exact truth/content of individual memories stays deferred to `char-alara`, `char-niall`, and `event-alara-death-war-memory`?
-8. Should unresolved details stay candidate: who originally gave Alara the codex, who made the footprints, whether Maya sees Elric near her room before the key appears, and whether the codex ever returns to Maya?
+Condensed per workflow-simplification checkpoint on 2026-06-25.
+
+1. Durable name: should the object record be titled `Alara's journal`, `Alara's codex`, or `Alara's memory journal`? Technical type can still be `auratic codex`.
+2. Should this be accepted as Alara's specific auratic codex, separate from Niall's own codex/memory book?
+3. Should Maya's discovery sequence be accepted: dream with inky faceless figure, old tunnel alcove, presence/whisper, hidden stone hollow, and physical book marked `Alara Rezin`?
+4. Should the discovery/key/bridge be treated as Elric-linked trap activity rather than Alara guiding Maya, with the corrupted key enabling Elric's bridge?
+5. Should the Book 1 object function/sequence be accepted: Maya hides and uses the codex, experiences idealized/distorted Alara/Niall memories, triggers Elric's bridge, and Niall takes the codex afterward, while details like footprints, original maker/giver, exact memory truth, key-appearance staging, and whether it returns to Maya stay candidate/deferred?
+
+## Author decisions on 2026-06-25
+
+1. Durable object name is `Alara's journal`; exact name does not materially matter. Technical type remains auratic codex.
+2. This is Alara's specific auratic codex, separate from Niall's own codex / memory book. Elric developed the technology from his forays into fateweaving and provided journals to everyone known to have one: Alara, Niall, Harvick, and himself. He framed them as benign ways to preserve valued or important memories.
+3. Maya's discovery sequence is accepted at the high level: dream with inky faceless figure, old tunnel alcove, presence/whisper, hidden stone hollow, and physical book. The book should probably say `Alara`, not `Alara Rezin`.
+4. Alara does not guide Maya at all. Any perception that Alara is guiding Maya is part of Elric's trap. The corrupted key enables Elric's bridge.
+5. Book 1 object function/sequence is accepted: Maya hides and uses the codex, experiences idealized/distorted Alara/Niall memories, triggers Elric's bridge, and Niall takes the codex afterward. Footprints, original maker/giver, exact memory truth, key-appearance staging, and whether it returns to Maya stay candidate/deferred.
+
+## Approval result
+
+Approved durable files:
+
+- `bible/objects/object-alara-journal.md`
+- `planning/candidates/objects/object-alara-journal.md`
+- `decisions/0036-alara-journal-discovery-and-elric-codex-trap.md`

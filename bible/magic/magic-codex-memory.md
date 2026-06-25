@@ -18,6 +18,8 @@ An auratic codex stores immersive experiential memories. It is accessed through 
 
 This file owns general codex mechanics. Alara's specific journal remains a separate object record under `object-alara-journal`.
 
+Elric developed auratic codex technology from his forays into fateweaving. He provided journals to everyone known to have one: Alara, Niall, Harvick, and himself. He presented them as benign ways to preserve valued or important memories.
+
 ## Core Mechanics
 
 Codex memories are not ordinary written text or conventional encryption. A user focuses on the codex, recites the key incantation, and lets their aura press into the tether or access structure carved into the codex.
@@ -46,7 +48,7 @@ This distortion should preserve the emotional truth that the memories contain re
 
 Niall showing Maya his codex to explain Alara's death remains candidate.
 
-Harvick having an Elric-linked codex remains candidate.
+Exact implications of Harvick's codex and Elric's own codex remain deferred to later Harvick, Elric, and object/technology reviews.
 
 Exact codex / Registry / true-name / aura relationships remain unresolved.
 
@@ -58,9 +60,11 @@ Exact Ink / codex / Elric persistence mechanics remain unresolved.
 - Candidate material: [magic-codex-memory](../../planning/candidates/magic/magic-codex-memory.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
+- Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
 - Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
+- Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 
 ## Provenance
 

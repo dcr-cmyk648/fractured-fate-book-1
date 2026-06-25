@@ -29,7 +29,8 @@ accepted_file: bible/magic/magic-codex-memory.md
 ## Deferred Scenes
 
 - Niall showing Maya his codex to explain Alara's death remains candidate.
-- Harvick having an Elric-linked codex remains candidate.
+- Harvick having a codex from Elric is now accepted through `object-alara-journal`; its exact use, content, and emotional/plot implications remain deferred.
+- Elric's own codex is now accepted at the high level; exact location, contents, and use remain deferred.
 
 ## Mechanics Candidates
 

@@ -41,3 +41,4 @@ Do not use this file as a dump for unresolved questions.
 | Antithesis Dagger, Schema Sink, and Concealment | 2026-06-25 | accepted; stored in approved `object-antithesis` record | [0033-antithesis-dagger-schema-sink-and-concealment.md](0033-antithesis-dagger-schema-sink-and-concealment.md) |
 | Paradox Name, Maker, Form, and Symbolism | 2026-06-25 | accepted; stored in approved `object-paradox` record | [0034-paradox-name-maker-form-and-symbolism.md](0034-paradox-name-maker-form-and-symbolism.md) |
 | Davian Mask Zan Marks and Shade Symbolism | 2026-06-25 | accepted; stored in approved `object-davian-mask` record | [0035-davian-mask-zan-marks-and-shade-symbolism.md](0035-davian-mask-zan-marks-and-shade-symbolism.md) |
+| Alara Journal Discovery and Elric Codex Trap | 2026-06-25 | accepted; stored in approved `object-alara-journal` record | [0036-alara-journal-discovery-and-elric-codex-trap.md](0036-alara-journal-discovery-and-elric-codex-trap.md) |
