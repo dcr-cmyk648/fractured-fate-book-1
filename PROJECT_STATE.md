@@ -10,30 +10,30 @@ Last updated: 2026-06-25
 - Active or paused entity ID: none
 - Latest completed entity: object-alara-journal
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Alara journal object packet`
-- Working tree expected to be clean: no; approved `object-alara-journal` changes are being finalized
+- Latest relevant commit message: `bible: approve Alara journal object`
+- Working tree expected to be clean: no; major-objects block consistency review is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: major-objects
 - Block scope: important object records beginning with the Heart / Seraph Heart
-- Approved entities since last consistency review: 5
-- Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
-- Consistency review due: yes; five approved major-object entities have accumulated since the last consistency review
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`object-alara-journal` was approved and durable files have been drafted. Alara's journal is Alara's specific auratic codex, separate from Niall's codex. Elric developed auratic codex technology from fateweaving work and provided journals to Alara, Niall, Harvick, and himself under a benign memory-preservation pretext. Maya's discovery sequence, Elric-linked trap/bridge, parent-memory distortion, and Niall taking the codex are accepted; footprints, exact giver/maker, exact memory truth, key-appearance staging, and whether it returns to Maya remain candidate/deferred.
+`object-alara-journal` was approved, committed, and pushed. The due major-objects block consistency review has been run across the Heart, Antithesis, Paradox, Davian's mask, Alara's journal, and direct dependent files. No author decision is required from the consistency pass.
 
 ## Current work
 
-`object-alara-journal` approval is being finalized. The accepted object file, candidate file, decision record, dependent summaries, and consistency queue entry have been written; validation and commit/push remain.
+Major-objects block consistency review is being finalized. Harvick's accepted record has been updated with the high-level codex fact from `object-alara-journal`, Harvick candidate material now keeps only the unresolved codex implications, and object-related queue items have been marked reviewed/deferred where appropriate.
 
 ## Next action
 
-Validate approved `object-alara-journal` changes, inspect the staged file list, commit and push. Because five entities have been approved since the last consistency review, run the due major-objects block consistency review before opening the next entity.
+Validate the major-objects block consistency review, inspect the staged file list, commit and push. Then open the next queued entity, `object-haloes`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -62,7 +62,7 @@ Validate approved `object-alara-journal` changes, inspect the staged file list, 
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact low-level Antithesis/Zirene device circuitry remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source is now accepted as at least partly Heart-exposure linked; remaining source mix, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick codex implications, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Project-wide `zan` singular / `za` plural versus current `zä` / `zän` terminology needs later author decision before broad replacement; see `CONSISTENCY_QUEUE.md`.

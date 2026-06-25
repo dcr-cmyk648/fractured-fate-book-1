@@ -58,6 +58,8 @@ Harvick has a special sword and bracers developed by Zirene that let the weapon 
 
 The same technology returns during the final fight with Serathis, who has dual returning knives and bracers also developed by Zirene.
 
+Harvick also has an auratic codex from Elric. Elric provided it under the pretext of benign memory preservation, as he did with Alara, Niall, and himself. Exact contents, location, use, tampering status, and emotional or plot implications remain deferred.
+
 ## Current Manuscript State
 
 Current manuscript material establishes Harvick as:
@@ -81,13 +83,15 @@ Current manuscript material establishes Harvick as:
 - Decision record: [Harvick Elric Ink and Mentorship](../../decisions/0008-harvick-elric-ink-and-mentorship.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
+- Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
+- Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 
 ## Canonical Uncertainties
 
 - Exact Ink/Skein movement mechanics remain for later magic reviews.
 - Exact Naeroth/Archeon body-training relationship remains for later culture, magic, and organization reviews.
 - Exact returning-weapon mechanics remain for later object/technology reviews.
-- Exact Harvick Codex/aura material remains candidate.
+- Exact Harvick codex contents, location, use, tampering status, aura implications, and emotional or plot implications remain candidate.
 - Exact Treasury fight prose and Davian's limited perception of Harvick's death/revival remain for later scene work.
 
 ## Provenance

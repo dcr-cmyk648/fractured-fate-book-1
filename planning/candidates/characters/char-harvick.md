@@ -30,7 +30,9 @@ This file preserves Harvick material that is useful but not fully settled as exa
 
 - Exact Ink/Skein movement mechanics behind Harvick's prototypical Ink Pact remain for later magic reviews.
 - Harvick's Pact gives bursts of unnatural speed and precision, but the exact relationship between this and fate, Ink, Naeroth movement, or reality damage remains for later reviews.
-- Harvick may possess a Codex because of his closeness to Elric, and later may become more fixated after learning Elric placed aura into such systems.
+- Harvick has an auratic codex from Elric at the accepted high level.
+- Exact contents, location, use, tampering status, aura implications, and emotional or plot implications of Harvick's codex remain deferred.
+- Harvick may become more fixated after learning Elric placed aura into such systems.
 
 ## Elric and Endgame Dialogue
 
