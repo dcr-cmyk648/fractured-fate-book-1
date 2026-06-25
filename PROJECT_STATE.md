@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: none
+- Active or paused entity ID: object-alara-journal
 - Latest completed entity: object-davian-mask
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Davian mask object packet`
-- Working tree expected to be clean: no; approved `object-davian-mask` changes are being finalized
+- Latest relevant commit message: `bible: approve Davian mask object`
+- Working tree expected to be clean: no; `object-alara-journal` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-`object-davian-mask` was approved and durable files have been drafted. Davian's durable mask is a matte black Concord mask with phase-specific zan marks: equality/equilibrium at the start of Book 1, later Nizan/zero/negation/void when Kelyra gives him a Concord mask as toxic support for returning to the Rezin citadel, taking the Heart, and killing Niall. The five-scratch mask design is superseded; prologue breakage, Selina provenance, repaired-original versus new-mask detail, and Treasury/Niall timing remain deferred.
+`object-davian-mask` was approved, committed, and pushed as `c1c53bf`. Davian's durable mask is a matte black Concord mask with phase-specific zan marks: equality/equilibrium at the start of Book 1, later Nizan/zero/negation/void when Kelyra gives him a Concord mask as toxic support for returning to the Rezin citadel, taking the Heart, and killing Niall. The five-scratch mask design is superseded; prologue breakage, Selina provenance, repaired-original versus new-mask detail, and Treasury/Niall timing remain deferred.
 
 ## Current work
 
-`object-davian-mask` approval is being finalized. The accepted object file, candidate file, decision record, dependent summaries, and consistency queue entry have been written; validation and commit/push remain.
+`object-alara-journal` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet focuses on Alara's specific auratic codex: discovery, physical object details, key inscription, Elric's corrupted bridge, Niall taking the codex, and boundaries with Niall's separate codex and later Alara/event reviews.
 
 ## Next action
 
-Validate approved `object-davian-mask` changes, inspect the staged file list, commit and push, then open the next queued object entity: `object-alara-journal`.
+Review author answers for `object-alara-journal`; if approved, create the durable journal bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
 
 ## Awaiting author input
 
-- None.
+- `object-alara-journal` author checkpoint questions are pending in `reviews/entities/objects/object-alara-journal.md`.
 
 ## Known blockers or risks
 
@@ -116,6 +116,15 @@ Validate approved `object-davian-mask` changes, inspect the staged file list, co
 - planning/candidates/objects/object-paradox.md
 - decisions/0034-paradox-name-maker-form-and-symbolism.md
 - reviews/entities/objects/object-davian-mask.md
+- reviews/entities/objects/object-alara-journal.md
+- bible/magic/magic-codex-memory.md
+- planning/candidates/magic/magic-codex-memory.md
+- decisions/0024-auratic-codex-memory-mechanics.md
+- bible/characters/char-maya.md
+- bible/characters/char-niall.md
+- bible/characters/char-elric.md
+- bible/magic/magic-fateweaving-skein.md
+- bible/locations/loc-rezin-citadel.md
 - bible/magic/magic-antithesis.md
 - bible/magic/magic-subversion.md
 - bible/magic/magic-zan-lattices.md
