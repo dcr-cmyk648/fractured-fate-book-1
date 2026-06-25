@@ -62,9 +62,11 @@ Current manuscript material establishes:
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Davian](char-davian.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
+- Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Selwin Dissolution Shroud and Family Role](../../decisions/0009-selwin-dissolution-shroud-and-family-role.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
+- Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 
 ## Canonical Uncertainties
 

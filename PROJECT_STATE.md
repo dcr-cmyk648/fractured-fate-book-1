@@ -8,32 +8,32 @@ Last updated: 2026-06-25
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: cultures-and-world-systems
 - Active or paused entity ID: none
-- Latest completed entity: culture-clade-hierarchy
+- Latest completed entity: culture-naeroth-lineages
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Haloes currency object`
-- Working tree expected to be clean: no; approved `culture-clade-hierarchy` changes are being finalized
+- Latest relevant commit message: `bible: approve Clade hierarchy culture`
+- Working tree expected to be clean: no; approved `culture-naeroth-lineages` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: cultures-and-world-systems
 - Block scope: culture and world-system records beginning with Clade hierarchy
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`culture-clade-hierarchy` was approved by the author. The durable direction uses High Clades and Low Clades as the only real formal categories, treats Masked Clades as criminal/unofficial terminology, accepts Low Clades as Shroud-producing hereditary-magic houses, and includes Presented/unPresented status as a core hierarchy pressure point.
+`culture-naeroth-lineages` was approved by the author. The durable direction focuses narrowly on Naeroth lineage, accepts Alara as Naeroth and Maya/Selwin as mixed Rezin/Naeroth descendants, treats Naeroth as a rare Shroud/fateweaving/Convergence exception, and defers broader demi-human taxonomy and exact mechanics.
 
 ## Current work
 
-`culture-clade-hierarchy` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct High Clade and Concord summaries and the consistency queue have been updated.
+`culture-naeroth-lineages` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct Maya, Selwin, Shroud, Fateweaving/Skein, and consistency queue updates have been applied.
 
 ## Next action
 
-Validate approved `culture-clade-hierarchy` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-naeroth-lineages`, unless author direction changes.
+Validate approved `culture-naeroth-lineages` changes, inspect the staged file list, commit and push. Then open the next queued entity, `culture-magus-presentation`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -81,6 +81,7 @@ Validate approved `culture-clade-hierarchy` changes, inspect the staged file lis
 - AUTHORING.md
 - reviews/entities/objects/object-haloes.md
 - reviews/entities/cultures/culture-clade-hierarchy.md
+- reviews/entities/cultures/culture-naeroth-lineages.md
 - reviews/entities/locations/loc-rezin-citadel.md
 - bible/locations/loc-rezin-citadel.md
 - planning/candidates/locations/loc-rezin-citadel.md

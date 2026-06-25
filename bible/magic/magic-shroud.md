@@ -75,6 +75,8 @@ Alara / Naeroth lineages:
 
 Naeroth lineages are a rare exception to the dominant cultural assumption that Shrouds and hereditary magic belong only to humans. Alara had a Shroud alongside fateweaving and Convergence-associated abilities.
 
+Maya and Selwin are mixed Rezin/Naeroth descendants. Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level; Selwin's mixed-heritage and Dissolution implications remain deferred.
+
 Fateweaving / Skein:
 
 The Skein is a real fate/reality structure, and Maya has emerging fate/Skein perception through Naeroth heritage. Fateweaving is distinct from Shrouds, though Alara had both and exact Naeroth ability relationships remain for later reviews.
@@ -93,6 +95,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
+- Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related organization: [High Clades](../organizations/org-high-clades.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)

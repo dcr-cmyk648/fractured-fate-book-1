@@ -54,6 +54,8 @@ Alara was from Naeroth and had rare access to fateweaving and Convergence heat t
 
 Naeroth heritage can rarely grant fateweaving and Convergence heat transfer despite the wider High Clade cultural assumption that only humans have hereditary magic and Shrouds.
 
+Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level. Exact inheritance mechanics and the relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remain deferred.
+
 This file stores Alara's fateweaving and Convergence only at high level. Detailed Alara mechanics belong to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
 
 ## Elric and Dark Threads
@@ -96,6 +98,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](magic-codex-memory.md)
+- Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
 - Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
