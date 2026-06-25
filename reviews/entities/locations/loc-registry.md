@@ -2,7 +2,7 @@
 id: loc-registry
 entity_type: location
 display_name: Registry chamber
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -10,7 +10,7 @@ source_scope:
   - bible/locations/loc-rezin-citadel.md
   - bible/organizations/org-registry.md
   - bible/magic/magic-zan-lattices.md
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 ---
 
 # Entity Review: Registry Chamber
@@ -129,18 +129,20 @@ Retain in `planning/candidates/locations/loc-registry.md` after approval:
 
 ## Questions for the author
 
-1. Should the accepted chamber baseline be: below ground, guarded heavy/double doors, circular pale/smooth stone room, zä-etched walls, central platform/pedestal/aurametric interface, and citadel projection/map?
-2. Should the "one in the stone and one in the model" idea be accepted: registration appears both as a physical stone inscription and as a marker/name in the citadel projection?
-3. Should the map/projection be treated as a functional "Marauder's map" style interface that can verify, locate, pulse, zoom, and refine results inside the citadel?
-4. Should the chamber be far enough from the entryway that, in passive mode, staff would not hear the initial Archeon entry fight before the situation is already moving fast?
-5. Should exact Registry access routes, depth, stairs, and relation to the high-up Treasury remain deferred for later map/revision work?
-6. Should exact active-mode attack/discharge geometry remain deferred to zä/Heart/revision work rather than this location file?
-7. Should the high-window Registry escape and magical-elevator solution be recorded as obsolete/rejected for this chamber?
-8. Should post-Heart repair ideas stay candidate/future repair material, not realized Book 1 chamber canon?
+Resolved by author feedback on 2026-06-25:
+
+1. The accepted chamber baseline is below ground, guarded heavy/double doors, circular pale/smooth stone room, zä-etched walls, central platform/pedestal/aurametric interface, and citadel projection/map.
+2. The "one in the stone and one in the model" idea is accepted: registration appears both as a physical stone inscription and as a marker/name in the citadel projection.
+3. The map/projection is accepted as a functional targeted-location interface that can verify, locate, pulse, zoom, and refine results inside the citadel, but it must require someone to be named or otherwise specifically called out. It does not show every person all the time.
+4. The chamber is far enough from the main entryway, and below ground, so staff would not hear the initial Archeon entry fight in time.
+5. Exact Registry access routes, depth, stairs, and relation to the high-up Treasury remain deferred for later map/revision work.
+6. Exact active-mode attack/discharge geometry remains deferred to zä/Heart/revision work rather than this location file.
+7. The high-window Registry escape and magical-elevator solution are obsolete/rejected. Davian no longer goes back to the Registry after stealing the Heart.
+8. Post-Heart repair ideas stay candidate/future repair material, not realized Book 1 chamber canon.
 
 ## Proposed file changes after approval
 
-If approved, create/update:
+Created/updated after approval:
 
 - `bible/locations/loc-registry.md`
 - `planning/candidates/locations/loc-registry.md`

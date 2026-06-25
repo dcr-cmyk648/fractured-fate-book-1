@@ -71,6 +71,7 @@ Those redesign plans are not realized during the course of Book 1.
 - Related organization: [Rezin Family / Rezin Clade](org-rezin.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related location: [Rezin Citadel / Rezin fortress](../locations/loc-rezin-citadel.md)
+- Related location: [Registry Chamber](../locations/loc-registry.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related organization: [Harbingers / Syndicate](org-harbingers-syndicate.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
@@ -79,6 +80,7 @@ Those redesign plans are not realized during the course of Book 1.
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
+- Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 
 ## Canonical Uncertainties
 

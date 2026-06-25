@@ -48,6 +48,8 @@ Registry:
 
 The Registry uses ancient Rezin zänwork for true-name/aura registration, verification, location, and security response. It is part of the Rezin citadel's security advantage, but detailed physical chamber behavior belongs to `loc-registry`.
 
+The physical chamber's approved interface is targeted rather than omniscient: the map/projection requires someone to be named or otherwise specifically called out before it locates them or zooms/refines to their position.
+
 Treasury sphere / Heart containment:
 
 The Treasury sphere is sustained by redundant interwoven zä lattices. Candidate technical direction is that its sinks transform reality-distorting Heart energy into gravity negation, but exact Heart containment mechanics remain for `object-seraph-heart` and `loc-treasury`.
@@ -86,6 +88,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Review packet: [magic-zan-lattices](../../reviews/entities/magic/magic-zan-lattices.md)
 - Candidate material: [magic-zan-lattices](../../planning/candidates/magic/magic-zan-lattices.md)
 - Related organization: [Registry](../organizations/org-registry.md)
+- Related location: [Registry Chamber](../locations/loc-registry.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
@@ -95,6 +98,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïza`, and archetypal z
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
+- Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 
 ## Provenance
 

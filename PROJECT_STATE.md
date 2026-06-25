@@ -1,16 +1,16 @@
 # Project State
 
-Last updated: 2026-06-24
+Last updated: 2026-06-25
 
 ## Repository state
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-registry
-- Latest completed entity: loc-rezin-citadel
+- Active or paused entity ID: none
+- Latest completed entity: loc-registry
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Registry chamber location packet`
+- Latest relevant commit message: `bible: approve Registry chamber location`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -25,19 +25,19 @@ Last updated: 2026-06-24
 
 ## Last completed work
 
-The `loc-rezin-citadel` entity was approved, committed, and pushed. Durable files now record the Rezin citadel as a massive fortress-city complex, with the Registry below ground, Treasury high up, no elevators, contractors allowed to leave under search/Registry monitoring, old tunnels and Elric's chamber in the ancient layer, and the Rezin central spire distinct from the separate Presentation Spire.
+The `loc-registry` entity was approved by the author. Durable files now record the Registry chamber as a below-ground, guarded, circular/pale-stone zä-etched chamber with a central targeted location interface. The map/projection requires a named or otherwise specifically called-out target before it locates/zooms/refines; it is not a constantly visible display of everyone. Davian no longer returns to the Registry after stealing the Heart, and the old high-window/elevator solution is obsolete.
 
 ## Current work
 
-The `loc-registry` review packet has been prepared and is awaiting author input. No accepted Registry chamber bible or candidate record has been created yet.
+Finalizing `loc-registry` approval. No entity is active until the approved Registry chamber commit is validated, committed, and pushed.
 
 ## Next action
 
-Present the `loc-registry` checkpoint questions to the author. After substantive approval, create the accepted Registry chamber durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-treasury`.
+Validate the approved Registry chamber changes, inspect the staged file list, commit, push, and then begin preparing the next queued entity, `loc-treasury`.
 
 ## Awaiting author input
 
-- `loc-registry`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-registry.md`, especially chamber baseline, projection/map behavior, passive-mode distance from entryway, deferred access routes, and obsolete high-window/elevator material.
+- None for `loc-registry`; author approval was received on 2026-06-25.
 
 ## Known blockers or risks
 
@@ -59,7 +59,7 @@ Present the `loc-registry` checkpoint questions to the author. After substantive
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry chamber implementation details, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Heart/Registry/Treasury power path, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
@@ -79,6 +79,9 @@ Present the `loc-registry` checkpoint questions to the author. After substantive
 - planning/candidates/locations/loc-rezin-citadel.md
 - decisions/0025-rezin-citadel-location-boundaries.md
 - reviews/entities/locations/loc-registry.md
+- bible/locations/loc-registry.md
+- planning/candidates/locations/loc-registry.md
+- decisions/0026-registry-chamber-placement-and-interface.md
 - bible/organizations/org-registry.md
 - bible/magic/magic-zan-lattices.md
 - imports/normalized/melissa-copy.md
