@@ -10,16 +10,16 @@ Last updated: 2026-06-25
 - Active or paused entity ID: none
 - Latest completed entity: loc-sorevin-redbridge
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Sorevin Redbridge location`
-- Working tree expected to be clean: no; `loc-sorevin-redbridge` approval finalization is in progress
+- Latest relevant commit message: `consistency: review final important locations block`
+- Working tree expected to be clean: no; final important-locations consistency review is in progress
 - Remote synchronized: no; local approval changes are not pushed yet
 
 ## Block status
 
 - Current block: important-locations
 - Block scope: important location records beginning with Rezin citadel sublocations
-- Approved entities since last consistency review: 2
-- Last consistency review: reports/consistency/2026-06-25-important-locations-block.md
+- Approved entities since last consistency review: none
+- Last consistency review: reports/consistency/2026-06-25-important-locations-block-final.md
 - Consistency review due: no
 - Remote synchronized: no; local approval changes are not pushed yet
 
@@ -29,11 +29,11 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-Author feedback for `loc-sorevin-redbridge` was applied. The approved record now stores Sorevin manor as the prologue Low Clade manor, Sorevin Head Magus as Davian's prologue opponent, Sorevin as a Rezin proxy administrator / contractor-vetting Low Clade, the Sorevin job as the Concord contractor-record operation, and Redbridge as candidate-only map material.
+The final important-locations consistency review was completed after `loc-archeon` and `loc-sorevin-redbridge`. No direct contradictions were found. The review confirmed the central Spire/amphitheater versus six citadel towers model, Archeon central-tower/lower-complex geography, Sorevin manor as the prologue Low Clade manor, and Redbridge as candidate-only map material.
 
 ## Next action
 
-Run validation, inspect the staged file list, commit `bible: approve Sorevin Redbridge location`, push `beta`, then begin the next queued entity, `object-seraph-heart`.
+Run validation, inspect the staged file list, commit `consistency: review final important locations block`, push `beta`, then begin the next queued entity, `object-seraph-heart`.
 
 ## Awaiting author input
 
@@ -102,6 +102,7 @@ Run validation, inspect the staged file list, commit `bible: approve Sorevin Red
 - bible/locations/loc-sorevin-redbridge.md
 - planning/candidates/locations/loc-sorevin-redbridge.md
 - decisions/0031-sorevin-manor-and-redbridge-candidate.md
+- reports/consistency/2026-06-25-important-locations-block-final.md
 - bible/organizations/org-archeon.md
 - planning/candidates/organizations/org-archeon.md
 - decisions/0012-archeon-high-clade-rise-and-training-system.md
