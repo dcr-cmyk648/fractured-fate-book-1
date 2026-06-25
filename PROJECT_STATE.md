@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: major-objects
-- Active or paused entity ID: none
+- Active or paused entity ID: object-davian-mask
 - Latest completed entity: object-paradox
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Paradox object packet`
-- Working tree expected to be clean: no; approved `object-paradox` files are being finalized for commit
+- Latest relevant commit message: `bible: approve Paradox object`
+- Working tree expected to be clean: no; `object-davian-mask` review packet is at author checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-`object-paradox` author answers were reviewed and accepted. Durable Paradox object, candidate, and decision files are being created, with straightforward dependent updates to Antithesis, kinesis, zä, Davian, Maya, Niall, and the consistency queue.
+`object-paradox` was approved, committed, and pushed. Paradox is accepted as the durable in-world name of the normal sword made from ruined Antithesis at the end of Book 1. Maya names and designs it; Zirene makes it; it is not bound to anyone's aura; it inherits and improves Antithesis's schema-sink/anchor role; returning/thrown behavior remains candidate; Niall gives it to Davian in the end-book courtyard scene; and the Antithesis-to-Paradox symbolism is accepted.
 
 ## Current work
 
-Paradox is now accepted as the durable in-world name of the normal sword made from ruined Antithesis at the end of Book 1. Maya names and designs it; Zirene makes it; it is not bound to anyone's aura; it inherits and improves Antithesis's schema-sink/anchor role; returning/thrown behavior remains candidate; Niall gives it to Davian in the end-book courtyard scene; and the Antithesis-to-Paradox symbolism is accepted.
+`object-davian-mask` has been opened as the next queued object entity. Source gathering is complete enough for author checkpoint. The review packet focuses on Davian's customized Concord mask, the five scratches, prologue breakage, repair/return variants, possible zä marks, Treasury-use timing, and Shade symbolism.
 
 ## Next action
 
-Validate the approved `object-paradox` updates, inspect the staged file list, commit and push them, then automatically open the next queued object entity, `object-davian-mask`.
+Review author answers for `object-davian-mask`; if approved, create the durable mask bible/candidate/decision files, update dependent references, validate, commit, push, and continue to the next queued object.
 
 ## Awaiting author input
 
-- None.
+- `object-davian-mask` author checkpoint questions are pending in `reviews/entities/objects/object-davian-mask.md`.
 
 ## Known blockers or risks
 
@@ -111,6 +111,10 @@ Validate the approved `object-paradox` updates, inspect the staged file list, co
 - bible/objects/object-antithesis.md
 - decisions/0033-antithesis-dagger-schema-sink-and-concealment.md
 - reviews/entities/objects/object-paradox.md
+- bible/objects/object-paradox.md
+- planning/candidates/objects/object-paradox.md
+- decisions/0034-paradox-name-maker-form-and-symbolism.md
+- reviews/entities/objects/object-davian-mask.md
 - bible/magic/magic-antithesis.md
 - bible/magic/magic-subversion.md
 - bible/magic/magic-zan-lattices.md
