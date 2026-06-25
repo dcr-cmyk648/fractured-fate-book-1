@@ -67,6 +67,7 @@ Old tunnels beneath the main spire and Elric's hidden chamber are part of the ci
 - Candidate material: [loc-rezin-citadel](../../planning/candidates/locations/loc-rezin-citadel.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Registry](../organizations/org-registry.md)
+- Related location: [Spire / central amphitheater](loc-spire.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 

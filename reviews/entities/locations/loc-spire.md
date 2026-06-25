@@ -2,7 +2,7 @@
 id: loc-spire
 entity_type: location
 display_name: Spire / Presentation Spire
-review_status: awaiting-author
+review_status: approved
 source_scope:
   - imports/normalized/melissa-copy.md
   - imports/normalized/book-1-outline.md
@@ -109,7 +109,7 @@ This file should not own:
 - Exact seating design: six boxes, circular tiers, wedge-shaped sections, citadel-corresponding positions, or some combination.
 - Exact zä infrastructure in the site and whether the dais/floor still maps the Six Cities.
 
-## Proposed accepted record
+## Accepted record
 
 ### present-canon
 
@@ -124,12 +124,15 @@ This file should not own:
 - Six High Clade sections/boxes/tiers correspond to the six High Clades/citadels/city-wedges.
 - The floor/dais may retain zä, emblems, and map/symbolic geometry tied to the Six Cities.
 - Common speech may still call the location the Spire or Central Spire because of historical continuity, even though the physical spire is gone.
+- `Presentation Spire` can appear as casual descriptive speech because Presentations happen there, but it is not the official term.
+- The old rubble/remnants have been removed from the area. The name is historical, not preserved by obvious ruins still dominating the site.
+- There are six High Clade citadels, and the Spire is at the center of the Six Cities. The one-off "seven citadels" line is obsolete/suspect.
 
 ### candidate
 
 - Exact final in-world name and whether `Presentation Spire` is used on-page.
 - Exact architecture and visual details of the amphitheater/blast-hole site.
-- Exact survival of doors, gates, corridors, halls, vaulted interior language, or ruined-spire remnants.
+- Exact survival of compatible gates/checkpoints and any non-tower ceremonial structures.
 - Exact Presentation staging and how Maya's upward flame display works in the revised architecture.
 - Exact city-center map, Spoke roads, plaza/market, and High Clade section layout.
 
@@ -140,27 +143,29 @@ Retain in `planning/candidates/locations/loc-spire.md` after approval:
 - old literal tower/chamber-atop-spire language as obsolete manuscript-revision material
 - final naming options
 - blast-hole amphitheater visual alternatives
-- spire-remnant alternatives
+- old tower/remnant alternatives as rejected or obsolete revision material
 - Presentation staging details
 - city-center/plaza/checkpoint map details
 - seating/box/section geometry
 
 ## Questions for the author
 
-1. Should the accepted physical form be the later direction: the central Presentation/meeting location is an amphitheater or arena built into the old blast hole, not an intact tower?
-2. Should in-world characters still commonly call it the `Spire` / `Central Spire` because that is historical terminology, even though the physical spire is gone?
-3. Is `Presentation Spire` just our entity label for the review, or should it be an in-world term characters use?
-4. Should Maya's Presentation happen in this amphitheater/arena form, with the current literal tower approach/doors/halls/open crown revised later?
-5. Should the central dais, circular geometry, six High Clade sections, and floor/map symbolism be retained in the accepted location record?
-6. Should the plaza/checkpoint/market approach and High Clade shared-domain security survive the revision?
-7. Should any visible remnant of the old spire remain in the architecture, or is the name purely historical with no obvious tower remnant?
-8. Should the "seven citadels" manuscript line be treated as obsolete/suspect, preserving six High Clade citadels unless later geography creates a separate seventh structure?
+Resolved by author feedback on 2026-06-25:
 
-## Proposed file changes after approval
+1. The accepted physical form is the later direction: the central Presentation/meeting location is an amphitheater or arena built into the old blast hole, not an intact tower.
+2. In-world characters still commonly call it the `Spire` / `Central Spire` because that is historical terminology, even though the physical spire is gone.
+3. `Presentation Spire` is not an official in-world term, but someone might casually call it that because Presentations happen there.
+4. Maya's Presentation happens in the open-air amphitheater version, with current literal tower approach/doors/halls/open-crown language revised later.
+5. The central dais, circular geometry, six High Clade sections, and floor/map symbolism are retained.
+6. The plaza/checkpoint/market approach and High Clade shared-domain security survive the revision. This is one of the few places the High Clades truly collaborate.
+7. The old rubble/remnants have been removed from the area. The name is historical, not preserved by visible ruins.
+8. The "seven citadels" manuscript line is obsolete/suspect. There are six High Clade citadels, and the Spire is at the center of the Six Cities.
 
-If approved, create or update:
+## File changes after approval
+
+Created or updated:
 
 - `bible/locations/loc-spire.md`
 - `planning/candidates/locations/loc-spire.md`
-- a decision record for Spire / central amphitheater terminology and physical form
+- `decisions/0028-spire-name-and-central-amphitheater-form.md`
 - direct dependent links/notes in `bible/organizations/org-high-clades.md`, `bible/locations/loc-rezin-citadel.md`, `PROJECT_STATE.md`, `ENTITY_INDEX.md`, and `CONSISTENCY_QUEUE.md` as needed

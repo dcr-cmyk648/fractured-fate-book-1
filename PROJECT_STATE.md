@@ -7,11 +7,11 @@ Last updated: 2026-06-25
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: important-locations
-- Active or paused entity ID: loc-spire
-- Latest completed entity: loc-treasury
+- Active or paused entity ID: none
+- Latest completed entity: loc-spire
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: open Spire location packet`
-- Working tree expected to be clean: yes
+- Latest relevant commit message: `bible: approve Spire location`
+- Working tree expected to be clean: no; Spire approval finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-25
 
 ## Last completed work
 
-The author approved `loc-treasury` on 2026-06-25. Durable files now record the Treasury/vault chamber as high in the Rezin spire with guarded stair access and no elevators; a huge domed zä-lit chamber with a central suspended Treasury sphere; no visible usable sphere entrance because the prior entrance was sealed or blocked; weightlessness produced by the Tzorrax Heart interacting with its containment armature rather than Registry operational control; and the accepted theft direction in which Davian launches the sphere at Niall, the sphere shatters, gravity returns, and the Heart is exposed. The approval was committed and pushed.
+The author approved `loc-spire` on 2026-06-25. Durable files now record the Spire / Central Spire as the shared High Clade Presentation and central meeting location at the center of the Six Cities. It is an open-air amphitheater or arena built into the old High Clade war blast hole, not an intact tower. In-world characters commonly call it the Spire or Central Spire; `Presentation Spire` can be casual descriptive speech but is not official. The old rubble/remnants have been removed, Maya's Presentation happens in the open-air version, there are six High Clade citadels, and the Spire is one of the few places where the High Clades truly collaborate.
 
 ## Current work
 
-The `loc-spire` review packet has been expanded into a source-backed author checkpoint and is awaiting author input. It separates the Presentation Spire / Central Spire location from the Rezin citadel's ordinary central architectural spire, gathers the literal-tower versus blast-hole-amphitheater conflict, and proposes retaining `Spire` as historical/common terminology for the central High Clade Presentation/meeting location.
+Finalizing the `loc-spire` approval commit. Accepted bible, candidate, decision, index, review-packet, direct dependent High Clade/Rezin-citadel, and consistency-queue updates have been prepared.
 
 ## Next action
 
-Present the `loc-spire` checkpoint questions to the author. After substantive approval, create the accepted Spire durable files, update direct dependents, validate, commit, push, and then begin the next queued entity, `loc-concord-manor`.
+Run validation, inspect the staged file list, commit `bible: approve Spire location`, push `beta`, and then begin the next queued entity, `loc-concord-manor` unless a block-level consistency review is due.
 
 ## Awaiting author input
 
-- `loc-spire`: author needs to answer the checkpoint questions in `reviews/entities/locations/loc-spire.md`, especially final physical form, historical `Spire` terminology, whether `Presentation Spire` is in-world, whether old tower/halls/open-crown language is obsolete, and whether six-citadel geography supersedes the one-off seven-citadel line.
+- None for `loc-spire`; approval received 2026-06-25.
 
 ## Known blockers or risks
 
@@ -53,13 +53,13 @@ Present the `loc-spire` checkpoint questions to the author. After substantive ap
 - Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
 - Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
-- The Central Spire / central amphitheater blast-hole direction and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- The Spire / central amphitheater blast-hole direction is approved, but exact map/staging/revision details and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Antithesis transformation is no longer canon; later object/revision work must keep Antithesis as a knife and resolve the inside-citadel concealment helper note; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Kinesis/Shroud interaction, tremorsense/kinetic sensitivity, Archeon force-parting/diffusion candidates, and exact Antithesis/Zirene object mechanics remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Elric's fate-sight source, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick possible codex, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Presentation Spire terminology remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
+- Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Zä number-system details, `Nizän` / `nïza`, archetypal zä, Skein-layer zä, exact Tzorrax Heart/Sphere object mechanics, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon/Antithesis device mechanics, and the Antithesis-to-Paradox object transition remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
@@ -87,6 +87,9 @@ Present the `loc-spire` checkpoint questions to the author. After substantive ap
 - planning/candidates/locations/loc-treasury.md
 - decisions/0027-treasury-placement-and-containment-function.md
 - reviews/entities/locations/loc-spire.md
+- bible/locations/loc-spire.md
+- planning/candidates/locations/loc-spire.md
+- decisions/0028-spire-name-and-central-amphitheater-form.md
 - bible/organizations/org-high-clades.md
 - planning/candidates/organizations/org-high-clades.md
 - decisions/0014-high-clades-governance-and-central-amphitheater.md

@@ -45,9 +45,11 @@ Exact Low Clade council structures, city-wedge naming, caste hierarchy, and Mask
 
 The Central Spire is located in the center of the Six Cities, but `Spire` is now a historical reference rather than an accurate current description.
 
-In the current accepted direction, the central High Clade meeting place is an amphitheater built into a blast hole left by a long-ago cataclysm during the High Clade wars.
+The central High Clade meeting place is an open-air amphitheater or arena built into a blast hole left by a long-ago cataclysm during the High Clade wars.
 
-Detailed geography, architecture, and terminology belong to later location review.
+It remains shared High Clade ground and is one of the few places where the High Clades truly collaborate. It is separate from the Rezin citadel's ordinary central spire.
+
+Detailed geography, architecture, and terminology belong to `loc-spire`.
 
 ## Presentation
 
@@ -91,10 +93,12 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Related organization: [Registry](org-registry.md)
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
+- Related location: [Spire / central amphitheater](../locations/loc-spire.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Decision record: [High Clades Governance and Central Amphitheater](../../decisions/0014-high-clades-governance-and-central-amphitheater.md)
+- Decision record: [Spire Name and Central Amphitheater Form](../../decisions/0028-spire-name-and-central-amphitheater-form.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 
@@ -102,7 +106,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 
 - Nyctaris, Cryndor, and Lyranth need later review before their leadership, powers, politics, and current manuscript details are treated as fully settled.
 - Exact old magic labels such as Incarna, Nocturne, Severance, Resonance, and Aegistry remain candidate until magic review.
-- Exact Central Amphitheater layout, whether in-manuscript `Spire` references should be retained as historical/common speech, and how the blast-hole architecture appears on page remain for location review.
+- Exact Central Amphitheater layout and blast-hole architecture details remain for later map/revision work under `loc-spire`.
 - Exact Low Clade council procedures and city-wedge administrative boundaries remain for culture and location reviews.
 
 ## Provenance

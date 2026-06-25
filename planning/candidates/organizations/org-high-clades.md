@@ -30,11 +30,19 @@ Archeon and Drakhal approvals already supersede or complicate the older labels, 
 
 Accepted direction: the Central Spire is at the center of the Six Cities, but `Spire` is now a historical reference. It is currently an amphitheater built into a blast hole from a long-ago High Clade war cataclysm.
 
-Later location review should decide:
+`loc-spire` approval adds:
 
-- whether common speech still calls it the Central Spire
+- common speech still calls it the Spire / Central Spire
+- `Presentation Spire` can be casual descriptive speech but is not the official term
+- the old rubble/remnants have been removed
+- Maya's Presentation happens in the open-air amphitheater version
+- there are six High Clade citadels, with the Spire at the center of the Six Cities
+
+Later map/revision work should decide:
+
 - how the amphitheater looks on page
 - how the old blast hole relates to roads, citadels, Presentation, and central arena references
+- exact staging, checkpoints, and seating geometry
 - which existing manuscript descriptions need revision
 
 ## Governance Details
