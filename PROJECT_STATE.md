@@ -11,7 +11,7 @@ Last updated: 2026-06-25
 - Latest completed entity: loc-concord-manor
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `consistency: review important locations block`
-- Working tree expected to be clean: no; `loc-archeon` review packet is being opened and source-gathered
+- Working tree expected to be clean: no; `loc-archeon` review packet has reached author checkpoint and is being committed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The important-locations consistency review was completed, committed, and pushed 
 
 ## Current work
 
-Opening and source-gathering the `loc-archeon` location review packet.
+The `loc-archeon` location review packet has been source-gathered and moved to author checkpoint.
 
 ## Next action
 
-Gather source-backed material for `loc-archeon`, especially Archeon citadel/city-wedge geography, arena/training spaces, child-training compound, Kelyra captivity/rescue geography, and any contradictions between central-tower and far-away Archeon notes.
+Present the `loc-archeon` summary/questions to the author, then apply approved answers to durable files after feedback.
 
 ## Awaiting author input
 
-- None for `loc-archeon`; source gathering is in progress.
+- Author feedback is pending for `loc-archeon`.
 
 ## Known blockers or risks
 

@@ -45,7 +45,7 @@ There must normally be no more than one entity marked `in-review`.
 | 25 | loc-treasury | location | Treasury / vault chamber | approved | reviews/entities/locations/loc-treasury.md | bible/locations/loc-treasury.md | planning/candidates/locations/loc-treasury.md | 2026-06-25 |
 | 26 | loc-spire | location | Spire | approved | reviews/entities/locations/loc-spire.md | bible/locations/loc-spire.md | planning/candidates/locations/loc-spire.md | 2026-06-25 |
 | 27 | loc-concord-manor | location | Concord manor | approved | reviews/entities/locations/loc-concord-manor.md | bible/locations/loc-concord-manor.md | planning/candidates/locations/loc-concord-manor.md | 2026-06-25 |
-| 28 | loc-archeon | location | Archeon | in-review | reviews/entities/locations/loc-archeon.md | bible/locations/loc-archeon.md | planning/candidates/locations/loc-archeon.md |  |
+| 28 | loc-archeon | location | Archeon | awaiting-author | reviews/entities/locations/loc-archeon.md | bible/locations/loc-archeon.md | planning/candidates/locations/loc-archeon.md |  |
 | 29 | loc-sorevin-redbridge | location | Sorevin / Redbridge area | queued | reviews/entities/locations/loc-sorevin-redbridge.md | bible/locations/loc-sorevin-redbridge.md | planning/candidates/locations/loc-sorevin-redbridge.md |  |
 | 30 | object-seraph-heart | object | Heart / Seraph Heart | queued | reviews/entities/objects/object-seraph-heart.md | bible/objects/object-seraph-heart.md | planning/candidates/objects/object-seraph-heart.md |  |
 | 31 | object-tzorrax-sphere | object | Tzorrax Sphere | queued | reviews/entities/objects/object-tzorrax-sphere.md | bible/objects/object-tzorrax-sphere.md | planning/candidates/objects/object-tzorrax-sphere.md |  |
