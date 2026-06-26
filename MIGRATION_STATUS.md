@@ -115,6 +115,7 @@ Current phase notes:
 - Complete enough means every entity in the approved initial inventory is `approved`, `deferred`, or `superseded`; every entity needed for the outline is outline-ready or outline-ready with documented uncertainties; any `needs-revisit` item that would materially affect the outline is resolved or explicitly deferred by the author; block-level consistency and opportunity reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 - Complete enough does not freeze the story bible forever. Later blocking chapter/scene discoveries can reopen or create story-bible items, and nonblocking discoveries should be queued without interrupting chapter review.
 - Adaptive review depth applies going forward: deep, standard, brief/grouped, or deferred review depth should match narrative leverage, continuity risk, and outline usefulness. Previously approved files remain valid and do not need immediate retroactive metadata backfills.
+- The cultures-and-world-systems consistency and opportunity review was completed after the number-system / zán script review.
 
 Gate:
 

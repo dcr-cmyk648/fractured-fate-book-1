@@ -10,30 +10,30 @@ Last updated: 2026-06-26
 - Active or paused entity ID: none
 - Latest completed entity: culture-number-system-zan-script
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `workflow: adopt adaptive-depth story-bible reviews`
-- Working tree expected to be clean: no; approved `culture-number-system-zan-script` changes are being finalized
+- Latest relevant commit message: `bible: approve zán number system culture`
+- Working tree expected to be clean: no; cultures-and-world-systems block consistency review is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: cultures-and-world-systems
 - Block scope: culture and world-system records beginning with Clade hierarchy
-- Approved entities since last consistency review: 4
-- Last consistency review: reports/consistency/2026-06-25-major-objects-block.md
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-26-cultures-world-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`culture-number-system-zan-script` was approved by the author. Accepted spelling is `zán` singular/root, `zá` plural, and `zánwright`; the base-6 number system is culturally central and linked to zán lattice design through the strike-line; Nizán means absolute zero / negation / void and is not routinely used as a multi-digit placeholder; monad/monadic and dyad/dyadic terminology is accepted.
+`culture-number-system-zan-script` was approved, committed, and pushed. The cultures-and-world-systems block review found no blocking contradictions and marked the block outline-ready with documented uncertainties.
 
 ## Current work
 
-`culture-number-system-zan-script` approval is being finalized. Accepted culture, candidate, and decision files have been drafted; direct zán terminology dependents have been updated.
+The cultures-and-world-systems block consistency review is being finalized.
 
 ## Next action
 
-Validate approved `culture-number-system-zan-script` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-aldira`, unless author direction changes.
+Validate the cultures-and-world-systems consistency review, inspect the staged file list, commit and push. Then open the next queued entity, `char-aldira`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -64,7 +64,7 @@ Validate approved `culture-number-system-zan-script` changes, inspect the staged
 - Elric's fate-sight source is now accepted as at least partly Heart-exposure linked; remaining source mix, Davian resurrection mechanics/cost, Heart/Ink/Skein mechanics, and exact Fateweaving/Convergence relationship remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Elric codex-bridge presence, Ink/codex persistence, Niall codex use, Harvick codex implications, and Alara-journal object history remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 - Exact Rezin citadel map, Registry/Treasury access routes, old tunnel network, Registry map visual implementation, active-mode discharge geometry, exact Treasury sealed-entrance visual, and Spire amphitheater staging/approach remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
-- Detailed digit chart art, exact values 0-5 cross-line shapes, phonemes, dialectal hand signs, Concord cipher grammar, archetypal zán, and Nizán cosmology remain candidate material; see `planning/candidates/cultures/culture-number-system-zan-script.md`.
+- Detailed digit chart art, exact values 0-5 cross-line shapes, phonemes, dialectal hand signs, Concord cipher grammar, archetypal zán, and Nizán cosmology remain candidate material; see `planning/candidates/cultures/culture-number-system-zan-script.md` and `reports/consistency/2026-06-26-cultures-world-systems-block.md`.
 - Skein-layer zán, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
 
 ## Files to read for current task
