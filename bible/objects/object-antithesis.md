@@ -22,6 +22,8 @@ Antithesis is an object, not an independent magic system or separate magical pri
 
 Kelyra stole Antithesis when she escaped Archeon. She took it impulsively because she thought she might need it to defend herself.
 
+Selina used Antithesis before Davian. Davian does not know the true history: Kelyra tells him Selina passed the knife to him as a keepsake because she did not want to fight and kill anymore, while hiding that Selina was already dead and had gone to kill Vorren because of Kelyra's anti-Clade/destiny framing.
+
 Antithesis was not made by Zirene. It is an attempted Archeon copy of older Zirene designs: cheap, superficial, and inferior compared with Zirene's intended work, but still effective enough to matter.
 
 Zirene's accepted boundary is that she made the best Archeon gauntlets and other high-level devices, but Antithesis itself is only a cheap Archeon copy of her older designs.
@@ -69,6 +71,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Exact physical measurements, material, hilt, guard, blade shape, and detailed visual styling remain flexible.
 - Exact zän inscriptions and low-level circuit design remain unresolved.
 - Exact original Archeon designation remains unresolved and may stay unknown.
+- Exact mechanism by which Antithesis returned to Kelyra/Davian after Selina's death remains unresolved.
 - Exact Archeon device inventory around Antithesis, gauntlets, anchors, and related combat equipment remains for later technology/Zirene/Archeon reviews.
 - Exact scene-level concealment choreography in the Rezin citadel remains for later revision, but Alra's role is accepted.
 - Exact Paradox forging scene, timing, materials, and final end-book dialogue remain for `object-paradox` and later ending/outline review.
@@ -84,6 +87,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Related object: [Paradox](object-paradox.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Related character: [Vorren](../characters/char-vorren.md)
 - Related character: [Zirene](../characters/char-zirene.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
@@ -93,6 +97,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Provenance
 

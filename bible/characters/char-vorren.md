@@ -22,6 +22,8 @@ Vorren secretly remains useful to Drakhal-aligned interests as a disavowable wea
 
 Vorren is an important final-act antagonist, even though he also serves the generic "evil last boss" role. He is the Drakhal family's hidden weapon, the Heart-empowered trap for Niall, and a major pressure point for Maya, Niall, and Davian in the endgame.
 
+Vorren is also tied to Selina's backstory: Selina went off to kill him because of Kelyra's anti-Clade/destiny framing and was killed by overwhelming High Clade/Archeon-level power. Exact event choreography remains unresolved.
+
 ## Power and Status
 
 Vorren is extremely powerful, likely the strongest current Drakhal combatant in the Book 1 endgame. Evana and Caius together might be able to challenge or contain him, but he remains Drakhal's most dangerous direct weapon.
@@ -78,6 +80,7 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Related character: [Maya Rezin](char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Davian](char-davian.md)
+- Related character: [Selina](char-selina.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Serathis](char-serathis.md)
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
@@ -86,6 +89,7 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Related object: [Paradox](../objects/object-paradox.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Canonical Uncertainties
 
@@ -96,6 +100,7 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Exact Caius/Evana/Vorren relationship history.
 - Exact childhood abuse, Drakhal expectations, and scandal around banishment.
 - Exact final fight choreography and death line.
+- Exact Selina death-event choreography.
 - Whether Vorren's explanation of his own name is etymologically true or self-mythologizing.
 
 ## Provenance

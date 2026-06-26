@@ -36,9 +36,9 @@ The durable design is not the older five-scratch mask as a final object concept.
 
 The prologue mask break/shatter is deferred to later prologue revision. Current breakage is entangled with obsolete sword-form Antithesis mechanics and should not be treated as accepted until the revised scene is reviewed.
 
-Kelyra gives Davian the later Nizän-marked Concord mask. Whether this is the repaired original mask or a different new mask remains unresolved.
+Davian's original start-book mask is not Selina's.
 
-Whether the mask is Selina's old Concord mask remains unresolved. Selina would have worn a Concord mask, but the current object record does not decide whether Davian's mask was hers.
+Kelyra gives Davian the later Nizän-marked Concord mask when she wants him to return to the Rezin citadel, take the Heart, and kill Niall. This later mask is Selina's old Concord mask with the Nizän added.
 
 Exact Treasury theft / Niall confrontation mask timing remains for later revision. Current likely direction is that Davian puts it on after Maya confronts him as he is about to kill Niall.
 
@@ -53,8 +53,8 @@ The mask's long arc should support Davian's movement away from needing the Shade
 ## Canonical Uncertainties
 
 - Whether the prologue mask breaks in the revised prologue.
-- Whether Kelyra gives Davian the repaired original mask or a different new Concord mask.
-- Whether Davian's mask was originally Selina's.
+- Exact physical history of Selina's old Concord mask before Kelyra gives it to Davian.
+- Exact timing and method of the Nizän modification.
 - Exact Treasury theft / Niall confrontation mask timing.
 - Exact material, fastening, and durability.
 - Exact prologue/revision implementation of the mask zän descriptions.
@@ -65,10 +65,12 @@ The mask's long arc should support Davian's movement away from needing the Shade
 - Candidate material: [object-davian-mask](../../planning/candidates/objects/object-davian-mask.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related object: [Haloes](object-haloes.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Provenance
 

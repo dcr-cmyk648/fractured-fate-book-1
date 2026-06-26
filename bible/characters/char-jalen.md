@@ -46,7 +46,7 @@ Kelyra, not Jalen, is the primary source of the Archeon training techniques used
 
 Selina:
 
-Selina's death is a core wound for Jalen and likely shapes his fear of failing another child. Exact Selina history and Antithesis/blade history remain for later reviews.
+Selina's death is a core wound for Jalen and likely shapes his fear of failing another child. Selina's accepted record now owns her death, Antithesis history, and mask history.
 
 ## Abilities and Combat
 
@@ -74,6 +74,7 @@ Current manuscript material establishes Jalen as:
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
+- Related character: [Selina](char-selina.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -82,12 +83,13 @@ Current manuscript material establishes Jalen as:
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Canonical Uncertainties
 
 - Exact Concord leadership titles, hierarchy, and Trial of Dominion mechanics remain for `org-twilight-concord`.
 - Exact handling of older manuscript references to Jalen's seat and Ink Pact role needs later chronology and manuscript revision review.
-- Exact Selina death history and Antithesis/blade backstory remain for later Selina and object reviews.
+- Exact Jalen's personal knowledge, reaction, and involvement around Selina's death remain for later review.
 - Exact Jalen/Kelyra logistics during the Heart theft, Arrek murder support, and late Concord conflict need later plot review.
 
 ## Provenance

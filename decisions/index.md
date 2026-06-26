@@ -60,3 +60,4 @@ Do not use this file as a dump for unresolved questions.
 | Zirene Technical Neutrality and Device Boundaries | 2026-06-26 | accepted; stored in approved `char-zirene` record | [0052-zirene-technical-neutrality-and-device-boundaries.md](0052-zirene-technical-neutrality-and-device-boundaries.md) |
 | Karra Concord Challenge and Evacuation Role | 2026-06-26 | accepted; stored in approved `char-karra` record | [0053-karra-concord-challenge-and-evacuation-role.md](0053-karra-concord-challenge-and-evacuation-role.md) |
 | Arrek Identity, Murder, and Debt-Family Context | 2026-06-26 | accepted; stored in approved `char-arrek` record | [0054-arrek-identity-murder-and-debt-family-context.md](0054-arrek-identity-murder-and-debt-family-context.md) |
+| Selina Death, Family Myth, and Object Links | 2026-06-26 | accepted; stored in approved `char-selina` record | [0055-selina-death-family-myth-and-object-links.md](0055-selina-death-family-myth-and-object-links.md) |

@@ -78,8 +78,10 @@ During that attack, the manor's poor structural integrity matters: rooms, roof s
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Karra](../characters/char-karra.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Provenance
 

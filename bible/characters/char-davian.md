@@ -131,6 +131,12 @@ Accepted Selwin record: [Selwin Rezin](char-selwin.md)
 
 Davian saves Selwin during the Dissolution outburst, exposing Davian's underlying protective values and complicating his attempt to categorize all High Clades as enemies.
 
+Selina:
+
+Selina is Davian's deceased sibling, but Davian does not know the truth of her death. Kelyra tells him Selina left to work for the High Clades, passed Antithesis to him as a keepsake because she did not want to fight and kill anymore, and was later killed by Vorren for no reason. In reality, Selina had already died after going to kill Vorren because of Kelyra's anti-Clade/destiny framing.
+
+Davian's original start-book mask is not Selina's. The later Nizän-marked mask Kelyra gives him is Selina's old Concord mask with the Nizän added.
+
 ## Current Manuscript State
 
 In the prologue, Davian operates with the Twilight Concord under Jalen, fights the Sorevin Head Magus at Sorevin manor with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
@@ -158,6 +164,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Tanelle](char-tanelle.md)
 - Related character: [Marek](char-marek.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related character: [Selina](char-selina.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -183,6 +190,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Canonical Uncertainties
 

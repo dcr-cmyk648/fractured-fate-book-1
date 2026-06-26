@@ -69,6 +69,12 @@ Selina:
 
 Selina is Kelyra's deceased child. Kelyra ran from Archeon when she realized she was pregnant with Selina because Archeon children are taken from mothers and trained rather than raised.
 
+Kelyra trained Selina before Davian. Selina went off to kill Vorren because of Kelyra's anti-Clade/destiny framing and was killed by overwhelming High Clade/Archeon-level power.
+
+In Kelyra's mind, Davian could be the weapon Selina was not. Kelyra thinks her mistake was letting Selina get away on her own to attack Vorren too early, rather than training her more and making a better plan to kill him.
+
+Kelyra hides the truth from Davian. She tells him Selina left to work for the High Clades, passed Antithesis to him because she did not want to fight and kill anymore, and was later killed by Vorren for no reason, though Selina was already dead by then.
+
 Lethira:
 
 Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon. This remains unresolved pending later review.
@@ -99,6 +105,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Karra](char-karra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
+- Related character: [Selina](char-selina.md)
 - Related character: [Serathis](char-serathis.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -119,6 +126,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Canonical Uncertainties
 
@@ -128,6 +136,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
+- Exact Selina/Vorren death choreography and when Davian learns the truth remain unresolved.
 - Exact Concord leadership chronology, prior-leader death, and detailed Trial of Dominion execution need a later consistency pass.
 
 ## Provenance

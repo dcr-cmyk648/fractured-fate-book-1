@@ -60,6 +60,8 @@ The manor is both the Concord's primary hideout/base and a communal home/base fo
 
 The manor includes a courtyard with training dummies, repairs, guards or members, and muted activity. Its central hall is a repurposed dining area used for planning, and Selina's shrine is in the family meeting space.
 
+Selina's death is part of the accepted backstory behind Kelyra's first Harbinger Ink bargain, the prior Concord leader's death, and Kelyra's takeover.
+
 The hideout has maze-like security and escape features: grafted rooms, corridors, old stone, newer timber, and questionable structural integrity.
 
 After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. Concord members obey Karra because they respect the Trial rules enough and are frightened enough after Davian's explosive reappearance to accept emergency direction from her. Karra likely has to lie to Davian's siblings to get them out. The manor eventually collapses during the Archeon attack.
@@ -79,6 +81,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Karra](../characters/char-karra.md)
 - Related character: [Arrek Hadrin](../characters/char-arrek.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -90,6 +93,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Canonical Uncertainties
 
