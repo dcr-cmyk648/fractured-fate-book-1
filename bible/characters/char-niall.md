@@ -45,7 +45,7 @@ Niall is proud of Maya and loves her, but his approval, standards, and perfectio
 
 Alara:
 
-Alara is Niall's dead wife and a central grief wound. Keep Alara-specific material minimal here until `char-alara` and `event-alara-death-war-memory`: Niall is her widower, his grief is unresolved, and he briefly mistakes Maya for Alara in the prologue.
+Alara is Niall's dead wife and a central grief wound. Niall was already a hopeful reformer, but Alara gave his ambitions a concrete spiritual and moral undertone. Her apparent death twisted that reform impulse into grief, rigidity, control, and post-Alara dominance.
 
 Selwin Rezin:
 
@@ -99,6 +99,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
+- Related character: [Alara](char-alara.md)
 - Related object: [Paradox](../objects/object-paradox.md)
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
@@ -106,6 +107,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Superseded decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
+- Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 
@@ -113,7 +115,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 - Exact Heart/silver conduit/zán-strike-line mechanics remain for later magic and object reviews.
 - Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
-- Detailed Alara history remains for `char-alara` and `event-alara-death-war-memory`.
+- Exact Alara death-event choreography remains for `event-alara-death-war-memory`; Alara's high-level role, spirituality, and death direction are accepted in `char-alara`.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
 - Exact late-book Vorren fight execution remains candidate arc material.
 - Niall's possible older-brother or early-Presentation backstory is speculative only.

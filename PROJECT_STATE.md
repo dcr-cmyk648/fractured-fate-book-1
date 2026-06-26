@@ -8,32 +8,32 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-aldira
+- Latest completed entity: char-erynn
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Aldira character profile`
-- Working tree expected to be clean: no; approved `char-erynn` changes are being finalized
+- Latest relevant commit message: `bible: approve Erynn character profile`
+- Working tree expected to be clean: no; approved `char-alara` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 2
+- Approved entities since last consistency review: 3
 - Last consistency review: reports/consistency/2026-06-26-cultures-world-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-erynn` was approved by the author. Erynn is Maya's personal attendant / ladies' maid-like companion, hired young after Maya could form a Shroud; she is Maya's practical grounding and reality-check figure, class-perspective voice, social reader, and Maya/Davian observer. Secret-agent, betrayal, Ink Boon, and journal-planting directions are obsolete.
+`char-alara` was approved by the author. Alara is a structurally central Naerothi deceased character, Niall's wife, Maya/Selwin's mother, a Shroud/fateweaving/Convergence user, a moral/spiritual reform influence on Niall, and hidden higher-plane trapped figure after her apparent death. Her codex memories are meaningful and partly reliable but selected/idealized through Elric's trap.
 
 ## Current work
 
-`char-erynn` approval is being finalized.
+`char-alara` approval is being finalized.
 
 ## Next action
 
-Validate approved `char-erynn` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-alara`, unless author direction changes.
+Validate approved `char-alara` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-serathis`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -48,7 +48,7 @@ Validate approved `char-erynn` changes, inspect the staged file list, commit and
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
 - Local branch should remain synchronized with `origin/beta` during ongoing work.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
-- Detailed Alara history belongs to later `char-alara` and `event-alara-death-war-memory` reviews.
+- Exact Alara death-event choreography, higher-plane state, and remaining cosmology mechanics belong to later `event-alara-death-war-memory`, Fateweaving/Skein, and endgame reviews.
 - Kelyra's hereditary kinesis/Subversion terminology, future Shroud manifestation scene, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -129,6 +129,7 @@ Validate approved `char-erynn` changes, inspect the staged file list, commit and
 - reviews/entities/objects/object-alara-journal.md
 - reviews/entities/characters/char-aldira.md
 - reviews/entities/characters/char-erynn.md
+- reviews/entities/characters/char-alara.md
 - bible/magic/magic-codex-memory.md
 - planning/candidates/magic/magic-codex-memory.md
 - decisions/0024-auratic-codex-memory-mechanics.md

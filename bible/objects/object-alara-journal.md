@@ -44,7 +44,9 @@ He provided journals to everyone known to have one: Alara, Niall, Harvick, and h
 
 Alara's journal is specifically tampered with by Elric. The corrupted key enables Elric's bridge, letting an Elric-linked presence interact through the codex beyond normal codex behavior.
 
-The journal's parent-memory function is part of Elric's trap. It idealizes or distorts Maya's parents, preserving emotionally meaningful material while shaping Maya toward the belief that she can repair impossible losses.
+The journal's parent-memory function is part of Elric's trap. It idealizes, selects, or distorts Maya's parents, preserving emotionally meaningful and partly reliable material while shaping Maya toward the belief that she can repair impossible losses through enough effort.
+
+Elric's distortion later backfires in a limited way: because the memories preserve a real positive version of Niall through Alara's perception, Maya can eventually integrate Niall as both broken and aspirational, helping him temporarily overcome his grief.
 
 ## Book 1 Sequence
 
@@ -72,8 +74,10 @@ After the bridge incident, Niall takes the codex.
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
+- Related character: [Alara](../characters/char-alara.md)
 - Related location: [Rezin Citadel / Rezin fortress](../locations/loc-rezin-citadel.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
+- Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 
 ## Provenance
 

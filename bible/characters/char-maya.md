@@ -88,6 +88,10 @@ Erynn and Aldira function as important grounding or corrective figures for Maya 
 
 Erynn is a strong reality-check source for Maya. She helps Maya remain human and connected through rest, food, warmth, ordinary needs, and private teasing, countering Maya's internal voices shaped by Niall's grief, neglect, micromanagement, and over-compensatory perfectionism.
 
+Alara:
+
+Alara's codex memories are emotionally meaningful and partly reliable, but filtered and idealized through Elric's trap. They intensify Maya's belief that she should be able to repair impossible losses through enough effort, while also preserving enough true positive Niall material that Maya can later see him as both broken and aspirational.
+
 ## Current Manuscript State
 
 Maya is presented in the prologue as a young noble and magus preparing for the High Clade Council and Presentation. She is attended by Erynn, reassured by Niall, and concerned about not letting him down.
@@ -139,6 +143,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Decision: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
+- Decision: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 

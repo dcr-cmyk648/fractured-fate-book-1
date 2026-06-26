@@ -50,13 +50,15 @@ Her fate/Skein perception is emotionally dangerous because it interacts with vig
 
 ## Alara and Naeroth Heritage
 
-Alara was from Naeroth and had rare access to fateweaving and Convergence heat transfer, as well as a Shroud.
+Alara was Naerothi and had rare access to fateweaving and Convergence heat transfer, as well as a Shroud.
 
 Naeroth heritage can rarely grant fateweaving and Convergence heat transfer despite the wider High Clade cultural assumption that only humans have hereditary magic and Shrouds.
 
 Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level. Exact inheritance mechanics and the relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remain deferred.
 
 This file stores Alara's fateweaving and Convergence only at high level. Detailed Alara mechanics belong to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
+
+At the hidden cosmology level, Alara is likely trapped in a higher plane after going there to try to kill the extraplanar deity. No Book 1 character knows this, and it should remain mostly invisible except possibly during Maya's end-book resurrection of Davian and contact with higher planes.
 
 ## Elric and Dark Threads
 
@@ -93,6 +95,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Review packet: [magic-fateweaving-skein](../../reviews/entities/magic/magic-fateweaving-skein.md)
 - Candidate material: [magic-fateweaving-skein](../../planning/candidates/magic/magic-fateweaving-skein.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
+- Related character: [Alara](../characters/char-alara.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
@@ -105,6 +108,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Superseded decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
+- Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 
 ## Provenance
 

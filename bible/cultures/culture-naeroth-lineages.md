@@ -18,9 +18,9 @@ Broader demi-human peoples, race taxonomy, mercenary roles, and non-Naeroth soci
 
 ## Core Facts
 
-Alara is Naeroth.
+Alara is Naerothi, meaning of Naeroth descent.
 
-Maya and Selwin are mixed Rezin/Naeroth descendants through Alara and Niall.
+Maya and Selwin are mixed Rezin/Naerothi descendants through Alara and Niall.
 
 Naeroth are non-human or demi-human enough to trigger prejudice in High Clade society. Maya receives racist sentiment outside Rezin influence because of her Naeroth heritage, though people are afraid to go too far because of Niall and because insulting Maya implies insulting Alara.
 
@@ -49,7 +49,7 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 ## Canonical Uncertainties
 
 - Exact Naeroth origin, homeland, culture, social organization, language, and isolationism remain unresolved.
-- Whether Naeroth should be called demi-human, non-human, lineage, people, or another in-world term remains unresolved.
+- Whether Naeroth should be called demi-human, non-human, lineage, people, or another in-world term remains unresolved. `Naerothi` is accepted for someone of Naeroth descent.
 - Exact physical traits beyond Alara's fully purple eyes and Maya's purple eye rings remain deferred.
 - Exact Fateweaving / Convergence / Shroud inheritance mechanics remain unresolved.
 - Exact relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remains unresolved.
@@ -67,7 +67,8 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related future culture: `culture-demi-human-peoples`
 - Related future magic: `magic-convergence-heat-transfer`
-- Related future character: `char-alara`
+- Related character: [Alara](../characters/char-alara.md)
+- Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 
 ## Provenance

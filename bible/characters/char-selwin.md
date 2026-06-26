@@ -22,7 +22,7 @@ He is cheerful, open, eager, and deeply admiring of Maya and Niall. He is also a
 
 Selwin is a living pressure point in the Rezin family grief and perfectionism pattern. He wants closeness and proof of worth, not just magical instruction.
 
-His relationship with Niall is shaped by Niall's grief, withdrawal, mistaken belief that Maya stepping up meant Selwin needed less from him, and subconscious blame related to Alara's postpartum psychosis.
+His relationship with Niall is shaped by Niall's grief, withdrawal, mistaken belief that Maya stepping up meant Selwin needed less from him, and subconscious blame related to Alara's postpartum/fateweaving decline and apparent death after Selwin's birth.
 
 Niall does not consciously know he blames Selwin. The accepted pattern is that Selwin makes Niall uncomfortable, and Niall may make excuses to avoid or not train him.
 
@@ -75,7 +75,7 @@ Current manuscript material establishes:
 ## Canonical Uncertainties
 
 - Exact Dissolution mechanics remain for `magic-dissolution`.
-- Exact Alara postpartum/decline history remains for `char-alara`.
+- Exact Alara death-event choreography remains for `event-alara-death-war-memory`; high-level postpartum/fateweaving decline and apparent death direction are accepted in `char-alara`.
 - Exact Naeroth/crossbreed contribution to Selwin's abilities remains for later Alara, Naeroth, and magic reviews.
 - Long-term Shroud possibility remains unresolved beyond Book 1.
 - Selwin's final-series role remains candidate material.

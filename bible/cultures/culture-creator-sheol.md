@@ -59,7 +59,7 @@ That conversation is one place where the Elric/Serathis cosmology can surface: t
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
-- Related character: `char-alara`
+- Related character: [Alara](../characters/char-alara.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
 - Decision record: [Creator, Sheol, and Watchmaker Cosmology](../../decisions/0041-creator-sheol-and-watchmaker-cosmology.md)
