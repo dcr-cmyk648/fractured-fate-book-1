@@ -86,6 +86,8 @@ Erynn and Aldira:
 
 Erynn and Aldira function as important grounding or corrective figures for Maya in different registers: Erynn personal and practical, Aldira strategic and dry.
 
+Erynn is a strong reality-check source for Maya. She helps Maya remain human and connected through rest, food, warmth, ordinary needs, and private teasing, countering Maya's internal voices shaped by Niall's grief, neglect, micromanagement, and over-compensatory perfectionism.
+
 ## Current Manuscript State
 
 Maya is presented in the prologue as a young noble and magus preparing for the High Clade Council and Presentation. She is attended by Erynn, reassured by Niall, and concerned about not letting him down.

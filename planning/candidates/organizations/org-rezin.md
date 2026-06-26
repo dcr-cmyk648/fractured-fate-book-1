@@ -22,6 +22,8 @@ Aldira, Harvick, and Erynn are accepted as inner-circle household figures, but t
 
 Aldira's spymaster-like function is accepted. Characters may call her `spymaster` colloquially, but her formal office name remains unresolved.
 
+Erynn's companion/attendant function is accepted. Exact formal household title remains unresolved.
+
 Possible categories to evaluate later:
 
 - household adviser

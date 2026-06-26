@@ -38,6 +38,8 @@ Aldira, Harvick, and Erynn are inner-circle household figures, not Rezin blood f
 
 Aldira handles Rezin intelligence, records, codex analysis, and spymaster-like operational support. Characters may colloquially call her `spymaster`, but the exact formal office name remains unresolved.
 
+Erynn is Maya's personal attendant / ladies' maid-like companion. She was hired at a fairly young age to be Maya's companion and attendant, likely after Maya could form a Shroud and was therefore safer to be around and better protected from anyone exposed to her.
+
 Alden is an earlier name/gender version of Aldira from prior drafting. All old Alden references now refer to Aldira. Manuscript cleanup remains a later revision task.
 
 Other non-family figures functioning inside the Rezin power structure include soldiers, wall commanders, elite guards, personal guards, healers, servants, zanwrights, contractors, and advisers. Their exact titles and offices remain for their own reviews.
@@ -76,6 +78,7 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Aldira](../characters/char-aldira.md)
+- Related character: [Erynn](../characters/char-erynn.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Registry](org-registry.md)
@@ -84,10 +87,11 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 - Decision record: [Aldira Identity, Spymaster Role, and Maya Support](../../decisions/0043-aldira-identity-spymaster-role-and-maya-support.md)
+- Decision record: [Erynn Companion Role and Maya Reality Check](../../decisions/0044-erynn-companion-role-and-maya-reality-check.md)
 
 ## Canonical Uncertainties
 
-- Exact formal titles for Aldira, Harvick, Erynn, wall commanders, forerunners, elite guards, and other household or military roles remain for later reviews. Aldira's colloquial `spymaster` function is accepted, but her formal office name is not.
+- Exact formal titles for Aldira, Harvick, Erynn, wall commanders, forerunners, elite guards, and other household or military roles remain for later reviews. Aldira's colloquial `spymaster` function is accepted, but her formal office name is not. Erynn's companion/attendant function is accepted, but her formal household title remains unresolved.
 - The exact public knowledge of Alara's Naeroth origin and Maya's dual heritage remains for Alara, Naeroth, and culture reviews.
 - Exact Registry, Heart, Treasury, citadel, Shroud, silver-conduit, and zán-lattice mechanics remain for separate entity reviews.
 - Old `Alden` references are now Aldira references; manuscript/prose cleanup remains for later revision work.

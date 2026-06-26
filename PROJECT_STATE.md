@@ -8,32 +8,32 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: culture-number-system-zan-script
+- Latest completed entity: char-aldira
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: complete cultures world-systems consistency pass`
-- Working tree expected to be clean: no; approved `char-aldira` changes are being finalized
+- Latest relevant commit message: `bible: approve Aldira character profile`
+- Working tree expected to be clean: no; approved `char-erynn` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-26-cultures-world-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-aldira` was approved by the author. Aldira is the accepted current character, all old Alden references now refer to Aldira, her Rezin intelligence/records/codex specialist role is accepted, `spymaster` is acceptable colloquial POV language, and her Maya-support/corrective role is accepted.
+`char-erynn` was approved by the author. Erynn is Maya's personal attendant / ladies' maid-like companion, hired young after Maya could form a Shroud; she is Maya's practical grounding and reality-check figure, class-perspective voice, social reader, and Maya/Davian observer. Secret-agent, betrayal, Ink Boon, and journal-planting directions are obsolete.
 
 ## Current work
 
-`char-aldira` approval is being finalized.
+`char-erynn` approval is being finalized.
 
 ## Next action
 
-Validate approved `char-aldira` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-erynn`, unless author direction changes.
+Validate approved `char-erynn` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-alara`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -128,6 +128,7 @@ Validate approved `char-aldira` changes, inspect the staged file list, commit an
 - reviews/entities/objects/object-davian-mask.md
 - reviews/entities/objects/object-alara-journal.md
 - reviews/entities/characters/char-aldira.md
+- reviews/entities/characters/char-erynn.md
 - bible/magic/magic-codex-memory.md
 - planning/candidates/magic/magic-codex-memory.md
 - decisions/0024-auratic-codex-memory-mechanics.md

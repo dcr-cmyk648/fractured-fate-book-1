@@ -61,7 +61,7 @@ There must normally be no more than one entity marked `in-review`.
 | 40 | culture-creator-sheol | culture | Creator / Sheol / gods and religious language | approved | reviews/entities/cultures/culture-creator-sheol.md | bible/cultures/culture-creator-sheol.md | planning/candidates/cultures/culture-creator-sheol.md | 2026-06-25 |
 | 41 | culture-number-system-zan-script | culture | Number system / zán script | approved | reviews/entities/cultures/culture-number-system-zan-script.md | bible/cultures/culture-number-system-zan-script.md | planning/candidates/cultures/culture-number-system-zan-script.md | 2026-06-26 |
 | 42 | char-aldira | character | Aldira | approved | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
-| 43 | char-erynn | character | Erynn | queued | reviews/entities/characters/char-erynn.md | bible/characters/char-erynn.md | planning/candidates/characters/char-erynn.md |  |
+| 43 | char-erynn | character | Erynn | approved | reviews/entities/characters/char-erynn.md | bible/characters/char-erynn.md | planning/candidates/characters/char-erynn.md | 2026-06-26 |
 | 44 | char-alara | character | Alara | queued | reviews/entities/characters/char-alara.md | bible/characters/char-alara.md | planning/candidates/characters/char-alara.md |  |
 | 45 | char-serathis | character | Serathis | queued | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md |  |
 | 46 | char-vorren | character | Vorren | queued | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md |  |
