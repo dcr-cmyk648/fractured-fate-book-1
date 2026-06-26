@@ -1,24 +1,24 @@
 ---
 id: magic-zan-lattices
 entity_type: magic
-display_name: Zán / zá lattices / zánwrights
+display_name: Zän / zä lattices / zänwrights
 status: candidate
 last_reviewed: 2026-06-24
 review_packet: reviews/entities/magic/magic-zan-lattices.md
 accepted_file: bible/magic/magic-zan-lattices.md
 ---
 
-# Zán Candidate Material
+# Zän Candidate Material
 
-This file preserves useful but not fully approved zán material. It is not accepted canon unless later reviewed and promoted.
+This file preserves useful but not fully approved zän material. It is not accepted canon unless later reviewed and promoted.
 
 ## Typing and Spelling Variants
 
 Accepted spelling is accented:
 
-- singular: `zán`
-- plural: `zá`
-- profession: `zánwright`
+- singular: `zän`
+- plural: `zä`
+- profession: `zänwright`
 
 Unaccented `za`, `zan`, and `zanwright` may appear in notes or control-file IDs because they are easier to type. They are not the final in-world spelling.
 
@@ -31,9 +31,9 @@ Older or alternate terms:
 - `jin`
 - `glyph`
 
-Current direction is that these do not supersede `zánwright` for Book 1. Preserve them for later culture/terminology review only if a regional, historical, or translation distinction becomes useful.
+Current direction is that these do not supersede `zänwright` for Book 1. Preserve them for later culture/terminology review only if a regional, historical, or translation distinction becomes useful.
 
-## Number System and Nizán
+## Number System and Nizän
 
 Defer to more specific culture/terminology review:
 
@@ -41,38 +41,38 @@ Defer to more specific culture/terminology review:
 - horizontal strike-line notation
 - marks and modifiers
 - empty-value notation
-- `Nizán` / `nïzá`
+- `Nizän` / `nïzä`
 - whether zero, negation, and null concepts overlap
 
-Accepted high-level principle: the base-6 number system is structurally linked to zán design, and the strike-line conducts energy between zá in a lattice.
+Accepted high-level principle: the base-6 number system is structurally linked to zän design, and the strike-line conducts energy between zä in a lattice.
 
-## Archetypal and Conceptual Zán
+## Archetypal and Conceptual Zän
 
 Defer to more specific review:
 
-- archetypal zán such as the Tyrant
-- conceptual zán such as negation and balance
-- tarot-like ancient zán experience
+- archetypal zän such as the Tyrant
+- conceptual zän such as negation and balance
+- tarot-like ancient zän experience
 - how much ancient symbolic meaning modern practical systems preserve
 
-## Person-Specific Zán
+## Person-Specific Zän
 
-Zirene raises the conceptual issue of whether people have a zán in the same way they have names and auras.
+Zirene raises the conceptual issue of whether people have a zän in the same way they have names and auras.
 
 Preserve for later:
 
-- person-specific zán
+- person-specific zän
 - relationship among true name, aura, identity, and represented person
 - whether high-level attached lattices must represent the person directly
 - how this relates to Davian's Ink, aura theft, and Registry bypass
 
-## Skein-Layer Zán
+## Skein-Layer Zän
 
-Keep for later cosmology or advanced-zán review:
+Keep for later cosmology or advanced-zän review:
 
-- zán etched in another layer of reality
-- zánwork that interacts directly with the Skein
-- Maya sensing zán differently after Fateweaving/Skein exposure
+- zän etched in another layer of reality
+- zänwork that interacts directly with the Skein
+- Maya sensing zän differently after Fateweaving/Skein exposure
 - whether reality-layer circuitry exists or is only a metaphor
 
 ## Heart, Registry, and Treasury Mechanics
@@ -84,13 +84,13 @@ Still unresolved:
 - exact Heart-to-Registry power path
 - exact Treasury sphere / Heart containment system
 - gravity-negation sink mechanics
-- `Nizán` in the Heart/Treasury network
+- `Nizän` in the Heart/Treasury network
 - active/passive Registry discharge limits
-- whether some Registry systems use ancient-style zán
+- whether some Registry systems use ancient-style zän
 
 ## Niall's Silver
 
-Accepted high level: Niall's hidden silver conduits are zán-etched lightning modifiers.
+Accepted high level: Niall's hidden silver conduits are zän-etched lightning modifiers.
 
 Still unresolved:
 
@@ -102,7 +102,7 @@ Still unresolved:
 
 ## Zirene, Archeon, and Antithesis
 
-Accepted high level: Zirene is an advanced zánwright tied to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage.
+Accepted high level: Zirene is an advanced zänwright tied to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage.
 
 Still unresolved:
 
@@ -117,10 +117,10 @@ Still unresolved:
 
 Preserve for later culture review:
 
-- Naeroth influence on zánwork
+- Naeroth influence on zänwork
 - whether Elarion mass-produced Naeroth-derived ideas
 - whether Naeroth techniques emphasize moderation/shaping
-- how zán history relates to High Clade stagnation and technological centralization
+- how zän history relates to High Clade stagnation and technological centralization
 
 ## Provenance
 

@@ -45,7 +45,7 @@ Deferred:
 - whether Niall shows Maya the death through his codex
 - how much Maya contacts or perceives Alara during Davian's resurrection
 - exact "eye" imagery
-- exact Nizán / Sheol / Skein / higher-plane relationship
+- exact Nizän / Sheol / Skein / higher-plane relationship
 - whether Alara is recoverable in later books
 
 ## Spirituality

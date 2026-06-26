@@ -42,9 +42,9 @@ The Heart is a near-limitless power source around which later major Rezin system
 
 The Registry was not originally designed with the Heart in mind. In its current expanded form, the Registry depends on Heart-level input for its overpowered full functionality.
 
-The Heart now provides most of the Registry's power and supports the major Rezin zán systems that were later built around near-limitless input. After the Heart theft, those systems cannot continue operating at the same scope.
+The Heart now provides most of the Registry's power and supports the major Rezin zän systems that were later built around near-limitless input. After the Heart theft, those systems cannot continue operating at the same scope.
 
-After the theft, the Registry is down, compromised, or radically reduced. Maya's repair direction is narrower passive/gateway detection powered by zán sinks or other more efficient arrangements rather than restoration of the old Heart-fed scope.
+After the theft, the Registry is down, compromised, or radically reduced. Maya's repair direction is narrower passive/gateway detection powered by zän sinks or other more efficient arrangements rather than restoration of the old Heart-fed scope.
 
 Exact Heart-to-Registry power path, storage, discharge, and active-mode behavior remain unresolved.
 
@@ -55,6 +55,8 @@ Treasury chamber weightlessness is produced by interaction between the Heart and
 When Davian shatters the Treasury sphere and removes the Heart, the weightless field ends. The Treasury chamber has no active containment field afterward: nothing remains floating, and gravity returns.
 
 Tanelle notices that the Treasury sphere lattice behaves like containment rather than outward weightlessness generation, but she does not know the Heart or the full Treasury secret.
+
+Marek accepts the official weightlessness explanation he received through Maya, who also does not know the true Treasury secret. Marek does not know or infer the Heart/containment-armature mechanism.
 
 Davian uses Antithesis, kinesis/Subversion, Ink pressure, and the Treasury sphere's own lattice energy to hurl the sphere at Niall. Antithesis functions as a schema sink/anchor and channel in the action. The backlash shatters Davian's arms. The sphere breaks, exposing the Heart.
 
@@ -70,8 +72,8 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 
 - Exact origin or identity of the Heart remains unresolved.
 - Exact meaning and reliability of old `Tzorrax Heart` manuscript terminology remains unresolved.
-- Exact Nizán relationship remains unresolved.
-- Exact zán/armature mechanics around containment remain unresolved.
+- Exact Nizän relationship remains unresolved.
+- Exact zän/armature mechanics around containment remain unresolved.
 - Exact Heart-to-Registry power path remains unresolved.
 - Exact Heart/Skein/reality effect remains unresolved beyond the accepted fact that the Heart does something to the Skein.
 - Exact mechanics of Elric's Heart exposure and fate sight remain unresolved beyond the accepted link.
@@ -88,14 +90,16 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Tanelle](../characters/char-tanelle.md)
+- Related character: [Marek](../characters/char-marek.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related object: [Antithesis](object-antithesis.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
-- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 
 ## Provenance
 
@@ -108,9 +112,9 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - `imports/normalized/melissa-copy.md:17740-17865`: Davian's memory of the Heart's alien sensory quality.
 - `imports/normalized/melissa-copy.md:18770-18820`: Maya's post-theft assumption that the Heart may be recoverable and interim security while Registry is down.
 - `imports/normalized/melissa-copy.md:20380-20470`: Davian's later explanation of pulling/converting/releasing sphere-lattice energy and Ink showing him to stab Antithesis into the sphere.
-- `imports/normalized/melissa-copy.md:20525-20555`: Maya's zán-sink/passive-detection repair direction.
+- `imports/normalized/melissa-copy.md:20525-20555`: Maya's zän-sink/passive-detection repair direction.
 - `imports/normalized/melissa-copy.md:21700-21738`: summary of theft, Heart delivery to Kelyra, and Harbingers aftermath.
-- `imports/normalized/book-1-outline.md:4240-4320`: containment and weightlessness as side effect; candidate Nizán/Skein details.
+- `imports/normalized/book-1-outline.md:4240-4320`: containment and weightlessness as side effect; candidate Nizän/Skein details.
 - `imports/normalized/book-1-outline.md:7488-7735`: lack of Heart as loss of limitless circuit power and candidate Elric Heart exposure.
 - `imports/normalized/book-1-outline.md:8480-8565`: Niall locking the Heart away, containment network, gravity negation, and theft mechanics.
 - `bible/locations/loc-treasury.md`

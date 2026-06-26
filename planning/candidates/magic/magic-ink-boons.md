@@ -81,9 +81,9 @@ Preserve for later Elric, Fateweaving/Skein, and Codex reviews:
 
 ## Zirene and Skin-Etched Zanwork
 
-Bullet notes propose Zirene etching silver zán lattices into Davian's skin after learning from Ink.
+Bullet notes propose Zirene etching silver zän lattices into Davian's skin after learning from Ink.
 
-This remains candidate material for `magic-zan-lattices`, Zirene, Davian technology, and later body-linked zánwork reviews.
+This remains candidate material for `magic-zan-lattices`, Zirene, Davian technology, and later body-linked zänwork reviews.
 
 ## Provenance
 

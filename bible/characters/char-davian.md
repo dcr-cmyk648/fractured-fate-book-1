@@ -28,7 +28,7 @@ Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develop
 
 Davian is competent, dangerous, and loyal to his family, but his identity is entangled with needing to matter through threat, violence, and visible agency.
 
-He wants to be seen. His start-book matte black Concord mask is marked with the zán for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizán of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
+He wants to be seen. His start-book matte black Concord mask is marked with the zän for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizän of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
 
 Davian's approved arc moves away from negation: wanting to tear everything down, hurt the High Clades, prove agency, and stop feeling helpless by destroying hated things. His intended movement is toward values: valuing Maya, protecting people and things he values, and choosing action because it serves those values rather than because it satisfies rage or control.
 
@@ -111,9 +111,15 @@ During the Treasury confrontation, Davian stops Harvick's heart with blunt force
 
 Tanelle:
 
-Tanelle is Davian's talkative zánwright coworker under his Arrek cover. She helps pull him into the contractor group, teaches practical zánwright work through chatter, and makes his temporary worker-space belonging in the Rezin citadel emotionally credible.
+Tanelle is Davian's talkative zänwright coworker under his Arrek cover. She helps pull him into the contractor group, teaches practical zänwright work through chatter, and makes his temporary worker-space belonging in the Rezin citadel emotionally credible.
 
 Tanelle's kindness and competence complicate Davian's clean hatred of everyone under Rezin protection. Her Treasury sphere observations also help Davian understand that the lattice behaves like containment rather than ordinary outward weightlessness generation, without her knowing the Heart or full system.
+
+Marek:
+
+Marek is the Group One zänwright supervisor who helps Davian function after Davian receives a real promotion under the Arrek cover.
+
+Davian's promotion is real even though his identity is false: he receives it for saving Selwin and because the Treasury project needs another supervisor to help Marek. Davian relies on Marek's tutoring, plans, schematics, and practical supervisory competence, likely in exchange for part of the supervisor bonus. Davian may over-read Marek's judgment of him.
 
 Selwin:
 
@@ -146,6 +152,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Tanelle](char-tanelle.md)
+- Related character: [Marek](char-marek.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
@@ -168,7 +175,8 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
-- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 
 ## Canonical Uncertainties
 

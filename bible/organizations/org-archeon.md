@@ -113,7 +113,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related magic boundary: [Antithesis boundary record](../magic/magic-antithesis.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Decision record: [Archeon High Clade Rise and Training System](../../decisions/0012-archeon-high-clade-rise-and-training-system.md)
@@ -132,7 +132,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Exact Shroud throughput and manifestation model is approved in `magic-shroud`; exact Ink/Shroud and kinesis/Shroud interaction details remain for later magic reviews.
 - Exact Ink Pact rapid-movement integration with Archeon kinesis, Shroud use, and martial technique remains for later magic reviews.
 - Exact broader Zirene-derived Archeon technology remains for later technology/object reviews.
-- Zirene is accepted at high level as the advanced zánwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact Archeon device mechanics remain for later reviews.
+- Zirene is accepted at high level as the advanced zänwright behind or connected to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage; exact Archeon device mechanics remain for later reviews.
 - Antithesis is not a separate kind of magic; it refers only to Davian's dagger. Its schema-sink/anchor role is approved at object level. Force-parting or diffusion behavior remains candidate as an extension of Archeon kinesis, not a unique Antithesis property.
 - Exact Archeon/Naeroth martial foundation relationship remains for later culture/magic review.
 - Exact Archeon/Drakhal political and breeding-contract arrangements remain for later reviews.

@@ -72,7 +72,7 @@ Selwin is Alara and Niall's son.
 
 The high-level accepted direction is that Alara's postpartum/fateweaving decline after Selwin's birth leads toward her apparent death. Niall at least subconsciously blames Selwin for this, but he does not consciously know he is doing so unless later approved.
 
-Exact postpartum, fateweaving, higher-plane, "eye," Nizán, Sheol, and death-scene mechanics remain deferred.
+Exact postpartum, fateweaving, higher-plane, "eye," Nizän, Sheol, and death-scene mechanics remain deferred.
 
 ## Elric
 
@@ -114,7 +114,7 @@ Current manuscript material establishes Alara through:
 - Exact Convergence/fateweaving/Shroud mechanics remain for later magic reviews.
 - Exact apparent death scene remains for `event-alara-death-war-memory`.
 - Exact higher-plane state and extraplanar-deity conflict remain deferred.
-- Exact relationship among postpartum psychosis, fateweaving, the eye, Nizán, Sheol, the Skein, and Alara's apparent death remains unresolved.
+- Exact relationship among postpartum psychosis, fateweaving, the eye, Nizän, Sheol, the Skein, and Alara's apparent death remains unresolved.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
 - Exact theology and good-God language remain flexible.
 - Exact Elric motive in encouraging or approving the Niall/Alara union remains unresolved.

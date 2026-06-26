@@ -37,7 +37,7 @@ He is associated with:
 - fate/Skein inquiry
 - Ink experiments and Ink Pacts
 - codex/aura systems
-- advanced zán mechanisms
+- advanced zän mechanisms
 - High Clade social reform attempts
 
 Younger Elric wanted to outlaw High Clade birthing contracts because he viewed them as slavery for both the contract participants and the children born through the system.

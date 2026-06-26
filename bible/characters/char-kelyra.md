@@ -39,7 +39,7 @@ Kelyra has strong kinesis, the accepted name for Archeon hereditary magic. She c
 
 She is a genius martial artist. Her martial talent is linked to speed of mind, but the speed-of-thought aspect should be shown through action and perception rather than codified or quantified in exposition.
 
-Kelyra taught Selina and then Davian to be killers using Archeon training techniques, martial foundations, and kinesis-adjacent foundations. Davian says she used Subversion, her name for kinesis, to drain zán that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
+Kelyra taught Selina and then Davian to be killers using Archeon training techniques, martial foundations, and kinesis-adjacent foundations. Davian says she used Subversion, her name for kinesis, to drain zän that powered defenses during break-ins, and Harvick identifies some of Davian's Kelyra-taught movements as precursors or preparatory movements related to Archeon/Naeroth-style foundational techniques.
 
 Kelyra's Shroud is blocked by trauma. She knows it is there, but the idea that she must suppress it to escape Archeon is deeply ingrained. Even thinking about manifesting a Shroud is very unpleasant for her.
 
@@ -85,7 +85,7 @@ In Chapter 3, Kelyra manages the family space, sends Kael and Lirien away from a
 
 She participates in planning the Heart theft, understands the Registry's aura/name restrictions, and explains the passive-mode requirement and active-mode danger.
 
-Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zán defenses, and the body-based foundations she taught Davian.
+Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zän defenses, and the body-based foundations she taught Davian.
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
 

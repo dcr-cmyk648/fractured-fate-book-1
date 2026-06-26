@@ -12,11 +12,11 @@ accepted_file: bible/objects/object-davian-mask.md
 ## Resolved by Approved Object Record
 
 - Davian's durable mask is a matte black Concord / Masked Clade mask.
-- The mask always has a zán mark on it.
-- At the start of Book 1, Davian has carved the zán for equality / equilibrium into the mask.
+- The mask always has a zän mark on it.
+- At the start of Book 1, Davian has carved the zän for equality / equilibrium into the mask.
 - Kelyra, not Jalen, criticizes the prologue/start-book mask mark in the accepted revision direction.
-- Later Kelyra gives Davian a Concord mask with the Nizán on it as a toxic supportive gesture when she wants him to return to the citadel, take the Heart, and kill Niall.
-- The Nizán is the zán of zero / negation / void and is visually made from two sets of overlapping parallel lines that leave a diamond-shaped empty center.
+- Later Kelyra gives Davian a Concord mask with the Nizän on it as a toxic supportive gesture when she wants him to return to the citadel, take the Heart, and kill Niall.
+- The Nizän is the zän of zero / negation / void and is visually made from two sets of overlapping parallel lines that leave a diamond-shaped empty center.
 - The five-scratch mask design is superseded as the durable concept unless a later revision reuses it.
 - Prologue mask breakage is deferred.
 - Selina's mask connection is unresolved.
@@ -34,7 +34,7 @@ accepted_file: bible/objects/object-davian-mask.md
 
 ## Terminology Candidate
 
-Terminology is now resolved by `culture-number-system-zan-script`: `zán` is singular/root, `zá` is plural, and `zánwright` is the profession term.
+Terminology is now resolved by `culture-number-system-zan-script`: `zän` is singular/root, `zä` is plural, and `zänwright` is the profession term.
 
 ## Routing
 

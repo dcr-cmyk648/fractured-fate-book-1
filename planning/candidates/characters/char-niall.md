@@ -21,9 +21,9 @@ This file preserves useful but not fully approved Niall material. It should not 
 
 ## Magic and Technology Candidates
 
-- Niall's hidden silver zán-strike-line-etched conduits are accepted as technology/modifiers for lightning, but their exact mechanics remain unresolved.
+- Niall's hidden silver zän-strike-line-etched conduits are accepted as technology/modifiers for lightning, but their exact mechanics remain unresolved.
 - Heart overcharging of the silver conduits, post-Heart self-charging, charge storage, and underground limitations remain for later magic/object reviews.
-- The exact relationship between Niall's lightning, the silver conduits, zán-strike-line technology, and the Seraph Heart should be reviewed during `magic-zan-lattices`, `object-seraph-heart`, or another relevant magic/object review.
+- The exact relationship between Niall's lightning, the silver conduits, zän-strike-line technology, and the Seraph Heart should be reviewed during `magic-zan-lattices`, `object-seraph-heart`, or another relevant magic/object review.
 
 ## Background Candidates
 

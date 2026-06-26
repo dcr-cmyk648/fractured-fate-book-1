@@ -26,7 +26,7 @@ Aldira helps make Rezin power visible as more than Niall's personal force. The h
 
 Aldira tracks criminal organizations, informants, Low Clade patterns, contractor records, High Clade politics, lineage material, and old birth-contract records.
 
-She is practically expert in Rezin records and can analyze auratic codices and zán/codex structures well enough to identify anomalies, overlays, and tampering. She does not own all underlying magic theory.
+She is practically expert in Rezin records and can analyze auratic codices and zän/codex structures well enough to identify anomalies, overlays, and tampering. She does not own all underlying magic theory.
 
 She is skeptical, precise, dry, and records-oriented. Her default mode is to notice what is missing, what is politically dangerous, and what might go wrong.
 
@@ -147,5 +147,5 @@ Current manuscript material establishes Aldira, sometimes still under the old Al
 - `imports/normalized/melissa-copy.md:18682-18718`: Concord / `K. Virellis` criminal-organization index.
 - `imports/normalized/melissa-copy.md:20180-20535`: Davian interrogation, training exchange, Archeon inference.
 - `imports/normalized/book-1-outline.md:899-906`: Aldira as Maya corrective around Niall and consequences.
-- `imports/normalized/book-1-outline.md:6963`: Rezin information network as zán-lattice-like system.
+- `imports/normalized/book-1-outline.md:6963`: Rezin information network as zän-lattice-like system.
 - Author feedback on 2026-06-26.

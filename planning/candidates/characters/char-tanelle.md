@@ -14,7 +14,7 @@ accepted_file: bible/characters/char-tanelle.md
 
 - Exact family/background.
 - Exact age.
-- Exact training path and where she learned zánwright work.
+- Exact training path and where she learned zänwright work.
 - Exact prior job history.
 - Whether prior supervisors gave lukewarm references because they found her annoying despite her talent.
 
@@ -33,7 +33,7 @@ accepted_file: bible/characters/char-tanelle.md
 
 ## Technical and Plot Uses
 
-- Whether she recognizes Antithesis's zán as expensive or unusual before being redirected.
+- Whether she recognizes Antithesis's zän as expensive or unusual before being redirected.
 - Whether she appears in later Maya/Davian dining-hall scenes as a social observer.
 - Exact post-Heart-theft fate: leaves the citadel, returns later, remains friendly to Davian, becomes suspicious, or is simply out of scope.
 - Whether she ever realizes Davian used her technical explanations for theft-related purposes.

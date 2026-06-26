@@ -87,7 +87,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Exact Fateweaving / Convergence relationship remains unresolved.
 - Exact relationship among Elric's codex tampering, Ink persistence, Heart exposure, and fate-thread sight remains unresolved.
 - Larger cosmology beyond the Skein remains candidate material.
-- Skein-layer zán or reality-layer etching remains candidate for later cosmology or advanced-zán review.
+- Skein-layer zän or reality-layer etching remains candidate for later cosmology or advanced-zän review.
 - Whether Niall's fear of fateweaving is correct, partly correct, or projection from Alara/Elric trauma remains unresolved.
 
 ## Related Files
@@ -99,7 +99,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
-- Related magic: [Zán / zá lattices / zánwrights](magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](magic-codex-memory.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)

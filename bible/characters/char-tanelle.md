@@ -14,7 +14,7 @@ candidate_file: planning/candidates/characters/char-tanelle.md
 
 ## Identity and Role
 
-Tanelle is a young zánwright contractor assigned to the Rezin citadel ward and Treasury restoration project.
+Tanelle is a young zänwright contractor assigned to the Rezin citadel ward and Treasury restoration project.
 
 She is a recurring supporting character, not a generic contractor-group detail. She anchors Davian's worker-space scenes, provides technical exposition through character, and helps make his temporary belonging in the Rezin citadel emotionally credible.
 
@@ -26,15 +26,15 @@ She is genuinely kind enough to pull Davian, under the Arrek cover, into the wor
 
 She can be exhausting, awkward, and funny, but she should not be flattened into comic relief. Her friendliness and curiosity help make the contractor group feel socially real.
 
-## Zánwright Competence
+## Zänwright Competence
 
-Tanelle is unusually skilled at practical zánwright work and pattern recognition.
+Tanelle is unusually skilled at practical zänwright work and pattern recognition.
 
-She re-etches and replaces sequences quickly, confidently, and with strong memory for work orders. Her chatter helps Davian learn enough practical zánwright work to function under his cover.
+She re-etches and replaces sequences quickly, confidently, and with strong memory for work orders. Her chatter helps Davian learn enough practical zänwright work to function under his cover.
 
 She loves hands-on etching. She does not want to be supervisor because supervision would keep her from doing the work herself.
 
-Tanelle was likely hired "accidentally." The Rezin contract specifically wanted reliable but not highly talented zánwrights for Treasury work, because Niall did not want workers inspecting the containment sphere and realizing something was unusual. Tanelle may not have had glowing references from prior jobs because supervisors viewed her as annoying, so Sorevin vetters would not have known how talented she was.
+Tanelle was likely hired "accidentally." The Rezin contract specifically wanted reliable but not highly talented zänwrights for Treasury work, because Niall did not want workers inspecting the containment sphere and realizing something was unusual. Tanelle may not have had glowing references from prior jobs because supervisors viewed her as annoying, so Sorevin vetters would not have known how talented she was.
 
 ## Treasury Insight
 
@@ -61,11 +61,13 @@ She can function as a low-stakes social observer for Maya/Davian tension if late
 - Review packet: [char-tanelle](../../reviews/entities/characters/char-tanelle.md)
 - Candidate material: [char-tanelle](../../planning/candidates/characters/char-tanelle.md)
 - Related character: [Davian](char-davian.md)
+- Related character: [Marek](char-marek.md)
 - Related character: [Maya Rezin](char-maya.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
-- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 
 ## Canonical Uncertainties
 
@@ -73,7 +75,7 @@ She can function as a low-stakes social observer for Maya/Davian tension if late
 - Exact age.
 - Exact relationship to Kolvar, Jessa, and Marek.
 - Root-chewing hobby and whether she ascribes focus or cleverness properties to it.
-- Whether she recognizes Antithesis's zán as expensive or unusual before being redirected.
+- Whether she recognizes Antithesis's zän as expensive or unusual before being redirected.
 - Exact post-Heart-theft fate.
 - Whether she appears in later Maya/Davian dining-hall scenes as a social observer.
 
@@ -82,7 +84,7 @@ She can function as a low-stakes social observer for Maya/Davian tension if late
 - `imports/normalized/melissa-copy.md:2814-2841`: Tanelle introduction and High Clade excitement.
 - `imports/normalized/melissa-copy.md:3210-3279`: mess-hall worker-group introduction and cover pressure.
 - `imports/normalized/melissa-copy.md:3831-4089`: Treasury work, weightlessness, Tanelle's chatter and practical teaching.
-- `imports/normalized/melissa-copy.md:4029-4041`: Tanelle's zánwright skill and teaching-by-talking.
+- `imports/normalized/melissa-copy.md:4029-4041`: Tanelle's zänwright skill and teaching-by-talking.
 - `imports/normalized/melissa-copy.md:6862-7068`: worker-table warmth and Davian's temporary belonging.
 - `imports/normalized/melissa-copy.md:8118`: Marek says Tanelle does the work of three.
 - `imports/normalized/melissa-copy.md:12917-13067`: Maya dining-hall scene, Tanelle's Shroud question, message run, and Antithesis-as-tool question.

@@ -51,11 +51,11 @@ The Rezin power base includes:
 - the Rezin citadel and its defenses
 - soldiers, wall commanders, elite guards, and personal guards
 - the Treasury and Heart
-- Registry infrastructure and zán-lattice work
+- Registry infrastructure and zän-lattice work
 - household staff, advisers, healers, zanwrights, and contractors
 - Rezin political standing before the High Clade Council
 
-Exact mechanics of the Heart, Registry, Shrouds, silver conduits, citadel layout, High Clade hierarchy, and zán lattices belong to their own entity reviews.
+Exact mechanics of the Heart, Registry, Shrouds, silver conduits, citadel layout, High Clade hierarchy, and zän lattices belong to their own entity reviews.
 
 ## Culture
 
@@ -67,7 +67,7 @@ The Rezin version is comparatively less harsh than other Clades because of the f
 
 The prologue and early chapters show Maya preparing for Presentation, Niall commanding the response to a citadel attack, Rezin soldiers defending the walls, and Maya stepping into visible protective authority.
 
-Later manuscript material shows Selwin guarded by elite Rezin guards, Maya training Selwin inside the citadel, and Maya working on Registry zán lattices while realizing that Rezin authority depends partly on projecting certainty even when the people at the top do not have all the answers.
+Later manuscript material shows Selwin guarded by elite Rezin guards, Maya training Selwin inside the citadel, and Maya working on Registry zän lattices while realizing that Rezin authority depends partly on projecting certainty even when the people at the top do not have all the answers.
 
 ## Related Files
 
@@ -93,7 +93,7 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 
 - Exact formal titles for Aldira, Harvick, Erynn, wall commanders, forerunners, elite guards, and other household or military roles remain for later reviews. Aldira's colloquial `spymaster` function is accepted, but her formal office name is not. Erynn's companion/attendant function is accepted, but her formal household title remains unresolved.
 - The exact public knowledge of Alara's Naeroth origin and Maya's dual heritage remains for Alara, Naeroth, and culture reviews.
-- Exact Registry, Heart, Treasury, citadel, Shroud, silver-conduit, and zán-lattice mechanics remain for separate entity reviews.
+- Exact Registry, Heart, Treasury, citadel, Shroud, silver-conduit, and zän-lattice mechanics remain for separate entity reviews.
 - Old `Alden` references are now Aldira references; manuscript/prose cleanup remains for later revision work.
 
 ## Provenance
