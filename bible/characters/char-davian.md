@@ -97,6 +97,10 @@ Davian and Maya's relationship involves attraction, class resentment, misinterpr
 
 Davian has heard racist/cultural claims about Naeroth demi-humans and worries that his attraction to Maya may be unnatural or magically compelled. This worry sits on top of his inaccurate bias that High Clades are bred to be attractive. The worry is Davian's misconception and anxiety, not objective truth.
 
+Caius Drakhal:
+
+Caius is a Presented Drakhal force-magus and direct pressure point for Davian's protective impulse, guilt, jealousy, and shame around violence. Caius can accuse Davian of pretending to be a hero while really wanting to destroy people he envies. Davian's attack on Caius can be both protective and self-destructive, while Maya stopping Caius helps Davian recognize Maya's values.
+
 Harvick:
 
 Harvick becomes an important trainer/mentor/friend figure for Davian, especially around Shroud practice, combat training, and challenging Davian's self-sabotage.
@@ -132,6 +136,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Serathis](char-serathis.md)
 - Related character: [Vorren](char-vorren.md)
+- Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
@@ -155,6 +160,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Canonical Uncertainties
 

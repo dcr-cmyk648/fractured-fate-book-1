@@ -16,6 +16,8 @@ candidate_file: planning/candidates/characters/char-vorren.md
 
 Vorren is Caius Drakhal's older brother and a Drakhal magus. He was publicly banished from Drakhal at Niall's insistence, which made Caius heir.
 
+Caius is a Presented Drakhal force-magus and polished heir whose insecurity and control issues are shaped partly by Vorren's shadow. Exact Caius/Vorren abuse history remains unresolved.
+
 Vorren secretly remains useful to Drakhal-aligned interests as a disavowable weapon. Evana and Elric can manipulate his desire for chaos, death, and experience into situations that serve their plans.
 
 Vorren is an important final-act antagonist, even though he also serves the generic "evil last boss" role. He is the Drakhal family's hidden weapon, the Heart-empowered trap for Niall, and a major pressure point for Maya, Niall, and Davian in the endgame.
@@ -78,10 +80,12 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Related character: [Davian](char-davian.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Serathis](char-serathis.md)
+- Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related object: [Paradox](../objects/object-paradox.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Canonical Uncertainties
 

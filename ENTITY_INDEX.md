@@ -65,7 +65,7 @@ There must normally be no more than one entity marked `in-review`.
 | 44 | char-alara | character | Alara | approved | reviews/entities/characters/char-alara.md | bible/characters/char-alara.md | planning/candidates/characters/char-alara.md | 2026-06-26 |
 | 45 | char-serathis | character | Serathis | approved | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md | 2026-06-26 |
 | 46 | char-vorren | character | Vorren | approved | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md | 2026-06-26 |
-| 47 | char-caius-drakhal | character | Caius Drakhal | queued | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md |  |
+| 47 | char-caius-drakhal | character | Caius Drakhal | approved | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md | 2026-06-26 |
 | 48 | char-alden | character | Alden | superseded | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
 | 49 | char-tanelle | character | Tanelle | queued | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md |  |
 | 50 | char-marek | character | Marek | queued | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md |  |

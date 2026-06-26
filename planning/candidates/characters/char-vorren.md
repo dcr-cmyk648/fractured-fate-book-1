@@ -21,7 +21,7 @@ accepted_file: bible/characters/char-vorren.md
 - Exact details of Vorren's childhood, abuse, and Drakhal expectations.
 - Exact scandal that led to public banishment and how much of it was staged versus real.
 - Exact degree of Evana's fear, affection, disgust, or utility toward Vorren.
-- Exact Caius/Vorren relationship and whether Caius's current persona is partly shaped by being abused by Vorren.
+- Exact Caius/Vorren relationship and abuse pattern. It is accepted that Caius's current persona is shaped partly by Vorren's shadow; the exact history remains unresolved.
 - Whether Evana and Caius together could defeat him, contain him, or only survive him under favorable conditions.
 
 ## Harbinger and Underground Role

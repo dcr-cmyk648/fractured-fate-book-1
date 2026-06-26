@@ -72,6 +72,10 @@ She can structure exchanges, ask operational questions, scrutinize Ink and tatto
 
 Her later inference that Kelyra's escape from Archeon was likely deliberate is accepted at the high level: Kelyra learned foundational techniques that would support Archeon-blooded magic later, if the right linchpin instruction appeared.
 
+## Caius Drakhal
+
+Aldira is useful for interpreting the Caius/Shade/Maya incident as political risk rather than only personal misconduct. She can frame Caius's civilian harm, self-defense claim, Drakhal impunity, and courtship pressure in practical terms for Maya and Niall.
+
 ## Elric
 
 Aldira knows Elric was charismatic, influential, intellectually important, and historically capable of making the High Clades collaborate.
@@ -114,11 +118,13 @@ Current manuscript material establishes Aldira, sometimes still under the old Al
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Davian](char-davian.md)
+- Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Decision record: [Aldira Identity, Spymaster Role, and Maya Support](../../decisions/0043-aldira-identity-spymaster-role-and-maya-support.md)
+- Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Canonical Uncertainties
 

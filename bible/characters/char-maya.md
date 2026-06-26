@@ -82,6 +82,10 @@ Davian:
 
 Maya and Davian have a major current and intended arc involving attraction, misunderstanding, betrayal, guilt, and possible trust/partnership. Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this belongs partly to the Maya/Davian romance review.
 
+Caius Drakhal:
+
+Caius is a Presented Drakhal force-magus, political marriage-candidate figure, and personal pressure point for Maya. The Maya/Caius marriage plus Niall-banishment offer is a bad-faith trap from Evana's, Elric's, and Serathis's perspective, though Caius likely thinks he has a real shot. Caius's arrogance, jealousy, and narcissistic acting-out test Maya's public authority and her mandate to use power to protect rather than dominate.
+
 Erynn and Aldira:
 
 Erynn and Aldira function as important grounding or corrective figures for Maya in different registers: Erynn personal and practical, Aldira strategic and dry.
@@ -126,6 +130,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Review packet: [char-maya](../../reviews/entities/characters/char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Vorren](char-vorren.md)
+- Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
@@ -148,6 +153,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Provenance
 

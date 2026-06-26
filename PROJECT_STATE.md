@@ -8,9 +8,9 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-vorren
+- Latest completed entity: char-caius-drakhal
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: complete secondary characters consistency pass`
+- Latest relevant commit message: `bible: approve Caius Drakhal character profile`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,22 +18,22 @@ Last updated: 2026-06-26
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The secondary-character consistency/opportunity review passed for Aldira, Erynn, Alara, Serathis, and Vorren. No author decision is required from the review. `CQ-0049` was added to preserve Elric's `A Cord of Six Strands` reveal staging for later endgame/resurrection outline work.
+`char-caius-drakhal` was approved and stored as a standard-depth recurring antagonist / Drakhal pressure point.
 
 ## Current work
 
-No entity is currently open. The next queued entity is `char-caius-drakhal`.
+No entity is currently open. The next queued entity is `char-tanelle`.
 
 ## Next action
 
-Open `char-caius-drakhal` for review unless author direction changes.
+Open `char-tanelle` for review unless author direction changes.
 
 ## Awaiting author input
 
@@ -56,6 +56,7 @@ Open `char-caius-drakhal` for review unless author direction changes.
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Serathis's exact age/generation count, own escape/takeover details, final fight choreography, returning-dagger/bracer mechanics, exact Elric knowledge, remaining Presented Archeon magus, current-heir resentment, and post-Serathis Archeon succession remain unresolved; see `planning/candidates/characters/char-serathis.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
+- Caius's exact force-magic terminology, Caius/Vorren abuse history, letter/visit/fight choreography, Darius-name cleanup, and post-Book-1 role remain unresolved; see `planning/candidates/characters/char-caius-drakhal.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -73,6 +74,9 @@ Open `char-caius-drakhal` for review unless author direction changes.
 - decisions/index.md
 - AUTHORING.md
 - reports/consistency/2026-06-26-secondary-characters-block.md
+- bible/characters/char-caius-drakhal.md
+- planning/candidates/characters/char-caius-drakhal.md
+- reviews/entities/characters/char-caius-drakhal.md
 - bible/characters/char-aldira.md
 - bible/characters/char-erynn.md
 - bible/characters/char-alara.md

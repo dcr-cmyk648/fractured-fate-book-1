@@ -20,7 +20,7 @@ Exact Drakhal magic taxonomy remains for later magic review. The older `Aegistry
 
 Evana Drakhal is the current Drakhal Head Magus and Caius's mother.
 
-Caius Drakhal is the main young Drakhal representative and marriage-candidate figure.
+Caius Drakhal is Evana's son, a Presented Drakhal force-magus, the main young Drakhal representative, and the marriage-candidate figure in the Maya/Caius pressure campaign.
 
 Vorren is Caius's older brother. He was publicly banished from Drakhal at Niall's insistence, which gave Caius the heir position. Vorren still works for Drakhal-aligned interests in secret, not because he cares about Drakhal, but because Evana and Elric can manipulate his desire for chaos and death into situations that serve their plans.
 
@@ -34,7 +34,7 @@ Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbing
 
 After the Heart theft, Drakhal moves against the Rezins because Niall may be vulnerable. Drakhal still fears Niall and avoids direct danger or fair fights unless the situation is overwhelmingly favorable.
 
-Drakhal's current plan is to propose that Caius marry Maya and that Niall accept banishment. They know Niall is essentially certain to refuse. The proposal is designed to goad him into one of two outcomes:
+Drakhal's current plan is to propose that Caius marry Maya and that Niall accept banishment. From Evana's, Elric's, and Serathis's perspective, this is a bad-faith trap and they know Niall is essentially certain to refuse. Caius likely has not been fully looped into that decision-making and thinks he has a real shot. The proposal is designed to goad Niall into one of two outcomes:
 
 - a lethal confrontation with Drakhal and many other High Clades where Drakhal expects to win
 - a path to the Archeon citadel, where Vorren is waiting with a lethal trap for Niall
@@ -73,13 +73,15 @@ Caius displays force-magic or distortion around his hands when angered.
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Vorren](../characters/char-vorren.md)
+- Related character: [Caius Drakhal](../characters/char-caius-drakhal.md)
 - Decision record: [Drakhal Political Strategy and Vorren Affiliation](../../decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Canonical Uncertainties
 
 - Exact Drakhal magic taxonomy and whether `Aegistry` survives remain for magic review.
-- Caius's full character file remains unwritten.
+- Caius's full character file is approved in `char-caius-drakhal`; exact force-magic taxonomy, Caius/Vorren abuse details, and post-Book-1 role remain unresolved.
 - Evana's full character file remains unwritten.
 - Vorren's full character file is approved in `char-vorren`; exact Caius/Evana/Vorren relationship history, Heart-use mechanics, Ink delivery, and mask/underground role remain unresolved.
 - High-level Drakhal/Harbinger/Vorren coordination is accepted. Exact operational details, knowledge boundaries, and deniability remain for later organization, character, and narrative-thread reviews.

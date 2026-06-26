@@ -61,6 +61,10 @@ Davian attacks Niall during the Heart theft. Davian's approved arc may later inv
 
 Accepted future object direction: Niall gives Paradox to Davian in the end-book courtyard scene after the ruined Antithesis has been remade into a normal sword.
 
+Caius Drakhal:
+
+Caius is the Drakhal marriage-candidate figure in the proposed Maya/Caius marriage and Niall-banishment trap. Evana, Elric, and Serathis treat the offer as bad-faith provocation; Caius likely thinks he has a real shot. The proposal is designed to pressure Niall's fear of weakness and provoke a response Drakhal can turn into legitimacy.
+
 Vorren:
 
 Vorren is the Drakhal secret weapon waiting below the Archeon throne-room trap. His role is to bait and weaponize Niall's pride, grief, fear of weakness, and refusal to back down. Accepted high-level future direction: Niall, Maya, and Davian kill Vorren together after Vorren becomes Heart-empowered, with exact choreography deferred.
@@ -96,6 +100,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Vorren](char-vorren.md)
+- Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
@@ -116,6 +121,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 
 ## Canonical Uncertainties
 
