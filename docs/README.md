@@ -28,10 +28,24 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 - Author Mode for repository browser and all generated layers.
 - Repository browser for readable generated project files.
 - Layer selector with graceful unavailable-layer handling.
-- Persistent bottom comment box.
+- Persistent comment box: right-side rail on desktop, collapsible drawer on mobile.
 - Browser-local comment storage.
 - Comment export as JSON.
 - Clear local comments with confirmation.
+
+## Mobile Install
+
+The app includes web-app metadata for mobile home-screen use.
+
+On iPhone or iPad:
+
+1. Open the GitHub Pages URL in Safari.
+2. Tap the Share button.
+3. Choose `Add to Home Screen`.
+4. Accept the suggested name or rename it.
+5. Open it from the new home-screen icon.
+
+Reader Mode is the intended mobile default. The comment drawer stays collapsed until opened, and the detailed `Currently Seeing` reference is collapsed by default on small screens.
 
 ## Source and Data
 

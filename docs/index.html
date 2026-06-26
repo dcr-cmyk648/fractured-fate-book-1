@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#216a63">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Fractured Fate">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Fractured Fate Review</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -107,7 +114,11 @@
       </section>
     </main>
 
-    <aside class="comment-box" aria-label="Persistent comment box">
+    <aside id="commentBox" class="comment-box" aria-label="Persistent comment box">
+      <button id="commentDrawerToggle" class="mobile-comment-toggle" type="button" aria-expanded="false">
+        <span>Comments</span>
+        <strong id="mobileCommentTarget">Loading...</strong>
+      </button>
       <div class="target-row">
         <span>Target:</span>
         <strong id="commentTarget">Loading...</strong>
@@ -118,10 +129,10 @@
         <button id="submitCommentBtn" type="button">Submit Comment</button>
         <button id="quickExportBtn" type="button">Export Comments</button>
       </div>
-      <div class="reference-card" aria-label="Current comment reference">
-        <h2>Currently Seeing</h2>
+      <details id="referenceCard" class="reference-card" aria-label="Current comment reference" open>
+        <summary>Currently Seeing</summary>
         <dl id="referenceDetails"></dl>
-      </div>
+      </details>
     </aside>
 
     <script src="app.js"></script>

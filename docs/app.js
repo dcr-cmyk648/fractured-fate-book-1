@@ -100,6 +100,9 @@ async function loadData() {
 
 function setView(view) {
   currentView = view;
+  document.body.classList.toggle("view-reader", view === "book-reader");
+  document.body.classList.toggle("view-browser", view === "repo-browser");
+  document.body.classList.toggle("view-export", view === "export");
   $("bookReaderView").classList.toggle("active", view === "book-reader");
   $("repoBrowserView").classList.toggle("active", view === "repo-browser");
   $("exportView").classList.toggle("active", view === "export");
@@ -112,6 +115,8 @@ function setView(view) {
 
 function setMode(mode) {
   currentMode = mode;
+  document.body.classList.toggle("mode-reader", mode === "reader");
+  document.body.classList.toggle("mode-author", mode === "author");
   $("readerModeBtn").classList.toggle("active", mode === "reader");
   $("authorModeBtn").classList.toggle("active", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
@@ -428,6 +433,7 @@ function updateTargetDisplay() {
     ? `${ref.chapter_title} · ${ref.current_layer}`
     : ref.current_file_path || "No target";
   $("commentTarget").textContent = target;
+  $("mobileCommentTarget").textContent = abbreviate(target, 72);
   renderReferenceDetails(ref);
 }
 
@@ -606,6 +612,28 @@ function clearComments() {
   }
 }
 
+function isMobileLayout() {
+  return window.matchMedia("(max-width: 820px)").matches;
+}
+
+function setCommentDrawer(open) {
+  const box = $("commentBox");
+  const toggle = $("commentDrawerToggle");
+  box.classList.toggle("is-open", open);
+  toggle.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+function syncMobileCommentUi() {
+  const referenceCard = $("referenceCard");
+  if (isMobileLayout()) {
+    referenceCard.removeAttribute("open");
+    setCommentDrawer(false);
+  } else {
+    referenceCard.setAttribute("open", "");
+    setCommentDrawer(true);
+  }
+}
+
 function renderCommentList() {
   const list = $("commentList");
   if (!list) return;
@@ -653,6 +681,9 @@ function wireEvents() {
   $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
   $("clearCommentsBtn").addEventListener("click", clearComments);
+  $("commentDrawerToggle").addEventListener("click", () => {
+    setCommentDrawer(!$("commentBox").classList.contains("is-open"));
+  });
   $("fileTree").addEventListener("click", (event) => {
     const button = event.target.closest(".tree-file");
     if (button?.dataset.path) {
@@ -661,6 +692,7 @@ function wireEvents() {
   });
   document.addEventListener("selectionchange", updateTargetDisplay);
   window.addEventListener("scroll", updateTargetDisplay, { passive: true });
+  window.addEventListener("resize", syncMobileCommentUi, { passive: true });
 }
 
 async function init() {
@@ -680,6 +712,7 @@ async function init() {
   renderFileTree();
   setMode("reader");
   setView("book-reader");
+  syncMobileCommentUi();
   renderCommentCount();
   renderCommentList();
 }
