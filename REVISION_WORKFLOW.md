@@ -27,8 +27,10 @@ After the story-bible complete-enough gate in `WORKFLOW.md` passes, Codex must p
 
 - approved entities
 - deliberately deferred entities
+- outline-ready entities and entities outline-ready with documented uncertainties
 - unresolved but explicitly accepted uncertainties
 - remaining consistency risks
+- story-opportunity findings from completed block reviews
 - validator results
 - recommended outline-readiness status
 
@@ -65,6 +67,8 @@ For a nonblocking discovery:
 
 Do not interrupt the author for minor naming, metadata, link, or nonessential details.
 
+Nonblocking discoveries should preserve candidate or flavor material without reopening story-bible work merely because a detail is interesting. Reopen or create a story-bible item only when the discovery has narrative, structural, continuity, or outline value.
+
 ### Blocking Discovery
 
 Use when continuing the chapter outline would require Codex to:
@@ -89,6 +93,8 @@ For a blocking discovery:
 8. Present one substantive author checkpoint for that issue.
 9. After approval, update the owner and dependent files, run the impact scan, validate, commit locally, clear or update the consistency item, and automatically resume the paused chapter or sequence.
 10. Do not require separate permission to resume the paused outline work.
+
+Use the adaptive-depth rules in `WORKFLOW.md` when reopening or creating a story-bible item during outline work. Brief, grouped, or deferred handling is preferred when the issue does not need a full independent review.
 
 Routine steps after substantive approval do not need extra author turns: adding the blocker to indexes, marking the chapter paused, updating dependency links, validating, committing approved work, resuming the paused chapter, or preparing the next review unit.
 

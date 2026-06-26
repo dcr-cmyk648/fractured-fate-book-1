@@ -78,6 +78,16 @@ The story-bible phase should settle only the amount of canon needed to:
 - build the future chapter/scene outline
 - prepare later prose work
 
+Minimum sufficient canon is the floor. Narrative usefulness determines the ceiling. Explore freely, canonize selectively, and audit in proportion to consequence.
+
+The story bible has three equal purposes:
+
+1. source of truth
+2. creative-development workspace
+3. context engine for the future outline and later prose work
+
+The goal is not to minimize the story bible. The goal is also not to create an encyclopedia merely because the repository can store one. A detailed review is valuable when it helps discover, choose, clarify, or preserve something that can make the book better.
+
 Codex should not try to exhaustively define every detail of every entity during the initial story-bible phase.
 
 Details that should usually be preserved as candidates unless they affect the outline include:
@@ -91,6 +101,109 @@ Details that should usually be preserved as candidates unless they affect the ou
 
 When in doubt, ask: "Does this decision materially affect the story bible, outline, continuity, or future prose?" If not, preserve it as candidate material and move on.
 
+Do not equate "not required for canon" with "not worth discussing." Exploratory discussion is useful when it may reveal narrative leverage. Do not equate "discussed" with "must become canon."
+
+## Book-Improvement Test
+
+Before deepening an entity or asking the author to settle another detail, Codex should ask whether the work could plausibly do at least one of the following:
+
+- change what a character wants, chooses, notices, fears, misunderstands, or avoids
+- make a relationship or conflict more specific
+- enable or improve a scene
+- enable a reveal, setup, payoff, reversal, or plot turn
+- clarify a causal constraint
+- clarify how magic, technology, politics, geography, culture, or chronology limits events
+- give a recurring character a more distinctive voice, competence, bias, or behavioral pattern
+- help determine who should perform a narrative function in the outline
+- prevent a likely continuity, chronology, knowledge-state, or ability error
+- sharpen a theme or motif that appears in the book
+- create reader-visible texture that strengthens the setting or emotional experience
+- distinguish two entities that would otherwise feel interchangeable
+- reveal a useful contradiction or story opportunity
+
+When the answer is yes, further development may be worthwhile.
+
+When the answer is no, Codex should normally stop deepening the entity, preserve interesting material as optional candidate/flavor, avoid asking the author to settle it, and move on.
+
+## Adaptive Review Depth
+
+Codex should assign each entity a provisional review depth automatically. Do not create an extra author checkpoint merely to approve the depth.
+
+Allowed review depths:
+
+- `deep`: entities with major causal, emotional, thematic, structural, or continuity importance, such as principal characters, major antagonists, foundational magic systems, central organizations, major plot objects, central plotlines, and entities whose contradictions affect many approved files.
+- `standard`: recurring supporting characters, important locations, recurring technologies, secondary organizations, and entities that perform meaningful scene functions.
+- `brief` or `grouped`: incidental characters, ordinary objects, one-scene places, minor institutions, and entities whose value is primarily functional.
+- `deferred`: entities with no current narrative leverage, no meaningful continuity risk, and no foreseeable role in the outline.
+
+A deep review may examine psychology, history, relationships, goals, knowledge states, abilities and limitations, role in existing prose, future arc, scene opportunities, thematic meaning, continuity dependencies, and setup/payoff obligations.
+
+A standard review should establish enough to make the entity distinct, reusable, internally coherent, useful in the outline, and safe for later prose work.
+
+A brief or grouped review should store identity, function, relevant appearances, important constraints, and any distinctive detail needed for continuity.
+
+A deferred entity should preserve the source pointer or candidate note without spending author-review time unless later work makes it relevant.
+
+Review depth is provisional. Codex may automatically deepen an entity when source gathering reveals recurring appearances, distinctive relationships, useful scene functions, hidden causal importance, knowledge-state implications, setup/payoff potential, thematic leverage, contradictions affecting other files, or strong author interest. Codex may automatically shorten or group a review when the entity has little source material, duplicates another entity's function, has no meaningful book improvement, contains only flavor, or can be represented safely as a subsection of another owner file.
+
+Treat author statements such as "go deeper," "flesh this person out," "let's think more about this," "keep this brief," "defer this," or "group these together" as direct depth instructions without creating a new formal approval gate.
+
+Do not assume a detailed profile requires a major independent subplot.
+
+## No Automatic Entity Explosion
+
+A detailed review must not automatically create full independent reviews for every newly mentioned person, object, place, habit, or historical event.
+
+When a review reveals a possible new entity, classify it as:
+
+- independently useful
+- better grouped under an existing entity
+- candidate only
+- deferred
+- genuinely blocking and requiring a new review
+
+Create a new queued entity only when it has enough narrative, structural, or continuity value to justify separate ownership. Do not create an exhaustive family tree, object inventory, geography catalog, or terminology catalog unless the book or outline benefits from it.
+
+## Information Layers
+
+Use existing accepted and candidate files rather than creating a large new directory hierarchy. Each sufficiently developed entity should distinguish three layers when useful.
+
+### Canon Core
+
+Canon core contains facts that other files may rely upon as accepted truth: identity, current role, accepted history, abilities and limitations, relationships, organization membership, chronology, current knowledge, accepted future direction, and stable goals or behavioral patterns when explicitly approved. Canon core receives the strongest dependency and consistency treatment.
+
+### Developmental Profile
+
+Developmental profile contains author-approved interpretive material that helps with outlining and later prose but should not be treated exactly like immutable physical fact. Examples include psychological formulation, internal contradictions, likely responses under pressure, social dynamics, biased perceptions, narrative functions, thematic relevance, what another POV character misunderstands, possible forms of growth, and scene-use guidance.
+
+Clearly label developmental or interpretive guidance. Do not propagate a developmental interpretation through the repository as though it were a hard historical fact.
+
+### Candidate and Flavor Bank
+
+Candidate and flavor bank material includes possibilities, alternatives, optional texture, scene seeds, habits, hobbies, anecdotes, jokes, visual details, dialogue seeds, and unresolved backstory. These belong primarily in `planning/candidates/`. They remain available for later outlining and prose without creating strong consistency obligations. Do not promote them merely because they are attractive or detailed.
+
+## Consequence-Weighted Consistency
+
+Not every detail should trigger the same amount of repository work. Codex should classify accepted material by consequence without requiring the author to classify each detail manually.
+
+### Structural
+
+Structural material affects plot, chronology, identity, abilities, magic mechanics, organization structure, relationships, knowledge states, setup/payoff, location constraints, or current-versus-future event state.
+
+For structural material, run the normal immediate impact scan, update unambiguous dependents, queue uncertain conflicts, and mark affected entities `needs-revisit` when required.
+
+### Continuity
+
+Continuity material affects appearance, voice, occupation, recurring habits, competence, ordinary personal history, recurring behavior, common possessions, or stable social presentation.
+
+For continuity material, update the owning entity, check direct appearances when practical, include it in block-level review, and do not perform a broad repository-wide audit unless a real conflict appears.
+
+### Flavor
+
+Flavor is optional texture with no current causal consequence.
+
+For flavor material, preserve it in the candidate/flavor bank, do not perform dependency propagation, do not add consistency-queue entries merely because another source omits it, and promote it later only if it becomes structurally or continuity relevant.
+
 ## Story-Bible Complete-Enough Gate
 
 The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory has one of these statuses:
@@ -101,8 +214,9 @@ The initial story-bible phase is complete enough to move into chapter/scene outl
 
 Also require:
 
+- every entity needed for the outline is marked outline-ready or outline-ready with documented uncertainties
 - any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author
-- block-level consistency reviews have been run for completed entity categories
+- block-level consistency and opportunity reviews have been run for completed entity categories
 - no known unresolved issue prevents understanding the book's causal structure
 - remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues
 - cross-file links and dependencies validate
@@ -194,6 +308,8 @@ For ordinary reviews, prefer this hierarchy:
 5. Queue the rest.
 
 Do not ask the author about every potentially interesting detail. If a detail can safely be preserved as candidate material without blocking the outline, do that.
+
+Optional development prompts may be shown separately from required decisions. Label them clearly as `Required decisions` and `Optional deeper exploration`. The author should be able to answer required questions quickly without being forced to resolve every interesting possibility. If the author begins brainstorming an optional issue, engage with it and preserve useful results.
 
 Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
 
@@ -305,7 +421,35 @@ Create a review packet under a suitable path, for example:
 - `reviews/entities/organizations/org-rezin.md`
 - `reviews/entities/magic/magic-shroud.md`
 
-Use this structure:
+Do not force every section into every packet. For deep and standard reviews, include relevant sections from this adaptive structure:
+
+- `Review depth`: `deep`, `standard`, `brief`, `grouped`, or `deferred`, with a concise reason.
+- `Why this entity matters`: actual or potential value to the book.
+- `Source-backed information`: manuscript-established, planning-established, bullet notes, feedback, existing decisions, contradictions, candidates, and historical/obsolete material.
+- `Current narrative functions`: plot, emotional, relationship, exposition, observer/witness, thematic, comic-relief, clue/misdirection, or social-world function.
+- `Relationships and conflicts that create story`: dynamics that may generate scenes, decisions, misunderstandings, tension, or change.
+- `Potential outline or scene uses`: credible uses without treating them as accepted future events.
+- `Continuity constraints`: what later chapters and prose must not contradict.
+- `Questions that could materially improve the book`: high-leverage author questions.
+- `Details worth preserving but not resolving`: candidate/flavor routing.
+- `What does not need to be defined now`: attractive but currently low-value areas.
+- `Proposed canon core`: concise accepted proposal.
+- `Proposed developmental profile`: clearly labeled interpretive guidance.
+- `Proposed candidate/flavor bank`: unresolved or optional material.
+- `Book improvements unlocked by this review`: concrete value produced.
+- `Outline readiness`: `outline-ready`, `outline-ready with documented uncertainties`, `not outline-ready because of a blocking issue`, or `deferred`.
+- `Proposed file changes`: exact destinations.
+
+Newly created or next-touched review and accepted files should include metadata when practical:
+
+```yaml
+review_depth: deep|standard|brief|grouped|deferred
+outline_ready: yes|yes-with-uncertainties|no|deferred
+```
+
+Do not retroactively rewrite every approved file merely to add these fields. Add them when a file is next substantively touched, a needs-revisit item is resolved, or a block review naturally updates it.
+
+The older packet template below remains acceptable for brief or legacy reviews, but should be adapted to the entity's actual usefulness:
 
 ```markdown
 ---
@@ -410,6 +554,21 @@ Prefer grouped choices such as:
 
 List the exact files Codex would create or modify after approval.
 ```
+
+An entity is ready for the future outline when the repository can answer, at the depth appropriate to that entity:
+
+- Who or what is it?
+- What does it want or do?
+- How does it behave or function under relevant conditions?
+- What is it capable of?
+- What are its important limitations?
+- What does it know at important points, when applicable?
+- How does it relate to major characters, organizations, places, objects, and systems?
+- What narrative jobs can it perform?
+- What must future chapters not contradict?
+- What remains intentionally unresolved?
+
+The entity does not need a fully simulated life or exhaustive history.
 
 ### Step 4: Present the Review
 
@@ -647,8 +806,9 @@ Before beginning the next block:
 2. Read their direct owner and dependent files.
 3. Review pending items in `CONSISTENCY_QUEUE.md`.
 4. Check for contradictory accepted facts, duplicated mechanics with divergent wording, ability/magic-rule inconsistencies, organization membership or leadership conflicts, relationship inconsistencies, stale summaries, broken links or entity IDs, and decisions not reflected in current accepted files.
-5. Automatically fix purely mechanical or unambiguous issues.
-6. Present the author only with substantive unresolved conflicts or creative choices.
+5. Include a story-opportunity section that asks whether two entities perform the same narrative function, a useful supporting character disappears without reason, exposition could be delivered through conflict or character competence, a character should witness or complicate an event, a developed trait fails to affect any scene or decision, the block revealed stronger setup/payoff, an underused class/political/cultural/magical contrast exists, a secondary character could make a chapter more specific, a minor entity carries more leverage than its current depth suggests, or detailed material imposes obligations without producing story value.
+6. Automatically fix purely mechanical, metadata, linkage, routing, or unambiguous issues.
+7. Present the author only with substantive unresolved conflicts or creative opportunities as one grouped checkpoint, not many interruptions.
 
 Use one concise author checkpoint for the entire block.
 

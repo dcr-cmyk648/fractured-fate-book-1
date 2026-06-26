@@ -64,9 +64,49 @@ Before doing book work, Codex must:
 
 During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.
 
+Minimum sufficient canon is the floor. Narrative usefulness determines the ceiling. Explore freely, canonize selectively, and audit in proportion to consequence.
+
+The story bible has three equal purposes:
+
+1. source of truth
+2. creative-development workspace
+3. context engine for the future outline and later prose work
+
+The goal is not to minimize the story bible. The goal is also not to create an encyclopedia merely because the repository can store one. A detailed review is valuable when it helps discover, choose, clarify, or preserve something that can make the book better.
+
 Codex should not try to exhaustively define every detail of every entity during the initial story-bible phase. Exact room dimensions, exact device manufacturing history, exact minor terminology variants, exhaustive lists of every object or subcomponent, distant cosmology that does not affect Book 1 structure, and minor cultural practices not needed for current plot, character, or world logic should usually remain candidate material unless they affect the outline.
 
 When in doubt, ask: "Does this decision materially affect the story bible, outline, continuity, or future prose?" If not, preserve it as candidate material and move on.
+
+Before deepening an entity or asking the author to settle another detail, ask whether the work could plausibly improve plot, character, scenes, continuity, world logic, theme, reader-visible texture, or the future outline. Useful development may clarify desires, choices, relationships, conflicts, reveals, constraints, voice, narrative function, continuity risks, motifs, distinctions between similar entities, or story opportunities. If not, preserve interesting material as candidate/flavor and move on.
+
+Review depth is adaptive. Assign a provisional depth without a separate author checkpoint:
+
+- `deep`: principal characters, major antagonists, foundational magic, central organizations, major plot objects, central plotlines, and entities with broad contradictions.
+- `standard`: recurring supporting characters, important locations, recurring technologies, secondary organizations, and entities with meaningful scene functions.
+- `brief` or `grouped`: incidental characters, ordinary objects, one-scene places, minor institutions, and functional entities.
+- `deferred`: entities with no current narrative leverage, continuity risk, or foreseeable outline role.
+
+Escalate or de-escalate automatically when source gathering shows more or less narrative leverage. Do not create a new full entity merely because a review mentions another person, object, place, habit, or event; classify new material as independently useful, grouped, candidate-only, deferred, or genuinely blocking.
+
+Use three information layers when useful:
+
+- Canon core: accepted facts other files may rely on.
+- Developmental profile: author-approved interpretive guidance for outlining and prose, not immutable physical fact.
+- Candidate and flavor bank: optional texture, alternatives, scene seeds, habits, unresolved backstory, and other material without strong consistency obligations.
+
+Treat accepted material by consequence:
+
+- Structural material affects plot, chronology, identity, abilities, magic mechanics, organization structure, relationships, knowledge states, setup/payoff, location constraints, or current/future event state. Run normal impact scans and queue uncertain conflicts.
+- Continuity material affects appearance, voice, occupation, recurring habits, competence, ordinary personal history, behavior, possessions, or social presentation. Update the owner, check direct appearances when practical, and include it in block review.
+- Flavor has no current causal consequence. Preserve it in candidates/flavor and do not propagate it or queue issues merely because another source omits it.
+
+Newly created or next-touched review and accepted files should include metadata when practical:
+
+- `review_depth: deep|standard|brief|grouped|deferred`
+- `outline_ready: yes|yes-with-uncertainties|no|deferred`
+
+Do not retroactively rewrite every approved file merely to add this metadata.
 
 For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, including core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
 
@@ -79,6 +119,8 @@ For ordinary reviews, prefer this hierarchy:
 5. Queue the rest.
 
 Do not ask the author about every potentially interesting detail. If a detail can safely be preserved as candidate material without blocking the outline, do that.
+
+Optional development prompts may be shown separately from required decisions. Label them `Required decisions` and `Optional deeper exploration` when both are useful. The author should be able to answer required questions quickly without being forced to resolve every interesting possibility.
 
 ## Story-Bible-First Gate
 
@@ -94,7 +136,7 @@ Required order:
 6. Complete whole-book structural and consistency reviews.
 7. Open prose work only after explicit later authorization under `AUTHORING.md`.
 
-The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
+The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; every entity needed for the outline is `outline-ready` or `outline-ready with documented uncertainties`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency and opportunity reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 
 This does not mean the story bible is frozen forever. During later chapter/scene outline work, blocking discoveries can reopen or create story-bible items, nonblocking discoveries should be queued without interrupting chapter review, and later changes should trigger impact scans and consistency queue items rather than silently contradicting earlier material.
 

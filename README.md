@@ -6,6 +6,8 @@ Repository for the Book 1 migration, source import, normalization, review, and d
 
 The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
 
+The story bible is simultaneously a source of truth, a creative-development workspace, and a context engine for the future outline and later prose work. Minimum sufficient canon is the floor; narrative usefulness determines the ceiling. The repository should explore freely, canonize selectively, and audit in proportion to consequence.
+
 Intended sequence:
 
 1. Complete story-bible review.
