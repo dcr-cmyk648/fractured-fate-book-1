@@ -66,6 +66,16 @@ During the initial story-bible phase, Codex should settle only the amount of can
 
 Minimum sufficient canon is the floor. Narrative usefulness determines the ceiling. Explore freely, canonize selectively, and audit in proportion to consequence.
 
+## Audit Mode: Over-Checking
+
+Current audit mode: over-checking.
+
+The project should err on the side of over-checking and queuing issues for author review when an issue could affect plot, character, continuity, world logic, magic, chronology, emotional arc, setup/payoff, or the future outline.
+
+This does not mean interrupting the author for every small issue. It means Codex should check more rather than less, preserve suspect material instead of discarding it, queue unresolved issues instead of silently deciding them, mark affected files or entities `needs-revisit` when later work may conflict with earlier material, group author-facing decisions into meaningful checkpoints when possible, avoid silent propagation of uncertain changes, and prefer documenting and queuing over assuming and moving on.
+
+When the choice is between possibly under-auditing a meaningful issue or adding a queue item for later review, choose the queue item. If this becomes too burdensome, the author will explicitly ask to reduce the checking level.
+
 The story bible has three equal purposes:
 
 1. source of truth
@@ -95,11 +105,11 @@ Use three information layers when useful:
 - Developmental profile: author-approved interpretive guidance for outlining and prose, not immutable physical fact.
 - Candidate and flavor bank: optional texture, alternatives, scene seeds, habits, unresolved backstory, and other material without strong consistency obligations.
 
-Treat accepted material by consequence:
+Treat accepted material by consequence, with a cautious bias:
 
-- Structural material affects plot, chronology, identity, abilities, magic mechanics, organization structure, relationships, knowledge states, setup/payoff, location constraints, or current/future event state. Run normal impact scans and queue uncertain conflicts.
-- Continuity material affects appearance, voice, occupation, recurring habits, competence, ordinary personal history, behavior, possessions, or social presentation. Update the owner, check direct appearances when practical, and include it in block review.
-- Flavor has no current causal consequence. Preserve it in candidates/flavor and do not propagate it or queue issues merely because another source omits it.
+- Structural material affects plot events, chronology, current versus future event status, identity, motive, knowledge state, relationship state, organization membership or hierarchy, magic mechanics, abilities and limitations, object mechanics, location constraints, setup/payoff, reader-visible information flow, or theme/motif when it affects chapter purpose. Run immediate impact scans, check direct dependent files, queue uncertain ripple effects, and mark `needs-revisit` when appropriate.
+- Continuity material affects appearance, voice, occupation, recurring habits, stable behavior, social role, ordinary personal history, repeated interpersonal dynamics, or repeated scene function. Update the owner, check direct references when practical, queue anything that may affect later chapter summaries or prose, and include it in block review.
+- Flavor has no current causal consequence. Preserve useful texture in candidates/flavor when it may help later prose or characterization, but do not trigger broad propagation unless it becomes structurally or continuity relevant.
 
 Newly created or next-touched review and accepted files should include metadata when practical:
 
@@ -129,12 +139,15 @@ The project must proceed story-bible first. Do not begin chapter review, chapter
 Required order:
 
 1. Complete the story-bible review phase.
-2. Run a full story-bible consistency and dependency review.
+2. Run the final story-bible consistency and dependency review.
 3. Receive author approval to open the outline phase.
-4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
-5. Build the next-draft outline, including unwritten future chapters.
-6. Complete whole-book structural and consistency reviews.
-7. Open prose work only after explicit later authorization under `AUTHORING.md`.
+4. Map the current draft chapter by chapter and, when needed, scene by scene.
+5. Run the Chapter Architecture Pass and create Chapter Goal Cards.
+6. Run whole-book architecture review.
+7. Build the detailed next-draft outline.
+8. Build the gap-to-ending future/unwritten sequence outline.
+9. Complete whole-book structural and consistency reviews.
+10. Open prose work only after explicit later authorization under `AUTHORING.md`.
 
 The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; every entity needed for the outline is `outline-ready` or `outline-ready with documented uncertainties`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency and opportunity reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 
@@ -170,7 +183,7 @@ A current intention may be `present-canon` while its eventual execution is an `a
 - `ENTITY_INDEX.md` is the sole authority for entity ID, type, queue order, status, review packet path, accepted file path, candidate file path, and last-reviewed date.
 - `PROJECT_STATE.md` contains immediate operational handoff only: branch, phase, block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and blockers requiring author input.
 - `MIGRATION_STATUS.md` contains phase-level progress and phase gates only. Do not duplicate detailed entity queue state there.
-- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files, including setup/payoff, chronology, knowledge-state, and ability conflicts; add columns as needed for triggering chapter/scene/sequence, blocking yes/no, paused review unit, and resolution status.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. It is the default holding area for direct contradictions, possible contradictions, stale accepted records, later changes that may affect earlier files, unclear ownership, unresolved note disposition, setup/payoff gaps, character knowledge problems, current/future event confusion, outline dependencies, missing story-bible entities discovered later, chapter goal conflicts, scene function duplication, continuity drift, and worldbuilding implications not yet reviewed. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files.
 - `REVISION_WORKFLOW.md` owns the detailed future chapter, scene, future-sequence, and next-draft-outline process. It remains gated until the story bible is complete and the author opens outline work.
 - `decisions/index.md` indexes explicit author decisions only.
 - Do not embed a literal hash for the same commit that contains `PROJECT_STATE.md`; use stable wording such as `latest relevant commit: HEAD` and report actual hashes from Git commands.
@@ -182,8 +195,10 @@ Use a hybrid consistency model:
 - Level 1: after each approved change, identify the primary owner file for each changed fact, search direct dependent accepted files and links, and update straightforward dependent summaries, links, metadata, and references in the same commit.
 - Level 2: at the end of each logical block, run a fuller consistency review before beginning the next block.
 - Logical blocks normally end when all principal characters are reviewed, a major entity category is completed, work moves from one entity type to another, five approved entities have accumulated since the last review, or the author asks to finish/check the block.
-- Maintain `CONSISTENCY_QUEUE.md` as a compact system-managed queue for issues that may require later checking or judgment.
-- Do not fill `CONSISTENCY_QUEUE.md` with every relationship; add only items that may require consistency review, conflict resolution, or dependent-file updates.
+- Maintain `CONSISTENCY_QUEUE.md` as the compact system-managed queue for issues that may require later checking or judgment.
+- Do not fill `CONSISTENCY_QUEUE.md` with trivial nonissues or every relationship; add items that may require consistency review, conflict resolution, dependent-file updates, or later outline judgment. When unsure whether a meaningful issue matters, queue it.
+- Every major phase and meaningful block of work should include consistency checks against prior accepted documents. Re-check earlier files for conflicts created by later decisions; inspect candidate files for material that should now be promoted, rejected, or marked obsolete; review related queue items; and check current-versus-future status, renamed terms, unresolved contradiction markers, setup/payoff obligations, knowledge states, magic and ability constraints, chronology, and location feasibility.
+- When older accepted files are stale, update them if the fix is straightforward and already approved in substance. Otherwise mark the relevant entity or file `needs-revisit`, add a concise queue item, and link to the decision or later change that caused the issue.
 - Manual-edit protection applies to all consistency work: reload affected files from disk, inspect Git changes, preserve author edits, and never restore removed text from earlier generated drafts.
 
 Block-level consistency review becomes due when five entities have been approved since the last review, work changes to a different major entity category, a `broad-retcon` or `direct-contradiction` item affects multiple approved files, the author requests a consistency review, or the current logical block is complete.
@@ -207,6 +222,7 @@ For authoring collaboration style, scene work, prose drafting, revision, and cri
 - When prose is requested from detailed beats or an existing passage, Codex must stay within the supplied material, preserve the requested POV and scene boundary, and stop where the author's material stops.
 - Requests to outline, review, analyze, organize, continue planning, or work on a chapter do not by themselves authorize prose drafting.
 - Requests to outline, review, analyze, organize, continue planning, or work on a chapter also do not bypass the story-bible-first gate.
+- Story-bible work, current-draft chapter mapping, Chapter Goal Cards, detailed outlines, future sequence planning, missing-transition identification, and "continue" do not authorize prose drafting.
 - Unless the author explicitly says to edit files directly, Codex must preview new or revised prose in the conversation before applying it to manuscript files.
 - Historical writing-thread transcripts are evidence of collaboration style only. They are not authoritative canon sources and must not be imported into the bible, manuscript, outline, or decisions merely because they appeared there.
 

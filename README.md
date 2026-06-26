@@ -8,16 +8,19 @@ The primary long-term product of this repository is a robust, detailed, internal
 
 The story bible is simultaneously a source of truth, a creative-development workspace, and a context engine for the future outline and later prose work. Minimum sufficient canon is the floor; narrative usefulness determines the ceiling. The repository should explore freely, canonize selectively, and audit in proportion to consequence.
 
+Current audit mode is over-checking: check more rather than less when an issue could affect plot, character, continuity, world logic, magic, chronology, emotional arc, setup/payoff, or the future outline. Queue meaningful uncertainty instead of silently assuming it away.
+
 Intended sequence:
 
 1. Complete story-bible review.
-2. Run story-bible consistency review.
-3. Extract current prose into accurate chapter/scene maps.
-4. Discuss and approve current chapter/scene summaries.
-5. Integrate all relevant notes, feedback, candidates, decisions, plotlines, arcs, and consistency issues.
-6. Build a detailed next-draft outline, including future/unwritten chapters.
-7. Run whole-book structural and consistency review.
-8. Open prose work only later, by explicit author authorization.
+2. Run final story-bible consistency and dependency review.
+3. Create the current-draft chapter map.
+4. Create and review Chapter Architecture / Chapter Goal Cards.
+5. Run whole-book architecture review.
+6. Build a detailed next-draft outline.
+7. Build the gap-to-ending future/unwritten sequence outline.
+8. Run whole-book structural and consistency review.
+9. Open prose work only later, by explicit author authorization.
 
 If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
@@ -27,6 +30,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - `imports/normalized/` will contain later normalized text exports when that phase is authorized.
 - `reviews/entities/` will contain source-backed one-entity-at-a-time review packets.
 - `bible/` will contain approved world, character, organization, location, magic, object, and terminology records.
+- `chapter-architecture/` will contain future Chapter Goal Cards after the outline phase opens.
 - `outline/` will contain planned narrative structure and arcs.
 - `revision/` will contain proposed or accepted prose-change plans.
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.

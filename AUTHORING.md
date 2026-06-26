@@ -51,6 +51,8 @@ That is not permission to:
 
 Requests to outline, review, analyze, organize, continue planning, or work on a chapter do not by themselves authorize prose drafting.
 
+Story-bible work, current-draft chapter mapping, Chapter Goal Cards, detailed outlines, future sequence planning, missing-transition identification, and "continue" do not authorize prose drafting.
+
 ## 3. Default collaboration pattern
 
 The normal prose workflow is:

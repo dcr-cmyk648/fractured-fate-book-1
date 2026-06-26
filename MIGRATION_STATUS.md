@@ -116,6 +116,7 @@ Current phase notes:
 - Complete enough does not freeze the story bible forever. Later blocking chapter/scene discoveries can reopen or create story-bible items, and nonblocking discoveries should be queued without interrupting chapter review.
 - Adaptive review depth applies going forward: deep, standard, brief/grouped, or deferred review depth should match narrative leverage, continuity risk, and outline usefulness. Previously approved files remain valid and do not need immediate retroactive metadata backfills.
 - The cultures-and-world-systems consistency and opportunity review was completed after the number-system / zán script review.
+- Current audit mode is over-checking: meaningful uncertainty that could affect plot, character, continuity, world logic, magic, chronology, emotional arc, setup/payoff, or the future outline should be checked, preserved, and queued rather than silently assumed away.
 
 Gate:
 
@@ -157,61 +158,70 @@ Gate:
 - Produce the final story-bible consistency report.
 - Do not open outline/chapter work until the author reviews the report and clearly approves opening the outline phase.
 
-## Phase 6: Chapter Manuscript Split
+## Phase 6: Current-Draft Chapter Map
 
 Status: not started
 
 Gate:
 
-- Split the normalized manuscript into chapter-based plain-text files only after the story-bible completion gate, final story-bible consistency review, and clear author approval to open the outline/chapter phase.
+- Begin only after the story-bible completion gate, final story-bible consistency review, stable chapter source IDs or chapter files, and clear author approval to open the outline/chapter phase.
+- Map what is actually written now: chapter/source ID, POV, scene divisions, actual events, starting and ending states, character knowledge, reader knowledge, relationship movement, worldbuilding/magic introduced, plotline/thread participation, setup/payoff, problems or omissions, and relevant notes/comments.
 - Preserve source provenance.
-- Do not rewrite or draft prose during splitting.
+- Do not rewrite, split, or draft prose unless a separate authorized manuscript-preparation workflow permits it.
 
-## Phase 7: Outline Classification
+## Phase 7: Chapter Architecture Pass / Chapter Goal Cards
 
 Status: not started
 
 Gate:
 
-- After the story-bible gate opens outline/chapter work, map and review the current prose chapter by chapter and, when needed, scene by scene.
-- Then build the next-draft outline, including unwritten future chapters.
-- Classify the large Book 1 outline into controlled outline, revision, candidate, and reference files only within that opened outline phase.
-- Do not promote outline material to canon without author approval.
+- Begin after the current-draft chapter map.
+- Create Chapter Goal Cards for current-draft chapters, next-draft chapter candidates, and future/unwritten sequences as needed.
+- Treat each chapter or sequence as a story unit before detailed scene outlining.
+- Run lightweight consistency checks against approved story-bible files, decision records, current chapter maps, prior cards, candidate files, and `CONSISTENCY_QUEUE.md`.
+- Pause and reopen story-bible or plotline work for blocking issues; queue nonblocking issues.
 - Do not generate or modify manuscript prose.
 
-## Phase 8: Bullet Notes Inbox
+## Phase 8: Detailed Next-Draft Outline and Future Sequence Outline
 
 Status: not started
 
 Gate:
 
-- Convert Bullet notes into a controlled inbox.
+- Begin after Chapter Architecture / Chapter Goal Cards and whole-book architecture review.
+- Build the detailed next-draft outline.
+- Build the gap-to-ending future/unwritten sequence outline with stable future sequence IDs.
+- Integrate relevant notes, feedback, candidates, decisions, plotlines, arcs, Chapter Goal Cards, and consistency queue items.
+- Do not generate or modify manuscript prose.
+
+## Phase 9: Whole-Book Structural and Consistency Review
+
+Status: not started
+
+Gate:
+
+- Run after the current draft has been mapped, Chapter Goal Cards have been reviewed, the future gap-to-ending outline exists, and the next-draft structure is complete.
+- Check structure, continuity, setup/payoff, chronology, knowledge states, abilities, relationships, world logic, current/future status, and story opportunities across the whole project.
+- Resolve or explicitly defer blocking issues before prose work can open.
+
+## Phase 10: Bullet Notes Inbox
+
+Status: not started
+
+Gate:
+
+- Convert Bullet notes into a controlled inbox when useful for the opened outline phase.
 - Preserve unresolved, speculative, and discarded ideas without treating them as accepted canon.
 
-## Phase 9: Local Editing and Git Sync Procedures
+## Phase 11: Local Editing, Assembly, Export, and Reference Validation
 
 Status: not started
 
 Gate:
 
-- Add safe local manual-edit and Git synchronization procedures.
-- Manual edits to local manuscript files remain authoritative and must never be overwritten by generated text.
-
-## Phase 10: Assembly and Export Tools
-
-Status: not started
-
-Gate:
-
+- Add safe local manual-edit and Git synchronization procedures as needed.
 - Add manuscript assembly and export tooling only after explicit authorization.
 - Do not install dependencies without explicit authorization.
-
-## Phase 11: Continuity and Reference Validation
-
-Status: not started
-
-Gate:
-
 - Add continuity and reference validation once the durable reference structure is stable.
 - Validation tools must not rewrite manuscript prose.
 - Whole-book reviews run after the complete initial story bible, after the current draft has been fully mapped, after the future gap-to-ending outline exists, after the next-draft structure is complete, before prose work begins, and after any broad retcon.
@@ -230,7 +240,7 @@ Do not build these now. Their purpose would be to speed up chapter/entity lookup
 ## Permanent Authoring Gate
 
 - Entity review and repository setup do not authorize manuscript drafting.
-- Chapter review, scene review, and future-outline work do not authorize manuscript drafting.
+- Chapter review, scene review, current-draft mapping, Chapter Goal Cards, detailed outlines, future sequence planning, and future-outline work do not authorize manuscript drafting.
 - New prose remains opt-in under `AUTHORING.md`.
 - The authoring workspace must be deliberately opened by the author before prose drafting begins.
 - Manual edits to local manuscript files remain authoritative and must never be overwritten by generated text.

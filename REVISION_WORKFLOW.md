@@ -9,13 +9,14 @@ It is not active yet. Do not begin chapter review, scene review, future-sequence
 The project proceeds in this order:
 
 1. Complete the story-bible review phase.
-2. Run story-bible consistency review.
-3. Extract current prose into accurate chapter/scene maps.
-4. Discuss and approve current chapter/scene summaries.
-5. Integrate all relevant notes, feedback, candidates, decisions, plotlines, arcs, and consistency issues.
-6. Build a detailed next-draft outline, including future/unwritten chapters.
-7. Run whole-book structural and consistency review.
-8. Open prose work only later, by explicit author authorization.
+2. Run final story-bible consistency and dependency review.
+3. Create the current-draft chapter map.
+4. Run the Chapter Architecture Pass and create Chapter Goal Cards.
+5. Run whole-book architecture review.
+6. Build the detailed next-draft outline.
+7. Build the gap-to-ending future/unwritten sequence outline.
+8. Run whole-book structural and consistency review.
+9. Open prose work only later, by explicit author authorization.
 
 The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline. If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
@@ -38,13 +39,111 @@ Then stop for clear author approval to open chapter work. The author does not ne
 
 Do not begin chapter/scene extraction until the author explicitly opens the outline phase. Outline work does not authorize prose drafting.
 
-## Chapter and Scene Review
+## Current-Draft Chapter Map
 
-After the outline phase is opened, review the current prose chapter by chapter and, when needed, scene by scene.
+After the outline phase is opened, first map the current prose chapter by chapter and, when needed, scene by scene.
 
-Chapter and scene review is read-only with respect to manuscript prose. It may map, summarize, classify, compare, and identify revision needs, but it must not rewrite prose.
+The current-draft chapter map is descriptive. It answers: "What is actually written now?"
+
+For each current chapter, eventually identify:
+
+- source chapter ID
+- current chapter number/title
+- POV
+- scene divisions
+- actual events
+- starting state
+- ending state
+- character knowledge
+- reader knowledge
+- relationship movement
+- magic/worldbuilding introduced
+- plotline participation
+- thread/theme participation
+- setup/payoff already present
+- obvious problems or omissions
+- relevant notes and comments
+
+Chapter and scene mapping is read-only with respect to manuscript prose. It may map, summarize, classify, compare, and identify revision needs, but it must not rewrite prose. Do not treat future plans or notes as though they are already in the prose.
 
 For each review unit, preserve enough provenance for another session to locate the source material. Record unresolved issues in existing control files rather than creating competing tracking systems.
+
+## Chapter Architecture Pass
+
+After current-draft chapter mapping, create Chapter Goal Cards. This stage treats each chapter, future chapter, or major sequence as a story unit before detailing its scenes. The core question is: "What is this chapter or sequence supposed to accomplish for the book?"
+
+Do not collapse the Chapter Architecture Pass into the detailed next-draft outline. Do not skip it unless the author explicitly says to.
+
+Use files such as:
+
+- `chapter-architecture/current-draft/d1-ch-XX.md`
+- `chapter-architecture/next-draft/d2-ch-XX.md`
+- `chapter-architecture/future/future-seq-XXX.md`
+
+Do not create these files before the outline phase is explicitly opened.
+
+Each Chapter Goal Card should answer what the chapter or sequence is for. Use sections as relevant:
+
+- `Identity`: chapter or sequence ID, current-draft source ID, tentative next-draft ID, POV, status, and source mapping.
+- `Working role`: one to three sentences describing the unit's job in the book.
+- `Plot goals`: what external events change.
+- `Character goals`: how relevant characters change, choose, fail, learn, avoid, or become pressured.
+- `Relationship goals`: movement in trust, attraction, rivalry, loyalty, misunderstanding, dependency, conflict, or intimacy.
+- `Worldbuilding goals`: what the reader should understand about society, politics, class, culture, geography, technology, zán, Clades, underworld systems, or institutions.
+- `Magic / technology goals`: what the reader should learn, infer, or experience about magic, Shrouds, zán, Ink, Fateweaving, Kinesis, Convergence, Archeon techniques, artifacts, or constraints.
+- `Information-flow goals`: what the reader learns, what each character learns, what remains hidden, what misinformation persists, and what questions are created or answered.
+- `Setup / payoff goals`: what is planted, reinforced, paid off, delayed, or must be remembered later.
+- `Thematic / motif goals`: what questions, images, motifs, or thematic tensions the unit develops.
+- `Pacing function`: pressure, aftermath, reveal, bridge, decompression, romance escalation, betrayal setup, action, political maneuvering, technical/magic explanation, emotional confrontation, transition, or another explicit function.
+- `Strong existing material to preserve`: current-draft scene functions, beats, dialogue roles, images, turns, or dynamics worth carrying forward without requiring exact prose preservation.
+- `Problems to solve`: structural problems such as redundant function, unclear motivation, weak transition, missing reaction, missing consequence, absent setup, missing payoff, wrong POV, underused character, too much exposition, insufficient worldbuilding, pacing issue, continuity issue, or unresolved story-bible dependency.
+- `Notes to integrate`: relevant outline notes, Bullet notes, feedback, candidate material, decision records, consistency queue items, and story-bible links, with disposition for every materially relevant note.
+- `Dependencies`: required story-bible, plotline, thread, and prior/later chapter dependencies.
+- `Open questions`: only questions that affect chapter purpose, structure, or the future outline.
+- `Consistency concerns`: classify conflicts as blocking, nonblocking, queue for block review, resolved, or needs story-bible revisit.
+- `Proposed next-draft role`: retained, revised, compressed, expanded, moved, merged, split, replaced, removed, candidate, accepted direction, structurally approved, or needs-revisit.
+- `Book improvement unlocked`: why this card improves the book. If no meaningful improvement is identifiable, recommend compression, merging, or deferral.
+
+The author is willing to spend extra review time here when useful. Prepare 1-3 Chapter Goal Cards at a time for ordinary chapters, only 1 at a time for complex or pivotal chapters, and allow scene-level cards inside a chapter when multiple functions or conflicts need separate handling.
+
+Use scene-level goal cards when a chapter contains multiple POVs, major scene functions are unclear, the chapter may be split or merged, a scene carries major setup/payoff, a scene has significant worldbuilding or magic implications, a scene has a serious consistency issue, or the author requests it.
+
+## Future and Unwritten Sequence Cards
+
+The Chapter Architecture Pass must support unwritten chapters and future sequences. Create future sequence cards when current prose has not reached the event, notes clearly imply a needed future beat, a plotline requires a missing sequence, an arc has a known destination but no written chapter, the endgame needs structural planning, or setup/payoff analysis shows a missing bridge.
+
+Future sequence IDs should be stable but not final chapter numbers, for example `future-seq-001` and `future-seq-002`.
+
+A future sequence card should include likely POV, prerequisites, required starting state, required ending state, major beats, character movement, relationship movement, plotline movement, worldbuilding/magic requirements, setup required earlier, payoff delivered, unresolved story-bible dependencies, open questions, and confidence/status.
+
+Do not describe future sequences as already present in the current prose. Do not generate prose for future sequences.
+
+## Chapter Architecture Consistency Checks
+
+Every Chapter Goal Card should trigger a lightweight consistency check before approval.
+
+Check against approved character, organization, magic, location, object, and culture files; decision records; plotline and thread indexes when they exist; existing chapter maps; prior approved Chapter Goal Cards; future sequence cards; `CONSISTENCY_QUEUE.md`; relevant candidate files; and the current manuscript summary.
+
+If approving the card would require choosing or inventing unresolved canon, treat the issue as blocking. Examples include unclear magic mechanics needed for the chapter purpose, uncertain character motive, unresolved relationship state, uncertain chronology, contradictory organization behavior, missing object or location constraint, impossible knowledge state, or setup/payoff contradiction.
+
+For a blocking issue:
+
+1. pause the Chapter Goal Card
+2. preserve the partial card
+3. create or reopen the relevant story-bible or plotline item
+4. add a consistency-queue item
+5. resolve the blocking issue through the existing review workflow
+6. after approval, automatically return to the paused card
+
+If the card can still be discussed and approved without resolving the issue now, treat the issue as nonblocking. Add it to `CONSISTENCY_QUEUE.md`, mark the card or entity `needs-revisit` if appropriate, continue, and revisit at the next block or whole-book checkpoint.
+
+## Story-Opportunity Review
+
+All block-level consistency reviews should include story-opportunity review, not just error detection.
+
+Check whether two chapters perform the same function, a useful supporting character is underused, a secondary character could make exposition more vivid, a worldbuilding explanation can be moved into conflict or relationship, a planned chapter is missing a character goal, a chapter is all plot and no emotional movement, a chapter is all psychology and no external change, a magic-system development needs earlier setup, a political development needs clearer causal pressure, there is a better witness or POV for an event, a setup/payoff chain is too weak, a theme or motif is introduced and abandoned, a developed trait fails to affect a decision, an approved story-bible detail creates a new scene opportunity, or a detailed element imposes obligations without improving the book.
+
+Queue or report opportunities that may materially improve the outline. Do not force every opportunity into the outline.
 
 ## Outline Discoveries
 
@@ -127,7 +226,7 @@ Use existing files rather than creating unnecessary new tracking systems.
 
 `ENTITY_INDEX.md` owns entity existence, entity status, stable IDs, accepted/review/candidate paths, newly discovered entities, and `needs-revisit` state.
 
-`CONSISTENCY_QUEUE.md` owns cross-file conflicts, outline discoveries affecting multiple files, blocking and nonblocking consistency issues, setup/payoff, chronology, knowledge-state, and ability conflicts. Add fields or columns as needed for triggering chapter/scene/sequence, blocking yes/no, paused review unit, and resolution status.
+`CONSISTENCY_QUEUE.md` owns cross-file conflicts, outline discoveries affecting multiple files, blocking and nonblocking consistency issues, setup/payoff, chronology, knowledge-state, ability conflicts, chapter goal conflicts, scene function duplication, continuity drift, unclear ownership, stale accepted records, and worldbuilding implications not yet reviewed. Use or add fields for blocking yes/no/unknown and review stage, including `entity-review`, `block-review`, `chapter-architecture`, `current-draft-map`, `future-outline`, `next-draft-outline`, `prose-phase`, and `whole-book-review`.
 
 `PROJECT_STATE.md` records immediate operational state. When outline work is paused, record the paused chapter, scene, or future sequence; blocking entity or issue ID; exact question; current files; and next automatic action after resolution. Do not duplicate the full entity or chapter inventory there.
 
@@ -138,6 +237,8 @@ Use three levels:
 - Per-unit impact check: after every approved entity, chapter, scene, future sequence, or structural decision, check direct dependencies, update unambiguous linked summaries and metadata, queue uncertain conflicts, and do not add a separate author checkpoint for routine propagation.
 - Block-level review: run after logical groups of entities, chapters, scenes, future sequences, or major plotline work. Include newly discovered story-bible issues and present only substantive unresolved decisions to the author.
 - Whole-book review: run after the complete initial story bible, after the current draft has been fully mapped, after the future gap-to-ending outline exists, after the next-draft structure is complete, before prose work begins, and after any broad retcon.
+
+Every major phase and meaningful block should re-check prior accepted documents for conflicts created by later decisions. Check earlier approved files against newer decisions, candidate files for material that should now be promoted/rejected/obsolete, related consistency-queue items, current/future status, renamed terms, unresolved contradiction markers, setup/payoff obligations, character knowledge states, magic and ability constraints, chronology, location feasibility, and whether later changes invalidate earlier chapter goals.
 
 ## Future and Unwritten Chapters
 
@@ -157,6 +258,8 @@ Future sequences remain outline material and must not be described as events alr
 No chapter, scene, or future-outline workflow authorizes prose generation.
 
 The outline phase remains read-only with respect to manuscript prose.
+
+Story-bible work, chapter mapping, Chapter Goal Cards, detailed outlines, future sequence planning, missing transitions, and "continue" do not authorize prose drafting or manuscript edits.
 
 Prose work begins only after:
 
