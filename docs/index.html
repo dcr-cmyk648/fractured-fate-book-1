@@ -93,9 +93,13 @@
           <aside class="browser-sidebar" aria-label="Repository browser navigation">
             <h2>Repository Browser</h2>
             <p>Readable generated project files. Candidate and planning material may contain spoilers.</p>
+            <button id="browserTreeToggle" class="mobile-browser-toggle" type="button" aria-expanded="false">
+              <span>Browse files</span>
+              <strong id="browserSelectedFile">Select a file</strong>
+            </button>
             <div class="file-tree" id="fileTree"></div>
           </aside>
-          <article class="file-viewer">
+          <article id="fileViewer" class="file-viewer">
             <div class="content-meta">
               <span id="filePath">Select a file</span>
               <span id="fileBadge" class="badge"></span>
