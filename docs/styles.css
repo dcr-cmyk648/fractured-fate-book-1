@@ -259,6 +259,30 @@ main {
   border-top: 1px solid var(--line);
 }
 
+.bookmark-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.bookmark-actions button {
+  padding: 0.42rem 0.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.bookmark-actions span {
+  grid-column: 1 / -1;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 select {
   min-height: 2.35rem;
   border: 1px solid var(--line);
@@ -752,6 +776,24 @@ select {
   .reader-sidebar h2,
   .browser-sidebar h2 {
     font-size: 0.95rem;
+  }
+
+  .bookmark-actions {
+    grid-template-columns: auto auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0.35rem;
+    padding-top: 0.5rem;
+  }
+
+  .bookmark-actions button {
+    padding: 0.36rem 0.48rem;
+    font-size: 0.78rem;
+  }
+
+  .bookmark-actions span {
+    grid-column: auto;
+    font-size: 0.76rem;
+    text-align: right;
   }
 
   .chapter-buttons {
