@@ -10,7 +10,7 @@ Last updated: 2026-06-26
 - Active or paused entity ID: none
 - Latest completed entity: char-vorren
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Vorren character profile`
+- Latest relevant commit message: `review: complete secondary characters consistency pass`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,22 +18,22 @@ Last updated: 2026-06-26
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 6
-- Last consistency review: reports/consistency/2026-06-26-cultures-world-systems-block.md
-- Consistency review due: yes; run secondary-character consistency/opportunity review before opening `char-caius-drakhal`
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-vorren` was approved by the author. Vorren is Caius Drakhal's older brother, publicly banished at Niall's insistence, secretly used by Drakhal-aligned interests, likely the strongest current Drakhal combatant, and a major final-act antagonist. He is fulfilled by destruction, dominance, and killing powerful people. He waits below the Archeon throne-room trap, becomes Heart-empowered, and is killed by Maya, Niall, and Davian together, with exact choreography deferred.
+The secondary-character consistency/opportunity review passed for Aldira, Erynn, Alara, Serathis, and Vorren. No author decision is required from the review. `CQ-0049` was added to preserve Elric's `A Cord of Six Strands` reveal staging for later endgame/resurrection outline work.
 
 ## Current work
 
-No entity is currently open. A secondary-character consistency/opportunity review is due before opening `char-caius-drakhal`.
+No entity is currently open. The next queued entity is `char-caius-drakhal`.
 
 ## Next action
 
-Validate, inspect the staged file list, commit and push `char-vorren`. Then run the secondary-character consistency/opportunity review across Aldira, Erynn, Alara, Serathis, and Vorren before opening `char-caius-drakhal`.
+Open `char-caius-drakhal` for review unless author direction changes.
 
 ## Awaiting author input
 
@@ -72,20 +72,12 @@ Validate, inspect the staged file list, commit and push `char-vorren`. Then run 
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- reviews/entities/characters/char-vorren.md
-- bible/characters/char-vorren.md
-- planning/candidates/characters/char-vorren.md
-- bible/organizations/org-drakhal.md
-- bible/locations/loc-archeon.md
-- bible/characters/char-maya.md
-- bible/characters/char-niall.md
-- bible/characters/char-davian.md
-- bible/characters/char-elric.md
+- reports/consistency/2026-06-26-secondary-characters-block.md
+- bible/characters/char-aldira.md
+- bible/characters/char-erynn.md
+- bible/characters/char-alara.md
 - bible/characters/char-serathis.md
-- bible/magic/magic-ink-boons.md
-- bible/objects/object-antithesis.md
-- bible/objects/object-paradox.md
-- decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md
+- bible/characters/char-vorren.md
 
 ## Later branch recommendation
 
