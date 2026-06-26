@@ -6,18 +6,18 @@ Last updated: 2026-06-26
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: secondary-characters
-- Active or paused entity ID: none
+- Current block: narrative-threads
+- Active or paused entity ID: thread-maya-davian-romance
 - Latest completed entity: char-kael
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `review: run final secondary characters consistency pass`
-- Working tree expected to be clean: no; secondary-character consistency review is being finalized
+- Working tree expected to be clean: no; `thread-maya-davian-romance` review packet is awaiting author input
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: secondary-characters
-- Block scope: secondary character records beginning with Aldira
+- Current block: narrative-threads
+- Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
@@ -29,15 +29,15 @@ The final secondary-character consistency/opportunity review was prepared after 
 
 ## Current work
 
-No entity is currently active during the secondary-character consistency review commit. The next queued story-bible item is `thread-maya-davian-romance`.
+`thread-maya-davian-romance` is open at deep review depth and awaiting author input.
 
 ## Next action
 
-Validate, commit, and push the final secondary-character consistency review, then open and prepare the `thread-maya-davian-romance` review packet.
+Answer the `thread-maya-davian-romance` review questions. After substantive approval, store the accepted arc seed, candidate material, decision record, and direct dependency updates.
 
 ## Awaiting author input
 
-- None.
+- `thread-maya-davian-romance`: core romance/trust architecture, kiss/betrayal handling, Davian's early attraction/confession placement, and resurrection thread boundaries.
 
 ## Workflow policy note
 
@@ -101,6 +101,7 @@ Validate, commit, and push the final secondary-character consistency review, the
 - decisions/0054-arrek-identity-murder-and-debt-family-context.md
 - reports/consistency/2026-06-26-secondary-characters-block-2.md
 - reports/consistency/2026-06-26-secondary-characters-block-final.md
+- reviews/entities/threads/thread-maya-davian-romance.md
 - reviews/entities/characters/char-selina.md
 - bible/characters/char-selina.md
 - planning/candidates/characters/char-selina.md
