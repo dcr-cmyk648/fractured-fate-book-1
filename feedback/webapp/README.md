@@ -36,6 +36,42 @@ Utility functions:
 - `getLastImportSummary()` returns the most recent import summary.
 - `resetImportedCommentMemory()` clears the destination sheet and importer summary. Use carefully.
 
+## Optional Web App Trigger
+
+Use this when Codex or another external tool should trigger imports on demand.
+
+Setup:
+
+1. In Apps Script, run `setImportToken()`.
+2. Copy the token from the execution log and store it somewhere private.
+3. Click `Deploy` -> `New deployment`.
+4. Select deployment type `Web app`.
+5. Set `Execute as` to `Me`.
+6. Set `Who has access` to `Anyone with the link`.
+7. Deploy and copy the Web app URL.
+
+Trigger manually from a shell:
+
+```sh
+curl -X POST 'WEB_APP_URL?token=YOUR_TOKEN'
+```
+
+The response is JSON with `ok: true` and the import summary, or `ok: false` and an error message.
+
+To rotate access, run `rotateImportToken()`, save the new token, and stop using the old one.
+
+Security note: do not share the token. Anyone with both the Web app URL and token can run the importer as the script owner.
+
+## Optional Scheduled Import
+
+If you do not need on-demand triggering, use an Apps Script time-driven trigger instead:
+
+1. Open `Triggers`.
+2. Add a trigger for `importNewComments`.
+3. Choose a time-driven schedule.
+
+This does not require Web app deployment or a token.
+
 Suggested local run commands:
 
 ```sh

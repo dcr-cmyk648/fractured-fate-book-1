@@ -43,6 +43,25 @@ const COMMENT_COLUMNS = [
   "status"
 ];
 
+function doPost(e) {
+  return handleWebImport_(e);
+}
+
+function doGet(e) {
+  return handleWebImport_(e);
+}
+
+function setImportToken() {
+  const token = Utilities.getUuid() + "-" + Utilities.getUuid();
+  PropertiesService.getScriptProperties().setProperty("import_token", token);
+  Logger.log("Import token created. Save this now: %s", token);
+  return token;
+}
+
+function rotateImportToken() {
+  return setImportToken();
+}
+
 function importNewComments() {
   const folder = DriveApp.getFolderById(CONFIG.folderId);
   const sheet = getOrCreateSheet_();
@@ -95,6 +114,40 @@ function importNewComments() {
     new_comments: rows.length,
     processed_files: processedFiles
   };
+}
+
+function handleWebImport_(e) {
+  try {
+    assertAuthorized_(e);
+    const result = importNewComments();
+    return jsonResponse_({
+      ok: true,
+      result
+    });
+  } catch (error) {
+    return jsonResponse_({
+      ok: false,
+      error: error.message
+    });
+  }
+}
+
+function assertAuthorized_(e) {
+  const expected = PropertiesService.getScriptProperties().getProperty("import_token");
+  if (!expected) {
+    throw new Error("Import token is not configured. Run setImportToken() first.");
+  }
+
+  const provided = e && e.parameter && e.parameter.token;
+  if (!provided || provided !== expected) {
+    throw new Error("Unauthorized import request.");
+  }
+}
+
+function jsonResponse_(payload) {
+  return ContentService
+    .createTextOutput(JSON.stringify(payload))
+    .setMimeType(ContentService.MimeType.JSON);
 }
 
 function resetImportedCommentMemory() {
