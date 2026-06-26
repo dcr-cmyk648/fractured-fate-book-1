@@ -18,9 +18,9 @@ Last updated: 2026-06-26
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 5
-- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
-- Consistency review due: yes; five secondary-character approvals have accumulated since the last block review
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-2.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
@@ -29,11 +29,11 @@ Last updated: 2026-06-26
 
 ## Current work
 
-No entity is currently active during the Arrek approval commit. A secondary-character consistency review is due before opening `char-selina`.
+No entity is currently active after the secondary-character consistency review. `char-selina` is the next queued secondary-character entity.
 
 ## Next action
 
-Validate, commit, and push the approved Arrek work, then run the due secondary-character consistency review before opening the next queued entity.
+Validate, commit, and push the secondary-character consistency review, then open and prepare the `char-selina` review packet.
 
 ## Awaiting author input
 
@@ -62,6 +62,7 @@ Validate, commit, and push the approved Arrek work, then run the due secondary-c
 - Zirene's exact social status, workshop security, backstory, old-book provenance, post-Book-1 role, and low-level mechanics for her major devices remain unresolved; see `planning/candidates/characters/char-zirene.md`.
 - Karra's exact Sorevin rescue, Harbinger contact, evacuation lie to Davian's siblings, and possible later-book role remain unresolved; see `planning/candidates/characters/char-karra.md`.
 - Arrek's exact home route, cousins, aura-capture mechanics, murder choreography, and any future restitution/consequence remain unresolved; see `planning/candidates/characters/char-arrek.md`.
+- Stale Jalen-centered Arrek murder pressure/fieldwork references are superseded by Kelyra-centered routing; see `CONSISTENCY_QUEUE.md` and `reports/consistency/2026-06-26-secondary-characters-block-2.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -96,6 +97,7 @@ Validate, commit, and push the approved Arrek work, then run the due secondary-c
 - bible/characters/char-arrek.md
 - planning/candidates/characters/char-arrek.md
 - decisions/0054-arrek-identity-murder-and-debt-family-context.md
+- reports/consistency/2026-06-26-secondary-characters-block-2.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md
