@@ -115,8 +115,19 @@ function setMode(mode) {
   $("readerModeBtn").classList.toggle("active", mode === "reader");
   $("authorModeBtn").classList.toggle("active", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
+  $("modeStatus").textContent = mode === "reader"
+    ? "Reader Mode active: repository browser is hidden."
+    : "Author Mode active: repository browser and spoiler layers are available.";
+  if (mode === "reader" && currentLayer !== "prose") {
+    currentLayer = "prose";
+  }
   if (mode === "reader" && currentView === "repo-browser") {
     setView("book-reader");
+  }
+  if (!appIndex) return;
+  if (currentView === "book-reader") {
+    renderLayerSelect();
+    renderChapter();
   }
 }
 
@@ -158,21 +169,62 @@ function renderLayerSelect() {
   const select = $("layerSelect");
   select.innerHTML = "";
   if (!chapter) return;
-  for (const layer of chapter.available_layers) {
+  const visibleLayers = currentMode === "reader"
+    ? chapter.available_layers.filter((layer) => layer.key === "prose")
+    : chapter.available_layers;
+  for (const layer of visibleLayers) {
     const option = document.createElement("option");
     option.value = layer.key;
     option.textContent = layer.available ? layer.label : `${layer.label} (unavailable)`;
     select.appendChild(option);
   }
   const prose = chapter.available_layers.find((layer) => layer.key === "prose" && layer.available);
-  if (!chapter.available_layers.some((layer) => layer.key === currentLayer && layer.available)) {
+  if (!visibleLayers.some((layer) => layer.key === currentLayer && layer.available)) {
     currentLayer = prose ? "prose" : chapter.available_layers[0]?.key || "prose";
   }
   select.value = currentLayer;
 }
 
-function basicMarkdownToHtml(text) {
+function normalizeProseText(text) {
   const lines = String(text || "").split("\n");
+  const output = [];
+  let pending = [];
+
+  const flush = () => {
+    if (!pending.length) return;
+    output.push(pending.join(" ").replace(/\s+/g, " ").trim());
+    pending = [];
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) {
+      flush();
+      output.push("");
+      continue;
+    }
+    if (/^<!--.*-->$/.test(line)) continue;
+    if (/^\[(?:comment|note|todo|anchor|bookmark)\b/i.test(line)) continue;
+    if (/^#\s+/.test(line) && !/^##\s+/.test(line)) continue;
+    if (/^##\s+/.test(line)) {
+      flush();
+      output.push(line);
+      continue;
+    }
+    if (/^[-*_]{3,}$/.test(line)) {
+      flush();
+      output.push("---");
+      continue;
+    }
+    pending.push(line);
+  }
+  flush();
+  return output.join("\n");
+}
+
+function basicMarkdownToHtml(text, options = {}) {
+  const source = options.prose ? normalizeProseText(text) : String(text || "");
+  const lines = source.split("\n");
   const output = [];
   let inList = false;
   for (const rawLine of lines) {
@@ -192,6 +244,12 @@ function basicMarkdownToHtml(text) {
         inList = true;
       }
       output.push(`<li>${escapeHtml(bullet[1])}</li>`);
+    } else if (line.trim() === "---") {
+      if (inList) {
+        output.push("</ul>");
+        inList = false;
+      }
+      output.push("<hr>");
     } else if (!line.trim()) {
       if (inList) {
         output.push("</ul>");
@@ -237,7 +295,7 @@ function renderChapter() {
     text = appContent.files[layer.source_file].content || "";
     currentFilePath = layer.source_file;
   }
-  contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text) : renderLines(text, 1);
+  contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : renderLines(text, 1);
   updateTargetDisplay();
 }
 
@@ -260,7 +318,6 @@ function renderTreeNode(node) {
     button.textContent = node.name;
     button.title = node.path;
     button.dataset.path = node.path;
-    button.addEventListener("click", () => renderFile(node.path));
     return button;
   }
   const details = document.createElement("details");
@@ -296,6 +353,7 @@ function renderLines(text, startLine = 1) {
 function renderFile(path) {
   const file = appContent.files?.[path];
   if (!file) return;
+  setView("repo-browser");
   currentFilePath = path;
   currentLayer = "repository-file";
   $("filePath").textContent = `${path} · ${file.line_count} lines`;
@@ -559,6 +617,12 @@ function wireEvents() {
   $("exportJsonlBtn").addEventListener("click", exportJsonl);
   $("exportMarkdownBtn").addEventListener("click", exportMarkdown);
   $("clearCommentsBtn").addEventListener("click", clearComments);
+  $("fileTree").addEventListener("click", (event) => {
+    const button = event.target.closest(".tree-file");
+    if (button?.dataset.path) {
+      renderFile(button.dataset.path);
+    }
+  });
   $("importFileInput").addEventListener("change", (event) => {
     const file = event.target.files?.[0];
     if (file) importJsonFile(file);

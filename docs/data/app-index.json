@@ -1,8 +1,8 @@
 {
   "metadata": {
     "branch": "app/review-interface-v0",
-    "commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba",
-    "generated_at": "2026-06-26T16:11:53.037511+00:00",
+    "commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9",
+    "generated_at": "2026-06-26T16:17:53.240535+00:00",
     "app_version": "review-interface-v0"
   },
   "warnings": [],
@@ -78,7 +78,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-aldira.md",
@@ -156,7 +156,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-caius-drakhal.md",
@@ -239,7 +239,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-davian.md",
@@ -302,7 +302,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-elric.md",
@@ -370,7 +370,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-erynn.md",
@@ -443,7 +443,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-harvick.md",
@@ -506,7 +506,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-jalen.md",
@@ -559,7 +559,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-kelyra.md",
@@ -612,7 +612,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-maya.md",
@@ -680,7 +680,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-niall.md",
@@ -738,7 +738,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-selwin.md",
@@ -791,7 +791,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-serathis.md",
@@ -859,7 +859,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-tanelle.md",
@@ -917,7 +917,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/characters/char-vorren.md",
@@ -975,7 +975,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/cultures/culture-clade-hierarchy.md",
@@ -1033,7 +1033,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/cultures/culture-creator-sheol.md",
@@ -1081,7 +1081,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/cultures/culture-magus-presentation.md",
@@ -1134,7 +1134,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/cultures/culture-naeroth-lineages.md",
@@ -1182,7 +1182,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/cultures/culture-number-system-zan-script.md",
@@ -1245,7 +1245,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-archeon.md",
@@ -1303,7 +1303,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-concord-manor.md",
@@ -1361,7 +1361,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-registry.md",
@@ -1424,7 +1424,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-rezin-citadel.md",
@@ -1482,7 +1482,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-sorevin-redbridge.md",
@@ -1535,7 +1535,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-spire.md",
@@ -1593,7 +1593,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/locations/loc-treasury.md",
@@ -1656,7 +1656,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-antithesis.md",
@@ -1709,7 +1709,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-codex-memory.md",
@@ -1757,7 +1757,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-fateweaving-skein.md",
@@ -1815,7 +1815,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-ink-boons.md",
@@ -1878,7 +1878,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-shroud.md",
@@ -1941,7 +1941,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-subversion.md",
@@ -1999,7 +1999,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/magic/magic-zan-lattices.md",
@@ -2057,7 +2057,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-alara-journal.md",
@@ -2110,7 +2110,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-antithesis.md",
@@ -2173,7 +2173,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-davian-mask.md",
@@ -2221,7 +2221,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-haloes.md",
@@ -2274,7 +2274,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-paradox.md",
@@ -2332,7 +2332,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/objects/object-seraph-heart.md",
@@ -2390,7 +2390,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-archeon.md",
@@ -2458,7 +2458,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-concord.md",
@@ -2516,7 +2516,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-drakhal.md",
@@ -2574,7 +2574,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-harbingers-syndicate.md",
@@ -2632,7 +2632,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-high-clades.md",
@@ -2700,7 +2700,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-registry.md",
@@ -2758,7 +2758,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "bible/organizations/org-rezin.md",
@@ -2816,7 +2816,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0001-maya-naeroth-heritage-and-appearance.md",
@@ -2849,7 +2849,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0002-naeroth-demi-human-worldbuilding.md",
@@ -2887,7 +2887,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0003-maya-shroud-and-prologue-revision-direction.md",
@@ -2920,7 +2920,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0004-davian-heart-theft-agency-and-arc.md",
@@ -2953,7 +2953,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0005-niall-grief-arc-and-lightning-conduits.md",
@@ -2986,7 +2986,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0006-kelyra-archeon-lineage-shroud-and-family.md",
@@ -3019,7 +3019,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0007-elric-rezin-remnant-and-reality-skein-role.md",
@@ -3047,7 +3047,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0008-harvick-elric-ink-and-mentorship.md",
@@ -3080,7 +3080,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0009-selwin-dissolution-shroud-and-family-role.md",
@@ -3113,7 +3113,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0010-jalen-kelyra-concord-role-swap.md",
@@ -3146,7 +3146,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0011-rezin-clade-family-and-household-structure.md",
@@ -3179,7 +3179,7 @@
           "text": "Consequences"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0012-archeon-high-clade-rise-and-training-system.md",
@@ -3217,7 +3217,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md",
@@ -3255,7 +3255,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0014-high-clades-governance-and-central-amphitheater.md",
@@ -3288,7 +3288,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0015-harbingers-name-elric-takeover-and-coordination.md",
@@ -3321,7 +3321,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0016-twilight-concord-masked-clade-and-trial.md",
@@ -3354,7 +3354,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0017-registry-power-modes-and-elric-bypass.md",
@@ -3387,7 +3387,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0018-shroud-throughput-and-manifestation-model.md",
@@ -3425,7 +3425,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0019-ink-pact-terminology-and-core-mechanics.md",
@@ -3463,7 +3463,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0020-kinesis-terminology-and-mechanics.md",
@@ -3501,7 +3501,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md",
@@ -3539,7 +3539,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0022-zan-terminology-and-lattice-principles.md",
@@ -3577,7 +3577,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0023-antithesis-boundary-and-paradox-future-plan.md",
@@ -3605,7 +3605,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0024-auratic-codex-memory-mechanics.md",
@@ -3633,7 +3633,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0025-rezin-citadel-location-boundaries.md",
@@ -3661,7 +3661,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0026-registry-chamber-placement-and-interface.md",
@@ -3689,7 +3689,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0027-treasury-placement-and-containment-function.md",
@@ -3717,7 +3717,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0028-spire-name-and-central-amphitheater-form.md",
@@ -3745,7 +3745,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0029-concord-manor-identity-and-collapse.md",
@@ -3773,7 +3773,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md",
@@ -3801,7 +3801,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0031-sorevin-manor-and-redbridge-candidate.md",
@@ -3829,7 +3829,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0032-heart-name-containment-and-skein-links.md",
@@ -3857,7 +3857,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0033-antithesis-dagger-schema-sink-and-concealment.md",
@@ -3890,7 +3890,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0034-paradox-name-maker-form-and-symbolism.md",
@@ -3923,7 +3923,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md",
@@ -3956,7 +3956,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0036-alara-journal-discovery-and-elric-codex-trap.md",
@@ -3984,7 +3984,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0037-haloes-currency-value-and-authenticity.md",
@@ -4017,7 +4017,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0038-clade-hierarchy-categories-and-presented-status.md",
@@ -4050,7 +4050,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0039-naeroth-lineage-and-magic-exception.md",
@@ -4083,7 +4083,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0040-magus-presentation-status-power-display-and-fashion.md",
@@ -4116,7 +4116,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0041-creator-sheol-and-watchmaker-cosmology.md",
@@ -4149,7 +4149,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0042-zan-number-system-nizan-and-script-terminology.md",
@@ -4182,7 +4182,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0043-aldira-identity-spymaster-role-and-maya-support.md",
@@ -4215,7 +4215,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0044-erynn-companion-role-and-maya-reality-check.md",
@@ -4248,7 +4248,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md",
@@ -4281,7 +4281,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md",
@@ -4309,7 +4309,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md",
@@ -4337,7 +4337,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0048-caius-drakhal-heir-role-and-provocation.md",
@@ -4370,7 +4370,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/0049-tanelle-zanwright-competence-and-worker-function.md",
@@ -4403,7 +4403,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "decisions/index.md",
@@ -4416,7 +4416,7 @@
           "text": "Decision Index"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "feedback/webapp/README.md",
@@ -4429,7 +4429,7 @@
           "text": "Web App Feedback Workflow"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "imports/normalized/README.md",
@@ -4442,7 +4442,7 @@
           "text": "Normalized Imports"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "imports/normalized/book-1-outline.md",
@@ -4885,7 +4885,7 @@
           "text": "Scene order (beats-in-one-glance)"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "imports/normalized/bullet-notes.md",
@@ -4923,7 +4923,7 @@
           "text": "Planning"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "imports/normalized/melissa-copy.comments.md",
@@ -5501,7 +5501,7 @@
           "text": "Comment 10"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "imports/normalized/melissa-copy.md",
@@ -5924,7 +5924,7 @@
           "text": "Ch29 summary"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "outline/arcs/thread-davian-identity-guilt.md",
@@ -5952,7 +5952,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "outline/arcs/thread-elric-reality-skein.md",
@@ -5995,7 +5995,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "outline/arcs/thread-kelyra-archeon-recovery.md",
@@ -6028,7 +6028,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "outline/arcs/thread-niall-grief-recovery.md",
@@ -6061,7 +6061,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-alara.md",
@@ -6109,7 +6109,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-aldira.md",
@@ -6157,7 +6157,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-caius-drakhal.md",
@@ -6195,7 +6195,7 @@
           "text": "Naming and Future Use"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-davian.md",
@@ -6233,7 +6233,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-elric.md",
@@ -6271,7 +6271,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-erynn.md",
@@ -6319,7 +6319,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-harvick.md",
@@ -6357,7 +6357,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-jalen.md",
@@ -6390,7 +6390,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-kelyra.md",
@@ -6423,7 +6423,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-maya.md",
@@ -6461,7 +6461,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-niall.md",
@@ -6499,7 +6499,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-selwin.md",
@@ -6537,7 +6537,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-serathis.md",
@@ -6575,7 +6575,7 @@
           "text": "Creator / Sheol Dialogue"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-tanelle.md",
@@ -6608,7 +6608,7 @@
           "text": "Technical and Plot Uses"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/characters/char-vorren.md",
@@ -6646,7 +6646,7 @@
           "text": "Breeding Contract"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/cultures/culture-clade-hierarchy.md",
@@ -6674,7 +6674,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/cultures/culture-creator-sheol.md",
@@ -6707,7 +6707,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/cultures/culture-magus-presentation.md",
@@ -6735,7 +6735,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/cultures/culture-naeroth-lineages.md",
@@ -6763,7 +6763,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/cultures/culture-number-system-zan-script.md",
@@ -6801,7 +6801,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-archeon.md",
@@ -6849,7 +6849,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-concord-manor.md",
@@ -6892,7 +6892,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-registry.md",
@@ -6935,7 +6935,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-rezin-citadel.md",
@@ -6968,7 +6968,7 @@
           "text": "Future Security Candidates"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-sorevin-redbridge.md",
@@ -7006,7 +7006,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-spire.md",
@@ -7049,7 +7049,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/locations/loc-treasury.md",
@@ -7092,7 +7092,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-antithesis.md",
@@ -7135,7 +7135,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-codex-memory.md",
@@ -7178,7 +7178,7 @@
           "text": "Object Boundary"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-fateweaving-skein.md",
@@ -7241,7 +7241,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-ink-boons.md",
@@ -7299,7 +7299,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-shroud.md",
@@ -7342,7 +7342,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-subversion.md",
@@ -7395,7 +7395,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/magic/magic-zan-lattices.md",
@@ -7463,7 +7463,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-alara-journal.md",
@@ -7491,7 +7491,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-antithesis.md",
@@ -7524,7 +7524,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-davian-mask.md",
@@ -7557,7 +7557,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-haloes.md",
@@ -7585,7 +7585,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-paradox.md",
@@ -7618,7 +7618,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/objects/object-seraph-heart.md",
@@ -7646,7 +7646,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-archeon.md",
@@ -7684,7 +7684,7 @@
           "text": "Related Future Reviews"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-concord.md",
@@ -7712,7 +7712,7 @@
           "text": "Concord Chronology and Manuscript Repair"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-drakhal.md",
@@ -7755,7 +7755,7 @@
           "text": "Related Future Reviews"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-harbingers-syndicate.md",
@@ -7798,7 +7798,7 @@
           "text": "Masked Clades and Public Face"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-high-clades.md",
@@ -7841,7 +7841,7 @@
           "text": "Social and Cultural Material"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-registry.md",
@@ -7874,7 +7874,7 @@
           "text": "Repair and Future Work"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "planning/candidates/organizations/org-rezin.md",
@@ -7912,7 +7912,7 @@
           "text": "Deferred Dependencies"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-alara.md",
@@ -8035,7 +8035,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-aldira.md",
@@ -8173,7 +8173,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-caius-drakhal.md",
@@ -8301,7 +8301,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-davian.md",
@@ -8409,7 +8409,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-elric.md",
@@ -8517,7 +8517,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-erynn.md",
@@ -8650,7 +8650,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-harvick.md",
@@ -8753,7 +8753,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-jalen.md",
@@ -8856,7 +8856,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-kelyra.md",
@@ -8959,7 +8959,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-marek.md",
@@ -9042,7 +9042,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-maya.md",
@@ -9150,7 +9150,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-niall.md",
@@ -9253,7 +9253,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-selwin.md",
@@ -9356,7 +9356,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-serathis.md",
@@ -9494,7 +9494,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-tanelle.md",
@@ -9612,7 +9612,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/characters/char-vorren.md",
@@ -9740,7 +9740,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/cultures/culture-clade-hierarchy.md",
@@ -9793,7 +9793,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/cultures/culture-creator-sheol.md",
@@ -9846,7 +9846,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/cultures/culture-magus-presentation.md",
@@ -9899,7 +9899,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/cultures/culture-naeroth-lineages.md",
@@ -9952,7 +9952,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/cultures/culture-number-system-zan-script.md",
@@ -10020,7 +10020,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-archeon.md",
@@ -10118,7 +10118,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-concord-manor.md",
@@ -10206,7 +10206,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-registry.md",
@@ -10294,7 +10294,7 @@
           "text": "Proposed file changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-rezin-citadel.md",
@@ -10387,7 +10387,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-sorevin-redbridge.md",
@@ -10480,7 +10480,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-spire.md",
@@ -10578,7 +10578,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/locations/loc-treasury.md",
@@ -10666,7 +10666,7 @@
           "text": "Proposed file changes after approval"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-antithesis.md",
@@ -10789,7 +10789,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-codex-memory.md",
@@ -10912,7 +10912,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-fateweaving-skein.md",
@@ -11065,7 +11065,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-ink-boons.md",
@@ -11243,7 +11243,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-shroud.md",
@@ -11416,7 +11416,7 @@
           "text": "Approved file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-subversion.md",
@@ -11559,7 +11559,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/magic/magic-zan-lattices.md",
@@ -11717,7 +11717,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-alara-journal.md",
@@ -11800,7 +11800,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-antithesis.md",
@@ -11878,7 +11878,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-davian-mask.md",
@@ -11951,7 +11951,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-haloes.md",
@@ -12009,7 +12009,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-paradox.md",
@@ -12082,7 +12082,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/objects/object-seraph-heart.md",
@@ -12155,7 +12155,7 @@
           "text": "Author decisions on 2026-06-25"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-archeon.md",
@@ -12258,7 +12258,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-concord.md",
@@ -12376,7 +12376,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-drakhal.md",
@@ -12474,7 +12474,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-harbingers-syndicate.md",
@@ -12577,7 +12577,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-high-clades.md",
@@ -12675,7 +12675,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-registry.md",
@@ -12793,7 +12793,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/organizations/org-rezin.md",
@@ -12891,7 +12891,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/threads/thread-davian-identity-guilt.md",
@@ -12914,7 +12914,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/threads/thread-elric-reality-skein.md",
@@ -12937,7 +12937,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/threads/thread-kelyra-archeon-recovery.md",
@@ -12960,7 +12960,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "reviews/entities/threads/thread-niall-grief-recovery.md",
@@ -12983,7 +12983,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     },
     {
       "path": "revision/prologue/maya-shroud-attack.md",
@@ -13016,7 +13016,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "d8c9f24813d06827c2be2033fa2123fcb374b3ba"
+      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
     }
   ],
   "file_tree": {

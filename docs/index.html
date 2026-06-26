@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <section class="access-strip" aria-label="Access mode">
+      <div>
+        <strong>Access mode</strong>
+        <span>Reader Mode hides repository browsing. Author Mode exposes spoilers and project files.</span>
+      </div>
+      <div class="access-actions">
+        <button id="readerModeBtn" class="active" type="button">Reader Mode</button>
+        <button id="authorModeBtn" type="button">Author Mode</button>
+      </div>
+    </section>
+
     <header class="app-header">
       <div class="title-block">
         <h1>Fractured Fate Review</h1>
@@ -31,9 +42,8 @@
     </header>
 
     <main>
-      <section class="mode-strip" aria-label="View mode">
-        <button id="readerModeBtn" class="active" type="button">Reader Mode</button>
-        <button id="authorModeBtn" type="button">Author Mode</button>
+      <section class="mode-strip" aria-label="Repository metadata">
+        <span id="modeStatus">Reader Mode active</span>
         <span id="repoMeta" class="repo-meta"></span>
       </section>
 
