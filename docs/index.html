@@ -85,12 +85,16 @@
       </section>
 
       <section id="repoBrowserView" class="view" aria-labelledby="repoBrowserHeading">
-        <div class="section-heading">
+        <div class="section-heading browser-heading">
           <h2 id="repoBrowserHeading">Repository Browser</h2>
           <p>Readable generated project files only. Candidate and planning material may contain spoilers.</p>
         </div>
         <div class="browser-layout">
-          <aside class="file-tree" id="fileTree"></aside>
+          <aside class="browser-sidebar" aria-label="Repository browser navigation">
+            <h2>Repository Browser</h2>
+            <p>Readable generated project files. Candidate and planning material may contain spoilers.</p>
+            <div class="file-tree" id="fileTree"></div>
+          </aside>
           <article class="file-viewer">
             <div class="content-meta">
               <span id="filePath">Select a file</span>

@@ -376,7 +376,7 @@ function renderFile(path) {
 }
 
 function approximateScrollPercent() {
-  if (currentView === "book-reader") {
+  if (currentView === "book-reader" || currentView === "repo-browser") {
     const max = document.documentElement.scrollHeight - window.innerHeight;
     if (max <= 0) return 0;
     return Math.round((window.scrollY / max) * 100);
