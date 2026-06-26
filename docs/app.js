@@ -2,7 +2,8 @@ const APP_VERSION = "review-interface-v0";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
-  comments: "ffReview.comments"
+  comments: "ffReview.comments",
+  bookmark: "ffReview.bookmark"
 };
 
 let appIndex = null;
@@ -71,6 +72,28 @@ function saveComments() {
   localStorage.setItem(STORAGE_KEYS.comments, JSON.stringify(comments));
   renderCommentCount();
   renderCommentList();
+}
+
+function loadBookmark() {
+  try {
+    const bookmark = JSON.parse(localStorage.getItem(STORAGE_KEYS.bookmark) || "null");
+    return bookmark && typeof bookmark === "object" ? bookmark : null;
+  } catch {
+    return null;
+  }
+}
+
+function bookmarkLabel(bookmark = loadBookmark()) {
+  if (!bookmark) return "No bookmark";
+  if (bookmark.chapter_title) return abbreviate(bookmark.chapter_title, 34);
+  if (bookmark.current_file_path) return abbreviate(bookmark.current_file_path, 34);
+  return "Saved place";
+}
+
+function renderBookmarkStatus() {
+  const label = bookmarkLabel();
+  $("readerBookmarkStatus").textContent = label;
+  $("browserBookmarkStatus").textContent = label;
 }
 
 function promptForName(force = false) {
@@ -308,6 +331,55 @@ function renderChapter() {
   }
   contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : renderLines(text, 1);
   updateTargetDisplay();
+}
+
+function scrollToPercent(percent) {
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  const clamped = Math.max(0, Math.min(Number(percent) || 0, 100));
+  window.scrollTo({
+    top: max > 0 ? Math.round((clamped / 100) * max) : 0,
+    behavior: "smooth"
+  });
+}
+
+function saveBookmark() {
+  const ref = currentReference();
+  const bookmark = {
+    ...ref,
+    saved_at: new Date().toISOString()
+  };
+  localStorage.setItem(STORAGE_KEYS.bookmark, JSON.stringify(bookmark));
+  renderBookmarkStatus();
+}
+
+function resumeBookmark() {
+  const bookmark = loadBookmark();
+  if (!bookmark) {
+    window.alert("No bookmark saved yet.");
+    return;
+  }
+
+  if (bookmark.view_mode === "repo-browser") {
+    setMode("author");
+    if (bookmark.current_file_path && appContent.files?.[bookmark.current_file_path]) {
+      renderFile(bookmark.current_file_path);
+    } else {
+      setView("repo-browser");
+    }
+  } else {
+    if (bookmark.current_layer && bookmark.current_layer !== "prose") {
+      setMode("author");
+    }
+    setView("book-reader");
+    if (bookmark.chapter_id && (appIndex.chapters || []).some((chapter) => chapter.chapter_id === bookmark.chapter_id)) {
+      currentChapterId = bookmark.chapter_id;
+    }
+    currentLayer = bookmark.current_layer || "prose";
+    renderLayerSelect();
+    renderChapter();
+  }
+
+  window.setTimeout(() => scrollToPercent(bookmark.approximate_scroll_percent), 80);
 }
 
 function chapterStep(delta) {
@@ -707,6 +779,10 @@ function wireEvents() {
   });
   $("prevChapterBtn").addEventListener("click", () => chapterStep(-1));
   $("nextChapterBtn").addEventListener("click", () => chapterStep(1));
+  $("readerBookmarkBtn").addEventListener("click", saveBookmark);
+  $("readerResumeBtn").addEventListener("click", resumeBookmark);
+  $("browserBookmarkBtn").addEventListener("click", saveBookmark);
+  $("browserResumeBtn").addEventListener("click", resumeBookmark);
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
@@ -747,6 +823,7 @@ async function init() {
   setMode("reader");
   setView("book-reader");
   syncMobileCommentUi();
+  renderBookmarkStatus();
   renderCommentCount();
   renderCommentList();
 }
