@@ -30,8 +30,7 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 - Layer selector with graceful unavailable-layer handling.
 - Persistent bottom comment box.
 - Browser-local comment storage.
-- Comment export as JSON, JSONL, or Markdown.
-- Comment import from exported JSON.
+- Comment export as JSON.
 - Clear local comments with confirmation.
 
 ## Source and Data

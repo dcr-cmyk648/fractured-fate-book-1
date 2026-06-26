@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   color: var(--text);
   background: var(--bg);
-  padding-bottom: 190px;
+  padding-right: 360px;
 }
 
 button,
@@ -65,9 +65,6 @@ button:disabled {
 }
 
 .access-strip {
-  position: sticky;
-  top: 0;
-  z-index: 8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,9 +100,6 @@ button:disabled {
 }
 
 .app-header {
-  position: sticky;
-  top: 52px;
-  z-index: 5;
   display: flex;
   gap: 1.5rem;
   justify-content: space-between;
@@ -208,19 +202,53 @@ main {
 }
 
 .reader-toolbar {
-  justify-content: space-between;
+  justify-content: stretch;
   padding: 0.8rem;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
 }
 
+.reader-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.reader-sidebar {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.9rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.reader-sidebar h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.reader-sidebar p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.reader-sidebar label,
 .reader-toolbar label {
   display: grid;
   gap: 0.25rem;
-  min-width: min(330px, 100%);
   color: var(--muted);
   font-size: 0.85rem;
+}
+
+.reader-meta {
+  display: grid;
+  padding: 0.65rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
 }
 
 select {
@@ -234,7 +262,6 @@ select {
 
 .reader-panel,
 .file-viewer {
-  margin-top: 1rem;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -279,13 +306,13 @@ select {
 
 .document-content {
   padding: 1.25rem;
-  max-height: calc(100vh - 330px);
   overflow: auto;
 }
 
 .document-content.prose {
   max-width: 820px;
   margin: 0 auto;
+  min-height: calc(100vh - 155px);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.08rem;
   line-height: 1.68;
@@ -420,16 +447,18 @@ select {
 
 .comment-box {
   position: fixed;
-  left: 0;
+  top: 0;
   right: 0;
   bottom: 0;
+  width: 360px;
   z-index: 10;
+  align-content: start;
   display: grid;
   gap: 0.5rem;
-  padding: 0.75rem 1rem 1rem;
+  padding: 0.9rem;
   background: rgba(31, 37, 40, 0.97);
   color: white;
-  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.22);
 }
 
 .target-row {
@@ -445,13 +474,13 @@ select {
 }
 
 .target-row #commentCount {
-  margin-left: auto;
+  width: 100%;
   color: #d4dcde;
 }
 
 .comment-box textarea {
   width: 100%;
-  min-height: 74px;
+  min-height: 220px;
   resize: vertical;
   border: 1px solid #5d696d;
   border-radius: 6px;
@@ -482,8 +511,28 @@ select {
 
   .app-header {
     top: 0;
-    position: static;
     display: grid;
+  }
+
+  body {
+    padding-right: 0;
+    padding-bottom: 260px;
+  }
+
+  .comment-box {
+    top: auto;
+    left: 0;
+    width: auto;
+    min-height: 235px;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .comment-box textarea {
+    min-height: 90px;
+  }
+
+  .reader-layout {
+    grid-template-columns: 1fr;
   }
 
   .header-actions {

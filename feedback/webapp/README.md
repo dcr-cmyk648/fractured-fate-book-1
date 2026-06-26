@@ -8,7 +8,7 @@ Intended path:
 2. Reader enters a commenter name.
 3. Reader reads prose in Reader Mode or, if authorized, uses Author Mode for repository files and other layers.
 4. Reader submits comments using the fixed bottom comment box.
-5. Reader exports comments as JSON, JSONL, or Markdown.
+5. Reader exports comments as JSON.
 6. Reader sends the exported comments file to the author.
 7. Author uploads the comments file to Google Drive or places it in a repository feedback import location.
 8. Codex later reads the exported file and converts comments into feedback records, consistency queue items, revision suggestions, chapter architecture issues, or story-bible review items according to the existing workflow.

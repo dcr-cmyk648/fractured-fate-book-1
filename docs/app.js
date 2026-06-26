@@ -197,7 +197,11 @@ function normalizeProseText(text) {
   };
 
   for (const rawLine of lines) {
-    const line = rawLine.trim();
+    const line = rawLine
+      .replace(/<!--\s*comment-(?:start|end|ref):\d+\s*-->/g, "")
+      .replace(/<!--\s*paragraph:[\s\S]*?-->/g, "")
+      .replace(/<!--\s*[\s\S]*?-->/g, "")
+      .trim();
     if (!line) {
       flush();
       output.push("");
@@ -612,21 +616,14 @@ function wireEvents() {
   $("prevChapterBtn").addEventListener("click", () => chapterStep(-1));
   $("nextChapterBtn").addEventListener("click", () => chapterStep(1));
   $("submitCommentBtn").addEventListener("click", submitComment);
-  $("quickExportBtn").addEventListener("click", () => setView("export"));
+  $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
-  $("exportJsonlBtn").addEventListener("click", exportJsonl);
-  $("exportMarkdownBtn").addEventListener("click", exportMarkdown);
   $("clearCommentsBtn").addEventListener("click", clearComments);
   $("fileTree").addEventListener("click", (event) => {
     const button = event.target.closest(".tree-file");
     if (button?.dataset.path) {
       renderFile(button.dataset.path);
     }
-  });
-  $("importFileInput").addEventListener("change", (event) => {
-    const file = event.target.files?.[0];
-    if (file) importJsonFile(file);
-    event.target.value = "";
   });
   document.addEventListener("selectionchange", updateTargetDisplay);
 }

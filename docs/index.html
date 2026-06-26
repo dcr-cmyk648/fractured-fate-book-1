@@ -50,31 +50,31 @@
       <section id="warningsPanel" class="warnings hidden"></section>
 
       <section id="bookReaderView" class="view active" aria-labelledby="bookReaderHeading">
-        <div class="section-heading">
-          <h2 id="bookReaderHeading">Book Reader</h2>
-          <p>Default view is prose-only when available.</p>
+        <div class="reader-layout">
+          <aside class="reader-sidebar" aria-label="Book reader controls">
+            <h2 id="bookReaderHeading">Book Reader</h2>
+            <p>Prose-first reading view.</p>
+            <label>
+              Chapter
+              <select id="chapterSelect"></select>
+            </label>
+            <div class="chapter-buttons">
+              <button id="prevChapterBtn" type="button">Previous</button>
+              <button id="nextChapterBtn" type="button">Next</button>
+            </div>
+            <label>
+              Layer
+              <select id="layerSelect"></select>
+            </label>
+            <div class="content-meta reader-meta">
+              <span id="readerPath"></span>
+              <span id="readerLines"></span>
+            </div>
+          </aside>
+          <article class="reader-panel">
+            <div id="readerContent" class="document-content prose"></div>
+          </article>
         </div>
-        <div class="reader-toolbar">
-          <label>
-            Chapter
-            <select id="chapterSelect"></select>
-          </label>
-          <div class="chapter-buttons">
-            <button id="prevChapterBtn" type="button">Previous</button>
-            <button id="nextChapterBtn" type="button">Next</button>
-          </div>
-          <label>
-            Layer
-            <select id="layerSelect"></select>
-          </label>
-        </div>
-        <article class="reader-panel">
-          <div class="content-meta">
-            <span id="readerPath"></span>
-            <span id="readerLines"></span>
-          </div>
-          <div id="readerContent" class="document-content prose"></div>
-        </article>
       </section>
 
       <section id="repoBrowserView" class="view" aria-labelledby="repoBrowserHeading">
@@ -100,20 +100,14 @@
           <p>Comments are stored only in this browser until exported.</p>
         </div>
         <div class="export-grid">
-          <button id="exportJsonBtn" type="button">Export JSON</button>
-          <button id="exportJsonlBtn" type="button">Export JSONL</button>
-          <button id="exportMarkdownBtn" type="button">Export Markdown</button>
-          <label class="import-label">
-            Import JSON
-            <input id="importFileInput" type="file" accept="application/json,.json">
-          </label>
+          <button id="exportJsonBtn" type="button">Export Comments</button>
           <button id="clearCommentsBtn" class="danger" type="button">Clear Local Comments</button>
         </div>
         <div id="commentList" class="comment-list"></div>
       </section>
     </main>
 
-    <footer class="comment-box" aria-label="Persistent comment box">
+    <aside class="comment-box" aria-label="Persistent comment box">
       <div class="target-row">
         <span>Target:</span>
         <strong id="commentTarget">Loading...</strong>
@@ -122,9 +116,9 @@
       <textarea id="commentText" rows="3" placeholder="Write a comment about the current chapter, layer, or file."></textarea>
       <div class="comment-actions">
         <button id="submitCommentBtn" type="button">Submit Comment</button>
-        <button id="quickExportBtn" type="button">Export</button>
+        <button id="quickExportBtn" type="button">Export Comments</button>
       </div>
-    </footer>
+    </aside>
 
     <script src="app.js"></script>
   </body>
