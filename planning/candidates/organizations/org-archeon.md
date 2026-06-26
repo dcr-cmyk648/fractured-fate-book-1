@@ -41,7 +41,7 @@ Preserve for later:
 - Kelyra's Trial of Dominion recapture
 - Archeon raid sequence and rescue of Kelyra; broad location direction now uses an aboveground approach through slums/boundary districts into the citadel and central tower
 - Serathis/Drosin matchup details
-- anti-Archeon knives and related Zirene technology
+- Serathis's dual returning daggers are accepted as Zirene-made endgame weapons, but exact object design, bracer mechanics, limits, and reveal timing remain for later object/technology review
 - exact Archeon central-tower throne-room fight staging, floor-collapse trap, Niall/Vorren lower-complex separation, and route choreography
 
 ## Obsolete or Suspect Material

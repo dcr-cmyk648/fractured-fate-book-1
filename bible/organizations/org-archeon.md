@@ -22,7 +22,7 @@ Physical Archeon territory, including the citadel, city-wedge, lower complex, ar
 
 Serathis is Archeon's current Head Magus and leader. She is also the mother, grandmother, or more distant ancestor of virtually all current Archeon members.
 
-Serathis treats Archeon as a long project of controlled bloodlines, disciplined technique, and usable children. She is personally central to Archeon's rise, methods, and current political strategy.
+Serathis treats Archeon as a long project of controlled bloodlines, disciplined technique, and usable children. She is personally central to Archeon's rise, methods, current political strategy, and final-act conflict. Her accepted character owner file is `char-serathis`.
 
 ## Public Branding and True Power
 
@@ -41,6 +41,8 @@ Antithesis is one such attempted Archeon copy of older Zirene designs. It is a d
 Kinesis is short-range, primarily kinetic redirection of energy. Because Archeon's kinesis is closer to original magic, it requires more balance and less simple reality-bending force than most refined High Clade magic. Exact Shroud interaction, tremorsense/kinetic sensitivity, and tool mechanics remain for later reviews.
 
 Serathis is a near-perfected Archeon-kinesis user, but her total power comes from mastery of the Shroud / martial arts / Ink Pact / kinesis stack. Most current Archeon practitioners cannot do this at Serathis's level and rely more heavily on buffering/transfer technology. Serathis hides that technology dependence because it embarrasses her and makes the Clade look weak.
+
+In the endgame, Serathis uses dual returning daggers made by Zirene rather than ordinary Archeon gauntlets. This returns her to her pre-Shroud release-and-catch roots and creates a deliberate similarity to Kelyra's dual-knife preference. Exact returning-dagger mechanics belong to later object/technology review.
 
 The older `Transcendence` / spirit-summoner label is obsolete.
 
@@ -64,6 +66,8 @@ Kelyra was truly allowed to escape. Serathis knew Kelyra was a genius in martial
 
 Serathis herself was part of an allowed escape and met Elric through that pattern. When Kelyra is recaptured, Serathis uses the parallel to gaslight Kelyra into thinking the same pattern was for Kelyra's benefit.
 
+Serathis's secret long-term goal is to kill all High Clade magi and burn the Clade system down. Her hatred of the system comes partly from her prior outsider status, but her methods reproduce domination through breeding, child-taking, manipulation, and violence.
+
 ## Elric Influence
 
 Elric's influence in Archeon is moderate.
@@ -79,6 +83,8 @@ Elric also coordinates with Archeon, Drakhal, and Vorren through the Harbingers.
 ## Current and Intended Heirs
 
 Kelyra and Davian are the heirs Serathis has been looking for: potential users able to fully combine kinesis, Ink Pacts, Shroud use, and martial arts. Working together, they can surpass Serathis, and both have the potential to become better than her because of strong fundamental abilities combined with Kelyra's version of Archeon martial arts.
+
+Serathis is desperate to bring Kelyra back to her side and later capture Davian because they are the closest realized heirs to her project. Current Archeon heirs may recognize and resent this, and may want to kill Kelyra or Davian in the final conflict.
 
 Kelyra has strong kinesis, which she calls Subversion as a misnomer, and genius martial talent, but her Shroud is trauma-blocked.
 
@@ -98,6 +104,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Candidate material: [org-archeon](../../planning/candidates/organizations/org-archeon.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related character: [Serathis](../characters/char-serathis.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)
@@ -117,6 +124,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 
 ## Canonical Uncertainties
 

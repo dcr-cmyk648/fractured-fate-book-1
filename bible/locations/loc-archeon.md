@@ -50,6 +50,8 @@ The throne room has stained glass windows along the sides. These are remnants fr
 
 The throne room contains a trap that collapses the floor, dropping Niall into the subterranean areas below the Archeon citadel, where Vorren waits for him.
 
+Accepted high-level endgame direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Exact route and fight choreography remain deferred.
+
 ## Final Attack Geography
 
 The final attack approach will lead through the slums and neglected city-wedge-boundary areas before the main characters enter the Archeon citadel.
@@ -68,8 +70,10 @@ Exact route choreography, outer wall/gate configuration, and battle matchups rem
 - Related location: [Spire / central amphitheater](loc-spire.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Serathis](../characters/char-serathis.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
+- Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 
 ## Canonical Uncertainties
 

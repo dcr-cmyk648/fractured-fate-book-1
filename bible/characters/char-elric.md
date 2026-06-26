@@ -60,6 +60,8 @@ He manipulates people by leaning on their trauma scripts, urges, fear, grief, pe
 
 His manipulations affect Davian, Niall, Maya, Harvick, the Harbingers/Syndicate, and the Heart theft. The exact source of his fate sight remains unresolved.
 
+Elric's `A Cord of Six Strands` frame refers to two intertwined three-stranded threads: Elric-Niall-Maya and Serathis-Kelyra-Davian. He does not state this until Maya is about to resurrect Davian.
+
 ## Harbingers and Syndicate
 
 Elric gave the future Harbinger/Syndicate leader an Ink Pact before the book begins. After Elric's original body was destroyed, he used that pact as the route to slow possession.
@@ -108,6 +110,7 @@ Current manuscript material establishes:
 - Review packet: [char-elric](../../reviews/entities/characters/char-elric.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
+- Related character: [Serathis](char-serathis.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
@@ -119,6 +122,7 @@ Current manuscript material establishes:
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
+- Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 
 ## Canonical Uncertainties
 

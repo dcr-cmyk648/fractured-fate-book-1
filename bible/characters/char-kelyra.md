@@ -75,6 +75,10 @@ Serathis:
 
 Serathis claims Kelyra as daughter, granddaughter, and descendant. Kelyra is directly descended from Archeon breeding programs, but the exact number of generations between Kelyra and Serathis is unclear.
 
+Serathis intentionally allowed Kelyra's escape and later uses the parallel to Serathis's own release to gaslight Kelyra. Serathis sees Kelyra as one of the closest realized heirs to her project and is desperate to bring her back to Archeon's side.
+
+Accepted future direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Serathis shares her desire to kill all High Clade magi and burn down the Clade system with Kelyra as Serathis dies.
+
 ## Current Manuscript State
 
 In Chapter 3, Kelyra manages the family space, sends Kael and Lirien away from adult business, and calls Davian and Jalen into the central hall after they return from the Syndicate/Harbingers.
@@ -91,6 +95,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 
 - Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Related character: [Jalen](char-jalen.md)
+- Related character: [Serathis](char-serathis.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
@@ -107,11 +112,13 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 
 ## Canonical Uncertainties
 
 - Exact Shroud interaction and tremorsense/kinetic-sensitivity mechanics remain for later magic review.
 - Exact future Shroud manifestation scene and emotional integration remain for later arc/revision review.
+- Exact endgame fight choreography around Davian freeing Kelyra, Kelyra manifesting a Shroud, killing Serathis, and handling the remaining Archeon forces remains for later outline work.
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.

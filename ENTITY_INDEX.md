@@ -63,7 +63,7 @@ There must normally be no more than one entity marked `in-review`.
 | 42 | char-aldira | character | Aldira | approved | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
 | 43 | char-erynn | character | Erynn | approved | reviews/entities/characters/char-erynn.md | bible/characters/char-erynn.md | planning/candidates/characters/char-erynn.md | 2026-06-26 |
 | 44 | char-alara | character | Alara | approved | reviews/entities/characters/char-alara.md | bible/characters/char-alara.md | planning/candidates/characters/char-alara.md | 2026-06-26 |
-| 45 | char-serathis | character | Serathis | queued | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md |  |
+| 45 | char-serathis | character | Serathis | approved | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md | 2026-06-26 |
 | 46 | char-vorren | character | Vorren | queued | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md |  |
 | 47 | char-caius-drakhal | character | Caius Drakhal | queued | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md |  |
 | 48 | char-alden | character | Alden | superseded | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
