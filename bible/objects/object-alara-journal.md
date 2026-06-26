@@ -26,7 +26,7 @@ When Maya first finds it, the pages appear to be written in an indecipherable ci
 
 Later, a key incantation appears or becomes visible inside the front cover. The key is corrupted and tied to Elric's bridge/tampering.
 
-The journal may have faint zän on its parchment. In the current manuscript, one metal corner is dented after Maya drops it during the bridge incident.
+The journal may have faint zán on its parchment. In the current manuscript, one metal corner is dented after Maya drops it during the bridge incident.
 
 ## Discovery
 

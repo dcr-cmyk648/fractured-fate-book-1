@@ -31,7 +31,7 @@ Deferred:
 - exact visual form of the blast-hole amphitheater
 - exact sightline/scale relationship between the central Spire/amphitheater and the six surrounding citadel towers
 - whether the bowl feels like a polished civic arena, a sunken forum, a crater refined into ceremonial architecture, or another final image
-- exact materials, scale, zä lighting, acoustics, and ceremonial engineering
+- exact materials, scale, zán lighting, acoustics, and ceremonial engineering
 - exact way the site handles weather, shade, sound, and crowd control
 
 ## Approach and Security
@@ -54,7 +54,7 @@ Deferred:
 - exact choreography of Maya entering, taking the dais, and displaying power
 - exact staging of the vertical fire display in open air
 - exact location of Niall, Erynn, guards, mediator, and each High Clade section
-- exact floor/map symbolism and zä response
+- exact floor/map symbolism and zán response
 
 ## Obsolete or Revision Material
 

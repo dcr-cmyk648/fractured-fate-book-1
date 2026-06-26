@@ -69,14 +69,14 @@ Old tunnels beneath the main spire and Elric's hidden chamber are part of the ci
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related location: [Spire / central amphitheater](loc-spire.md)
 - Related location: [Archeon](loc-archeon.md)
-- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:392-760`: attack, walls, commanders, and Rezin defenses.
-- `imports/normalized/melissa-copy.md:18880-19309`: old tunnels, codex alcove, Elric chamber, and ancient zänwork.
+- `imports/normalized/melissa-copy.md:18880-19309`: old tunnels, codex alcove, Elric chamber, and ancient zánwork.
 - `imports/normalized/melissa-copy.md:20296-20542`: training courtyard and post-Heart Registry repair discussion.
 - `imports/normalized/melissa-copy.md:21455-21479`: massive citadel, repeated courtyards, towers, bridges, and old staging-area explanation.
 - `imports/normalized/book-1-outline.md:2762-2774`: central architectural spire and Treasury high-up planning.

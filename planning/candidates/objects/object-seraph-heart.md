@@ -14,9 +14,9 @@ Preserve unresolved or deferred possibilities here. Accepted facts belong in `bi
 
 - Exact origin or identity of the Heart remains unresolved. It may connect to divine, extraplanar, cosmological, first-magus, or other deeper world-history material, but no precise answer is accepted yet.
 - Some old manuscripts may call it the `Tzorrax Heart`. Exact meaning, age, reliability, and whether this term appears in Book 1 remain unresolved.
-- Exact Nizän relationship remains unresolved. Planning notes suggest the containment system may prevent the Heart from being seen by the Nizän and may use Nizän/negation-related zä, but Nizän/nïza details remain for later terminology/culture/cosmology review.
+- Exact Nizán relationship remains unresolved. Planning notes suggest the containment system may prevent the Heart from being seen by the Nizán and may use Nizán/negation-related zán, but Nizán/nïzá details remain for later terminology/culture/cosmology review.
 - Exact Heart-to-Registry power path, storage, discharge behavior, and active-mode limitations remain unresolved.
-- Exact zä and armature mechanics for transforming or channeling the Heart's reality-distorting energy remain unresolved.
+- Exact zán and armature mechanics for transforming or channeling the Heart's reality-distorting energy remain unresolved.
 - The Heart canonically does something to the Skein, but exact mechanics remain unresolved.
 - Elric's fate sight is canonically at least somewhat linked to exposure to the Heart, but the exact source mix remains unresolved.
 - The Heart will be present for Davian's resurrection and will interplay with Maya's fateweaving, the Skein, and related mechanics, but exact technical details and costs remain unresolved.
@@ -27,7 +27,7 @@ Preserve unresolved or deferred possibilities here. Accepted facts belong in `bi
 - `Seraph Heart` is not the accepted in-world name.
 - `Tzorrax Sphere` is an outdated separate queue item and should not remain a separate durable object. The current Treasury sphere contains the Heart and the armature for containing it.
 - Older prose saying the Registry can enable/disable Treasury weightlessness is obsolete. The accepted model is Heart/containment-armature interaction.
-- Older or rough terms such as `glyph`, `jin`, and unaccented `zan` should be harmonized to accepted zä/zän terminology in future manuscript or terminology work unless a later review gives them distinct in-world roles.
+- Older or rough terms such as `glyph`, `jin`, and unaccented `zan` should be harmonized to accepted zán/zá terminology in future manuscript or terminology work unless a later review gives them distinct in-world roles.
 
 ## Provenance
 

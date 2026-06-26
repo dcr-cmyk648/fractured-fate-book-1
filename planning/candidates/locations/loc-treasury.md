@@ -35,7 +35,7 @@ Accepted direction: there is no visible usable entrance. A prior entrance was se
 Deferred:
 
 - exact visual appearance of the sealed/blocked former entrance
-- whether workers can identify the patch easily or only with close zä analysis
+- whether workers can identify the patch easily or only with close zán analysis
 - exact former access protocol before the entrance was sealed
 
 Rejected:
@@ -49,11 +49,11 @@ Accepted direction: chamber weightlessness is produced by the Tzorrax Heart inte
 
 Deferred:
 
-- exact zä-sink design
+- exact zán-sink design
 - exact Heart-energy transformation process
-- exact Nizän-protection mechanics
+- exact Nizán-protection mechanics
 - exact inner-core architecture
-- exact relationship between outer tower zä, sphere zä, and inner containment armature
+- exact relationship between outer tower zán, sphere zán, and inner containment armature
 
 ## Post-Theft State
 

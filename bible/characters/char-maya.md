@@ -51,7 +51,7 @@ Maya's magic includes:
 - advanced Shroud use
 - schema construction
 - heat and flame manipulation
-- Registry and zan-lattice work
+- Registry and zán-lattice work
 - emerging Fateweaving/Skein perception
 
 Her Shroud is effectively permanent while she is awake. She can mute it enough to eat and interact with objects, but muting requires conscious effort and can get out of control. Her Shroud can activate while she sleeps if triggered by a bad dream or similar stressor.
@@ -94,7 +94,7 @@ Presentation includes a required power display. Maya's revised fire/ice display 
 
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
-In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zan lattices. She is sleep-deprived and under pressure.
+In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zán lattices. She is sleep-deprived and under pressure.
 
 In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
 

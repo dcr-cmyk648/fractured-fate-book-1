@@ -54,7 +54,7 @@ These remain historical draft/revision issues only.
 - Exact Heart-to-Registry power path.
 - Exact post-Heart repair layout.
 - Exact gateway-detection redesign.
-- Exact zä-sink arrangement.
+- Exact zán-sink arrangement.
 
 ## Provenance
 

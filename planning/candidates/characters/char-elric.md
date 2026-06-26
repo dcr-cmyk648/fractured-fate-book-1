@@ -24,7 +24,7 @@ This file preserves Elric material that is useful but not fully settled as exact
 
 - Exact mechanics of dark-thread sight remain for `magic-fateweaving-skein`.
 - Exact mechanics of Ink Pact possession, fate-thread visibility, and possession completion remain for later Elric, Ink, Fateweaving/Skein, and Codex reviews.
-- Exact relationship between Elric, the Heart, original sin, the first magus, the Nizan/dark god, Zerakh'tum, and broader reality structure remains for later magic/world-history reviews.
+- Exact relationship between Elric, the Heart, original sin, the first magus, the Nizán/dark god, Zerakh'tum, and broader reality structure remains for later magic/world-history reviews.
 - Whether every codex/Ink appearance is continuous Elric consciousness or a mixture of Elric, remnants, contingencies, and staged mechanisms remains a technical magic question.
 
 ## Voice and Thematic Material

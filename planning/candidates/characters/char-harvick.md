@@ -24,7 +24,7 @@ This file preserves Harvick material that is useful but not fully settled as exa
 - Harvick's special sword and bracers are canonical Zirene-developed technology that lets weapons be summoned to the hand.
 - The technology should only be hinted at before the Treasury fight.
 - The technology returns during the final fight with Serathis, who has dual returning knives and bracers also developed by Zirene.
-- Exact mechanics, limitations, zän requirements, and whether this belongs under an object or technology record remain for later review.
+- Exact mechanics, limitations, zán requirements, and whether this belongs under an object or technology record remain for later review.
 
 ## Ink and Codex Material
 

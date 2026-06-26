@@ -56,7 +56,7 @@ The main space is open-air and amphitheater-like, with circular geometry, a cent
 
 Six High Clade sections, boxes, or tiers correspond to the six High Clades, their citadels, and their city-wedges.
 
-The dais, floor, or arena surface may retain zä, emblems, and map-like symbolism tied to the Six Cities, Spoke roads, citadels, and High Clade order.
+The dais, floor, or arena surface may retain zán, emblems, and map-like symbolism tied to the Six Cities, Spoke roads, citadels, and High Clade order.
 
 Maya's Presentation happens in this open-air amphitheater version. Current literal tower approach, halls, vaulted interior, chamber-atop-spire, and open-crown language should be treated as manuscript-revision material rather than accepted physical canon.
 
@@ -66,7 +66,7 @@ Maya's Presentation happens in this open-air amphitheater version. Current liter
 - Exact visual architecture of the open-air amphitheater and blast-hole site.
 - Exact plaza, checkpoint, market, and approach layout.
 - Exact High Clade seating geometry.
-- Exact zä infrastructure and floor/map symbolism.
+- Exact zán infrastructure and floor/map symbolism.
 - Exact staging of Maya's vertical fire display in the open-air version.
 
 ## Related Files

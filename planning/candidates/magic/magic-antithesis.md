@@ -24,7 +24,7 @@ accepted_file: bible/magic/magic-antithesis.md
 
 ## Deferred Object and Technology Material
 
-- Exact Antithesis construction, zänwork, material, damage, concealment, and combat behavior belong to `object-antithesis`.
+- Exact Antithesis construction, zánwork, material, damage, concealment, and combat behavior belong to `object-antithesis`.
 - Exact relationship between Antithesis and Archeon gauntlets belongs to object/technology and Archeon reviews.
 - Exact Zirene design lineage belongs to `char-zirene`, `org-archeon`, and technology/object reviews.
 - Exact Paradox construction and properties belong to `object-paradox`.
@@ -33,7 +33,7 @@ accepted_file: bible/magic/magic-antithesis.md
 
 - Antithesis is not a standalone magic system.
 - Antithesis is not a separate magical principle.
-- Antithesis has no accepted direct link to a zä of negation or `nïza`.
+- Antithesis has no accepted direct link to a zán of negation or `nïzá`.
 - Antithesis has no accepted unique anti-Shroud behavior.
 
 ## Thematic Material

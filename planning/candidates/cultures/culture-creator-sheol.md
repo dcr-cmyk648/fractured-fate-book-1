@@ -32,7 +32,7 @@ Current unresolved possibilities include:
 - The first magus/original sin as the cause or key inflection point in reality's fracture.
 - Sheol as void, non-existence, outside-Skein planes, the place or condition of an extraplanar deity, or another hostile outside.
 - The Heart as connected to the Skein, reality fracture, an outside force, or a divine/cosmological remnant.
-- Nizan as zero/negation/void and possible connection to larger cosmology.
+- Nizán as zero/negation/void and possible connection to larger cosmology.
 - A good deity, evil god, dark god, extraplanar deity, Zerakh'tum, or other literal cosmological entity.
 - Selwin's possible final-series deity-killing role.
 
@@ -52,5 +52,5 @@ Current unresolved possibilities include:
 - Elric/Serathis watchmaker and broken-world belief: `char-elric`, `char-serathis`, and future confrontation/event review
 - Original sin, reality fracture, and Skein mechanics: `magic-fateweaving-skein` or later `thread-elric-reality-skein`
 - Heart/Skein/cosmology connection: `object-seraph-heart`
-- Nizan terminology and zero/negation/void links: `culture-number-system-zan-script`, `magic-zan-lattices`, and related consistency queue items
+- Nizán terminology and zero/negation/void links: `culture-number-system-zan-script`, `magic-zan-lattices`, and related consistency queue items
 - Alara's personal spirituality: `char-alara`

@@ -24,7 +24,7 @@ accepted_file: bible/objects/object-antithesis.md
 ## Remaining Candidate Details
 
 - Exact physical dimensions, blade profile, hilt/guard construction, material, finish, and how much it visually resembles a tool versus a weapon.
-- Exact zä inscriptions, schema-sink layout, anchor behavior, and low-level circuitry.
+- Exact zán inscriptions, schema-sink layout, anchor behavior, and low-level circuitry.
 - Whether the dagger had an original Archeon designation, codename, or classification.
 - Exact Archeon development chronology around daggers, gauntlets, anchors, claws, and other combat equipment.
 - Exact reason this dagger design was abandoned or deprioritized beyond the approved broad reason that gauntlets worked better for low-skill magi.
@@ -37,13 +37,13 @@ accepted_file: bible/objects/object-antithesis.md
 - Book 1 sword-form Antithesis is obsolete.
 - Ink transforming Antithesis into or out of a knife is obsolete.
 - Unique anti-Shroud magic intrinsic to Antithesis is not accepted.
-- A direct link to `nïza` is not accepted.
+- A direct link to `nïzá` is not accepted.
 
 ## Routing
 
 - Accepted object facts: `bible/objects/object-antithesis.md`
 - Magic boundary: `bible/magic/magic-antithesis.md`
 - Kinesis mechanics: `bible/magic/magic-subversion.md`
-- Zä / schema / circuit design: `bible/magic/magic-zan-lattices.md`
+- Zán / schema / circuit design: `bible/magic/magic-zan-lattices.md`
 - Archeon device strategy: `bible/organizations/org-archeon.md`
 - Later object made from ruined Antithesis: `object-paradox`

@@ -44,9 +44,9 @@ Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's f
 
 The Concord operates through masks, sign, cipher, stealth, assassination and raid tactics, underworld contacts, and guarded hideout infrastructure.
 
-Concord members use matte black masks. Davian's customized mask is an exception: at the start of Book 1 it bears the zan for equality/equilibrium, which Kelyra criticizes as tactically risky and attention-seeking. Later Kelyra gives Davian a Concord mask marked with the Nizan of zero/negation/void as a toxic supportive gesture.
+Concord members use matte black masks. Davian's customized mask is an exception: at the start of Book 1 it bears the zán for equality/equilibrium, which Kelyra criticizes as tactically risky and attention-seeking. Later Kelyra gives Davian a Concord mask marked with the Nizán of zero/negation/void as a toxic supportive gesture.
 
-The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zan, stripped of flourish, used phonetically and rearranged in a precise sequence.
+The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zán, stripped of flourish, used phonetically and rearranged in a precise sequence.
 
 The Concord is vulnerable to Harbinger pressure because Kelyra received Ink power and the family/organization is bound by bargains, debt, leverage, and the threat of leadership challenge.
 
@@ -90,7 +90,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Exact detailed Trial of Dominion rules remain for later review.
 - Exact Karra character details remain for `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
-- Exact project-wide `zan` / `za` / `zä` / `zän` terminology remains for terminology review.
+- Exact manuscript cleanup of older zán terminology remains for later revision work.
 - Exact manuscript revision plan for older Jalen-seat references remains for later revision work.
 - Exact Concord manor district, prior owner, map, evacuation sequence, and damage state remain for location/revision work.
 

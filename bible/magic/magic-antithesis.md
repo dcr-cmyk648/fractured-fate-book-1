@@ -34,9 +34,9 @@ Antithesis has no accepted special anti-Shroud behavior as a unique knife proper
 
 Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about the knife itself.
 
-Antithesis has no accepted direct link to a zä of negation or `nïza`.
+Antithesis has no accepted direct link to a zán of negation or `nïzá`.
 
-Approved object mechanics now define Antithesis as a schema sink or anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy like other Archeon combat equipment. Exact physical construction, material, low-level zänwork, repair, and practical scene choreography remain for object and technology reviews.
+Approved object mechanics now define Antithesis as a schema sink or anchor for concentrating kinesis, reducing backlash, and buffering or storing/releasing energy like other Archeon combat equipment. Exact physical construction, material, low-level zánwork, repair, and practical scene choreography remain for object and technology reviews.
 
 ## Accepted Future Plan
 
@@ -50,7 +50,7 @@ The thematic language of Maya as the product of the system and the Shade as its 
 
 ## Canonical Uncertainties
 
-- Exact physical construction and zänwork of Antithesis remain for `object-antithesis`.
+- Exact physical construction and zánwork of Antithesis remain for `object-antithesis`.
 - Exact Zirene lineage and Archeon derivative technology remain for `char-zirene`, `org-archeon`, and later technology/object reviews.
 - Exact Archeon kinesis extensions that may part, diffuse, or route incoming force remain candidate material under kinesis/Archeon combat development.
 - Exact Paradox forging scene and final end-book dialogue remain for `object-paradox` and later ending/outline review.
@@ -60,7 +60,7 @@ The thematic language of Maya as the product of the system and the Shade as its 
 - Review packet: [magic-antithesis](../../reviews/entities/magic/magic-antithesis.md)
 - Candidate material: [magic-antithesis](../../planning/candidates/magic/magic-antithesis.md)
 - Related magic: [Kinesis](magic-subversion.md)
-- Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
+- Related magic: [Zán / zá lattices / zánwrights](magic-zan-lattices.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related object: [Paradox](../objects/object-paradox.md)
@@ -70,7 +70,7 @@ The thematic language of Maya as the product of the system and the Shade as its 
 
 ## Provenance
 
-- `imports/normalized/melissa-copy.md:414-426`: current manuscript sword-form Antithesis and zän flare, now obsolete in object form.
+- `imports/normalized/melissa-copy.md:414-426`: current manuscript sword-form Antithesis and zán flare, now obsolete in object form.
 - `imports/normalized/melissa-copy.md:570-603`: current manuscript Shroud interaction, now not accepted as unique anti-Shroud knife behavior.
 - `imports/normalized/melissa-copy.md:20428-20535`: Davian/Kelyra/Archeon discussion of tools, anchors, knives, and kinesis training.
 - `imports/normalized/melissa-copy.md:21176-21183`: Zirene's negative opinion of Antithesis through Harvick.

@@ -28,7 +28,7 @@ Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develop
 
 Davian is competent, dangerous, and loyal to his family, but his identity is entangled with needing to matter through threat, violence, and visible agency.
 
-He wants to be seen. His start-book matte black Concord mask is marked with the zan for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizan of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
+He wants to be seen. His start-book matte black Concord mask is marked with the zán for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizán of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
 
 Davian's approved arc moves away from negation: wanting to tear everything down, hurt the High Clades, prove agency, and stop feeling helpless by destroying hated things. His intended movement is toward values: valuing Maya, protecting people and things he values, and choosing action because it serves those values rather than because it satisfies rage or control.
 

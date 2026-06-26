@@ -31,11 +31,11 @@ Elric Rezin is Niall's father. Niall destroyed Elric's original body, but Elric'
 
 Niall's current manuscript ability centers on lightning and electrical-charge manipulation. Maya's current explanation frames his method as connecting high electrical charge to lower charge and maintaining those connections over long distances.
 
-Niall wears hidden silver zä-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
+Niall wears hidden silver zán-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
 
 Sleeveless High Clade fashion is universal in Presentation-era High Clade culture and symbolizes reliance on one's own power. Niall would have worn that style when he was Presented. His current military jacket remains an exception tied to hidden conduit mechanics and personal/military presentation; exact comments on the jacket during Maya's pre-Presentation sequence remain candidate scene material.
 
-The exact mechanics of the silver conduits, zä strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
+The exact mechanics of the silver conduits, zán strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
 
 ## Important Relationships
 
@@ -95,7 +95,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
-- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
@@ -103,7 +103,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Candidate material: [char-niall](../../planning/candidates/characters/char-niall.md)
 - Review packet: [char-niall](../../reviews/entities/characters/char-niall.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
-- Decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
+- Superseded decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
@@ -111,7 +111,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 ## Canonical Uncertainties
 
-- Exact Heart/silver conduit/zan-strike-line mechanics remain for later magic and object reviews.
+- Exact Heart/silver conduit/zán-strike-line mechanics remain for later magic and object reviews.
 - Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
 - Detailed Alara history remains for `char-alara` and `event-alara-death-war-memory`.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
