@@ -371,6 +371,11 @@ function renderFile(path) {
 }
 
 function approximateScrollPercent() {
+  if (currentView === "book-reader") {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    if (max <= 0) return 0;
+    return Math.round((window.scrollY / max) * 100);
+  }
   const activeContent = currentView === "repo-browser" ? $("fileContent") : $("readerContent");
   const max = activeContent.scrollHeight - activeContent.clientHeight;
   if (max <= 0) return 0;
@@ -389,6 +394,12 @@ function currentHeading() {
 function selectedText() {
   const text = window.getSelection()?.toString() || "";
   return text.trim().slice(0, 4000);
+}
+
+function abbreviate(value, max = 120) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  return `${text.slice(0, max - 1)}…`;
 }
 
 function currentReference() {
@@ -417,6 +428,29 @@ function updateTargetDisplay() {
     ? `${ref.chapter_title} · ${ref.current_layer}`
     : ref.current_file_path || "No target";
   $("commentTarget").textContent = target;
+  renderReferenceDetails(ref);
+}
+
+function renderReferenceDetails(ref = currentReference()) {
+  const details = $("referenceDetails");
+  if (!details) return;
+  const file = ref.current_file_path || "";
+  const lines = ref.source_line_start
+    ? `${ref.source_line_start}-${ref.source_line_end || "?"}`
+    : "";
+  const rows = [
+    ["View", ref.view_mode],
+    ["Layer", ref.current_layer],
+    ["Chapter", ref.chapter_title || ref.chapter_id || ""],
+    ["File", file],
+    ["Lines", lines],
+    ["Heading", ref.current_heading || ""],
+    ["Scroll", `${ref.approximate_scroll_percent ?? 0}%`],
+    ["Selected", ref.selected_text ? abbreviate(ref.selected_text, 140) : ""]
+  ].filter(([, value]) => value);
+  details.innerHTML = rows
+    .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd title="${escapeHtml(value)}">${escapeHtml(abbreviate(value))}</dd>`)
+    .join("");
 }
 
 function renderCommentCount() {
@@ -626,6 +660,7 @@ function wireEvents() {
     }
   });
   document.addEventListener("selectionchange", updateTargetDisplay);
+  window.addEventListener("scroll", updateTargetDisplay, { passive: true });
 }
 
 async function init() {
