@@ -15,6 +15,27 @@ Intended path:
 
 Comment exports are inbox material. They require author/Codex review before any repository or story changes happen.
 
+## Google Apps Script Importer
+
+`import-webapp-comments.gs` is a standalone Google Apps Script for pulling new comments from a Google Drive folder into a Google Sheet.
+
+Use:
+
+1. Open Google Apps Script.
+2. Create a new script project.
+3. Paste in `feedback/webapp/import-webapp-comments.gs`.
+4. Set `CONFIG.folderId` to the Drive folder ID that contains exported `fractured-fate-comments-*.json` files.
+5. Optionally set `CONFIG.spreadsheetId` to an existing Google Sheet. If left blank, the script creates `Fractured Fate Webapp Comments Inbox` on first run.
+6. Run `importNewComments`.
+7. Approve the requested Drive and Sheets permissions.
+
+The importer deduplicates by exported comment `id`, so rerunning it only appends new comments. It does not modify the exported JSON files, call Codex, upload anything elsewhere, or treat comments as canon.
+
+Utility functions:
+
+- `getLastImportSummary()` returns the most recent import summary.
+- `resetImportedCommentMemory()` clears the destination sheet and importer summary. Use carefully.
+
 Suggested local run commands:
 
 ```sh
