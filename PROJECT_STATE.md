@@ -8,32 +8,32 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-karra
+- Latest completed entity: char-arrek
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Karra character profile`
-- Working tree expected to be clean: no; approved `char-karra` work is being finalized
+- Latest relevant commit message: `bible: approve Arrek character profile`
+- Working tree expected to be clean: no; approved `char-arrek` work is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 4
+- Approved entities since last consistency review: 5
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
-- Consistency review due: no
+- Consistency review due: yes; five secondary-character approvals have accumulated since the last block review
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-karra` was approved and stored as a standard-depth Concord bruiser/operator whose role connects the Sorevin job, Heart handoff, Trial of Dominion, deeper Ink healing, and Concord manor evacuation.
+`char-arrek` was approved and stored as a standard-depth record for the real murdered Low Clade glyphwright whose valid Sorevin/Registry identity, aura, debt-family context, and murder make Davian's cover identity morally and mechanically possible.
 
 ## Current work
 
-No entity is currently active during the Karra approval commit. `char-arrek` is the next queued secondary-character entity.
+No entity is currently active during the Arrek approval commit. A secondary-character consistency review is due before opening `char-selina`.
 
 ## Next action
 
-Validate, commit, and push the approved Karra work, then open and prepare the `char-arrek` review packet.
+Validate, commit, and push the approved Arrek work, then run the due secondary-character consistency review before opening the next queued entity.
 
 ## Awaiting author input
 
@@ -61,6 +61,7 @@ Validate, commit, and push the approved Karra work, then open and prepare the `c
 - Marek's exact background, suspicion level toward Davian/Arrek, compensation terms, worker relationships, and post-Heart-theft fate remain unresolved; see `planning/candidates/characters/char-marek.md`.
 - Zirene's exact social status, workshop security, backstory, old-book provenance, post-Book-1 role, and low-level mechanics for her major devices remain unresolved; see `planning/candidates/characters/char-zirene.md`.
 - Karra's exact Sorevin rescue, Harbinger contact, evacuation lie to Davian's siblings, and possible later-book role remain unresolved; see `planning/candidates/characters/char-karra.md`.
+- Arrek's exact home route, cousins, aura-capture mechanics, murder choreography, and any future restitution/consequence remain unresolved; see `planning/candidates/characters/char-arrek.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -91,6 +92,10 @@ Validate, commit, and push the approved Karra work, then open and prepare the `c
 - bible/characters/char-karra.md
 - planning/candidates/characters/char-karra.md
 - decisions/0053-karra-concord-challenge-and-evacuation-role.md
+- reviews/entities/characters/char-arrek.md
+- bible/characters/char-arrek.md
+- planning/candidates/characters/char-arrek.md
+- decisions/0054-arrek-identity-murder-and-debt-family-context.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md

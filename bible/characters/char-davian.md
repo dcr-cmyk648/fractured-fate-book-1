@@ -14,7 +14,7 @@ candidate_file: planning/candidates/characters/char-davian.md
 
 Davian is a principal POV character, Jalen and Kelyra's son, and a member of the Twilight Concord.
 
-He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real Arrek and using Harbinger/Syndicate Ink to steal or mimic Arrek's aura. The real Arrek remains a separate entity.
+He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real Arrek and using Harbinger/Syndicate Ink to steal or mimic Arrek's aura. The real Arrek has a separate accepted record.
 
 `Shade` is Davian's assassin persona or reputation. Most Shade-specific symbolism lives in `object-davian-mask`; this file treats it as an alias/persona rather than a major independent character layer.
 
@@ -40,7 +40,7 @@ He acts under Harbinger/Syndicate coercion and manipulation, but the accepted re
 
 Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndicate pressure on Davian, including the Ink/Heart-theft path. This does not erase Davian's accepted agency.
 
-Davian clearly murdered Arrek. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
+Davian clearly murdered Arrek. Kelyra pressured him into killing Arrek by framing Arrek as a High-Clade collaborator and all Clade collaborators as evil. Davian and the Concord tracked Arrek to a bar, followed him into an alley, and Davian murdered him while simultaneously using the Ink to capture Arrek's aura. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
 
 Accepted Registry heist mechanics: Davian adds Arrek's name to the Registry and relies on the Ink Pact to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 
@@ -152,6 +152,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Vorren](char-vorren.md)
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Jalen](char-jalen.md)
+- Related character: [Arrek Hadrin](char-arrek.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Zirene](char-zirene.md)
 - Related character: [Tanelle](char-tanelle.md)
@@ -181,13 +182,14 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
 - Broader Ink/Shroud/kinesis interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
 - Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
-- The real Arrek's background and full consequences of his murder remain for `char-arrek`.
+- Arrek-family restitution or cousin consequences remain candidate material in `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 
 ## Provenance

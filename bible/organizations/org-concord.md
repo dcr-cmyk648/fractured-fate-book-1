@@ -30,6 +30,8 @@ Jalen is a respected support, planning, and logistics figure and Kelyra's husban
 
 Davian is a Concord operator and assassin tied to the organization through family, training, masks, sign/cipher, and missions.
 
+Kelyra and the Concord track Arrek Hadrin to a bar and follow him into an alley so Davian can murder him and use Ink to take his aura. Current source/manuscript material may still contain stale Jalen-fieldwork pressure references; accepted canon makes Kelyra the fieldwork/pressure figure.
+
 ## Trial of Dominion
 
 The Trial of Dominion is the leadership-challenge mechanism for the Concord and other Masked Clades.
@@ -76,6 +78,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Karra](../characters/char-karra.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -86,6 +89,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Canonical Uncertainties
 

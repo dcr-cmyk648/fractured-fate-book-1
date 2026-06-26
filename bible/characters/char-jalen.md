@@ -36,6 +36,8 @@ Kelyra took Jalen's surname after marriage in the hope that it would help disgui
 
 Jalen supports Kelyra's leadership and plans with her. He talks with her before the Trial of Dominion, gives advice, and generally supports her, but he does not participate in that fight.
 
+Accepted Arrek-murder routing: Kelyra, not Jalen, does the fieldwork and pressures Davian to kill Arrek as a High-Clade collaborator. Older Jalen-centered pressure/fieldwork language is stale except where Jalen remains in support/logistics.
+
 Davian:
 
 Jalen is Davian's father. Their relationship is loving, sharp, and violent-edged, built around tactical discipline, shared grief, family loyalty, and mutual fear of loss.
@@ -71,6 +73,7 @@ Current manuscript material establishes Jalen as:
 - Candidate material: [char-jalen](../../planning/candidates/characters/char-jalen.md)
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
+- Related character: [Arrek Hadrin](char-arrek.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -78,13 +81,14 @@ Current manuscript material establishes Jalen as:
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
 - Decision record: [Twilight Concord, Masked Clades, and Trial of Dominion](../../decisions/0016-twilight-concord-masked-clade-and-trial.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Canonical Uncertainties
 
 - Exact Concord leadership titles, hierarchy, and Trial of Dominion mechanics remain for `org-twilight-concord`.
 - Exact handling of older manuscript references to Jalen's seat and Ink Pact role needs later chronology and manuscript revision review.
 - Exact Selina death history and Antithesis/blade backstory remain for later Selina and object reviews.
-- Exact Jalen/Kelyra logistics during the Heart theft and late Concord conflict need later plot review.
+- Exact Jalen/Kelyra logistics during the Heart theft, Arrek murder support, and late Concord conflict need later plot review.
 
 ## Provenance
 

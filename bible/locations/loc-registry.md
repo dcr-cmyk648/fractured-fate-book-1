@@ -44,6 +44,8 @@ The map is not a constantly visible live display of every person in the citadel.
 
 The interface can verify a registered person, locate a registered person inside the citadel, pulse when a relevant located target appears, and refine/zoom inward once given a specific target.
 
+Arrek Hadrin's identity is valid in the Registry. The Registry verifies the real Arrek's name and later locates Davian under Arrek's stolen aura/name in the Treasury corridor.
+
 ## Registration Behavior
 
 Registration can bind a true-name/aura entry into the chamber system and represent the entry in two places:
@@ -81,9 +83,11 @@ The earlier high-window Registry escape is obsolete. The magical-elevator soluti
 - Review packet: [loc-registry](../../reviews/entities/locations/loc-registry.md)
 - Candidate material: [loc-registry](../../planning/candidates/locations/loc-registry.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Provenance
 
