@@ -33,6 +33,8 @@ Niall's current manuscript ability centers on lightning and electrical-charge ma
 
 Niall wears hidden silver zän-strike-line-etched conduits throughout the book. These conduits are a technology or modifier for his lightning ability, not a separate innate ability. They explain his constant military jacket despite the accepted High Clade sleeveless fashion.
 
+Zirene made or maintains Niall's silver latticework and considers it some of her best work. Niall has neglected proper maintenance because secrecy around the silver matters to him, but exact silver mechanics and maintenance details remain deferred.
+
 Sleeveless High Clade fashion is universal in Presentation-era High Clade culture and symbolizes reliance on one's own power. Niall would have worn that style when he was Presented. His current military jacket remains an exception tied to hidden conduit mechanics and personal/military presentation; exact comments on the jacket during Maya's pre-Presentation sequence remain candidate scene material.
 
 The exact mechanics of the silver conduits, zän strike-line technology, Heart overcharging, charge storage, and underground limitations remain for later magic/object reviews.
@@ -102,6 +104,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Related character: [Vorren](char-vorren.md)
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Zirene](char-zirene.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
@@ -122,6 +125,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Canonical Uncertainties
 

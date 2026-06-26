@@ -24,6 +24,8 @@ Kelyra stole Antithesis when she escaped Archeon. She took it impulsively becaus
 
 Antithesis was not made by Zirene. It is an attempted Archeon copy of older Zirene designs: cheap, superficial, and inferior compared with Zirene's intended work, but still effective enough to matter.
 
+Zirene's accepted boundary is that she made the best Archeon gauntlets and other high-level devices, but Antithesis itself is only a cheap Archeon copy of her older designs.
+
 ## Physical and Technical Form
 
 Antithesis is best described durably as a dagger.
@@ -83,12 +85,14 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Vorren](../characters/char-vorren.md)
+- Related character: [Zirene](../characters/char-zirene.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Provenance
 

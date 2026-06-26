@@ -67,6 +67,8 @@ Antithesis transformation is no longer canon. Antithesis is a dagger throughout 
 
 Accepted future object direction: Paradox is the normal sword made from ruined Antithesis after Davian blocks Vorren's attack. Niall gives Paradox to Davian in the end-book courtyard scene. It is not bound to Davian's aura.
 
+Zirene makes Davian's black iron bands after the Heart theft. They are a lethal trust/control device activated by Niall or Maya, but exact function/design remains subject to later review. Zirene may use an engrave-on-flesh-with-metal technique related to strike-lines directly on flesh.
+
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
 ## Important Relationships
@@ -151,6 +153,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Zirene](char-zirene.md)
 - Related character: [Tanelle](char-tanelle.md)
 - Related character: [Marek](char-marek.md)
 - Related character: [Selwin Rezin](char-selwin.md)
@@ -177,6 +180,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Canonical Uncertainties
 

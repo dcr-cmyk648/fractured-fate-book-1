@@ -74,9 +74,11 @@ The shift from Antithesis to Paradox reflects Davian moving from knife-in-the-da
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
+- Related character: [Zirene](../characters/char-zirene.md)
 - Related character: [Vorren](../characters/char-vorren.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Provenance
 

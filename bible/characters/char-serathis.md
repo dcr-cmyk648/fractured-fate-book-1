@@ -28,6 +28,8 @@ Serathis does not primarily rely on ordinary Archeon gauntlets the way weaker Ar
 
 In the endgame, Serathis uses dual returning daggers made by Zirene. This is a return to her pre-Shroud roots from when she was part of Archeon's release-and-catch program, and it creates a deliberate point of similarity with Kelyra, who favors dual knives. Exact returning-dagger/bracer mechanics belong to later object/technology review.
 
+Zirene also directly made the best Archeon gauntlets used by Presented magi. Serathis's willingness to use Zirene's designs does not make Zirene politically loyal to Archeon.
+
 ## Archeon Project
 
 Serathis built Archeon into High Clade status through breeding, brutal training, secrecy, release-and-catch, Elric's Ink gift/collaboration, and overthrow of the prior High Clade occupant of the Archeon citadel.
@@ -93,11 +95,13 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Vorren](char-vorren.md)
+- Related character: [Zirene](char-zirene.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Canonical Uncertainties
 

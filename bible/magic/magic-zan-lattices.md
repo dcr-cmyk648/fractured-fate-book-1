@@ -60,7 +60,7 @@ Niall's hidden silver conduits are zän-etched lightning modifiers. Exact silver
 
 Zirene:
 
-Zirene is accepted at high level as an advanced zänwright whose work connects to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage. Exact device inventory and object mechanics remain for `char-zirene`, object, and technology reviews.
+Zirene is accepted as an advanced, independent zänwright whose work connects to Niall's metals, Davian's bands, the best Archeon gauntlets used by Presented magi, Harvick's returning sword, Serathis's returning daggers, Antithesis lineage, and Paradox. Exact device inventory and object mechanics remain for `char-zirene`, object, and technology reviews.
 
 Archeon and Antithesis:
 
@@ -103,6 +103,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïzä`, and archetypal 
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
+- Related character: [Zirene](../characters/char-zirene.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Kinesis](magic-subversion.md)
@@ -122,6 +123,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïzä`, and archetypal 
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Provenance
 

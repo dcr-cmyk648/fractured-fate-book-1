@@ -8,10 +8,10 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-marek
+- Latest completed entity: char-zirene
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Marek character profile`
-- Working tree expected to be clean: no; `char-marek` approval is being finalized and `char-zirene` should be prepared next
+- Latest relevant commit message: `bible: approve Zirene character profile`
+- Working tree expected to be clean: no; approved `char-zirene` work is being finalized
 - Remote synchronized: yes
 
 ## Block status
@@ -25,15 +25,15 @@ Last updated: 2026-06-26
 
 ## Last completed work
 
-`char-marek` was approved and stored as a brief-depth zänwright supervisor / Davian promotion support character. Current durable canon now uses `zän`, `zä`, `zänwright`, and `Nizän`; the acute-accent spelling convention is superseded.
+`char-zirene` was approved and stored as a standard-depth zänwright/device-maker character. Zirene is now the accepted technical hinge for Niall's silver, Davian's bands, the best Archeon gauntlets, Harvick's returning sword, Serathis's returning daggers, Antithesis's copied design lineage, and future Paradox work, while low-level mechanics remain deferred.
 
 ## Current work
 
-No entity is currently active during the Marek approval commit. `char-zirene` is the next queued secondary-character entity.
+No entity is currently active during the Zirene approval commit. `char-karra` is the next queued secondary-character entity.
 
 ## Next action
 
-Validate, commit, and push the approved Marek work, then open and prepare the `char-zirene` review packet.
+Validate, commit, and push the approved Zirene work, then open and prepare the `char-karra` review packet.
 
 ## Awaiting author input
 
@@ -59,6 +59,7 @@ Validate, commit, and push the approved Marek work, then open and prepare the `c
 - Caius's exact force-magic terminology, Caius/Vorren abuse history, letter/visit/fight choreography, Darius-name cleanup, and post-Book-1 role remain unresolved; see `planning/candidates/characters/char-caius-drakhal.md`.
 - Tanelle's exact background/training, root-chewing habit, Antithesis recognition, post-Heart-theft fate, and later Maya/Davian observer use remain unresolved; see `planning/candidates/characters/char-tanelle.md`.
 - Marek's exact background, suspicion level toward Davian/Arrek, compensation terms, worker relationships, and post-Heart-theft fate remain unresolved; see `planning/candidates/characters/char-marek.md`.
+- Zirene's exact social status, workshop security, backstory, old-book provenance, post-Book-1 role, and low-level mechanics for her major devices remain unresolved; see `planning/candidates/characters/char-zirene.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -81,6 +82,10 @@ Validate, commit, and push the approved Marek work, then open and prepare the `c
 - planning/candidates/characters/char-marek.md
 - decisions/0050-marek-supervisor-role-and-davian-tutoring.md
 - decisions/0051-zan-spelling-convention-correction.md
+- reviews/entities/characters/char-zirene.md
+- bible/characters/char-zirene.md
+- planning/candidates/characters/char-zirene.md
+- decisions/0052-zirene-technical-neutrality-and-device-boundaries.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md
