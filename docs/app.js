@@ -13,6 +13,7 @@ let currentMode = "reader";
 let currentChapterId = null;
 let currentLayer = "prose";
 let currentFilePath = null;
+let browserTreeOpen = false;
 
 const $ = (id) => document.getElementById(id);
 
@@ -111,6 +112,7 @@ function setView(view) {
   $("exportNavBtn").classList.toggle("active", view === "export");
   updateTargetDisplay();
   if (view === "export") renderCommentList();
+  if (view === "repo-browser") syncMobileBrowserUi();
 }
 
 function setMode(mode) {
@@ -347,6 +349,7 @@ function renderTreeNode(node) {
 function renderFileTree() {
   $("fileTree").innerHTML = "";
   $("fileTree").appendChild(renderTreeNode(appIndex.file_tree));
+  syncMobileBrowserUi();
 }
 
 function renderLines(text, startLine = 1) {
@@ -372,6 +375,11 @@ function renderFile(path) {
   document.querySelectorAll(".tree-file").forEach((button) => {
     button.classList.toggle("active", button.dataset.path === path);
   });
+  $("browserSelectedFile").textContent = abbreviate(path, 64);
+  if (isMobileLayout()) {
+    setBrowserTreeOpen(false);
+    $("fileViewer")?.scrollIntoView({ block: "start" });
+  }
   updateTargetDisplay();
 }
 
@@ -634,6 +642,28 @@ function syncMobileCommentUi() {
   }
 }
 
+function setBrowserTreeOpen(open) {
+  browserTreeOpen = open;
+  const sidebar = document.querySelector(".browser-sidebar");
+  const toggle = $("browserTreeToggle");
+  if (!sidebar || !toggle) return;
+  sidebar.classList.toggle("is-tree-open", open);
+  toggle.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+function syncMobileBrowserUi() {
+  const selected = currentFilePath || "Select a file";
+  $("browserSelectedFile").textContent = abbreviate(selected, 64);
+  if (isMobileLayout()) {
+    setBrowserTreeOpen(browserTreeOpen);
+  } else {
+    const sidebar = document.querySelector(".browser-sidebar");
+    const toggle = $("browserTreeToggle");
+    sidebar?.classList.add("is-tree-open");
+    toggle?.setAttribute("aria-expanded", "true");
+  }
+}
+
 function renderCommentList() {
   const list = $("commentList");
   if (!list) return;
@@ -684,6 +714,9 @@ function wireEvents() {
   $("commentDrawerToggle").addEventListener("click", () => {
     setCommentDrawer(!$("commentBox").classList.contains("is-open"));
   });
+  $("browserTreeToggle").addEventListener("click", () => {
+    setBrowserTreeOpen($("browserTreeToggle").getAttribute("aria-expanded") !== "true");
+  });
   $("fileTree").addEventListener("click", (event) => {
     const button = event.target.closest(".tree-file");
     if (button?.dataset.path) {
@@ -693,6 +726,7 @@ function wireEvents() {
   document.addEventListener("selectionchange", updateTargetDisplay);
   window.addEventListener("scroll", updateTargetDisplay, { passive: true });
   window.addEventListener("resize", syncMobileCommentUi, { passive: true });
+  window.addEventListener("resize", syncMobileBrowserUi, { passive: true });
 }
 
 async function init() {
