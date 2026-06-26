@@ -68,7 +68,7 @@ There must normally be no more than one entity marked `in-review`.
 | 47 | char-caius-drakhal | character | Caius Drakhal | approved | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md | 2026-06-26 |
 | 48 | char-alden | character | Alden | superseded | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
 | 49 | char-tanelle | character | Tanelle | approved | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md | 2026-06-26 |
-| 50 | char-marek | character | Marek | queued | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md |  |
+| 50 | char-marek | character | Marek | awaiting-author | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md | 2026-06-26 |
 | 51 | char-zirene | character | Zirene | queued | reviews/entities/characters/char-zirene.md | bible/characters/char-zirene.md | planning/candidates/characters/char-zirene.md |  |
 | 52 | char-karra | character | Karra | queued | reviews/entities/characters/char-karra.md | bible/characters/char-karra.md | planning/candidates/characters/char-karra.md |  |
 | 53 | char-arrek | character | Arrek | queued | reviews/entities/characters/char-arrek.md | bible/characters/char-arrek.md | planning/candidates/characters/char-arrek.md |  |

@@ -7,11 +7,11 @@ Last updated: 2026-06-26
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: none
+- Active or paused entity ID: char-marek
 - Latest completed entity: char-tanelle
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Tanelle character profile`
-- Working tree expected to be clean: yes
+- Working tree expected to be clean: no; unapproved `char-marek` review packet is awaiting author input
 - Remote synchronized: yes
 
 ## Block status
@@ -25,19 +25,19 @@ Last updated: 2026-06-26
 
 ## Last completed work
 
-`char-caius-drakhal` was approved and stored as a standard-depth recurring antagonist / Drakhal pressure point.
+`char-tanelle` was approved and stored as a standard-depth recurring zánwright support character / worker-space anchor.
 
 ## Current work
 
-No entity is currently open. The next queued entity is `char-marek`.
+`char-marek` is open and awaiting author input on the review packet.
 
 ## Next action
 
-Open `char-marek` for review unless author direction changes.
+Wait for author answers on `char-marek`, then apply approved Marek material to durable files, validate, commit, push, and proceed to the next queued entity.
 
 ## Awaiting author input
 
-- None.
+- `char-marek` required decisions.
 
 ## Workflow policy note
 
@@ -75,6 +75,7 @@ Open `char-marek` for review unless author direction changes.
 - decisions/index.md
 - AUTHORING.md
 - reports/consistency/2026-06-26-secondary-characters-block.md
+- reviews/entities/characters/char-marek.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md
