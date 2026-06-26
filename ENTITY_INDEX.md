@@ -60,13 +60,13 @@ There must normally be no more than one entity marked `in-review`.
 | 39 | culture-magus-presentation | culture | Magus status / Presentation | approved | reviews/entities/cultures/culture-magus-presentation.md | bible/cultures/culture-magus-presentation.md | planning/candidates/cultures/culture-magus-presentation.md | 2026-06-25 |
 | 40 | culture-creator-sheol | culture | Creator / Sheol / gods and religious language | approved | reviews/entities/cultures/culture-creator-sheol.md | bible/cultures/culture-creator-sheol.md | planning/candidates/cultures/culture-creator-sheol.md | 2026-06-25 |
 | 41 | culture-number-system-zan-script | culture | Number system / zán script | approved | reviews/entities/cultures/culture-number-system-zan-script.md | bible/cultures/culture-number-system-zan-script.md | planning/candidates/cultures/culture-number-system-zan-script.md | 2026-06-26 |
-| 42 | char-aldira | character | Aldira | queued | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md |  |
+| 42 | char-aldira | character | Aldira | approved | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
 | 43 | char-erynn | character | Erynn | queued | reviews/entities/characters/char-erynn.md | bible/characters/char-erynn.md | planning/candidates/characters/char-erynn.md |  |
 | 44 | char-alara | character | Alara | queued | reviews/entities/characters/char-alara.md | bible/characters/char-alara.md | planning/candidates/characters/char-alara.md |  |
 | 45 | char-serathis | character | Serathis | queued | reviews/entities/characters/char-serathis.md | bible/characters/char-serathis.md | planning/candidates/characters/char-serathis.md |  |
 | 46 | char-vorren | character | Vorren | queued | reviews/entities/characters/char-vorren.md | bible/characters/char-vorren.md | planning/candidates/characters/char-vorren.md |  |
 | 47 | char-caius-drakhal | character | Caius Drakhal | queued | reviews/entities/characters/char-caius-drakhal.md | bible/characters/char-caius-drakhal.md | planning/candidates/characters/char-caius-drakhal.md |  |
-| 48 | char-alden | character | Alden | deferred | reviews/entities/characters/char-alden.md | bible/characters/char-alden.md | planning/candidates/characters/char-alden.md |  |
+| 48 | char-alden | character | Alden | superseded | reviews/entities/characters/char-aldira.md | bible/characters/char-aldira.md | planning/candidates/characters/char-aldira.md | 2026-06-26 |
 | 49 | char-tanelle | character | Tanelle | queued | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md |  |
 | 50 | char-marek | character | Marek | queued | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md |  |
 | 51 | char-zirene | character | Zirene | queued | reviews/entities/characters/char-zirene.md | bible/characters/char-zirene.md | planning/candidates/characters/char-zirene.md |  |
@@ -102,7 +102,7 @@ There must normally be no more than one entity marked `in-review`.
 - `group-minor-glyphwrights-contractors` currently groups names such as Jessa, Kolvar, Drosin, Nire, and similar incidental contractor/glyphwright figures until review shows one needs a dedicated file.
 - `terminology-magic-social-glossary` is deferred as a catch-all for terms that may not deserve independent entity files after the first review pass.
 - `culture-demi-human-peoples`, `magic-convergence-heat-transfer`, and `thread-demi-human-mercenary-forces` were opened from the Maya review so broader demi-human worldbuilding, Naeroth exceptions, and mercenary/death-payment material can be reviewed separately from Maya's accepted character record.
-- `char-alden` is deferred because `org-rezin` approval established Alden as the prior name/gender version of Aldira from earlier drafting. Old Alden references should be reconciled during `char-aldira` review or later manuscript cleanup.
+- `char-alden` is superseded because Alden is the prior name/gender version of Aldira from earlier drafting. All old Alden references are now references to Aldira; manuscript/prose cleanup remains a later revision task.
 
 ## Default Review Order
 

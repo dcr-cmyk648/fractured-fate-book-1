@@ -6,34 +6,34 @@ Last updated: 2026-06-26
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: cultures-and-world-systems
+- Current block: secondary-characters
 - Active or paused entity ID: none
 - Latest completed entity: culture-number-system-zan-script
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve zán number system culture`
-- Working tree expected to be clean: no; cultures-and-world-systems block consistency review is being finalized
+- Latest relevant commit message: `review: complete cultures world-systems consistency pass`
+- Working tree expected to be clean: no; approved `char-aldira` changes are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: cultures-and-world-systems
-- Block scope: culture and world-system records beginning with Clade hierarchy
-- Approved entities since last consistency review: 0
+- Current block: secondary-characters
+- Block scope: secondary character records beginning with Aldira
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-26-cultures-world-systems-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`culture-number-system-zan-script` was approved, committed, and pushed. The cultures-and-world-systems block review found no blocking contradictions and marked the block outline-ready with documented uncertainties.
+`char-aldira` was approved by the author. Aldira is the accepted current character, all old Alden references now refer to Aldira, her Rezin intelligence/records/codex specialist role is accepted, `spymaster` is acceptable colloquial POV language, and her Maya-support/corrective role is accepted.
 
 ## Current work
 
-The cultures-and-world-systems block consistency review is being finalized.
+`char-aldira` approval is being finalized.
 
 ## Next action
 
-Validate the cultures-and-world-systems consistency review, inspect the staged file list, commit and push. Then open the next queued entity, `char-aldira`, unless author direction changes.
+Validate approved `char-aldira` changes, inspect the staged file list, commit and push. Then open the next queued entity, `char-erynn`, unless author direction changes.
 
 ## Awaiting author input
 
@@ -54,7 +54,7 @@ Validate the cultures-and-world-systems consistency review, inspect the staged f
 - Harvick's prototypical Ink Pact, returning-weapon technology, and lightning revival mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Selwin's Dissolution, Shroud inability, crossbreed/heritage implications, final-series role, and Niall/Alara postpartum blame mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Jalen/Kelyra Concord role swap, Kelyra's Trial of Dominion fight, obsolete Jalen magic/leadership notes, and Concord chronology need later consistency review; see `CONSISTENCY_QUEUE.md`.
-- Alden is the prior name/gender version of Aldira from earlier drafting; old Alden references are suspect and need later reconciliation; see `CONSISTENCY_QUEUE.md`.
+- Alden is the prior name/gender version of Aldira from earlier drafting. All old Alden references now refer to Aldira; manuscript/prose cleanup remains later revision work.
 - Archeon's true kinesis/Ink/Shroud/martial/technology power stack, release-and-catch system, Low-to-High-Clade rise, and Elric/Serathis collaboration need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - The Spire / central amphitheater blast-hole direction is approved, but exact map/staging/revision details and remaining High Clade names/magic labels need later consistency review; see `CONSISTENCY_QUEUE.md`.
@@ -127,6 +127,7 @@ Validate the cultures-and-world-systems consistency review, inspect the staged f
 - decisions/0034-paradox-name-maker-form-and-symbolism.md
 - reviews/entities/objects/object-davian-mask.md
 - reviews/entities/objects/object-alara-journal.md
+- reviews/entities/characters/char-aldira.md
 - bible/magic/magic-codex-memory.md
 - planning/candidates/magic/magic-codex-memory.md
 - decisions/0024-auratic-codex-memory-mechanics.md

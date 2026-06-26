@@ -20,6 +20,8 @@ Keep this loose until a later organization, location, or High Clade politics rev
 
 Aldira, Harvick, and Erynn are accepted as inner-circle household figures, but their exact titles or offices remain unresolved.
 
+Aldira's spymaster-like function is accepted. Characters may call her `spymaster` colloquially, but her formal office name remains unresolved.
+
 Possible categories to evaluate later:
 
 - household adviser
@@ -30,9 +32,9 @@ Possible categories to evaluate later:
 
 ## Alden / Aldira Cleanup
 
-Alden is the prior name/gender version of Aldira from earlier drafting. Old references to Alden should be treated as suspect and reconciled later.
+Alden is the prior name/gender version of Aldira from earlier drafting. All old Alden references now refer to Aldira.
 
-Do not create a separate accepted Alden character without confirming whether any current story role remains distinct from Aldira.
+Manuscript/prose cleanup remains for later revision work. Historical source references may still quote `Alden` when describing source text.
 
 ## High Clade Culture Boundary
 
@@ -49,4 +51,4 @@ Rezin appears comparatively less harsh because Niall and Maya give the family en
 - `object-seraph-heart`: Heart mechanics and political value
 - `org-registry`, `loc-registry`, `magic-zan-lattices`: Registry institutional, location, and technical details
 - `char-alara` and `culture-naeroth-lineages`: Alara's Naeroth origin and political/social implications
-- `char-aldira`: Aldira/Alden cleanup and exact role
+- `char-aldira`: accepted Aldira role and remaining formal-title candidates

@@ -36,7 +36,9 @@ Elric Rezin is a former Rezin patriarch or major Rezin magus, Niall's father, an
 
 Aldira, Harvick, and Erynn are inner-circle household figures, not Rezin blood family.
 
-Alden is an earlier name/gender version of Aldira from prior drafting. Old references to Alden should be treated as suspect until reconciled in the Aldira review or later manuscript cleanup.
+Aldira handles Rezin intelligence, records, codex analysis, and spymaster-like operational support. Characters may colloquially call her `spymaster`, but the exact formal office name remains unresolved.
+
+Alden is an earlier name/gender version of Aldira from prior drafting. All old Alden references now refer to Aldira. Manuscript cleanup remains a later revision task.
 
 Other non-family figures functioning inside the Rezin power structure include soldiers, wall commanders, elite guards, personal guards, healers, servants, zanwrights, contractors, and advisers. Their exact titles and offices remain for their own reviews.
 
@@ -73,6 +75,7 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
+- Related character: [Aldira](../characters/char-aldira.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Registry](org-registry.md)
@@ -80,13 +83,14 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Decision record: [Rezin Clade Family and Household Structure](../../decisions/0011-rezin-clade-family-and-household-structure.md)
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
+- Decision record: [Aldira Identity, Spymaster Role, and Maya Support](../../decisions/0043-aldira-identity-spymaster-role-and-maya-support.md)
 
 ## Canonical Uncertainties
 
-- Exact formal titles for Aldira, Harvick, Erynn, wall commanders, forerunners, elite guards, and other household or military roles remain for later reviews.
+- Exact formal titles for Aldira, Harvick, Erynn, wall commanders, forerunners, elite guards, and other household or military roles remain for later reviews. Aldira's colloquial `spymaster` function is accepted, but her formal office name is not.
 - The exact public knowledge of Alara's Naeroth origin and Maya's dual heritage remains for Alara, Naeroth, and culture reviews.
 - Exact Registry, Heart, Treasury, citadel, Shroud, silver-conduit, and zán-lattice mechanics remain for separate entity reviews.
-- Old `Alden` references should be reconciled to Aldira or otherwise classified during later review.
+- Old `Alden` references are now Aldira references; manuscript/prose cleanup remains for later revision work.
 
 ## Provenance
 
