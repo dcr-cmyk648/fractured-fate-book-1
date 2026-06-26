@@ -10,30 +10,30 @@ Last updated: 2026-06-26
 - Active or paused entity ID: none
 - Latest completed entity: char-kael
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Kael character profile`
-- Working tree expected to be clean: no; approved `char-kael` work is being finalized
+- Latest relevant commit message: `review: run final secondary characters consistency pass`
+- Working tree expected to be clean: no; secondary-character consistency review is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 2
-- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-2.md
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-kael` was approved and stored as a brief dedicated character record tying Kael's younger-brother/family-stakes function to Davian's guilt and the accepted Kael/Selwin mirror.
+The final secondary-character consistency/opportunity review was prepared after `char-kael`, covering Aldira through Kael and confirming no accepted-file contradiction blocks outline readiness.
 
 ## Current work
 
-No entity is currently active during the Kael approval commit. The secondary-character block appears complete after Kael; `char-lirien` remains later queued under a different queue position.
+No entity is currently active during the secondary-character consistency review commit. The next queued story-bible item is `thread-maya-davian-romance`.
 
 ## Next action
 
-Validate, commit, and push the approved Kael work, then run the secondary-character block consistency/opportunity review before opening the next non-character block.
+Validate, commit, and push the final secondary-character consistency review, then open and prepare the `thread-maya-davian-romance` review packet.
 
 ## Awaiting author input
 
@@ -100,6 +100,7 @@ Validate, commit, and push the approved Kael work, then run the secondary-charac
 - planning/candidates/characters/char-arrek.md
 - decisions/0054-arrek-identity-murder-and-debt-family-context.md
 - reports/consistency/2026-06-26-secondary-characters-block-2.md
+- reports/consistency/2026-06-26-secondary-characters-block-final.md
 - reviews/entities/characters/char-selina.md
 - bible/characters/char-selina.md
 - planning/candidates/characters/char-selina.md
