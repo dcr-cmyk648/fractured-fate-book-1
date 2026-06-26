@@ -34,7 +34,7 @@ The Archeon lower complex includes rough stone chambers, corridors, wall rings, 
 
 ## Arena and Training Spaces
 
-Archeon's internal arena is a durable location inside the citadel complex. It is a dim stone training/testing pit with a sand floor, iron rings, iron grates, torches rather than zánlight, and a raised stone lip where Serathis can observe.
+Archeon's internal arena is a durable location inside the citadel complex. It is a dim stone training/testing pit with a sand floor, iron rings, iron grates, torches rather than zänlight, and a raised stone lip where Serathis can observe.
 
 The arena is used for testing, punishment, and controlled violence. Serathis can send fighters into the pit, evaluate results from above, and use the space to pressure Kelyra toward Archeon expectations.
 

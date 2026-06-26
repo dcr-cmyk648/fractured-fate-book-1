@@ -42,7 +42,7 @@ Its larger mass and surface area compared with Antithesis give it greater capaci
 
 Paradox is not bound to Davian's aura and is not explicitly bound against Arrek's aura or identity.
 
-Returning/thrown-weapon behavior and stabilization zán remain candidate only.
+Returning/thrown-weapon behavior and stabilization zän remain candidate only.
 
 ## End-Book Handoff
 
@@ -59,9 +59,9 @@ The shift from Antithesis to Paradox reflects Davian moving from knife-in-the-da
 ## Canonical Uncertainties
 
 - Exact forging scene, timing, materials, and technical process remain unresolved.
-- Exact Zirene craft details and zán implementation remain for later Zirene/object/technology reviews.
+- Exact Zirene craft details and zän implementation remain for later Zirene/object/technology reviews.
 - Exact final courtyard dialogue and emotional sequence remain for later ending/outline review.
-- Returning/thrown behavior and stabilization zán remain candidate only.
+- Returning/thrown behavior and stabilization zän remain candidate only.
 
 ## Related Files
 
@@ -70,13 +70,15 @@ The shift from Antithesis to Paradox reflects Davian moving from knife-in-the-da
 - Source object: [Antithesis](object-antithesis.md)
 - Related magic boundary: [Antithesis boundary record](../magic/magic-antithesis.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
+- Related character: [Zirene](../characters/char-zirene.md)
 - Related character: [Vorren](../characters/char-vorren.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Provenance
 

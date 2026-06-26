@@ -24,7 +24,7 @@ These belong primarily to `thread-maya-davian-romance` and later raid/climax rev
 
 - Ink/Shroud/kinesis interaction remains unsettled. Current direction is that Ink may need to be received before Shroud manifestation, but whether Ink-adjacent abilities interrupt Shroud remains unresolved.
 - Davian and Kelyra may have tremorsense as an extension of kinesis and martial arts.
-- Zirene may etch silver zán lattices into Davian's skin or build further body-linked zánwork.
+- Zirene may etch silver zän lattices into Davian's skin or build further body-linked zänwork.
 - Davian using Antithesis to part a force blast may function as a physical image of being the stone in the river.
 
 Route to `magic-ink-boons`, `magic-shroud`, `magic-subversion`, `object-antithesis`, and `object-davian-mask`.

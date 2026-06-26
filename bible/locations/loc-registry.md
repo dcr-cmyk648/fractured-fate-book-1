@@ -14,7 +14,7 @@ candidate_file: planning/candidates/locations/loc-registry.md
 
 The Registry chamber is the physical below-ground chamber in the Rezin citadel where the Registry system is accessed, administered, and read.
 
-This file owns the chamber as a location and interface space. The Registry as a security institution/system belongs to `org-registry`; true-name, aura, and zán-lattice mechanics belong to `magic-zan-lattices`; the overall citadel map belongs to `loc-rezin-citadel`.
+This file owns the chamber as a location and interface space. The Registry as a security institution/system belongs to `org-registry`; true-name, aura, and zän-lattice mechanics belong to `magic-zan-lattices`; the overall citadel map belongs to `loc-rezin-citadel`.
 
 ## Placement
 
@@ -28,7 +28,7 @@ There are no elevators or similar magical vertical-transport solutions in the ac
 
 The chamber is reached through guarded heavy double doors.
 
-It is circular or broadly circular, with pale or smooth stone, zán-etched walls, and visible ancient magical infrastructure.
+It is circular or broadly circular, with pale or smooth stone, zän-etched walls, and visible ancient magical infrastructure.
 
 It is a staffable administrative and security space, not a solitary artifact. Scribes, guards, and Registry personnel can work there.
 
@@ -43,6 +43,8 @@ The accepted model is a central magical control surface that projects or models 
 The map is not a constantly visible live display of every person in the citadel. It requires a person to be named or otherwise specifically called out before it locates them or zooms/refines to their position.
 
 The interface can verify a registered person, locate a registered person inside the citadel, pulse when a relevant located target appears, and refine/zoom inward once given a specific target.
+
+Arrek Hadrin's identity is valid in the Registry. The Registry verifies the real Arrek's name and later locates Davian under Arrek's stolen aura/name in the Treasury corridor.
 
 ## Registration Behavior
 
@@ -59,7 +61,7 @@ The chamber's distance from the main entryway supports the passive-mode raid log
 
 The Registry's passive/active mode rules and technical detection limits belong to `org-registry` and `magic-zan-lattices`.
 
-Exact active-mode attack or discharge geometry remains deferred to later zán, Heart, and revision work.
+Exact active-mode attack or discharge geometry remains deferred to later zän, Heart, and revision work.
 
 ## Obsolete Material
 
@@ -74,20 +76,22 @@ The earlier high-window Registry escape is obsolete. The magical-elevator soluti
 - Exact final interface terminology.
 - Exact visual implementation of the map/projection/model.
 - Exact active-mode attack and discharge geometry.
-- Exact post-Heart repair layout, gateway-detection redesign, and zán-sink arrangement.
+- Exact post-Heart repair layout, gateway-detection redesign, and zän-sink arrangement.
 
 ## Related Files
 
 - Review packet: [loc-registry](../../reviews/entities/locations/loc-registry.md)
 - Candidate material: [loc-registry](../../planning/candidates/locations/loc-registry.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
 - Related organization: [Registry](../organizations/org-registry.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Provenance
 
-- `imports/normalized/melissa-copy.md:2670-2805`: contractor processing, guarded Registry doors, circular chamber, zán-etched walls, central registration interface, stone inscription, and citadel projection.
+- `imports/normalized/melissa-copy.md:2670-2805`: contractor processing, guarded Registry doors, circular chamber, zän-etched walls, central registration interface, stone inscription, and citadel projection.
 - `imports/normalized/melissa-copy.md:15140-15245`: Maya using the chamber to verify and locate Arrek Hadrin.
 - `imports/normalized/melissa-copy.md:15935-15970`: Registry pulse, refinement, and Treasury corridor location result.
 - `imports/normalized/melissa-copy.comments.md:45-47`: obsolete high-window/elevator issue.

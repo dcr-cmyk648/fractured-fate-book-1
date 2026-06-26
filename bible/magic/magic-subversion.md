@@ -76,7 +76,7 @@ Antithesis is not a separate kind of magic or magical principle. In Book 1, Anti
 
 The approved object mechanics define Antithesis as a schema sink or anchor that concentrates kinesis and reduces backlash. It can also store/release or buffer energy storage/release like other Archeon combat equipment, augmenting its schema-sink/anchor capacity.
 
-Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact low-level circuitry and broader device mechanics remain for later Zirene, Archeon technology, and zán-lattice reviews.
+Force-parting, diffusion, or "stone in a river" behavior remains candidate material for an extension of Archeon kinesis, not something special about Antithesis itself. Exact low-level circuitry and broader device mechanics remain for later Zirene, Archeon technology, and zän-lattice reviews.
 
 Paradox:
 
@@ -99,7 +99,7 @@ Paradox is the normal sword made from ruined Antithesis at the end of Book 1. It
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
-- Related magic: [Zán / zá lattices / zánwrights](magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic boundary: [Antithesis boundary record](magic-antithesis.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related object: [Paradox](../objects/object-paradox.md)
@@ -112,7 +112,7 @@ Paradox is the normal sword made from ruined Antithesis at the end of Book 1. It
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:2496`: Subversion as Virellis secret inheritance.
-- `imports/normalized/melissa-copy.md:4502-4508`: Davian using Subversion against Treasury zán.
+- `imports/normalized/melissa-copy.md:4502-4508`: Davian using Subversion against Treasury zän.
 - `imports/normalized/melissa-copy.md:8028-8058`: Subversion as redirection/transformation rather than force generation.
 - `imports/normalized/melissa-copy.md:15039`: Davian and Kelyra both using Subversion and Davian manifesting a Shroud.
 - `imports/normalized/melissa-copy.md:20428-20535`: Davian/Kelyra/Archeon discussion, backlash, tools, kinesis inference, and foundational movement.

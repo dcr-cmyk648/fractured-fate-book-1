@@ -51,7 +51,7 @@ Maya's magic includes:
 - advanced Shroud use
 - schema construction
 - heat and flame manipulation
-- Registry and zán-lattice work
+- Registry and zän-lattice work
 - emerging Fateweaving/Skein perception
 
 Her Shroud is effectively permanent while she is awake. She can mute it enough to eat and interact with objects, but muting requires conscious effort and can get out of control. Her Shroud can activate while she sleeps if triggered by a bad dream or similar stressor.
@@ -88,7 +88,7 @@ Caius is a Presented Drakhal force-magus, political marriage-candidate figure, a
 
 Tanelle:
 
-Tanelle is a Rezin-contracted zánwright worker who is fascinated by Maya as a High Clade magus. Her blunt curiosity can expose Maya to ordinary worker questions rather than formal court deference, and she may function as a low-stakes social observer for Maya/Davian tension.
+Tanelle is a Rezin-contracted zänwright worker who is fascinated by Maya as a High Clade magus. Her blunt curiosity can expose Maya to ordinary worker questions rather than formal court deference, and she may function as a low-stakes social observer for Maya/Davian tension.
 
 Erynn and Aldira:
 
@@ -108,7 +108,7 @@ Presentation includes a required power display. Maya's revised fire/ice display 
 
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
-In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zán lattices. She is sleep-deprived and under pressure.
+In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zän lattices. She is sleep-deprived and under pressure.
 
 In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
 
@@ -159,7 +159,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
-- Decision: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 
 ## Provenance
 

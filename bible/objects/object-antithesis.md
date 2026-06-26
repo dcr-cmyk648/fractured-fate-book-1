@@ -22,7 +22,11 @@ Antithesis is an object, not an independent magic system or separate magical pri
 
 Kelyra stole Antithesis when she escaped Archeon. She took it impulsively because she thought she might need it to defend herself.
 
+Selina used Antithesis before Davian. Davian does not know the true history: Kelyra tells him Selina passed the knife to him as a keepsake because she did not want to fight and kill anymore, while hiding that Selina was already dead and had gone to kill Vorren because of Kelyra's anti-Clade/destiny framing.
+
 Antithesis was not made by Zirene. It is an attempted Archeon copy of older Zirene designs: cheap, superficial, and inferior compared with Zirene's intended work, but still effective enough to matter.
+
+Zirene's accepted boundary is that she made the best Archeon gauntlets and other high-level devices, but Antithesis itself is only a cheap Archeon copy of her older designs.
 
 ## Physical and Technical Form
 
@@ -38,7 +42,7 @@ Antithesis primarily functions as a schema sink or anchor for concentrating kine
 
 It can also store and release energy, or buffer energy storage and release, like other Archeon combat equipment. This augments the dagger's capacity as a schema sink or anchor.
 
-Antithesis has no unique anti-Shroud magic and no accepted direct link to `nïzá`. When Davian uses it against Shrouds or incoming force, that behavior should be understood through Davian's kinesis/Shroud use plus the dagger's tool design, not through a special Antithesis-only power.
+Antithesis has no unique anti-Shroud magic and no accepted direct link to `nïzä`. When Davian uses it against Shrouds or incoming force, that behavior should be understood through Davian's kinesis/Shroud use plus the dagger's tool design, not through a special Antithesis-only power.
 
 ## Rezin Citadel Concealment
 
@@ -65,8 +69,9 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 ## Canonical Uncertainties
 
 - Exact physical measurements, material, hilt, guard, blade shape, and detailed visual styling remain flexible.
-- Exact zán inscriptions and low-level circuit design remain unresolved.
+- Exact zän inscriptions and low-level circuit design remain unresolved.
 - Exact original Archeon designation remains unresolved and may stay unknown.
+- Exact mechanism by which Antithesis returned to Kelyra/Davian after Selina's death remains unresolved.
 - Exact Archeon device inventory around Antithesis, gauntlets, anchors, and related combat equipment remains for later technology/Zirene/Archeon reviews.
 - Exact scene-level concealment choreography in the Rezin citadel remains for later revision, but Alra's role is accepted.
 - Exact Paradox forging scene, timing, materials, and final end-book dialogue remain for `object-paradox` and later ending/outline review.
@@ -77,22 +82,26 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Candidate material: [object-antithesis](../../planning/candidates/objects/object-antithesis.md)
 - Related magic boundary: [Antithesis boundary record](../magic/magic-antithesis.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related object: [Heart](object-seraph-heart.md)
 - Related object: [Paradox](object-paradox.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Related character: [Vorren](../characters/char-vorren.md)
+- Related character: [Zirene](../characters/char-zirene.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 
 ## Provenance
 
-- `imports/normalized/melissa-copy.md:13655-13675`: later manuscript knife with zán etchings and gauntlet resemblance.
+- `imports/normalized/melissa-copy.md:13655-13675`: later manuscript knife with zän etchings and gauntlet resemblance.
 - `imports/normalized/melissa-copy.md:15935-16110`: Treasury theft use, lost/recovered knife, sphere lattice interaction, and post-launch resonance.
 - `imports/normalized/melissa-copy.md:16145-16225`: Maya's view of the knife as a killing weapon.
 - `imports/normalized/melissa-copy.md:16605-16628`: Kelyra's false heirloom story and stolen Archeon tool.
@@ -101,7 +110,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - `imports/normalized/melissa-copy.md:18255-18545`: Davian uses Antithesis with kinesis/Shroud against Archeon magi.
 - `imports/normalized/melissa-copy.md:20420-20460`: Davian's later explanation that stabbing the knife into the Treasury sphere made the energy release easier.
 - `imports/normalized/melissa-copy.md:21170-21186`: Harvick reports Zirene's negative opinion of the dagger.
-- `imports/normalized/book-1-outline.md:4150-4230`: concealment, zánwright-tool, and dagger-throughout planning.
+- `imports/normalized/book-1-outline.md:4150-4230`: concealment, zänwright-tool, and dagger-throughout planning.
 - `imports/normalized/book-1-outline.md:5258-5670`: stolen dagger, made-up name, false heirloom story, and backlash/concentration candidate mechanics.
 - `imports/normalized/book-1-outline.md:718-770`: Paradox made from ruined Antithesis.
 - `decisions/0023-antithesis-boundary-and-paradox-future-plan.md`

@@ -20,15 +20,15 @@ Marek is a recurring supporting contractor supervisor with useful scene function
 
 ## Why This Entity Matters
 
-Marek makes the zánwright project operationally credible.
+Marek makes the zänwright project operationally credible.
 
-He gives the worker group a practical supervisor, explains Treasury work procedures, provides dry worker-level commentary on Rezin power, and becomes the person Davian relies on when his fake promotion to supervisor exceeds his actual zánwright competence.
+He gives the worker group a practical supervisor, explains Treasury work procedures, provides dry worker-level commentary on Rezin power, and becomes the person Davian relies on when his fake promotion to supervisor exceeds his actual zänwright competence.
 
 ## Source-Backed Information
 
 ### Manuscript-Established
 
-- Marek is the Group One supervisor for the Rezin citadel zánwright/Treasury work. He is described as lean, angular-faced, clipped, efficient, stern, and composed. Provenance: `imports/normalized/melissa-copy.md:3852-3873`.
+- Marek is the Group One supervisor for the Rezin citadel zänwright/Treasury work. He is described as lean, angular-faced, clipped, efficient, stern, and composed. Provenance: `imports/normalized/melissa-copy.md:3852-3873`.
 - He explains the Treasury/vault work sequence: treasury wards first, deeper and more dangerous vault wards later, after workers are comfortable enough not to make lethal mistakes. Provenance: `imports/normalized/melissa-copy.md:3861-3873`.
 - He leads the group up the long stair route to the Treasury, explains the sphere and weightless chamber, warns workers to use ropes/anchors, and manages assignments. Provenance: `imports/normalized/melissa-copy.md:3888-4011`.
 - Current manuscript has Marek describe the weightlessness as Registry-controlled, but accepted canon supersedes this: the true mechanism is Heart/containment-armature interaction, not ordinary Registry operation. Provenance: `imports/normalized/melissa-copy.md:3945-3975`; `bible/locations/loc-treasury.md`.
@@ -53,7 +53,7 @@ He gives the worker group a practical supervisor, explains Treasury work procedu
 
 ## Current Narrative Functions
 
-- Worksite authority: makes the Treasury/zánwright project feel organized and practical.
+- Worksite authority: makes the Treasury/zänwright project feel organized and practical.
 - Technical supervisor: provides schematics, assignments, safety instructions, and enough tutoring for Davian's cover to function.
 - Dry class realist: gives grounded commentary on Rezin power and worker vulnerability without becoming a revolutionary voice.
 - Davian foil/support: calls out Davian's incompetence/manipulation, then pragmatically helps him.
@@ -61,7 +61,7 @@ He gives the worker group a practical supervisor, explains Treasury work procedu
 
 ## Proposed Canon Core
 
-- Marek is the Group One zánwright supervisor for the Rezin citadel/Treasury restoration project.
+- Marek is the Group One zänwright supervisor for the Rezin citadel/Treasury restoration project.
 - He is practical, clipped, dry, competent, and work-focused.
 - He understands the official work procedures and safety rules, but he does not know the Heart or true Treasury containment secret.
 - His in-manuscript explanation that the Registry controls weightlessness is either his official understanding or a current-draft explanation superseded by accepted canon; the true mechanism remains Heart/armature containment.
@@ -95,14 +95,21 @@ He gives the worker group a practical supervisor, explains Treasury work procedu
 
 Proposed: outline-ready with documented uncertainties after author decisions.
 
-The outline can use Marek as the zánwright supervisor, Davian's pragmatic tutor, worksite logistics voice, and dry worker-level observer while leaving his personal background flexible.
+The outline can use Marek as the zänwright supervisor, Davian's pragmatic tutor, worksite logistics voice, and dry worker-level observer while leaving his personal background flexible.
 
 ## Required Decisions
 
 1. Confirm depth/function: Marek should be brief-depth but dedicated, not folded into the generic contractor group.
-2. Confirm core profile: practical, clipped, dry, competent zánwright supervisor who helps make the Treasury project operationally credible.
+2. Confirm core profile: practical, clipped, dry, competent zänwright supervisor who helps make the Treasury project operationally credible.
 3. Confirm Davian role: Marek helps Davian function after the promotion, likely in exchange for part of the supervisor bonus; Davian may over-read Marek's judgment.
 4. Confirm limits/candidate routing: Marek does not know the Heart/true Treasury secret; keep background, exact suspicion level, exact payment terms, worker relationships, and post-theft fate candidate/deferred.
+
+## Author Decisions
+
+1. Accepted. Marek remains a brief-depth dedicated character rather than being folded into the generic contractor group. Sorevin vetting would have specifically selected some supervisors because they were solid, dependable, and non-brilliant, not because they were exceptional zänwrights.
+2. Accepted. Marek is practical, clipped, dry, competent, and work-focused.
+3. Accepted with nuance. Davian's promotion is real: he receives it because he saves Selwin and because the project needs another supervisor to help Marek. Marek probably had been asking Maya for another supervisor, but Maya had deferred the issue because of other work. Marek then helps Davian function in the role, likely in exchange for part of the supervisor bonus; Davian may over-read Marek's judgment.
+4. Accepted. Marek does not know the Heart or true Treasury secret. He is not smart enough to figure out the Treasury secret; only Tanelle gets as far as vaguely suspecting that something is wrong. Marek received and bought into the weightlessness explanation given by Maya, who also does not know the Treasury secret.
 
 ## Proposed File Changes After Approval
 

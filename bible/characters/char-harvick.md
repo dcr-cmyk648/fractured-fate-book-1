@@ -78,6 +78,7 @@ Current manuscript material establishes Harvick as:
 - Related character: [Davian](char-davian.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Niall Rezin](char-niall.md)
+- Related character: [Zirene](char-zirene.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related arc seed: [thread-elric-reality-skein](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Harvick Elric Ink and Mentorship](../../decisions/0008-harvick-elric-ink-and-mentorship.md)
@@ -85,6 +86,7 @@ Current manuscript material establishes Harvick as:
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 
 ## Canonical Uncertainties
 

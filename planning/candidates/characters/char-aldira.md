@@ -25,7 +25,7 @@ Possible future directions:
 
 ## Information Network
 
-Aldira's information network may be described as operating like a social zán lattice:
+Aldira's information network may be described as operating like a social zän lattice:
 
 - storage nodes
 - information transfer
@@ -49,7 +49,7 @@ Possible but unresolved:
 
 - Aldira may personally protect Maya and Niall after the Heart theft.
 - Aldira may help prevent anyone from seeing Niall's silver conduits.
-- Aldira may know more about Zirene, Niall's silver, or dangerous zánwright technology than she says in a given scene.
+- Aldira may know more about Zirene, Niall's silver, or dangerous zänwright technology than she says in a given scene.
 
 Keep exact knowledge boundaries flexible until Niall, Zirene, and later-scene reviews.
 

@@ -38,7 +38,7 @@ Preserve for `object-seraph-heart` and `magic-zan-lattices`:
 - whether the Heart powers broader citadel systems or the Registry directly
 - how much power can be stored
 - what fails first after Heart loss
-- how zán sinks could temporarily support passive detection
+- how zän sinks could temporarily support passive detection
 
 ## Bypass and Ink
 

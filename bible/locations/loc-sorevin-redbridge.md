@@ -52,17 +52,19 @@ Arrek happened to drink near Redbridge, and that routine let the Concord locate 
 
 Redbridge is probably a district named for a landmark, but exact physical form remains deferred.
 
-Arrek's final fate and other details belong to his eventual character record or other plot-relevant files.
+Arrek's final fate is accepted in his character record: Davian murders him in an alley after tracking him from a bar near Redbridge, then uses Harbinger Ink to capture/steal/mimic his aura for the Rezin-citadel cover.
 
 ## Related Files
 
 - Review packet: [loc-sorevin-redbridge](../../reviews/entities/locations/loc-sorevin-redbridge.md)
 - Candidate material: [loc-sorevin-redbridge](../../planning/candidates/locations/loc-sorevin-redbridge.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
 - Related organization: [High Clades](../organizations/org-high-clades.md)
 - Related location: [Rezin Citadel / Rezin fortress](loc-rezin-citadel.md)
 - Related location: [Concord manor](loc-concord-manor.md)
 - Decision record: [Sorevin Manor and Redbridge Candidate](../../decisions/0031-sorevin-manor-and-redbridge-candidate.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Canonical Uncertainties
 
@@ -70,7 +72,7 @@ Arrek's final fate and other details belong to his eventual character record or 
 - Exact Sorevin proxy-administrator structure under the Rezins.
 - Exact number of Sorevin survivors and personnel losses.
 - Exact Redbridge physical form and map placement.
-- Exact Arrek fate and final replacement details.
+- Exact Arrek murder choreography and aura-capture mechanics.
 - Exact culprit/routing behind the Sorevin attack and broader Low Clade head-magus assassination pattern.
 
 ## Provenance

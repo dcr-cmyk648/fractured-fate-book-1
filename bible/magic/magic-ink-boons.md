@@ -76,7 +76,7 @@ The Harbinger/Syndicate leader represents the deepest known level. Elric gave th
 
 Davian:
 
-Davian receives Harbinger/Elric Ink for the Heart theft and Registry bypass. His accepted Pact effects are aura absorption/mimicry after killing Arrek, rapid Skein-related movement, and later forced-restructuring healing.
+Davian receives Harbinger/Elric Ink for the Heart theft and Registry bypass. His accepted Pact effects are aura absorption/mimicry while killing Arrek, rapid Skein-related movement, and later forced-restructuring healing.
 
 Harvick:
 
@@ -88,7 +88,7 @@ Kelyra received an Ink Pact that helped her kill the prior Concord leader in a T
 
 Karra:
 
-Karra receives an Ink Pact from the Harbinger leader to challenge Kelyra. Karra has deeper healing.
+Karra receives an Ink Pact from the Harbinger leader to challenge Kelyra. Karra has deeper forced-restructuring healing, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing.
 
 Serathis and Archeon:
 
@@ -131,8 +131,10 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Related magic: [Kinesis](magic-subversion.md)
 - Related magic: [Fateweaving / Skein / fate ties](magic-fateweaving-skein.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Karra](../characters/char-karra.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Vorren](../characters/char-vorren.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -142,6 +144,8 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 
 ## Provenance
 

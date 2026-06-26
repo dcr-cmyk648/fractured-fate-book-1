@@ -47,8 +47,8 @@ That conversation is one place where the Elric/Serathis cosmology can surface: t
 - The true nature of the fractured fate of reality remains unresolved but important.
 - The literal nature of Sheol remains vague.
 - Whether Sheol is void, non-existence, outside-Skein planes, an extraplanar-deity realm, or something else remains unresolved.
-- The exact relationship among the Creator, first magus, original sin, the Skein, Heart, Nizán, Sheol, and reality fracture remains deferred.
-- Whether there is a good deity, evil god, dark god, extraplanar deity, Nizán entity, Zerakh'tum, or other literal cosmological force remains unresolved.
+- The exact relationship among the Creator, first magus, original sin, the Skein, Heart, Nizän, Sheol, and reality fracture remains deferred.
+- Whether there is a good deity, evil god, dark god, extraplanar deity, Nizän entity, Zerakh'tum, or other literal cosmological force remains unresolved.
 - Alara's personal good-God/spiritual orientation belongs to `char-alara`, not this culture-wide record.
 - Exact religious institutions, worship practices, clergy, holidays, doctrine, and modern distribution of belief remain deferred.
 
@@ -84,5 +84,5 @@ That conversation is one place where the Elric/Serathis cosmology can surface: t
 - `imports/normalized/book-1-outline.md:5232`: Sheol/Creator/Skein curse and oath list.
 - `imports/normalized/book-1-outline.md:5810-5825`: Creator and Alara good-deity candidate material.
 - `imports/normalized/book-1-outline.md:5927-5954`: Heart / evil deity candidate material.
-- `imports/normalized/book-1-outline.md:7583-7662`: extended unresolved cosmology and Nizán candidate material.
+- `imports/normalized/book-1-outline.md:7583-7662`: extended unresolved cosmology and Nizän candidate material.
 - Author feedback on 2026-06-25.

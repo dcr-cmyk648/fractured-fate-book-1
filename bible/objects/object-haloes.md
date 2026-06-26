@@ -20,9 +20,9 @@ They are dedicated object/currency material rather than only terminology because
 
 Haloes are coins with a precious-metal center and a `halo` of cheaper metal around that center.
 
-Each halo is marked in the center with a zán that indicates its value. Accepted value marks run from 1 to 6 within a metal tier.
+Each halo is marked in the center with a zän that indicates its value. Accepted value marks run from 1 to 6 within a metal tier.
 
-The central zán can be activated to show authenticity. This makes haloes harder to counterfeit and explains why a vendor would test a large payment.
+The central zän can be activated to show authenticity. This makes haloes harder to counterfeit and explains why a vendor would test a large payment.
 
 ## Denominations and Value
 
@@ -32,11 +32,11 @@ Halo values follow the setting's base-6 structure:
 - 6 silver haloes = 1 gold halo
 - 6 gold haloes = 36 silver haloes
 
-A gold halo marked with the zán for 6 is worth 36 silver haloes and can be called a Moon because it represents a full month of normal wages.
+A gold halo marked with the zän for 6 is worth 36 silver haloes and can be called a Moon because it represents a full month of normal wages.
 
 Months have 36 days. A normal wage for low-level labor is about 1 silver halo per day, or about 0.5 to 1 copper per hour.
 
-Fractional copper coins exist, but they are not haloed. Only values worth testing have the zán authenticity mark.
+Fractional copper coins exist, but they are not haloed. Only values worth testing have the zän authenticity mark.
 
 ## Minting and Control
 
@@ -57,14 +57,14 @@ Other manuscript uses include silver and gold haloes in ordinary social or comme
 - Exact High Clade responsible for minting remains unresolved, except that it is not Archeon, Drakhal, or Rezin.
 - Exact Low Clade proxy and day-to-day mint operation remain unresolved.
 - Exact mint location, legal regime, and political leverage around currency production remain for later culture/economy or High Clade reviews.
-- Exact physical design of each metal tier and zán mark remains flexible.
+- Exact physical design of each metal tier and zän mark remains flexible.
 - Exact wording of the Davian mask vendor payment scene remains for later scene revision.
 
 ## Related Files
 
 - Review packet: [object-haloes](../../reviews/entities/objects/object-haloes.md)
 - Candidate material: [object-haloes](../../planning/candidates/objects/object-haloes.md)
-- Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
+- Related magic: [Zän / zä lattices / zänwrights](../magic/magic-zan-lattices.md)
 - Related object: [Davian's mask](object-davian-mask.md)
 - Decision record: [Haloes Currency, Value, and Authenticity](../../decisions/0037-haloes-currency-value-and-authenticity.md)
 

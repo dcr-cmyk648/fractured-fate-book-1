@@ -6,38 +6,38 @@ Last updated: 2026-06-26
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: secondary-characters
-- Active or paused entity ID: char-marek
-- Latest completed entity: char-tanelle
+- Current block: narrative-threads
+- Active or paused entity ID: thread-maya-davian-romance
+- Latest completed entity: char-kael
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Tanelle character profile`
-- Working tree expected to be clean: no; unapproved `char-marek` review packet is awaiting author input
+- Latest relevant commit message: `review: run final secondary characters consistency pass`
+- Working tree expected to be clean: no; `thread-maya-davian-romance` review packet is awaiting author input
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: secondary-characters
-- Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 2
-- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
+- Current block: narrative-threads
+- Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-tanelle` was approved and stored as a standard-depth recurring zánwright support character / worker-space anchor.
+The final secondary-character consistency/opportunity review was prepared after `char-kael`, covering Aldira through Kael and confirming no accepted-file contradiction blocks outline readiness.
 
 ## Current work
 
-`char-marek` is open and awaiting author input on the review packet.
+`thread-maya-davian-romance` is open at deep review depth and awaiting author input.
 
 ## Next action
 
-Wait for author answers on `char-marek`, then apply approved Marek material to durable files, validate, commit, push, and proceed to the next queued entity.
+Answer the `thread-maya-davian-romance` review questions. After substantive approval, store the accepted arc seed, candidate material, decision record, and direct dependency updates.
 
 ## Awaiting author input
 
-- `char-marek` required decisions.
+- `thread-maya-davian-romance`: core romance/trust architecture, kiss/betrayal handling, Davian's early attraction/confession placement, and resurrection thread boundaries.
 
 ## Workflow policy note
 
@@ -58,6 +58,13 @@ Wait for author answers on `char-marek`, then apply approved Marek material to d
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Caius's exact force-magic terminology, Caius/Vorren abuse history, letter/visit/fight choreography, Darius-name cleanup, and post-Book-1 role remain unresolved; see `planning/candidates/characters/char-caius-drakhal.md`.
 - Tanelle's exact background/training, root-chewing habit, Antithesis recognition, post-Heart-theft fate, and later Maya/Davian observer use remain unresolved; see `planning/candidates/characters/char-tanelle.md`.
+- Marek's exact background, suspicion level toward Davian/Arrek, compensation terms, worker relationships, and post-Heart-theft fate remain unresolved; see `planning/candidates/characters/char-marek.md`.
+- Zirene's exact social status, workshop security, backstory, old-book provenance, post-Book-1 role, and low-level mechanics for her major devices remain unresolved; see `planning/candidates/characters/char-zirene.md`.
+- Karra's exact Sorevin rescue, Harbinger contact, evacuation lie to Davian's siblings, and possible later-book role remain unresolved; see `planning/candidates/characters/char-karra.md`.
+- Arrek's exact home route, cousins, aura-capture mechanics, murder choreography, and any future restitution/consequence remain unresolved; see `planning/candidates/characters/char-arrek.md`.
+- Stale Jalen-centered Arrek murder pressure/fieldwork references are superseded by Kelyra-centered routing; see `CONSISTENCY_QUEUE.md` and `reports/consistency/2026-06-26-secondary-characters-block-2.md`.
+- Selina's exact Vorren death-event choreography, Antithesis return path, Nizän mask modification timing, and when Davian learns the truth remain unresolved; see `planning/candidates/characters/char-selina.md`.
+- Kael's exact age, sibling dynamic with Lirien, knowledge state, evacuation scene, and possible later-book role remain unresolved; see `planning/candidates/characters/char-kael.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -76,6 +83,33 @@ Wait for author answers on `char-marek`, then apply approved Marek material to d
 - AUTHORING.md
 - reports/consistency/2026-06-26-secondary-characters-block.md
 - reviews/entities/characters/char-marek.md
+- bible/characters/char-marek.md
+- planning/candidates/characters/char-marek.md
+- decisions/0050-marek-supervisor-role-and-davian-tutoring.md
+- decisions/0051-zan-spelling-convention-correction.md
+- reviews/entities/characters/char-zirene.md
+- bible/characters/char-zirene.md
+- planning/candidates/characters/char-zirene.md
+- decisions/0052-zirene-technical-neutrality-and-device-boundaries.md
+- reviews/entities/characters/char-karra.md
+- bible/characters/char-karra.md
+- planning/candidates/characters/char-karra.md
+- decisions/0053-karra-concord-challenge-and-evacuation-role.md
+- reviews/entities/characters/char-arrek.md
+- bible/characters/char-arrek.md
+- planning/candidates/characters/char-arrek.md
+- decisions/0054-arrek-identity-murder-and-debt-family-context.md
+- reports/consistency/2026-06-26-secondary-characters-block-2.md
+- reports/consistency/2026-06-26-secondary-characters-block-final.md
+- reviews/entities/threads/thread-maya-davian-romance.md
+- reviews/entities/characters/char-selina.md
+- bible/characters/char-selina.md
+- planning/candidates/characters/char-selina.md
+- decisions/0055-selina-death-family-myth-and-object-links.md
+- reviews/entities/characters/char-kael.md
+- bible/characters/char-kael.md
+- planning/candidates/characters/char-kael.md
+- decisions/0056-kael-brief-role-and-davian-selwin-mirror.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md

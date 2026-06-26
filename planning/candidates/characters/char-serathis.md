@@ -21,7 +21,7 @@ accepted_file: bible/characters/char-serathis.md
 ## Technology and Weapons
 
 - Serathis's endgame dual returning daggers are accepted at high level and were made by Zirene.
-- Exact object design, zán mechanism, bracer interface, range, limitations, and reveal timing remain for later object/technology review.
+- Exact object design, zän mechanism, bracer interface, range, limitations, and reveal timing remain for later object/technology review.
 - Keep the daggers connected to Serathis's pre-Shroud release-and-catch roots and her similarity to Kelyra's dual-knife preference.
 
 ## Elric Knowledge

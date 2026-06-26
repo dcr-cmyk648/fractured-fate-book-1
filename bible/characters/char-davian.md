@@ -14,7 +14,7 @@ candidate_file: planning/candidates/characters/char-davian.md
 
 Davian is a principal POV character, Jalen and Kelyra's son, and a member of the Twilight Concord.
 
-He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real Arrek and using Harbinger/Syndicate Ink to steal or mimic Arrek's aura. The real Arrek remains a separate entity.
+He uses the `Arrek` identity as a Rezin-citadel cover after murdering the real Arrek and using Harbinger/Syndicate Ink to steal or mimic Arrek's aura. The real Arrek has a separate accepted record.
 
 `Shade` is Davian's assassin persona or reputation. Most Shade-specific symbolism lives in `object-davian-mask`; this file treats it as an alias/persona rather than a major independent character layer.
 
@@ -28,7 +28,7 @@ Kelyra is Davian's mother and claims Archeon lineage. Davian inherits or develop
 
 Davian is competent, dangerous, and loyal to his family, but his identity is entangled with needing to matter through threat, violence, and visible agency.
 
-He wants to be seen. His start-book matte black Concord mask is marked with the zán for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizán of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
+He wants to be seen. His start-book matte black Concord mask is marked with the zän for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizän of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
 
 Davian's approved arc moves away from negation: wanting to tear everything down, hurt the High Clades, prove agency, and stop feeling helpless by destroying hated things. His intended movement is toward values: valuing Maya, protecting people and things he values, and choosing action because it serves those values rather than because it satisfies rage or control.
 
@@ -40,7 +40,7 @@ He acts under Harbinger/Syndicate coercion and manipulation, but the accepted re
 
 Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndicate pressure on Davian, including the Ink/Heart-theft path. This does not erase Davian's accepted agency.
 
-Davian clearly murdered Arrek. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
+Davian clearly murdered Arrek. Kelyra pressured him into killing Arrek by framing Arrek as a High-Clade collaborator and all Clade collaborators as evil. Davian and the Concord tracked Arrek to a bar, followed him into an alley, and Davian murdered him while simultaneously using the Ink to capture Arrek's aura. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
 
 Accepted Registry heist mechanics: Davian adds Arrek's name to the Registry and relies on the Ink Pact to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 
@@ -66,6 +66,8 @@ Davian's intrusive pressure to kill Niall is a psychotic side effect of receivin
 Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
 Accepted future object direction: Paradox is the normal sword made from ruined Antithesis after Davian blocks Vorren's attack. Niall gives Paradox to Davian in the end-book courtyard scene. It is not bound to Davian's aura.
+
+Zirene makes Davian's black iron bands after the Heart theft. They are a lethal trust/control device activated by Niall or Maya, but exact function/design remains subject to later review. Zirene may use an engrave-on-flesh-with-metal technique related to strike-lines directly on flesh.
 
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
@@ -111,9 +113,15 @@ During the Treasury confrontation, Davian stops Harvick's heart with blunt force
 
 Tanelle:
 
-Tanelle is Davian's talkative zánwright coworker under his Arrek cover. She helps pull him into the contractor group, teaches practical zánwright work through chatter, and makes his temporary worker-space belonging in the Rezin citadel emotionally credible.
+Tanelle is Davian's talkative zänwright coworker under his Arrek cover. She helps pull him into the contractor group, teaches practical zänwright work through chatter, and makes his temporary worker-space belonging in the Rezin citadel emotionally credible.
 
 Tanelle's kindness and competence complicate Davian's clean hatred of everyone under Rezin protection. Her Treasury sphere observations also help Davian understand that the lattice behaves like containment rather than ordinary outward weightlessness generation, without her knowing the Heart or full system.
+
+Marek:
+
+Marek is the Group One zänwright supervisor who helps Davian function after Davian receives a real promotion under the Arrek cover.
+
+Davian's promotion is real even though his identity is false: he receives it for saving Selwin and because the Treasury project needs another supervisor to help Marek. Davian relies on Marek's tutoring, plans, schematics, and practical supervisory competence, likely in exchange for part of the supervisor bonus. Davian may over-read Marek's judgment of him.
 
 Selwin:
 
@@ -122,6 +130,18 @@ After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, a
 Accepted Selwin record: [Selwin Rezin](char-selwin.md)
 
 Davian saves Selwin during the Dissolution outburst, exposing Davian's underlying protective values and complicating his attempt to categorize all High Clades as enemies.
+
+Kael:
+
+Kael is Davian's younger brother. Kael's trusting, wooden-sword-coded faith in Davian sharpens Davian's guilt because Kael assumes Davian's missions are right while Davian knows the reality is darker.
+
+Selwin reminds Davian of Kael. This is a durable Davian-arc function because it helps Davian see an innocent High Clade child rather than only a future enemy.
+
+Selina:
+
+Selina is Davian's deceased sibling, but Davian does not know the truth of her death. Kelyra tells him Selina left to work for the High Clades, passed Antithesis to him as a keepsake because she did not want to fight and kill anymore, and was later killed by Vorren for no reason. In reality, Selina had already died after going to kill Vorren because of Kelyra's anti-Clade/destiny framing.
+
+Davian's original start-book mask is not Selina's. The later Nizän-marked mask Kelyra gives him is Selina's old Concord mask with the Nizän added.
 
 ## Current Manuscript State
 
@@ -144,9 +164,14 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Vorren](char-vorren.md)
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Jalen](char-jalen.md)
+- Related character: [Arrek Hadrin](char-arrek.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Zirene](char-zirene.md)
 - Related character: [Tanelle](char-tanelle.md)
+- Related character: [Marek](char-marek.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related character: [Kael](char-kael.md)
+- Related character: [Selina](char-selina.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -168,14 +193,19 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
-- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
+- Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
 - Broader Ink/Shroud/kinesis interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
 - Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
-- The real Arrek's background and full consequences of his murder remain for `char-arrek`.
+- Arrek-family restitution or cousin consequences remain candidate material in `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 
 ## Provenance

@@ -30,13 +30,15 @@ Jalen is a respected support, planning, and logistics figure and Kelyra's husban
 
 Davian is a Concord operator and assassin tied to the organization through family, training, masks, sign/cipher, and missions.
 
+Kelyra and the Concord track Arrek Hadrin to a bar and follow him into an alley so Davian can murder him and use Ink to take his aura. Current source/manuscript material may still contain stale Jalen-fieldwork pressure references; accepted canon makes Kelyra the fieldwork/pressure figure.
+
 ## Trial of Dominion
 
 The Trial of Dominion is the leadership-challenge mechanism for the Concord and other Masked Clades.
 
 Kelyra received an Ink Pact after Selina's death. She used Ink, Archeon-derived ability, and martial prowess to kill the prior Concord leader in a Trial of Dominion and take power.
 
-Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans.
+Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans. Karra's motive combines ambition, fear that Kelyra is spiraling into dangerous unrewarding missions, and intentional Harbinger manipulation.
 
 Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's full role belong to later outline/revision and character reviews.
 
@@ -44,9 +46,9 @@ Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's f
 
 The Concord operates through masks, sign, cipher, stealth, assassination and raid tactics, underworld contacts, and guarded hideout infrastructure.
 
-Concord members use matte black masks. Davian's customized mask is an exception: at the start of Book 1 it bears the zán for equality/equilibrium, which Kelyra criticizes as tactically risky and attention-seeking. Later Kelyra gives Davian a Concord mask marked with the Nizán of zero/negation/void as a toxic supportive gesture.
+Concord members use matte black masks. Davian's customized mask is an exception: at the start of Book 1 it bears the zän for equality/equilibrium, which Kelyra criticizes as tactically risky and attention-seeking. Later Kelyra gives Davian a Concord mask marked with the Nizän of zero/negation/void as a toxic supportive gesture.
 
-The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zán, stripped of flourish, used phonetically and rearranged in a precise sequence.
+The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zän, stripped of flourish, used phonetically and rearranged in a precise sequence.
 
 The Concord is vulnerable to Harbinger pressure because Kelyra received Ink power and the family/organization is bound by bargains, debt, leverage, and the threat of leadership challenge.
 
@@ -56,11 +58,15 @@ The Concord operates from the Concord manor, a patched, dilapidated formerly aba
 
 The manor is both the Concord's primary hideout/base and a communal home/base for Concord members and any family they have.
 
+Kael and Lirien live in or are based in the Concord manor family space during current manuscript material. Kael's accepted Book 1 role is primarily as Davian's trusting younger-brother anchor and a family-stakes pressure point.
+
 The manor includes a courtyard with training dummies, repairs, guards or members, and muted activity. Its central hall is a repurposed dining area used for planning, and Selina's shrine is in the family meeting space.
+
+Selina's death is part of the accepted backstory behind Kelyra's first Harbinger Ink bargain, the prior Concord leader's death, and Kelyra's takeover.
 
 The hideout has maze-like security and escape features: grafted rooms, corridors, old stone, newer timber, and questionable structural integrity.
 
-After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. The manor eventually collapses during the Archeon attack.
+After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. Concord members obey Karra because they respect the Trial rules enough and are frightened enough after Davian's explosive reappearance to accept emergency direction from her. Karra likely has to lie to Davian's siblings to get them out. The manor eventually collapses during the Archeon attack.
 
 ## Current Manuscript State
 
@@ -75,6 +81,10 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related character: [Karra](../characters/char-karra.md)
+- Related character: [Arrek Hadrin](../characters/char-arrek.md)
+- Related character: [Kael](../characters/char-kael.md)
+- Related character: [Selina](../characters/char-selina.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -84,13 +94,17 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
+- Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 
 - Exact detailed Trial of Dominion rules remain for later review.
-- Exact Karra character details remain for `char-karra`.
+- Exact Karra post-Book-1 role remains candidate material in `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
-- Exact manuscript cleanup of older zán terminology remains for later revision work.
+- Exact manuscript cleanup of older zän terminology remains for later revision work.
 - Exact manuscript revision plan for older Jalen-seat references remains for later revision work.
 - Exact Concord manor district, prior owner, map, evacuation sequence, and damage state remain for location/revision work.
 
