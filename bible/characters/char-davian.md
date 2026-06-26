@@ -131,6 +131,12 @@ Accepted Selwin record: [Selwin Rezin](char-selwin.md)
 
 Davian saves Selwin during the Dissolution outburst, exposing Davian's underlying protective values and complicating his attempt to categorize all High Clades as enemies.
 
+Kael:
+
+Kael is Davian's younger brother. Kael's trusting, wooden-sword-coded faith in Davian sharpens Davian's guilt because Kael assumes Davian's missions are right while Davian knows the reality is darker.
+
+Selwin reminds Davian of Kael. This is a durable Davian-arc function because it helps Davian see an innocent High Clade child rather than only a future enemy.
+
 Selina:
 
 Selina is Davian's deceased sibling, but Davian does not know the truth of her death. Kelyra tells him Selina left to work for the High Clades, passed Antithesis to him as a keepsake because she did not want to fight and kill anymore, and was later killed by Vorren for no reason. In reality, Selina had already died after going to kill Vorren because of Kelyra's anti-Clade/destiny framing.
@@ -164,6 +170,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Tanelle](char-tanelle.md)
 - Related character: [Marek](char-marek.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related character: [Kael](char-kael.md)
 - Related character: [Selina](char-selina.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
@@ -191,6 +198,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 

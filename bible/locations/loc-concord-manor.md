@@ -18,6 +18,8 @@ The Concord manor, Concord hideout, and abandoned house references all point to 
 
 It is both an operational Concord base and a communal home/base for Concord members and any family they have. Kelyra and Jalen's family lives there, and other younger people likely live there as well even if they have not been individually named.
 
+Kael and Lirien live in or are based in the Concord manor family space during current manuscript material.
+
 This file owns the physical location. Concord leadership, Trial of Dominion, masks/sign/cipher, and organization culture belong to `org-concord`; Kelyra and Jalen's roles belong to their character files.
 
 ## Setting and History
@@ -78,10 +80,12 @@ During that attack, the manor's poor structural integrity matters: rooms, roof s
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Karra](../characters/char-karra.md)
+- Related character: [Kael](../characters/char-kael.md)
 - Related character: [Selina](../characters/char-selina.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Provenance
 

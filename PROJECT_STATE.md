@@ -8,32 +8,32 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-selina
+- Latest completed entity: char-kael
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Selina character profile`
-- Working tree expected to be clean: no; approved `char-selina` work is being finalized
+- Latest relevant commit message: `bible: approve Kael character profile`
+- Working tree expected to be clean: no; approved `char-kael` work is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-2.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-selina` was approved and stored as a standard-depth deceased-character record tying Selina's death, Kelyra's family myth, Antithesis, the later Nizän mask, and Davian's false understanding of her death together.
+`char-kael` was approved and stored as a brief dedicated character record tying Kael's younger-brother/family-stakes function to Davian's guilt and the accepted Kael/Selwin mirror.
 
 ## Current work
 
-No entity is currently active during the Selina approval commit. `char-kael` is the next queued secondary-character entity.
+No entity is currently active during the Kael approval commit. The secondary-character block appears complete after Kael; `char-lirien` remains later queued under a different queue position.
 
 ## Next action
 
-Validate, commit, and push the approved Selina work, then open and prepare the `char-kael` review packet.
+Validate, commit, and push the approved Kael work, then run the secondary-character block consistency/opportunity review before opening the next non-character block.
 
 ## Awaiting author input
 
@@ -64,6 +64,7 @@ Validate, commit, and push the approved Selina work, then open and prepare the `
 - Arrek's exact home route, cousins, aura-capture mechanics, murder choreography, and any future restitution/consequence remain unresolved; see `planning/candidates/characters/char-arrek.md`.
 - Stale Jalen-centered Arrek murder pressure/fieldwork references are superseded by Kelyra-centered routing; see `CONSISTENCY_QUEUE.md` and `reports/consistency/2026-06-26-secondary-characters-block-2.md`.
 - Selina's exact Vorren death-event choreography, Antithesis return path, Nizän mask modification timing, and when Davian learns the truth remain unresolved; see `planning/candidates/characters/char-selina.md`.
+- Kael's exact age, sibling dynamic with Lirien, knowledge state, evacuation scene, and possible later-book role remain unresolved; see `planning/candidates/characters/char-kael.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -103,6 +104,10 @@ Validate, commit, and push the approved Selina work, then open and prepare the `
 - bible/characters/char-selina.md
 - planning/candidates/characters/char-selina.md
 - decisions/0055-selina-death-family-myth-and-object-links.md
+- reviews/entities/characters/char-kael.md
+- bible/characters/char-kael.md
+- planning/candidates/characters/char-kael.md
+- decisions/0056-kael-brief-role-and-davian-selwin-mirror.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md

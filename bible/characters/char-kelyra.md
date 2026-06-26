@@ -65,6 +65,8 @@ Kael and Lirien:
 
 Kael and Lirien are Kelyra's younger children. The accepted spelling is `Lirien`; later source text also contains `Lirin`, which should be treated as a spelling inconsistency until corrected in a later consistency pass.
 
+Kael has a brief dedicated record. In Book 1 he functions mostly as a family-stakes pressure point and as Davian's trusting younger-brother anchor rather than as an independent subplot.
+
 Selina:
 
 Selina is Kelyra's deceased child. Kelyra ran from Archeon when she realized she was pregnant with Selina because Archeon children are taken from mothers and trained rather than raised.
@@ -105,6 +107,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Karra](char-karra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
+- Related character: [Kael](char-kael.md)
 - Related character: [Selina](char-selina.md)
 - Related character: [Serathis](char-serathis.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
@@ -127,6 +130,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 

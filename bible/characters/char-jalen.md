@@ -44,6 +44,10 @@ Jalen is Davian's father. Their relationship is loving, sharp, and violent-edged
 
 Kelyra, not Jalen, is the primary source of the Archeon training techniques used to train Selina and then Davian into killers.
 
+Kael:
+
+Kael is Jalen and Kelyra's younger son and one of the living children Jalen is trying to protect. Kael's accepted Book 1 function belongs mostly to Davian's guilt/family-stakes arc rather than to an independent Jalen subplot.
+
 Selina:
 
 Selina's death is a core wound for Jalen and likely shapes his fear of failing another child. Selina's accepted record now owns her death, Antithesis history, and mask history.
@@ -74,6 +78,7 @@ Current manuscript material establishes Jalen as:
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
+- Related character: [Kael](char-kael.md)
 - Related character: [Selina](char-selina.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
@@ -84,6 +89,7 @@ Current manuscript material establishes Jalen as:
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 

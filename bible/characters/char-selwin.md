@@ -34,6 +34,8 @@ Selwin is open and affectionate in a way that complicates the adults' abstractio
 
 For Davian, Selwin is an innocent High Clade child who reminds him of Kael and exposes Davian's underlying desire to protect rather than only destroy. Davian initially wants to see Selwin as a future High Clade monster, but Selwin's openness and desire to protect people cut through that abstraction.
 
+The Kael/Selwin mirror is an accepted durable Davian-arc function.
+
 ## Magic
 
 Selwin is at a dangerous manifestation stage and currently cannot form a Shroud at all.
@@ -63,6 +65,7 @@ Current manuscript material establishes:
 - Related character: [Maya Rezin](char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Davian](char-davian.md)
+- Related character: [Kael](char-kael.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
@@ -71,6 +74,7 @@ Current manuscript material establishes:
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 

@@ -58,6 +58,8 @@ The Concord operates from the Concord manor, a patched, dilapidated formerly aba
 
 The manor is both the Concord's primary hideout/base and a communal home/base for Concord members and any family they have.
 
+Kael and Lirien live in or are based in the Concord manor family space during current manuscript material. Kael's accepted Book 1 role is primarily as Davian's trusting younger-brother anchor and a family-stakes pressure point.
+
 The manor includes a courtyard with training dummies, repairs, guards or members, and muted activity. Its central hall is a repurposed dining area used for planning, and Selina's shrine is in the family meeting space.
 
 Selina's death is part of the accepted backstory behind Kelyra's first Harbinger Ink bargain, the prior Concord leader's death, and Kelyra's takeover.
@@ -81,6 +83,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Karra](../characters/char-karra.md)
 - Related character: [Arrek Hadrin](../characters/char-arrek.md)
+- Related character: [Kael](../characters/char-kael.md)
 - Related character: [Selina](../characters/char-selina.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
@@ -94,6 +97,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 
