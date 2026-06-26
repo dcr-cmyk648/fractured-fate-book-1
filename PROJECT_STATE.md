@@ -8,9 +8,9 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-caius-drakhal
+- Latest completed entity: char-tanelle
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Caius Drakhal character profile`
+- Latest relevant commit message: `bible: approve Tanelle character profile`
 - Working tree expected to be clean: yes
 - Remote synchronized: yes
 
@@ -18,7 +18,7 @@ Last updated: 2026-06-26
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,11 +29,11 @@ Last updated: 2026-06-26
 
 ## Current work
 
-No entity is currently open. The next queued entity is `char-tanelle`.
+No entity is currently open. The next queued entity is `char-marek`.
 
 ## Next action
 
-Open `char-tanelle` for review unless author direction changes.
+Open `char-marek` for review unless author direction changes.
 
 ## Awaiting author input
 
@@ -57,6 +57,7 @@ Open `char-tanelle` for review unless author direction changes.
 - Serathis's exact age/generation count, own escape/takeover details, final fight choreography, returning-dagger/bracer mechanics, exact Elric knowledge, remaining Presented Archeon magus, current-heir resentment, and post-Serathis Archeon succession remain unresolved; see `planning/candidates/characters/char-serathis.md`.
 - Drakhal's Evana/Caius/Vorren relationships, Kelyra/Vorren breeding-contract deal, High Clade political trap, and exact force-magic terminology need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Caius's exact force-magic terminology, Caius/Vorren abuse history, letter/visit/fight choreography, Darius-name cleanup, and post-Book-1 role remain unresolved; see `planning/candidates/characters/char-caius-drakhal.md`.
+- Tanelle's exact background/training, root-chewing habit, Antithesis recognition, post-Heart-theft fate, and later Maya/Davian observer use remain unresolved; see `planning/candidates/characters/char-tanelle.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -74,6 +75,9 @@ Open `char-tanelle` for review unless author direction changes.
 - decisions/index.md
 - AUTHORING.md
 - reports/consistency/2026-06-26-secondary-characters-block.md
+- bible/characters/char-tanelle.md
+- planning/candidates/characters/char-tanelle.md
+- reviews/entities/characters/char-tanelle.md
 - bible/characters/char-caius-drakhal.md
 - planning/candidates/characters/char-caius-drakhal.md
 - reviews/entities/characters/char-caius-drakhal.md

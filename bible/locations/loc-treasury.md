@@ -58,6 +58,8 @@ The sphere's lattice reinforces weakened components. Davian cannot easily sabota
 
 The sphere and chamber are ancient high-power Rezin zán infrastructure built around Heart-level input.
 
+Tanelle is the worker who notices the sphere's lattice behaves more like containment than outward weightlessness generation. She suspects something unusual beyond the baseline oddity of the giant floating sphere, but she does not know the Heart or the full Treasury secret.
+
 ## Heart Theft Implications
 
 Davian does not make the sphere fall or drop.
@@ -83,11 +85,13 @@ After the sphere shatters, the chamber has no active containment field and nothi
 - Related location: [Registry Chamber](loc-registry.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
+- Related character: [Tanelle](../characters/char-tanelle.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Related magic: [Zán / zá lattices / zánwrights](../magic/magic-zan-lattices.md)
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 
 ## Provenance
 

@@ -109,6 +109,12 @@ Accepted Harvick record: [Harvick](char-harvick.md)
 
 During the Treasury confrontation, Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning. Davian may not understand the medical mechanism and may only perceive Niall shooting lightning through Harvick.
 
+Tanelle:
+
+Tanelle is Davian's talkative zánwright coworker under his Arrek cover. She helps pull him into the contractor group, teaches practical zánwright work through chatter, and makes his temporary worker-space belonging in the Rezin citadel emotionally credible.
+
+Tanelle's kindness and competence complicate Davian's clean hatred of everyone under Rezin protection. Her Treasury sphere observations also help Davian understand that the lattice behaves like containment rather than ordinary outward weightlessness generation, without her knowing the Heart or full system.
+
 Selwin:
 
 After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, apologizes for lying, and says he wants to help make things right.
@@ -139,6 +145,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
+- Related character: [Tanelle](char-tanelle.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Sorevin manor](../locations/loc-sorevin-redbridge.md)
@@ -161,6 +168,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 
 ## Canonical Uncertainties
 

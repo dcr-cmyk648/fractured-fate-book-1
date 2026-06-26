@@ -86,6 +86,10 @@ Caius Drakhal:
 
 Caius is a Presented Drakhal force-magus, political marriage-candidate figure, and personal pressure point for Maya. The Maya/Caius marriage plus Niall-banishment offer is a bad-faith trap from Evana's, Elric's, and Serathis's perspective, though Caius likely thinks he has a real shot. Caius's arrogance, jealousy, and narcissistic acting-out test Maya's public authority and her mandate to use power to protect rather than dominate.
 
+Tanelle:
+
+Tanelle is a Rezin-contracted zánwright worker who is fascinated by Maya as a High Clade magus. Her blunt curiosity can expose Maya to ordinary worker questions rather than formal court deference, and she may function as a low-stakes social observer for Maya/Davian tension.
+
 Erynn and Aldira:
 
 Erynn and Aldira function as important grounding or corrective figures for Maya in different registers: Erynn personal and practical, Aldira strategic and dry.
@@ -131,6 +135,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Vorren](char-vorren.md)
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
+- Related character: [Tanelle](char-tanelle.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
@@ -154,6 +159,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision: [Tanelle Zánwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 
 ## Provenance
 
