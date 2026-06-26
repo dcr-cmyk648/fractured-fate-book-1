@@ -36,7 +36,7 @@ The Trial of Dominion is the leadership-challenge mechanism for the Concord and 
 
 Kelyra received an Ink Pact after Selina's death. She used Ink, Archeon-derived ability, and martial prowess to kill the prior Concord leader in a Trial of Dominion and take power.
 
-Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans.
+Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans. Karra's motive combines ambition, fear that Kelyra is spiraling into dangerous unrewarding missions, and intentional Harbinger manipulation.
 
 Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's full role belong to later outline/revision and character reviews.
 
@@ -60,7 +60,7 @@ The manor includes a courtyard with training dummies, repairs, guards or members
 
 The hideout has maze-like security and escape features: grafted rooms, corridors, old stone, newer timber, and questionable structural integrity.
 
-After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. The manor eventually collapses during the Archeon attack.
+After Davian returns with the Heart, the manor is compromised. When Kelyra is captured, Karra immediately moves everyone but Davian out. Concord members obey Karra because they respect the Trial rules enough and are frightened enough after Davian's explosive reappearance to accept emergency direction from her. Karra likely has to lie to Davian's siblings to get them out. The manor eventually collapses during the Archeon attack.
 
 ## Current Manuscript State
 
@@ -75,6 +75,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
 - Related character: [Davian](../characters/char-davian.md)
+- Related character: [Karra](../characters/char-karra.md)
 - Related culture: [Clade hierarchy / caste system](../cultures/culture-clade-hierarchy.md)
 - Related object: [Davian's mask](../objects/object-davian-mask.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
@@ -84,11 +85,12 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
+- Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 
 ## Canonical Uncertainties
 
 - Exact detailed Trial of Dominion rules remain for later review.
-- Exact Karra character details remain for `char-karra`.
+- Exact Karra post-Book-1 role remains candidate material in `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
 - Exact manuscript cleanup of older zän terminology remains for later revision work.
 - Exact manuscript revision plan for older Jalen-seat references remains for later revision work.

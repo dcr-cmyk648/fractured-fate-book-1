@@ -58,3 +58,4 @@ Do not use this file as a dump for unresolved questions.
 | Marek Supervisor Role and Davian Tutoring Function | 2026-06-26 | accepted; stored in approved `char-marek` record | [0050-marek-supervisor-role-and-davian-tutoring.md](0050-marek-supervisor-role-and-davian-tutoring.md) |
 | Zän Spelling Convention Correction | 2026-06-26 | accepted; supersedes acute-accent spelling convention in `0042` | [0051-zan-spelling-convention-correction.md](0051-zan-spelling-convention-correction.md) |
 | Zirene Technical Neutrality and Device Boundaries | 2026-06-26 | accepted; stored in approved `char-zirene` record | [0052-zirene-technical-neutrality-and-device-boundaries.md](0052-zirene-technical-neutrality-and-device-boundaries.md) |
+| Karra Concord Challenge and Evacuation Role | 2026-06-26 | accepted; stored in approved `char-karra` record | [0053-karra-concord-challenge-and-evacuation-role.md](0053-karra-concord-challenge-and-evacuation-role.md) |

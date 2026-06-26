@@ -21,7 +21,7 @@ Kelyra became the Concord's de facto primary leader after killing the prior Conc
 
 The Harbingers' Heart-theft pressure now targets Kelyra's position as Concord leader. Because Kelyra gained power through an Ink Pact and Trial of Dominion, the implied threat is that someone else could be granted comparable power to challenge her.
 
-Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
+Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan. Karra's motive is a mix of ambition, fear that Kelyra is spiraling into dangerous and unrewarding revenge/destruction missions, and intentional Harbinger feeding of both of those vulnerabilities.
 
 ## Personality and Psychological Patterns
 
@@ -95,6 +95,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 
 - Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Related character: [Jalen](char-jalen.md)
+- Related character: [Karra](char-karra.md)
 - Related character: [Serathis](char-serathis.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -113,6 +114,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
+- Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 
 ## Canonical Uncertainties
 
@@ -122,7 +124,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Exact number of generations between Kelyra and Serathis remains unresolved.
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
-- Exact Concord leadership chronology, prior-leader death, Ink Pact role, Karra's challenge, and Trial of Dominion execution need a later consistency pass.
+- Exact Concord leadership chronology, prior-leader death, and detailed Trial of Dominion execution need a later consistency pass.
 
 ## Provenance
 

@@ -44,7 +44,7 @@ The courtyard is also where Davian returns broken with the Heart. Concord member
 
 The manor is compromised after Davian returns with the Heart. Kelyra does not have a fully solid plan beyond going to the Harbingers and hoping for more power, but she is worried the location is compromised.
 
-When Kelyra is captured, Karra immediately moves everyone but Davian out.
+When Kelyra is captured, Karra immediately moves everyone but Davian out. Concord members obey her because they respect the Trial rules enough and are frightened enough after Davian's explosive reappearance to accept emergency direction from her. Karra likely has to lie to Davian's siblings to get them out.
 
 ## Interior
 
@@ -77,7 +77,9 @@ During that attack, the manor's poor structural integrity matters: rooms, roof s
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Jalen](../characters/char-jalen.md)
+- Related character: [Karra](../characters/char-karra.md)
 - Decision record: [Concord Manor Identity and Collapse](../../decisions/0029-concord-manor-identity-and-collapse.md)
+- Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 
 ## Provenance
 

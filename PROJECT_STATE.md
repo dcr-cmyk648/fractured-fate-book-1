@@ -8,32 +8,32 @@ Last updated: 2026-06-26
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
 - Active or paused entity ID: none
-- Latest completed entity: char-zirene
+- Latest completed entity: char-karra
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Zirene character profile`
-- Working tree expected to be clean: no; approved `char-zirene` work is being finalized
+- Latest relevant commit message: `bible: approve Karra character profile`
+- Working tree expected to be clean: no; approved `char-karra` work is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: secondary character records beginning with Aldira
-- Approved entities since last consistency review: 3
+- Approved entities since last consistency review: 4
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`char-zirene` was approved and stored as a standard-depth zänwright/device-maker character. Zirene is now the accepted technical hinge for Niall's silver, Davian's bands, the best Archeon gauntlets, Harvick's returning sword, Serathis's returning daggers, Antithesis's copied design lineage, and future Paradox work, while low-level mechanics remain deferred.
+`char-karra` was approved and stored as a standard-depth Concord bruiser/operator whose role connects the Sorevin job, Heart handoff, Trial of Dominion, deeper Ink healing, and Concord manor evacuation.
 
 ## Current work
 
-No entity is currently active during the Zirene approval commit. `char-karra` is the next queued secondary-character entity.
+No entity is currently active during the Karra approval commit. `char-arrek` is the next queued secondary-character entity.
 
 ## Next action
 
-Validate, commit, and push the approved Zirene work, then open and prepare the `char-karra` review packet.
+Validate, commit, and push the approved Karra work, then open and prepare the `char-arrek` review packet.
 
 ## Awaiting author input
 
@@ -60,6 +60,7 @@ Validate, commit, and push the approved Zirene work, then open and prepare the `
 - Tanelle's exact background/training, root-chewing habit, Antithesis recognition, post-Heart-theft fate, and later Maya/Davian observer use remain unresolved; see `planning/candidates/characters/char-tanelle.md`.
 - Marek's exact background, suspicion level toward Davian/Arrek, compensation terms, worker relationships, and post-Heart-theft fate remain unresolved; see `planning/candidates/characters/char-marek.md`.
 - Zirene's exact social status, workshop security, backstory, old-book provenance, post-Book-1 role, and low-level mechanics for her major devices remain unresolved; see `planning/candidates/characters/char-zirene.md`.
+- Karra's exact Sorevin rescue, Harbinger contact, evacuation lie to Davian's siblings, and possible later-book role remain unresolved; see `planning/candidates/characters/char-karra.md`.
 - Antithesis transformation is no longer canon; later revision work must keep Antithesis as a dagger and preserve Alra's accepted concealment role; see `CONSISTENCY_QUEUE.md`.
 - Ink Pact healing is limited to deeper Pact cases; later character reviews must keep Davian/Karra/Vorren distinct from Kelyra; see `CONSISTENCY_QUEUE.md`.
 - Skein-layer zan, exact Heart/Registry/Treasury power path beyond the accepted Treasury weightlessness function, exact Zirene/Archeon device mechanics, and the exact Paradox forging scene remain unresolved candidates; see `CONSISTENCY_QUEUE.md`.
@@ -86,6 +87,10 @@ Validate, commit, and push the approved Zirene work, then open and prepare the `
 - bible/characters/char-zirene.md
 - planning/candidates/characters/char-zirene.md
 - decisions/0052-zirene-technical-neutrality-and-device-boundaries.md
+- reviews/entities/characters/char-karra.md
+- bible/characters/char-karra.md
+- planning/candidates/characters/char-karra.md
+- decisions/0053-karra-concord-challenge-and-evacuation-role.md
 - bible/characters/char-tanelle.md
 - planning/candidates/characters/char-tanelle.md
 - reviews/entities/characters/char-tanelle.md

@@ -70,7 +70,7 @@ There must normally be no more than one entity marked `in-review`.
 | 49 | char-tanelle | character | Tanelle | approved | reviews/entities/characters/char-tanelle.md | bible/characters/char-tanelle.md | planning/candidates/characters/char-tanelle.md | 2026-06-26 |
 | 50 | char-marek | character | Marek | approved | reviews/entities/characters/char-marek.md | bible/characters/char-marek.md | planning/candidates/characters/char-marek.md | 2026-06-26 |
 | 51 | char-zirene | character | Zirene | approved | reviews/entities/characters/char-zirene.md | bible/characters/char-zirene.md | planning/candidates/characters/char-zirene.md | 2026-06-26 |
-| 52 | char-karra | character | Karra | queued | reviews/entities/characters/char-karra.md | bible/characters/char-karra.md | planning/candidates/characters/char-karra.md |  |
+| 52 | char-karra | character | Karra | approved | reviews/entities/characters/char-karra.md | bible/characters/char-karra.md | planning/candidates/characters/char-karra.md | 2026-06-26 |
 | 53 | char-arrek | character | Arrek | queued | reviews/entities/characters/char-arrek.md | bible/characters/char-arrek.md | planning/candidates/characters/char-arrek.md |  |
 | 54 | char-selina | character | Selina | queued | reviews/entities/characters/char-selina.md | bible/characters/char-selina.md | planning/candidates/characters/char-selina.md |  |
 | 55 | char-kael | character | Kael | queued | reviews/entities/characters/char-kael.md | bible/characters/char-kael.md | planning/candidates/characters/char-kael.md |  |
