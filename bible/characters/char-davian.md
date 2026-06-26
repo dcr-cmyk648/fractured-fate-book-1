@@ -89,6 +89,8 @@ Kelyra, not Jalen, uses Archeon training techniques to first train Selina and th
 
 Serathis sees Davian as one of the closest realized heirs to the Archeon project after the Heart theft reveals what Kelyra's line produced. In the accepted future direction, Davian fights the remaining Presented Archeon magus to free Kelyra, then fights Serathis alongside Kelyra before leaving Kelyra to handle the remaining Archeon forces and going to help Maya and Niall against Vorren.
 
+Vorren forces Davian to give up being the primary threat and support Maya and Niall instead. Accepted high-level future direction: Davian helps Maya and Niall kill Vorren, and Antithesis is ruined when Davian blocks Vorren's attack to give Maya and Niall respite. Exact fight choreography remains deferred.
+
 Maya:
 
 Davian and Maya's relationship involves attraction, class resentment, misinterpretation, betrayal, guilt, and shared values around protecting innocents.
@@ -129,6 +131,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Davian Heart Theft Agency and Arc](../../decisions/0004-davian-heart-theft-agency-and-arc.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Serathis](char-serathis.md)
+- Related character: [Vorren](char-vorren.md)
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
@@ -151,6 +154,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Canonical Uncertainties
 

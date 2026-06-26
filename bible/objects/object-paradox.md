@@ -18,6 +18,8 @@ Paradox is the sword made from ruined Antithesis at the end of Book 1.
 
 Paradox is not a transformed form of Antithesis. Antithesis remains a dagger throughout Book 1, is ruined in the final conflict when Davian blocks Vorren's attack to give Maya and Niall respite, and is later remade into Paradox.
 
+The high-level Vorren outcome is accepted: Maya, Niall, and Davian kill Vorren together. Exact fight choreography and the exact Antithesis-ruin beat remain deferred.
+
 ## Maker and Creation
 
 Maya designs Paradox.
@@ -72,7 +74,9 @@ The shift from Antithesis to Paradox reflects Davian moving from knife-in-the-da
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
+- Related character: [Vorren](../characters/char-vorren.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Provenance
 

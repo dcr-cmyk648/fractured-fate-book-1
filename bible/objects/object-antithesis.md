@@ -58,6 +58,8 @@ The theft still depends on Davian's kinesis/Subversion, Ink pressure, the Treasu
 
 Antithesis is ruined in the final conflict when Davian blocks Vorren's attack to give Maya and Niall some respite.
 
+Accepted high-level Vorren direction: Maya, Niall, and Davian kill Vorren together, but exact fight choreography and the exact block that ruins Antithesis remain deferred to later outline review.
+
 Paradox will canonically be made from the ruined Antithesis at the end of Book 1. Paradox is a normal sword designed and named by Maya and made by Zirene. The exact forging scene and end-book emotional sequence belong to `object-paradox` and later ending/outline review.
 
 ## Canonical Uncertainties
@@ -80,11 +82,13 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Related object: [Paradox](object-paradox.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
+- Related character: [Vorren](../characters/char-vorren.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related location: [Treasury / vault chamber](../locations/loc-treasury.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Provenance
 

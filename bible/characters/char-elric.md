@@ -70,6 +70,8 @@ Through this takeover, he transformed the Syndicate criminal organization into t
 
 Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers, although the fact that he is Elric in another body is not generally known. Serathis may possibly suspect it.
 
+Vorren serves Elric's plan without needing to share Elric's metaphysical despair. Vorren's appetite for violence and killing powerful people makes him usable as a path for baiting Niall near the Heart and pressuring Maya into the endgame rupture.
+
 ## Important Relationships
 
 Niall Rezin:
@@ -111,6 +113,7 @@ Current manuscript material establishes:
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related character: [Serathis](char-serathis.md)
+- Related character: [Vorren](char-vorren.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
@@ -123,6 +126,7 @@ Current manuscript material establishes:
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Canonical Uncertainties
 

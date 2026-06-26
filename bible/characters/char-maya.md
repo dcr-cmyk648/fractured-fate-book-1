@@ -110,9 +110,9 @@ Accepted future object direction: Maya names and designs Paradox, the normal swo
 
 ## Intended Future State
 
-Maya's broader end-arc is not fully approved. Current candidate direction is that she becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force.
+Maya's broader end-arc is not fully approved. Accepted high-level Vorren direction: Vorren is a dark mirror for what Maya could become if power under abuse and impossible expectation were severed from care, responsibility, and chosen values. Maya, Niall, and Davian together kill Vorren, with exact choreography deferred.
 
-Do not treat the exact Vorren resolution as approved final canon until later plot review.
+Current candidate direction is that Maya becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force. Do not treat the exact Vorren resolution choreography as approved final canon until later plot review.
 
 ## Canonical Uncertainties
 
@@ -125,6 +125,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 
 - Review packet: [char-maya](../../reviews/entities/characters/char-maya.md)
 - Related character: [Niall Rezin](char-niall.md)
+- Related character: [Vorren](char-vorren.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
@@ -146,6 +147,7 @@ Do not treat the exact Vorren resolution as approved final canon until later plo
 - Decision: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
+- Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Provenance
 

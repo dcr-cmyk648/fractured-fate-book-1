@@ -24,6 +24,8 @@ Caius Drakhal is the main young Drakhal representative and marriage-candidate fi
 
 Vorren is Caius's older brother. He was publicly banished from Drakhal at Niall's insistence, which gave Caius the heir position. Vorren still works for Drakhal-aligned interests in secret, not because he cares about Drakhal, but because Evana and Elric can manipulate his desire for chaos and death into situations that serve their plans.
 
+Vorren is likely the strongest current Drakhal combatant. He is fulfilled by destruction, dominance, and killing powerful people; he is not primarily motivated by Drakhal loyalty, politics, reform, or philosophy.
+
 Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers. That the Harbinger leader is actually Elric in another body is not generally known.
 
 `Ivana` and `Evand` are obsolete prior draft options for Drakhal leadership naming.
@@ -70,14 +72,16 @@ Caius displays force-magic or distortion around his hands when angered.
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
+- Related character: [Vorren](../characters/char-vorren.md)
 - Decision record: [Drakhal Political Strategy and Vorren Affiliation](../../decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Canonical Uncertainties
 
 - Exact Drakhal magic taxonomy and whether `Aegistry` survives remain for magic review.
 - Caius's full character file remains unwritten.
 - Evana's full character file remains unwritten.
-- Vorren's full character file remains unwritten.
+- Vorren's full character file is approved in `char-vorren`; exact Caius/Evana/Vorren relationship history, Heart-use mechanics, Ink delivery, and mask/underground role remain unresolved.
 - High-level Drakhal/Harbinger/Vorren coordination is accepted. Exact operational details, knowledge boundaries, and deniability remain for later organization, character, and narrative-thread reviews.
 - Exact execution of the Caius-Maya proposal, Niall-banishment gambit, and Archeon/Vorren trap remains for plot review.
 

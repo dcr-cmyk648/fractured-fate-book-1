@@ -100,7 +100,7 @@ The leader's Ink Pact is Elric's route to long-term possession and puppet-like c
 
 Vorren:
 
-Vorren later has deeper forced-restructuring healing. Exact timing and delivery remain for later Vorren, Drakhal, Archeon, and Harbinger reviews.
+Vorren later has deeper forced-restructuring healing. Exact timing, delivery, and limits remain unresolved in `char-vorren` candidate material and later Drakhal/Archeon/Harbinger reviews.
 
 ## Current Manuscript State
 
@@ -134,12 +134,14 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Related character: [Harvick](../characters/char-harvick.md)
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
+- Related character: [Vorren](../characters/char-vorren.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Registry](../organizations/org-registry.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Provenance
 

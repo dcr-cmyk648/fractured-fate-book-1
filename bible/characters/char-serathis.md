@@ -58,6 +58,8 @@ Elric set Serathis up long ago and provided Archeon's first Ink Pact before Sera
 
 Serathis collaborates with Drakhal after the Heart theft while resenting Drakhal condescension. She treats the alliance and the Kelyra/Vorren breeding-contract threat as a backup plan.
 
+The Kelyra/Vorren breeding-contract deal is accepted as a verbal agreement between Drakhal and Archeon. Vorren's knowledge, consent, and whether the deal would ever be executed remain unresolved.
+
 ## Accepted Future Direction
 
 Serathis participates in the final Archeon trap and throne-room conflict against Niall and the other protagonists.
@@ -90,10 +92,12 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Related character: [Davian](char-davian.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Niall Rezin](char-niall.md)
+- Related character: [Vorren](char-vorren.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Canonical Uncertainties
 

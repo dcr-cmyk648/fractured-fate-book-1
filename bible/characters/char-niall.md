@@ -61,6 +61,10 @@ Davian attacks Niall during the Heart theft. Davian's approved arc may later inv
 
 Accepted future object direction: Niall gives Paradox to Davian in the end-book courtyard scene after the ruined Antithesis has been remade into a normal sword.
 
+Vorren:
+
+Vorren is the Drakhal secret weapon waiting below the Archeon throne-room trap. His role is to bait and weaponize Niall's pride, grief, fear of weakness, and refusal to back down. Accepted high-level future direction: Niall, Maya, and Davian kill Vorren together after Vorren becomes Heart-empowered, with exact choreography deferred.
+
 Elric Rezin:
 
 Elric is Niall's father and a central hidden antagonist. Niall killed Elric's original body, but Elric remains alive through the Harbinger leader and continues manipulating events.
@@ -91,6 +95,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
 - Related character: [Elric Rezin](char-elric.md)
+- Related character: [Vorren](char-vorren.md)
 - Related character: [Harvick](char-harvick.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
@@ -110,6 +115,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
+- Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 
 ## Canonical Uncertainties
 
@@ -117,7 +123,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
 - Exact Alara death-event choreography remains for `event-alara-death-war-memory`; Alara's high-level role, spirituality, and death direction are accepted in `char-alara`.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
-- Exact late-book Vorren fight execution remains candidate arc material.
+- Exact late-book Vorren fight choreography remains candidate arc material, while the high-level direction that Niall, Maya, and Davian kill Vorren together is accepted.
 - Niall's possible older-brother or early-Presentation backstory is speculative only.
 
 ## Provenance
