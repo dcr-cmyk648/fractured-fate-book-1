@@ -91,6 +91,8 @@ Later current manuscript material shows Niall attacking Davian after the Heart t
 
 During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
 
+During the accepted Heart theft event, Niall stretches his diminished power to its limits to protect both himself and Harvick after Davian launches the Treasury sphere at him. This leaves Niall unconscious, injured, and exposed. Davian and the reader do not need to clearly understand Harvick's revival in the moment.
+
 Niall has a codex connected to Alara that he cannot make himself open again but cannot destroy. It is one of the journals Elric provided under the pretext of benign memory preservation. Niall showing Maya his codex to explain Alara's death remains candidate, not accepted future-plan.
 
 ## Political and Military Role
@@ -136,6 +138,8 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -150,6 +154,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 - `imports/normalized/melissa-copy.md:246-261`: Niall's warm pride and reassurance before Maya's Presentation.
 - `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, restraint advice, Niall worry, and Maya misreading.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft confrontation, Niall protecting Harvick, and Niall's exposed/injured state.
 - `imports/normalized/melissa-copy.md:453-458`: Niall drawn to the eastern wall while the western defenses fail.
 - `imports/normalized/melissa-copy.md:645-676`: Niall kills retreating enemies, Maya stops him, and he mistakes her for Alara.
 - `imports/normalized/melissa-copy.md:392-414`: Niall questions wall commanders after the attack.

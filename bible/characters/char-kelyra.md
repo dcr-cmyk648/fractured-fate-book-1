@@ -95,6 +95,8 @@ In Chapter 3, Kelyra manages the family space, sends Kael and Lirien away from a
 
 She participates in planning the Heart theft, understands the Registry's aura/name restrictions, and explains the passive-mode requirement and active-mode danger.
 
+The accepted Heart theft event boundary includes Kelyra receiving the Heart from Davian after he returns broken and Ink-healing, then taking the Heart to the Harbingers that night seeking promised power and safety. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The Karra penalty / Trial of Dominion sequence remains a later event.
+
 Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zän defenses, and the body-based foundations she taught Davian.
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
@@ -131,6 +133,8 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -161,3 +165,4 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
 - `decisions/0010-jalen-kelyra-concord-role-swap.md`
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart delivery boundary and deferral of Karra penalty / Trial of Dominion sequence.

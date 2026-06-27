@@ -8,9 +8,9 @@ Last updated: 2026-06-27
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
 - Active or paused entity ID: none
-- Latest completed entity: event-maya-presentation
+- Latest completed entity: event-heart-theft
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Maya Presentation event`
+- Latest relevant commit message: `bible: approve Heart theft event`
 - Working tree expected to be clean: yes after approval commit
 - Remote synchronized: yes
 
@@ -18,14 +18,14 @@ Last updated: 2026-06-27
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 3
+- Approved entities since last consistency review: 4
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`event-maya-presentation` was approved and is being finalized for commit.
+`event-heart-theft` was approved and is being finalized for commit.
 
 ## Current work
 
@@ -33,7 +33,7 @@ No entity is currently active until the next queued entity is opened after the a
 
 ## Next action
 
-Validate, commit, and push `event-maya-presentation`; then open the next queued entity.
+Validate, commit, and push `event-heart-theft`; then open the next queued entity.
 
 ## Awaiting author input
 

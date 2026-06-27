@@ -50,6 +50,8 @@ The hidden truth is that Elric uses the Harbingers as an operational tool for hi
 
 The Harbingers pressure Davian's family and the Concord into the Heart theft. They use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
 
+The accepted Heart theft event boundary includes Harbinger escalation, Davian volunteering, the Treasury breach, Davian's escape, and Kelyra delivering the Heart to the Harbingers. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The Karra penalty / Trial of Dominion sequence remains a later event.
+
 For the Rezin-citadel infiltration, Harbingers/Elric exploit Alra's grief after her brother's death and buy her cooperation when she leaves the citadel to tell her family. Alra facilitates the entry of both Davian and the disposable assassin, helps Davian hide Antithesis before his search, and enables Davian's later retrieval of the dagger.
 
 The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
@@ -85,6 +87,8 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -99,6 +103,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 
 - `imports/normalized/melissa-copy.md:984-1167`: early Syndicate meeting, five hooded figures, Heart-theft escalation, threat, and Ink Pact ritual with older Boon terminology.
 - `imports/normalized/melissa-copy.md:16453-16888`: Kelyra's turn to the Harbingers, dead drop, Harbinger guide, leader, Heart delivery, Vorren figure, betrayal, and Harbinger rhetoric.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event boundary through Heart delivery and deferral of Karra penalty / Trial of Dominion.
 - `imports/normalized/melissa-copy.md:17086-17110`, `18691-18718`: Masked Clade / criminal-organization framing.
 - `imports/normalized/melissa-copy.md:19447-19483`: Davian on Harbinger Ink pressure and information.
 - `imports/normalized/book-1-outline.md:812`: Elric taking over underworld and Masked Clades through false revolutionary ideology.

@@ -65,3 +65,4 @@ Do not use this file as a dump for unresolved questions.
 | Maya / Davian Romance and Trust Architecture | 2026-06-27 | accepted; stored in approved `thread-maya-davian-romance` arc seed | [0057-maya-davian-romance-trust-architecture.md](0057-maya-davian-romance-trust-architecture.md) |
 | High Clade Political Sequence and Archeon Trap | 2026-06-27 | accepted; stored in approved `thread-high-clade-politics` arc seed | [0058-high-clade-politics-archeon-trap.md](0058-high-clade-politics-archeon-trap.md) |
 | Maya Presentation Event Architecture | 2026-06-27 | accepted; stored in approved `event-maya-presentation` record | [0059-maya-presentation-event-architecture.md](0059-maya-presentation-event-architecture.md) |
+| Heart Theft Event Architecture | 2026-06-27 | accepted; stored in approved `event-heart-theft` record | [0060-heart-theft-event-architecture.md](0060-heart-theft-event-architecture.md) |

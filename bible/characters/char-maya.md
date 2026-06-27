@@ -122,6 +122,8 @@ In Chapter 37, Maya is training Davian and Selwin while also working nights on s
 
 In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
 
+During the accepted Heart theft event, Maya initially tries to read the Treasury disaster as an accident or rescue. She realizes Davian stole the Heart, accurately accuses him of sustained choice and lying, stops him from killing Niall, chases him, overchannels, and collapses. This event is a major rupture in the Maya/Davian trust arc because the betrayal required repeated deception, not only one panicked action.
+
 Maya is still developing as a fateweaver. In Book 1 she can perceive threads, follow a path through an object, alter spatial access in limited circumstances, glimpse branches, and eventually enter or tear the Skein to resurrect Davian. She should not yet be treated as someone who can freely rewrite fate.
 
 Accepted future object direction: Maya names and designs Paradox, the normal sword Zirene makes from ruined Antithesis at the end of Book 1.
@@ -176,11 +178,14 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Decision: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Decision: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:233-258`, Prologue, paragraphs 89-105: Presentation preparation, Erynn, Niall reassurance, and Maya's fear of disappointing him.
 - `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, speech/display function, Niall worry, Caius reaction, and Drakhal political use.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event sequence, Maya's failed interception, accusation, chase, overchanneling, and collapse.
 - `imports/normalized/melissa-copy.md:233-234`, Prologue, paragraph 89: superseded current-manuscript physical description.
 - `imports/normalized/melissa-copy.md:360-362`, Chapter 1: "Lady Maya" recognition.
 - `imports/normalized/melissa-copy.md:392-410`, Chapter 1: Niall frames the battle failure partly around his daughter.

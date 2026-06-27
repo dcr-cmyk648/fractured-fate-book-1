@@ -60,6 +60,8 @@ Marek accepts the official weightlessness explanation he received through Maya, 
 
 Davian uses Antithesis, kinesis/Subversion, Ink pressure, and the Treasury sphere's own lattice energy to hurl the sphere at Niall. Antithesis functions as a schema sink/anchor and channel in the action. The backlash shatters Davian's arms. The sphere breaks, exposing the Heart.
 
+The accepted Heart theft event boundary continues through Davian escaping with the Heart, returning broken and Ink-healing to the Concord manor, and Kelyra delivering the Heart to the Harbingers. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. Exact handoff staging remains deferred.
+
 ## Skein, Elric, and Resurrection
 
 The Heart itself does something to the Skein. The exact technical relationship among the Heart, Skein, reality damage, containment, and Heart exposure remains unresolved.
@@ -100,6 +102,8 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
@@ -117,6 +121,7 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - `imports/normalized/book-1-outline.md:4240-4320`: containment and weightlessness as side effect; candidate Nizän/Skein details.
 - `imports/normalized/book-1-outline.md:7488-7735`: lack of Heart as loss of limitless circuit power and candidate Elric Heart exposure.
 - `imports/normalized/book-1-outline.md:8480-8565`: Niall locking the Heart away, containment network, gravity negation, and theft mechanics.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event boundary, Treasury breach, Heart removal, and delivery to Harbingers.
 - `bible/locations/loc-treasury.md`
 - `bible/organizations/org-registry.md`
 - `bible/magic/magic-zan-lattices.md`

@@ -20,6 +20,8 @@ His arc should move toward values: valuing Maya, protecting valued things, and a
 
 This should not erase his culpability. Davian chose to steal the Heart both to protect his own family and to satisfy his own desires to matter and hurt the High Clades.
 
+The Heart theft event sharpens this responsibility. Davian is heavily pressured by family danger, Harbinger/Elric manipulation, Ink/dark-thread compulsion, and dissociation, but he doggedly persists without seriously considering alternatives even though he knows it will hurt Maya and he almost kills Niall.
+
 The Maya/Davian romance and trust arc is now an approved linked arc seed. It clarifies that Davian's attraction to Maya begins as an unparsed rush of feeling around the wall scene, then deepens as he sees Maya's principle, strength, and personhood beneath the perfect exterior. This reinforces, rather than replaces, his movement from negation toward values.
 
 ## Deferred
@@ -32,6 +34,7 @@ The Maya/Davian romance and trust arc is now an approved linked arc seed. It cla
 ## Related Arcs
 
 - [Maya / Davian Romance and Trust Arc](thread-maya-davian-romance.md)
+- [Heart theft / Treasury breach](../../bible/events/event-heart-theft.md)
 
 ## Provenance
 
@@ -41,3 +44,4 @@ The Maya/Davian romance and trust arc is now an approved linked arc seed. It cla
 - `imports/normalized/bullet-notes.md:22-28`
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0057-maya-davian-romance-trust-architecture.md`
+- `decisions/0060-heart-theft-event-architecture.md`

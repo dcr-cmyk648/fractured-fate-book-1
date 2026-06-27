@@ -40,6 +40,8 @@ Harvick teaches Davian body-focused attention that is meant to support values-ba
 
 During the Treasury confrontation, Harvick tries to stop Davian. Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning by shocking him out of ventricular fibrillation, though characters do not know those medical terms. From Davian's perspective, the event may only register as Niall shooting lightning through Harvick.
 
+In the accepted Heart theft event, Davian and the reader do not need to clearly see Harvick's revival in the moment. Niall protects both himself and Harvick when Davian launches the Treasury sphere, stretching his diminished power to its limits and ending unconscious, injured, and exposed.
+
 ## Niall
 
 Harvick was with Niall during the war and after. He is trusted enough to speak frankly with Niall and to vouch for Davian, even when Niall has good reasons to be suspicious.
@@ -87,6 +89,8 @@ Current manuscript material establishes Harvick as:
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -108,6 +112,7 @@ Current manuscript material establishes Harvick as:
 - `imports/normalized/melissa-copy.md:20360-20535`: Harvick identifies Naeroth/Archeon foundational movement links.
 - `imports/normalized/melissa-copy.md:21160-21435`: Harvick's training with Davian and hidden Ink Pact explanation.
 - `imports/normalized/melissa-copy.md:21695-21722`: Chapter 28 summary of Harvick's Treasury injury and Niall's revival.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft confrontation, limited perception of revival, and Niall protecting Harvick.
 - `imports/normalized/book-1-outline.md:300-312`: Harvick's battlefield memory of Elric.
 - `imports/normalized/book-1-outline.md:640-658`: Harvick as Elric's fly in the ointment.
 - `imports/normalized/book-1-outline.md:8357-8428`: Treasury confrontation planning.

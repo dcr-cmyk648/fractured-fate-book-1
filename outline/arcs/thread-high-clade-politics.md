@@ -28,6 +28,8 @@ Drakhal is already working with the Harbingers in the background to steal the He
 
 Davian's Heart theft implies to Drakhal that he somehow defeated, bypassed, or survived Niall. Because Niall is still alive and Drakhal does not know the exact circumstances, the theft does not give them definitive proof that Niall is weak. Drakhal continues to gather allies, evidence, intelligence, and political position before calling an all-High-Clade meeting that excludes Rezin.
 
+Within the accepted event, Niall actually stretches his diminished power to protect both himself and Harvick when Davian launches the Treasury sphere at him. This leaves Niall unconscious, injured, and exposed. Drakhal does not know the exact circumstances, but the theft still suggests that Niall can be bypassed or pushed to a limit.
+
 The Heart theft itself is not treated as public surface politics. Rezin works to keep it secret, and Drakhal/Archeon do not necessarily want to publicize it. Other High Clades may suspect something is wrong through intelligence networks, but the open political conflict proceeds through legitimacy, fear, alliances, provocation, marriage pressure, banishment framing, and accusations around Rezin tyranny and the Shade.
 
 ## Drakhal, Archeon, and Vorren
@@ -116,12 +118,15 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Related event: [Maya's Presentation](../../bible/events/event-maya-presentation.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Related event: [Heart theft / Treasury breach](../../bible/events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
 - `reviews/entities/threads/thread-high-clade-politics.md`
 - `imports/normalized/melissa-copy.md:1422-1524`: Presentation before six High Clades and political display.
 - `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, Niall worry, Caius toxic mirror, and Drakhal backroom use.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event sequence and Niall's injured/exposed state after protecting Harvick.
 - `imports/normalized/melissa-copy.md:9048-9105`: birth contracts and Drakhal lineage records.
 - `imports/normalized/melissa-copy.md:10299-10320`: Caius/Shade incident as Drakhal political leverage.
 - `imports/normalized/melissa-copy.md:14003-14309`: Spire meeting, Rezin exclusion, Evana provocation, Niall public restraint.

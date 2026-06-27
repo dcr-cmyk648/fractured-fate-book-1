@@ -70,6 +70,8 @@ During the theft, Davian uses Antithesis, Subversion/kinesis, Ink, and the spher
 
 After the sphere shatters, the chamber has no active containment field and nothing remains floating.
 
+In the accepted Heart theft event, Niall stretches his diminished power to protect both himself and Harvick when the sphere is launched at him. The confrontation leaves Niall unconscious, injured, and exposed.
+
 ## Canonical Uncertainties
 
 - Exact final terminology around Treasury sphere versus vault sphere.
@@ -96,6 +98,8 @@ After the sphere shatters, the chamber has no active containment field and nothi
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
@@ -107,6 +111,7 @@ After the sphere shatters, the chamber has no active containment field and nothi
 - `imports/normalized/melissa-copy.md:16219-16225`: post-theft chamber empty, field dead, nothing floating, no containment, no Sphere.
 - `imports/normalized/book-1-outline.md:4272-4311`: sealed/no usable entrance, no sphere-fall direction, Heart containment, gravity-negation side effect.
 - `imports/normalized/book-1-outline.md:8519-8555`: final theft direction and gravity returning after the sphere shatters.
+- `reviews/entities/events/event-heart-theft.md`: accepted Treasury breach sequence and Niall/Harvick protection consequence.
 - `bible/locations/loc-rezin-citadel.md`
 - `bible/locations/loc-registry.md`
 - `bible/magic/magic-zan-lattices.md`
