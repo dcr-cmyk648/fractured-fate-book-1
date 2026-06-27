@@ -3,50 +3,124 @@ id: thread-kelyra-archeon-recovery
 entity_type: narrative-thread
 display_name: Kelyra Archeon trauma and family-protection arc
 status: approved-seed
-last_updated: 2026-06-23
+review_depth: deep
+outline_ready: yes-with-uncertainties
+last_reviewed: 2026-06-27
 related_entity: char-kelyra
-review_packet: reviews/entities/characters/char-kelyra.md
+review_packet: reviews/entities/threads/thread-kelyra-archeon-recovery.md
+candidate_file: planning/candidates/threads/thread-kelyra-archeon-recovery.md
 ---
 
 # Kelyra Archeon Trauma and Family-Protection Arc
 
-This is an approved seed for Kelyra's broad arc, not a complete chapter-by-chapter outline.
+This is an approved seed for Kelyra's Book 1 Archeon/Concord/family-protection arc, not a complete chapter-by-chapter outline.
 
 ## Approved Arc Direction
 
-Kelyra begins from escape, suppression, revenge, and acting negatively against Archeon. Her Shroud is blocked by trauma because she believes she must suppress it to escape Archeon and keep Archeon from taking her children.
+Kelyra begins from escape, suppression, revenge, and acting negatively against Archeon and the High Clades.
 
-Her arc should parallel Davian's movement from negation toward values. Kelyra must move from only running away from Archeon or striking against threats to acting positively to protect her family and choose what she values.
+Her core wound is Archeon child-taking, bodily control, and the belief that suppression is the only way to keep her family. Her Shroud is trauma-blocked rather than absent: she knows it is there, but she has trained herself to suppress the reflex because Shroud manifestation meant Archeon would keep her, take her child, and prevent escape.
 
-Her ultimate Shroud work should be emotionally and thematically tied to choosing to protect her family rather than only avoiding recapture.
+Kelyra has survived by running, hiding, lying, striking first, and making herself and her children into weapons before anyone else can use them. Her arc moves toward acting positively to protect family and choose values rather than only fleeing, suppressing herself, or destroying enemies.
 
-Later planning assigns Kelyra, not Jalen, the Concord leadership and broad revenge/family-endangerment arc. She is the de facto primary leader of the Concord after killing the prior Concord leader with her Archeon-derived abilities, martial prowess, and an Ink Pact.
+Her Shroud breakthrough should be tied to protecting or helping someone else. It should not read as proving Serathis morally right or turning Kelyra into Archeon's perfect weapon.
 
-## Approved Boundaries
+## Serathis and the Moral Gray Area
 
-- Kelyra is directly descended from Archeon breeding programs, but the exact number of generations between Kelyra and Serathis remains unresolved.
-- Kelyra's Shroud is trauma-blocked, not absent.
-- Kelyra's accepted children are Davian, Kael, Lirien, and Selina, deceased.
-- Lethira's exact parentage and relationship to Kelyra remain unresolved.
-- Kelyra's speed of mind should be shown rather than codified or quantified.
-- Kelyra canonically fights in the Trial of Dominion. Jalen supports her beforehand but does not participate.
+Serathis intentionally allowed Kelyra's escape as part of Archeon's release-and-catch logic. She later uses that half-truth to gaslight Kelyra.
 
-## Deferred
+There is a gray area around whether Serathis is partly right that the release, suffering, outside growth, Ink exposure, and family pressure helped make Kelyra into who she is. The core issue is not whether Serathis can identify some real causal benefit. The issue is whether her actions are morally defensible in pursuit of that outcome.
 
-- Exact late-book rescue/raid execution
-- Kelyra's exact Shroud manifestation scene
-- Exact hereditary kinesis/Subversion mechanics
-- Exact Serathis/Kelyra generation count
-- Exact Lethira relationship
-- Kelyra's possible injury/death/leadership consequences
-- Exact Concord leadership chronology and role-swap cleanup across older notes
+Serathis's methods remain abusive, exploitative, and morally suspect even where her observations contain truth. She treats people as project outputs, breeding stock, tools, and experiments.
+
+Serathis values Kelyra and Davian much more recently, after seeing the results of her efforts. If Kelyra and Davian had been disappointing, Serathis would not have cared about them. Her value for them is project-value, not ordinary family love.
+
+## Kelyra, Davian, and Family
+
+Kelyra's arc mirrors Davian's movement from negation toward chosen values.
+
+She teaches Davian secrecy, hard choices, anti-Clade violence, and survival through negation because those are the tools that saved her. That makes her protective and damaging at the same time.
+
+The late-book Serathis/Kelyra/Davian sequence should resolve Davian's origin-family wound enough for him to move into the Maya/Niall/Vorren thread. Davian does not need Kelyra to become morally simple or fully healed. He needs to see her choose him, family, and protection over Serathis's project logic.
+
+## Accepted Endgame Role
+
+The accepted high-level endgame sequence remains:
+
+1. Davian fights the remaining Presented Archeon magus to free Kelyra.
+2. Kelyra manifests a Shroud to break out and help him.
+3. Davian and Kelyra together fight and kill Serathis.
+4. Kelyra stays to handle the remaining Archeon forces.
+5. Davian goes to help Maya and Niall against Vorren.
+
+Exact choreography, mechanics, and dialogue remain deferred.
+
+## Lethira
+
+Lethira's main accepted Book 1 function is cameo/emotional manipulation.
+
+Serathis uses Lethira on purpose to make Kelyra feel guilt, grief, and failure before killing her. Lethira's exact parentage and deeper relationship to Kelyra are not currently important to the Book 1 outline unless later chapter architecture discovers a stronger need.
+
+## Stale Jalen-Centered Material
+
+Stale Jalen-centered Concord/Archeon leadership, fieldwork, Trial, assassin-training, and Selina-training material is superseded unless it can be cleanly rerouted to Jalen support/logistics.
+
+Kelyra owns the transferred Archeon-derived magic, martial leadership, assassin-training, Selina-training, Trial of Dominion, Arrek field-pressure, and broad Concord leadership roles.
+
+Jalen remains important as support, planning, logistics, temperament, and family/Concord context.
+
+## Continuity Constraints
+
+- Do not make Kelyra's Shroud simply absent.
+- Do not make Serathis's release-and-catch framing objectively benevolent.
+- Do not treat Serathis's partial causal insight as moral justification.
+- Do not make Serathis's value for Kelyra/Davian ordinary family love.
+- Do not make Kelyra's Trial of Dominion defeat a simple skill failure.
+- Do not give Kelyra deeper forced-restructuring Ink healing; Karra, Davian, and later Vorren are the relevant deeper-healing cases.
+- Do not route Kelyra's core Concord leadership, assassin-training, Selina-training, Trial of Dominion, or Arrek field-pressure roles back to Jalen.
+- Do not resolve Lethira parentage unless later outline work needs it.
+- Do not overdefine exact kinesis/Shroud mechanics before the relevant magic/combat review.
+
+## Related Files
+
+- Review packet: [thread-kelyra-archeon-recovery](../../reviews/entities/threads/thread-kelyra-archeon-recovery.md)
+- Candidate material: [thread-kelyra-archeon-recovery](../../planning/candidates/threads/thread-kelyra-archeon-recovery.md)
+- Related character: [Kelyra](../../bible/characters/char-kelyra.md)
+- Related character: [Davian](../../bible/characters/char-davian.md)
+- Related character: [Serathis](../../bible/characters/char-serathis.md)
+- Related character: [Jalen](../../bible/characters/char-jalen.md)
+- Related character: [Karra](../../bible/characters/char-karra.md)
+- Related character: [Selina](../../bible/characters/char-selina.md)
+- Related organization: [Archeon](../../bible/organizations/org-archeon.md)
+- Related organization: [Twilight Concord / Concord](../../bible/organizations/org-concord.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../../bible/events/event-harbinger-raid.md)
+- Related magic: [Shroud / Shrouds](../../bible/magic/magic-shroud.md)
+- Related magic: [Kinesis](../../bible/magic/magic-subversion.md)
+- Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+
+## Canonical Uncertainties
+
+- Exact Shroud manifestation scene choreography.
+- Exact kinesis/Shroud/Ink interaction during Kelyra's breakthrough.
+- Whether Kelyra uses weapon-channeling, negation/diffusion, or a specific Archeon technique during captivity.
+- Exact number of generations between Serathis and Kelyra.
+- Exact Serathis death dialogue and whether/how she tells Kelyra about wanting to burn down the Clade system.
+- Exact remaining Presented Archeon magus identity.
+- Whether Kelyra is seriously injured, temporarily out of commission, or unable to lead the Concord/Masked Clades after Book 1.
+- Whether Kelyra becomes, refuses, or is perceived as Archeon's new Head Magus after killing Serathis.
+- Exact post-Serathis Archeon succession.
 
 ## Provenance
 
-- `reviews/entities/characters/char-kelyra.md`
+- `reviews/entities/threads/thread-kelyra-archeon-recovery.md`
 - `bible/characters/char-kelyra.md`
-- `imports/normalized/melissa-copy.md:20743-20883`
-- `imports/normalized/book-1-outline.md:366-379`
-- `imports/normalized/book-1-outline.md:5247`
+- `bible/characters/char-serathis.md`
+- `bible/organizations/org-archeon.md`
+- `bible/events/event-harbinger-raid.md`
+- `imports/normalized/melissa-copy.md:20650-21150`: Kelyra's Archeon arena scene, Lethira, Shroud pressure, Serathis release-and-catch gaslighting, Drakhal deal.
+- `imports/normalized/book-1-outline.md:366-379`: Kelyra's Subversion/kinesis, speed-of-mind planning, and Shroud notes.
+- `imports/normalized/book-1-outline.md:3550-3695`: Archeon raid, throne-room trap, and final fight planning.
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
 - `decisions/0010-jalen-kelyra-concord-role-swap.md`
+- `decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md`
+- Author feedback on 2026-06-27.

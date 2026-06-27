@@ -64,6 +64,8 @@ This is usually done with Archeon members who have not manifested a Shroud and a
 
 Kelyra was truly allowed to escape. Serathis knew Kelyra was a genius in martial technique and magic, but also knew Kelyra was blocking herself from forming a Shroud. Serathis calculated that letting Kelyra go, eventually encounter Elric unknowingly, and receive an Ink Pact was the best use of resources at the time.
 
+The release-and-catch result remains morally gray in causal terms: Serathis may be partly right that it helped make Kelyra what she became, but that does not make the abuse, child-taking, or manipulation morally defensible.
+
 Serathis herself was part of an allowed escape and met Elric through that pattern. When Kelyra is recaptured, Serathis uses the parallel to gaslight Kelyra into thinking the same pattern was for Kelyra's benefit.
 
 Serathis's secret long-term goal is to kill all High Clade magi and burn the Clade system down. Her hatred of the system comes partly from her prior outsider status, but her methods reproduce domination through breeding, child-taking, manipulation, and violence.
@@ -84,7 +86,7 @@ Elric also coordinates with Archeon, Drakhal, and Vorren through the Harbingers.
 
 Kelyra and Davian are the heirs Serathis has been looking for: potential users able to fully combine kinesis, Ink Pacts, Shroud use, and martial arts. Working together, they can surpass Serathis, and both have the potential to become better than her because of strong fundamental abilities combined with Kelyra's version of Archeon martial arts.
 
-Serathis is desperate to bring Kelyra back to her side and later capture Davian because they are the closest realized heirs to her project. Current Archeon heirs may recognize and resent this, and may want to kill Kelyra or Davian in the final conflict.
+Serathis is desperate to bring Kelyra back to her side and later capture Davian because they are the closest realized heirs to her project. This value is conditional and recent, based on results. Current Archeon heirs may recognize and resent this, and may want to kill Kelyra or Davian in the final conflict.
 
 Kelyra has strong kinesis, which she calls Subversion as a misnomer, and genius martial talent, but her Shroud is trauma-blocked.
 
@@ -128,6 +130,8 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related arc: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
+- Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 
 ## Canonical Uncertainties
 

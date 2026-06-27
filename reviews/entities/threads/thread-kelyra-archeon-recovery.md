@@ -2,14 +2,28 @@
 id: thread-kelyra-archeon-recovery
 entity_type: narrative-thread
 display_name: Kelyra Archeon trauma and family-protection arc
-status: awaiting-author
+status: approved
 review_depth: deep
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: outline/arcs/thread-kelyra-archeon-recovery.md
 candidate_file: planning/candidates/threads/thread-kelyra-archeon-recovery.md
 ---
 
 # Kelyra Archeon Trauma and Family-Protection Arc Review Packet
+
+## Current Author Decisions
+
+Approved on 2026-06-27:
+
+- Kelyra's arc moves from suppression, escape, revenge, and acting against threats toward positive family protection and chosen values.
+- Her Shroud breakthrough should be tied to protecting or helping someone rather than proving Serathis right.
+- There is a gray area around whether Serathis is partly right that her release-and-catch manipulation helped create who Kelyra became. The key question is moral defensibility, not simple factual correctness.
+- Serathis intentionally allowed Kelyra's escape, uses release-and-catch half-truths to gaslight her, and values Kelyra/Davian as project heirs rather than ordinary family.
+- Serathis's value for Kelyra/Davian is recent and conditional on results; if they had been disappointing, she would not have cared about them.
+- The high-level endgame sequence remains: Davian frees Kelyra, Kelyra manifests a Shroud, Davian and Kelyra kill Serathis, Kelyra handles remaining Archeon forces, and Davian goes to Maya/Niall/Vorren.
+- Lethira functions mainly as a cameo/emotional-manipulation tool in Book 1; Serathis uses her to make Kelyra feel bad before Serathis kills her.
+- Lethira's parentage/relationship, exact Shroud manifestation mechanics, weapon-channeling, injury/leadership consequences, and post-Serathis Archeon succession remain candidate/deferred.
+- Stale Jalen-centered Concord/Archeon leadership, fieldwork, Trial, assassin-training, and Selina-training material is superseded unless cleanly rerouted to Jalen support/logistics.
 
 ## Review Depth
 
@@ -144,10 +158,6 @@ The exact fight choreography, Lethira relationship, Shroud/kinesis mechanics, in
 - Add a decision record under `decisions/`.
 - Update direct links/status in Kelyra, Serathis, Archeon, Harbinger betrayal, and relevant queue items where straightforward.
 
-## Required Decisions
+## Decision Disposition
 
-1. Should this arc accept Kelyra's core movement as suppression/escape/revenge toward positive family protection and chosen values, with her Shroud breakthrough tied to protecting/helping someone rather than proving Serathis right?
-2. Should the accepted Serathis dynamic be that Serathis intentionally allowed Kelyra's escape, uses release-and-catch half-truths to gaslight her, and values Kelyra/Davian as project heirs rather than ordinary family?
-3. Should the already accepted endgame sequence remain owned here at high level: Davian frees Kelyra, Kelyra manifests a Shroud, Davian and Kelyra kill Serathis together, Kelyra handles remaining Archeon forces, and Davian goes to Maya/Niall/Vorren?
-4. Should Lethira's parentage/relationship, exact Shroud manifestation mechanics, weapon-channeling, injury/leadership consequences, and post-Serathis Archeon succession all remain candidate/deferred?
-5. Should stale Jalen-centered Concord/Archeon leadership, fieldwork, Trial, assassin-training, and Selina-training material be treated as superseded unless it can be cleanly rerouted to Jalen support/logistics?
+All required decisions were resolved by author feedback on 2026-06-27. Accepted material is stored in `outline/arcs/thread-kelyra-archeon-recovery.md`; deferred and optional material is stored in `planning/candidates/threads/thread-kelyra-archeon-recovery.md`.

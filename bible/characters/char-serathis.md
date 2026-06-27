@@ -50,6 +50,8 @@ Archeon's system treats children as assets. Children born to Archeon mothers are
 
 Serathis intentionally allowed Kelyra to escape. Kelyra was a martial genius with a blocked Shroud, and Serathis calculated that time outside Archeon could produce growth, Ink exposure, or useful descendants. When Kelyra is recaptured through the Harbinger betrayal / Trial of Dominion event, Serathis uses the parallel to Serathis's own release to gaslight Kelyra into believing the same pattern was for Kelyra's benefit.
 
+There is a gray area around whether Serathis is partly right that release-and-catch helped produce who Kelyra became. That causal question does not make Serathis's methods morally defensible. Serathis's value for Kelyra and Davian is recent and conditional on their results; if they had been disappointing, she would not have cared about them.
+
 Serathis is desperate to bring Kelyra back to her side, and later to capture Davian, because Kelyra and Davian are the closest realized heirs to her project. Current Archeon heirs may recognize and resent this, and may want to kill Kelyra or Davian in the final conflict.
 
 Davian is especially important after the Heart theft because he proves Kelyra's line can produce something Serathis wants: a potential user able to combine kinesis, Ink exposure, Shroud use, and martial training.
@@ -100,10 +102,12 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
+- Related arc: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 
 ## Canonical Uncertainties
 

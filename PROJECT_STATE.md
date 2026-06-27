@@ -7,18 +7,18 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: thread-kelyra-archeon-recovery
-- Latest completed entity: thread-demi-human-mercenary-forces
+- Active or paused entity ID: none
+- Latest completed entity: thread-kelyra-archeon-recovery
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare demi-human mercenary thread packet`
-- Working tree expected to be clean: no; `thread-kelyra-archeon-recovery` review packet is awaiting author review
+- Latest relevant commit message: `review: prepare Kelyra Archeon recovery packet`
+- Working tree expected to be clean: no; Kelyra Archeon recovery approval files are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: Kelyra Archeon trauma and family-protection arc
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`thread-demi-human-mercenary-forces` was approved, committed, and pushed. `thread-kelyra-archeon-recovery` has been opened with a deep review packet to resolve its needs-revisit status.
+`thread-kelyra-archeon-recovery` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
 
 ## Next action
 
-Resolve the author decisions in `reviews/entities/threads/thread-kelyra-archeon-recovery.md`, then finalize the revised accepted arc record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
+Validate, commit, and push the approved `thread-kelyra-archeon-recovery` record. Then continue to the next queued entity according to `ENTITY_INDEX.md`.
 
 ## Awaiting author input
 
-Awaiting author answers for `thread-kelyra-archeon-recovery`.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 

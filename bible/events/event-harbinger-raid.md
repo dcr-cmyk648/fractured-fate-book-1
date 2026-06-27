@@ -74,6 +74,8 @@ Serathis / Archeon:
 
 Serathis's appearance recontextualizes the whole betrayal as part of the Archeon capture chain, not merely underworld punishment.
 
+Kelyra's capture feeds the accepted Kelyra Archeon recovery arc: Serathis uses release-and-catch half-truths, Lethira, and family/project language to manipulate Kelyra, while Kelyra's eventual Shroud breakthrough is tied to protecting or helping someone rather than becoming Serathis's proof.
+
 ## Continuity Constraints
 
 - The stable ID remains `event-harbinger-raid`; the accepted display name is `Harbinger betrayal / Trial of Dominion and Kelyra capture`.
@@ -103,6 +105,8 @@ Serathis's appearance recontextualizes the whole betrayal as part of the Archeon
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Related arc: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
+- Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 
 ## Canonical Uncertainties
 

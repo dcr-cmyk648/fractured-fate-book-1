@@ -27,7 +27,7 @@ Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punish
 
 Kelyra is practical, dry, sharp, and strategically fast. When Jalen and Davian tell her the Syndicate/Harbingers have escalated the mission into stealing the Heart, she is shocked, then immediately pivots to planning because there is no time to waste.
 
-She is family-protective but also shaped by revenge, Archeon trauma, and the habit of acting against threats by running, hiding, lying, or striking back. Her intended arc parallels Davian's: she must move from acting negatively by running away from Archeon toward acting positively to protect her family and choose what she values.
+She is family-protective but also shaped by revenge, Archeon trauma, and the habit of acting against threats by running, hiding, lying, or striking back. Her accepted arc parallels Davian's: she must move from acting negatively by running away from Archeon toward acting positively to protect her family and choose what she values.
 
 Kelyra understands Davian's pattern of self-sacrifice, glory-chasing, and acting alone to protect others. She criticizes him for volunteering to kill Niall without asking them, reading it as martyrdom, proving a point, or an excuse to chase glory by killing a High Clade.
 
@@ -85,7 +85,9 @@ Serathis:
 
 Serathis claims Kelyra as daughter, granddaughter, and descendant. Kelyra is directly descended from Archeon breeding programs, but the exact number of generations between Kelyra and Serathis is unclear.
 
-Serathis intentionally allowed Kelyra's escape and later uses the parallel to Serathis's own release to gaslight Kelyra. Serathis sees Kelyra as one of the closest realized heirs to her project and is desperate to bring her back to Archeon's side.
+Serathis intentionally allowed Kelyra's escape and later uses the parallel to Serathis's own release to gaslight Kelyra. There is a gray area around whether Serathis is partly right that this helped produce who Kelyra became, but that does not make Serathis's methods morally defensible. Serathis's value for Kelyra and Davian is recent and conditional on their results; if they had disappointed her, she would not have cared about them.
+
+Serathis sees Kelyra as one of the closest realized heirs to her project and is desperate to bring her back to Archeon's side.
 
 Accepted future direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Serathis shares her desire to kill all High Clade magi and burn down the Clade system with Kelyra as Serathis dies.
 
@@ -107,7 +109,7 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 
 ## Intended Arc Links
 
-- Approved arc seed: [thread-kelyra-archeon-recovery](../../outline/arcs/thread-kelyra-archeon-recovery.md)
+- Approved arc seed: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Related character: [Jalen](char-jalen.md)
 - Related character: [Karra](char-karra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
@@ -139,14 +141,15 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 
 ## Canonical Uncertainties
 
 - Exact Shroud interaction and tremorsense/kinetic-sensitivity mechanics remain for later magic review.
-- Exact future Shroud manifestation scene and emotional integration remain for later arc/revision review.
+- Exact future Shroud manifestation scene choreography remains for later chapter/endgame review, but the high-level emotional direction is accepted in `thread-kelyra-archeon-recovery`.
 - Exact endgame fight choreography around Davian freeing Kelyra, Kelyra manifesting a Shroud, killing Serathis, and handling the remaining Archeon forces remains for later outline work.
 - Exact number of generations between Kelyra and Serathis remains unresolved.
-- Lethira's parentage and exact relationship to Kelyra remain unresolved.
+- Lethira's parentage and exact relationship to Kelyra remain unresolved; her current Book 1 function is a Serathis-controlled emotional-manipulation cameo.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
 - Exact Selina/Vorren death choreography and when Davian learns the truth remain unresolved.
 - Exact Concord leadership chronology, prior-leader death, detailed Trial of Dominion execution, and the final status of the chapter's current Ink-running-out / transfer-to-Davian explanation need a later consistency pass.
