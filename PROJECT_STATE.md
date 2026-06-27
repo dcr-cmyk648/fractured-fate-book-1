@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 18 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-19` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 19 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-19` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-19` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Maya aftermath/pressure material: overwork and Niall disappointment, Selwin/Niall repair, Maya's first uncontrolled fate-glimpse of Davian/Arrek, lineage and birth-contract investigation with Aldira, Caius's narcissistic Drakhal intrusion, and Maya's supervisor-room stabilization.
+`d1-ch-19` was approved as an accurate current-draft map with corrections. Caius's visit is also an attempt to draw out the Shade. A full High Clade magus can plausibly survive active Registry fire by itself; the real losing condition is fighting active Registry defenses and another magus at the same time. Later outline work may work better if Davian directly sees Caius coming in rather than only overhearing about it afterward.
 
 ## Next action
 
-Present the `d1-ch-19` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-20`.
+Finalize, validate, commit, and push the `d1-ch-19` current-draft map approval, then prepare and present the `d1-ch-20` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-19.md`.
+None until the `d1-ch-20` current-draft map packet is prepared.
 
 ## Workflow policy note
 
