@@ -11,16 +11,16 @@ Last updated: 2026-06-27
 - Latest completed entity: event-alara-death-war-memory
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `app: refresh review data for story bible updates`
-- Working tree expected to be clean: no; `event-alara-death-war-memory` finalization is in progress
+- Working tree expected to be clean: no; narrative-thread/event block consistency review is being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 1
-- Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block.md
-- Consistency review due: yes; narrative-thread/event block is complete before moving to the next culture item
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
@@ -29,11 +29,11 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`event-alara-death-war-memory` author decisions were resolved and finalization is in progress.
+`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review has been prepared and is being committed.
 
 ## Next action
 
-Validate, commit, and push `event-alara-death-war-memory`, then run the due narrative-thread/event block consistency review before opening the next queued entity.
+Validate, commit, and push the final narrative-thread/event block consistency review, then open and prepare the next queued story-bible entity packet.
 
 ## Awaiting author input
 
