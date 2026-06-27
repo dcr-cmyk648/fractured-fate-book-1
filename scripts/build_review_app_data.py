@@ -47,6 +47,7 @@ TEXT_SUFFIXES = {
 
 LAYER_DEFINITIONS = [
     ("prose", "Prose"),
+    ("current_map", "Current Map"),
     ("current_summary", "Current Summary"),
     ("chapter_goal_card", "Chapter Goal Card"),
     ("revision_notes", "Revision Notes"),
@@ -231,6 +232,9 @@ def chapter_id_for(title: str) -> str:
 
 def find_layer_file(chapter_id: str, layer: str) -> str | None:
     candidates: dict[str, list[str]] = {
+        "current_map": [
+            f"revision/current-draft-map/{chapter_id}.md",
+        ],
         "current_summary": [
             f"summaries/current-draft/{chapter_id}.md",
             f"summaries/{chapter_id}.md",
