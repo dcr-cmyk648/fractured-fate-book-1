@@ -6,18 +6,18 @@ Last updated: 2026-06-27
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: narrative-threads
-- Active or paused entity ID: none
+- Current block: cultures-world-systems
+- Active or paused entity ID: culture-demi-human-peoples
 - Latest completed entity: event-alara-death-war-memory
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `app: refresh review data for story bible updates`
-- Working tree expected to be clean: no; narrative-thread/event block consistency review is being finalized
+- Working tree expected to be clean: no; `culture-demi-human-peoples` is awaiting author review
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: narrative-threads
-- Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
+- Current block: cultures-world-systems
+- Block scope: broader demi-human peoples and related social/world systems
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
 - Consistency review due: no
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review has been prepared and is being committed.
+`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review was committed and pushed. `culture-demi-human-peoples` has been opened with a standard-depth review packet.
 
 ## Next action
 
-Validate, commit, and push the final narrative-thread/event block consistency review, then open and prepare the next queued story-bible entity packet.
+Resolve the author decisions in `reviews/entities/cultures/culture-demi-human-peoples.md`, then finalize the accepted culture record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-None.
+Awaiting author answers for `culture-demi-human-peoples`.
 
 ## Workflow policy note
 
