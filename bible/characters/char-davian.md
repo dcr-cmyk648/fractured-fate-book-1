@@ -3,7 +3,9 @@ id: char-davian
 entity_type: character
 display_name: Davian
 status: approved
-last_reviewed: 2026-06-23
+review_depth: deep
+outline_ready: yes-with-uncertainties
+last_reviewed: 2026-06-27
 review_packet: reviews/entities/characters/char-davian.md
 candidate_file: planning/candidates/characters/char-davian.md
 ---
@@ -31,6 +33,8 @@ Davian is competent, dangerous, and loyal to his family, but his identity is ent
 He wants to be seen. His start-book matte black Concord mask is marked with the zän for equality/equilibrium, and Kelyra criticizes the mark as tactically foolish and attention-seeking. Later, Kelyra gives him a Concord mask marked with the Nizän of zero/negation/void as a toxic supportive gesture when she wants him to return to the Rezin citadel, take the Heart, and kill Niall.
 
 Davian's approved arc moves away from negation: wanting to tear everything down, hurt the High Clades, prove agency, and stop feeling helpless by destroying hated things. His intended movement is toward values: valuing Maya, protecting people and things he values, and choosing action because it serves those values rather than because it satisfies rage or control.
+
+His culpability remains central despite pressure. Absolving Davian from culpability for bad decisions would also absolve him from having real agency to make good or bad decisions.
 
 ## Heart Theft and Responsibility
 

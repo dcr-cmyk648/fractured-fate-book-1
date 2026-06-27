@@ -2,9 +2,9 @@
 id: thread-davian-identity-guilt
 entity_type: narrative-thread
 display_name: Davian identity, guilt, and agency arc
-status: awaiting-author
+status: approved
 review_depth: deep
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: outline/arcs/thread-davian-identity-guilt.md
 candidate_file: planning/candidates/threads/thread-davian-identity-guilt.md
 related_entity: char-davian
@@ -26,6 +26,8 @@ Davian's arc only works if both sides remain true:
 - he still makes choices that hurt people, especially Maya, Arrek, Harvick, Niall, and the Rezin household
 
 The book improvement here is preserving moral complexity without flattening Davian into either innocent victim or simple villain.
+
+Author clarification: absolving Davian from culpability for bad decisions would also absolve him from having real agency to make good or bad decisions.
 
 ## Source-Backed Information
 
@@ -145,3 +147,10 @@ The future outline can use Davian's agency/guilt/value arc without resolving exa
 2. Should his culpability remain central despite Harbinger/Elric/Kelyra/Ink pressure, especially for Arrek's murder, the Heart theft, lying to Maya, harming Harvick, and nearly killing Niall?
 3. Should the Maya/Davian romance remain both real and betrayed, meaning the relationship matters but does not erase the damage he caused?
 4. Should exact Vorren fight execution, death/resurrection mechanics, confession/final relationship beats, Paradox handoff, Arrek-family restitution, and late magic integration remain candidate/deferred rather than blocking outline readiness?
+
+## Author Responses
+
+1. Yes.
+2. Yes. Absolving him from culpability for bad decisions also absolves him from having any kind of real agency to make good or bad decisions.
+3. Yes.
+4. Yes.

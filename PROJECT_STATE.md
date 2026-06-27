@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: thread-davian-identity-guilt
-- Latest completed entity: thread-niall-grief-recovery
+- Active or paused entity ID: none
+- Latest completed entity: thread-davian-identity-guilt
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Niall grief recovery arc`
-- Working tree expected to be clean: yes; `thread-davian-identity-guilt` review packet is committed and awaiting author input
+- Latest relevant commit message: `review: prepare Davian identity arc packet`
+- Working tree expected to be clean: no; approved `thread-davian-identity-guilt` finalization is being recorded
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`thread-niall-grief-recovery` was approved, committed, and pushed. `thread-davian-identity-guilt` has been opened with a full author review packet.
+`thread-davian-identity-guilt` was approved by the author and is being finalized into accepted and candidate arc files.
 
 ## Next action
 
-Resolve the required author decisions in `reviews/entities/threads/thread-davian-identity-guilt.md`, then finalize the accepted and candidate Davian arc files if approved.
+Validate, commit, and push the approved `thread-davian-identity-guilt` finalization. Then open the final remaining `needs-revisit` item, `thread-elric-reality-skein`.
 
 ## Awaiting author input
 
-Awaiting author input on `thread-davian-identity-guilt`. The review packet and summary/questions have been printed for audit.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 
@@ -101,6 +101,9 @@ Awaiting author input on `thread-davian-identity-guilt`. The review packet and s
 - planning/candidates/threads/thread-niall-grief-recovery.md
 - decisions/0070-niall-grief-recovery-committed-action.md
 - reviews/entities/threads/thread-davian-identity-guilt.md
+- outline/arcs/thread-davian-identity-guilt.md
+- planning/candidates/threads/thread-davian-identity-guilt.md
+- decisions/0071-davian-identity-guilt-agency.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md

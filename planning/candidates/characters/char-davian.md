@@ -3,7 +3,7 @@ id: char-davian
 entity_type: character
 display_name: Davian
 status: candidate
-last_updated: 2026-06-23
+last_updated: 2026-06-27
 accepted_file: bible/characters/char-davian.md
 review_packet: reviews/entities/characters/char-davian.md
 ---
@@ -41,7 +41,7 @@ Accepted direction: Antithesis is just a knife throughout Book 1. The exact conc
 - Alternatively, Kelyra may have altered intel, with Davian noticing a pattern.
 - Davian returning to his family after the theft should show that their vengeance plan will not bring peace, happiness, or resolution.
 
-Route to `char-kelyra`, `char-jalen`, `org-concord`, and `thread-davian-identity-guilt`.
+Route to `char-kelyra`, `char-jalen`, `org-concord`, and the approved `thread-davian-identity-guilt` arc.
 
 ## Provenance
 
