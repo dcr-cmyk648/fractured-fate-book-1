@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=bookmark-resume-1">
+    <link rel="stylesheet" href="styles.css?v=bookmark-panel-1">
   </head>
   <body>
     <section class="access-strip" aria-label="Access mode">
@@ -77,11 +77,6 @@
               <span id="readerPath"></span>
               <span id="readerLines"></span>
             </div>
-            <div class="bookmark-actions" aria-label="Bookmark controls">
-              <button id="readerBookmarkBtn" type="button">Bookmark</button>
-              <button id="readerResumeBtn" type="button">Resume</button>
-              <span id="readerBookmarkStatus">No bookmark</span>
-            </div>
           </aside>
           <article class="reader-panel">
             <div id="readerContent" class="document-content prose"></div>
@@ -102,11 +97,6 @@
               <span>Browse files</span>
               <strong id="browserSelectedFile">Select a file</strong>
             </button>
-            <div class="bookmark-actions browser-bookmark-actions" aria-label="Bookmark controls">
-              <button id="browserBookmarkBtn" type="button">Bookmark</button>
-              <button id="browserResumeBtn" type="button">Resume</button>
-              <span id="browserBookmarkStatus">No bookmark</span>
-            </div>
             <div class="file-tree" id="fileTree"></div>
           </aside>
           <article id="fileViewer" class="file-viewer">
@@ -147,12 +137,20 @@
         <button id="submitCommentBtn" type="button">Submit Comment</button>
         <button id="quickExportBtn" type="button">Export Comments</button>
       </div>
+      <details id="bookmarkCard" class="bookmark-card" aria-label="Bookmark tools">
+        <summary>Bookmark</summary>
+        <div class="bookmark-row">
+          <span id="bookmarkStatus">No bookmark</span>
+          <button id="saveBookmarkBtn" type="button">Save</button>
+          <button id="resumeBookmarkBtn" type="button">Resume</button>
+        </div>
+      </details>
       <details id="referenceCard" class="reference-card" aria-label="Current comment reference" open>
         <summary>Currently Seeing</summary>
         <dl id="referenceDetails"></dl>
       </details>
     </aside>
 
-    <script src="app.js?v=bookmark-resume-1"></script>
+    <script src="app.js?v=bookmark-panel-1"></script>
   </body>
 </html>

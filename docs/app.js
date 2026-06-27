@@ -91,9 +91,7 @@ function bookmarkLabel(bookmark = loadBookmark()) {
 }
 
 function renderBookmarkStatus() {
-  const label = bookmarkLabel();
-  $("readerBookmarkStatus").textContent = label;
-  $("browserBookmarkStatus").textContent = label;
+  $("bookmarkStatus").textContent = bookmarkLabel();
 }
 
 function promptForName(force = false) {
@@ -344,6 +342,8 @@ function scrollToPercent(percent) {
 
 function saveBookmark() {
   const ref = currentReference();
+  const target = ref.chapter_title || ref.current_file_path || "current position";
+  if (!window.confirm(`Save bookmark for ${target}?`)) return;
   const bookmark = {
     ...ref,
     saved_at: new Date().toISOString()
@@ -358,6 +358,7 @@ function resumeBookmark() {
     window.alert("No bookmark saved yet.");
     return;
   }
+  if (!window.confirm(`Resume bookmark: ${bookmarkLabel(bookmark)}?`)) return;
 
   if (bookmark.view_mode === "repo-browser") {
     setMode("author");
@@ -779,10 +780,8 @@ function wireEvents() {
   });
   $("prevChapterBtn").addEventListener("click", () => chapterStep(-1));
   $("nextChapterBtn").addEventListener("click", () => chapterStep(1));
-  $("readerBookmarkBtn").addEventListener("click", saveBookmark);
-  $("readerResumeBtn").addEventListener("click", resumeBookmark);
-  $("browserBookmarkBtn").addEventListener("click", saveBookmark);
-  $("browserResumeBtn").addEventListener("click", resumeBookmark);
+  $("saveBookmarkBtn").addEventListener("click", saveBookmark);
+  $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
