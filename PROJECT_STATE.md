@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 21 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-21` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 21 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-22` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-21` was approved as an accurate current-draft map with correction. Elric knows Maya will not immediately command fateweaving, so repeated stress exposure through attacks/crises is part of his hidden strategy to make her capable of manipulating fate. His endgame is to create an unfixable situation, such as Niall or Davian dying, so Maya damages the Skein via resurrection and draws the outer god, repeating the pattern he knows from Alara.
+`d1-ch-22` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as the major coordinated attack: Maya performs the perfect Rezin weapon role under Niall's pressure, Davian discovers Archeon/Harbinger coordination inside the central tower, chooses Maya's safety over a clean Heart-theft opening, and survives an Archeon magus through observation/cunning rather than equal power.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-21` current-draft map approval, then prepare and present the `d1-ch-22` current-draft map packet.
+Present the `d1-ch-22` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-23`.
 
 ## Awaiting author input
 
-None until the `d1-ch-22` current-draft map packet is prepared.
+Author review of `revision/current-draft-map/d1-ch-22.md`.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ None until the `d1-ch-22` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-21.md
+- revision/current-draft-map/d1-ch-22.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
