@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 3 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-03` approval and `d1-ch-04` current-draft map packet are committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 3 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-04` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-03` was approved as an accurate descriptive current-draft map. Author feedback removed Ironstriders as a concept and replaced the city transport with chariots pulled by forerunners, who are high-risk scouts that work with magi.
+`d1-ch-03` was approved, validated, committed, and pushed. Author feedback removed Ironstriders as a concept and replaced the city transport with chariots pulled by forerunners, who are high-risk scouts that work with magi.
 
 ## Next action
 
-Finalize the `d1-ch-03` approval, then prepare and present the `d1-ch-04` current-draft map packet.
+Prepare and present the `d1-ch-04` current-draft map packet. The packet should describe the Concord manor planning and Arrek murder chapter accurately and flag accepted-canon divergences around Jalen/Kelyra pressure routing, Registry bypass simplification, Ink/Boon terminology, Antithesis transformation, and `glyphwright`/`zänwright` terminology.
 
 ## Awaiting author input
 
-None until the `d1-ch-04` current-draft map packet is prepared.
+Awaiting author review of `revision/current-draft-map/d1-ch-04.md`. Required decision: approve the Chapter 4 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
@@ -84,7 +84,7 @@ None until the `d1-ch-04` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-03.md
+- revision/current-draft-map/d1-ch-04.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
