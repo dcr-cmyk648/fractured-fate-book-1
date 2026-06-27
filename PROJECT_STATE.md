@@ -10,16 +10,16 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: char-lethira
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Lethira character packet`
-- Working tree expected to be clean: no; approved `char-lethira` finalization is being recorded
+- Latest relevant commit message: `bible: approve Lethira arena role`
+- Working tree expected to be clean: no; secondary-character tail consistency review is being recorded
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: brief supporting-character records for remaining family/Archeon-side figures
-- Approved entities since last consistency review: 2
-- Last consistency review: reports/consistency/2026-06-27-narrative-threads-followup-block.md
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-secondary-characters-tail-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
@@ -29,11 +29,11 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lethira` was approved by the author and is being finalized into accepted and candidate files. Lethira is not Kelyra's child; she is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner.
+`char-lirien` and `char-lethira` were approved, committed, pushed, and checked through a secondary-character tail consistency review.
 
 ## Next action
 
-Validate, commit, and push the approved `char-lethira` finalization. Then check whether the remaining queue requires a block consistency review or a needs-revisit packet.
+Validate, commit, and push the secondary-character tail consistency review. Then open the first remaining `needs-revisit` item, `char-kelyra`, unless the author directs a different order.
 
 ## Awaiting author input
 
@@ -93,6 +93,7 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - bible/characters/char-lethira.md
 - planning/candidates/characters/char-lethira.md
 - decisions/0068-lethira-archeon-arena-function.md
+- reports/consistency/2026-06-27-secondary-characters-tail-block.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md
