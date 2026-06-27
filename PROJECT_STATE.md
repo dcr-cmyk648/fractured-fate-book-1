@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 12 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-13` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 13 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-13` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-13` has been prepared as a current-draft map packet. It covers the Alara/Niall battlefield-withdrawal/date-invitation memory, Maya's hollow purpose response, Selwin training because he thinks Niall's sadness means he should get stronger, and Maya's escalation from identifying Niall's non-omnipresence into an impossible desire to be everywhere herself.
+`d1-ch-13` was approved as an accurate current-draft map. Author feedback added that the journal memory should be softly cued as too intense or too perfect, with Maya distorting it into how things should be or could be if she were better. `Elarion` is obsolete and should become `the Six Cities`. Selwin's later descent into obsession should be pre-cued: he can interpret Maya's genuine efforts to make his childhood less horrible than hers as weakness, and interpret Niall's distance as proof Niall does not think he is worth noticing as a possible heir or magus.
 
 ## Next action
 
-Present the `d1-ch-13` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-14`.
+Finalize, validate, commit, and push the `d1-ch-13` current-draft map approval, then prepare and present the `d1-ch-14` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of the `d1-ch-13` current-draft map packet.
+None until the `d1-ch-14` current-draft map packet is prepared.
 
 ## Workflow policy note
 
