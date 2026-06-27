@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 15 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-15` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 15 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-16` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-15` was approved as an accurate current-draft map with corrections. The newer guild-healer gold strike-line model should be shown here. Selwin's rescue should emphasize Maya's strain/distraction while holding the architecture together, allowing Davian's Ink Pact-borne reality-warping movement to reach Selwin. The Maya/Selwin danger beat should have more physical tension. `Arrek` is Davian's false identity; the real Arrek is dead. Alara's quick acceptance of Niall's offer works because she came prepared for a political marriage and then finds him attractive/genuine. The final Alara memory is a twisted/abbreviated Codex-trap culmination where Elric's anchored Ink-ghost rushes the first plausible memory-path to touch Maya's mind and push her toward Fateweaving.
+`d1-ch-16` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian self-sabotage-and-repressure material: private guilt after saving Selwin, Harvick delivering the promotion, zänwright-table belonging, Marek supervisor logistics, and the Harbinger/Elric-controlled visitor deepening the Ink and reasserting the Heart-theft mission.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-15` current-draft map approval, then prepare and present the `d1-ch-16` current-draft map packet.
+Present the `d1-ch-16` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-17`.
 
 ## Awaiting author input
 
-None until the `d1-ch-16` current-draft map packet is prepared.
+Author review of `revision/current-draft-map/d1-ch-16.md`.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ None until the `d1-ch-16` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-15.md
+- revision/current-draft-map/d1-ch-16.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
