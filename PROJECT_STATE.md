@@ -6,18 +6,18 @@ Last updated: 2026-06-27
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: narrative-threads
-- Active or paused entity ID: none
+- Current block: secondary-characters
+- Active or paused entity ID: char-lirien
 - Latest completed entity: thread-kelyra-archeon-recovery
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Kelyra Archeon recovery arc`
-- Working tree expected to be clean: no; narrative-thread follow-up consistency review is being recorded
+- Latest relevant commit message: `chore: run narrative threads follow-up consistency review`
+- Working tree expected to be clean: yes; `char-lirien` review packet is committed and awaiting author input
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: narrative-threads
-- Block scope: Kelyra Archeon trauma and family-protection arc
+- Current block: secondary-characters
+- Block scope: brief supporting-character records for remaining family/Archeon-side figures
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-followup-block.md
 - Consistency review due: no
@@ -25,19 +25,19 @@ Last updated: 2026-06-27
 
 ## Last completed work
 
-The narrative-thread/event block consistency review was run, committed, pushed to `beta`, merged to `main`, and the static app data was regenerated and pushed to `main`. `beta` was fast-forwarded to match `main`.
+The narrative-thread/event block consistency review was run, committed, and pushed to `beta`.
 
 ## Current work
 
-`thread-demi-human-mercenary-forces` and `thread-kelyra-archeon-recovery` were approved, committed, pushed, and checked through a follow-up narrative-thread consistency review.
+`char-lirien` has been opened with a brief author review packet. The packet preserves Lirien's current source-backed role as Davian's composed younger sister and tracks the `Lirien`/`Lirin` spelling issue without creating accepted canon yet.
 
 ## Next action
 
-Validate, commit, and push the narrative-thread follow-up consistency review. Then open the next queued entity, `char-lirien`, with a concrete author review packet.
+Resolve the required author decisions in `reviews/entities/characters/char-lirien.md`, then finalize the accepted and candidate Lirien files if approved.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author input on `char-lirien`. The review packet and summary/questions have been printed for audit.
 
 ## Workflow policy note
 
@@ -85,6 +85,10 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - AUTHORING.md
 - reviews/entities/threads/thread-demi-human-mercenary-forces.md
 - reviews/entities/threads/thread-kelyra-archeon-recovery.md
+- reviews/entities/characters/char-lirien.md
+- bible/characters/char-kael.md
+- bible/locations/loc-concord-manor.md
+- bible/organizations/org-concord.md
 - bible/characters/char-kelyra.md
 - bible/characters/char-serathis.md
 - bible/organizations/org-archeon.md
