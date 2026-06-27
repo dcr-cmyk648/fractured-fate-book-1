@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 5 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-06` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 6 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-06` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,20 +29,21 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-05` was approved, validated, committed, and pushed. Author feedback emphasized that the chapter focuses on Maya's search for something meaningful beyond Niall's constant "be perfect or die" mentality, as part of Maya's second individuation, making her vulnerable to Elric's trap and drawing her toward Alara's journal.
+`d1-ch-06` was approved as an accurate current-draft map. Author reminded Codex that future chapter-review presentations should print the summary, short list of divergences, and main chapter goals directly in the Codex thread before the approval question.
 
 ## Next action
 
-Prepare, validate, commit, push, and present the `d1-ch-06` current-draft map packet. The packet should describe Arrek's house/ledger, Davian's Ink/revenge pressure, Rezin citadel entry, Registry registration, Tanelle introduction, Maya's contractor address, and the assassin attack, while flagging settled divergences around Jalen/Kelyra role balance, Ink Pact mechanics, Alra's accepted Antithesis concealment role, Aldira naming, and Registry geography/interface rules.
+Finalize, validate, commit, and push the `d1-ch-06` current-draft map approval, then prepare and present the `d1-ch-07` current-draft map packet.
 
 ## Awaiting author input
 
-Awaiting author review of `revision/current-draft-map/d1-ch-06.md`. Required decision: approve the Chapter 6 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
+None until the `d1-ch-07` current-draft map packet is prepared.
 
 ## Workflow policy note
 
 - Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark the entity approved.
 - When waiting for author input, print the useful terminal summary and required author questions last so the author can audit them without opening packet files.
+- For current-draft chapter-map packets, the in-thread presentation must include a concise chapter summary, a short list of key divergences, and the main chapter goals before the required approval question.
 - Do not stop on an opened entity or source-gathering stub. If author input is needed, the repository must contain a concrete author-review packet, approval packet, or phase-gate packet with the information needed to respond.
 - Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 
@@ -84,7 +85,7 @@ Awaiting author review of `revision/current-draft-map/d1-ch-06.md`. Required dec
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-06.md
+- revision/current-draft-map/d1-ch-07.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
