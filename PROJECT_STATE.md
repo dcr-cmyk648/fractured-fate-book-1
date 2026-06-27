@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 17 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-17` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 17 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-18` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-17` was approved as an accurate current-draft map with corrections. In-scene, no one knows what specifically happened: Niall believes Elric is completely dead, and no one understands Ink specters, Ink Pacts in general, mind takeover, or the true mechanism. The clear conclusion should be that the inscription/key was deliberately tampered with and that what happened to Maya was intentional, while reason/mechanics remain tentative. The next-morning supervisor scene should give Davian a chance to see Maya as slightly vulnerable and perhaps human/sympathetic rather than only someone to hate.
+`d1-ch-18` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian work-and-training material: post-Maya attraction/anger, real supervisor logistics, Treasury sabotage through Antithesis/kinesis, avoidance of worker belonging, and Harvick recognizing Davian's survival-training logic while challenging dissociation-as-focus.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-17` current-draft map approval, then prepare and present the `d1-ch-18` current-draft map packet.
+Present the `d1-ch-18` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-19`.
 
 ## Awaiting author input
 
-None until the `d1-ch-18` current-draft map packet is prepared.
+Author review of `revision/current-draft-map/d1-ch-18.md`.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ None until the `d1-ch-18` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-17.md
+- revision/current-draft-map/d1-ch-18.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
