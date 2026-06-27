@@ -6,18 +6,18 @@ Last updated: 2026-06-27
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: magic-systems
-- Active or paused entity ID: none
+- Current block: narrative-threads
+- Active or paused entity ID: thread-demi-human-mercenary-forces
 - Latest completed entity: magic-convergence-heat-transfer
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `bible: approve Convergence heat transfer model`
-- Working tree expected to be clean: no; Convergence consistency review is being recorded
+- Working tree expected to be clean: no; `thread-demi-human-mercenary-forces` review packet is awaiting author review
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: magic-systems
-- Block scope: Convergence heat transfer and related Naeroth/Maya magic constraints
+- Current block: narrative-threads
+- Block scope: demi-human mercenary forces and death-payment economy
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
 - Consistency review due: no
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`magic-convergence-heat-transfer` was approved, committed, pushed, and checked through a compact category-shift consistency review.
+`magic-convergence-heat-transfer` was approved, committed, pushed, and checked through a compact category-shift consistency review. `thread-demi-human-mercenary-forces` has been opened with a standard-depth review packet.
 
 ## Next action
 
-Validate, commit, and push the Convergence consistency review. Then open the next queued entity, `thread-demi-human-mercenary-forces`, with a concrete author review packet.
+Resolve the author decisions in `reviews/entities/threads/thread-demi-human-mercenary-forces.md`, then finalize the accepted thread record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author answers for `thread-demi-human-mercenary-forces`.
 
 ## Workflow policy note
 
@@ -83,6 +83,12 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
+- reviews/entities/threads/thread-demi-human-mercenary-forces.md
+- bible/cultures/culture-demi-human-peoples.md
+- bible/characters/char-niall.md
+- outline/arcs/thread-high-clade-politics.md
+- bible/events/event-maya-presentation.md
+- CONSISTENCY_QUEUE.md
 - reports/consistency/2026-06-26-secondary-characters-block.md
 - reviews/entities/characters/char-marek.md
 - bible/characters/char-marek.md
