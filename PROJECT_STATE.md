@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 7 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-07` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 7 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-08` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-07` was approved as an accurate current-draft map. Author feedback emphasized that this is a key chapter for showing Maya's thin veil of public confidence and competence, followed by a near-panic attack when alone. This should contrast with Davian's prior view of the assassination attempt, where he sees only Maya's outward performance and interprets her as a cold-blooded killer through his negative biases.
+`d1-ch-07` was approved, validated, committed, and pushed. Author feedback emphasized that this is a key chapter for showing Maya's thin veil of public confidence and competence, followed by a near-panic attack when alone. This should contrast with Davian's prior view of the assassination attempt, where he sees only Maya's outward performance and interprets her as a cold-blooded killer through his negative biases.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-07` current-draft map approval, then prepare and present the `d1-ch-08` current-draft map packet.
+Prepare, validate, commit, push, and present the `d1-ch-08` current-draft map packet. The packet should describe Davian's mess-hall worker-group pressure, Tanelle's forced friendliness, Harvick's first sparring/mentor setup, Davian's biased read of Maya after the reader has seen her private panic, and his Arrek/Selina guilt nightmare.
 
 ## Awaiting author input
 
-None until the `d1-ch-08` current-draft map packet is prepared.
+Awaiting author review of `revision/current-draft-map/d1-ch-08.md`. Required decision: approve the Chapter 8 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
