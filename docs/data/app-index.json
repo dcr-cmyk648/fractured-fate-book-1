@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "branch": "app/review-interface-v0",
-    "commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9",
-    "generated_at": "2026-06-26T16:17:53.240535+00:00",
+    "branch": "main",
+    "commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c",
+    "generated_at": "2026-06-27T14:47:37.023329+00:00",
     "app_version": "review-interface-v0"
   },
   "warnings": [],
@@ -78,7 +78,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-aldira.md",
@@ -156,12 +156,70 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-arrek.md",
+      "category": "bible",
+      "line_count": 107,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Arrek Hadrin"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Basic Profile"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Sorevin and Rezin Contract"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "Debt and Ledger"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "Murder and Aura Theft"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Narrative Functions"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 88,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 97,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-caius-drakhal.md",
       "category": "bible",
-      "line_count": 121,
+      "line_count": 128,
       "headings": [
         {
           "line": 13,
@@ -189,62 +247,62 @@
           "text": "Drakhal Political Function"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Relationships"
         },
         {
-          "line": 49,
+          "line": 51,
           "level": 3,
           "text": "Maya Rezin"
         },
         {
-          "line": 55,
+          "line": 59,
           "level": 3,
           "text": "Davian"
         },
         {
-          "line": 61,
+          "line": 65,
           "level": 3,
           "text": "Evana Drakhal"
         },
         {
-          "line": 65,
+          "line": 69,
           "level": 3,
           "text": "Vorren"
         },
         {
-          "line": 71,
+          "line": 75,
           "level": 2,
           "text": "Narrative Functions"
         },
         {
-          "line": 80,
+          "line": 84,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 88,
+          "line": 92,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 100,
+          "line": 106,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 109,
+          "line": 115,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-davian.md",
       "category": "bible",
-      "line_count": 201,
+      "line_count": 250,
       "headings": [
         {
           "line": 11,
@@ -272,37 +330,37 @@
           "text": "Heart Theft and Responsibility"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Abilities"
         },
         {
-          "line": 72,
+          "line": 76,
           "level": 2,
           "text": "Important Relationships"
         },
         {
-          "line": 126,
+          "line": 156,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 134,
+          "line": 166,
           "level": 2,
           "text": "Intended Arc Links"
         },
         {
-          "line": 173,
+          "line": 221,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 181,
+          "line": 229,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-elric.md",
@@ -370,7 +428,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-erynn.md",
@@ -443,12 +501,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-harvick.md",
       "category": "bible",
-      "line_count": 115,
+      "line_count": 122,
       "headings": [
         {
           "line": 11,
@@ -476,42 +534,42 @@
           "text": "Davian"
         },
         {
-          "line": 43,
+          "line": 45,
           "level": 2,
           "text": "Niall"
         },
         {
-          "line": 49,
+          "line": 51,
           "level": 2,
           "text": "Abilities and Equipment"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 74,
+          "line": 76,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 89,
+          "line": 95,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 97,
+          "line": 103,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-jalen.md",
       "category": "bible",
-      "line_count": 99,
+      "line_count": 113,
       "headings": [
         {
           "line": 11,
@@ -534,37 +592,143 @@
           "text": "Family"
         },
         {
-          "line": 49,
+          "line": 55,
           "level": 2,
           "text": "Abilities and Combat"
         },
         {
-          "line": 55,
+          "line": 61,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 68,
+          "line": 74,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 82,
+          "line": 96,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 89,
+          "line": 103,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-kael.md",
+      "category": "bible",
+      "line_count": 93,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Kael"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Personality and Function"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Relationships"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Current Manuscript State"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 82,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-karra.md",
+      "category": "bible",
+      "line_count": 109,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Karra"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Concord Role"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Trial of Dominion"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "Abilities and Limits"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "Post-Trial and Evacuation"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Narrative Functions"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 90,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 100,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-kelyra.md",
       "category": "bible",
-      "line_count": 144,
+      "line_count": 173,
       "headings": [
         {
           "line": 12,
@@ -592,32 +756,90 @@
           "text": "Important Relationships"
         },
         {
-          "line": 82,
+          "line": 92,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 94,
+          "line": 108,
           "level": 2,
           "text": "Intended Arc Links"
         },
         {
-          "line": 117,
+          "line": 143,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 127,
+          "line": 154,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-marek.md",
+      "category": "bible",
+      "line_count": 96,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Marek"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Personality and Work Function"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Treasury Knowledge"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "Davian / Arrek"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Tanelle and the Work Crew"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Narrative Functions"
+        },
+        {
+          "line": 63,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 84,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-maya.md",
       "category": "bible",
-      "line_count": 181,
+      "line_count": 204,
       "headings": [
         {
           "line": 11,
@@ -655,37 +877,37 @@
           "text": "Important Relationships"
         },
         {
-          "line": 103,
+          "line": 109,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 119,
+          "line": 131,
           "level": 2,
           "text": "Intended Future State"
         },
         {
-          "line": 125,
+          "line": 139,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 132,
+          "line": 146,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 164,
+          "line": 185,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-niall.md",
       "category": "bible",
-      "line_count": 150,
+      "line_count": 171,
       "headings": [
         {
           "line": 12,
@@ -703,47 +925,115 @@
           "text": "Personality and Psychological Patterns"
         },
         {
-          "line": 30,
+          "line": 32,
           "level": 2,
           "text": "Abilities and Equipment"
         },
         {
-          "line": 40,
+          "line": 44,
           "level": 2,
           "text": "Important Relationships"
         },
         {
-          "line": 76,
+          "line": 80,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 90,
+          "line": 98,
           "level": 2,
           "text": "Political and Military Role"
         },
         {
-          "line": 98,
+          "line": 110,
           "level": 2,
           "text": "Intended Arc Links"
         },
         {
-          "line": 126,
+          "line": 145,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 135,
+          "line": 154,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-selina.md",
+      "category": "bible",
+      "line_count": 128,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Selina"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Archeon and Training"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Death"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "Davian's False Understanding"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "Object Links"
+        },
+        {
+          "line": 63,
+          "level": 2,
+          "text": "Family Impact"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Concord Shrine"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "Narrative Functions"
+        },
+        {
+          "line": 90,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 115,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-selwin.md",
       "category": "bible",
-      "line_count": 95,
+      "line_count": 99,
       "headings": [
         {
           "line": 11,
@@ -766,37 +1056,37 @@
           "text": "Personality and Function"
         },
         {
-          "line": 37,
+          "line": 39,
           "level": 2,
           "text": "Magic"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 59,
+          "line": 61,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 75,
+          "line": 79,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 83,
+          "line": 87,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-serathis.md",
       "category": "bible",
-      "line_count": 124,
+      "line_count": 130,
       "headings": [
         {
           "line": 13,
@@ -814,57 +1104,57 @@
           "text": "Power and Status"
         },
         {
-          "line": 31,
+          "line": 33,
           "level": 2,
           "text": "Archeon Project"
         },
         {
-          "line": 39,
+          "line": 41,
           "level": 2,
           "text": "Manipulation and Abuse"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Kelyra and Davian"
         },
         {
-          "line": 55,
+          "line": 57,
           "level": 2,
           "text": "Elric and Drakhal"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Accepted Future Direction"
         },
         {
-          "line": 77,
+          "line": 79,
           "level": 2,
           "text": "Developmental Profile"
         },
         {
-          "line": 85,
+          "line": 87,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 102,
+          "line": 108,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 114,
+          "line": 120,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-tanelle.md",
       "category": "bible",
-      "line_count": 93,
+      "line_count": 95,
       "headings": [
         {
           "line": 13,
@@ -884,7 +1174,7 @@
         {
           "line": 29,
           "level": 2,
-          "text": "Zánwright Competence"
+          "text": "Zänwright Competence"
         },
         {
           "line": 39,
@@ -907,22 +1197,22 @@
           "text": "Related Files"
         },
         {
-          "line": 70,
+          "line": 72,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 80,
+          "line": 82,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/characters/char-vorren.md",
       "category": "bible",
-      "line_count": 114,
+      "line_count": 122,
       "headings": [
         {
           "line": 13,
@@ -935,47 +1225,140 @@
           "text": "Identity and Role"
         },
         {
-          "line": 25,
+          "line": 27,
           "level": 2,
           "text": "Power and Status"
         },
         {
-          "line": 33,
+          "line": 35,
           "level": 2,
           "text": "Motivation and Psychology"
         },
         {
-          "line": 43,
+          "line": 45,
           "level": 2,
           "text": "Drakhal, Harbingers, and Underground Role"
         },
         {
-          "line": 51,
+          "line": 53,
           "level": 2,
           "text": "Endgame Function"
         },
         {
-          "line": 64,
+          "line": 68,
           "level": 2,
           "text": "Developmental Profile"
         },
         {
-          "line": 72,
+          "line": 76,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 90,
+          "line": 97,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 101,
+          "line": 109,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/characters/char-zirene.md",
+      "category": "bible",
+      "line_count": 151,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Zirene"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Role"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Motive and Ethics"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Personality and Voice"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "Zänwork Philosophy"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "Device Boundaries"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "Niall's Silver"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "Davian's Bands"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "Archeon Gauntlets"
+        },
+        {
+          "line": 77,
+          "level": 3,
+          "text": "Antithesis"
+        },
+        {
+          "line": 83,
+          "level": 3,
+          "text": "Returning Weapons"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "Paradox"
+        },
+        {
+          "line": 95,
+          "level": 2,
+          "text": "Knowledge Boundaries"
+        },
+        {
+          "line": 105,
+          "level": 2,
+          "text": "Narrative Functions"
+        },
+        {
+          "line": 114,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 129,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 141,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/cultures/culture-clade-hierarchy.md",
@@ -1033,7 +1416,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/cultures/culture-creator-sheol.md",
@@ -1081,12 +1464,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/cultures/culture-magus-presentation.md",
       "category": "bible",
-      "line_count": 98,
+      "line_count": 103,
       "headings": [
         {
           "line": 11,
@@ -1114,27 +1497,27 @@
           "text": "Power Display"
         },
         {
-          "line": 53,
+          "line": 55,
           "level": 2,
           "text": "Fashion"
         },
         {
-          "line": 61,
+          "line": 63,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 72,
+          "line": 74,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 85,
+          "line": 89,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/cultures/culture-naeroth-lineages.md",
@@ -1182,17 +1565,17 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/cultures/culture-number-system-zan-script.md",
       "category": "bible",
-      "line_count": 113,
+      "line_count": 114,
       "headings": [
         {
           "line": 13,
           "level": 1,
-          "text": "Number System / Zán Script"
+          "text": "Number System / Zän Script"
         },
         {
           "line": 15,
@@ -1212,7 +1595,7 @@
         {
           "line": 41,
           "level": 2,
-          "text": "Nizán and Zero"
+          "text": "Nizän and Zero"
         },
         {
           "line": 51,
@@ -1240,17 +1623,211 @@
           "text": "Related Files"
         },
         {
-          "line": 98,
+          "line": 99,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/events/event-harbinger-raid.md",
+      "category": "bible",
+      "line_count": 128,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Harbinger Betrayal / Trial of Dominion and Kelyra Capture"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity and Boundary"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Accepted Sequence"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Consequences"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Character and Story Function"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 107,
+          "level": 2,
+          "text": "Canonical Uncertainties"
+        },
+        {
+          "line": 119,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/events/event-heart-theft.md",
+      "category": "bible",
+      "line_count": 148,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Heart Theft / Treasury Breach"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Setup"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Davian's Responsibility"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Treasury Confrontation"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Maya's Intervention"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "Heart Delivery"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "Developmental Profile"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 106,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 112,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 132,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "bible/events/event-maya-presentation.md",
+      "category": "bible",
+      "line_count": 150,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Maya's Presentation"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Identity"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Event Sequence"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "Ritual and Ideology"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Maya's Display"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Political Meaning"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "Niall and Maya"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "Caius"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "Developmental Profile"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 114,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 120,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 135,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-archeon.md",
       "category": "bible",
-      "line_count": 99,
+      "line_count": 102,
       "headings": [
         {
           "line": 11,
@@ -1288,27 +1865,27 @@
           "text": "Final Attack Geography"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 80,
+          "line": 83,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 89,
+          "line": 92,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-concord-manor.md",
       "category": "bible",
-      "line_count": 91,
+      "line_count": 101,
       "headings": [
         {
           "line": 11,
@@ -1321,52 +1898,52 @@
           "text": "Identity"
         },
         {
-          "line": 23,
+          "line": 25,
           "level": 2,
           "text": "Setting and History"
         },
         {
-          "line": 31,
+          "line": 33,
           "level": 2,
           "text": "Compound"
         },
         {
-          "line": 39,
+          "line": 41,
           "level": 2,
           "text": "Courtyard and Activity"
         },
         {
-          "line": 49,
+          "line": 51,
           "level": 2,
           "text": "Interior"
         },
         {
-          "line": 57,
+          "line": 59,
           "level": 2,
           "text": "Archeon Attack and Collapse"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 73,
+          "line": 75,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 82,
+          "line": 92,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-registry.md",
       "category": "bible",
-      "line_count": 99,
+      "line_count": 103,
       "headings": [
         {
           "line": 11,
@@ -1394,37 +1971,37 @@
           "text": "Central Interface"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Registration Behavior"
         },
         {
-          "line": 56,
+          "line": 58,
           "level": 2,
           "text": "Raid and Security Implications"
         },
         {
-          "line": 64,
+          "line": 66,
           "level": 2,
           "text": "Obsolete Material"
         },
         {
-          "line": 70,
+          "line": 72,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 79,
+          "line": 81,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 88,
+          "line": 92,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-rezin-citadel.md",
@@ -1482,12 +2059,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-sorevin-redbridge.md",
       "category": "bible",
-      "line_count": 86,
+      "line_count": 88,
       "headings": [
         {
           "line": 11,
@@ -1525,22 +2102,22 @@
           "text": "Related Files"
         },
         {
-          "line": 67,
+          "line": 69,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 76,
+          "line": 78,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-spire.md",
       "category": "bible",
-      "line_count": 92,
+      "line_count": 97,
       "headings": [
         {
           "line": 11,
@@ -1578,27 +2155,27 @@
           "text": "Ceremonial Space"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 72,
+          "line": 74,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 82,
+          "line": 86,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/locations/loc-treasury.md",
       "category": "bible",
-      "line_count": 109,
+      "line_count": 118,
       "headings": [
         {
           "line": 11,
@@ -1633,30 +2210,30 @@
         {
           "line": 53,
           "level": 2,
-          "text": "Zán and Redundancy"
+          "text": "Zän and Redundancy"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Heart Theft Implications"
         },
         {
-          "line": 71,
+          "line": 75,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 80,
+          "line": 84,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 96,
+          "line": 104,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-antithesis.md",
@@ -1709,7 +2286,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-codex-memory.md",
@@ -1757,12 +2334,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-fateweaving-skein.md",
       "category": "bible",
-      "line_count": 129,
+      "line_count": 133,
       "headings": [
         {
           "line": 11,
@@ -1800,27 +2377,27 @@
           "text": "Accepted Future Plan"
         },
         {
-          "line": 81,
+          "line": 83,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 93,
+          "line": 95,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 113,
+          "line": 117,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-ink-boons.md",
       "category": "bible",
-      "line_count": 165,
+      "line_count": 170,
       "headings": [
         {
           "line": 11,
@@ -1873,12 +2450,12 @@
           "text": "Related Files"
         },
         {
-          "line": 146,
+          "line": 151,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-shroud.md",
@@ -1941,7 +2518,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-subversion.md",
@@ -1999,17 +2576,17 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/magic/magic-zan-lattices.md",
       "category": "bible",
-      "line_count": 142,
+      "line_count": 144,
       "headings": [
         {
           "line": 11,
           "level": 1,
-          "text": "Zán / Zá Lattices / Zánwrights"
+          "text": "Zän / Zä Lattices / Zänwrights"
         },
         {
           "line": 13,
@@ -2024,7 +2601,7 @@
         {
           "line": 31,
           "level": 2,
-          "text": "Modern and Ancient Zánwork"
+          "text": "Modern and Ancient Zänwork"
         },
         {
           "line": 39,
@@ -2052,12 +2629,12 @@
           "text": "Related Files"
         },
         {
-          "line": 126,
+          "line": 128,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-alara-journal.md",
@@ -2110,12 +2687,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-antithesis.md",
       "category": "bible",
-      "line_count": 108,
+      "line_count": 122,
       "headings": [
         {
           "line": 11,
@@ -2133,52 +2710,52 @@
           "text": "Provenance"
         },
         {
-          "line": 27,
+          "line": 31,
           "level": 2,
           "text": "Physical and Technical Form"
         },
         {
-          "line": 35,
+          "line": 39,
           "level": 2,
           "text": "Mechanics"
         },
         {
-          "line": 43,
+          "line": 47,
           "level": 2,
           "text": "Rezin Citadel Concealment"
         },
         {
-          "line": 51,
+          "line": 55,
           "level": 2,
           "text": "Heart Theft"
         },
         {
-          "line": 57,
+          "line": 63,
           "level": 2,
           "text": "Accepted Future Plan"
         },
         {
-          "line": 65,
+          "line": 71,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 74,
+          "line": 81,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 93,
+          "line": 106,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-davian-mask.md",
       "category": "bible",
-      "line_count": 86,
+      "line_count": 88,
       "headings": [
         {
           "line": 11,
@@ -2216,12 +2793,12 @@
           "text": "Related Files"
         },
         {
-          "line": 73,
+          "line": 75,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-haloes.md",
@@ -2274,12 +2851,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-paradox.md",
       "category": "bible",
-      "line_count": 89,
+      "line_count": 95,
       "headings": [
         {
           "line": 11,
@@ -2312,32 +2889,32 @@
           "text": "End-Book Handoff"
         },
         {
-          "line": 53,
+          "line": 55,
           "level": 2,
           "text": "Symbolism"
         },
         {
-          "line": 59,
+          "line": 61,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 66,
+          "line": 68,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 81,
+          "line": 87,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/objects/object-seraph-heart.md",
       "category": "bible",
-      "line_count": 120,
+      "line_count": 129,
       "headings": [
         {
           "line": 11,
@@ -2370,32 +2947,32 @@
           "text": "Treasury Weightlessness and Removal"
         },
         {
-          "line": 61,
+          "line": 65,
           "level": 2,
           "text": "Skein, Elric, and Resurrection"
         },
         {
-          "line": 69,
+          "line": 73,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 81,
+          "line": 85,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 100,
+          "line": 108,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-archeon.md",
       "category": "bible",
-      "line_count": 154,
+      "line_count": 157,
       "headings": [
         {
           "line": 11,
@@ -2443,27 +3020,27 @@
           "text": "Political Position"
         },
         {
-          "line": 101,
+          "line": 103,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 129,
+          "line": 132,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 141,
+          "line": 144,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-concord.md",
       "category": "bible",
-      "line_count": 112,
+      "line_count": 127,
       "headings": [
         {
           "line": 11,
@@ -2481,47 +3058,47 @@
           "text": "Leadership"
         },
         {
-          "line": 33,
+          "line": 35,
           "level": 2,
           "text": "Trial of Dominion"
         },
         {
-          "line": 43,
+          "line": 45,
           "level": 2,
           "text": "Operations and Culture"
         },
         {
-          "line": 53,
+          "line": 55,
           "level": 2,
           "text": "Manor and Hideout"
         },
         {
-          "line": 65,
+          "line": 71,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 71,
+          "line": 77,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 88,
+          "line": 103,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 97,
+          "line": 112,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-drakhal.md",
       "category": "bible",
-      "line_count": 100,
+      "line_count": 113,
       "headings": [
         {
           "line": 11,
@@ -2544,42 +3121,42 @@
           "text": "Political Strategy"
         },
         {
-          "line": 44,
+          "line": 54,
           "level": 2,
           "text": "Archeon and Breeding-Contract Deal"
         },
         {
-          "line": 52,
+          "line": 62,
           "level": 2,
           "text": "Birth Contracts and Records"
         },
         {
-          "line": 58,
+          "line": 68,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 64,
+          "line": 74,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 81,
+          "line": 93,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 90,
+          "line": 102,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-harbingers-syndicate.md",
       "category": "bible",
-      "line_count": 107,
+      "line_count": 117,
       "headings": [
         {
           "line": 11,
@@ -2612,32 +3189,32 @@
           "text": "Heart Theft and Concord Pressure"
         },
         {
-          "line": 59,
+          "line": 61,
           "level": 2,
           "text": "External Coordination"
         },
         {
-          "line": 67,
+          "line": 71,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 86,
+          "line": 95,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 95,
+          "line": 104,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-high-clades.md",
       "category": "bible",
-      "line_count": 148,
+      "line_count": 158,
       "headings": [
         {
           "line": 11,
@@ -2655,57 +3232,57 @@
           "text": "Current Canonical High Clades"
         },
         {
-          "line": 36,
+          "line": 38,
           "level": 2,
           "text": "Governance"
         },
         {
-          "line": 50,
+          "line": 52,
           "level": 2,
           "text": "Central Amphitheater"
         },
         {
-          "line": 60,
+          "line": 62,
           "level": 2,
           "text": "Presentation"
         },
         {
-          "line": 68,
+          "line": 72,
           "level": 2,
           "text": "Power, Secrecy, and Status"
         },
         {
-          "line": 82,
+          "line": 86,
           "level": 2,
           "text": "Culture"
         },
         {
-          "line": 92,
+          "line": 96,
           "level": 2,
           "text": "Political Violence"
         },
         {
-          "line": 100,
+          "line": 106,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 125,
+          "line": 134,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 132,
+          "line": 141,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-registry.md",
       "category": "bible",
-      "line_count": 105,
+      "line_count": 110,
       "headings": [
         {
           "line": 11,
@@ -2738,32 +3315,32 @@
           "text": "Bypass and Compromise"
         },
         {
-          "line": 59,
+          "line": 61,
           "level": 2,
           "text": "Current and Future State"
         },
         {
-          "line": 67,
+          "line": 69,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 85,
+          "line": 89,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 93,
+          "line": 97,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "bible/organizations/org-rezin.md",
       "category": "bible",
-      "line_count": 114,
+      "line_count": 119,
       "headings": [
         {
           "line": 11,
@@ -2781,42 +3358,42 @@
           "text": "Core Family"
         },
         {
-          "line": 35,
+          "line": 37,
           "level": 2,
           "text": "Household and Inner Circle"
         },
         {
-          "line": 47,
+          "line": 49,
           "level": 2,
           "text": "Power Base"
         },
         {
-          "line": 60,
+          "line": 62,
           "level": 2,
           "text": "Culture"
         },
         {
-          "line": 66,
+          "line": 68,
           "level": 2,
           "text": "Current Manuscript State"
         },
         {
-          "line": 72,
+          "line": 74,
           "level": 2,
           "text": "Related Files"
         },
         {
-          "line": 92,
+          "line": 96,
           "level": 2,
           "text": "Canonical Uncertainties"
         },
         {
-          "line": 99,
+          "line": 103,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0001-maya-naeroth-heritage-and-appearance.md",
@@ -2849,7 +3426,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0002-naeroth-demi-human-worldbuilding.md",
@@ -2887,7 +3464,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0003-maya-shroud-and-prologue-revision-direction.md",
@@ -2920,7 +3497,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0004-davian-heart-theft-agency-and-arc.md",
@@ -2953,7 +3530,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0005-niall-grief-arc-and-lightning-conduits.md",
@@ -2986,7 +3563,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0006-kelyra-archeon-lineage-shroud-and-family.md",
@@ -3019,7 +3596,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0007-elric-rezin-remnant-and-reality-skein-role.md",
@@ -3047,7 +3624,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0008-harvick-elric-ink-and-mentorship.md",
@@ -3080,7 +3657,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0009-selwin-dissolution-shroud-and-family-role.md",
@@ -3113,7 +3690,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0010-jalen-kelyra-concord-role-swap.md",
@@ -3146,7 +3723,7 @@
           "text": "Follow-Up"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0011-rezin-clade-family-and-household-structure.md",
@@ -3179,7 +3756,7 @@
           "text": "Consequences"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0012-archeon-high-clade-rise-and-training-system.md",
@@ -3217,7 +3794,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md",
@@ -3255,7 +3832,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0014-high-clades-governance-and-central-amphitheater.md",
@@ -3288,7 +3865,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0015-harbingers-name-elric-takeover-and-coordination.md",
@@ -3321,7 +3898,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0016-twilight-concord-masked-clade-and-trial.md",
@@ -3354,7 +3931,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0017-registry-power-modes-and-elric-bypass.md",
@@ -3387,7 +3964,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0018-shroud-throughput-and-manifestation-model.md",
@@ -3425,7 +4002,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0019-ink-pact-terminology-and-core-mechanics.md",
@@ -3463,7 +4040,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0020-kinesis-terminology-and-mechanics.md",
@@ -3501,7 +4078,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md",
@@ -3539,7 +4116,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0022-zan-terminology-and-lattice-principles.md",
@@ -3577,7 +4154,7 @@
           "text": "Related files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0023-antithesis-boundary-and-paradox-future-plan.md",
@@ -3605,7 +4182,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0024-auratic-codex-memory-mechanics.md",
@@ -3633,7 +4210,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0025-rezin-citadel-location-boundaries.md",
@@ -3661,7 +4238,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0026-registry-chamber-placement-and-interface.md",
@@ -3689,7 +4266,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0027-treasury-placement-and-containment-function.md",
@@ -3717,7 +4294,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0028-spire-name-and-central-amphitheater-form.md",
@@ -3745,7 +4322,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0029-concord-manor-identity-and-collapse.md",
@@ -3773,7 +4350,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md",
@@ -3801,7 +4378,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0031-sorevin-manor-and-redbridge-candidate.md",
@@ -3829,7 +4406,7 @@
           "text": "Sources"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0032-heart-name-containment-and-skein-links.md",
@@ -3857,7 +4434,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0033-antithesis-dagger-schema-sink-and-concealment.md",
@@ -3890,7 +4467,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0034-paradox-name-maker-form-and-symbolism.md",
@@ -3923,7 +4500,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md",
@@ -3956,7 +4533,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0036-alara-journal-discovery-and-elric-codex-trap.md",
@@ -3984,7 +4561,7 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0037-haloes-currency-value-and-authenticity.md",
@@ -4017,7 +4594,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0038-clade-hierarchy-categories-and-presented-status.md",
@@ -4050,7 +4627,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0039-naeroth-lineage-and-magic-exception.md",
@@ -4083,7 +4660,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0040-magus-presentation-status-power-display-and-fashion.md",
@@ -4116,7 +4693,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0041-creator-sheol-and-watchmaker-cosmology.md",
@@ -4149,7 +4726,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0042-zan-number-system-nizan-and-script-terminology.md",
@@ -4182,7 +4759,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0043-aldira-identity-spymaster-role-and-maya-support.md",
@@ -4215,7 +4792,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0044-erynn-companion-role-and-maya-reality-check.md",
@@ -4248,7 +4825,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md",
@@ -4281,7 +4858,7 @@
           "text": "Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md",
@@ -4309,7 +4886,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md",
@@ -4337,7 +4914,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0048-caius-drakhal-heir-role-and-provocation.md",
@@ -4370,7 +4947,7 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/0049-tanelle-zanwright-competence-and-worker-function.md",
@@ -4403,12 +4980,363 @@
           "text": "Stored In"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0050-marek-supervisor-role-and-davian-tutoring.md",
+      "category": "decision",
+      "line_count": 42,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Marek Supervisor Role and Davian Tutoring Function"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Deferred"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0051-zan-spelling-convention-correction.md",
+      "category": "decision",
+      "line_count": 32,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Zän Spelling Convention Correction"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0052-zirene-technical-neutrality-and-device-boundaries.md",
+      "category": "decision",
+      "line_count": 59,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Zirene Technical Neutrality and Device Boundaries"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "Device Boundaries"
+        },
+        {
+          "line": 36,
+          "level": 2,
+          "text": "Knowledge Boundary"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 48,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0053-karra-concord-challenge-and-evacuation-role.md",
+      "category": "decision",
+      "line_count": 37,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Karra Concord Challenge and Evacuation Role"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0054-arrek-identity-murder-and-debt-family-context.md",
+      "category": "decision",
+      "line_count": 40,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Arrek Identity, Murder, and Debt-Family Context"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0055-selina-death-family-myth-and-object-links.md",
+      "category": "decision",
+      "line_count": 44,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Selina Death, Family Myth, and Object Links"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0056-kael-brief-role-and-davian-selwin-mirror.md",
+      "category": "decision",
+      "line_count": 34,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Kael Brief Role and Davian-Selwin Mirror"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 24,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0057-maya-davian-romance-trust-architecture.md",
+      "category": "decision",
+      "line_count": 36,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Maya / Davian Romance and Trust Architecture"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0058-high-clade-politics-archeon-trap.md",
+      "category": "decision",
+      "line_count": 40,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "High Clade Political Sequence and Archeon Trap"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "Stored In"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Consequences"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0059-maya-presentation-event-architecture.md",
+      "category": "decision",
+      "line_count": 45,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Maya Presentation Event Architecture"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "Consequences"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "References"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0060-heart-theft-event-architecture.md",
+      "category": "decision",
+      "line_count": 42,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Heart Theft Event Architecture"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "Consequences"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "References"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md",
+      "category": "decision",
+      "line_count": 42,
+      "headings": [
+        {
+          "line": 1,
+          "level": 1,
+          "text": "Harbinger Betrayal, Trial, and Kelyra Capture"
+        },
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Decision"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "Rationale"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "Related Files"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "decisions/index.md",
       "category": "decision",
-      "line_count": 57,
+      "line_count": 69,
       "headings": [
         {
           "line": 1,
@@ -4416,20 +5344,35 @@
           "text": "Decision Index"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "feedback/webapp/README.md",
       "category": "feedback",
-      "line_count": 29,
+      "line_count": 86,
       "headings": [
         {
           "line": 1,
           "level": 1,
           "text": "Web App Feedback Workflow"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "Google Apps Script Importer"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "Optional Web App Trigger"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Optional Scheduled Import"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "imports/normalized/README.md",
@@ -4442,7 +5385,7 @@
           "text": "Normalized Imports"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "imports/normalized/book-1-outline.md",
@@ -4885,7 +5828,7 @@
           "text": "Scene order (beats-in-one-glance)"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "imports/normalized/bullet-notes.md",
@@ -4923,7 +5866,7 @@
           "text": "Planning"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "imports/normalized/melissa-copy.comments.md",
@@ -5501,7 +6444,7 @@
           "text": "Comment 10"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "imports/normalized/melissa-copy.md",
@@ -5924,12 +6867,12 @@
           "text": "Ch29 summary"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "outline/arcs/thread-davian-identity-guilt.md",
       "category": "outline",
-      "line_count": 36,
+      "line_count": 49,
       "headings": [
         {
           "line": 11,
@@ -5942,17 +6885,22 @@
           "text": "Approved Arc Direction"
         },
         {
-          "line": 23,
+          "line": 27,
           "level": 2,
           "text": "Deferred"
         },
         {
-          "line": 30,
+          "line": 34,
+          "level": 2,
+          "text": "Related Arcs"
+        },
+        {
+          "line": 40,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "outline/arcs/thread-elric-reality-skein.md",
@@ -5995,7 +6943,65 @@
           "text": "Related Files"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "outline/arcs/thread-high-clade-politics.md",
+      "category": "outline",
+      "line_count": 139,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "High Clade Politics and Archeon Conflict"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "Approved Core"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Drakhal, Archeon, and Vorren"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "Spire Provocation"
+        },
+        {
+          "line": 62,
+          "level": 2,
+          "text": "Niall and Maya"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "Other High Clades"
+        },
+        {
+          "line": 78,
+          "level": 2,
+          "text": "Developmental Profile"
+        },
+        {
+          "line": 90,
+          "level": 2,
+          "text": "Outline Constraints"
+        },
+        {
+          "line": 102,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 126,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "outline/arcs/thread-kelyra-archeon-recovery.md",
@@ -6028,7 +7034,60 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "outline/arcs/thread-maya-davian-romance.md",
+      "category": "outline",
+      "line_count": 104,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Maya / Davian Romance and Trust Arc"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "Approved Core"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "Misreading and Development"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "Kiss, Betrayal, and Fallout"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Endgame Resurrection"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Developmental Profile"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "Outline Constraints"
+        },
+        {
+          "line": 82,
+          "level": 2,
+          "text": "Related Files"
+        },
+        {
+          "line": 95,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "outline/arcs/thread-niall-grief-recovery.md",
@@ -6061,7 +7120,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-alara.md",
@@ -6109,7 +7168,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-aldira.md",
@@ -6157,7 +7216,40 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-arrek.md",
+      "category": "candidate",
+      "line_count": 41,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Arrek Hadrin"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Personal Detail"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Cousins and Debt Contracts"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Murder and Aura Capture"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "Revision Cleanup"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-caius-drakhal.md",
@@ -6195,7 +7287,7 @@
           "text": "Naming and Future Use"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-davian.md",
@@ -6233,7 +7325,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-elric.md",
@@ -6271,7 +7363,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-erynn.md",
@@ -6319,7 +7411,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-harvick.md",
@@ -6357,7 +7449,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-jalen.md",
@@ -6390,7 +7482,73 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-kael.md",
+      "category": "candidate",
+      "line_count": 35,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Kael"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Personal Detail"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Knowledge State"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Plot and Future Use"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-karra.md",
+      "category": "candidate",
+      "line_count": 46,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Karra"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Backstory and Concord Life"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Sorevin Job"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "Harbinger Manipulation"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "Trial and Evacuation"
+        },
+        {
+          "line": 42,
+          "level": 2,
+          "text": "Future Role"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-kelyra.md",
@@ -6423,7 +7581,45 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-marek.md",
+      "category": "candidate",
+      "line_count": 44,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Marek"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Background"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Supervisor Role"
+        },
+        {
+          "line": 28,
+          "level": 2,
+          "text": "Davian / Arrek"
+        },
+        {
+          "line": 36,
+          "level": 2,
+          "text": "Worker Relationships"
+        },
+        {
+          "line": 42,
+          "level": 2,
+          "text": "Post-Theft Fate"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-maya.md",
@@ -6461,7 +7657,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-niall.md",
@@ -6499,7 +7695,45 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-selina.md",
+      "category": "candidate",
+      "line_count": 49,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Selina"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Personal Detail"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Death Event"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Davian's False Understanding"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "Object History"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "Later-Book Potential"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-selwin.md",
@@ -6537,7 +7771,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-serathis.md",
@@ -6575,7 +7809,7 @@
           "text": "Creator / Sheol Dialogue"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-tanelle.md",
@@ -6608,7 +7842,7 @@
           "text": "Technical and Plot Uses"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/characters/char-vorren.md",
@@ -6646,7 +7880,45 @@
           "text": "Breeding Contract"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/characters/char-zirene.md",
+      "category": "candidate",
+      "line_count": 53,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Zirene"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Backstory and Status"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Workshop and Security"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Zä and Craft Lineage"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "Device Mechanics"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Story Use"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/cultures/culture-clade-hierarchy.md",
@@ -6674,7 +7946,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/cultures/culture-creator-sheol.md",
@@ -6707,7 +7979,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/cultures/culture-magus-presentation.md",
@@ -6735,7 +8007,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/cultures/culture-naeroth-lineages.md",
@@ -6763,7 +8035,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/cultures/culture-number-system-zan-script.md",
@@ -6773,7 +8045,7 @@
         {
           "line": 10,
           "level": 1,
-          "text": "Number System / Zán Script Candidates"
+          "text": "Number System / Zän Script Candidates"
         },
         {
           "line": 12,
@@ -6801,7 +8073,111 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/events/event-harbinger-raid.md",
+      "category": "candidate",
+      "line_count": 55,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: Harbinger Betrayal / Trial of Dominion and Kelyra Capture"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Deferred Trial Details"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Harbinger Setup Details"
+        },
+        {
+          "line": 36,
+          "level": 2,
+          "text": "Capture and Fallout Details"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Ink Mechanic Candidate"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "Later Event Boundary"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/events/event-heart-theft.md",
+      "category": "candidate",
+      "line_count": 45,
+      "headings": [
+        {
+          "line": 10,
+          "level": 1,
+          "text": "Heart Theft / Treasury Breach Candidates"
+        },
+        {
+          "line": 12,
+          "level": 2,
+          "text": "Deferred Choreography and Dialogue"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "Deferred Mechanics"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Deferred Logistics and Staging"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "Accepted Direction To Preserve"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/events/event-maya-presentation.md",
+      "category": "candidate",
+      "line_count": 42,
+      "headings": [
+        {
+          "line": 10,
+          "level": 1,
+          "text": "Maya's Presentation Candidates"
+        },
+        {
+          "line": 12,
+          "level": 2,
+          "text": "Deferred Speech and Ritual Material"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Deferred Display and Staging Material"
+        },
+        {
+          "line": 28,
+          "level": 2,
+          "text": "Deferred Fallout Material"
+        },
+        {
+          "line": 36,
+          "level": 2,
+          "text": "Accepted Direction To Preserve"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-archeon.md",
@@ -6849,7 +8225,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-concord-manor.md",
@@ -6892,7 +8268,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-registry.md",
@@ -6935,7 +8311,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-rezin-citadel.md",
@@ -6968,7 +8344,7 @@
           "text": "Future Security Candidates"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-sorevin-redbridge.md",
@@ -7006,7 +8382,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-spire.md",
@@ -7049,7 +8425,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/locations/loc-treasury.md",
@@ -7092,7 +8468,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-antithesis.md",
@@ -7135,7 +8511,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-codex-memory.md",
@@ -7178,7 +8554,7 @@
           "text": "Object Boundary"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-fateweaving-skein.md",
@@ -7241,12 +8617,12 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-ink-boons.md",
       "category": "candidate",
-      "line_count": 99,
+      "line_count": 101,
       "headings": [
         {
           "line": 11,
@@ -7269,37 +8645,37 @@
           "text": "Transfer Mechanics"
         },
         {
-          "line": 39,
+          "line": 41,
           "level": 2,
           "text": "Ink and Shroud Interaction"
         },
         {
-          "line": 51,
+          "line": 53,
           "level": 2,
           "text": "Healing Limits"
         },
         {
-          "line": 63,
+          "line": 65,
           "level": 2,
           "text": "Derivative and Later-Book Ink Pacts"
         },
         {
-          "line": 73,
+          "line": 75,
           "level": 2,
           "text": "Elric, Fate, and Ink Pool Mechanics"
         },
         {
-          "line": 82,
+          "line": 84,
           "level": 2,
           "text": "Zirene and Skin-Etched Zanwork"
         },
         {
-          "line": 88,
+          "line": 90,
           "level": 2,
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-shroud.md",
@@ -7342,7 +8718,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-subversion.md",
@@ -7395,7 +8771,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/magic/magic-zan-lattices.md",
@@ -7405,7 +8781,7 @@
         {
           "line": 11,
           "level": 1,
-          "text": "Zán Candidate Material"
+          "text": "Zän Candidate Material"
         },
         {
           "line": 15,
@@ -7420,22 +8796,22 @@
         {
           "line": 36,
           "level": 2,
-          "text": "Number System and Nizán"
+          "text": "Number System and Nizän"
         },
         {
           "line": 49,
           "level": 2,
-          "text": "Archetypal and Conceptual Zán"
+          "text": "Archetypal and Conceptual Zän"
         },
         {
           "line": 58,
           "level": 2,
-          "text": "Person-Specific Zán"
+          "text": "Person-Specific Zän"
         },
         {
           "line": 69,
           "level": 2,
-          "text": "Skein-Layer Zán"
+          "text": "Skein-Layer Zän"
         },
         {
           "line": 78,
@@ -7463,7 +8839,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-alara-journal.md",
@@ -7491,12 +8867,12 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-antithesis.md",
       "category": "candidate",
-      "line_count": 49,
+      "line_count": 52,
       "headings": [
         {
           "line": 10,
@@ -7509,22 +8885,22 @@
           "text": "Resolved by Approved Object Record"
         },
         {
-          "line": 24,
+          "line": 26,
           "level": 2,
           "text": "Remaining Candidate Details"
         },
         {
-          "line": 35,
+          "line": 38,
           "level": 2,
           "text": "Obsolete Material"
         },
         {
-          "line": 42,
+          "line": 45,
           "level": 2,
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-davian-mask.md",
@@ -7557,7 +8933,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-haloes.md",
@@ -7585,7 +8961,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-paradox.md",
@@ -7618,7 +8994,7 @@
           "text": "Routing"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/objects/object-seraph-heart.md",
@@ -7646,7 +9022,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-archeon.md",
@@ -7684,7 +9060,7 @@
           "text": "Related Future Reviews"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-concord.md",
@@ -7712,7 +9088,7 @@
           "text": "Concord Chronology and Manuscript Repair"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-drakhal.md",
@@ -7755,7 +9131,7 @@
           "text": "Related Future Reviews"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-harbingers-syndicate.md",
@@ -7798,7 +9174,7 @@
           "text": "Masked Clades and Public Face"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-high-clades.md",
@@ -7841,7 +9217,7 @@
           "text": "Social and Cultural Material"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-registry.md",
@@ -7874,7 +9250,7 @@
           "text": "Repair and Future Work"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "planning/candidates/organizations/org-rezin.md",
@@ -7912,7 +9288,78 @@
           "text": "Deferred Dependencies"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/threads/thread-high-clade-politics.md",
+      "category": "candidate",
+      "line_count": 45,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Candidate Material: High Clade Politics and Archeon Conflict"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Deferred High Clade Details"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Political Sequence Details"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Endgame and Fallout"
+        },
+        {
+          "line": 40,
+          "level": 2,
+          "text": "Obsolete or Superseded Source Routing"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "planning/candidates/threads/thread-maya-davian-romance.md",
+      "category": "candidate",
+      "line_count": 62,
+      "headings": [
+        {
+          "line": 11,
+          "level": 1,
+          "text": "Maya / Davian Romance and Trust Arc Candidates"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Scene Placement and Pacing"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Wall-Scene / Confession Material"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "Endgame and Relationship Resolution"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "Prose / Future-Phase Notes"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "Provenance"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-alara.md",
@@ -8035,7 +9482,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-aldira.md",
@@ -8173,7 +9620,110 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/characters/char-arrek.md",
+      "category": "review packet",
+      "line_count": 197,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Arrek Review Packet"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Why This Entity Matters"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 33,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 64,
+          "level": 3,
+          "text": "Bullet Notes and Comments"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "Existing Decisions and Accepted Dependencies"
+        },
+        {
+          "line": 82,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 91,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 109,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 120,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 134,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 142,
+          "level": 2,
+          "text": "Candidate / Flavor Bank"
+        },
+        {
+          "line": 156,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 164,
+          "level": 2,
+          "text": "Proposed File Changes"
+        },
+        {
+          "line": 171,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 179,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 183,
+          "level": 2,
+          "text": "Author Decisions"
+        },
+        {
+          "line": 191,
+          "level": 2,
+          "text": "Required Decisions"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-caius-drakhal.md",
@@ -8301,7 +9851,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-davian.md",
@@ -8409,7 +9959,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-elric.md",
@@ -8517,7 +10067,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-erynn.md",
@@ -8650,7 +10200,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-harvick.md",
@@ -8753,7 +10303,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-jalen.md",
@@ -8856,7 +10406,208 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/characters/char-kael.md",
+      "category": "review packet",
+      "line_count": 142,
+      "headings": [
+        {
+          "line": 12,
+          "level": 1,
+          "text": "Kael Review Packet"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Why This Entity Matters"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 28,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 37,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "Existing Decisions and Accepted Dependencies"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 58,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 95,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 105,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 112,
+          "level": 2,
+          "text": "Proposed File Changes"
+        },
+        {
+          "line": 119,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 126,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 130,
+          "level": 2,
+          "text": "Required Decisions"
+        },
+        {
+          "line": 137,
+          "level": 2,
+          "text": "Author Decisions"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/characters/char-karra.md",
+      "category": "review packet",
+      "line_count": 173,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Karra Review Packet"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Why This Entity Matters"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 52,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "Existing Decisions and Accepted Dependencies"
+        },
+        {
+          "line": 68,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 95,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 115,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 123,
+          "level": 2,
+          "text": "Candidate / Flavor Bank"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 140,
+          "level": 2,
+          "text": "Proposed File Changes"
+        },
+        {
+          "line": 147,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 155,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 159,
+          "level": 2,
+          "text": "Author Decisions"
+        },
+        {
+          "line": 167,
+          "level": 2,
+          "text": "Required Decisions"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-kelyra.md",
@@ -8959,12 +10710,12 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-marek.md",
       "category": "review packet",
-      "line_count": 113,
+      "line_count": 120,
       "headings": [
         {
           "line": 13,
@@ -9039,10 +10790,15 @@
         {
           "line": 107,
           "level": 2,
+          "text": "Author Decisions"
+        },
+        {
+          "line": 114,
+          "level": 2,
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-maya.md",
@@ -9150,7 +10906,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-niall.md",
@@ -9253,7 +11009,110 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/characters/char-selina.md",
+      "category": "review packet",
+      "line_count": 194,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Selina Review Packet"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 23,
+          "level": 2,
+          "text": "Why This Entity Matters"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 33,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 54,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 65,
+          "level": 3,
+          "text": "Existing Decisions and Accepted Dependencies"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 115,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 129,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 141,
+          "level": 2,
+          "text": "Candidate / Flavor Bank"
+        },
+        {
+          "line": 153,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 160,
+          "level": 2,
+          "text": "Proposed File Changes"
+        },
+        {
+          "line": 167,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 175,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 179,
+          "level": 2,
+          "text": "Author Decisions"
+        },
+        {
+          "line": 188,
+          "level": 2,
+          "text": "Required Decisions"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-selwin.md",
@@ -9356,7 +11215,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-serathis.md",
@@ -9494,7 +11353,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-tanelle.md",
@@ -9612,7 +11471,7 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/characters/char-vorren.md",
@@ -9740,7 +11599,100 @@
           "text": "Proposed File Changes After Approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/characters/char-zirene.md",
+      "category": "review packet",
+      "line_count": 149,
+      "headings": [
+        {
+          "line": 13,
+          "level": 1,
+          "text": "Zirene Review Packet"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "Why This Entity Matters"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 46,
+          "level": 3,
+          "text": "Planning / Candidate-Established"
+        },
+        {
+          "line": 54,
+          "level": 3,
+          "text": "Existing Accepted Records"
+        },
+        {
+          "line": 63,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 84,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 113,
+          "level": 2,
+          "text": "Book Improvements Unlocked By This Review"
+        },
+        {
+          "line": 121,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 127,
+          "level": 2,
+          "text": "Required Decisions"
+        },
+        {
+          "line": 135,
+          "level": 2,
+          "text": "Author Decisions"
+        },
+        {
+          "line": 143,
+          "level": 2,
+          "text": "Proposed File Changes After Approval"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/cultures/culture-clade-hierarchy.md",
@@ -9793,7 +11745,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/cultures/culture-creator-sheol.md",
@@ -9846,7 +11798,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/cultures/culture-magus-presentation.md",
@@ -9899,7 +11851,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/cultures/culture-naeroth-lineages.md",
@@ -9952,7 +11904,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/cultures/culture-number-system-zan-script.md",
@@ -10020,7 +11972,341 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/events/event-harbinger-raid.md",
+      "category": "review packet",
+      "line_count": 189,
+      "headings": [
+        {
+          "line": 12,
+          "level": 1,
+          "text": "Harbinger Betrayal / Trial of Dominion and Kelyra Capture Review Packet"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Why This Event Matters"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 28,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 50,
+          "level": 3,
+          "text": "Existing Accepted Decisions"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "Contradictions and Obsolete Material"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "Potential Outline or Scene Uses"
+        },
+        {
+          "line": 100,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 123,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 131,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 143,
+          "level": 2,
+          "text": "What Does Not Need to Be Defined Now"
+        },
+        {
+          "line": 152,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 158,
+          "level": 2,
+          "text": "Proposed File Changes After Approval"
+        },
+        {
+          "line": 167,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 175,
+          "level": 2,
+          "text": "Required Author Decisions"
+        },
+        {
+          "line": 183,
+          "level": 2,
+          "text": "Author Response"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/events/event-heart-theft.md",
+      "category": "review packet",
+      "line_count": 219,
+      "headings": [
+        {
+          "line": 14,
+          "level": 1,
+          "text": "Heart Theft / Treasury Breach Review Packet"
+        },
+        {
+          "line": 16,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "Why This Event Matters"
+        },
+        {
+          "line": 33,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 64,
+          "level": 3,
+          "text": "Approved Dependencies"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 95,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 123,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 138,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 150,
+          "level": 2,
+          "text": "Potential Outline or Scene Uses"
+        },
+        {
+          "line": 159,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 168,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 176,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 182,
+          "level": 2,
+          "text": "Proposed File Changes After Approval"
+        },
+        {
+          "line": 202,
+          "level": 2,
+          "text": "Required Decisions"
+        },
+        {
+          "line": 210,
+          "level": 2,
+          "text": "Author Resolution"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/events/event-maya-presentation.md",
+      "category": "review packet",
+      "line_count": 217,
+      "headings": [
+        {
+          "line": 14,
+          "level": 1,
+          "text": "Maya's Presentation Review Packet"
+        },
+        {
+          "line": 16,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "Why This Event Matters"
+        },
+        {
+          "line": 33,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 47,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "Feedback / Comments"
+        },
+        {
+          "line": 64,
+          "level": 3,
+          "text": "Approved Dependencies"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 94,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 109,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 121,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 135,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 146,
+          "level": 2,
+          "text": "Potential Outline or Scene Uses"
+        },
+        {
+          "line": 156,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 166,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 175,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 181,
+          "level": 2,
+          "text": "Proposed File Changes After Approval"
+        },
+        {
+          "line": 197,
+          "level": 2,
+          "text": "Required Decisions"
+        },
+        {
+          "line": 205,
+          "level": 2,
+          "text": "Author Resolution"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-archeon.md",
@@ -10118,7 +12404,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-concord-manor.md",
@@ -10206,7 +12492,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-registry.md",
@@ -10294,7 +12580,7 @@
           "text": "Proposed file changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-rezin-citadel.md",
@@ -10387,7 +12673,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-sorevin-redbridge.md",
@@ -10480,7 +12766,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-spire.md",
@@ -10578,7 +12864,7 @@
           "text": "File changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/locations/loc-treasury.md",
@@ -10666,7 +12952,7 @@
           "text": "Proposed file changes after approval"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-antithesis.md",
@@ -10789,7 +13075,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-codex-memory.md",
@@ -10912,7 +13198,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-fateweaving-skein.md",
@@ -11065,7 +13351,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-ink-boons.md",
@@ -11243,7 +13529,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-shroud.md",
@@ -11416,7 +13702,7 @@
           "text": "Approved file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-subversion.md",
@@ -11559,7 +13845,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/magic/magic-zan-lattices.md",
@@ -11717,7 +14003,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-alara-journal.md",
@@ -11800,7 +14086,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-antithesis.md",
@@ -11878,7 +14164,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-davian-mask.md",
@@ -11951,7 +14237,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-haloes.md",
@@ -12009,7 +14295,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-paradox.md",
@@ -12082,7 +14368,7 @@
           "text": "Approval result"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/objects/object-seraph-heart.md",
@@ -12155,7 +14441,7 @@
           "text": "Author decisions on 2026-06-25"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-archeon.md",
@@ -12258,7 +14544,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-concord.md",
@@ -12376,7 +14662,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-drakhal.md",
@@ -12474,7 +14760,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-harbingers-syndicate.md",
@@ -12577,7 +14863,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-high-clades.md",
@@ -12675,7 +14961,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-registry.md",
@@ -12793,7 +15079,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/organizations/org-rezin.md",
@@ -12891,7 +15177,7 @@
           "text": "Proposed file changes"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/threads/thread-davian-identity-guilt.md",
@@ -12914,7 +15200,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/threads/thread-elric-reality-skein.md",
@@ -12937,7 +15223,120 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/threads/thread-high-clade-politics.md",
+      "category": "review packet",
+      "line_count": 222,
+      "headings": [
+        {
+          "line": 14,
+          "level": 1,
+          "text": "High Clade Politics and Archeon Conflict Review"
+        },
+        {
+          "line": 16,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "Why This Thread Matters"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "Approved Records and Decisions"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 106,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 118,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 132,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 143,
+          "level": 2,
+          "text": "Contradictions / Routing Issues"
+        },
+        {
+          "line": 151,
+          "level": 2,
+          "text": "Potential Outline or Scene Uses"
+        },
+        {
+          "line": 160,
+          "level": 2,
+          "text": "What Does Not Need to Be Defined Now"
+        },
+        {
+          "line": 169,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 178,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 184,
+          "level": 2,
+          "text": "Proposed File Changes After Approval"
+        },
+        {
+          "line": 201,
+          "level": 2,
+          "text": "Required Decisions"
+        },
+        {
+          "line": 209,
+          "level": 2,
+          "text": "Author Resolution"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/threads/thread-kelyra-archeon-recovery.md",
@@ -12960,7 +15359,135 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
+    },
+    {
+      "path": "reviews/entities/threads/thread-maya-davian-romance.md",
+      "category": "review packet",
+      "line_count": 188,
+      "headings": [
+        {
+          "line": 12,
+          "level": 1,
+          "text": "Maya / Davian Romance and Trust Arc Review Packet"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Review Depth"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Why This Thread Matters"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "Source-Backed Information"
+        },
+        {
+          "line": 32,
+          "level": 3,
+          "text": "Manuscript-Established"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "Planning-Established"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "Existing Decisions and Accepted Dependencies"
+        },
+        {
+          "line": 63,
+          "level": 2,
+          "text": "Current Narrative Functions"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "Relationships and Conflicts That Create Story"
+        },
+        {
+          "line": 74,
+          "level": 3,
+          "text": "Attraction Versus Misreading"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "Trust Versus Shroud"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "Person Versus Symbol"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "Betrayal Versus Real Feeling"
+        },
+        {
+          "line": 93,
+          "level": 3,
+          "text": "Rescue Versus Manipulation"
+        },
+        {
+          "line": 97,
+          "level": 2,
+          "text": "Continuity Constraints"
+        },
+        {
+          "line": 108,
+          "level": 2,
+          "text": "Proposed Canon Core"
+        },
+        {
+          "line": 118,
+          "level": 2,
+          "text": "Proposed Developmental Profile"
+        },
+        {
+          "line": 130,
+          "level": 2,
+          "text": "Proposed Candidate / Flavor Bank"
+        },
+        {
+          "line": 141,
+          "level": 2,
+          "text": "What Does Not Need To Be Defined Now"
+        },
+        {
+          "line": 149,
+          "level": 2,
+          "text": "Proposed File Changes"
+        },
+        {
+          "line": 156,
+          "level": 2,
+          "text": "Book Improvements Unlocked"
+        },
+        {
+          "line": 164,
+          "level": 2,
+          "text": "Outline Readiness"
+        },
+        {
+          "line": 170,
+          "level": 2,
+          "text": "Author Resolution"
+        },
+        {
+          "line": 182,
+          "level": 2,
+          "text": "Required Decisions"
+        }
+      ],
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "reviews/entities/threads/thread-niall-grief-recovery.md",
@@ -12983,7 +15510,7 @@
           "text": "Next review task"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     },
     {
       "path": "revision/prologue/maya-shroud-attack.md",
@@ -13016,7 +15543,7 @@
           "text": "Provenance"
         }
       ],
-      "last_generated_commit_hash": "370078e90a36bc373211fc6a4d1867c7f8b69ee9"
+      "last_generated_commit_hash": "d0245dc783de3698fadc4af23864e7534ecfb73c"
     }
   ],
   "file_tree": {
@@ -13046,18 +15573,25 @@
                 "line_count": 151
               },
               {
+                "name": "char-arrek.md",
+                "type": "file",
+                "path": "bible/characters/char-arrek.md",
+                "category": "bible",
+                "line_count": 107
+              },
+              {
                 "name": "char-caius-drakhal.md",
                 "type": "file",
                 "path": "bible/characters/char-caius-drakhal.md",
                 "category": "bible",
-                "line_count": 121
+                "line_count": 128
               },
               {
                 "name": "char-davian.md",
                 "type": "file",
                 "path": "bible/characters/char-davian.md",
                 "category": "bible",
-                "line_count": 201
+                "line_count": 250
               },
               {
                 "name": "char-elric.md",
@@ -13078,63 +15612,98 @@
                 "type": "file",
                 "path": "bible/characters/char-harvick.md",
                 "category": "bible",
-                "line_count": 115
+                "line_count": 122
               },
               {
                 "name": "char-jalen.md",
                 "type": "file",
                 "path": "bible/characters/char-jalen.md",
                 "category": "bible",
-                "line_count": 99
+                "line_count": 113
+              },
+              {
+                "name": "char-kael.md",
+                "type": "file",
+                "path": "bible/characters/char-kael.md",
+                "category": "bible",
+                "line_count": 93
+              },
+              {
+                "name": "char-karra.md",
+                "type": "file",
+                "path": "bible/characters/char-karra.md",
+                "category": "bible",
+                "line_count": 109
               },
               {
                 "name": "char-kelyra.md",
                 "type": "file",
                 "path": "bible/characters/char-kelyra.md",
                 "category": "bible",
-                "line_count": 144
+                "line_count": 173
+              },
+              {
+                "name": "char-marek.md",
+                "type": "file",
+                "path": "bible/characters/char-marek.md",
+                "category": "bible",
+                "line_count": 96
               },
               {
                 "name": "char-maya.md",
                 "type": "file",
                 "path": "bible/characters/char-maya.md",
                 "category": "bible",
-                "line_count": 181
+                "line_count": 204
               },
               {
                 "name": "char-niall.md",
                 "type": "file",
                 "path": "bible/characters/char-niall.md",
                 "category": "bible",
-                "line_count": 150
+                "line_count": 171
+              },
+              {
+                "name": "char-selina.md",
+                "type": "file",
+                "path": "bible/characters/char-selina.md",
+                "category": "bible",
+                "line_count": 128
               },
               {
                 "name": "char-selwin.md",
                 "type": "file",
                 "path": "bible/characters/char-selwin.md",
                 "category": "bible",
-                "line_count": 95
+                "line_count": 99
               },
               {
                 "name": "char-serathis.md",
                 "type": "file",
                 "path": "bible/characters/char-serathis.md",
                 "category": "bible",
-                "line_count": 124
+                "line_count": 130
               },
               {
                 "name": "char-tanelle.md",
                 "type": "file",
                 "path": "bible/characters/char-tanelle.md",
                 "category": "bible",
-                "line_count": 93
+                "line_count": 95
               },
               {
                 "name": "char-vorren.md",
                 "type": "file",
                 "path": "bible/characters/char-vorren.md",
                 "category": "bible",
-                "line_count": 114
+                "line_count": 122
+              },
+              {
+                "name": "char-zirene.md",
+                "type": "file",
+                "path": "bible/characters/char-zirene.md",
+                "category": "bible",
+                "line_count": 151
               }
             ]
           },
@@ -13161,7 +15730,7 @@
                 "type": "file",
                 "path": "bible/cultures/culture-magus-presentation.md",
                 "category": "bible",
-                "line_count": 98
+                "line_count": 103
               },
               {
                 "name": "culture-naeroth-lineages.md",
@@ -13175,7 +15744,34 @@
                 "type": "file",
                 "path": "bible/cultures/culture-number-system-zan-script.md",
                 "category": "bible",
-                "line_count": 113
+                "line_count": 114
+              }
+            ]
+          },
+          {
+            "name": "events",
+            "type": "folder",
+            "children": [
+              {
+                "name": "event-harbinger-raid.md",
+                "type": "file",
+                "path": "bible/events/event-harbinger-raid.md",
+                "category": "bible",
+                "line_count": 128
+              },
+              {
+                "name": "event-heart-theft.md",
+                "type": "file",
+                "path": "bible/events/event-heart-theft.md",
+                "category": "bible",
+                "line_count": 148
+              },
+              {
+                "name": "event-maya-presentation.md",
+                "type": "file",
+                "path": "bible/events/event-maya-presentation.md",
+                "category": "bible",
+                "line_count": 150
               }
             ]
           },
@@ -13188,21 +15784,21 @@
                 "type": "file",
                 "path": "bible/locations/loc-archeon.md",
                 "category": "bible",
-                "line_count": 99
+                "line_count": 102
               },
               {
                 "name": "loc-concord-manor.md",
                 "type": "file",
                 "path": "bible/locations/loc-concord-manor.md",
                 "category": "bible",
-                "line_count": 91
+                "line_count": 101
               },
               {
                 "name": "loc-registry.md",
                 "type": "file",
                 "path": "bible/locations/loc-registry.md",
                 "category": "bible",
-                "line_count": 99
+                "line_count": 103
               },
               {
                 "name": "loc-rezin-citadel.md",
@@ -13216,21 +15812,21 @@
                 "type": "file",
                 "path": "bible/locations/loc-sorevin-redbridge.md",
                 "category": "bible",
-                "line_count": 86
+                "line_count": 88
               },
               {
                 "name": "loc-spire.md",
                 "type": "file",
                 "path": "bible/locations/loc-spire.md",
                 "category": "bible",
-                "line_count": 92
+                "line_count": 97
               },
               {
                 "name": "loc-treasury.md",
                 "type": "file",
                 "path": "bible/locations/loc-treasury.md",
                 "category": "bible",
-                "line_count": 109
+                "line_count": 118
               }
             ]
           },
@@ -13257,14 +15853,14 @@
                 "type": "file",
                 "path": "bible/magic/magic-fateweaving-skein.md",
                 "category": "bible",
-                "line_count": 129
+                "line_count": 133
               },
               {
                 "name": "magic-ink-boons.md",
                 "type": "file",
                 "path": "bible/magic/magic-ink-boons.md",
                 "category": "bible",
-                "line_count": 165
+                "line_count": 170
               },
               {
                 "name": "magic-shroud.md",
@@ -13285,7 +15881,7 @@
                 "type": "file",
                 "path": "bible/magic/magic-zan-lattices.md",
                 "category": "bible",
-                "line_count": 142
+                "line_count": 144
               }
             ]
           },
@@ -13305,14 +15901,14 @@
                 "type": "file",
                 "path": "bible/objects/object-antithesis.md",
                 "category": "bible",
-                "line_count": 108
+                "line_count": 122
               },
               {
                 "name": "object-davian-mask.md",
                 "type": "file",
                 "path": "bible/objects/object-davian-mask.md",
                 "category": "bible",
-                "line_count": 86
+                "line_count": 88
               },
               {
                 "name": "object-haloes.md",
@@ -13326,14 +15922,14 @@
                 "type": "file",
                 "path": "bible/objects/object-paradox.md",
                 "category": "bible",
-                "line_count": 89
+                "line_count": 95
               },
               {
                 "name": "object-seraph-heart.md",
                 "type": "file",
                 "path": "bible/objects/object-seraph-heart.md",
                 "category": "bible",
-                "line_count": 120
+                "line_count": 129
               }
             ]
           },
@@ -13346,49 +15942,49 @@
                 "type": "file",
                 "path": "bible/organizations/org-archeon.md",
                 "category": "bible",
-                "line_count": 154
+                "line_count": 157
               },
               {
                 "name": "org-concord.md",
                 "type": "file",
                 "path": "bible/organizations/org-concord.md",
                 "category": "bible",
-                "line_count": 112
+                "line_count": 127
               },
               {
                 "name": "org-drakhal.md",
                 "type": "file",
                 "path": "bible/organizations/org-drakhal.md",
                 "category": "bible",
-                "line_count": 100
+                "line_count": 113
               },
               {
                 "name": "org-harbingers-syndicate.md",
                 "type": "file",
                 "path": "bible/organizations/org-harbingers-syndicate.md",
                 "category": "bible",
-                "line_count": 107
+                "line_count": 117
               },
               {
                 "name": "org-high-clades.md",
                 "type": "file",
                 "path": "bible/organizations/org-high-clades.md",
                 "category": "bible",
-                "line_count": 148
+                "line_count": 158
               },
               {
                 "name": "org-registry.md",
                 "type": "file",
                 "path": "bible/organizations/org-registry.md",
                 "category": "bible",
-                "line_count": 105
+                "line_count": 110
               },
               {
                 "name": "org-rezin.md",
                 "type": "file",
                 "path": "bible/organizations/org-rezin.md",
                 "category": "bible",
-                "line_count": 114
+                "line_count": 119
               }
             ]
           }
@@ -13742,11 +16338,95 @@
             "line_count": 33
           },
           {
+            "name": "0050-marek-supervisor-role-and-davian-tutoring.md",
+            "type": "file",
+            "path": "decisions/0050-marek-supervisor-role-and-davian-tutoring.md",
+            "category": "decision",
+            "line_count": 42
+          },
+          {
+            "name": "0051-zan-spelling-convention-correction.md",
+            "type": "file",
+            "path": "decisions/0051-zan-spelling-convention-correction.md",
+            "category": "decision",
+            "line_count": 32
+          },
+          {
+            "name": "0052-zirene-technical-neutrality-and-device-boundaries.md",
+            "type": "file",
+            "path": "decisions/0052-zirene-technical-neutrality-and-device-boundaries.md",
+            "category": "decision",
+            "line_count": 59
+          },
+          {
+            "name": "0053-karra-concord-challenge-and-evacuation-role.md",
+            "type": "file",
+            "path": "decisions/0053-karra-concord-challenge-and-evacuation-role.md",
+            "category": "decision",
+            "line_count": 37
+          },
+          {
+            "name": "0054-arrek-identity-murder-and-debt-family-context.md",
+            "type": "file",
+            "path": "decisions/0054-arrek-identity-murder-and-debt-family-context.md",
+            "category": "decision",
+            "line_count": 40
+          },
+          {
+            "name": "0055-selina-death-family-myth-and-object-links.md",
+            "type": "file",
+            "path": "decisions/0055-selina-death-family-myth-and-object-links.md",
+            "category": "decision",
+            "line_count": 44
+          },
+          {
+            "name": "0056-kael-brief-role-and-davian-selwin-mirror.md",
+            "type": "file",
+            "path": "decisions/0056-kael-brief-role-and-davian-selwin-mirror.md",
+            "category": "decision",
+            "line_count": 34
+          },
+          {
+            "name": "0057-maya-davian-romance-trust-architecture.md",
+            "type": "file",
+            "path": "decisions/0057-maya-davian-romance-trust-architecture.md",
+            "category": "decision",
+            "line_count": 36
+          },
+          {
+            "name": "0058-high-clade-politics-archeon-trap.md",
+            "type": "file",
+            "path": "decisions/0058-high-clade-politics-archeon-trap.md",
+            "category": "decision",
+            "line_count": 40
+          },
+          {
+            "name": "0059-maya-presentation-event-architecture.md",
+            "type": "file",
+            "path": "decisions/0059-maya-presentation-event-architecture.md",
+            "category": "decision",
+            "line_count": 45
+          },
+          {
+            "name": "0060-heart-theft-event-architecture.md",
+            "type": "file",
+            "path": "decisions/0060-heart-theft-event-architecture.md",
+            "category": "decision",
+            "line_count": 42
+          },
+          {
+            "name": "0061-harbinger-betrayal-trial-and-kelyra-capture.md",
+            "type": "file",
+            "path": "decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md",
+            "category": "decision",
+            "line_count": 42
+          },
+          {
             "name": "index.md",
             "type": "file",
             "path": "decisions/index.md",
             "category": "decision",
-            "line_count": 57
+            "line_count": 69
           }
         ]
       },
@@ -13763,7 +16443,7 @@
                 "type": "file",
                 "path": "feedback/webapp/README.md",
                 "category": "feedback",
-                "line_count": 29
+                "line_count": 86
               }
             ]
           }
@@ -13829,7 +16509,7 @@
                 "type": "file",
                 "path": "outline/arcs/thread-davian-identity-guilt.md",
                 "category": "outline",
-                "line_count": 36
+                "line_count": 49
               },
               {
                 "name": "thread-elric-reality-skein.md",
@@ -13839,11 +16519,25 @@
                 "line_count": 62
               },
               {
+                "name": "thread-high-clade-politics.md",
+                "type": "file",
+                "path": "outline/arcs/thread-high-clade-politics.md",
+                "category": "outline",
+                "line_count": 139
+              },
+              {
                 "name": "thread-kelyra-archeon-recovery.md",
                 "type": "file",
                 "path": "outline/arcs/thread-kelyra-archeon-recovery.md",
                 "category": "outline",
                 "line_count": 52
+              },
+              {
+                "name": "thread-maya-davian-romance.md",
+                "type": "file",
+                "path": "outline/arcs/thread-maya-davian-romance.md",
+                "category": "outline",
+                "line_count": 104
               },
               {
                 "name": "thread-niall-grief-recovery.md",
@@ -13881,6 +16575,13 @@
                     "path": "planning/candidates/characters/char-aldira.md",
                     "category": "candidate",
                     "line_count": 79
+                  },
+                  {
+                    "name": "char-arrek.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-arrek.md",
+                    "category": "candidate",
+                    "line_count": 41
                   },
                   {
                     "name": "char-caius-drakhal.md",
@@ -13925,11 +16626,32 @@
                     "line_count": 39
                   },
                   {
+                    "name": "char-kael.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-kael.md",
+                    "category": "candidate",
+                    "line_count": 35
+                  },
+                  {
+                    "name": "char-karra.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-karra.md",
+                    "category": "candidate",
+                    "line_count": 46
+                  },
+                  {
                     "name": "char-kelyra.md",
                     "type": "file",
                     "path": "planning/candidates/characters/char-kelyra.md",
                     "category": "candidate",
                     "line_count": 48
+                  },
+                  {
+                    "name": "char-marek.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-marek.md",
+                    "category": "candidate",
+                    "line_count": 44
                   },
                   {
                     "name": "char-maya.md",
@@ -13944,6 +16666,13 @@
                     "path": "planning/candidates/characters/char-niall.md",
                     "category": "candidate",
                     "line_count": 51
+                  },
+                  {
+                    "name": "char-selina.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-selina.md",
+                    "category": "candidate",
+                    "line_count": 49
                   },
                   {
                     "name": "char-selwin.md",
@@ -13972,6 +16701,13 @@
                     "path": "planning/candidates/characters/char-vorren.md",
                     "category": "candidate",
                     "line_count": 47
+                  },
+                  {
+                    "name": "char-zirene.md",
+                    "type": "file",
+                    "path": "planning/candidates/characters/char-zirene.md",
+                    "category": "candidate",
+                    "line_count": 53
                   }
                 ]
               },
@@ -14013,6 +16749,33 @@
                     "path": "planning/candidates/cultures/culture-number-system-zan-script.md",
                     "category": "candidate",
                     "line_count": 66
+                  }
+                ]
+              },
+              {
+                "name": "events",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "event-harbinger-raid.md",
+                    "type": "file",
+                    "path": "planning/candidates/events/event-harbinger-raid.md",
+                    "category": "candidate",
+                    "line_count": 55
+                  },
+                  {
+                    "name": "event-heart-theft.md",
+                    "type": "file",
+                    "path": "planning/candidates/events/event-heart-theft.md",
+                    "category": "candidate",
+                    "line_count": 45
+                  },
+                  {
+                    "name": "event-maya-presentation.md",
+                    "type": "file",
+                    "path": "planning/candidates/events/event-maya-presentation.md",
+                    "category": "candidate",
+                    "line_count": 42
                   }
                 ]
               },
@@ -14101,7 +16864,7 @@
                     "type": "file",
                     "path": "planning/candidates/magic/magic-ink-boons.md",
                     "category": "candidate",
-                    "line_count": 99
+                    "line_count": 101
                   },
                   {
                     "name": "magic-shroud.md",
@@ -14142,7 +16905,7 @@
                     "type": "file",
                     "path": "planning/candidates/objects/object-antithesis.md",
                     "category": "candidate",
-                    "line_count": 49
+                    "line_count": 52
                   },
                   {
                     "name": "object-davian-mask.md",
@@ -14228,6 +16991,26 @@
                     "line_count": 56
                   }
                 ]
+              },
+              {
+                "name": "threads",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "thread-high-clade-politics.md",
+                    "type": "file",
+                    "path": "planning/candidates/threads/thread-high-clade-politics.md",
+                    "category": "candidate",
+                    "line_count": 45
+                  },
+                  {
+                    "name": "thread-maya-davian-romance.md",
+                    "type": "file",
+                    "path": "planning/candidates/threads/thread-maya-davian-romance.md",
+                    "category": "candidate",
+                    "line_count": 62
+                  }
+                ]
               }
             ]
           }
@@ -14258,6 +17041,13 @@
                     "path": "reviews/entities/characters/char-aldira.md",
                     "category": "review packet",
                     "line_count": 201
+                  },
+                  {
+                    "name": "char-arrek.md",
+                    "type": "file",
+                    "path": "reviews/entities/characters/char-arrek.md",
+                    "category": "review packet",
+                    "line_count": 197
                   },
                   {
                     "name": "char-caius-drakhal.md",
@@ -14302,6 +17092,20 @@
                     "line_count": 159
                   },
                   {
+                    "name": "char-kael.md",
+                    "type": "file",
+                    "path": "reviews/entities/characters/char-kael.md",
+                    "category": "review packet",
+                    "line_count": 142
+                  },
+                  {
+                    "name": "char-karra.md",
+                    "type": "file",
+                    "path": "reviews/entities/characters/char-karra.md",
+                    "category": "review packet",
+                    "line_count": 173
+                  },
+                  {
                     "name": "char-kelyra.md",
                     "type": "file",
                     "path": "reviews/entities/characters/char-kelyra.md",
@@ -14313,7 +17117,7 @@
                     "type": "file",
                     "path": "reviews/entities/characters/char-marek.md",
                     "category": "review packet",
-                    "line_count": 113
+                    "line_count": 120
                   },
                   {
                     "name": "char-maya.md",
@@ -14328,6 +17132,13 @@
                     "path": "reviews/entities/characters/char-niall.md",
                     "category": "review packet",
                     "line_count": 161
+                  },
+                  {
+                    "name": "char-selina.md",
+                    "type": "file",
+                    "path": "reviews/entities/characters/char-selina.md",
+                    "category": "review packet",
+                    "line_count": 194
                   },
                   {
                     "name": "char-selwin.md",
@@ -14356,6 +17167,13 @@
                     "path": "reviews/entities/characters/char-vorren.md",
                     "category": "review packet",
                     "line_count": 187
+                  },
+                  {
+                    "name": "char-zirene.md",
+                    "type": "file",
+                    "path": "reviews/entities/characters/char-zirene.md",
+                    "category": "review packet",
+                    "line_count": 149
                   }
                 ]
               },
@@ -14397,6 +17215,33 @@
                     "path": "reviews/entities/cultures/culture-number-system-zan-script.md",
                     "category": "review packet",
                     "line_count": 142
+                  }
+                ]
+              },
+              {
+                "name": "events",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "event-harbinger-raid.md",
+                    "type": "file",
+                    "path": "reviews/entities/events/event-harbinger-raid.md",
+                    "category": "review packet",
+                    "line_count": 189
+                  },
+                  {
+                    "name": "event-heart-theft.md",
+                    "type": "file",
+                    "path": "reviews/entities/events/event-heart-theft.md",
+                    "category": "review packet",
+                    "line_count": 219
+                  },
+                  {
+                    "name": "event-maya-presentation.md",
+                    "type": "file",
+                    "path": "reviews/entities/events/event-maya-presentation.md",
+                    "category": "review packet",
+                    "line_count": 217
                   }
                 ]
               },
@@ -14632,11 +17477,25 @@
                     "line_count": 26
                   },
                   {
+                    "name": "thread-high-clade-politics.md",
+                    "type": "file",
+                    "path": "reviews/entities/threads/thread-high-clade-politics.md",
+                    "category": "review packet",
+                    "line_count": 222
+                  },
+                  {
                     "name": "thread-kelyra-archeon-recovery.md",
                     "type": "file",
                     "path": "reviews/entities/threads/thread-kelyra-archeon-recovery.md",
                     "category": "review packet",
                     "line_count": 27
+                  },
+                  {
+                    "name": "thread-maya-davian-romance.md",
+                    "type": "file",
+                    "path": "reviews/entities/threads/thread-maya-davian-romance.md",
+                    "category": "review packet",
+                    "line_count": 188
                   },
                   {
                     "name": "thread-niall-grief-recovery.md",
