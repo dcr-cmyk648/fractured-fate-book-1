@@ -3,7 +3,7 @@ id: d1-prologue
 source_file: imports/normalized/melissa-copy.md
 source_lines: 228-674
 current_heading: Prologue
-status: awaiting-author
+status: approved
 map_type: current-draft
 created: 2026-06-27
 ---
@@ -169,6 +169,29 @@ Line note: the normalized Markdown output for this range includes paragraph comm
 - Niall's `Alara` slip as compact grief/trauma setup.
 - The raid and wall attack happening in parallel.
 
+## Chapter-Purpose Notes
+
+Author-approved on 2026-06-27:
+
+The Prologue is a strong in-world introduction vehicle for a large amount of central story material, including:
+
+- High Clade / Low Clade social structure.
+- Magic, schemas, Shrouds, zän, zän-protected Low Clade spaces, and Kelyra neutralizing zän.
+- Presentation as a public/political institution.
+- Mercenary armies and the battlefield role of overwhelming magus power.
+- Maya, Davian, Kelyra, and Niall as early character anchors.
+- Masked Clade sign language.
+- Masks as a recurring theme.
+- The physical and psychological consequences of magus-scale violence for magi and everyone around them.
+- Kelyra's extreme hatred of the Clade system and desire to kill or destroy what is associated with it, even though the available alternatives are criminal systems or subordination to Clade authority.
+- Magi disdain for non-magi.
+- Davian's inherited anger toward the Clades through Kelyra.
+- Maya's combat profile: extreme strength with lack of experience, flexibility, and control.
+- Davian's combat profile: martial talent combined with single-minded rigid focus on powering through alone, being a threat, and proving he can matter.
+- Davian's early exposure to Maya and conceptual idealization of her, initially fitting his script that High Clades do not care and destroy/kill wantonly, with later reversal when he knows Maya as a person.
+- Kelyra and Davian having some magic but no Shroud.
+- Antithesis as a recurring symbol of Davian's darker impulses, later reversed when he uses it to protect Maya and Niall, destroying the blade.
+
 ## Prose Preservation Notes
 
 No formal Prose Preservation Notes proposed yet.
@@ -202,7 +225,8 @@ Received 2026-06-27:
 - The preposed Chapter 37 section exists at the top of the manuscript because it was the chapter being actively worked on. It is a halfway-done Chapter 37 working fragment, not the next mapping unit.
 - The next mapping unit should be Chapter 1.
 - Review information should be printed directly in the Codex thread unless or until the review app is updated to make these packets easy to read there.
+- The Prologue map is approved as an accurate descriptive record of what is currently written, with canon divergences preserved as later chapter-architecture/revision issues.
 
-## Required Decision
+## Required Decision Resolved
 
 1. Approve this Prologue map as an accurate descriptive record of what is currently written, with the listed canon divergences preserved as later chapter-architecture/revision issues?
