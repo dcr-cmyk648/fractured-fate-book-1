@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 15 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-16` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 16 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-16` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-16` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian self-sabotage-and-repressure material: private guilt after saving Selwin, Harvick delivering the promotion, zänwright-table belonging, Marek supervisor logistics, and the Harbinger/Elric-controlled visitor deepening the Ink and reasserting the Heart-theft mission.
+`d1-ch-16` was approved as an accurate current-draft map with corrections. The Ink is no longer from Kelyra or Jalen; Davian identifies more with Kelyra around combat/killing while Jalen is more of a tempering force. Davian should identify the group he deals with as the Harbingers. Shade gossip at the worker table can remind him that he is not really Arrek and would not be accepted by these people as Shade. The core chapter struggle is that helping Selwin and connecting with others feels good and right, giving Davian something to work toward instead of only against, but he runs from that feeling because of past trauma and Kelyra's indoctrination.
 
 ## Next action
 
-Present the `d1-ch-16` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-17`.
+Finalize, validate, commit, and push the `d1-ch-16` current-draft map approval, then prepare and present the `d1-ch-17` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-16.md`.
+None until the `d1-ch-17` current-draft map packet is prepared.
 
 ## Workflow policy note
 
