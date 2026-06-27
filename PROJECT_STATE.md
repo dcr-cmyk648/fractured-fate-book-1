@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Prologue current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-01` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 1 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-02` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-prologue` was approved, validated, committed, and pushed. The author added chapter-purpose notes for the Prologue and confirmed that Chapter 1 is the next mapping unit.
+`d1-ch-01` was approved, validated, committed, and pushed. Author feedback added purpose-level direction for colder Niall, heightened suspicion after a magus attacker, Niall's hidden self-blame/waning-power pressure, healing mechanics, Tarran as demi-human, and death-money onboarding.
 
 ## Next action
 
-`d1-ch-01` was approved as an accurate descriptive current-draft map. Author feedback added purpose-level direction for colder Niall, heightened suspicion after a magus attacker, Niall's hidden self-blame/waning-power pressure, healing mechanics, Tarran as demi-human, and death-money onboarding.
+Prepare and present the `d1-ch-02` current-draft map packet. The packet should describe the Chapter 2 source accurately, flag accepted-canon divergences around Jalen/Kelyra role routing, Ink Pact terminology/timing, Trial of Dominion pressure, and Antithesis transformation, and preserve those issues for later chapter architecture.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete current-draft map packet is ready for author review.
+Awaiting author review of `revision/current-draft-map/d1-ch-02.md`. Required decision: approve the Chapter 2 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
@@ -84,7 +84,7 @@ None. Do not stop unless a concrete current-draft map packet is ready for author
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-01.md
+- revision/current-draft-map/d1-ch-02.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
