@@ -259,30 +259,6 @@ main {
   border-top: 1px solid var(--line);
 }
 
-.bookmark-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.4rem;
-  padding-top: 0.65rem;
-  border-top: 1px solid var(--line);
-}
-
-.bookmark-actions button {
-  padding: 0.42rem 0.5rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
-.bookmark-actions span {
-  grid-column: 1 / -1;
-  min-width: 0;
-  overflow: hidden;
-  color: var(--muted);
-  font-size: 0.78rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 select {
   min-height: 2.35rem;
   border: 1px solid var(--line);
@@ -526,6 +502,7 @@ select {
   color: white;
 }
 
+.bookmark-card,
 .reference-card {
   margin-top: 0.35rem;
   padding-top: 0.75rem;
@@ -534,12 +511,37 @@ select {
   min-width: 0;
 }
 
+.bookmark-card summary,
 .reference-card summary {
   margin: 0 0 0.55rem;
   color: white;
   font-size: 0.95rem;
   cursor: pointer;
   list-style-position: inside;
+}
+
+.bookmark-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.bookmark-row span {
+  min-width: 0;
+  overflow: hidden;
+  color: #d8fff8;
+  font-size: 0.82rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bookmark-row button {
+  padding: 0.38rem 0.55rem;
+  border-color: #5d696d;
+  background: #2d373b;
+  color: white;
+  font-size: 0.82rem;
 }
 
 .reference-card dl {
@@ -644,6 +646,7 @@ select {
   .target-row,
   .comment-box textarea,
   .comment-actions,
+  .bookmark-card,
   .reference-card {
     margin: 0.75rem 0.85rem 0;
   }
@@ -652,10 +655,12 @@ select {
     min-height: 90px;
   }
 
+  .bookmark-card,
   .reference-card {
     margin-bottom: 0.85rem;
   }
 
+  .bookmark-card:not([open]),
   .reference-card:not([open]) {
     padding-bottom: 0.25rem;
   }
@@ -734,6 +739,15 @@ select {
     max-height: none;
   }
 
+  .line {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .line-number {
+    display: none;
+  }
+
   .target-row #commentCount {
     margin-left: 0;
   }
@@ -776,24 +790,6 @@ select {
   .reader-sidebar h2,
   .browser-sidebar h2 {
     font-size: 0.95rem;
-  }
-
-  .bookmark-actions {
-    grid-template-columns: auto auto minmax(0, 1fr);
-    align-items: center;
-    gap: 0.35rem;
-    padding-top: 0.5rem;
-  }
-
-  .bookmark-actions button {
-    padding: 0.36rem 0.48rem;
-    font-size: 0.78rem;
-  }
-
-  .bookmark-actions span {
-    grid-column: auto;
-    font-size: 0.76rem;
-    text-align: right;
   }
 
   .chapter-buttons {
