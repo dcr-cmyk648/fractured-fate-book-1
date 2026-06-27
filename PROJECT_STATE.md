@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 17 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-18` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 18 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-18` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-18` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian work-and-training material: post-Maya attraction/anger, real supervisor logistics, Treasury sabotage through Antithesis/kinesis, avoidance of worker belonging, and Harvick recognizing Davian's survival-training logic while challenging dissociation-as-focus.
+`d1-ch-18` was approved as an accurate current-draft map. If Harvick needs a healer to repair demonstration injuries, he can complain about the cost. Next work is to finalize and push that approval, then prepare `d1-ch-19`.
 
 ## Next action
 
-Present the `d1-ch-18` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-19`.
+Finalize, validate, commit, and push the `d1-ch-18` current-draft map approval, then prepare and present the `d1-ch-19` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-18.md`.
+None until the `d1-ch-19` current-draft map packet is prepared.
 
 ## Workflow policy note
 
