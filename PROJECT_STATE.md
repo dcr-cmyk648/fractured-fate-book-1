@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 11 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-12` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 12 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-12` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-12` has been prepared as a current-draft map packet. It covers Davian's failed Treasury zä-drain experiment, his accidental encounter with Selwin and the Kael mirror, and Harvick's deeper body-awareness mentorship scene.
+`d1-ch-12` was approved as an accurate current-draft map. Author feedback added that Davian should worry about Kelyra being challenged rather than Jalen; Selwin should share Maya's Naerothi heritage through Alara with similar purple-tinged eyes; specific sphere sabotage/break-in methods remain candidate; the chapter can showcase more zän, lattice, and base-six mechanics; and Selwin recognizing Davian's chronic depression should mirror Selwin recognizing Niall's chronic depression, producing the same desire to help/please and possible childish self-blame.
 
 ## Next action
 
-Present the `d1-ch-12` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-13`.
+Finalize, validate, commit, and push the `d1-ch-12` current-draft map approval, then prepare and present the `d1-ch-13` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of the `d1-ch-12` current-draft map packet.
+None until the `d1-ch-13` current-draft map packet is prepared.
 
 ## Workflow policy note
 
