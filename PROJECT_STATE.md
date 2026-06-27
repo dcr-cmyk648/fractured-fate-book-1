@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 8 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-08` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 8 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-09` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-08` was approved as an accurate current-draft map. Author feedback emphasized that this is Davian's first taste of relatively normal social interaction outside the criminal underworld and outside Kelyra's paranoid killer-training home context. Davian should be suspicious of normal social warmth here and only start enjoying it later. Harvick's meeting is not pure chance: Aldira asked Harvick to check into Davian. Harvick does not let Davian off easily for that reason, but he is also charmed by the idea of helping a young rough-edged man with an apparent good side, which is a positive-regard blind spot that makes him miss that Davian is literally an assassin.
+`d1-ch-09` has been prepared as a current-draft map packet. It covers Maya opening Alara's journal, experiencing the first Alara battlefield memory, pressing Niall about Alara, using Erynn as a grounding reality check, and briefing the zänwright supervisors on Treasury/vault work rules.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-08` current-draft map approval, then prepare and present the `d1-ch-09` current-draft map packet.
+Present the `d1-ch-09` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-10`.
 
 ## Awaiting author input
 
-None until the `d1-ch-09` current-draft map packet is prepared.
+Author review of the `d1-ch-09` current-draft map packet.
 
 ## Workflow policy note
 
