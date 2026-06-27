@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 9 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-09` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 9 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-10` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-09` was approved as an accurate current-draft map. Author feedback refined the Alara-journal trap: the key inscription should not be too obviously suspicious/corrupted, but should feel somewhat odd or cued enough that a later reread makes sense. The journal trap is dangerous because it twists the true "purpose beyond politics and perfection" into an Instagram-filter version of memory that encourages Maya to become more focused on perfection, pressure, and impossible self-expectation.
+`d1-ch-10` has been prepared as a current-draft map packet. It covers Davian scouting the Rezin citadel, relying on Tanelle as cover and technical tutor, entering the Treasury chamber, seeing the floating sphere and weightless worksite, misreading Maya's inspection, and forming the first rough sabotage/Heart-theft idea.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-09` current-draft map approval, then prepare and present the `d1-ch-10` current-draft map packet.
+Present the `d1-ch-10` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-11`.
 
 ## Awaiting author input
 
-None until the `d1-ch-10` current-draft map packet is prepared.
+Author review of the `d1-ch-10` current-draft map packet.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ None until the `d1-ch-10` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-09.md
+- revision/current-draft-map/d1-ch-10.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
