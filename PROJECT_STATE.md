@@ -10,15 +10,15 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 27 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-27` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 27 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-28` current-draft map packet is prepared, committed, and pushed
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 2
+- Approved current-draft maps since last chapter-map consistency review: 3
 - Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-27` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as a High Clade political trap, Niall/Maya rupture, fate-sight escalation, and first-kiss chapter: Maya learns Drakhal has called an excluded High Clade meeting, pushes Niall to attend, misreads his refusal to kill Evana as distrust, almost harms Erynn during the aftermath, and then experiences Davian/Arrek choosing closeness after seeing her dangerous magic.
+`d1-ch-27` has been approved as a current-draft chapter map. The map records Evana's Shade accusation as opportunistic dishonesty that can erase Caius's actual culpability, preserves Maya's misreading of Niall's restraint as distrust, and sharpens Davian/Arrek's post-breakdown arrival so Maya is near collapse when he appears suddenly, possibly through Ink Pact speed from a later reader understanding.
 
 ## Next action
 
-Present the `d1-ch-27` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-28`.
+Prepare the `d1-ch-28` current-draft map packet from `imports/normalized/melissa-copy.md` lines 14516-16284, validate, commit, push, and present the author-review summary with questions last.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-27.md`.
+None. Next author input should be for the `d1-ch-28` current-draft map packet after it is prepared.
 
 ## Workflow policy note
 
@@ -86,7 +86,7 @@ Author review of `revision/current-draft-map/d1-ch-27.md`.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-27.md
+- revision/current-draft-map/d1-ch-28.md
 - reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
