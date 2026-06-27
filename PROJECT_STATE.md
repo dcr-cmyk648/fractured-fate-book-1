@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: none
+- Active or paused entity ID: char-kelyra
 - Latest completed entity: char-lethira
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Lethira arena role`
-- Working tree expected to be clean: no; secondary-character tail consistency review is being recorded
+- Latest relevant commit message: `chore: run secondary characters tail consistency review`
+- Working tree expected to be clean: yes; `char-kelyra` needs-revisit packet is committed and awaiting author input
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lirien` and `char-lethira` were approved, committed, pushed, and checked through a secondary-character tail consistency review.
+`char-lirien` and `char-lethira` were approved, committed, pushed, and checked through a secondary-character tail consistency review. `char-kelyra` has been opened as the first remaining `needs-revisit` item.
 
 ## Next action
 
-Validate, commit, and push the secondary-character tail consistency review. Then open the first remaining `needs-revisit` item, `char-kelyra`, unless the author directs a different order.
+Resolve the required author decisions in `reviews/entities/characters/char-kelyra-revisit-2026-06-27.md`, then clear `char-kelyra` from `needs-revisit` if approved.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author input on `char-kelyra`. The review packet and summary/questions have been printed for audit.
 
 ## Workflow policy note
 
@@ -94,6 +94,7 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - planning/candidates/characters/char-lethira.md
 - decisions/0068-lethira-archeon-arena-function.md
 - reports/consistency/2026-06-27-secondary-characters-tail-block.md
+- reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md
