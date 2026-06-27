@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 26 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-27` current-draft map packet is prepared, committed, and pushed
+- Latest relevant commit message: `revision: prepare Chapter 27 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-27` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-26` has been approved as a current-draft chapter map. The map records Davian's first real Shroud manifestation as an Ink/Shroud interaction, confirms Harvick's `Davian` name use as a prose mistake, preserves Antithesis as plausibly retrieved and stored in Davian's room, and keeps limited Ink Pact functions such as aura-holding and healing as finite pressure without requiring the Ink itself to "run out" completely.
+`d1-ch-27` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as a High Clade political trap, Niall/Maya rupture, fate-sight escalation, and first-kiss chapter: Maya learns Drakhal has called an excluded High Clade meeting, pushes Niall to attend, misreads his refusal to kill Evana as distrust, almost harms Erynn during the aftermath, and then experiences Davian/Arrek choosing closeness after seeing her dangerous magic.
 
 ## Next action
 
-Prepare the `d1-ch-27` current-draft map packet from `imports/normalized/melissa-copy.md` lines 13874-14512, validate, commit, push, and present the author-review summary with questions last.
+Present the `d1-ch-27` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-28`.
 
 ## Awaiting author input
 
-None. Next author input should be for the `d1-ch-27` current-draft map packet after it is prepared.
+Author review of `revision/current-draft-map/d1-ch-27.md`.
 
 ## Workflow policy note
 
