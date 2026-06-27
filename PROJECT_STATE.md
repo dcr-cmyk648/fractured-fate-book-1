@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: none
+- Active or paused entity ID: char-lethira
 - Latest completed entity: char-lirien
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Lirien character packet`
-- Working tree expected to be clean: no; approved `char-lirien` finalization is being recorded
+- Latest relevant commit message: `bible: approve Lirien family role`
+- Working tree expected to be clean: yes; `char-lethira` review packet is committed and awaiting author input
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lirien` was approved by the author and is being finalized into accepted and candidate files.
+`char-lirien` was approved, committed, and pushed. `char-lethira` has been opened with a brief author review packet.
 
 ## Next action
 
-Validate, commit, and push the approved `char-lirien` finalization. Then open the next queued entity, `char-lethira`, with a concrete author review packet.
+Resolve the required author decisions in `reviews/entities/characters/char-lethira.md`, then finalize the accepted and candidate Lethira files if approved.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author input on `char-lethira`. The review packet and summary/questions have been printed for audit.
 
 ## Workflow policy note
 
@@ -89,6 +89,7 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - bible/characters/char-lirien.md
 - planning/candidates/characters/char-lirien.md
 - decisions/0067-lirien-brief-family-role-and-spelling.md
+- reviews/entities/characters/char-lethira.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md
