@@ -3,8 +3,11 @@ id: char-kelyra
 entity_type: character
 display_name: Kelyra
 status: approved
-last_reviewed: 2026-06-23
-review_packet: reviews/entities/characters/char-kelyra.md
+review_depth: deep
+outline_ready: yes-with-uncertainties
+last_reviewed: 2026-06-27
+review_packet: reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
+prior_review_packet: reviews/entities/characters/char-kelyra.md
 candidate_file: planning/candidates/characters/char-kelyra.md
 arc_file: outline/arcs/thread-kelyra-archeon-recovery.md
 ---

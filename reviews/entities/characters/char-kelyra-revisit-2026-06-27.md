@@ -2,9 +2,9 @@
 id: char-kelyra
 entity_type: character
 display_name: Kelyra
-status: awaiting-author
+status: approved
 review_depth: deep
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: bible/characters/char-kelyra.md
 candidate_file: planning/candidates/characters/char-kelyra.md
 prior_review_packet: reviews/entities/characters/char-kelyra.md
@@ -98,3 +98,10 @@ If approved:
 2. Should `char-kelyra` move from `needs-revisit` back to `approved`, with `outline_ready: yes-with-uncertainties`?
 3. Should remaining lower-level mechanics and choreography stay candidate/deferred rather than blocking Kelyra's story-bible readiness?
 4. Should stale Jalen-centered Kelyra material remain superseded unless it cleanly supports Jalen's support/planning/logistics role?
+
+## Author Responses
+
+1. Yes.
+2. Yes.
+3. Yes.
+4. Yes.

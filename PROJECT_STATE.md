@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: char-kelyra
-- Latest completed entity: char-lethira
+- Active or paused entity ID: none
+- Latest completed entity: char-kelyra
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `chore: run secondary characters tail consistency review`
-- Working tree expected to be clean: yes; `char-kelyra` needs-revisit packet is committed and awaiting author input
+- Latest relevant commit message: `review: prepare Kelyra revisit packet`
+- Working tree expected to be clean: no; approved `char-kelyra` revisit clearance is being recorded
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lirien` and `char-lethira` were approved, committed, pushed, and checked through a secondary-character tail consistency review. `char-kelyra` has been opened as the first remaining `needs-revisit` item.
+`char-kelyra` was approved by the author as the durable story-bible owner and is being cleared from `needs-revisit`.
 
 ## Next action
 
-Resolve the required author decisions in `reviews/entities/characters/char-kelyra-revisit-2026-06-27.md`, then clear `char-kelyra` from `needs-revisit` if approved.
+Validate, commit, and push the approved `char-kelyra` revisit clearance. Then open the next remaining `needs-revisit` item, `thread-niall-grief-recovery`.
 
 ## Awaiting author input
 
-Awaiting author input on `char-kelyra`. The review packet and summary/questions have been printed for audit.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 
@@ -95,6 +95,7 @@ Awaiting author input on `char-kelyra`. The review packet and summary/questions 
 - decisions/0068-lethira-archeon-arena-function.md
 - reports/consistency/2026-06-27-secondary-characters-tail-block.md
 - reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
+- decisions/0069-kelyra-revisit-clearance.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md

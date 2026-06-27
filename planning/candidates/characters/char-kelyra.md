@@ -3,9 +3,10 @@ id: char-kelyra
 entity_type: character
 display_name: Kelyra
 status: candidate
-last_updated: 2026-06-23
+last_updated: 2026-06-27
 accepted_file: bible/characters/char-kelyra.md
-review_packet: reviews/entities/characters/char-kelyra.md
+review_packet: reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
+prior_review_packet: reviews/entities/characters/char-kelyra.md
 ---
 
 # Kelyra Candidate Material
@@ -22,12 +23,12 @@ This file preserves useful but not fully approved Kelyra material. It should not
 ## Family and Archeon Candidates
 
 - The exact number of generations between Kelyra and Serathis remains unresolved.
-- Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon, but this needs later checking.
-- The later-source spelling `Lirin` should be reconciled with the accepted spelling `Lirien`.
+- Lethira's exact parentage and relationship term to Kelyra remain unresolved. Accepted boundary: Lethira is not Kelyra's child; she is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner before escaping.
+- The later-source spelling `Lirin` should be corrected to accepted `Lirien` during later current-draft/chapter-map cleanup.
 
 ## Late-Book and Arc Candidates
 
-- Kelyra's Heart delivery, Harbinger/Syndicate negotiation, and desire for Ink remain planning material until exact execution is approved.
+- Exact Heart-delivery and Harbinger/Syndicate negotiation prose details remain for chapter mapping. Accepted event boundary: Kelyra receives the Heart from Davian, delivers it to the Harbingers, and the bargain turns into Karra's rigged Trial and Kelyra's capture.
 - Possible Ink/Archeon cooption of Kelyra's body or power remains candidate material.
 - Kelyra being forced to channel kinesis/Subversion into weapons intended to kill Niall and Maya remains candidate material.
 - Kelyra's possible death, serious injury, or inability to lead the masked/Veiled Clades remains candidate material.
@@ -35,6 +36,7 @@ This file preserves useful but not fully approved Kelyra material. It should not
 - Exact Concord leadership chronology needs review now that Kelyra is accepted as the de facto primary Concord leader and Jalen is accepted as support/planning/logistics.
 - Exact Trial of Dominion fight execution belongs to Kelyra, not Jalen, and should be reviewed against the fully drafted prose.
 - Older Jalen-centered notes about Concord leadership, assassin training, and the Trial of Dominion should be transferred to Kelyra only where still useful.
+- Stale Jalen-centered Kelyra material remains superseded unless it cleanly supports Jalen's support/planning/logistics role.
 
 ## Provenance
 
@@ -46,3 +48,4 @@ This file preserves useful but not fully approved Kelyra material. It should not
 - `imports/normalized/bullet-notes.md:102`
 - `imports/normalized/bullet-notes.md:174`
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
+- `decisions/0069-kelyra-revisit-clearance.md`
