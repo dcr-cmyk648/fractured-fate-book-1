@@ -62,6 +62,8 @@ His manipulations affect Davian, Niall, Maya, Harvick, the Harbingers/Syndicate,
 
 Elric's `A Cord of Six Strands` frame refers to two intertwined three-stranded threads: Elric-Niall-Maya and Serathis-Kelyra-Davian. He does not state this until Maya is about to resurrect Davian.
 
+Elric likely did not want Alara to die. She was a potential fateweaver who might have been manipulated to damage the Skein and help summon the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still recrystallizing / taking over the Syndicate through the Ink Pact route. His accepted role is exploiting the aftermath through the tampered Alara codex and broader fate/trauma pressure system, not causing Alara's death.
+
 ## Harbingers and Syndicate
 
 Elric gave the future Harbinger/Syndicate leader an Ink Pact before the book begins. After Elric's original body was destroyed, he used that pact as the route to slow possession.
@@ -127,6 +129,8 @@ Current manuscript material establishes:
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
+- Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 
 ## Canonical Uncertainties
 

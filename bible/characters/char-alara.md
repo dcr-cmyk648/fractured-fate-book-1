@@ -28,7 +28,7 @@ Alara's accepted high-level ability package is:
 - fateweaving
 - Convergence heat transfer
 
-Exact mechanics, limits, terminology, and how these abilities relate to Maya, Selwin, Naerothi inheritance, and the Skein remain for later magic and event reviews.
+Exact mechanics, limits, terminology, and how these abilities relate to Maya, Selwin, Naerothi inheritance, and the Skein remain for later magic and endgame reviews.
 
 ## War and Reform
 
@@ -70,13 +70,15 @@ Alara should influence Maya without literally guiding her through the journal. A
 
 Selwin is Alara and Niall's son.
 
-The high-level accepted direction is that Alara's postpartum/fateweaving decline after Selwin's birth leads toward her apparent death. Niall at least subconsciously blames Selwin for this, but he does not consciously know he is doing so unless later approved.
+The accepted direction is that Alara's postpartum/fateweaving decline after Selwin's birth leads toward her apparent death. Niall believes Alara is unrecoverably dead/lost and does not know the hidden higher-plane truth. Niall at least subconsciously blames Selwin for this, but he does not consciously know he is doing so unless later approved.
 
 Exact postpartum, fateweaving, higher-plane, "eye," Nizän, Sheol, and death-scene mechanics remain deferred.
 
 ## Elric
 
 Elric recognizes or exploits Alara's fateweaving/Skein relevance and tampers with her codex.
+
+Elric likely did not want Alara to die, because a living fateweaver could have been manipulated to damage the Skein and summon the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still in the process of recrystallizing / taking over the Syndicate through the Ink Pact route.
 
 He may have approved or encouraged the Niall/Alara union because it fit his longer plans, but exact motives remain unresolved.
 
@@ -105,14 +107,15 @@ Current manuscript material establishes Alara through:
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
-- Related future event: `event-alara-death-war-memory`
+- Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
+- Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 
 ## Canonical Uncertainties
 
 - Exact Naerothi culture, title, family, father name, homeland, and command structure remain unresolved.
 - Exact Convergence/fateweaving/Shroud mechanics remain for later magic reviews.
-- Exact apparent death scene remains for `event-alara-death-war-memory`.
+- Exact apparent death scene choreography remains candidate/deferred for later endgame or chapter review.
 - Exact higher-plane state and extraplanar-deity conflict remain deferred.
 - Exact relationship among postpartum psychosis, fateweaving, the eye, Nizän, Sheol, the Skein, and Alara's apparent death remains unresolved.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
@@ -130,4 +133,5 @@ Current manuscript material establishes Alara through:
 - `imports/normalized/book-1-outline.md:697-715`: candidate Alara death / Niall codex / post-death Niall politics.
 - `imports/normalized/book-1-outline.md:2382-2412`: Niall/Alara date, spirituality, and soldier-expendability notes.
 - `imports/normalized/book-1-outline.md:6167-6185`: postpartum psychosis, Selwin, and Niall responsibility notes.
+- `decisions/0062-alara-apparent-death-boundary-and-elric-timing.md`
 - Author feedback on 2026-06-26.

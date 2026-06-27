@@ -22,6 +22,8 @@ Niall begins from rigidity, grief, perfectionism, and the need to prove he can s
 
 His arc should move toward accepting help, living with Maya and Selwin, and protecting valued living people rather than only preserving Alara's memory through control, isolation, and violence.
 
+Accepted event boundary: Niall believes Alara is unrecoverably dead/lost after her postpartum/fateweaving decline and apparent death. He does not know the hidden higher-plane truth, and his blame toward Selwin remains subconscious unless later approved.
+
 ## Approved Boundaries
 
 - Use neutral event language for Niall killing retreating enemies after they have broken; do not impose simple moral labels such as "massacre" or "atrocity."
@@ -33,7 +35,7 @@ His arc should move toward accepting help, living with Maya and Selwin, and prot
 - Exact Vorren fight execution
 - Niall experiential brine/ink scene
 - Exact Heart/silver conduit/charge mechanics
-- Exact Alara/Niall backstory
+- Exact Alara apparent-death choreography and any Niall-codex reveal
 - Possible Niall/Davian late sword beat
 
 ## Provenance

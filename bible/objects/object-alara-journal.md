@@ -75,9 +75,11 @@ After the bridge incident, Niall takes the codex.
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related character: [Alara](../characters/char-alara.md)
+- Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Related location: [Rezin Citadel / Rezin fortress](../locations/loc-rezin-citadel.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
+- Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 
 ## Provenance
 

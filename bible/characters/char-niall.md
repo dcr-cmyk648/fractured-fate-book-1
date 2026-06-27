@@ -51,6 +51,8 @@ Alara:
 
 Alara is Niall's dead wife and a central grief wound. Niall was already a hopeful reformer, but Alara gave his ambitions a concrete spiritual and moral undertone. Her apparent death twisted that reform impulse into grief, rigidity, control, and post-Alara dominance.
 
+Niall believes Alara is unrecoverably dead/lost and does not know the hidden higher-plane truth behind her apparent death.
+
 Selwin Rezin:
 
 Selwin is Niall's son. Niall's harshness around Shroud training and family survival affects the pressure Maya feels when training Selwin.
@@ -131,6 +133,8 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Alara Journal Discovery and Elric Codex Trap](../../decisions/0036-alara-journal-discovery-and-elric-codex-trap.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
+- Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
+- Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
@@ -146,7 +150,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 
 - Exact Heart/silver conduit/zän-strike-line mechanics remain for later magic and object reviews.
 - Exact Elric/Niall history, fate/Skein mechanics, and Elric's post-body-destruction survival mechanics remain for later magic/thread reviews.
-- Exact Alara death-event choreography remains for `event-alara-death-war-memory`; Alara's high-level role, spirituality, and death direction are accepted in `char-alara`.
+- Exact Alara apparent-death choreography remains candidate/deferred; Alara's high-level role, spirituality, and death direction are accepted in `char-alara`, with event boundary stored in `event-alara-death-war-memory`.
 - Exact Niall codex use and whether he shows Maya Alara's death remain candidate.
 - Exact late-book Vorren fight choreography remains candidate arc material, while the high-level direction that Niall, Maya, and Davian kill Vorren together is accepted.
 - Niall's possible older-brother or early-Presentation backstory is speculative only.

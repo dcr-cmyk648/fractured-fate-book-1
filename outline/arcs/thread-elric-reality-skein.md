@@ -47,6 +47,8 @@ Davian's resurrection is canon future-plan material. Exact endgame execution, re
 
 Elric's tampering with Alara's auratic codex is part of this pressure system. The codex trap intentionally idealizes or distorts Maya's parents and helps pull Maya toward fate/Skein knowledge. The exact nature of the interactive Elric-like presence remains unresolved.
 
+Elric likely did not want Alara to die, because she was a potential fateweaver tool for damaging the Skein and summoning the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still recrystallizing / taking over the Syndicate through the Ink Pact route. His accepted role in Alara's apparent-death aftermath is exploitation through the codex trap and fate/trauma pressure, not causing the death.
+
 ## Related Files
 
 - Accepted character: [Elric Rezin](../../bible/characters/char-elric.md)

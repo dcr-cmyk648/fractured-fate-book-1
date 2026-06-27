@@ -1,15 +1,15 @@
 ---
 id: event-alara-death-war-memory
 entity_type: historical-event
-display_name: Alara's apparent death and war memories
-status: awaiting-author
+display_name: Alara's apparent death
+status: approved
 review_depth: deep
 outline_ready: no
 accepted_file: bible/events/event-alara-death-war-memory.md
 candidate_file: planning/candidates/events/event-alara-death-war-memory.md
 ---
 
-# Alara's Apparent Death and War Memories Review Packet
+# Alara's Apparent Death Review Packet
 
 ## Review Depth
 
@@ -19,7 +19,7 @@ This event cluster affects Niall's grief arc, Maya's codex experience, Elric's m
 
 ## Why This Entity Matters
 
-Alara's apparent death is the wound that changes Niall from hopeful reformer into a grief-locked deterrent figure. The Alara/Niall war memories are the filter through which Maya sees both the father Niall once was and the father he failed to remain. Elric's codex trap weaponizes that filter by giving Maya meaningful, partly reliable memories that still push her toward impossible repair.
+Alara's apparent death is the wound that changes Niall from hopeful reformer into a grief-locked deterrent figure. The Alara/Niall war memories remain primarily owned by Alara's journal and later chapter mapping; this packet references them only where they affect the apparent-death event and its consequences. Elric's codex trap weaponizes that filter by giving Maya meaningful, partly reliable memories that still push her toward impossible repair.
 
 This review should make the repository able to answer:
 
@@ -67,7 +67,7 @@ This sequence is powerful and directly tied to outline-relevant grief, but the e
 
 - The current entity label combines "death" and "war memories." The war memories are primarily codex-memory material, while the death is a historical event that may or may not be shown through Niall's codex later.
 - The apparent-death route is accepted at the high level, but the exact mechanics still overlap with unresolved higher-plane/Nizän/Sheol/Skein/endgame material.
-- Elric's codex trap is accepted, but whether Elric caused Alara's death, predicted it, prepared for it, or merely exploited it is not yet settled.
+- Elric's codex trap is accepted. Author decision: Elric likely did not want Alara to die, because she was a potential fateweaver tool for damaging the Skein and summoning the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still in the process of recrystallizing / taking over the Syndicate.
 - Niall's grief requires enough specificity for the outline, but overdefining the death scene now could prematurely lock endgame cosmology.
 
 ## Current Narrative Functions
@@ -81,16 +81,15 @@ This sequence is powerful and directly tied to outline-relevant grief, but the e
 
 ## Proposed Canon Core
 
-If approved, the accepted event record would store:
+Accepted event record stores:
 
-- Alara's war memories in Maya's codex are meaningful but filtered/selected through Elric's trap. They are not pure lies, and their positive view of Niall matters.
-- Alara and Niall begin as wartime opponents, then become partners around a shared but fragile reform hope.
+- The war memories remain owned primarily by Alara's journal and later chapter mapping, not duplicated here.
 - Alara's accepted apparent-death route is postpartum/fateweaving decline after Selwin's birth.
 - From Book 1 character POV, Alara is dead/lost. Niall believes her unrecoverably gone and does not know the hidden higher-plane truth.
 - Hidden-cosmology direction remains: Alara is likely trapped in a higher plane after trying to kill the extraplanar deity, but the exact mechanics and how much Book 1 brushes it remain deferred.
 - Niall's response to Alara's apparent death is catastrophic grief: temporary breakdown, then suppression, isolation, control, theatrical ruthlessness, and projecting impossible standards onto Maya and indirectly Selwin.
 - Niall's blame toward Selwin remains subconscious unless later approved otherwise.
-- Elric's role in the codex trap is accepted; his exact causal role in Alara's death remains unresolved/deferred unless the author approves more here.
+- Elric's accepted role is exploiting the aftermath through the tampered Alara codex and broader fate/trauma pressure system, not causing Alara's death.
 
 ## Proposed Developmental Profile
 
@@ -116,7 +115,7 @@ For Selwin, the event makes him a living reminder of the loss without making him
 - Exact mechanics of how fateweaving, Convergence, Nizän, Sheol, the Skein, and the extraplanar deity interact in the death scene.
 - Exact death-scene prose choreography.
 - Whether Niall's codex scene definitely appears in Book 1.
-- Whether Elric engineered the death or only exploited the aftermath.
+- Whether any Elric remnant had indirect awareness of Alara's decline before later exploiting her codex.
 
 ## Continuity Constraints
 
@@ -125,27 +124,26 @@ For Selwin, the event makes him a living reminder of the loss without making him
 - Niall should not consciously blame Selwin unless later approved.
 - Maya should not know the hidden higher-plane truth during ordinary Book 1 action.
 - Elric's trap should remain compatible with fate-thread/trauma-script manipulation rather than deterministic fate.
+- Do not make Elric responsible for causing Alara's death under current accepted canon.
 - Any later death-scene reveal must preserve Niall's grief arc and Maya's end-book resonance with impossible repair.
 
 ## Outline Readiness
 
-Outline-ready with documented uncertainties if the author approves the proposed boundary.
+Outline-ready with documented uncertainties.
 
 The outline can proceed with:
 
 - Alara's apparent death as Niall's defining grief wound.
-- War/codex memories as meaningful but trap-shaped context for Maya.
+- War/codex memories as meaningful but trap-shaped context for Maya, owned primarily by Alara's journal and later chapter mapping.
 - Hidden higher-plane truth as deferred endgame/cosmology material.
 - Exact death reveal/choreography as a later chapter/endgame decision.
 
 ## Proposed File Changes After Approval
 
-- Create `bible/events/event-alara-death-war-memory.md`.
-- Create `planning/candidates/events/event-alara-death-war-memory.md`.
-- Add a decision record under `decisions/`.
-- Update `ENTITY_INDEX.md` to `approved`.
-- Update `PROJECT_STATE.md` to move to the next queued entity after finalization.
-- Queue any nonblocking consistency issue if the author chooses to defer Elric's causal role or Niall-codex staging.
+- Created `bible/events/event-alara-death-war-memory.md`.
+- Created `planning/candidates/events/event-alara-death-war-memory.md`.
+- Added `decisions/0062-alara-apparent-death-boundary-and-elric-timing.md`.
+- Updated `ENTITY_INDEX.md` to `approved`.
 
 ## Book Improvements Unlocked
 
@@ -155,10 +153,10 @@ The outline can proceed with:
 - Cleaner future outline handling of Selwin's innocence and Niall's subconscious projection.
 - Better endgame setup for Maya's resurrection choice without prematurely solving all higher-plane mechanics.
 
-## Required Decisions
+## Author Decisions
 
-1. Should this entity own both Alara's apparent death and the Alara/Niall war codex memories, under the durable name `Alara's apparent death and war memories`, or should the war memories remain owned only by `object-alara-journal` / later chapter mapping while this event owns only the death?
-2. Is the proposed canon boundary right: Alara's postpartum/fateweaving decline after Selwin leads to her apparent death; Book 1 characters believe she is dead/lost; hidden truth is likely higher-plane entrapment after trying to kill the extraplanar deity; exact mechanics stay deferred?
-3. Should Niall's knowledge state be accepted as: he believes Alara is unrecoverably dead/lost, does not know the higher-plane truth, and subconsciously but not consciously blames Selwin?
-4. Should Elric's role stay limited for now to tampering with/exploiting Alara's codex memories, with whether he caused, engineered, predicted, or merely exploited Alara's death deferred?
-5. Should the Niall-codex death reveal, eye/Nizän/Sheol/higher-plane mechanics, courtyard/cold/ash/lightning choreography, and how much appears directly in Book 1 all remain candidate material for later endgame/chapter review?
+1. War memories should remain in the Alara journal packet and later chapter mapping, not duplicated here.
+2. Accepted boundary: Alara's postpartum/fateweaving decline after Selwin leads to her apparent death; Book 1 characters believe she is dead/lost; hidden truth is likely higher-plane entrapment after trying to kill the extraplanar deity; exact mechanics stay deferred.
+3. Accepted Niall knowledge state: he believes Alara is unrecoverably dead/lost, does not know the higher-plane truth, and subconsciously but not consciously blames Selwin.
+4. Accepted Elric timing/role: Elric likely did not want Alara to die because she was a potential fateweaver tool, but he was already dead and still recrystallizing / taking over the Syndicate during her decline and apparent death. His accepted role is exploitation after the fact, not causation.
+5. Niall-codex death reveal, eye/Nizän/Sheol/higher-plane mechanics, courtyard/cold/ash/lightning choreography, and how much appears directly in Book 1 remain candidate material for later endgame/chapter review. The event may not explicitly appear in Book 1.

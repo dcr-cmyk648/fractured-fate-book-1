@@ -7,20 +7,20 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: event-alara-death-war-memory
-- Latest completed entity: event-harbinger-raid
+- Active or paused entity ID: none
+- Latest completed entity: event-alara-death-war-memory
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `app: refresh review data for story bible updates`
-- Working tree expected to be clean: no; `event-alara-death-war-memory` is awaiting author review
+- Working tree expected to be clean: no; `event-alara-death-war-memory` finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block.md
-- Consistency review due: no
+- Consistency review due: yes; narrative-thread/event block is complete before moving to the next culture item
 - Remote synchronized: yes
 
 ## Last completed work
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`event-alara-death-war-memory` has a deep review packet prepared and is awaiting author decisions.
+`event-alara-death-war-memory` author decisions were resolved and finalization is in progress.
 
 ## Next action
 
-Resolve the author decisions in `reviews/entities/events/event-alara-death-war-memory.md`, then finalize the accepted event record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
+Validate, commit, and push `event-alara-death-war-memory`, then run the due narrative-thread/event block consistency review before opening the next queued entity.
 
 ## Awaiting author input
 
-Awaiting author answers for `event-alara-death-war-memory`.
+None.
 
 ## Workflow policy note
 
@@ -51,7 +51,7 @@ Awaiting author answers for `event-alara-death-war-memory`.
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
 - Local branch should remain synchronized with `origin/beta` during ongoing work.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
-- Exact Alara death-event choreography, higher-plane state, and remaining cosmology mechanics belong to later `event-alara-death-war-memory`, Fateweaving/Skein, and endgame reviews.
+- Exact Alara apparent-death choreography, higher-plane state, and remaining cosmology mechanics remain deferred for later Fateweaving/Skein, endgame, and chapter review.
 - Kelyra's hereditary kinesis/Subversion terminology, future Shroud manifestation scene, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Elric's Harbinger/Syndicate takeover, Ink Pact possession, fate-strand sight, Heart exposure, codex/aura persistence, `A Cord of Six Strands` reveal staging, and reality-fracture mechanics need later consistency review; see `CONSISTENCY_QUEUE.md`.
 - Vorren's exact Heart-use mechanics, deeper Ink Pact delivery, mask/underground role, Kelyra breeding-contract knowledge/consent, Drakhal magic taxonomy, and exact Caius/Evana relationship history remain unresolved; see `planning/candidates/characters/char-vorren.md`.
