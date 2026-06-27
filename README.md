@@ -15,12 +15,13 @@ Intended sequence:
 1. Complete story-bible review.
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
-4. Create and review Chapter Architecture / Chapter Goal Cards.
-5. Run whole-book architecture review.
-6. Build a detailed next-draft outline.
-7. Build the gap-to-ending future/unwritten sequence outline.
-8. Run whole-book structural and consistency review.
-9. Open prose work only later, by explicit author authorization.
+4. Track prose-preservation intent where wording-level reuse or avoidance may matter.
+5. Create and review Chapter Architecture / Chapter Goal Cards.
+6. Run whole-book architecture review.
+7. Build a detailed next-draft outline.
+8. Build the gap-to-ending future/unwritten sequence outline.
+9. Run whole-book structural and consistency review.
+10. Open prose work only later, by explicit author authorization.
 
 If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
@@ -33,6 +34,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - `chapter-architecture/` will contain future Chapter Goal Cards after the outline phase opens.
 - `outline/` will contain planned narrative structure and arcs.
 - `revision/` will contain proposed or accepted prose-change plans.
+- `prose-preservation/` will later track wording-level preservation intent after chapter mapping opens.
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
 - `feedback/` will contain reader feedback when extracted or recorded.
 - `decisions/` records explicit author decisions.

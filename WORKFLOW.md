@@ -15,12 +15,13 @@ The intended sequence is:
 1. Complete story-bible review.
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
-4. Create and review Chapter Architecture / Chapter Goal Cards.
-5. Run whole-book architecture review.
-6. Build a detailed next-draft outline.
-7. Build the gap-to-ending future/unwritten sequence outline.
-8. Run whole-book structural and consistency review.
-9. Open prose work only later, by explicit author authorization.
+4. Track prose-preservation intent during chapter mapping, Chapter Goal Cards, feedback import, and later outline work.
+5. Create and review Chapter Architecture / Chapter Goal Cards.
+6. Run whole-book architecture review.
+7. Build a detailed next-draft outline.
+8. Build the gap-to-ending future/unwritten sequence outline.
+9. Run whole-book structural and consistency review.
+10. Open prose work only later, by explicit author authorization.
 
 If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
@@ -63,12 +64,13 @@ Proceed in this order:
 2. Run a full story-bible consistency and dependency review.
 3. Receive author approval to open the outline phase.
 4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
-5. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build the detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Complete whole-book structural and consistency reviews.
-10. Open prose work only after explicit later authorization under `AUTHORING.md`.
+5. Track prose-preservation intent as a future chapter/outline artifact, without duplicating manuscript passages.
+6. Run the Chapter Architecture Pass and create Chapter Goal Cards.
+7. Run whole-book architecture review.
+8. Build the detailed next-draft outline.
+9. Build the gap-to-ending future/unwritten sequence outline.
+10. Complete whole-book structural and consistency reviews.
+11. Open prose work only after explicit later authorization under `AUTHORING.md`.
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
@@ -279,6 +281,45 @@ Chapter Goal Cards should eventually live under paths such as:
 
 Do not create Chapter Goal Cards before the outline phase is explicitly opened.
 
+## Prose Preservation Notes
+
+Prose Preservation Notes are future chapter/outline artifacts for tracking wording-level preservation intent. They are not the same as the Chapter Goal Card section `Strong existing material to preserve`.
+
+- Strong existing material means preserve the scene function, beat, image, dynamic, turn, dialogue role, or structural value.
+- Prose Preservation Notes mean the wording-level material itself may be worth preserving, near-quoting, adapting, echoing, or deliberately avoiding.
+
+Create Prose Preservation Notes later during current-draft chapter mapping, scene-level review, Chapter Goal Cards, feedback import, detailed outline work, or authorized prose preparation. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
+
+Preservation levels are:
+
+- `function-only`
+- `beat-level-reuse`
+- `image-or-metaphor-reuse`
+- `dialogue-near-quote`
+- `exact-or-near-exact-prose`
+- `do-not-reuse-prose`
+- `needs-author-decision`
+
+Preservation statuses are:
+
+- `candidate`
+- `approved-for-reuse`
+- `approved-near-quote`
+- `approved-exact-quote`
+- `used-in-outline`
+- `used-in-prose`
+- `rejected`
+- `superseded`
+- `needs-author-decision`
+
+Candidate preservation notes do not approve exact or near-exact reuse. Exact or near-exact reuse requires author approval unless the author explicitly marks it that way in feedback or notes.
+
+When the phase opens, store records under a future `prose-preservation/` directory, with an index and chapter-level files such as `prose-preservation/current-draft/d1-ch-01.md`. Do not create those files now.
+
+Prose Preservation Notes should avoid copying large passages. Store stable ID, source draft ID, source file path, chapter ID, scene ID if available, line range if available, heading if available, a short excerpt only when exact wording matters, preservation level, reason, intended next-draft use, status, related Chapter Goal Card or future sequence if known, related feedback/comment ID if any, and related decision ID if author-approved. The manuscript remains the canonical source for the full text.
+
+Detailed next-draft outlines may reference preservation IDs, for example `near-quote dialogue from pp-d1-ch27-004` or `do not reuse current wording from pp-d1-ch08-003`, without duplicating manuscript passages.
+
 ## Story-Bible Complete-Enough Gate
 
 The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory has one of these statuses:
@@ -403,7 +444,7 @@ Checkpoint commits must be clearly labeled, for example `review: checkpoint Spir
 - `ENTITY_INDEX.md` is the sole authority for entity ID, entity type, queue order, entity status, review packet path, accepted file path, candidate file path, and last-reviewed date.
 - `PROJECT_STATE.md` contains immediate operational handoff information only: current branch, current phase, current block, active or paused entity ID, last completed action, exact next action, files needed for the immediate task, expected working-tree cleanliness, remote sync state, consistency-review due state, and unresolved blockers requiring author input.
 - `MIGRATION_STATUS.md` contains phase-level progress and phase gates only.
-- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. It is the default holding area for direct contradictions, possible contradictions, stale accepted records, later changes that may affect earlier files, unclear ownership, unresolved note disposition, setup/payoff gaps, character knowledge problems, current/future event confusion, outline dependencies, missing story-bible entities discovered later, chapter goal conflicts, scene function duplication, continuity drift, and worldbuilding implications not yet reviewed. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files, including setup/payoff, chronology, knowledge-state, and ability conflicts.
+- `CONSISTENCY_QUEUE.md` contains unresolved cross-file consistency matters only. It is the default holding area for direct contradictions, possible contradictions, stale accepted records, later changes that may affect earlier files, unclear ownership, unresolved note disposition, setup/payoff gaps, character knowledge problems, current/future event confusion, outline dependencies, missing story-bible entities discovered later, chapter goal conflicts, scene function duplication, continuity drift, prose-preservation orphaning or conflicts, and worldbuilding implications not yet reviewed. During future outline work, it also owns blocking and nonblocking outline discoveries that affect multiple files, including setup/payoff, chronology, knowledge-state, ability conflicts, and prose-preservation issues.
 - `REVISION_WORKFLOW.md` owns the detailed future chapter, scene, future-sequence, and next-draft-outline process after the story-bible completion gate opens.
 - `decisions/index.md` indexes explicit author decisions only.
 

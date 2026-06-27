@@ -142,12 +142,13 @@ Required order:
 2. Run the final story-bible consistency and dependency review.
 3. Receive author approval to open the outline phase.
 4. Map the current draft chapter by chapter and, when needed, scene by scene.
-5. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build the detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Complete whole-book structural and consistency reviews.
-10. Open prose work only after explicit later authorization under `AUTHORING.md`.
+5. Track prose-preservation intent where wording-level reuse or avoidance may matter.
+6. Run the Chapter Architecture Pass and create Chapter Goal Cards.
+7. Run whole-book architecture review.
+8. Build the detailed next-draft outline.
+9. Build the gap-to-ending future/unwritten sequence outline.
+10. Complete whole-book structural and consistency reviews.
+11. Open prose work only after explicit later authorization under `AUTHORING.md`.
 
 The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; every entity needed for the outline is `outline-ready` or `outline-ready with documented uncertainties`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency and opportunity reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 
@@ -223,6 +224,7 @@ For authoring collaboration style, scene work, prose drafting, revision, and cri
 - Requests to outline, review, analyze, organize, continue planning, or work on a chapter do not by themselves authorize prose drafting.
 - Requests to outline, review, analyze, organize, continue planning, or work on a chapter also do not bypass the story-bible-first gate.
 - Story-bible work, current-draft chapter mapping, Chapter Goal Cards, detailed outlines, future sequence planning, missing-transition identification, and "continue" do not authorize prose drafting.
+- Prose Preservation Notes are future planning/reference artifacts for tracking wording-level reuse or avoidance intent. They do not authorize prose drafting, manuscript edits, or restoring text the author has removed.
 - Unless the author explicitly says to edit files directly, Codex must preview new or revised prose in the conversation before applying it to manuscript files.
 - Historical writing-thread transcripts are evidence of collaboration style only. They are not authoritative canon sources and must not be imported into the bible, manuscript, outline, or decisions merely because they appeared there.
 
@@ -254,4 +256,5 @@ If work is interrupted during an entity review:
 - Files on disk are authoritative after the author manually edits them.
 - Codex must reload changed files before further work.
 - Codex must never restore removed language merely because it appeared in an earlier generated draft.
+- Codex must never restore removed language merely because it appears in a Prose Preservation Note.
 - Codex must show manuscript diffs before any authorized manuscript application.

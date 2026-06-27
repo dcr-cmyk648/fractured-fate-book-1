@@ -166,6 +166,7 @@ Gate:
 
 - Begin only after the story-bible completion gate, final story-bible consistency review, stable chapter source IDs or chapter files, and clear author approval to open the outline/chapter phase.
 - Map what is actually written now: chapter/source ID, POV, scene divisions, actual events, starting and ending states, character knowledge, reader knowledge, relationship movement, worldbuilding/magic introduced, plotline/thread participation, setup/payoff, problems or omissions, and relevant notes/comments.
+- Identify candidate Prose Preservation Notes only when wording-level reuse or avoidance could plausibly improve the next draft.
 - Preserve source provenance.
 - Do not rewrite, split, or draft prose unless a separate authorized manuscript-preparation workflow permits it.
 
@@ -178,6 +179,7 @@ Gate:
 - Begin after the current-draft chapter map.
 - Create Chapter Goal Cards for current-draft chapters, next-draft chapter candidates, and future/unwritten sequences as needed.
 - Treat each chapter or sequence as a story unit before detailed scene outlining.
+- Link to Prose Preservation Notes where a chapter should reuse only function, reuse or echo a beat/image/dialogue exchange, near-quote a line, preserve exact prose with author approval, or deliberately avoid current wording.
 - Run lightweight consistency checks against approved story-bible files, decision records, current chapter maps, prior cards, candidate files, and `CONSISTENCY_QUEUE.md`.
 - Pause and reopen story-bible or plotline work for blocking issues; queue nonblocking issues.
 - Do not generate or modify manuscript prose.
@@ -191,7 +193,7 @@ Gate:
 - Begin after Chapter Architecture / Chapter Goal Cards and whole-book architecture review.
 - Build the detailed next-draft outline.
 - Build the gap-to-ending future/unwritten sequence outline with stable future sequence IDs.
-- Integrate relevant notes, feedback, candidates, decisions, plotlines, arcs, Chapter Goal Cards, and consistency queue items.
+- Integrate relevant notes, feedback, candidates, decisions, plotlines, arcs, Chapter Goal Cards, Prose Preservation Notes, and consistency queue items.
 - Do not generate or modify manuscript prose.
 
 ## Phase 9: Whole-Book Structural and Consistency Review
@@ -202,6 +204,7 @@ Gate:
 
 - Run after the current draft has been mapped, Chapter Goal Cards have been reviewed, the future gap-to-ending outline exists, and the next-draft structure is complete.
 - Check structure, continuity, setup/payoff, chronology, knowledge states, abilities, relationships, world logic, current/future status, and story opportunities across the whole project.
+- Check that approved or unresolved Prose Preservation Notes are mapped, rejected, superseded, or queued rather than silently lost.
 - Resolve or explicitly defer blocking issues before prose work can open.
 
 ## Phase 10: Bullet Notes Inbox

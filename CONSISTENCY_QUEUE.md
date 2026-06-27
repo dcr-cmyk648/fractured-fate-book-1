@@ -37,6 +37,13 @@ Allowed review stage:
 - `prose-phase`
 - `whole-book-review`
 
+Future prose-preservation issue examples include:
+
+- prose-preservation orphaned
+- near-quote conflicts with revised canon
+- approved line not mapped to next-draft outline
+- do-not-reuse prose still appears in a proposed outline/prose plan
+
 | ID | Triggering change | Affected entity/file | Issue | Severity | Status | Blocking | Review stage |
 |---|---|---|---|---|---|---|---|
 | CQ-0001 | `char-niall` approval stores hidden silver zan-strike-line-etched conduits as lightning modifiers; `culture-magus-presentation` approval accepts sleeveless High Clade fashion as universal in Presentation-era culture | `magic-zan-lattices`; `object-seraph-heart`; `char-niall`; future object/technology reviews | Later reviews should reconcile silver conduit mechanics, Heart overcharging, and Niall's current military jacket as an exception to High Clade sleeveless fashion. Niall would have worn sleeveless fashion when Presented; exact Evana/Caius jacket comment remains candidate scene material. | possible-conflict | deferred | unknown | block-review |

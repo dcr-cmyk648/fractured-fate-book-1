@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-26
+Last updated: 2026-06-27
 
 ## Repository state
 
@@ -10,8 +10,8 @@ Last updated: 2026-06-26
 - Active or paused entity ID: thread-maya-davian-romance
 - Latest completed entity: char-kael
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: run final secondary characters consistency pass`
-- Working tree expected to be clean: no; `thread-maya-davian-romance` review packet is awaiting author input
+- Latest relevant commit message: `workflow: add prose preservation tracking`
+- Working tree expected to be clean: yes; `thread-maya-davian-romance` review packet is awaiting author input from a committed checkpoint
 - Remote synchronized: yes
 
 ## Block status
@@ -25,7 +25,7 @@ Last updated: 2026-06-26
 
 ## Last completed work
 
-The final secondary-character consistency/opportunity review was prepared after `char-kael`, covering Aldira through Kael and confirming no accepted-file contradiction blocks outline readiness.
+Workflow/control documentation was updated to define future Prose Preservation Notes for chapter mapping, Chapter Goal Cards, next-draft outlining, feedback imports, and later prose work. The active narrative-thread review was preserved unchanged.
 
 ## Current work
 
@@ -43,6 +43,7 @@ Answer the `thread-maya-davian-romance` review questions. After substantive appr
 
 - Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark the entity approved.
 - When waiting for author input, print the useful terminal summary and required author questions last so the author can audit them without opening packet files.
+- Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 
 ## Known blockers or risks
 
