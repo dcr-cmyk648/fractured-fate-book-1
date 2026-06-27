@@ -10,16 +10,16 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-kelyra-archeon-recovery
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Kelyra Archeon recovery packet`
-- Working tree expected to be clean: no; Kelyra Archeon recovery approval files are being finalized
+- Latest relevant commit message: `bible: approve Kelyra Archeon recovery arc`
+- Working tree expected to be clean: no; narrative-thread follow-up consistency review is being recorded
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: Kelyra Archeon trauma and family-protection arc
-- Approved entities since last consistency review: 2
-- Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-narrative-threads-followup-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
@@ -29,11 +29,11 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`thread-kelyra-archeon-recovery` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
+`thread-demi-human-mercenary-forces` and `thread-kelyra-archeon-recovery` were approved, committed, pushed, and checked through a follow-up narrative-thread consistency review.
 
 ## Next action
 
-Validate, commit, and push the approved `thread-kelyra-archeon-recovery` record. Then continue to the next queued entity according to `ENTITY_INDEX.md`.
+Validate, commit, and push the narrative-thread follow-up consistency review. Then open the next queued entity, `char-lirien`, with a concrete author review packet.
 
 ## Awaiting author input
 
