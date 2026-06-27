@@ -22,6 +22,8 @@ Niall's power has been slowly declining before the book, but this is not public 
 
 Drakhal coordinates an expensive attack at the start of the book to test Niall's powers and test or possibly kill Maya while she is still unPresented. Maya fights off the attack on the wall and then proceeds to Presentation. Without realizing it, she presents herself in the same basic political mode as Niall: do not cross Rezin or Rezin will kill you.
 
+Maya's Presentation gives Drakhal additional backroom ammunition with the other High Clades. They can point to Maya as proof that Rezin will continue to lord power over everyone and might decide to kill another Clade on a whim if allowed to continue unchecked.
+
 Drakhal is already working with the Harbingers in the background to steal the Heart and kill Niall if possible. This is the route by which Davian is pulled into the core High Clade political arc.
 
 Davian's Heart theft implies to Drakhal that he somehow defeated, bypassed, or survived Niall. Because Niall is still alive and Drakhal does not know the exact circumstances, the theft does not give them definitive proof that Niall is weak. Drakhal continues to gather allies, evidence, intelligence, and political position before calling an all-High-Clade meeting that excludes Rezin.
@@ -62,6 +64,8 @@ Niall's political reason for attacking Archeon is to make an example and restore
 Maya's political function is to complicate the Rezin order from inside. She is a terrifying new Rezin power, but her values, relationships, and developing self-knowledge push her away from pure inherited domination.
 
 Her early Presentation and wall-defense image risk making her into the next Niall in the eyes of the High Clades. Her later arc should challenge that inheritance rather than merely reproduce it.
+
+Niall's dominant reaction to Maya's Presentation display is worry. He may or may not be proud, but he had hoped, unrealistically, that he and Maya might be able to back away from serving as deterrents. Maya lacks the information needed to understand this and may interpret his worry as a fault on her end.
 
 ## Other High Clades
 
@@ -110,11 +114,14 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Related character: [Vorren](../../bible/characters/char-vorren.md)
 - Related character: [Elric Rezin](../../bible/characters/char-elric.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../../bible/events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Provenance
 
 - `reviews/entities/threads/thread-high-clade-politics.md`
 - `imports/normalized/melissa-copy.md:1422-1524`: Presentation before six High Clades and political display.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, Niall worry, Caius toxic mirror, and Drakhal backroom use.
 - `imports/normalized/melissa-copy.md:9048-9105`: birth contracts and Drakhal lineage records.
 - `imports/normalized/melissa-copy.md:10299-10320`: Caius/Shade incident as Drakhal political leverage.
 - `imports/normalized/melissa-copy.md:14003-14309`: Spire meeting, Rezin exclusion, Evana provocation, Niall public restraint.

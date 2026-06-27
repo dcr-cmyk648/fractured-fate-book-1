@@ -34,6 +34,8 @@ Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbing
 
 Drakhal's anti-Rezin move begins before the Heart theft. Drakhal coordinates the expensive opening attack to test Niall's powers and test or possibly kill Maya while she is still unPresented. Maya's wall defense and Presentation blunt that test by making her look like a new Niall-like Rezin threat.
 
+Drakhal already planned to move against Rezin and already had some idea of Maya because of the attack they sponsored. Maya's Presentation gives Drakhal additional ammunition for backroom conversations with other High Clades: if Rezin continues unchecked, Rezin will keep lording power over everyone, and no Clade can know when Rezin might decide to kill again on a whim.
+
 Drakhal is already working with the Harbingers in the background to steal the Heart and kill Niall if possible. After Davian steals the Heart, Drakhal infers that he somehow defeated, bypassed, or survived Niall, but because Niall is still alive and the exact circumstances are unknown, Drakhal does not treat Niall's weakness as proven.
 
 The Heart theft is not public surface politics. Rezin wants it hidden, and Drakhal/Archeon do not necessarily want to publicize it. Other High Clades may suspect something is wrong through intelligence networks, but Drakhal's open campaign proceeds through political legitimacy, provocation, marriage pressure, Niall-banishment framing, and accusations around tyranny and the Shade.
@@ -86,6 +88,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -102,6 +105,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - `imports/normalized/melissa-copy.md:20640-21160`: Evana and Caius in Archeon space, Drakhal concern over Niall's weakness, spies/agents, Caius's force-magic, and Drakhal/Archeon breeding-contract implications.
 - `imports/normalized/book-1-outline.md:270-326`: Drakhal deal, Caius-Maya proposal, Niall banishment, Niall vulnerability, and legitimacy trap planning.
 - `imports/normalized/book-1-outline.md:3236-3300`: older Drakhal `Aegistry` / force-magic Presentation notes.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation consequence as Drakhal backroom political ammunition.
 - `imports/normalized/book-1-outline.md:7111-7198`: Drakhal/Archeon leverage, breeding-contract deal, and political delay/gathering support.
 - `imports/normalized/book-1-outline.md:8238-8262`: Drakhal, Harbingers, Vorren, and underground/secret operation planning.
 - `decisions/0003-maya-shroud-and-prologue-revision-direction.md`

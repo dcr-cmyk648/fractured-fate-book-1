@@ -26,6 +26,8 @@ Niall Rezin is the current feared patriarch and political/military authority.
 
 Maya Rezin is the Rezin heir / Lady Maya. Her Presentation publicly establishes her as a Rezin magus before the High Clade Council.
 
+Maya's Presentation publicly reinforces Rezin deterrence by making her appear as a new Niall-level threat. This helps Rezin in the short term but also gives Drakhal and other High Clades political reason to fear that Rezin dominance will continue unchecked.
+
 Selwin Rezin is an unPresented Rezin child. Even before Presentation, his blood and Niall's status carry social power, but his inability to form a Shroud and dangerous manifestation stage remain major family risks.
 
 Alara is Niall's deceased wife and Maya and Selwin's mother. Her Naeroth origin is accepted Rezin family history and marks a significant divergence between the Rezin Clade and normal High Clade political leanings.
@@ -88,6 +90,8 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 - Decision record: [Aldira Identity, Spymaster Role, and Maya Support](../../decisions/0043-aldira-identity-spymaster-role-and-maya-support.md)
 - Decision record: [Erynn Companion Role and Maya Reality Check](../../decisions/0044-erynn-companion-role-and-maya-reality-check.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -100,6 +104,7 @@ Later manuscript material shows Selwin guarded by elite Rezin guards, Maya train
 
 - `imports/normalized/melissa-copy.md:230-420`: Maya's Presentation preparation, Niall's reassurance, and High Clade Council pressure.
 - `imports/normalized/melissa-copy.md:392-560`: Maya frames Presentation as family duty and leaves to defend Rezin soldiers.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Maya Presentation event architecture and Rezin deterrence consequence.
 - `imports/normalized/melissa-copy.md:640-760`: Niall commands wall commanders after the attack.
 - `imports/normalized/melissa-copy.md:2228-2310`: Maya trains Selwin and reflects on High Clade Presentation/Shroud survival pressure.
 - `imports/normalized/melissa-copy.md:4590-4675`: Selwin's elite guards and unPresented High Clade social authority.

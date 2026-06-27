@@ -110,9 +110,11 @@ Alara's codex memories are emotionally meaningful and partly reliable, but filte
 
 Maya is presented in the prologue as a young noble and magus preparing for the High Clade Council and Presentation. She is attended by Erynn, reassured by Niall, and concerned about not letting him down.
 
-Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. Exact speech, choreography, exhaustion, and fallout remain for `event-maya-presentation`.
+Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. The exact choreography and final wording remain deferred, but the event's conceptual shape is accepted in [Maya's Presentation](../events/event-maya-presentation.md).
 
 Politically, Maya's wall defense followed by Presentation unintentionally casts her in the same "do not cross me or I will kill you" mode Niall uses to hold the High Clades in line. This helps preserve Rezin deterrence while also making her a target and a symbol of inherited Rezin dominance.
+
+Maya's Presentation decision is counter to Niall's instructions. She reads the room, recognizes that the High Clades only truly respect power, and breaks from his restraint advice. From her perspective she does what is right and necessary. Niall's dominant reaction is worry, but he does not give her the information she would need to understand why. Maya may therefore interpret his worry as evidence of some fault on her end.
 
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
@@ -173,10 +175,12 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Decision: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Decision: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:233-258`, Prologue, paragraphs 89-105: Presentation preparation, Erynn, Niall reassurance, and Maya's fear of disappointing him.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, speech/display function, Niall worry, Caius reaction, and Drakhal political use.
 - `imports/normalized/melissa-copy.md:233-234`, Prologue, paragraph 89: superseded current-manuscript physical description.
 - `imports/normalized/melissa-copy.md:360-362`, Chapter 1: "Lady Maya" recognition.
 - `imports/normalized/melissa-copy.md:392-410`, Chapter 1: Niall frames the battle failure partly around his daughter.

@@ -81,6 +81,8 @@ Elric is Niall's father and a central hidden antagonist. Niall killed Elric's or
 
 In the prologue, Niall enters Maya's Presentation preparation with warmth and pride, reassures her before the High Clade Council, and then leaves when the citadel attack begins.
 
+At Maya's Presentation, Niall has instructed restraint: controlled strength, measured words, and tactical uncertainty. Maya breaks from that advice. Niall may or may not be proud of her display, but his dominant reaction is worry. He has hoped, unrealistically, that he and Maya might be able to back away from functioning as Rezin deterrents; Maya's display moves her deeper into that role. Because he does not tell Maya what she would need to know about his waning power and fear, she may interpret his worry as disappointment or lack of confidence in her.
+
 During the attack, Niall is drawn to the eastern wall while the western defenses fail. After Maya breaks the attacking force, Niall cuts down retreating enemies with lightning. Maya screams for him to stop because they are retreating; he continues until she grabs his arm. He fails to recognize her for a moment, murmurs Alara's name, then returns to command posture.
 
 In Chapter 1, Niall responds to the wall commanders' failure with cold fury. He frames the breach through dead Rezin soldiers and the danger to Maya, then demands concrete evidence of who financed and coordinated the attack.
@@ -133,6 +135,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -146,6 +149,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:246-261`: Niall's warm pride and reassurance before Maya's Presentation.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, restraint advice, Niall worry, and Maya misreading.
 - `imports/normalized/melissa-copy.md:453-458`: Niall drawn to the eastern wall while the western defenses fail.
 - `imports/normalized/melissa-copy.md:645-676`: Niall kills retreating enemies, Maya stops him, and he mistakes her for Alara.
 - `imports/normalized/melissa-copy.md:392-414`: Niall questions wall commanders after the attack.

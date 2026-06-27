@@ -8,32 +8,32 @@ Last updated: 2026-06-27
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
 - Active or paused entity ID: none
-- Latest completed entity: thread-high-clade-politics
+- Latest completed entity: event-maya-presentation
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Maya Davian romance thread`
-- Working tree expected to be clean: no; `thread-high-clade-politics` approved finalization is being validated
+- Latest relevant commit message: `bible: approve Maya Presentation event`
+- Working tree expected to be clean: yes after approval commit
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 2
+- Approved entities since last consistency review: 3
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`thread-high-clade-politics` was approved by the author and finalized into an accepted arc seed, candidate bank, decision record, direct dependent summaries, and consistency queue updates.
+`event-maya-presentation` was approved and is being finalized for commit.
 
 ## Current work
 
-Validating and committing the approved `thread-high-clade-politics` finalization.
+No entity is currently active until the next queued entity is opened after the approval commit.
 
 ## Next action
 
-Run validation, commit and push `thread-high-clade-politics`, then open the next queued entity.
+Validate, commit, and push `event-maya-presentation`; then open the next queued entity.
 
 ## Awaiting author input
 

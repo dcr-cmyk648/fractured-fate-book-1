@@ -64,3 +64,4 @@ Do not use this file as a dump for unresolved questions.
 | Kael Brief Role and Davian-Selwin Mirror | 2026-06-26 | accepted; stored in approved `char-kael` record | [0056-kael-brief-role-and-davian-selwin-mirror.md](0056-kael-brief-role-and-davian-selwin-mirror.md) |
 | Maya / Davian Romance and Trust Architecture | 2026-06-27 | accepted; stored in approved `thread-maya-davian-romance` arc seed | [0057-maya-davian-romance-trust-architecture.md](0057-maya-davian-romance-trust-architecture.md) |
 | High Clade Political Sequence and Archeon Trap | 2026-06-27 | accepted; stored in approved `thread-high-clade-politics` arc seed | [0058-high-clade-politics-archeon-trap.md](0058-high-clade-politics-archeon-trap.md) |
+| Maya Presentation Event Architecture | 2026-06-27 | accepted; stored in approved `event-maya-presentation` record | [0059-maya-presentation-event-architecture.md](0059-maya-presentation-event-architecture.md) |

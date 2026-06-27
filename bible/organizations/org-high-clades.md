@@ -65,6 +65,8 @@ Presentation is a High Clade legitimacy institution. It publicly marks a child o
 
 For Maya, Presentation is not merely social introduction. It is a public demonstration that the Rezin line remains strong while still concealing enough information to preserve tactical advantage.
 
+Maya's Presentation partly fails Niall's intended tactical concealment but succeeds as deterrence. Maya publicly appears as a new Rezin apex threat, giving Drakhal ammunition to persuade other High Clades that Rezin will continue lording power over them if unchecked.
+
 Detailed Presentation ritual, training standards, sleeveless fashion, Shroud expectations, and Presented/unPresented culture belong to `culture-magus-presentation`.
 
 ## Power, Secrecy, and Status
@@ -126,6 +128,8 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -140,6 +144,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - `imports/normalized/melissa-copy.md:351-372`: Presentation as political and tactical legitimacy test.
 - `imports/normalized/melissa-copy.md:1449-1464`: Niall instructs Maya to conceal full capability.
 - `imports/normalized/melissa-copy.md:1491-1524`: ceremonial ideology of High Clades as apex society.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Maya Presentation event architecture and political consequence.
 - `imports/normalized/melissa-copy.md:9048-9105`: birth contracts, Presentation-linked status, and Elric's attempted abolition.
 - `imports/normalized/melissa-copy.md:20980-21120`: Serathis frames the question of what makes a High Clade and how a Low Clade rises.
 - `imports/normalized/melissa-copy.md:21460-21490`: citadels originally designed around city-wedge shelter and war use.
