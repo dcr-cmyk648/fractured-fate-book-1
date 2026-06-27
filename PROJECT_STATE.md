@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 13 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-13` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 13 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-14` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-13` was approved as an accurate current-draft map. Author feedback added that the journal memory should be softly cued as too intense or too perfect, with Maya distorting it into how things should be or could be if she were better. `Elarion` is obsolete and should become `the Six Cities`. Selwin's later descent into obsession should be pre-cued: he can interpret Maya's genuine efforts to make his childhood less horrible than hers as weakness, and interpret Niall's distance as proof Niall does not think he is worth noticing as a possible heir or magus.
+`d1-ch-14` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian pressure/disruption material: covert Concord contact, Treasury zän-lattice difficulty, return through Rezin spaces, and Harvick bringing Davian into a Maya/Selwin training yard where Davian misreads attraction/fascination as rage.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-13` current-draft map approval, then prepare and present the `d1-ch-14` current-draft map packet.
+Present the `d1-ch-14` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-15`.
 
 ## Awaiting author input
 
-None until the `d1-ch-14` current-draft map packet is prepared.
+Author review of `revision/current-draft-map/d1-ch-14.md`.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ None until the `d1-ch-14` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-13.md
+- revision/current-draft-map/d1-ch-14.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
