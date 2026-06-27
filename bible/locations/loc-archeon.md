@@ -58,6 +58,8 @@ The final attack approach will lead through the slums and neglected city-wedge-b
 
 The current plan is for all main attackers to approach from aboveground. Once inside, they proceed through the Archeon citadel toward the central tower for the battle in and under the throne room.
 
+The political reason for this route is the accepted High Clade/Drakhal/Archeon trap: Drakhal's public pressure and deniability route the protagonists toward Archeon, where the central-tower trap can isolate Niall and drop him toward Vorren.
+
 Exact route choreography, outer wall/gate configuration, and battle matchups remain deferred.
 
 ## Related Files
@@ -76,6 +78,7 @@ Exact route choreography, outer wall/gate configuration, and battle matchups rem
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

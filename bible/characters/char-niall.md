@@ -25,6 +25,8 @@ His unresolved grief over Alara is a core wound and core driver of his interacti
 
 Niall is rigid, controlled, and deeply invested in not appearing weak. Planning material frames part of his arc around moving from grief, rigidity, and needing to prove he can still stand alone toward accepting help and protecting the living people he values.
 
+His power has been slowly declining before the book, but this is not public knowledge. Maya does not know the real degree of this decline during the Spire provocation.
+
 Elric Rezin is Niall's father. Niall destroyed Elric's original body, but Elric's long-running plans continue through Ink and the Harbinger leader. Elric is a hidden source of Niall's fear around fate/Skein work and part of the pressure shaping Niall's rigidity.
 
 ## Abilities and Equipment
@@ -91,7 +93,11 @@ Niall has a codex connected to Alara that he cannot make himself open again but 
 
 ## Political and Military Role
 
-Niall's reputation is politically central. Enemies fear him enough to wait after the Heart theft to see whether his weakness is real, then plan around baiting, weakening, or legitimizing attacks against him.
+Niall's reputation is politically central. He is the apex magus whose threat keeps the other High Clades in line because they fear he can walk into their fortresses and kill them, as he did with the prior Lyranth Head Magus and other magi.
+
+Drakhal tests Niall's waning power through the opening attack and then, after Davian steals the Heart, infers that Niall may have been defeated or bypassed. Because Niall is still alive and the exact circumstances are unknown, Drakhal continues to fear him and gathers allies, evidence, and political position before escalating.
+
+At the Spire provocation, Niall refuses to kill Evana publicly because he knows he cannot win the broader situation. He might be able to kill Evana, but then he and Maya would likely die. Maya misreads this as Niall lacking confidence in her abilities because she does not know about his waning power.
 
 Planning material also frames Niall's public/strategic explanations as sometimes overlapping with a private need to prove he can still act as the terrifying High Clade magus others believe him to be.
 
@@ -126,6 +132,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

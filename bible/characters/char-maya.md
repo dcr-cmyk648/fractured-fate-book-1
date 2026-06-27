@@ -112,6 +112,8 @@ Maya is presented in the prologue as a young noble and magus preparing for the H
 
 Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. Exact speech, choreography, exhaustion, and fallout remain for `event-maya-presentation`.
 
+Politically, Maya's wall defense followed by Presentation unintentionally casts her in the same "do not cross me or I will kill you" mode Niall uses to hold the High Clades in line. This helps preserve Rezin deterrence while also making her a target and a symbol of inherited Rezin dominance.
+
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
 In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zän lattices. She is sleep-deprived and under pressure.
@@ -125,6 +127,8 @@ Accepted future object direction: Maya names and designs Paradox, the normal swo
 ## Intended Future State
 
 Maya's broader end-arc is not fully approved. Accepted high-level Vorren direction: Vorren is a dark mirror for what Maya could become if power under abuse and impossible expectation were severed from care, responsibility, and chosen values. Maya, Niall, and Davian together kill Vorren, with exact choreography deferred.
+
+During the Spire provocation, Maya misreads Niall's refusal to kill Evana publicly as lack of confidence in Maya's abilities. She does not know Niall's power has been waning or that he believes killing Evana would likely leave both him and Maya dead against the gathered High Clade pressure.
 
 Current candidate direction is that Maya becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force. Do not treat the exact Vorren resolution choreography as approved final canon until later plot review.
 
@@ -168,6 +172,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
+- Decision: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Provenance
 

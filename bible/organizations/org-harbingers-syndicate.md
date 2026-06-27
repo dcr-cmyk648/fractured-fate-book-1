@@ -64,6 +64,8 @@ The fact that the Harbinger leader is actually Elric in someone else's body is n
 
 The masked figure beside the Harbinger leader during Kelyra's Heart delivery is Vorren.
 
+Drakhal is already working with the Harbingers in the background before the Heart theft to try to steal the Heart and kill Niall if possible. This coordination should remain hidden behind surface political maneuvering; the Heart theft is not publicly litigated as the open reason for Drakhal's later pressure against Rezin.
+
 ## Related Files
 
 - Review packet: [org-harbingers-syndicate](../../reviews/entities/organizations/org-harbingers-syndicate.md)
@@ -82,6 +84,7 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

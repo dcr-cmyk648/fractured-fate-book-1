@@ -44,6 +44,8 @@ From Evana's, Elric's, and Serathis's perspective, the offer is bad-faith. It is
 
 Caius likely has not been fully looped into that decision-making. He thinks he has a real shot and may treat the courtship as personally meaningful, politically deserved, or both.
 
+Caius does not appear in the final Archeon/Vorren fight. Drakhal wants plausible deniability, so Vorren is the only Drakhal magus committed to the Book 1 endgame trap.
+
 ## Relationships
 
 ### Maya Rezin
@@ -96,6 +98,7 @@ Current manuscript aftermath also treats Caius's street fight as politically con
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Aldira](char-aldira.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

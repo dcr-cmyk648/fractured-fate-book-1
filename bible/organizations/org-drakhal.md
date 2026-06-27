@@ -32,7 +32,13 @@ Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbing
 
 ## Political Strategy
 
-After the Heart theft, Drakhal moves against the Rezins because Niall may be vulnerable. Drakhal still fears Niall and avoids direct danger or fair fights unless the situation is overwhelmingly favorable.
+Drakhal's anti-Rezin move begins before the Heart theft. Drakhal coordinates the expensive opening attack to test Niall's powers and test or possibly kill Maya while she is still unPresented. Maya's wall defense and Presentation blunt that test by making her look like a new Niall-like Rezin threat.
+
+Drakhal is already working with the Harbingers in the background to steal the Heart and kill Niall if possible. After Davian steals the Heart, Drakhal infers that he somehow defeated, bypassed, or survived Niall, but because Niall is still alive and the exact circumstances are unknown, Drakhal does not treat Niall's weakness as proven.
+
+The Heart theft is not public surface politics. Rezin wants it hidden, and Drakhal/Archeon do not necessarily want to publicize it. Other High Clades may suspect something is wrong through intelligence networks, but Drakhal's open campaign proceeds through political legitimacy, provocation, marriage pressure, Niall-banishment framing, and accusations around tyranny and the Shade.
+
+Drakhal still fears Niall and avoids direct danger or fair fights unless the situation is overwhelmingly favorable.
 
 Drakhal's current plan is to propose that Caius marry Maya and that Niall accept banishment. From Evana's, Elric's, and Serathis's perspective, this is a bad-faith trap and they know Niall is essentially certain to refuse. Caius likely has not been fully looped into that decision-making and thinks he has a real shot. The proposal is designed to goad Niall into one of two outcomes:
 
@@ -40,6 +46,8 @@ Drakhal's current plan is to propose that Caius marry Maya and that Niall accept
 - a path to the Archeon citadel, where Vorren is waiting with a lethal trap for Niall
 
 Either way, Drakhal positions itself for maximum upside while shielding itself from direct danger or conflicts that are not overwhelmingly in its favor.
+
+Caius does not appear in the final Archeon/Vorren fight. Drakhal wants plausible deniability, so Vorren is the only Drakhal magus committed to the final trap.
 
 ## Archeon and Breeding-Contract Deal
 
@@ -77,6 +85,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Decision record: [Drakhal Political Strategy and Vorren Affiliation](../../decisions/0013-drakhal-political-strategy-and-vorren-affiliation.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 
@@ -85,7 +94,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Evana's full character file remains unwritten.
 - Vorren's full character file is approved in `char-vorren`; exact Caius/Evana/Vorren relationship history, Heart-use mechanics, Ink delivery, and mask/underground role remain unresolved.
 - High-level Drakhal/Harbinger/Vorren coordination is accepted. Exact operational details, knowledge boundaries, and deniability remain for later organization, character, and narrative-thread reviews.
-- Exact execution of the Caius-Maya proposal, Niall-banishment gambit, and Archeon/Vorren trap remains for plot review.
+- Exact execution of the Caius-Maya proposal, Niall-banishment gambit, and Archeon/Vorren trap remains for plot review, but Caius's absence from the final fight and Vorren's role as Drakhal's deniable commitment are accepted.
 
 ## Provenance
 

@@ -63,3 +63,4 @@ Do not use this file as a dump for unresolved questions.
 | Selina Death, Family Myth, and Object Links | 2026-06-26 | accepted; stored in approved `char-selina` record | [0055-selina-death-family-myth-and-object-links.md](0055-selina-death-family-myth-and-object-links.md) |
 | Kael Brief Role and Davian-Selwin Mirror | 2026-06-26 | accepted; stored in approved `char-kael` record | [0056-kael-brief-role-and-davian-selwin-mirror.md](0056-kael-brief-role-and-davian-selwin-mirror.md) |
 | Maya / Davian Romance and Trust Architecture | 2026-06-27 | accepted; stored in approved `thread-maya-davian-romance` arc seed | [0057-maya-davian-romance-trust-architecture.md](0057-maya-davian-romance-trust-architecture.md) |
+| High Clade Political Sequence and Archeon Trap | 2026-06-27 | accepted; stored in approved `thread-high-clade-politics` arc seed | [0058-high-clade-politics-archeon-trap.md](0058-high-clade-politics-archeon-trap.md) |

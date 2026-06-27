@@ -54,6 +54,8 @@ The Drakhal/Archeon breeding-contract deal involving Kelyra and Vorren is accept
 
 Vorren waits below the Archeon throne-room trap for Niall.
 
+Drakhal commits Vorren, not Caius or Evana, to the Book 1 endgame trap because Vorren gives Drakhal plausible deniability. He is the hidden Drakhal weapon rather than an open formal Drakhal military commitment.
+
 The accepted high-level direction is that Vorren is killed by Maya, Niall, and Davian together, with exact choreography deferred to later outline work.
 
 Vorren's role in that fight is structural:
@@ -90,6 +92,7 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

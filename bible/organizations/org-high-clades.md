@@ -33,6 +33,8 @@ The six canonical High Clades named in current Presentation material are:
 
 Rezin, Archeon, and Drakhal have approved organization files. Nyctaris, Cryndor, and Lyranth remain minimally reviewed until their own records are created or folded into later High Clade politics / culture review.
 
+For Book 1 outline purposes, Nyctaris, Cryndor, and Lyranth can remain named High Clade pressure/background unless later chapter work needs more specificity. Historically, Cryndor would have been friendly with Rezin before Niall killed the Lyranth Head Magus and other magi.
+
 ## Governance
 
 Each High Clade governs its city-wedge from its citadel. City-wedges in the Six Cities are governed through Low Clade councils and proxy structures reporting to the relevant High Clade.
@@ -95,6 +97,8 @@ Older High Clade disputes were more formalized, including duels in a central are
 
 After Alara died, Niall Rezin changed the political environment by responding to obstruction or challenge with direct lethal dominance. His willingness to enter another citadel and kill rival High Clade magi made him a deterrent and helped pin the system into its current fearful equilibrium.
 
+This deterrent is the foundation of the Book 1 political arc. Other High Clades fear that Niall can walk into their fortresses and kill them. Drakhal's strategy is built around testing whether that deterrent has weakened, gathering allies and political cover, and provoking Rezin through surface legitimacy contests rather than openly publicizing the Heart theft.
+
 Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `thread-high-clade-politics`.
 
 ## Related Files
@@ -121,6 +125,7 @@ Exact Drakhal / Archeon / Rezin maneuvering after the Heart theft belongs to `th
 - Decision record: [Shroud Throughput and Manifestation Model](../../decisions/0018-shroud-throughput-and-manifestation-model.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 
