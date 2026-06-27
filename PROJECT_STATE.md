@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 2 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-02` approval and `d1-ch-03` current-draft map packet are committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 2 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-03` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-02` was approved as an accurate descriptive current-draft map. Author feedback added purpose-level direction for introducing the Harbingers/hidden Elric, fate-adjacent manipulation cues, Davian/Kelyra backlash due to Shroudless misuse, Ink Boons, Davian being manipulated into volunteering to kill Niall, the seed of Davian later running from intimacy with Maya, more demi-human material through a possible large demi-human catacombs guide, and replacing current-draft Jalen with Kelyra in the intended next-draft sequence.
+`d1-ch-02` was approved, validated, committed, and pushed. Author feedback added purpose-level direction for introducing the Harbingers/hidden Elric, fate-adjacent manipulation cues, Davian/Kelyra backlash due to Shroudless misuse, Ink Boons, Davian being manipulated into volunteering to kill Niall, the seed of Davian later running from intimacy with Maya, more demi-human material through a possible large demi-human catacombs guide, and replacing current-draft Jalen with Kelyra in the intended next-draft sequence.
 
 ## Next action
 
-Finalize the `d1-ch-02` approval, then prepare and present the `d1-ch-03` current-draft map packet.
+Prepare and present the `d1-ch-03` current-draft map packet. The packet should describe the current Presentation chapter accurately and flag divergences around Aldira naming, open-air Spire staging, Drakhal leadership naming, candidate High Clade magic labels, Maya's level of political insight, and Niall's worry.
 
 ## Awaiting author input
 
-None until the `d1-ch-03` current-draft map packet is prepared.
+Awaiting author review of `revision/current-draft-map/d1-ch-03.md`. Required decision: approve the Chapter 3 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
@@ -84,7 +84,7 @@ None until the `d1-ch-03` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-02.md
+- revision/current-draft-map/d1-ch-03.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
