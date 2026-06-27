@@ -304,6 +304,10 @@ When outline work discovers a genuinely new entity:
 
 Do not create a separate competing inventory system for outline discoveries.
 
+Chapter mapping, Chapter Goal Cards, detailed outlining, feedback import, and consistency checks may also discover new repository-level items that are not strictly new story-bible entities: plotline records, thread records, chapter-architecture issues, future-sequence needs, prose-preservation candidates, feedback records, queue items, or stale accepted records. Route each item to its owning repository file or queue, mark blocking items before continuing, and do not treat the current chapter packet as permission to silently accept or discard the new material.
+
+Consistency checks should be especially alert for these discoveries. If a newly discovered item could affect plot, character motivation, continuity, magic/world logic, chronology, setup/payoff, chapter purpose, or the future outline, preserve it and review or queue it before moving past the relevant checkpoint.
+
 ## Existing Entity Corrections
 
 When chapter work contradicts an approved entity:
