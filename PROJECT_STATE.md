@@ -10,17 +10,17 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: magic-convergence-heat-transfer
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Convergence magic packet`
-- Working tree expected to be clean: no; Convergence approval files are being finalized
+- Latest relevant commit message: `bible: approve Convergence heat transfer model`
+- Working tree expected to be clean: no; Convergence consistency review is being recorded
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: magic-systems
 - Block scope: Convergence heat transfer and related Naeroth/Maya magic constraints
-- Approved entities since last consistency review: 1
-- Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
-- Consistency review due: yes; category will shift after this single magic entity
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
@@ -29,11 +29,11 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`magic-convergence-heat-transfer` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
+`magic-convergence-heat-transfer` was approved, committed, pushed, and checked through a compact category-shift consistency review.
 
 ## Next action
 
-Validate, commit, and push the approved `magic-convergence-heat-transfer` record. Then run the due block/category-shift consistency review before opening the next queued entity.
+Validate, commit, and push the Convergence consistency review. Then open the next queued entity, `thread-demi-human-mercenary-forces`, with a concrete author review packet.
 
 ## Awaiting author input
 
