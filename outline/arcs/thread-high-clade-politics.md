@@ -120,6 +120,8 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../../bible/events/event-heart-theft.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../../bible/events/event-harbinger-raid.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Provenance
 

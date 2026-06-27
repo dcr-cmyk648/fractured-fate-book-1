@@ -48,8 +48,8 @@ Before doing book work, Codex must:
 - When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The final thing printed before waiting for author input must be the concrete numbered questions, so the author can audit and answer them without scrolling past later status text. Do not require the author to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 - Do not require exact approval phrases. Treat clear statements such as "looks good," "approved," "go ahead," "that works," "commit it," "continue," "yes, use that," or "add that to the file" as approval when substantive questions have been resolved.
 - Do not interpret casual agreement as final entity approval when meaningful questions remain. Ask only about the remaining substantive ambiguity.
-- After substantive approval, automatically apply the already-approved entity content, create the previously proposed durable files, update indexes and project-state files, run validation, inspect the staged file list, commit the approved entity locally, and begin preparing the next queued entity.
-- After an approved entity has been committed, automatically begin the next queued entity unless the author requests a different entity, the queue is unclear, the working tree contains unexpected changes, or a blocker requires author input.
+- After substantive approval, automatically apply the already-approved entity content, create the previously proposed durable files, update indexes and project-state files, run validation, inspect the staged file list, commit the approved entity locally, run any due consistency review, and begin preparing the next queued entity.
+- After an approved entity has been committed, automatically begin the next queued entity unless the author requests a different entity, the queue is unclear, the working tree contains unexpected changes, a blocker requires author input, or a consistency review is due. If consistency review is due, run it automatically before beginning the next entity.
 - When finishing or checkpointing an entity, continue directly to the next queued entity whenever no real author decision is needed for the current entity. Do not stop merely because a routine checkpoint, source-gathering checkpoint, or durability checkpoint was reached.
 - Do not ask for separate authorization for routine repository mechanics such as updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, decision indexes, validation, or the local commit associated with approved work.
 - Do not push, merge, tag, delete source material, install dependencies, rewrite Git history, or modify manuscript prose without separate explicit permission.
@@ -194,7 +194,7 @@ A current intention may be `present-canon` while its eventual execution is an `a
 Use a hybrid consistency model:
 
 - Level 1: after each approved change, identify the primary owner file for each changed fact, search direct dependent accepted files and links, and update straightforward dependent summaries, links, metadata, and references in the same commit.
-- Level 2: at the end of each logical block, run a fuller consistency review before beginning the next block.
+- Level 2: at the end of each logical block, run a fuller consistency review automatically before beginning the next block.
 - Logical blocks normally end when all principal characters are reviewed, a major entity category is completed, work moves from one entity type to another, five approved entities have accumulated since the last review, or the author asks to finish/check the block.
 - Maintain `CONSISTENCY_QUEUE.md` as the compact system-managed queue for issues that may require later checking or judgment.
 - Do not fill `CONSISTENCY_QUEUE.md` with trivial nonissues or every relationship; add items that may require consistency review, conflict resolution, dependent-file updates, or later outline judgment. When unsure whether a meaningful issue matters, queue it.
@@ -202,17 +202,19 @@ Use a hybrid consistency model:
 - When older accepted files are stale, update them if the fix is straightforward and already approved in substance. Otherwise mark the relevant entity or file `needs-revisit`, add a concise queue item, and link to the decision or later change that caused the issue.
 - Manual-edit protection applies to all consistency work: reload affected files from disk, inspect Git changes, preserve author edits, and never restore removed text from earlier generated drafts.
 
-Block-level consistency review becomes due when five entities have been approved since the last review, work changes to a different major entity category, a `broad-retcon` or `direct-contradiction` item affects multiple approved files, the author requests a consistency review, or the current logical block is complete.
+Block-level consistency review becomes due when five entities have been approved since the last review, work changes to a different major entity category, a `broad-retcon` or `direct-contradiction` item affects multiple approved files, the author requests a consistency review, or the current logical block is complete. When it becomes due, Codex should run it automatically before opening the next entity unless a real blocker requires author input.
 
 ## GitHub Sync Rules
 
 - Approved entity work is committed locally after substantive approval.
-- After each successful approved-entity commit, push the current feature branch automatically.
+- After each successful approved-entity commit, push the current branch automatically.
+- Story-bible, outline, review, decision, feedback-processing, consistency-report, and other text/documentation updates may go directly to `main` after validation so reader-facing app data can stay current.
+- App/interface changes, scripts that affect publishing behavior, automation, and operational changes that need beta testing should continue on `beta` or a feature branch until tested.
 - Never force-push.
 - If the remote has diverged, stop and report rather than resolving automatically.
 - Do not push uncommitted work.
 - A review packet may receive a clearly labeled checkpoint commit when necessary for cross-computer durability, but it must remain unapproved.
-- `main` must never receive automatic direct commits from Codex.
+- Do not commit directly to `main` for app/interface or operational changes unless the author explicitly asks for that specific change to go there.
 
 ## Authoring Rules
 

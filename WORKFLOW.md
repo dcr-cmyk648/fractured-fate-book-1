@@ -427,11 +427,19 @@ Do not ask the author about every potentially interesting detail. If a detail ca
 
 Optional development prompts may be shown separately from required decisions. Label them clearly as `Required decisions` and `Optional deeper exploration`. The author should be able to answer required questions quickly without being forced to resolve every interesting possibility. If the author begins brainstorming an optional issue, engage with it and preserve useful results.
 
-Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, or making the local Git commit associated with approved work.
+Do not require separate authorization for starting the next queued entity, applying already-approved entity content, creating previously proposed durable files, updating `ENTITY_INDEX.md`, `PROJECT_STATE.md`, `MIGRATION_STATUS.md`, `CONSISTENCY_QUEUE.md`, decision indexes, running validation, running a due consistency review, or making the local Git commit associated with approved work.
 
 Do not merge, tag, delete source or archival material, install dependencies, rewrite Git history, force-push, or modify manuscript prose without separate explicit permission.
 
-Approved entity work is committed locally after substantive approval. After each successful approved-entity commit, push the current feature branch automatically. If the remote has diverged, stop and report. Do not push uncommitted work. `main` must never receive automatic direct commits from Codex.
+Approved entity work is committed locally after substantive approval. After each successful approved-entity commit, push the current branch automatically. If the remote has diverged, stop and report. Do not push uncommitted work.
+
+Branch policy:
+
+- Story-bible, outline, review, decision, feedback-processing, consistency-report, and other text/documentation updates may go directly to `main` after validation so reader-facing app data can stay current.
+- App/interface changes, scripts that affect publishing behavior, automation, and operational changes that need beta testing should continue on `beta` or a feature branch until tested.
+- Never force-push.
+- If a text/documentation batch is developed on `beta`, it may be merged or fast-forwarded to `main` after validation when no app/operational changes are mixed in.
+- Do not commit directly to `main` for app/interface or operational changes unless the author explicitly asks for that specific change to go there.
 
 Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. After approval, commit the approved entity normally. Do not create a separate unapproved packet commit unless durability actually matters.
 
@@ -824,9 +832,9 @@ After storing approved information:
 8. Run relevant validation.
 9. Inspect the staged file list and stop if any unexpected file is staged.
 10. Commit the approved entity locally using an appropriate commit message.
-11. Push the current feature branch normally without force. If the remote has diverged, stop and report.
+11. Push the current branch normally without force. If the remote has diverged, stop and report.
 12. Leave the working tree clean.
-13. Begin preparing the next queued entity unless an exception requires stopping or a block-level consistency review is due.
+13. Run any due block-level consistency review automatically before preparing the next queued entity.
 14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
 15. Continue directly through routine checkpoints that do not require real author judgment.
 16. Stop only when the next entity review or block-level consistency checkpoint has substantive author questions, or when another documented exception requires author input.

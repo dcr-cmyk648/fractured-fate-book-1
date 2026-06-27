@@ -177,6 +177,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Decision: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
 - Decision: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)

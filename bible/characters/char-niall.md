@@ -137,6 +137,7 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)

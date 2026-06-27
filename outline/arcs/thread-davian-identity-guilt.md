@@ -35,6 +35,7 @@ The Maya/Davian romance and trust arc is now an approved linked arc seed. It cla
 
 - [Maya / Davian Romance and Trust Arc](thread-maya-davian-romance.md)
 - [Heart theft / Treasury breach](../../bible/events/event-heart-theft.md)
+- [Harbinger betrayal / Trial of Dominion and Kelyra capture](../../bible/events/event-harbinger-raid.md)
 
 ## Provenance
 
@@ -45,3 +46,4 @@ The Maya/Davian romance and trust arc is now an approved linked arc seed. It cla
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
 - `decisions/0057-maya-davian-romance-trust-architecture.md`
 - `decisions/0060-heart-theft-event-architecture.md`
+- `decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md`

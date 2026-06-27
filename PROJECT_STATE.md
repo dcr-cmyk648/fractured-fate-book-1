@@ -10,30 +10,30 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: event-harbinger-raid
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Harbinger betrayal event`
-- Working tree expected to be clean: yes
+- Latest relevant commit message: pending commit for narrative-thread/event consistency review
+- Working tree expected to be clean: no; consistency review finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 5
-- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
-- Consistency review due: yes
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block.md
+- Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-`event-harbinger-raid` was approved, committed, and pushed.
+The narrative-thread/event block consistency review was run after `event-harbinger-raid`.
 
 ## Current work
 
-No entity is currently open. Narrative-thread/event block consistency review is due before opening the next queued entity.
+No entity is currently open. The narrative-thread/event block consistency review passed with documented uncertainties.
 
 ## Next action
 
-Run the due narrative-thread/event block consistency review before opening the next queued entity.
+Validate, commit, and push the consistency review / workflow policy update; then open the next queued entity.
 
 ## Awaiting author input
 
