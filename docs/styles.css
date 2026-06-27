@@ -244,6 +244,10 @@ main {
   font-size: 0.88rem;
 }
 
+.mobile-reader-toggle {
+  display: none;
+}
+
 .reader-sidebar label,
 .reader-toolbar label {
   display: grid;
@@ -670,8 +674,70 @@ select {
   }
 
   .reader-sidebar {
-    top: 0.5rem;
-    max-height: calc(100vh - 1rem);
+    top: 0;
+    z-index: 8;
+    gap: 0;
+    max-height: 56px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: var(--shadow);
+    transition: max-height 180ms ease;
+  }
+
+  .reader-sidebar.is-reader-controls-open {
+    max-height: min(72vh, 520px);
+    overflow: auto;
+  }
+
+  .mobile-reader-toggle {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    align-items: center;
+    width: 100%;
+    min-height: 54px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel);
+    text-align: left;
+  }
+
+  .mobile-reader-toggle::after {
+    content: "Pull down";
+    justify-self: end;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  .reader-sidebar.is-reader-controls-open .mobile-reader-toggle::after {
+    content: "Hide";
+  }
+
+  .mobile-reader-toggle strong {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 650;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .reader-sidebar > h2,
+  .reader-sidebar > p,
+  .reader-sidebar > label,
+  .reader-sidebar > .chapter-buttons,
+  .reader-sidebar > .reader-meta {
+    margin: 0 0.85rem 0.75rem;
+  }
+
+  .reader-sidebar > h2 {
+    margin-top: 0.8rem;
   }
 
   .header-actions {
@@ -785,6 +851,10 @@ select {
   .reader-sidebar,
   .browser-sidebar {
     padding: 0.65rem;
+  }
+
+  .reader-sidebar {
+    padding: 0;
   }
 
   .reader-sidebar h2,

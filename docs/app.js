@@ -15,6 +15,7 @@ let currentChapterId = null;
 let currentLayer = "prose";
 let currentFilePath = null;
 let browserTreeOpen = false;
+let readerControlsOpen = false;
 
 const $ = (id) => document.getElementById(id);
 
@@ -132,6 +133,7 @@ function setView(view) {
   $("browserNavBtn").classList.toggle("active", view === "repo-browser");
   $("exportNavBtn").classList.toggle("active", view === "export");
   updateTargetDisplay();
+  if (view === "book-reader") syncMobileReaderUi();
   if (view === "export") renderCommentList();
   if (view === "repo-browser") syncMobileBrowserUi();
 }
@@ -329,6 +331,7 @@ function renderChapter() {
   }
   contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : renderLines(text, 1);
   updateTargetDisplay();
+  syncMobileReaderUi();
 }
 
 function scrollToPercent(percent) {
@@ -704,6 +707,30 @@ function setCommentDrawer(open) {
   toggle.setAttribute("aria-expanded", open ? "true" : "false");
 }
 
+function setReaderControlsOpen(open) {
+  readerControlsOpen = open;
+  const sidebar = document.querySelector(".reader-sidebar");
+  const toggle = $("readerControlsToggle");
+  if (!sidebar || !toggle) return;
+  sidebar.classList.toggle("is-reader-controls-open", open);
+  toggle.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+function syncMobileReaderUi() {
+  const chapter = currentChapter();
+  const layer = currentLayer === "prose" ? "Prose" : currentLayer;
+  const target = chapter ? `${chapter.display_title} · ${layer}` : "Select chapter";
+  $("mobileReaderTarget").textContent = abbreviate(target, 72);
+  if (isMobileLayout()) {
+    setReaderControlsOpen(readerControlsOpen);
+  } else {
+    const sidebar = document.querySelector(".reader-sidebar");
+    const toggle = $("readerControlsToggle");
+    sidebar?.classList.add("is-reader-controls-open");
+    toggle?.setAttribute("aria-expanded", "true");
+  }
+}
+
 function syncMobileCommentUi() {
   const referenceCard = $("referenceCard");
   if (isMobileLayout()) {
@@ -773,13 +800,24 @@ function wireEvents() {
     currentLayer = "prose";
     renderLayerSelect();
     renderChapter();
+    if (isMobileLayout()) setReaderControlsOpen(false);
   });
   $("layerSelect").addEventListener("change", (event) => {
     currentLayer = event.target.value;
     renderChapter();
+    if (isMobileLayout()) setReaderControlsOpen(false);
   });
-  $("prevChapterBtn").addEventListener("click", () => chapterStep(-1));
-  $("nextChapterBtn").addEventListener("click", () => chapterStep(1));
+  $("prevChapterBtn").addEventListener("click", () => {
+    chapterStep(-1);
+    if (isMobileLayout()) setReaderControlsOpen(false);
+  });
+  $("nextChapterBtn").addEventListener("click", () => {
+    chapterStep(1);
+    if (isMobileLayout()) setReaderControlsOpen(false);
+  });
+  $("readerControlsToggle").addEventListener("click", () => {
+    setReaderControlsOpen($("readerControlsToggle").getAttribute("aria-expanded") !== "true");
+  });
   $("saveBookmarkBtn").addEventListener("click", saveBookmark);
   $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
   $("submitCommentBtn").addEventListener("click", submitComment);
@@ -801,6 +839,7 @@ function wireEvents() {
   document.addEventListener("selectionchange", updateTargetDisplay);
   window.addEventListener("scroll", updateTargetDisplay, { passive: true });
   window.addEventListener("resize", syncMobileCommentUi, { passive: true });
+  window.addEventListener("resize", syncMobileReaderUi, { passive: true });
   window.addEventListener("resize", syncMobileBrowserUi, { passive: true });
 }
 
@@ -821,6 +860,7 @@ async function init() {
   renderFileTree();
   setMode("reader");
   setView("book-reader");
+  syncMobileReaderUi();
   syncMobileCommentUi();
   renderBookmarkStatus();
   renderCommentCount();
