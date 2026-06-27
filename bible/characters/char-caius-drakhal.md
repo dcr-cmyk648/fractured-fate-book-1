@@ -44,6 +44,8 @@ From Evana's, Elric's, and Serathis's perspective, the offer is bad-faith. It is
 
 Caius likely has not been fully looped into that decision-making. He thinks he has a real shot and may treat the courtship as personally meaningful, politically deserved, or both.
 
+Caius does not appear in the final Archeon/Vorren fight. Drakhal wants plausible deniability, so Vorren is the only Drakhal magus committed to the Book 1 endgame trap.
+
 ## Relationships
 
 ### Maya Rezin
@@ -51,6 +53,8 @@ Caius likely has not been fully looped into that decision-making. He thinks he h
 Caius pressures Maya as an intended marriage candidate, political rival, and status threat.
 
 He tries to position himself as older, more experienced, and better prepared for High Clade politics. Maya's power and public emergence trigger jealousy, even when he recovers his composure quickly.
+
+Maya's Presentation is the accepted seed for Caius's jealousy and obsession. His reaction is a toxic/narcissistic mirror of Davian's reaction to seeing Maya on the wall: Davian is pulled toward admiration and later human recognition, while Caius feels threatened, belittled, jealous, and possessive.
 
 ### Davian
 
@@ -96,6 +100,8 @@ Current manuscript aftermath also treats Caius's street fight as politically con
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Aldira](char-aldira.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -116,6 +122,7 @@ Current manuscript aftermath also treats Caius's street fight as politically con
 - `imports/normalized/book-1-outline.md:276-302`: Drakhal marriage/banishment trap.
 - `imports/normalized/book-1-outline.md:1854-1863`: Davian/Maya/Caius fight function.
 - `imports/normalized/book-1-outline.md:2243-2258`: Caius jealousy of Maya.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation seed for Caius's jealousy/obsession and toxic mirror of Davian's wall reaction.
 - `imports/normalized/book-1-outline.md:3620`: Caius as later antagonist seed rather than final-fight participant.
 - `imports/normalized/book-1-outline.md:4677-4701`: Caius visit, letter-response pressure, and Vorren/control references.
 - Author feedback on 2026-06-26.

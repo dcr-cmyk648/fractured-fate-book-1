@@ -50,6 +50,8 @@ Maya's display cements her as an extreme threat to other Clades on Niall's level
 
 Exact Maya Presentation choreography, speech, exhaustion, and political fallout belong to `event-maya-presentation`.
 
+For Maya specifically, the accepted event architecture is that she deliberately breaks from Niall's restraint advice, asks what gives High Clades the mandate to rule, and answers the room with an over-the-top fire/ice display. The ceremony should include brief self-congratulatory ritual discussion of the first magus, bloodline, and High Clade right to rule. Exact wording and choreography remain deferred.
+
 ## Fashion
 
 Sleeveless High Clade fashion is universal in Presentation-era High Clade culture and symbolizes reliance on one's own power.
@@ -81,6 +83,8 @@ Niall's current military jacket is an exception tied to his hidden conduit mecha
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related future event: `event-maya-presentation`
 - Decision record: [Magus Presentation Status, Power Display, and Fashion](../../decisions/0040-magus-presentation-status-power-display-and-fashion.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Provenance
 
@@ -95,4 +99,5 @@ Niall's current military jacket is an exception tied to his hidden conduit mecha
 - `imports/normalized/book-1-outline.md:2230-2245`: Presentation rewrite / power-display direction.
 - `imports/normalized/book-1-outline.md:2391`: sleeveless High Clade fashion symbolism.
 - `imports/normalized/book-1-outline.md:3166-3290`: Maya Presentation outline and ritual/political beats.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Maya Presentation event architecture and ritual/self-legitimating function.
 - Author feedback on 2026-06-25.

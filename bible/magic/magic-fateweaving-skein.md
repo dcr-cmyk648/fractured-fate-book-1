@@ -76,6 +76,8 @@ Davian's resurrection is a canon end-of-book event.
 
 Maya enters or tears the Skein to resurrect Davian after Elric kills him. This event is central to the late-book resurrection and reality-damage plot. Exact scene execution, cost, and technical mechanics remain for later plot and endgame review.
 
+The Maya/Davian romance and trust arc is accepted as the emotional architecture for the resurrection: Maya may not fully understand why she resurrects Davian in the moment and may later question whether Elric manipulated her into all of it. This does not resolve the technical Heart/Skein/fateweaving mechanics.
+
 Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to damage or unmake reality. The Heart will be present for Davian's resurrection and will interplay with Maya's fateweaving, the Skein, and related mechanics, but exact technical details remain unresolved. Elric's apparent inevitability should be undermined by characters choosing values and relationships instead of following trauma scripts.
 
 ## Canonical Uncertainties
@@ -104,11 +106,13 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related object: [Heart](../objects/object-seraph-heart.md)
 - Related arc: [Elric, Trauma Scripts, and Reality/Skein Arc](../../outline/arcs/thread-elric-reality-skein.md)
+- Related arc: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Superseded decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
+- Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 
 ## Provenance
 

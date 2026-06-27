@@ -80,7 +80,13 @@ Selwin currently cannot form a Shroud at all. Maya's training of him in Book 1 s
 
 Davian:
 
-Maya and Davian have a major current and intended arc involving attraction, misunderstanding, betrayal, guilt, and possible trust/partnership. Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this belongs partly to the Maya/Davian romance review.
+Maya and Davian have a major Book 1 romance/trust arc involving attraction, misunderstanding, practical training trust, betrayal, guilt, and endgame resurrection. This is probably the most important Book 1 plot arc.
+
+Maya is attracted to Davian partly because he represents chaos outside the perfectionistic boundaries she has built around herself. Those boundaries feel stifling, though she does not consciously understand that dynamic at first. Davian can also see and challenge her as a person rather than only as Lady Maya, Rezin heir, or weapon.
+
+Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this is his misconception and anxiety, not objective truth.
+
+Accepted arc seed: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 
 Caius Drakhal:
 
@@ -104,13 +110,19 @@ Alara's codex memories are emotionally meaningful and partly reliable, but filte
 
 Maya is presented in the prologue as a young noble and magus preparing for the High Clade Council and Presentation. She is attended by Erynn, reassured by Niall, and concerned about not letting him down.
 
-Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. Exact speech, choreography, exhaustion, and fallout remain for `event-maya-presentation`.
+Presentation includes a required power display. Maya's revised fire/ice display is accepted as over the top for a Presentation, pushing her physically to the limit and cementing her as an extreme threat on Niall's level. The exact choreography and final wording remain deferred, but the event's conceptual shape is accepted in [Maya's Presentation](../events/event-maya-presentation.md).
+
+Politically, Maya's wall defense followed by Presentation unintentionally casts her in the same "do not cross me or I will kill you" mode Niall uses to hold the High Clades in line. This helps preserve Rezin deterrence while also making her a target and a symbol of inherited Rezin dominance.
+
+Maya's Presentation decision is counter to Niall's instructions. She reads the room, recognizes that the High Clades only truly respect power, and breaks from his restraint advice. From her perspective she does what is right and necessary. Niall's dominant reaction is worry, but he does not give her the information she would need to understand why. Maya may therefore interpret his worry as evidence of some fault on her end.
 
 The current prose already shows Maya after the wall defense as dissociated and guilty. The planned prologue revision should make the first-combat context clearer.
 
 In Chapter 37, Maya is training Davian and Selwin while also working nights on schema and Registry zän lattices. She is sleep-deprived and under pressure.
 
 In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads connected to imagined outcomes and past/future possibilities, compounding guilt over Davian and the Heart theft aftermath.
+
+During the accepted Heart theft event, Maya initially tries to read the Treasury disaster as an accident or rescue. She realizes Davian stole the Heart, accurately accuses him of sustained choice and lying, stops him from killing Niall, chases him, overchannels, and collapses. This event is a major rupture in the Maya/Davian trust arc because the betrayal required repeated deception, not only one panicked action.
 
 Maya is still developing as a fateweaver. In Book 1 she can perceive threads, follow a path through an object, alter spatial access in limited circumstances, glimpse branches, and eventually enter or tear the Skein to resurrect Davian. She should not yet be treated as someone who can freely rewrite fate.
 
@@ -119,6 +131,8 @@ Accepted future object direction: Maya names and designs Paradox, the normal swo
 ## Intended Future State
 
 Maya's broader end-arc is not fully approved. Accepted high-level Vorren direction: Vorren is a dark mirror for what Maya could become if power under abuse and impossible expectation were severed from care, responsibility, and chosen values. Maya, Niall, and Davian together kill Vorren, with exact choreography deferred.
+
+During the Spire provocation, Maya misreads Niall's refusal to kill Evana publicly as lack of confidence in Maya's abilities. She does not know Niall's power has been waning or that he believes killing Evana would likely leave both him and Maya dead against the gathered High Clade pressure.
 
 Current candidate direction is that Maya becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force. Do not treat the exact Vorren resolution choreography as approved final canon until later plot review.
 
@@ -137,6 +151,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Tanelle](char-tanelle.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related arc: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
@@ -160,10 +175,18 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
+- Decision: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:233-258`, Prologue, paragraphs 89-105: Presentation preparation, Erynn, Niall reassurance, and Maya's fear of disappointing him.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, speech/display function, Niall worry, Caius reaction, and Drakhal political use.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event sequence, Maya's failed interception, accusation, chase, overchanneling, and collapse.
 - `imports/normalized/melissa-copy.md:233-234`, Prologue, paragraph 89: superseded current-manuscript physical description.
 - `imports/normalized/melissa-copy.md:360-362`, Chapter 1: "Lady Maya" recognition.
 - `imports/normalized/melissa-copy.md:392-410`, Chapter 1: Niall frames the battle failure partly around his daughter.

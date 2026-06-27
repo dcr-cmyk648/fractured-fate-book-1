@@ -25,6 +25,8 @@ His unresolved grief over Alara is a core wound and core driver of his interacti
 
 Niall is rigid, controlled, and deeply invested in not appearing weak. Planning material frames part of his arc around moving from grief, rigidity, and needing to prove he can still stand alone toward accepting help and protecting the living people he values.
 
+His power has been slowly declining before the book, but this is not public knowledge. Maya does not know the real degree of this decline during the Spire provocation.
+
 Elric Rezin is Niall's father. Niall destroyed Elric's original body, but Elric's long-running plans continue through Ink and the Harbinger leader. Elric is a hidden source of Niall's fear around fate/Skein work and part of the pressure shaping Niall's rigidity.
 
 ## Abilities and Equipment
@@ -79,6 +81,8 @@ Elric is Niall's father and a central hidden antagonist. Niall killed Elric's or
 
 In the prologue, Niall enters Maya's Presentation preparation with warmth and pride, reassures her before the High Clade Council, and then leaves when the citadel attack begins.
 
+At Maya's Presentation, Niall has instructed restraint: controlled strength, measured words, and tactical uncertainty. Maya breaks from that advice. Niall may or may not be proud of her display, but his dominant reaction is worry. He has hoped, unrealistically, that he and Maya might be able to back away from functioning as Rezin deterrents; Maya's display moves her deeper into that role. Because he does not tell Maya what she would need to know about his waning power and fear, she may interpret his worry as disappointment or lack of confidence in her.
+
 During the attack, Niall is drawn to the eastern wall while the western defenses fail. After Maya breaks the attacking force, Niall cuts down retreating enemies with lightning. Maya screams for him to stop because they are retreating; he continues until she grabs his arm. He fails to recognize her for a moment, murmurs Alara's name, then returns to command posture.
 
 In Chapter 1, Niall responds to the wall commanders' failure with cold fury. He frames the breach through dead Rezin soldiers and the danger to Maya, then demands concrete evidence of who financed and coordinated the attack.
@@ -87,11 +91,17 @@ Later current manuscript material shows Niall attacking Davian after the Heart t
 
 During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
 
+During the accepted Heart theft event, Niall stretches his diminished power to its limits to protect both himself and Harvick after Davian launches the Treasury sphere at him. This leaves Niall unconscious, injured, and exposed. Davian and the reader do not need to clearly understand Harvick's revival in the moment.
+
 Niall has a codex connected to Alara that he cannot make himself open again but cannot destroy. It is one of the journals Elric provided under the pretext of benign memory preservation. Niall showing Maya his codex to explain Alara's death remains candidate, not accepted future-plan.
 
 ## Political and Military Role
 
-Niall's reputation is politically central. Enemies fear him enough to wait after the Heart theft to see whether his weakness is real, then plan around baiting, weakening, or legitimizing attacks against him.
+Niall's reputation is politically central. He is the apex magus whose threat keeps the other High Clades in line because they fear he can walk into their fortresses and kill them, as he did with the prior Lyranth Head Magus and other magi.
+
+Drakhal tests Niall's waning power through the opening attack and then, after Davian steals the Heart, infers that Niall may have been defeated or bypassed. Because Niall is still alive and the exact circumstances are unknown, Drakhal continues to fear him and gathers allies, evidence, and political position before escalating.
+
+At the Spire provocation, Niall refuses to kill Evana publicly because he knows he cannot win the broader situation. He might be able to kill Evana, but then he and Maya would likely die. Maya misreads this as Niall lacking confidence in her abilities because she does not know about his waning power.
 
 Planning material also frames Niall's public/strategic explanations as sometimes overlapping with a private need to prove he can still act as the terrifying High Clade magus others believe him to be.
 
@@ -126,6 +136,11 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -139,6 +154,8 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:246-261`: Niall's warm pride and reassurance before Maya's Presentation.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation sequence, restraint advice, Niall worry, and Maya misreading.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft confrontation, Niall protecting Harvick, and Niall's exposed/injured state.
 - `imports/normalized/melissa-copy.md:453-458`: Niall drawn to the eastern wall while the western defenses fail.
 - `imports/normalized/melissa-copy.md:645-676`: Niall kills retreating enemies, Maya stops him, and he mistakes her for Alara.
 - `imports/normalized/melissa-copy.md:392-414`: Niall questions wall commanders after the attack.

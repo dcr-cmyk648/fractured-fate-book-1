@@ -48,13 +48,13 @@ Jalen judges that Kelyra is faster, has better reflexes, and is far superior in 
 
 Karra has a deeper forced-restructuring Ink healing Pact. Kelyra does not. This allows Karra to recover after Kelyra apparently kills her during the Trial.
 
-Karra's Ink also gives her enough speed and force to overwhelm Kelyra once Kelyra's own Ink runs out.
+Karra's Ink also gives her enough speed and force to overwhelm Kelyra after the Harbinger/Elric-rigged conditions turn the fight against Kelyra. The current manuscript's Ink-running-out explanation is candidate material rather than accepted canon.
 
 ## Post-Trial and Evacuation
 
 Karra survives the Trial.
 
-She does not kill Kelyra. After brutalizing Kelyra once Kelyra's Ink fails, Karra backs away in shame, apologizes, says she did what she had to, and flees the circle.
+She does not kill Kelyra. After brutalizing Kelyra under the weighted Trial conditions, Karra backs away in shame, apologizes, says she did what she had to, and flees the circle.
 
 When Kelyra is captured and the Concord manor is compromised, Karra immediately moves everyone but Davian out.
 
@@ -83,7 +83,9 @@ Karra likely has to lie to Davian's siblings to get them out.
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related location: [Sorevin manor / Redbridge](../locations/loc-sorevin-redbridge.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 

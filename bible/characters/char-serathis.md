@@ -48,7 +48,7 @@ Archeon's system treats children as assets. Children born to Archeon mothers are
 
 ## Kelyra and Davian
 
-Serathis intentionally allowed Kelyra to escape. Kelyra was a martial genius with a blocked Shroud, and Serathis calculated that time outside Archeon could produce growth, Ink exposure, or useful descendants. When Kelyra is recaptured, Serathis uses the parallel to Serathis's own release to gaslight Kelyra into believing the same pattern was for Kelyra's benefit.
+Serathis intentionally allowed Kelyra to escape. Kelyra was a martial genius with a blocked Shroud, and Serathis calculated that time outside Archeon could produce growth, Ink exposure, or useful descendants. When Kelyra is recaptured through the Harbinger betrayal / Trial of Dominion event, Serathis uses the parallel to Serathis's own release to gaslight Kelyra into believing the same pattern was for Kelyra's benefit.
 
 Serathis is desperate to bring Kelyra back to her side, and later to capture Davian, because Kelyra and Davian are the closest realized heirs to her project. Current Archeon heirs may recognize and resent this, and may want to kill Kelyra or Davian in the final conflict.
 
@@ -99,9 +99,11 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related magic: [Kinesis](../magic/magic-subversion.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 

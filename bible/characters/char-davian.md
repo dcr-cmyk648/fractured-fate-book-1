@@ -38,6 +38,8 @@ Davian chose to steal the Heart both to protect his own family and to satisfy hi
 
 He acts under Harbinger/Syndicate coercion and manipulation, but the accepted record should not erase his agency. His moral arc depends on the tension between pressure and choice.
 
+The accepted Heart theft event makes that agency sharper: Davian is heavily pressured by family danger, Harbinger/Elric manipulation, Ink/dark-thread compulsion, and dissociation, but at multiple points he could have chosen something else, such as telling Maya and asking for help. The durable point is not which specific alternative was best, but that he doggedly persists in the theft without seriously considering alternatives even though he knows it will hurt Maya, and he nearly kills Niall.
+
 Elric Rezin is the hidden primary manipulator behind much of the Harbinger/Syndicate pressure on Davian, including the Ink/Heart-theft path. This does not erase Davian's accepted agency.
 
 Davian clearly murdered Arrek. Kelyra pressured him into killing Arrek by framing Arrek as a High-Clade collaborator and all Clade collaborators as evil. Davian and the Concord tracked Arrek to a bar, followed him into an alley, and Davian murdered him while simultaneously using the Ink to capture Arrek's aura. He used Arrek's aura/name as a cover identity inside the Rezin citadel.
@@ -95,9 +97,15 @@ Vorren forces Davian to give up being the primary threat and support Maya and Ni
 
 Maya:
 
-Davian and Maya's relationship involves attraction, class resentment, misinterpretation, betrayal, guilt, and shared values around protecting innocents.
+Davian and Maya's relationship is a major Book 1 romance/trust arc involving attraction, class resentment, misinterpretation, shared values around protecting innocents, practical training trust, real betrayal, and endgame resurrection.
+
+Davian is attracted to Maya partly because of her perfection, strength, and principle, including moments such as Maya fighting off Caius. His attraction deepens as he knows her better and sees that she is a real person underneath the perfect exterior who has to try hard to be that way.
+
+Davian does not consciously think he is in love with Maya when he sees her on the wall. The accepted core is that the wall scene plants an early rush of feeling he cannot understand; only later, after knowing Maya better, can he revisit the image and understand what it meant for her to go out there.
 
 Davian has heard racist/cultural claims about Naeroth demi-humans and worries that his attraction to Maya may be unnatural or magically compelled. This worry sits on top of his inaccurate bias that High Clades are bred to be attractive. The worry is Davian's misconception and anxiety, not objective truth.
+
+Accepted arc seed: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 
 Caius Drakhal:
 
@@ -110,6 +118,8 @@ Harvick becomes an important trainer/mentor/friend figure for Davian, especially
 Accepted Harvick record: [Harvick](char-harvick.md)
 
 During the Treasury confrontation, Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning. Davian may not understand the medical mechanism and may only perceive Niall shooting lightning through Harvick.
+
+During the accepted Heart theft event, Davian uses Antithesis, kinesis, Ink pressure, and the Treasury sphere's lattice energy to launch the sphere at Niall. Niall shatters the sphere while protecting both himself and Harvick. Gravity returns, Davian takes the Heart, and Maya stops Davian from killing Niall.
 
 Tanelle:
 
@@ -151,9 +161,12 @@ In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Hea
 
 Later manuscript material establishes Davian's post-theft exposure, interrogation, and training: he admits the aura theft, describes Subversion, manifests a weak Shroud, trains with Maya/Harvick/Selwin, and tries to make things right while still carrying guilt and defensive anger.
 
+After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and Karra evacuates the compromised Concord manor, Davian is left exposed for the later Archeon manor attack. That later attack is where Davian more clearly recognizes that he had choices earlier, including telling Maya and asking for help.
+
 ## Intended Arc Links
 
 - Approved arc file: [thread-davian-identity-guilt](../../outline/arcs/thread-davian-identity-guilt.md)
+- Approved arc file: [thread-maya-davian-romance](../../outline/arcs/thread-maya-davian-romance.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Candidate material: [char-davian](../../planning/candidates/characters/char-davian.md)
@@ -199,6 +212,11 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
+- Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 
@@ -218,6 +236,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - `imports/normalized/melissa-copy.md:1707-1788`: Kelyra/Jalen/Davian family planning around the Heart mission.
 - `imports/normalized/melissa-copy.md:20185-20230`: Davian admits aura theft and murdering Arrek.
 - `imports/normalized/melissa-copy.md:20428-20452`: Davian describes Subversion, Treasury backlash, and Ink healing.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft sequence, Davian responsibility, Maya intervention, and Heart delivery boundary.
 - `imports/normalized/melissa-copy.md:21080-21695`: Davian's post-theft training, weak Shroud, strong hand-to-hand, and apology to Selwin.
 - `imports/normalized/book-1-outline.md:413-417`: arc from needing to be the threat toward values/protection.
 - `imports/normalized/book-1-outline.md:9305-9623`: post-theft Davian planning, Harvick challenge, training, letter, and self-sabotage.

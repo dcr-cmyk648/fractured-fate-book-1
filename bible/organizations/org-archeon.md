@@ -94,6 +94,8 @@ Davian inherits or develops kinesis through Kelyra. His Shroud, Ink exposure, ma
 
 Archeon is politically involved with Drakhal and other High Clade maneuvering after the Heart theft. Drakhal may use Archeon as ally, leverage, blackmail, or a less-fortunate partner, while Serathis resents being treated as subordinate.
 
+The Heart theft is not open public politics. Rezin wants it hidden, and Drakhal/Archeon do not necessarily want to publicize it. Drakhal and Archeon use the situation through a political layer of suspicion, legitimacy pressure, and trap-setting rather than by announcing the theft.
+
 Drakhal and Archeon have a canon verbal breeding-contract agreement in which Drakhal agrees to let Archeon breed Kelyra with Vorren. Whether Vorren knows, consents, or would follow through remains unresolved.
 
 Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid sequence belong to later Drakhal, High Clade politics, and revision reviews.
@@ -125,6 +127,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 
 ## Canonical Uncertainties
 

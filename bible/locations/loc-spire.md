@@ -60,6 +60,8 @@ The dais, floor, or arena surface may retain zän, emblems, and map-like symboli
 
 Maya's Presentation happens in this open-air amphitheater version. Current literal tower approach, halls, vaulted interior, chamber-atop-spire, and open-crown language should be treated as manuscript-revision material rather than accepted physical canon.
 
+Maya's Presentation should preserve the ceremony's functional structure in this space: all six High Clades represented, mediator / ritual acknowledgment, High Clade seating around a central dais, and collective acknowledgment, adapted to the open-air amphitheater rather than an enclosed tower chamber.
+
 ## Canonical Uncertainties
 
 - Exact official formal name, if any, beyond common `Spire` / `Central Spire`.
@@ -78,6 +80,8 @@ Maya's Presentation happens in this open-air amphitheater version. Current liter
 - Related location: [Archeon](loc-archeon.md)
 - Decision record: [Spire Name and Central Amphitheater Form](../../decisions/0028-spire-name-and-central-amphitheater-form.md)
 - Decision record: [Archeon Citadel, Subterranean Complex, and Final Tower](../../decisions/0030-archeon-citadel-subterranean-complex-and-final-tower.md)
+- Related event: [Maya's Presentation](../events/event-maya-presentation.md)
+- Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 
 ## Provenance
 
@@ -90,3 +94,4 @@ Maya's Presentation happens in this open-air amphitheater version. Current liter
 - `bible/organizations/org-high-clades.md`
 - `bible/locations/loc-rezin-citadel.md`
 - Author feedback on 2026-06-25.
+- `reviews/entities/events/event-maya-presentation.md`: accepted Presentation ceremony structure adapted to the open-air Spire.

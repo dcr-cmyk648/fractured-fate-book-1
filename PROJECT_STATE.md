@@ -1,17 +1,17 @@
 # Project State
 
-Last updated: 2026-06-26
+Last updated: 2026-06-27
 
 ## Repository state
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: thread-maya-davian-romance
-- Latest completed entity: char-kael
+- Active or paused entity ID: none
+- Latest completed entity: event-harbinger-raid
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: run final secondary characters consistency pass`
-- Working tree expected to be clean: no; `thread-maya-davian-romance` review packet is awaiting author input
+- Latest relevant commit message: pending commit for narrative-thread/event consistency review
+- Working tree expected to be clean: no; consistency review finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
@@ -19,30 +19,31 @@ Last updated: 2026-06-26
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
 - Approved entities since last consistency review: 0
-- Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
+- Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-The final secondary-character consistency/opportunity review was prepared after `char-kael`, covering Aldira through Kael and confirming no accepted-file contradiction blocks outline readiness.
+The narrative-thread/event block consistency review was run after `event-harbinger-raid`.
 
 ## Current work
 
-`thread-maya-davian-romance` is open at deep review depth and awaiting author input.
+No entity is currently open. The narrative-thread/event block consistency review passed with documented uncertainties.
 
 ## Next action
 
-Answer the `thread-maya-davian-romance` review questions. After substantive approval, store the accepted arc seed, candidate material, decision record, and direct dependency updates.
+Validate, commit, and push the consistency review / workflow policy update; then open the next queued entity.
 
 ## Awaiting author input
 
-- `thread-maya-davian-romance`: core romance/trust architecture, kiss/betrayal handling, Davian's early attraction/confession placement, and resurrection thread boundaries.
+None.
 
 ## Workflow policy note
 
 - Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark the entity approved.
 - When waiting for author input, print the useful terminal summary and required author questions last so the author can audit them without opening packet files.
+- Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 
 ## Known blockers or risks
 

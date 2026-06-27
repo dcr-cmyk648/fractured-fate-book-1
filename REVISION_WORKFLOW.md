@@ -11,12 +11,13 @@ The project proceeds in this order:
 1. Complete the story-bible review phase.
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
-4. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-5. Run whole-book architecture review.
-6. Build the detailed next-draft outline.
-7. Build the gap-to-ending future/unwritten sequence outline.
-8. Run whole-book structural and consistency review.
-9. Open prose work only later, by explicit author authorization.
+4. Track prose-preservation intent where wording-level reuse or avoidance may matter.
+5. Run the Chapter Architecture Pass and create Chapter Goal Cards.
+6. Run whole-book architecture review.
+7. Build the detailed next-draft outline.
+8. Build the gap-to-ending future/unwritten sequence outline.
+9. Run whole-book structural and consistency review.
+10. Open prose work only later, by explicit author authorization.
 
 The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline. If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
 
@@ -63,10 +64,73 @@ For each current chapter, eventually identify:
 - setup/payoff already present
 - obvious problems or omissions
 - relevant notes and comments
+- possible Prose Preservation Notes, when wording-level material may matter later
 
 Chapter and scene mapping is read-only with respect to manuscript prose. It may map, summarize, classify, compare, and identify revision needs, but it must not rewrite prose. Do not treat future plans or notes as though they are already in the prose.
 
 For each review unit, preserve enough provenance for another session to locate the source material. Record unresolved issues in existing control files rather than creating competing tracking systems.
+
+## Prose Preservation Notes
+
+Prose Preservation Notes are future planning/reference artifacts for tracking wording-level preservation intent. They are not the same as general strong material to preserve.
+
+- `Strong existing material to preserve` means preserve the scene function, beat, image, dynamic, turn, dialogue role, or structural value.
+- `Prose Preservation Notes` means the wording-level material itself may be worth preserving, near-quoting, adapting, echoing, or deliberately avoiding.
+
+Do not create Prose Preservation Notes during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue. Create them later during current-draft chapter mapping, scene-level review, Chapter Goal Cards, feedback import, detailed outline work, or authorized prose preparation.
+
+Allowed preservation levels:
+
+- `function-only`: preserve what the scene or passage does, not the wording.
+- `beat-level-reuse`: preserve the event sequence, emotional turn, reversal, realization, or interaction pattern; wording can change freely.
+- `image-or-metaphor-reuse`: preserve a specific image, metaphor, sensory detail, symbol, recurring phrase, or motif; wording can be adapted.
+- `dialogue-near-quote`: keep dialogue substantially similar, preserving intent, rhythm, subtext, or punch; small edits are allowed.
+- `exact-or-near-exact-prose`: reuse the wording, sentence, paragraph, or exchange unless there is a strong later reason not to.
+- `do-not-reuse-prose`: the underlying scene function, beat, or idea may remain useful, but the current wording should be replaced.
+- `needs-author-decision`: Codex suspects wording may be worth preserving, but the author should decide.
+
+Allowed statuses:
+
+- `candidate`
+- `approved-for-reuse`
+- `approved-near-quote`
+- `approved-exact-quote`
+- `used-in-outline`
+- `used-in-prose`
+- `rejected`
+- `superseded`
+- `needs-author-decision`
+
+Candidate preservation notes do not approve exact or near-exact reuse. Exact or near-exact reuse requires author approval unless the author explicitly marked it that way in feedback or notes.
+
+When the phase opens, store records under a future directory such as:
+
+```text
+prose-preservation/
+├── index.md
+├── current-draft/
+│   ├── d1-ch-01.md
+│   └── d1-ch-02.md
+└── future-use/
+    └── approved-reuse.md
+```
+
+Do not create these files before the outline/chapter phase opens.
+
+Chapter-level packets may include:
+
+```markdown
+## Prose Preservation Notes
+
+| ID | Source | Type | Preserve level | Reference / short excerpt | Reason | Intended next-draft use | Status |
+|---|---|---|---|---|---|---|---|
+```
+
+Use stable IDs such as `pp-d1-ch37-001`, `pp-d1-ch37-sc02-003`, or `pp-future-seq-004-001`.
+
+Avoid copying large blocks of manuscript text. Each note should store a stable preservation ID, source draft ID, source file path, chapter ID, scene ID if available, line range if available, heading if available, a short excerpt only when exact wording matters, preservation level, reason for preservation, intended next-draft use, status, related Chapter Goal Card or future sequence if known, related comment/feedback ID if relevant, and related decision ID if author-approved. The manuscript remains the canonical source for the full text.
+
+During current-draft mapping, identify possible candidates for distinctive lines, strong dialogue exchanges, recurring images or motifs, emotionally precise formulations, technically useful magic descriptions, vivid sensory descriptions, character voice, compact explanations, prose rhythms worth preserving, passages explicitly praised, and passages explicitly marked as not worth reusing. Do not over-preserve; mark a passage only if preserving it could plausibly improve the next draft.
 
 ## Chapter Architecture Pass
 
@@ -96,6 +160,7 @@ Each Chapter Goal Card should answer what the chapter or sequence is for. Use se
 - `Thematic / motif goals`: what questions, images, motifs, or thematic tensions the unit develops.
 - `Pacing function`: pressure, aftermath, reveal, bridge, decompression, romance escalation, betrayal setup, action, political maneuvering, technical/magic explanation, emotional confrontation, transition, or another explicit function.
 - `Strong existing material to preserve`: current-draft scene functions, beats, dialogue roles, images, turns, or dynamics worth carrying forward without requiring exact prose preservation.
+- `Prose Preservation Use`: which current-draft material should be reused only functionally, which beats/images/dialogue should be reused or echoed, which exact or near-exact lines are candidates for the next draft, which prose should be deliberately replaced, and which preservation notes remain unresolved. Link to preservation IDs instead of quoting large chunks.
 - `Problems to solve`: structural problems such as redundant function, unclear motivation, weak transition, missing reaction, missing consequence, absent setup, missing payoff, wrong POV, underused character, too much exposition, insufficient worldbuilding, pacing issue, continuity issue, or unresolved story-bible dependency.
 - `Notes to integrate`: relevant outline notes, Bullet notes, feedback, candidate material, decision records, consistency queue items, and story-bible links, with disposition for every materially relevant note.
 - `Dependencies`: required story-bible, plotline, thread, and prior/later chapter dependencies.
@@ -117,6 +182,23 @@ Future sequence IDs should be stable but not final chapter numbers, for example 
 A future sequence card should include likely POV, prerequisites, required starting state, required ending state, major beats, character movement, relationship movement, plotline movement, worldbuilding/magic requirements, setup required earlier, payoff delivered, unresolved story-bible dependencies, open questions, and confidence/status.
 
 Do not describe future sequences as already present in the current prose. Do not generate prose for future sequences.
+
+## Detailed Next-Draft Outline Use
+
+Detailed next-draft outline files may reference Prose Preservation Notes without duplicating manuscript text. Use compact references such as:
+
+- preserve function from `pp-d1-ch12-002`
+- near-quote dialogue from `pp-d1-ch27-004`
+- reuse image from `pp-d1-ch31-001`
+- do not reuse current wording from `pp-d1-ch08-003`
+
+This supports later prose work without turning outline files into copied manuscript passages.
+
+## Feedback and Review-App Imports
+
+Reader and author comments may imply prose-preservation work. Later feedback imports should recognize comments such as "keep this line," "near quote this," "preserve this image," "keep the emotional beat but rewrite the prose," "this exchange works," "this paragraph is confusing; do not reuse," "this should come back later," "echo this phrase in the ending," or "preserve this as a motif."
+
+When Codex imports comments later, route them into Prose Preservation Notes, revision notes, or `CONSISTENCY_QUEUE.md` as appropriate. Comments remain inbox material until processed. A reader comment does not automatically approve exact prose reuse.
 
 ## Chapter Architecture Consistency Checks
 
@@ -240,6 +322,8 @@ Use three levels:
 
 Every major phase and meaningful block should re-check prior accepted documents for conflicts created by later decisions. Check earlier approved files against newer decisions, candidate files for material that should now be promoted/rejected/obsolete, related consistency-queue items, current/future status, renamed terms, unresolved contradiction markers, setup/payoff obligations, character knowledge states, magic and ability constraints, chronology, location feasibility, and whether later changes invalidate earlier chapter goals.
 
+Prose-preservation checks should also verify that preservation notes are not orphaned; approved-near-quote or approved-exact-quote items are not lost during outlining; `do-not-reuse-prose` items are not accidentally treated as keepers; exact/near-exact reuse still fits changed canon and chapter structure; preserved lines still make sense after later story-bible or outline changes; preserved imagery or motifs are not duplicated awkwardly; notes linked to removed or merged chapters are remapped or marked `superseded`; and feedback-derived preservation notes are not silently ignored. When in doubt, queue the issue in `CONSISTENCY_QUEUE.md`.
+
 ## Future and Unwritten Chapters
 
 The same blocking-story-bible mechanism applies to future chapters and unwritten sequences.
@@ -261,9 +345,13 @@ The outline phase remains read-only with respect to manuscript prose.
 
 Story-bible work, chapter mapping, Chapter Goal Cards, detailed outlines, future sequence planning, missing transitions, and "continue" do not authorize prose drafting or manuscript edits.
 
+Prose Preservation Notes do not authorize Codex to rewrite the manuscript, apply preserved text into manuscript files, generate replacement prose, edit existing prose, quote large passages into outline files, or convert chapter goals into prose.
+
 Prose work begins only after:
 
 - the story bible is sufficiently complete
 - the next-draft outline is sufficiently complete
 - applicable consistency reviews pass
 - the author explicitly opens prose work under `AUTHORING.md`
+
+When prose work is eventually opened, manual edits on disk remain authoritative. Codex must not restore a removed line merely because it appears in a Prose Preservation Note. Before using a preservation note in actual prose work, reload the current manuscript file from disk, check whether the source text still exists, check whether the author has removed or changed it, treat author-edited text as newer authority, and ask before restoring text that has been manually removed.

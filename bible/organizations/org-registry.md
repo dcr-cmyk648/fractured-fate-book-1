@@ -54,6 +54,8 @@ The successful bypass comes from unknown Elric-supplied magic that exploits extr
 
 Davian's accepted heist path is that he adds Arrek's name and relies on the Ink Pact to maintain the aura/name bypass. He does not also add and later remove his true name in the accepted version.
 
+The accepted Heart theft event preserves this as part of Davian's responsible choice: the bypass depends on sustained preparation, Arrek's murder/aura theft, and repeated deception, not a single compelled action at the Treasury.
+
 The Registry is still vulnerable to overwhelming conditions. Rapid multi-attacker scenarios can exceed passive detection's practical response capacity.
 
 ## Current and Future State
@@ -81,6 +83,8 @@ Those redesign plans are not realized during the course of Book 1.
 - Superseded decision record: [Zän Terminology and Lattice Principles](../../decisions/0022-zan-terminology-and-lattice-principles.md)
 - Decision record: [Rezin Citadel Location Boundaries](../../decisions/0025-rezin-citadel-location-boundaries.md)
 - Decision record: [Registry Chamber Placement and Interface](../../decisions/0026-registry-chamber-placement-and-interface.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Canonical Uncertainties
 
@@ -102,4 +106,5 @@ Those redesign plans are not realized during the course of Book 1.
 - `imports/normalized/melissa-copy.md:20536-20542`: Maya's passive/gateway/zan-sink repair idea.
 - `imports/normalized/book-1-outline.md:113`, `1509-1516`, `4716`, `6270`, `7135-7178`: Registry inefficiency, passive overwhelm, Heart power, and political security value.
 - `imports/normalized/book-1-outline.md:4111`: accepted heist simplification note.
+- `reviews/entities/events/event-heart-theft.md`: accepted heist event boundary and Registry bypass responsibility context.
 - Author feedback on 2026-06-24.

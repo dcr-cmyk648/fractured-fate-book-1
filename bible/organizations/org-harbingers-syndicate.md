@@ -50,9 +50,11 @@ The hidden truth is that Elric uses the Harbingers as an operational tool for hi
 
 The Harbingers pressure Davian's family and the Concord into the Heart theft. They use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
 
+The accepted Heart theft event boundary includes Harbinger escalation, Davian volunteering, the Treasury breach, Davian's escape, and Kelyra delivering the Heart to the Harbingers. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The later Harbinger betrayal / Trial of Dominion event owns the refusal of the bargain, Karra's challenge, Serathis's appearance, and Kelyra's capture.
+
 For the Rezin-citadel infiltration, Harbingers/Elric exploit Alra's grief after her brother's death and buy her cooperation when she leaves the citadel to tell her family. Alra facilitates the entry of both Davian and the disposable assassin, helps Davian hide Antithesis before his search, and enables Davian's later retrieval of the dagger.
 
-The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
+The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan. The challenge is legitimate enough under Concord custom to matter, while also being rigged by Harbinger/Elric manipulation.
 
 Older manuscript material that frames this as a threat to Jalen's seat is suspect and should be repaired during Concord chronology or manuscript revision work.
 
@@ -63,6 +65,8 @@ Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbing
 The fact that the Harbinger leader is actually Elric in someone else's body is not known generally. Serathis may possibly suspect it, but this remains unresolved.
 
 The masked figure beside the Harbinger leader during Kelyra's Heart delivery is Vorren.
+
+Drakhal is already working with the Harbingers in the background before the Heart theft to try to steal the Heart and kill Niall if possible. This coordination should remain hidden behind surface political maneuvering; the Heart theft is not publicly litigated as the open reason for Drakhal's later pressure against Rezin.
 
 ## Related Files
 
@@ -82,13 +86,18 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 - Decision record: [Registry Power, Modes, and Elric Bypass](../../decisions/0017-registry-power-modes-and-elric-bypass.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
+- Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 
 - Exact transfer, failure, depletion, and derivative/later-book Ink Pact mechanics remain unresolved.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
-- Exact detailed Trial of Dominion mechanics remain for `org-concord` and later revision/character reviews.
+- Exact detailed Trial of Dominion mechanics and the current chapter's Ink-running-out / transfer-to-Davian explanation remain for `org-concord`, Ink, and later revision/character reviews.
 - Exact late-book Harbinger / Drakhal / Vorren / Archeon operation sequence remains for later plot and character reviews.
 - Exact Masked Clade scripts, tattoos, signs, and mask customs remain for later culture or organization review.
 
@@ -96,6 +105,7 @@ The masked figure beside the Harbinger leader during Kelyra's Heart delivery is 
 
 - `imports/normalized/melissa-copy.md:984-1167`: early Syndicate meeting, five hooded figures, Heart-theft escalation, threat, and Ink Pact ritual with older Boon terminology.
 - `imports/normalized/melissa-copy.md:16453-16888`: Kelyra's turn to the Harbingers, dead drop, Harbinger guide, leader, Heart delivery, Vorren figure, betrayal, and Harbinger rhetoric.
+- `reviews/entities/events/event-heart-theft.md`: accepted Heart theft event boundary through Heart delivery and deferral of Karra penalty / Trial of Dominion.
 - `imports/normalized/melissa-copy.md:17086-17110`, `18691-18718`: Masked Clade / criminal-organization framing.
 - `imports/normalized/melissa-copy.md:19447-19483`: Davian on Harbinger Ink pressure and information.
 - `imports/normalized/book-1-outline.md:812`: Elric taking over underworld and Masked Clades through false revolutionary ideology.

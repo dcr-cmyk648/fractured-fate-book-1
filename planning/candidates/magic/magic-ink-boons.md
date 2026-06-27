@@ -36,6 +36,8 @@ Ink Pact transfer between users or relatives remains candidate material.
 
 Current author direction is that transfer is probably too confusing for the Book 1 plot.
 
+The current Harbinger betrayal / Trial of Dominion chapter references Kelyra's Ink running out and/or Ink capacity transferring to Davian. That explanation is candidate material and should not be treated as accepted event logic unless later re-approved.
+
 ## Ink and Shroud Interaction
 
 Tentative direction: Ink may need to be received before Shroud manifestation.

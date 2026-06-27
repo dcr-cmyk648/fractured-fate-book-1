@@ -58,6 +58,8 @@ During the Treasury theft, Davian uses Antithesis as the tool through which he c
 
 The theft still depends on Davian's kinesis/Subversion, Ink pressure, the Treasury sphere's own lattice energy, and the Heart containment system. Antithesis makes the action possible or easier as a schema sink/anchor and channel, but it does not replace those other systems.
 
+The accepted Heart theft event keeps Antithesis as a dagger throughout. It is not transformed into a sword and does not act through special anti-Shroud magic in the Treasury breach.
+
 ## Accepted Future Plan
 
 Antithesis is ruined in the final conflict when Davian blocks Vorren's attack to give Maya and Niall some respite.
@@ -98,6 +100,8 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
+- Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 
 ## Provenance
 
@@ -109,6 +113,7 @@ Paradox will canonically be made from the ruined Antithesis at the end of Book 1
 - `imports/normalized/melissa-copy.md:17935-18070`: ordinary knife failure and Davian's reliance on mediated Antithesis use.
 - `imports/normalized/melissa-copy.md:18255-18545`: Davian uses Antithesis with kinesis/Shroud against Archeon magi.
 - `imports/normalized/melissa-copy.md:20420-20460`: Davian's later explanation that stabbing the knife into the Treasury sphere made the energy release easier.
+- `reviews/entities/events/event-heart-theft.md`: accepted Antithesis role in the Treasury breach.
 - `imports/normalized/melissa-copy.md:21170-21186`: Harvick reports Zirene's negative opinion of the dagger.
 - `imports/normalized/book-1-outline.md:4150-4230`: concealment, zänwright-tool, and dagger-throughout planning.
 - `imports/normalized/book-1-outline.md:5258-5670`: stolen dagger, made-up name, false heirloom story, and backlash/concentration candidate mechanics.

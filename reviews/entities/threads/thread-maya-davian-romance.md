@@ -2,9 +2,9 @@
 id: thread-maya-davian-romance
 entity_type: narrative-thread
 display_name: Maya / Davian romance and trust arc
-status: awaiting-author
+status: approved
 review_depth: deep
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: outline/arcs/thread-maya-davian-romance.md
 candidate_file: planning/candidates/threads/thread-maya-davian-romance.md
 ---
@@ -163,7 +163,21 @@ The thread should not become simple healing romance too early. Its book-improvem
 
 ## Outline Readiness
 
-Not outline-ready until the author settles the core arc shape and what should remain candidate.
+Outline-ready with documented uncertainties after author approval on 2026-06-27.
+
+The approved material gives the future outline a durable emotional architecture for the Maya/Davian thread. Exact kiss choreography, confession wording, resurrection mechanics/cost, and final relationship status remain deferred.
+
+## Author Resolution
+
+Approved on 2026-06-27 with these additions:
+
+- This is probably the most important Book 1 plot arc.
+- Maya is attracted to Davian partly because he represents chaos outside the perfectionistic boundaries she has built and experienced as stifling, though she does not consciously understand that at first.
+- Davian is attracted to Maya partly because of her perfection, strength, and principle, including moments such as fighting off Caius.
+- Davian's attraction deepens as he sees Maya as a real person underneath the perfect exterior and understands how hard she has to try to be that way.
+- Maya's post-betrayal experience should be more confused internally than the meta description: she will question what happened and whether Davian really liked her.
+- Davian does not consciously think he is in love with Maya on the wall; he has a rush of feeling he cannot understand. Only later, after knowing Maya better, can he revisit the wall image and understand what it meant for her to go out there.
+- Davian will be resurrected by Maya, who may not fully understand why she does it and may later question whether Elric manipulated her into all of it. Specific mechanics and final relationship status remain deferred.
 
 ## Required Decisions
 
