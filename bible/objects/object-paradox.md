@@ -50,6 +50,8 @@ Niall gives Paradox to Davian in the end-book courtyard scene.
 
 The exact dialogue, emotional resolution, and whether Davian leaves or stays belong to later thread/ending/outline review, not this object record.
 
+The Maya/Davian romance and trust arc is accepted as the emotional architecture that carries Davian's end-book resurrection and later courtyard/Paradox resolution. Exact final relationship status, resurrection cost, and courtyard dialogue remain deferred.
+
 ## Symbolism
 
 Paradox carries the accepted symbolism of Antithesis as an inherited false-sacred tool remade into something chosen and acknowledged.
@@ -76,9 +78,11 @@ The shift from Antithesis to Paradox reflects Davian moving from knife-in-the-da
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related character: [Zirene](../characters/char-zirene.md)
 - Related character: [Vorren](../characters/char-vorren.md)
+- Related arc: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 
 ## Provenance
 

@@ -20,12 +20,18 @@ His arc should move toward values: valuing Maya, protecting valued things, and a
 
 This should not erase his culpability. Davian chose to steal the Heart both to protect his own family and to satisfy his own desires to matter and hurt the High Clades.
 
+The Maya/Davian romance and trust arc is now an approved linked arc seed. It clarifies that Davian's attraction to Maya begins as an unparsed rush of feeling around the wall scene, then deepens as he sees Maya's principle, strength, and personhood beneath the perfect exterior. This reinforces, rather than replaces, his movement from negation toward values.
+
 ## Deferred
 
 - Exact Vorren fight execution
 - Davian death/return/confession beats
 - Final relationship resolution with Maya
 - Full Kelyra/Jalen family reckoning
+
+## Related Arcs
+
+- [Maya / Davian Romance and Trust Arc](thread-maya-davian-romance.md)
 
 ## Provenance
 
@@ -34,3 +40,4 @@ This should not erase his culpability. Davian chose to steal the Heart both to p
 - `imports/normalized/book-1-outline.md:9305-9623`
 - `imports/normalized/bullet-notes.md:22-28`
 - `decisions/0004-davian-heart-theft-agency-and-arc.md`
+- `decisions/0057-maya-davian-romance-trust-architecture.md`

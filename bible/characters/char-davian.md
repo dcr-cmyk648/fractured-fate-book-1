@@ -95,9 +95,15 @@ Vorren forces Davian to give up being the primary threat and support Maya and Ni
 
 Maya:
 
-Davian and Maya's relationship involves attraction, class resentment, misinterpretation, betrayal, guilt, and shared values around protecting innocents.
+Davian and Maya's relationship is a major Book 1 romance/trust arc involving attraction, class resentment, misinterpretation, shared values around protecting innocents, practical training trust, real betrayal, and endgame resurrection.
+
+Davian is attracted to Maya partly because of her perfection, strength, and principle, including moments such as Maya fighting off Caius. His attraction deepens as he knows her better and sees that she is a real person underneath the perfect exterior who has to try hard to be that way.
+
+Davian does not consciously think he is in love with Maya when he sees her on the wall. The accepted core is that the wall scene plants an early rush of feeling he cannot understand; only later, after knowing Maya better, can he revisit the image and understand what it meant for her to go out there.
 
 Davian has heard racist/cultural claims about Naeroth demi-humans and worries that his attraction to Maya may be unnatural or magically compelled. This worry sits on top of his inaccurate bias that High Clades are bred to be attractive. The worry is Davian's misconception and anxiety, not objective truth.
+
+Accepted arc seed: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 
 Caius Drakhal:
 
@@ -154,6 +160,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 ## Intended Arc Links
 
 - Approved arc file: [thread-davian-identity-guilt](../../outline/arcs/thread-davian-identity-guilt.md)
+- Approved arc file: [thread-maya-davian-romance](../../outline/arcs/thread-maya-davian-romance.md)
 - Related character: [Niall Rezin](char-niall.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Candidate material: [char-davian](../../planning/candidates/characters/char-davian.md)
@@ -199,6 +206,7 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
+- Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 
 ## Canonical Uncertainties
 

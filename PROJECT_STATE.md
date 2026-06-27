@@ -7,37 +7,37 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: thread-maya-davian-romance
+- Active or paused entity ID: none
 - Latest completed entity: char-kael
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `workflow: add prose preservation tracking`
-- Working tree expected to be clean: yes; `thread-maya-davian-romance` review packet is awaiting author input from a committed checkpoint
+- Latest relevant commit message: `bible: approve Maya Davian romance thread`
+- Working tree expected to be clean: yes
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
 
 ## Last completed work
 
-Workflow/control documentation was updated to define future Prose Preservation Notes for chapter mapping, Chapter Goal Cards, next-draft outlining, feedback imports, and later prose work. The active narrative-thread review was preserved unchanged.
+`thread-maya-davian-romance` was approved and stored as an accepted arc seed with candidate material, decision record, direct dependency updates, and related consistency-queue context.
 
 ## Current work
 
-`thread-maya-davian-romance` is open at deep review depth and awaiting author input.
+No entity is currently open. The next queued entity should be opened automatically after the approved romance-thread commit is validated and pushed.
 
 ## Next action
 
-Answer the `thread-maya-davian-romance` review questions. After substantive approval, store the accepted arc seed, candidate material, decision record, and direct dependency updates.
+Open the next queued entity, `thread-high-clade-politics`, unless a validation or synchronization issue blocks progression.
 
 ## Awaiting author input
 
-- `thread-maya-davian-romance`: core romance/trust architecture, kiss/betrayal handling, Davian's early attraction/confession placement, and resurrection thread boundaries.
+None.
 
 ## Workflow policy note
 

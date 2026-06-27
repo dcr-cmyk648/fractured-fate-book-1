@@ -80,7 +80,13 @@ Selwin currently cannot form a Shroud at all. Maya's training of him in Book 1 s
 
 Davian:
 
-Maya and Davian have a major current and intended arc involving attraction, misunderstanding, betrayal, guilt, and possible trust/partnership. Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this belongs partly to the Maya/Davian romance review.
+Maya and Davian have a major Book 1 romance/trust arc involving attraction, misunderstanding, practical training trust, betrayal, guilt, and endgame resurrection. This is probably the most important Book 1 plot arc.
+
+Maya is attracted to Davian partly because he represents chaos outside the perfectionistic boundaries she has built around herself. Those boundaries feel stifling, though she does not consciously understand that dynamic at first. Davian can also see and challenge her as a person rather than only as Lady Maya, Rezin heir, or weapon.
+
+Davian has heard things about Naeroth demi-humans that make him wonder whether his attraction to Maya is unnatural or magically forced; this is his misconception and anxiety, not objective truth.
+
+Accepted arc seed: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 
 Caius Drakhal:
 
@@ -137,6 +143,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related character: [Caius Drakhal](char-caius-drakhal.md)
 - Related character: [Tanelle](char-tanelle.md)
 - Related character: [Selwin Rezin](char-selwin.md)
+- Related arc: [Maya / Davian Romance and Trust Arc](../../outline/arcs/thread-maya-davian-romance.md)
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related organization: [Drakhal Clade](../organizations/org-drakhal.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
@@ -160,6 +167,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
+- Decision: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 
 ## Provenance
 
