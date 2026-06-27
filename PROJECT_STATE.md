@@ -10,18 +10,18 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `app: improve repository browser readability`
-- Working tree expected to be clean: yes, after the approved `d1-ch-24` current-draft map is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 24 current draft map`
+- Working tree expected to be clean: yes, after the current-draft map consistency review is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 25
-- Last consistency review: reports/consistency/2026-06-27-story-bible-completion-gate.md
-- Last chapter-map consistency review: none yet
-- Consistency review due: yes; run a significant current-draft chapter-map consistency review before preparing `d1-ch-25`
+- Approved current-draft maps since last chapter-map consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
+- Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
+- Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,11 +30,11 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-24` has been approved by the author as a current-draft chapter-map packet. The packet identifies the chapter as Davian aftermath, Harvick mentorship, and Maya/Davian training-trust: Davian processes Niall's overwhelming violence and Ink pressure, Harvick pushes him toward values rather than hatred, and Maya/Davian hand-to-hand training creates physical trust, romantic charge, Shroud/kinesis exposition, and a direct challenge to Davian's High-Clade hatred.
+`d1-ch-24` has been approved by the author as a current-draft chapter-map packet. The significant current-draft chapter-map consistency review through Chapter 24 found no blocker to preparing Chapter 25.
 
 ## Next action
 
-Validate, commit, and push the approved `d1-ch-24` current-draft map. Then run the significant current-draft chapter-map consistency review before preparing `d1-ch-25`.
+Prepare the `d1-ch-25` current-draft map packet next.
 
 ## Awaiting author input
 
@@ -86,7 +86,8 @@ None.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-24.md
+- revision/current-draft-map/d1-ch-25.md
+- reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
