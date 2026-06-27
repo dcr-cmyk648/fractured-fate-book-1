@@ -58,7 +58,7 @@ Current and planning material use mercenary forces in the opening attack and lat
 ## Contradictions / Tensions
 
 - Naeroth are already accepted as a rare magic-capable exception, but broader demi-human peoples remain undefined.
-- The notes raise "six races" as a possibility, but locking that number may create unnecessary taxonomy obligations.
+- The notes raise "six races" as a possibility. Author wants candidate lineage names/options before deciding how much to lock.
 - Mercenary death-money economics are narratively useful, but may be better owned jointly with `thread-demi-human-mercenary-forces`.
 - Exact physical traits can add texture, but overdefining them could create continuity burdens before chapter mapping.
 
@@ -79,8 +79,10 @@ If approved, the accepted record would store:
 - Non-human lineage is generally treated as low-status in High Clade society.
 - Naeroth are a special exception because they can rarely produce Shrouds and fateweaving / Convergence-associated abilities.
 - Other demi-human lineages are not known to produce hereditary magic or Shrouds in the way High Clade humans and rare Naeroth do.
+- This lack of accepted magic capacity is part of their low status. High Clades are self-congratulatory about their magic and military power, even though the hidden origin of that power is the original sin rather than anything good.
 - Some demi-human-descended groups, especially compact/stocky people, are common in armies or mercenary forces because they are effective in specific battlefield roles such as archery and have practical campaign advantages.
 - Mercenaries are often desperate poor people who accept lethal risk in exchange for death payments to their families.
+- Anti-Naeroth rumors that Alara bewitched Niall into ending the war and marrying her are accepted as canon rumors, partly based on the rarity of Naeroth interactions. How much Davian has heard specifically remains candidate.
 
 ## Proposed Developmental Profile
 
@@ -94,12 +96,34 @@ This can sharpen scenes without requiring lore lectures. A mercenary can be both
 - Candidate physical traits: sharp teeth, heavy arms, compact build, unusual short/stocky proportions, gray/greenish skin tones, unusual eyes.
 - Smaller not-quite-dwarf people may make up a large share of archers or campaign troops.
 - Orc/dwarf-like analogues may exist only as distant inspirations rather than direct fantasy species.
-- Anti-Naeroth rumors may include claims that Alara bewitched Niall into ending the war and marrying her.
 - Davian may have heard anti-Naeroth rumors and may use them to worry that attraction to Maya is unnatural or magically influenced.
+
+## Candidate Six-Lineage Taxonomy
+
+Accepted anchors:
+
+- humans
+- Naerothi: closest in-world to elves, mostly through perception of elegance, beauty, refinement, and harmony with nature rather than direct fantasy-species mapping
+
+Candidate names/concepts for the four non-human lineages other than Naerothi:
+
+| Candidate lineage | Possible adjective | Fantasy analogue / role | Book-use value |
+|---|---|---|---|
+| Kharveth | Kharvethi | dwarf-like, compact, strong, efficient on campaign | Explains archers/infantry who require less food, endure marching, and are tactically useful but socially low-status. |
+| Ghorren | Ghorreni | orc-like, heavier arms, stronger jaws/teeth, durable | Gives visible low-status physical traits and a believable pool for labor, guards, and shock troops without making them monstrous. |
+| Veyr | Veyri | sharp-eyed / night-adapted / fine-sensed lineage | Useful for scouts, watchmen, tunnel workers, messengers, and urban underclass roles; gives a non-Naeroth unusual-eyes option. |
+| Thalen | Thaleni | water/river/coastal or breath/endurance-adapted lineage | Useful for river trade, docks, fisheries, canal districts, and transport/logistics; adds a civilian/economic lineage rather than another battlefield type. |
+
+Alternate naming options if the sound is wrong:
+
+- dwarf-like: `Kharveth`, `Durnai`, `Vorruk`
+- orc-like: `Ghorren`, `Orvakh`, `Rukhai`
+- sharp-eyed/scout lineage: `Veyr`, `Sithren`, `Aeveth`
+- river/coastal lineage: `Thalen`, `Mireth`, `Sovar`
 
 ## What Does Not Need to Be Defined Now
 
-- Exact number of peoples/races.
+- Exact number of peoples/races, pending author decision on the candidate six-lineage taxonomy.
 - Full origin mythology.
 - Full physical taxonomy.
 - Exact homelands, languages, naming conventions, or political structures for each lineage.
@@ -136,10 +160,16 @@ The future outline would have enough to handle mercenary scenes, anti-Naeroth pr
 - Cleaner future handling of Davian's anti-Naeroth misconceptions.
 - Less risk of inventing a taxonomy that does not improve Book 1.
 
+## Current Author Decisions
+
+1. Accepted: keep high-level demi-human/non-human-descended canon; most lineages are heavily interbred with humans, traits are usually subtle, and non-human lineage is generally low-status.
+2. Accepted: Naeroth remain the only accepted magic-capable demi-human exception for now. Other demi-human lineages do not produce known Shrouds/hereditary magic, contributing to their low status under High Clade ideology.
+3. Pending: author wants candidate names/options for a six-lineage taxonomy before locking the record.
+4. Accepted: mercenary death-money economics can be accepted here at high level, with detailed military/economic handling deferred to `thread-demi-human-mercenary-forces`.
+5. Accepted: anti-Naeroth rumors about Alara bewitching Niall are canon rumors, partly grounded in the rarity of Naeroth interactions. How much Davian has heard specifically remains candidate.
+
 ## Required Decisions
 
-1. Should the accepted canon stay high-level: demi-human/non-human-descended peoples exist, most are heavily interbred with humans, traits are usually subtle, and non-human lineage is generally low-status?
-2. Should Naeroth remain the only accepted magic-capable demi-human exception for now, while other demi-human lineages do not produce known Shrouds/hereditary magic?
-3. Should the compact/stocky not-quite-dwarf people and other orc/dwarf-like lineages remain candidate flavor rather than locking exact peoples, names, traits, or a six-race taxonomy now?
-4. Should mercenary death-money economics be accepted here at high level, with detailed military/economic handling deferred to `thread-demi-human-mercenary-forces`?
-5. Should anti-Naeroth rumors about Alara bewitching Niall, and Davian possibly having heard them, remain candidate scene/social material rather than accepted present canon?
+1. Do any of these candidate names work for the four non-human lineages besides Naerothi: `Kharveth/Kharvethi` for dwarf-like, `Ghorren/Ghorreni` for orc-like, `Veyr/Veyri` for sharp-eyed/scout lineage, and `Thalen/Thaleni` for river/coastal lineage?
+2. Do the two additional lineage concepts work: a sharp-eyed/fine-sensed scout/watch/tunnel lineage and a river/coastal transport/logistics lineage?
+3. Should the accepted record lock a six-lineage structure now, or preserve this as candidate taxonomy while accepting only the high-level social facts?
