@@ -195,8 +195,14 @@ The Prologue is structurally valuable. Its main current-draft function is strong
 
 The biggest issue is not the chapter's purpose; it is canon drift from older versions, especially Jalen's field role, Antithesis form, Davian's mask mark, and exact magic terminology.
 
-## Required Decisions
+## Author Feedback
 
-1. For the current-draft map, should `Chapter 37` remain tracked as `d1-ch-37-preposed` because it appears at the top of the normalized manuscript, while later outline work decides where it belongs?
-2. Approve this Prologue map as an accurate descriptive record of what is currently written, with the listed canon divergences preserved as later chapter-architecture/revision issues?
-3. Should the next current-draft mapping unit be Chapter 1, or should Codex map the preposed Chapter 37 section first because it appears first in the source file?
+Received 2026-06-27:
+
+- The preposed Chapter 37 section exists at the top of the manuscript because it was the chapter being actively worked on. It is a halfway-done Chapter 37 working fragment, not the next mapping unit.
+- The next mapping unit should be Chapter 1.
+- Review information should be printed directly in the Codex thread unless or until the review app is updated to make these packets easy to read there.
+
+## Required Decision
+
+1. Approve this Prologue map as an accurate descriptive record of what is currently written, with the listed canon divergences preserved as later chapter-architecture/revision issues?

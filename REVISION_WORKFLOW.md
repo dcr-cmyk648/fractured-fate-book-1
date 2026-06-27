@@ -70,6 +70,8 @@ Chapter and scene mapping is read-only with respect to manuscript prose. It may 
 
 For each review unit, preserve enough provenance for another session to locate the source material. Record unresolved issues in existing control files rather than creating competing tracking systems.
 
+When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The author should not need to open the map file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
+
 ## Prose Preservation Notes
 
 Prose Preservation Notes are future planning/reference artifacts for tracking wording-level preservation intent. They are not the same as general strong material to preserve.
@@ -137,6 +139,8 @@ During current-draft mapping, identify possible candidates for distinctive lines
 After current-draft chapter mapping, create Chapter Goal Cards. This stage treats each chapter, future chapter, or major sequence as a story unit before detailing its scenes. The core question is: "What is this chapter or sequence supposed to accomplish for the book?"
 
 Do not collapse the Chapter Architecture Pass into the detailed next-draft outline. Do not skip it unless the author explicitly says to.
+
+Default to chapter-purpose-first architecture. For each chapter or major sequence, make the overarching purpose decisions from the aggregate events of the full unit before making piece-by-piece decisions about the detailed scene outline. The first architecture pass should decide the chapter's job in the book, the major plot/character/relationship/worldbuilding movement, and whether the current material should be retained, compressed, expanded, moved, merged, split, replaced, or removed. Detailed scene-level outlining comes after the chapter-level purpose is clear, except where a scene-level issue is genuinely blocking the chapter-purpose decision.
 
 Use files such as:
 

@@ -12,13 +12,15 @@ This map is descriptive. It records what is actually written now and flags diver
 
 ## Source Order Notes
 
-The normalized manuscript begins with a `Chapter 37` section before the dedication, cover material, prologue, and Chapters 1-36. Preserve this as a real current-draft source unit until the author decides how it should be ordered later.
+The normalized manuscript begins with a `Chapter 37` section before the dedication, cover material, prologue, and Chapters 1-36. The author clarified on 2026-06-27 that this is a halfway-done working chapter placed at the top while it was being actively worked on, not a signal that Chapter 37 should be mapped before the earlier chapters.
+
+Default current-draft mapping order should therefore proceed through the prologue and Chapters 1-36 first. Keep the preposed Chapter 37 fragment as a later source unit for when the map reaches Chapter 37 / future-sequence handling.
 
 ## Chapter Source IDs
 
 | Source ID | Current heading | Source lines | Map file | Status |
 |---|---|---:|---|---|
-| d1-ch-37-preposed | Chapter 37 | 18-197 | pending | discovered |
+| d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | pending | later-working-fragment |
 | d1-prologue | Prologue | 228-674 | [d1-prologue.md](d1-prologue.md) | awaiting-author |
 | d1-ch-01 | Chapter 1 | 678-923 | pending | discovered |
 | d1-ch-02 | Chapter 2 | 927-1262 | pending | discovered |
@@ -62,3 +64,7 @@ The normalized manuscript begins with a `Chapter 37` section before the dedicati
 Current packet awaiting author review:
 
 - `d1-prologue`
+
+Next mapping unit after `d1-prologue` approval:
+
+- `d1-ch-01`

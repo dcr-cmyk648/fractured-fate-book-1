@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-prologue` has been prepared as the first current-draft map packet. It describes what is currently written in the Prologue and flags divergences from accepted canon for later chapter architecture/revision work.
+`d1-prologue` has been prepared as the first current-draft map packet. It describes what is currently written in the Prologue and flags divergences from accepted canon for later chapter architecture/revision work. The author clarified that the preposed Chapter 37 section is a working fragment that should be mapped later, and that Chapter 1 is the next mapping unit after the Prologue.
 
 ## Next action
 
-Wait for author answers on the `d1-prologue` current-draft map packet. After approval, mark the map approved, validate, commit, push, and continue to the next current-draft mapping unit selected by the author.
+Wait for author approval on the `d1-prologue` current-draft map packet after printing its audit summary in the Codex thread. After approval, mark the map approved, validate, commit, push, and continue to `d1-ch-01`.
 
 ## Awaiting author input
 
-Author input is pending on `revision/current-draft-map/d1-prologue.md`.
+Author input is pending on the `d1-prologue` current-draft map approval.
 
 ## Workflow policy note
 
