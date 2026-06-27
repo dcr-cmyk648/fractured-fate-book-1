@@ -257,49 +257,95 @@ function normalizeProseText(text) {
 }
 
 function basicMarkdownToHtml(text, options = {}) {
-  const source = options.prose ? normalizeProseText(text) : String(text || "");
+  const raw = options.prose ? normalizeProseText(text) : normalizeRepositoryText(text);
+  const source = String(raw || "");
   const lines = source.split("\n");
   const output = [];
   let inList = false;
+  let inTable = false;
+  const closeBlocks = () => {
+    if (inList) {
+      output.push("</ul>");
+      inList = false;
+    }
+    if (inTable) {
+      output.push("</tbody></table>");
+      inTable = false;
+    }
+  };
   for (const rawLine of lines) {
     const line = rawLine.trimEnd();
     const heading = line.match(/^(#{1,6})\s+(.+)$/);
     const bullet = line.match(/^[-*]\s+(.+)$/);
+    const tableCells = tableCellsFor(line);
     if (heading) {
+      closeBlocks();
+      const level = Math.min(heading[1].length, 4);
+      output.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+    } else if (tableCells) {
       if (inList) {
         output.push("</ul>");
         inList = false;
       }
-      const level = Math.min(heading[1].length, 4);
-      output.push(`<h${level}>${escapeHtml(heading[2])}</h${level}>`);
+      if (!inTable) {
+        output.push("<table><tbody>");
+        inTable = true;
+      }
+      output.push(`<tr>${tableCells.map((cell) => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`);
     } else if (bullet) {
+      if (inTable) {
+        output.push("</tbody></table>");
+        inTable = false;
+      }
       if (!inList) {
         output.push("<ul>");
         inList = true;
       }
-      output.push(`<li>${escapeHtml(bullet[1])}</li>`);
+      output.push(`<li>${inlineMarkdown(bullet[1])}</li>`);
     } else if (line.trim() === "---") {
-      if (inList) {
-        output.push("</ul>");
-        inList = false;
-      }
+      closeBlocks();
       output.push("<hr>");
     } else if (!line.trim()) {
-      if (inList) {
-        output.push("</ul>");
-        inList = false;
-      }
+      closeBlocks();
       output.push("");
     } else {
-      if (inList) {
-        output.push("</ul>");
-        inList = false;
-      }
-      output.push(`<p>${escapeHtml(line)}</p>`);
+      closeBlocks();
+      output.push(`<p>${inlineMarkdown(line)}</p>`);
     }
   }
-  if (inList) output.push("</ul>");
+  closeBlocks();
   return output.join("\n");
+}
+
+function normalizeRepositoryText(text) {
+  const raw = String(text || "").replace(/^---\n[\s\S]*?\n---\n?/, "");
+  const lines = raw.split("\n");
+  const output = [];
+  for (const rawLine of lines) {
+    const line = rawLine
+      .replace(/<!--\s*paragraph:[\s\S]*?-->/g, "")
+      .replace(/<!--\s*comment-(?:start|end|ref):\d+\s*-->/g, "")
+      .replace(/<!--\s*[\s\S]*?-->/g, "")
+      .trimEnd();
+    if (/^<!--.*-->$/.test(line.trim())) continue;
+    output.push(line);
+  }
+  return output.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+function tableCellsFor(line) {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("|") || !trimmed.endsWith("|")) return null;
+  if (/^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$/.test(trimmed)) return null;
+  const cells = trimmed.slice(1, -1).split("|").map((cell) => cell.trim());
+  return cells.length > 1 ? cells : null;
+}
+
+function inlineMarkdown(value) {
+  return escapeHtml(value)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<span class="inline-link">$1</span>');
 }
 
 function renderChapter() {
@@ -402,7 +448,7 @@ function renderTreeNode(node) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "tree-file";
-    button.textContent = node.name;
+    button.textContent = node.display_name || node.name;
     button.title = node.path;
     button.dataset.path = node.path;
     return button;
@@ -444,14 +490,16 @@ function renderFile(path) {
   setView("repo-browser");
   currentFilePath = path;
   currentLayer = "repository-file";
-  $("filePath").textContent = `${path} · ${file.line_count} lines`;
+  $("filePath").textContent = `${file.display_name || path} · ${file.line_count} lines · ${path}`;
   $("fileBadge").textContent = file.category;
   $("fileBadge").className = `badge ${file.category.includes("candidate") ? "candidate" : file.category.includes("prose") ? "prose" : file.category.includes("review") ? "review" : ""}`;
-  $("fileContent").innerHTML = renderLines(file.content, 1);
+  $("fileContent").classList.remove("code-like");
+  $("fileContent").classList.add("repo-readable");
+  $("fileContent").innerHTML = basicMarkdownToHtml(file.content);
   document.querySelectorAll(".tree-file").forEach((button) => {
     button.classList.toggle("active", button.dataset.path === path);
   });
-  $("browserSelectedFile").textContent = abbreviate(path, 64);
+  $("browserSelectedFile").textContent = abbreviate(file.display_name || path, 64);
   if (isMobileLayout()) {
     setBrowserTreeOpen(false);
     $("fileViewer")?.scrollIntoView({ block: "start" });

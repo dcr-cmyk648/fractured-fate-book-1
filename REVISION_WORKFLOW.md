@@ -72,6 +72,14 @@ For each review unit, preserve enough provenance for another session to locate t
 
 When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The author should not need to open the map file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
 
+### Current-Draft Map Consistency Cadence
+
+During current-draft chapter mapping, run a significant chapter-map consistency review at least every five approved chapter summaries, and sooner when a broad contradiction, major terminology change, important magic/ability question, chronology issue, or author request makes it useful.
+
+The review should check approved chapter maps against the accepted story bible, prior approved chapter maps, decision records, relevant comments, and `CONSISTENCY_QUEUE.md`. It should also check for repeated divergences such as stale terminology, obsolete mechanics, current-versus-future confusion, character knowledge errors, setup/payoff drift, and chapter-purpose overlap.
+
+Track the cadence in `PROJECT_STATE.md` using current-draft chapter-map counts, not story-bible entity counts. When five approved maps have accumulated since the last chapter-map consistency review, mark consistency review due and run it before preparing another substantive chapter packet unless the author explicitly pauses or redirects.
+
 ## Prose Preservation Notes
 
 Prose Preservation Notes are future planning/reference artifacts for tracking wording-level preservation intent. They are not the same as general strong material to preserve.
@@ -321,7 +329,7 @@ Use existing files rather than creating unnecessary new tracking systems.
 Use three levels:
 
 - Per-unit impact check: after every approved entity, chapter, scene, future sequence, or structural decision, check direct dependencies, update unambiguous linked summaries and metadata, queue uncertain conflicts, and do not add a separate author checkpoint for routine propagation.
-- Block-level review: run after logical groups of entities, chapters, scenes, future sequences, or major plotline work. Include newly discovered story-bible issues and present only substantive unresolved decisions to the author.
+- Block-level review: run after logical groups of entities, chapters, scenes, future sequences, or major plotline work. For current-draft chapter mapping, a significant consistency review is required at least every five approved chapter summaries. Include newly discovered story-bible issues and present only substantive unresolved decisions to the author.
 - Whole-book review: run after the complete initial story bible, after the current draft has been fully mapped, after the future gap-to-ending outline exists, after the next-draft structure is complete, before prose work begins, and after any broad retcon.
 
 Every major phase and meaningful block should re-check prior accepted documents for conflicts created by later decisions. Check earlier approved files against newer decisions, candidate files for material that should now be promoted/rejected/obsolete, related consistency-queue items, current/future status, renamed terms, unresolved contradiction markers, setup/payoff obligations, character knowledge states, magic and ability constraints, chronology, location feasibility, and whether later changes invalidate earlier chapter goals.

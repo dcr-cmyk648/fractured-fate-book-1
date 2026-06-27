@@ -18,9 +18,10 @@ Last updated: 2026-06-27
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved entities since last consistency review: 0
+- Approved current-draft maps since last chapter-map consistency review: 24
 - Last consistency review: reports/consistency/2026-06-27-story-bible-completion-gate.md
-- Consistency review due: no; chapter-map block review not yet due
+- Last chapter-map consistency review: none yet
+- Consistency review due: yes; run a significant current-draft chapter-map consistency review before preparing `d1-ch-25`
 - Remote synchronized: yes
 
 ## Last completed work

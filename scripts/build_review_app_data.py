@@ -155,6 +155,13 @@ def detect_headings(text: str) -> list[dict[str, Any]]:
     return headings
 
 
+def display_name_for(relative: str, headings: list[dict[str, Any]]) -> str:
+    if headings:
+        return headings[0]["text"]
+    stem = Path(relative).stem.replace("-", " ").replace("_", " ").strip()
+    return stem.title() if stem else relative
+
+
 def scan_files(metadata: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     files: list[dict[str, Any]] = []
     content: dict[str, Any] = {}
@@ -168,8 +175,10 @@ def scan_files(metadata: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str
             text = path.read_text(encoding="utf-8", errors="replace")
         lines = text.splitlines()
         headings = detect_headings(text)
+        display_name = display_name_for(relative, headings)
         record = {
             "path": relative,
+            "display_name": display_name,
             "category": category_for(relative),
             "line_count": len(lines),
             "headings": headings,
@@ -194,6 +203,7 @@ def build_tree(files: list[dict[str, Any]]) -> dict[str, Any]:
             )
         node["children"][parts[-1]] = {
             "name": parts[-1],
+            "display_name": item.get("display_name") or parts[-1],
             "type": "file",
             "path": item["path"],
             "category": item["category"],
