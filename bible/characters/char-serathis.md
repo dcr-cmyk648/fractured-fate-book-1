@@ -93,6 +93,7 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
 - Related character: [Kelyra](char-kelyra.md)
+- Related character: [Lethira](char-lethira.md)
 - Related character: [Davian](char-davian.md)
 - Related character: [Elric Rezin](char-elric.md)
 - Related character: [Niall Rezin](char-niall.md)

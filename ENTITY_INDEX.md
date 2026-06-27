@@ -90,7 +90,7 @@ There must normally be no more than one entity marked `in-review`.
 | 69 | thread-demi-human-mercenary-forces | narrative-thread | Demi-human mercenary forces and death payments | approved | reviews/entities/threads/thread-demi-human-mercenary-forces.md | outline/arcs/thread-demi-human-mercenary-forces.md | planning/candidates/threads/thread-demi-human-mercenary-forces.md | 2026-06-27 |
 | 70 | thread-kelyra-archeon-recovery | narrative-thread | Kelyra Archeon trauma and family-protection arc | approved | reviews/entities/threads/thread-kelyra-archeon-recovery.md | outline/arcs/thread-kelyra-archeon-recovery.md | planning/candidates/threads/thread-kelyra-archeon-recovery.md | 2026-06-27 |
 | 71 | char-lirien | character | Lirien | approved | reviews/entities/characters/char-lirien.md | bible/characters/char-lirien.md | planning/candidates/characters/char-lirien.md | 2026-06-27 |
-| 72 | char-lethira | character | Lethira | awaiting-author | reviews/entities/characters/char-lethira.md | bible/characters/char-lethira.md | planning/candidates/characters/char-lethira.md |  |
+| 72 | char-lethira | character | Lethira | approved | reviews/entities/characters/char-lethira.md | bible/characters/char-lethira.md | planning/candidates/characters/char-lethira.md | 2026-06-27 |
 
 ## Grouping Notes
 

@@ -109,6 +109,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related character: [Kelyra](../characters/char-kelyra.md)
 - Related character: [Davian](../characters/char-davian.md)
 - Related character: [Serathis](../characters/char-serathis.md)
+- Related character: [Lethira](../characters/char-lethira.md)
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related organization: [High Clades](org-high-clades.md)
 - Related organization: [Drakhal Clade](org-drakhal.md)

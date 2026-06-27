@@ -73,3 +73,4 @@ Do not use this file as a dump for unresolved questions.
 | Demi-Human Mercenary Forces and Death Payments | 2026-06-27 | accepted; stored in approved `thread-demi-human-mercenary-forces` record | [0065-demi-human-mercenary-forces-and-death-payments.md](0065-demi-human-mercenary-forces-and-death-payments.md) |
 | Kelyra Archeon Recovery and Family-Protection Arc | 2026-06-27 | accepted; stored in approved `thread-kelyra-archeon-recovery` arc seed | [0066-kelyra-archeon-recovery-and-family-protection.md](0066-kelyra-archeon-recovery-and-family-protection.md) |
 | Lirien Brief Family Role and Spelling | 2026-06-27 | accepted; stored in approved `char-lirien` record | [0067-lirien-brief-family-role-and-spelling.md](0067-lirien-brief-family-role-and-spelling.md) |
+| Lethira Archeon Arena Function and Relationship Boundary | 2026-06-27 | accepted; stored in approved `char-lethira` record | [0068-lethira-archeon-arena-function.md](0068-lethira-archeon-arena-function.md) |

@@ -7,18 +7,18 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: char-lethira
-- Latest completed entity: char-lirien
+- Active or paused entity ID: none
+- Latest completed entity: char-lethira
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Lirien family role`
-- Working tree expected to be clean: yes; `char-lethira` review packet is committed and awaiting author input
+- Latest relevant commit message: `review: prepare Lethira character packet`
+- Working tree expected to be clean: no; approved `char-lethira` finalization is being recorded
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: brief supporting-character records for remaining family/Archeon-side figures
-- Approved entities since last consistency review: 1
+- Approved entities since last consistency review: 2
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-followup-block.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lirien` was approved, committed, and pushed. `char-lethira` has been opened with a brief author review packet.
+`char-lethira` was approved by the author and is being finalized into accepted and candidate files. Lethira is not Kelyra's child; she is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner.
 
 ## Next action
 
-Resolve the required author decisions in `reviews/entities/characters/char-lethira.md`, then finalize the accepted and candidate Lethira files if approved.
+Validate, commit, and push the approved `char-lethira` finalization. Then check whether the remaining queue requires a block consistency review or a needs-revisit packet.
 
 ## Awaiting author input
 
-Awaiting author input on `char-lethira`. The review packet and summary/questions have been printed for audit.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 
@@ -90,6 +90,9 @@ Awaiting author input on `char-lethira`. The review packet and summary/questions
 - planning/candidates/characters/char-lirien.md
 - decisions/0067-lirien-brief-family-role-and-spelling.md
 - reviews/entities/characters/char-lethira.md
+- bible/characters/char-lethira.md
+- planning/candidates/characters/char-lethira.md
+- decisions/0068-lethira-archeon-arena-function.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md

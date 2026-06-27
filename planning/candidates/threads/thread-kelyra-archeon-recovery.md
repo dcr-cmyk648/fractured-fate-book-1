@@ -26,10 +26,12 @@ Accepted high-level function:
 
 Deferred:
 
-- exact parentage
-- exact relationship to Kelyra
+- exact parentage within Archeon
+- exact relationship term to Kelyra
 - whether any Lethira material matters beyond Book 1
 - exact combat details
+
+Accepted boundary: Lethira is not Kelyra's child. She is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner before escaping.
 
 ## Serathis and Archeon Fallout
 

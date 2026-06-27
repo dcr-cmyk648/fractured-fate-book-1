@@ -2,9 +2,9 @@
 id: char-lethira
 entity_type: character
 display_name: Lethira
-status: awaiting-author
+status: approved
 review_depth: brief
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: bible/characters/char-lethira.md
 candidate_file: planning/candidates/characters/char-lethira.md
 ---
@@ -41,7 +41,7 @@ Her role is valuable because it sharpens Kelyra's wound: escaping Archeon saved 
 
 ### Existing Decisions and Approved Records
 
-- Kelyra's accepted file leaves Lethira's parentage and exact relationship unresolved, while noting that Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon.
+- Kelyra's accepted file previously left Lethira's parentage and exact relationship unresolved, while noting that Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon.
 - Serathis's accepted file stores that Serathis uses Lethira against Kelyra and disposes of Lethira after Lethira fails.
 - The Kelyra Archeon recovery arc candidate file stores the accepted high-level function: Lethira is mainly a cameo/emotional-manipulation tool for Serathis in Book 1; Serathis uses her to make Kelyra feel bad before Serathis kills her.
 - `CQ-0005` tracks Lethira parentage and relationship to Kelyra as unresolved.
@@ -70,8 +70,8 @@ Lethira is an Archeon child-system product: trained, Shrouded, obedient, and dis
 
 ## Continuity Constraints
 
-- Do not make Lethira one of Kelyra and Jalen's children unless later explicitly approved.
-- Do not overdefine exact parentage unless the author decides it matters.
+- Do not make Lethira one of Kelyra and Jalen's children.
+- Lethira is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner before escaping; exact parentage remains deferred.
 - Preserve that Lethira's Book 1 function is mainly in the Archeon arena confrontation.
 - Preserve that Serathis intentionally uses Lethira to manipulate Kelyra.
 - Preserve that Lethira's Shroud-backed combat is dangerous even though her form is rigid and predictable.
@@ -80,7 +80,7 @@ Lethira is an Archeon child-system product: trained, Shrouded, obedient, and dis
 ## Details Worth Preserving But Not Resolving
 
 - Exact parentage.
-- Whether Lethira is literally Kelyra's close descendant/cousin/niece-equivalent or simply another Archeon child Kelyra helped train.
+- Exact relationship term Lethira would use for Kelyra.
 - Whether Lethira saw Kelyra as a mother figure, older-sister figure, teacher, or the closest thing to a caregiver.
 - Whether Lethira definitively dies from Serathis's attack or is only functionally removed from the scene.
 - Whether any Lethira material matters beyond Book 1.
@@ -98,7 +98,7 @@ Lethira is an Archeon child-system product: trained, Shrouded, obedient, and dis
 
 - Lethira is a young adult Archeon fighter who appears in the Archeon arena sequence after Kelyra is recaptured.
 - Kelyra recognizes Lethira and remembers correcting her stance when Lethira was a child.
-- Lethira is likely an Archeon child of another parent whom Kelyra helped train or partially raise before escaping Archeon; exact parentage and relationship remain deferred.
+- Lethira is another Archeon child, not Kelyra's child, whom Kelyra trained and helped raise in the normal Archeon manner before escaping Archeon; exact parentage and relationship term remain deferred.
 - Lethira has a Shroud and fights with dangerous Shroud-backed speed and rigid Archeon forms.
 - Lethira resents Kelyra for escaping and leaving her behind, and Serathis intentionally uses that resentment to hurt Kelyra.
 - Serathis violently discards or kills Lethira after Lethira fails to produce the desired result, then uses Lethira's disposability as another manipulation against Kelyra.
@@ -139,3 +139,10 @@ The future outline can use Lethira's arena function without resolving the full f
 2. Should her Book 1 function be accepted as primarily Serathis-controlled emotional manipulation in the Archeon arena, not an independent subplot?
 3. Should exact parentage and relationship term to Kelyra remain deferred, with the working boundary that she is likely another Archeon child Kelyra trained or partially helped raise?
 4. Should Serathis's violent disposal of Lethira remain accepted as part of the arena manipulation, while the exact survival/death wording can remain flexible until chapter revision?
+
+## Author Responses
+
+1. Sure.
+2. Yes.
+3. She is another Archeon child that is not Kelyra's, whom Kelyra trained and helped raise in the normal manner of Archeon.
+4. Yes.

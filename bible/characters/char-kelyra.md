@@ -79,7 +79,7 @@ Kelyra hides the truth from Davian. She tells him Selina left to work for the Hi
 
 Lethira:
 
-Lethira was likely an Archeon child of another parent whom Kelyra helped raise before escaping Archeon. This remains unresolved pending later review.
+Lethira is not Kelyra's child. She is another Archeon child whom Kelyra trained and helped raise in the normal Archeon manner before escaping.
 
 Serathis:
 
@@ -114,7 +114,9 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Related character: [Karra](char-karra.md)
 - Related character: [Arrek Hadrin](char-arrek.md)
 - Related character: [Kael](char-kael.md)
+- Related character: [Lirien](char-lirien.md)
 - Related character: [Selina](char-selina.md)
+- Related character: [Lethira](char-lethira.md)
 - Related character: [Serathis](char-serathis.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Related organization: [Harbingers / Syndicate](../organizations/org-harbingers-syndicate.md)
@@ -149,7 +151,7 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Exact future Shroud manifestation scene choreography remains for later chapter/endgame review, but the high-level emotional direction is accepted in `thread-kelyra-archeon-recovery`.
 - Exact endgame fight choreography around Davian freeing Kelyra, Kelyra manifesting a Shroud, killing Serathis, and handling the remaining Archeon forces remains for later outline work.
 - Exact number of generations between Kelyra and Serathis remains unresolved.
-- Lethira's parentage and exact relationship to Kelyra remain unresolved; her current Book 1 function is a Serathis-controlled emotional-manipulation cameo.
+- Lethira is not Kelyra's child; exact Lethira parentage and relationship term remain unresolved. Her current Book 1 function is a Serathis-controlled emotional-manipulation cameo.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
 - Exact Selina/Vorren death choreography and when Davian learns the truth remain unresolved.
 - Exact Concord leadership chronology, prior-leader death, detailed Trial of Dominion execution, and the final status of the chapter's current Ink-running-out / transfer-to-Davian explanation need a later consistency pass.
