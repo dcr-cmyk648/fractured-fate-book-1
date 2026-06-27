@@ -3,7 +3,7 @@ id: char-niall
 entity_type: character
 display_name: Niall Rezin
 status: candidate
-last_updated: 2026-06-23
+last_updated: 2026-06-27
 accepted_file: bible/characters/char-niall.md
 review_packet: reviews/entities/characters/char-niall.md
 ---
@@ -32,7 +32,7 @@ This file preserves useful but not fully approved Niall material. It should not 
 
 ## Related Queued Reviews
 
-- `thread-niall-grief-recovery`
+- `thread-niall-grief-recovery` is now approved; see `outline/arcs/thread-niall-grief-recovery.md`.
 - `char-alara`
 - `event-alara-death-war-memory`
 - `object-seraph-heart`

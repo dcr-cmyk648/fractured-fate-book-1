@@ -75,3 +75,4 @@ Do not use this file as a dump for unresolved questions.
 | Lirien Brief Family Role and Spelling | 2026-06-27 | accepted; stored in approved `char-lirien` record | [0067-lirien-brief-family-role-and-spelling.md](0067-lirien-brief-family-role-and-spelling.md) |
 | Lethira Archeon Arena Function and Relationship Boundary | 2026-06-27 | accepted; stored in approved `char-lethira` record | [0068-lethira-archeon-arena-function.md](0068-lethira-archeon-arena-function.md) |
 | Kelyra Revisit Clearance | 2026-06-27 | accepted; clears `char-kelyra` needs-revisit status | [0069-kelyra-revisit-clearance.md](0069-kelyra-revisit-clearance.md) |
+| Niall Grief Recovery and Committed Action | 2026-06-27 | accepted; stored in approved `thread-niall-grief-recovery` arc seed | [0070-niall-grief-recovery-committed-action.md](0070-niall-grief-recovery-committed-action.md) |

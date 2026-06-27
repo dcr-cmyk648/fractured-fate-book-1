@@ -2,9 +2,9 @@
 id: thread-niall-grief-recovery
 entity_type: narrative-thread
 display_name: Niall grief, rigidity, and recovery arc
-status: awaiting-author
+status: approved
 review_depth: deep
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: outline/arcs/thread-niall-grief-recovery.md
 candidate_file: planning/candidates/threads/thread-niall-grief-recovery.md
 related_entity: char-niall
@@ -27,7 +27,7 @@ He is not only Maya's terrifying father or Rezin's apex magus. He is a man prese
 The useful book-level movement is:
 
 - from grief, rigidity, isolation, and self-proving
-- toward accepting help, living with Maya and Selwin, and protecting the living rather than only preserving Alara through control
+- toward accepting help, living with Maya and Selwin, protecting the living, and committing action toward what he still has rather than only preserving Alara through control
 
 ## Source-Backed Information
 
@@ -107,7 +107,7 @@ Elric's plans exploit Niall's grief and fear of fate/Skein work, but exact Elric
 - Alara gave Niall's reform ambitions spiritual/moral shape; her apparent death twisted those ambitions into control and dominance.
 - Niall starts the book trying to preserve Alara's memory and Rezin safety through command, fear, and the belief that he must still stand alone.
 - Niall's power has been waning before Book 1, but he hides this and Maya does not understand the full truth during key political moments.
-- Niall's arc should move toward accepting help, living with Maya and Selwin, and protecting living people rather than only preserving the dead through control.
+- Niall's arc should move toward accepting help, living with Maya and Selwin, protecting living people, and committing action toward what he still has rather than only preserving the dead through control.
 - Niall's subconscious blame of Selwin remains accepted but not conscious.
 - Niall's endgame recovery should involve accepting help from Maya and, structurally, joining Maya/Davian against Vorren; exact mechanics and choreography remain deferred.
 
@@ -150,3 +150,10 @@ The outline can use Niall's emotional direction without resolving silver-conduit
 2. Should the endgame direction remain that Niall's recovery involves accepting help from Maya and structurally joining Maya/Davian against Vorren, with exact mechanics/choreography deferred?
 3. Should Niall's subconscious blame of Selwin remain accepted but not conscious unless later explicitly approved?
 4. Should conduit/Heart/lightning mechanics, Alara death/higher-plane mechanics, Niall codex use, experiential brine imagery, and exact sword/Paradox beats remain candidate/deferred rather than blocking outline readiness?
+
+## Author Responses
+
+1. Yes.
+2. Yes, and also focusing on committed action toward the things that he still does have, Maya and Selwin, instead of being so focused on the past and things he cannot change.
+3. Yes.
+4. Yes.

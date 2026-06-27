@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: thread-niall-grief-recovery
-- Latest completed entity: char-kelyra
+- Active or paused entity ID: none
+- Latest completed entity: thread-niall-grief-recovery
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: clear Kelyra revisit`
-- Working tree expected to be clean: yes; `thread-niall-grief-recovery` review packet is committed and awaiting author input
+- Latest relevant commit message: `review: prepare Niall grief arc packet`
+- Working tree expected to be clean: no; approved `thread-niall-grief-recovery` finalization is being recorded
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-kelyra` was cleared from `needs-revisit`, committed, and pushed. `thread-niall-grief-recovery` has been opened with a full author review packet.
+`thread-niall-grief-recovery` was approved by the author and is being finalized into accepted and candidate arc files.
 
 ## Next action
 
-Resolve the required author decisions in `reviews/entities/threads/thread-niall-grief-recovery.md`, then finalize the accepted and candidate Niall arc files if approved.
+Validate, commit, and push the approved `thread-niall-grief-recovery` finalization. Then open the next remaining `needs-revisit` item, `thread-davian-identity-guilt`.
 
 ## Awaiting author input
 
-Awaiting author input on `thread-niall-grief-recovery`. The review packet and summary/questions have been printed for audit.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 
@@ -96,6 +96,10 @@ Awaiting author input on `thread-niall-grief-recovery`. The review packet and su
 - reports/consistency/2026-06-27-secondary-characters-tail-block.md
 - reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
 - decisions/0069-kelyra-revisit-clearance.md
+- reviews/entities/threads/thread-niall-grief-recovery.md
+- outline/arcs/thread-niall-grief-recovery.md
+- planning/candidates/threads/thread-niall-grief-recovery.md
+- decisions/0070-niall-grief-recovery-committed-action.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md

@@ -3,7 +3,9 @@ id: char-niall
 entity_type: character
 display_name: Niall Rezin
 status: approved
-last_reviewed: 2026-06-23
+review_depth: deep
+outline_ready: yes-with-uncertainties
+last_reviewed: 2026-06-27
 review_packet: reviews/entities/characters/char-niall.md
 candidate_file: planning/candidates/characters/char-niall.md
 arc_file: outline/arcs/thread-niall-grief-recovery.md
@@ -23,7 +25,7 @@ Niall loves Maya and protects his family, but his love is expressed through comm
 
 His unresolved grief over Alara is a core wound and core driver of his interactions throughout the book. In the prologue, Maya stops him after he cuts down retreating soldiers, and he briefly mistakes her for Alara. This grief state should not be treated as incidental; it affects his command decisions, his emotional availability, his perfectionism, and his relationship with Maya.
 
-Niall is rigid, controlled, and deeply invested in not appearing weak. Planning material frames part of his arc around moving from grief, rigidity, and needing to prove he can still stand alone toward accepting help and protecting the living people he values.
+Niall is rigid, controlled, and deeply invested in not appearing weak. His approved arc moves from grief, rigidity, and needing to prove he can still stand alone toward accepting help, protecting the living people he values, and committing action toward what he still has, especially Maya and Selwin.
 
 His power has been slowly declining before the book, but this is not public knowledge. Maya does not know the real degree of this decline during the Spire provocation.
 
