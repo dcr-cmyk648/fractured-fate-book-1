@@ -11,14 +11,14 @@ Last updated: 2026-06-27
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `revision: review current draft maps through Chapter 24`
-- Working tree expected to be clean: yes, after the `d1-ch-25` current-draft map packet is committed and pushed
+- Working tree expected to be clean: yes, after the approved `d1-ch-25` current-draft map is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 0
+- Approved current-draft maps since last chapter-map consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-25` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Maya/Davian social-afterglow, public-class-boundary, Selwin exposure, and Archeon-gauntlet analysis: Maya tries to enter ordinary contractor life after Chapter 24's charged training, sees Davian protect her and Selwin reflexively, and then pivots into an Archeon technology/Shroud-theory investigation.
+`d1-ch-25` has been approved by the author as a current-draft chapter-map packet. The approved correction says Davian likely grabs an ordinary table object such as a spoon during the tray-crash reflex because he would not be carrying Antithesis around here; Maya finds the reflex endearing.
 
 ## Next action
 
-Present the `d1-ch-25` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-26`.
+Validate, commit, and push the approved `d1-ch-25` current-draft map. Then prepare the `d1-ch-26` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-25.md`.
+None.
 
 ## Workflow policy note
 

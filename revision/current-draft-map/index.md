@@ -46,7 +46,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 | d1-ch-22 | Chapter 22 | 10617-11622 | [d1-ch-22.md](d1-ch-22.md) | approved |
 | d1-ch-23 | Chapter 23 | 11626-12283 | [d1-ch-23.md](d1-ch-23.md) | approved |
 | d1-ch-24 | Chapter 24 | 12287-12757 | [d1-ch-24.md](d1-ch-24.md) | approved |
-| d1-ch-25 | Chapter 25 | 12761-13366 | [d1-ch-25.md](d1-ch-25.md) | awaiting-author |
+| d1-ch-25 | Chapter 25 | 12761-13366 | [d1-ch-25.md](d1-ch-25.md) | approved |
 | d1-ch-26 | Chapter 26 | 13370-13870 | pending | discovered |
 | d1-ch-27 | Chapter 27 | 13874-14512 | pending | discovered |
 | d1-ch-28 | Chapter 28 | 14516-16284 | pending | discovered |
@@ -63,7 +63,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 
 Current packet awaiting author review:
 
-- `d1-ch-25`
+- none
 
 Next mapping unit after `d1-ch-25` approval:
 
