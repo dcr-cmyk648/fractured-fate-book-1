@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: event-harbinger-raid
 - Latest relevant commit: HEAD
-- Latest relevant commit message: pending commit for `event-harbinger-raid`
-- Working tree expected to be clean: no; `event-harbinger-raid` finalization is in progress
+- Latest relevant commit message: `bible: approve Harbinger betrayal event`
+- Working tree expected to be clean: yes
 - Remote synchronized: yes
 
 ## Block status
@@ -25,15 +25,15 @@ Last updated: 2026-06-27
 
 ## Last completed work
 
-`event-harbinger-raid` was approved by the author and is being finalized.
+`event-harbinger-raid` was approved, committed, and pushed.
 
 ## Current work
 
-`event-harbinger-raid` approved content has been applied to the story bible, candidate material, decision records, and direct dependents.
+No entity is currently open. Narrative-thread/event block consistency review is due before opening the next queued entity.
 
 ## Next action
 
-Validate, commit, and push `event-harbinger-raid`; then run the due narrative-thread/event block consistency review before opening the next queued entity.
+Run the due narrative-thread/event block consistency review before opening the next queued entity.
 
 ## Awaiting author input
 
