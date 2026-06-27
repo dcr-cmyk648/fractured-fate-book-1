@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 27 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-28` current-draft map packet is prepared, committed, and pushed
+- Latest relevant commit message: `revision: prepare Chapter 28 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-28` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-27` has been approved as a current-draft chapter map. The map records Evana's Shade accusation as opportunistic dishonesty that can erase Caius's actual culpability, preserves Maya's misreading of Niall's restraint as distrust, and sharpens Davian/Arrek's post-breakdown arrival so Maya is near collapse when he appears suddenly, possibly through Ink Pact speed from a later reader understanding.
+`d1-ch-28` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as the kiss rupture, family-pressure recommitment, fateweaving escalation, Harvick confrontation, Heart theft, and immediate betrayal-reveal sequence. It marks several mechanics for later architecture/consistency work, including Ink/Heart/Antithesis interactions, Niall's silver conduit mechanics, Harvick's injury/revival, and the density of Maya's Skein visions.
 
 ## Next action
 
-Prepare the `d1-ch-28` current-draft map packet from `imports/normalized/melissa-copy.md` lines 14516-16284, validate, commit, push, and present the author-review summary with questions last.
+Present the `d1-ch-28` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-29`.
 
 ## Awaiting author input
 
-None. Next author input should be for the `d1-ch-28` current-draft map packet after it is prepared.
+Author review of `revision/current-draft-map/d1-ch-28.md`.
 
 ## Workflow policy note
 
