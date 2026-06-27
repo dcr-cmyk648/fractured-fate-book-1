@@ -7,17 +7,17 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: none
+- Active or paused entity ID: thread-kelyra-archeon-recovery
 - Latest completed entity: thread-demi-human-mercenary-forces
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `review: prepare demi-human mercenary thread packet`
-- Working tree expected to be clean: no; mercenary thread approval files are being finalized
+- Working tree expected to be clean: no; `thread-kelyra-archeon-recovery` review packet is awaiting author review
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
-- Block scope: demi-human mercenary forces and death-payment economy
+- Block scope: Kelyra Archeon trauma and family-protection arc
 - Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
 - Consistency review due: no
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`thread-demi-human-mercenary-forces` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
+`thread-demi-human-mercenary-forces` was approved, committed, and pushed. `thread-kelyra-archeon-recovery` has been opened with a deep review packet to resolve its needs-revisit status.
 
 ## Next action
 
-Validate, commit, and push the approved `thread-demi-human-mercenary-forces` record. Then continue to the next queued or needs-revisit entity according to `ENTITY_INDEX.md`.
+Resolve the author decisions in `reviews/entities/threads/thread-kelyra-archeon-recovery.md`, then finalize the revised accepted arc record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author answers for `thread-kelyra-archeon-recovery`.
 
 ## Workflow policy note
 
@@ -84,6 +84,11 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - decisions/index.md
 - AUTHORING.md
 - reviews/entities/threads/thread-demi-human-mercenary-forces.md
+- reviews/entities/threads/thread-kelyra-archeon-recovery.md
+- bible/characters/char-kelyra.md
+- bible/characters/char-serathis.md
+- bible/organizations/org-archeon.md
+- bible/events/event-harbinger-raid.md
 - bible/cultures/culture-demi-human-peoples.md
 - bible/characters/char-niall.md
 - outline/arcs/thread-high-clade-politics.md
