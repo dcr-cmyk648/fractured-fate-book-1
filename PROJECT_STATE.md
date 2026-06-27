@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: review current draft maps through Chapter 24`
-- Working tree expected to be clean: yes, after the approved `d1-ch-25` current-draft map is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 25 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-26` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-25` has been approved by the author as a current-draft chapter-map packet. The approved correction says Davian likely grabs an ordinary table object such as a spoon during the tray-crash reflex because he would not be carrying Antithesis around here; Maya finds the reflex endearing.
+`d1-ch-26` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Davian Shroud/Ink destabilization and Treasury-access discovery: Davian trains with Selwin, accidentally reaches a possible weak Shroud/Ink-protection state, spirals around identity/Maya/Kelyra/Antithesis, then works the Treasury sphere with Tanelle and learns the surface lattice appears designed to hold energy in rather than push it out.
 
 ## Next action
 
-Validate, commit, and push the approved `d1-ch-25` current-draft map. Then prepare the `d1-ch-26` current-draft map packet.
+Present the `d1-ch-26` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-27`.
 
 ## Awaiting author input
 
-None.
+Author review of `revision/current-draft-map/d1-ch-26.md`.
 
 ## Workflow policy note
 
@@ -86,7 +86,7 @@ None.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-25.md
+- revision/current-draft-map/d1-ch-26.md
 - reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
