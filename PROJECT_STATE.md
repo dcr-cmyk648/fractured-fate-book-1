@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 8 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-09` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 9 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-09` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-09` has been prepared as a current-draft map packet. It covers Maya opening Alara's journal, experiencing the first Alara battlefield memory, pressing Niall about Alara, using Erynn as a grounding reality check, and briefing the zänwright supervisors on Treasury/vault work rules.
+`d1-ch-09` was approved as an accurate current-draft map. Author feedback refined the Alara-journal trap: the key inscription should not be too obviously suspicious/corrupted, but should feel somewhat odd or cued enough that a later reread makes sense. The journal trap is dangerous because it twists the true "purpose beyond politics and perfection" into an Instagram-filter version of memory that encourages Maya to become more focused on perfection, pressure, and impossible self-expectation.
 
 ## Next action
 
-Present the `d1-ch-09` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-10`.
+Finalize, validate, commit, and push the `d1-ch-09` current-draft map approval, then prepare and present the `d1-ch-10` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of the `d1-ch-09` current-draft map packet.
+None until the `d1-ch-10` current-draft map packet is prepared.
 
 ## Workflow policy note
 
