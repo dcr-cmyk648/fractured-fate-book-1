@@ -6,19 +6,19 @@ Last updated: 2026-06-27
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: cultures-world-systems
-- Active or paused entity ID: none
+- Current block: magic-systems
+- Active or paused entity ID: magic-convergence-heat-transfer
 - Latest completed entity: culture-demi-human-peoples
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `app: refresh review data for story bible updates`
-- Working tree expected to be clean: no; `culture-demi-human-peoples` finalization is in progress
+- Latest relevant commit message: `bible: approve demi-human lineage structure`
+- Working tree expected to be clean: no; `magic-convergence-heat-transfer` is awaiting author review
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: cultures-world-systems
-- Block scope: broader demi-human peoples and related social/world systems
-- Approved entities since last consistency review: 1
+- Current block: magic-systems
+- Block scope: Convergence heat transfer and related Naeroth/Maya magic constraints
+- Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review was committed and pushed. `culture-demi-human-peoples` author decisions were resolved and finalization is in progress.
+`culture-demi-human-peoples` was approved, committed, and pushed. `magic-convergence-heat-transfer` has been opened with a standard-depth review packet.
 
 ## Next action
 
-Validate, commit, and push `culture-demi-human-peoples`, then continue to the next queued story-bible entity according to `WORKFLOW.md`.
+Resolve the author decisions in `reviews/entities/magic/magic-convergence-heat-transfer.md`, then finalize the accepted magic record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-None.
+Awaiting author answers for `magic-convergence-heat-transfer`.
 
 ## Workflow policy note
 
