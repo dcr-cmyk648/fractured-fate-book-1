@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 10 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-11` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 11 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-11` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-11` has been prepared as a current-draft map packet. It covers Maya processing Davian's charged stare, returning to Alara's journal for the first Alara/Niall confrontation memory, asking Erynn what a man's stare/glare means, and receiving Caius Drakhal's courtship letter through Aldira/Alden.
+`d1-ch-11` was approved as an accurate current-draft map. Author feedback added that Maya has little to no prior romantic experience and is generally kept at arms-length socially, politically, and to some extent literally because of her Shroud. After Presentation, people increasingly treat her as far above them and as an idealized High Clade object. Davian's lack of obeisance is intrinsically interesting to her because it raises the possibility of being seen as an actual person rather than only as a High Clade magus.
 
 ## Next action
 
-Present the `d1-ch-11` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-12`.
+Finalize, validate, commit, and push the `d1-ch-11` current-draft map approval, then prepare and present the `d1-ch-12` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of the `d1-ch-11` current-draft map packet.
+None until the `d1-ch-12` current-draft map packet is prepared.
 
 ## Workflow policy note
 
