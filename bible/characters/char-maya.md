@@ -126,6 +126,8 @@ In Chapter 30, Maya experiences Fateweaving/Skein perception as bright threads c
 
 During the accepted Heart theft event, Maya initially tries to read the Treasury disaster as an accident or rescue. She realizes Davian stole the Heart, accurately accuses him of sustained choice and lying, stops him from killing Niall, chases him, overchannels, and collapses. This event is a major rupture in the Maya/Davian trust arc because the betrayal required repeated deception, not only one panicked action.
 
+Maya's first-combat horror during the opening attack should remain tied to the mercenary/death-money thread. She kills attacking forces who cannot defend themselves from her, but she is not as instantly efficient as Niall. The attackers' unusual persistence is partly caused by the expensive disposable shock-troop layer, though Maya does not know this in the moment.
+
 Maya is still developing as a fateweaver. In Book 1 she can perceive threads, follow a path through an object, alter spatial access in limited circumstances, glimpse branches, and eventually enter or tear the Skein to resurrect Davian. She should not yet be treated as someone who can freely rewrite fate.
 
 Accepted future object direction: Maya names and designs Paradox, the normal sword Zirene makes from ruined Antithesis at the end of Book 1.
@@ -185,6 +187,8 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
+- Decision: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 
 ## Provenance
 

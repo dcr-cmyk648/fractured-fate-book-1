@@ -7,18 +7,18 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: thread-demi-human-mercenary-forces
-- Latest completed entity: magic-convergence-heat-transfer
+- Active or paused entity ID: none
+- Latest completed entity: thread-demi-human-mercenary-forces
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Convergence heat transfer model`
-- Working tree expected to be clean: no; `thread-demi-human-mercenary-forces` review packet is awaiting author review
+- Latest relevant commit message: `review: prepare demi-human mercenary thread packet`
+- Working tree expected to be clean: no; mercenary thread approval files are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: demi-human mercenary forces and death-payment economy
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-convergence-magic-block.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`magic-convergence-heat-transfer` was approved, committed, pushed, and checked through a compact category-shift consistency review. `thread-demi-human-mercenary-forces` has been opened with a standard-depth review packet.
+`thread-demi-human-mercenary-forces` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
 
 ## Next action
 
-Resolve the author decisions in `reviews/entities/threads/thread-demi-human-mercenary-forces.md`, then finalize the accepted thread record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
+Validate, commit, and push the approved `thread-demi-human-mercenary-forces` record. Then continue to the next queued or needs-revisit entity according to `ENTITY_INDEX.md`.
 
 ## Awaiting author input
 
-Awaiting author answers for `thread-demi-human-mercenary-forces`.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 

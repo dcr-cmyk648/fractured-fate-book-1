@@ -87,7 +87,9 @@ Mercenaries are often desperate poor people who accept lethal risk in exchange f
 
 This matters morally. Mercenaries can be attackers and also exploited poor people. Threatening a wounded mercenary with permanent crippling can be worse than death in a death-money economy because it leaves the person alive but unable to support their family.
 
-Detailed military organization, contract terms, and death-payment economics belong to `thread-demi-human-mercenary-forces`.
+The approved mercenary thread accepts that demi-human-descended people are overrepresented in these forces, while poor humans also serve. The opening Drakhal-backed attack includes both disposable shock troops and more experienced mercenaries or coordinators.
+
+Detailed military organization, contract terms, and death-payment economics belong to [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md).
 
 ## Continuity Constraints
 
@@ -109,12 +111,13 @@ Detailed military organization, contract terms, and death-payment economics belo
 - Related character: [Alara](../characters/char-alara.md)
 - Related character: [Maya Rezin](../characters/char-maya.md)
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
-- Related arc/thread: `thread-demi-human-mercenary-forces`
+- Related arc/thread: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related magic: [Convergence heat transfer](../magic/magic-convergence-heat-transfer.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 
 ## Canonical Uncertainties
 

@@ -109,6 +109,8 @@ Planning material also frames Niall's public/strategic explanations as sometimes
 
 Do not use simple moral labels for Niall's battlefield killing of retreating enemies. The accepted framing is neutral event language: he kills retreating enemies after they have broken. In this world, battle actions may remain morally gray when tactically sound and in the context of war, especially because mercenary armies often include people without other options who sign up in exchange for death money paid to their families.
 
+In the opening attack, Niall's arrival is qualitatively different from Maya's first-combat killing. Maya takes time to become deadly at scale, and the unusually expensive shock-troop layer keeps the attackers persistent. When Niall appears and begins scything down soldiers, the force breaks almost immediately because of carnage, fear of Niall, and the more experienced soldiers' desire to survive once the disposable layer is stripped away.
+
 ## Intended Arc Links
 
 - Approved arc seed: [thread-niall-grief-recovery](../../outline/arcs/thread-niall-grief-recovery.md)
@@ -145,6 +147,8 @@ Do not use simple moral labels for Niall's battlefield killing of retreating ene
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
+- Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 
 ## Canonical Uncertainties
 

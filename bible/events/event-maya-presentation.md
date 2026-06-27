@@ -24,6 +24,8 @@ The event takes place at the Spire / Central Spire in its accepted open-air amph
 
 Drakhal coordinates the opening attack to test Niall's power and to test or possibly kill Maya while she is still unPresented.
 
+The attack force is unusually expensive and includes both disposable shock troops and more experienced mercenaries or coordinators. Maya does not know this structure during the fight, but it helps explain why the attackers persist under her first-combat killing and why the force breaks almost immediately when Niall appears.
+
 After the attack, Aldira/Alden reports insufficient-but-real evidence connecting the attack to Drakhal field agents. The evidence is not enough for a public accusation, but it gives Rezin a meaningful private read of the situation.
 
 Maya proceeds to Presentation. All six High Clades are represented, and they collectively witness and acknowledge her as a Presented Rezin heir/magus.
@@ -130,7 +132,9 @@ The approved material gives the future outline a durable event function and poli
 - Related location: [Spire / central amphitheater](../locations/loc-spire.md)
 - Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related arc: [High Clade politics and Archeon conflict](../../outline/arcs/thread-high-clade-politics.md)
+- Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 
 ## Provenance
 

@@ -2,14 +2,28 @@
 id: thread-demi-human-mercenary-forces
 entity_type: narrative-thread
 display_name: Demi-human mercenary forces and death payments
-status: awaiting-author
+status: approved
 review_depth: standard
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: outline/arcs/thread-demi-human-mercenary-forces.md
 candidate_file: planning/candidates/threads/thread-demi-human-mercenary-forces.md
 ---
 
 # Demi-Human Mercenary Forces and Death Payments Review Packet
+
+## Current Author Decisions
+
+Approved on 2026-06-27:
+
+- Mercenaries are often desperate poor people accepting lethal risk for family death payments, while still being real attackers and tools of High Clade politics.
+- Death money includes the grim logic that dying can help a family more than surviving crippled and unable to work.
+- For the opening attack, Drakhal likely spends a great deal of money to buy extra disposable troops.
+- The attack force includes more experienced long-term mercenaries or coordinators who want to avoid casualties, plus disposable shock troops who are not really trained soldiers and sign up primarily for death money.
+- Maya's casualties are not as efficient as Niall's would be because it is her first real combat and she takes time to get the hang of killing at that scale.
+- The attackers remain unusually persistent under Maya, though Maya does not know why in the moment.
+- When Niall appears and begins scything down soldiers, the force breaks almost immediately because of carnage, fear of Niall, and the shock-troop layer giving way to more experienced "real" soldiers.
+- Demi-humans are overrepresented in the troops, but poor humans are also present; the force is not all demi-human.
+- Exact contract terms, force composition, named mercenaries, and Harvick wall-dialogue execution remain candidate/deferred.
 
 ## Review Depth
 
@@ -140,10 +154,6 @@ Exact contracts, force composition, lineages, and scene execution can remain can
 - Add a decision record under `decisions/`.
 - Update direct links in Niall, Maya, High Clade politics, Maya Presentation, demi-human peoples, and related queue items where straightforward.
 
-## Required Decisions
+## Decision Disposition
 
-1. Should the accepted core be that mercenaries are often desperate poor people accepting lethal risk for family death payments, while still being real attackers and tools of High Clade politics?
-2. Should death money include the grim logic that dying can help a family more than surviving crippled and unable to work?
-3. Should the opening Drakhal-backed attack use mercenary forces who expect losses, avoid prolonged direct exposure to magi, and try to pull back/redirect once a major magus arrives?
-4. Should demi-human involvement be accepted at high level as common but not exclusive: Durnai and other marginalized lineages can be overrepresented in mercenary/military roles, but the force is not "all demi-humans"?
-5. Should exact contract terms, force composition, named mercenaries, and Harvick wall-dialogue execution remain candidate/deferred for chapter architecture?
+All required decisions were resolved by author feedback on 2026-06-27. Accepted material is stored in `outline/arcs/thread-demi-human-mercenary-forces.md`; deferred and optional material is stored in `planning/candidates/threads/thread-demi-human-mercenary-forces.md`.

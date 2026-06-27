@@ -22,6 +22,8 @@ Niall's power has been slowly declining before the book, but this is not public 
 
 Drakhal coordinates an expensive attack at the start of the book to test Niall's powers and test or possibly kill Maya while she is still unPresented. Maya fights off the attack on the wall and then proceeds to Presentation. Without realizing it, she presents herself in the same basic political mode as Niall: do not cross Rezin or Rezin will kill you.
 
+The attack is expensive in part because Drakhal likely buys extra disposable troops layered with more experienced mercenaries or coordinators. The disposable shock layer helps explain the attackers' unusual persistence under Maya, while Niall's arrival breaks the force almost immediately through carnage, fear, and the exposure of the more survival-oriented experienced soldiers.
+
 Maya's Presentation gives Drakhal additional backroom ammunition with the other High Clades. They can point to Maya as proof that Rezin will continue to lord power over everyone and might decide to kill another Clade on a whim if allowed to continue unchecked.
 
 Drakhal is already working with the Harbingers in the background to steal the Heart and kill Niall if possible. This is the route by which Davian is pulled into the core High Clade political arc.
@@ -116,6 +118,8 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Related character: [Vorren](../../bible/characters/char-vorren.md)
 - Related character: [Elric Rezin](../../bible/characters/char-elric.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Related arc: [Demi-human mercenary forces and death payments](thread-demi-human-mercenary-forces.md)
+- Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 - Related event: [Maya's Presentation](../../bible/events/event-maya-presentation.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../../bible/events/event-heart-theft.md)
