@@ -6,18 +6,18 @@ Last updated: 2026-06-27
 
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: secondary-characters
-- Active or paused entity ID: none
+- Current block: narrative-threads-final
+- Active or paused entity ID: thread-elric-reality-skein
 - Latest completed entity: thread-davian-identity-guilt
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Davian identity arc packet`
-- Working tree expected to be clean: no; approved `thread-davian-identity-guilt` finalization is being recorded
+- Latest relevant commit message: `bible: approve Davian identity arc`
+- Working tree expected to be clean: yes, after the `thread-elric-reality-skein` review packet checkpoint is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: secondary-characters
-- Block scope: brief supporting-character records for remaining family/Archeon-side figures
+- Current block: narrative-threads-final
+- Block scope: final needs-revisit thread review before story-bible completion checks
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-secondary-characters-tail-block.md
 - Consistency review due: no
@@ -25,19 +25,19 @@ Last updated: 2026-06-27
 
 ## Last completed work
 
-The narrative-thread/event block consistency review was run, committed, and pushed to `beta`.
+`thread-davian-identity-guilt` was approved, finalized, validated, committed, and pushed to `beta`.
 
 ## Current work
 
-`thread-davian-identity-guilt` was approved by the author and is being finalized into accepted and candidate arc files.
+`thread-elric-reality-skein` has been opened as the final remaining `needs-revisit` item. The review packet consolidates the accepted Elric/Skein material and asks the author to approve the structural arc while keeping detailed endgame cosmology and mechanics deferred.
 
 ## Next action
 
-Validate, commit, and push the approved `thread-davian-identity-guilt` finalization. Then open the final remaining `needs-revisit` item, `thread-elric-reality-skein`.
+Wait for the author's answers to the `thread-elric-reality-skein` required decisions. If approved, finalize the thread arc, update indexes and project state, validate, commit, push, and then proceed to the appropriate story-bible completion / consistency gate rather than starting a new entity automatically.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Author input is pending on `reviews/entities/threads/thread-elric-reality-skein.md`.
 
 ## Workflow policy note
 
@@ -83,79 +83,18 @@ None. Do not stop unless a concrete review packet or phase gate is ready.
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- reviews/entities/threads/thread-demi-human-mercenary-forces.md
-- reviews/entities/threads/thread-kelyra-archeon-recovery.md
-- reviews/entities/characters/char-lirien.md
-- bible/characters/char-lirien.md
-- planning/candidates/characters/char-lirien.md
-- decisions/0067-lirien-brief-family-role-and-spelling.md
-- reviews/entities/characters/char-lethira.md
-- bible/characters/char-lethira.md
-- planning/candidates/characters/char-lethira.md
-- decisions/0068-lethira-archeon-arena-function.md
-- reports/consistency/2026-06-27-secondary-characters-tail-block.md
-- reviews/entities/characters/char-kelyra-revisit-2026-06-27.md
-- decisions/0069-kelyra-revisit-clearance.md
-- reviews/entities/threads/thread-niall-grief-recovery.md
-- outline/arcs/thread-niall-grief-recovery.md
-- planning/candidates/threads/thread-niall-grief-recovery.md
-- decisions/0070-niall-grief-recovery-committed-action.md
-- reviews/entities/threads/thread-davian-identity-guilt.md
-- outline/arcs/thread-davian-identity-guilt.md
-- planning/candidates/threads/thread-davian-identity-guilt.md
-- decisions/0071-davian-identity-guilt-agency.md
-- bible/characters/char-kael.md
-- bible/locations/loc-concord-manor.md
-- bible/organizations/org-concord.md
-- bible/characters/char-kelyra.md
-- bible/characters/char-serathis.md
-- bible/organizations/org-archeon.md
-- bible/events/event-harbinger-raid.md
-- bible/cultures/culture-demi-human-peoples.md
-- bible/characters/char-niall.md
-- outline/arcs/thread-high-clade-politics.md
-- bible/events/event-maya-presentation.md
+- reviews/entities/threads/thread-elric-reality-skein.md
+- outline/arcs/thread-elric-reality-skein.md
+- bible/characters/char-elric.md
+- planning/candidates/characters/char-elric.md
+- bible/magic/magic-fateweaving-skein.md
+- bible/magic/magic-codex-memory.md
+- bible/objects/object-alara-journal.md
+- bible/cultures/culture-creator-sheol.md
+- decisions/0007-elric-rezin-remnant-and-reality-skein-role.md
+- decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md
+- decisions/0062-alara-apparent-death-boundary-and-elric-timing.md
 - CONSISTENCY_QUEUE.md
-- reports/consistency/2026-06-26-secondary-characters-block.md
-- reviews/entities/characters/char-marek.md
-- bible/characters/char-marek.md
-- planning/candidates/characters/char-marek.md
-- decisions/0050-marek-supervisor-role-and-davian-tutoring.md
-- decisions/0051-zan-spelling-convention-correction.md
-- reviews/entities/characters/char-zirene.md
-- bible/characters/char-zirene.md
-- planning/candidates/characters/char-zirene.md
-- decisions/0052-zirene-technical-neutrality-and-device-boundaries.md
-- reviews/entities/characters/char-karra.md
-- bible/characters/char-karra.md
-- planning/candidates/characters/char-karra.md
-- decisions/0053-karra-concord-challenge-and-evacuation-role.md
-- reviews/entities/characters/char-arrek.md
-- bible/characters/char-arrek.md
-- planning/candidates/characters/char-arrek.md
-- decisions/0054-arrek-identity-murder-and-debt-family-context.md
-- reports/consistency/2026-06-26-secondary-characters-block-2.md
-- reports/consistency/2026-06-26-secondary-characters-block-final.md
-- reviews/entities/threads/thread-maya-davian-romance.md
-- reviews/entities/characters/char-selina.md
-- bible/characters/char-selina.md
-- planning/candidates/characters/char-selina.md
-- decisions/0055-selina-death-family-myth-and-object-links.md
-- reviews/entities/characters/char-kael.md
-- bible/characters/char-kael.md
-- planning/candidates/characters/char-kael.md
-- decisions/0056-kael-brief-role-and-davian-selwin-mirror.md
-- bible/characters/char-tanelle.md
-- planning/candidates/characters/char-tanelle.md
-- reviews/entities/characters/char-tanelle.md
-- bible/characters/char-caius-drakhal.md
-- planning/candidates/characters/char-caius-drakhal.md
-- reviews/entities/characters/char-caius-drakhal.md
-- bible/characters/char-aldira.md
-- bible/characters/char-erynn.md
-- bible/characters/char-alara.md
-- bible/characters/char-serathis.md
-- bible/characters/char-vorren.md
 
 ## Later branch recommendation
 
