@@ -10,34 +10,34 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Elric reality arc`
-- Working tree expected to be clean: yes, after the approved `thread-elric-reality-skein` finalization is committed and pushed
+- Latest relevant commit message: `review: story-bible completion gate`
+- Working tree expected to be clean: yes, after the story-bible completion gate packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: story-bible-completion-gate
 - Block scope: full story-bible inventory completion, consistency, dependency, and opportunity review before author approval to open outline work
-- Approved entities since last consistency review: 1
-- Last consistency review: reports/consistency/2026-06-27-secondary-characters-tail-block.md
-- Consistency review due: yes; initial story-bible inventory now appears complete and needs final completion/dependency review
+- Approved entities since last consistency review: 0
+- Last consistency review: reports/consistency/2026-06-27-story-bible-completion-gate.md
+- Consistency review due: no; final story-bible completion gate report is ready for author review
 - Remote synchronized: yes
 
 ## Last completed work
 
-`thread-elric-reality-skein` was approved by the author, finalized into accepted and candidate arc files, and validated.
+`thread-elric-reality-skein` was approved, finalized, validated, committed, and pushed to `beta`.
 
 ## Current work
 
-The approved `thread-elric-reality-skein` finalization records Elric's mostly deterministic interpretation of trauma-fate, the book's anti-trauma-determinism theme, the late `A Cord of Six Strands` frame, and deferred endgame/cosmology mechanics.
+The story-bible completion gate packet has been prepared. It confirms the initial entity inventory is complete enough for author review: 68 approved, 2 deferred, 2 superseded, and no active/unresolved entities.
 
 ## Next action
 
-Commit and push the approved `thread-elric-reality-skein` finalization. Then run the story-bible completion, dependency, consistency, and opportunity review required before asking the author to open the outline phase.
+Wait for author approval to open the outline/chapter phase. If approved, begin current-draft chapter mapping under `REVISION_WORKFLOW.md`; do not begin chapter work before that explicit approval.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete story-bible completion/consistency packet or phase-gate packet is ready.
+Author input is pending on `reports/consistency/2026-06-27-story-bible-completion-gate.md`.
 
 ## Workflow policy note
 
@@ -83,10 +83,9 @@ None. Do not stop unless a concrete story-bible completion/consistency packet or
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- outline/arcs/thread-elric-reality-skein.md
-- planning/candidates/threads/thread-elric-reality-skein.md
-- decisions/0072-elric-reality-skein-arc-trauma-determinism.md
-- reports/consistency/
+- reports/consistency/2026-06-27-story-bible-completion-gate.md
+- REVISION_WORKFLOW.md
+- MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
 
 ## Later branch recommendation

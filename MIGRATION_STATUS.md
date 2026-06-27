@@ -101,7 +101,7 @@ Observed inventory summary from 2026-06-23:
 
 ## Phase 4: Entity-by-Entity Review
 
-Status: in progress
+Status: completed pending author approval to open outline/chapter phase
 
 Current phase notes:
 
@@ -117,6 +117,8 @@ Current phase notes:
 - Adaptive review depth applies going forward: deep, standard, brief/grouped, or deferred review depth should match narrative leverage, continuity risk, and outline usefulness. Previously approved files remain valid and do not need immediate retroactive metadata backfills.
 - The cultures-and-world-systems consistency and opportunity review was completed after the number-system / zän script review.
 - Current audit mode is over-checking: meaningful uncertainty that could affect plot, character, continuity, world logic, magic, chronology, emotional arc, setup/payoff, or the future outline should be checked, preserved, and queued rather than silently assumed away.
+- The initial story-bible inventory now contains no `discovered`, `queued`, `in-review`, `awaiting-author`, or `needs-revisit` entities.
+- The story-bible completion gate report is stored at `reports/consistency/2026-06-27-story-bible-completion-gate.md`.
 
 Gate:
 
@@ -149,7 +151,7 @@ Gate:
 
 ## Phase 5.5: Full Story-Bible Consistency Review
 
-Status: not started
+Status: completed pending author review
 
 Gate:
 
@@ -158,9 +160,16 @@ Gate:
 - Produce the final story-bible consistency report.
 - Do not open outline/chapter work until the author reviews the report and clearly approves opening the outline phase.
 
+Observed completion summary from 2026-06-27:
+
+- Entity inventory status: 68 approved, 2 deferred, 2 superseded, and 0 active/unresolved entities.
+- Final completion gate report: `reports/consistency/2026-06-27-story-bible-completion-gate.md`.
+- Result: complete enough to request author approval to open the outline/chapter phase.
+- Remaining uncertainties are preserved in candidate files and `CONSISTENCY_QUEUE.md`.
+
 ## Phase 6: Current-Draft Chapter Map
 
-Status: not started
+Status: not started; awaiting explicit author approval to open outline/chapter phase
 
 Gate:
 
