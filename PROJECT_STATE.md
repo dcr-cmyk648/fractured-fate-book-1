@@ -5,39 +5,39 @@ Last updated: 2026-06-27
 ## Repository state
 
 - Current branch: beta
-- Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
-- Current block: narrative-threads-final
+- Current migration phase: Phase 6 current-draft chapter map
+- Current block: current-draft-map
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `review: story-bible completion gate`
-- Working tree expected to be clean: yes, after the story-bible completion gate packet is committed and pushed
+- Working tree expected to be clean: yes, after the `d1-prologue` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: story-bible-completion-gate
-- Block scope: full story-bible inventory completion, consistency, dependency, and opportunity review before author approval to open outline work
+- Current block: current-draft-map
+- Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
 - Approved entities since last consistency review: 0
 - Last consistency review: reports/consistency/2026-06-27-story-bible-completion-gate.md
-- Consistency review due: no; final story-bible completion gate report is ready for author review
+- Consistency review due: no; chapter-map block review not yet due
 - Remote synchronized: yes
 
 ## Last completed work
 
-`thread-elric-reality-skein` was approved, finalized, validated, committed, and pushed to `beta`.
+The story-bible completion gate was approved by the author. Current-draft chapter mapping has been opened under `REVISION_WORKFLOW.md`.
 
 ## Current work
 
-The story-bible completion gate packet has been prepared. It confirms the initial entity inventory is complete enough for author review: 68 approved, 2 deferred, 2 superseded, and no active/unresolved entities.
+`d1-prologue` has been prepared as the first current-draft map packet. It describes what is currently written in the Prologue and flags divergences from accepted canon for later chapter architecture/revision work.
 
 ## Next action
 
-Wait for author approval to open the outline/chapter phase. If approved, begin current-draft chapter mapping under `REVISION_WORKFLOW.md`; do not begin chapter work before that explicit approval.
+Wait for author answers on the `d1-prologue` current-draft map packet. After approval, mark the map approved, validate, commit, push, and continue to the next current-draft mapping unit selected by the author.
 
 ## Awaiting author input
 
-Author input is pending on `reports/consistency/2026-06-27-story-bible-completion-gate.md`.
+Author input is pending on `revision/current-draft-map/d1-prologue.md`.
 
 ## Workflow policy note
 
@@ -83,7 +83,8 @@ Author input is pending on `reports/consistency/2026-06-27-story-bible-completio
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- reports/consistency/2026-06-27-story-bible-completion-gate.md
+- revision/current-draft-map/index.md
+- revision/current-draft-map/d1-prologue.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md

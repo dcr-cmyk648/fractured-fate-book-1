@@ -151,7 +151,7 @@ Gate:
 
 ## Phase 5.5: Full Story-Bible Consistency Review
 
-Status: completed pending author review
+Status: completed and author-approved
 
 Gate:
 
@@ -165,11 +165,12 @@ Observed completion summary from 2026-06-27:
 - Entity inventory status: 68 approved, 2 deferred, 2 superseded, and 0 active/unresolved entities.
 - Final completion gate report: `reports/consistency/2026-06-27-story-bible-completion-gate.md`.
 - Result: complete enough to request author approval to open the outline/chapter phase.
+- Author approved opening the outline/chapter phase on 2026-06-27.
 - Remaining uncertainties are preserved in candidate files and `CONSISTENCY_QUEUE.md`.
 
 ## Phase 6: Current-Draft Chapter Map
 
-Status: not started; awaiting explicit author approval to open outline/chapter phase
+Status: started
 
 Gate:
 
