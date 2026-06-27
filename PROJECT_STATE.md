@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 22 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-23` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 23 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-23` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-23` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as the aftermath and interpretive chapter: Maya holds public poise after the coordinated attack, receives Niall/Aldira's political framing, experiences Niall's Lyranth massacre memory through a codex, and pivots into Archeon-mechanics research with Erynn and Harvick.
+`d1-ch-23` was approved with corrections. The approved map identifies the chapter as the aftermath and interpretive chapter: Maya holds public poise after the coordinated attack, receives Niall/Aldira's political framing, experiences Niall's untampered Lyranth massacre memory through Niall's codex, and pivots into Archeon-mechanics research with Erynn and Harvick. Approval corrections accept that Elric distributed all codices but only tampered with Alara's, broadly retain the Lyranth massacre sequence, accept Serathis killing her mentally declining original husband, and require the Archeon / Ink Pact / zän-tech discussion to stay tight and slowly revelatory.
 
 ## Next action
 
-Present the `d1-ch-23` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-24`.
+Finalize, validate, commit, and push the `d1-ch-23` current-draft map approval, then prepare and present the `d1-ch-24` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-23.md`.
+None until the `d1-ch-24` current-draft map packet is prepared.
 
 ## Workflow policy note
 
