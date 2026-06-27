@@ -33,11 +33,11 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Next action
 
-`d1-ch-01` has been prepared as the next current-draft map packet. It describes what is currently written in Chapter 1 and flags divergences/purpose-level issues for later chapter architecture.
+`d1-ch-01` was approved as an accurate descriptive current-draft map. Author feedback added purpose-level direction for colder Niall, heightened suspicion after a magus attacker, Niall's hidden self-blame/waning-power pressure, healing mechanics, Tarran as demi-human, and death-money onboarding.
 
 ## Awaiting author input
 
-Author input is pending on the `d1-ch-01` current-draft map approval.
+None. Do not stop unless a concrete current-draft map packet is ready for author review.
 
 ## Workflow policy note
 
