@@ -38,7 +38,7 @@ The Trial of Dominion is the leadership-challenge mechanism for the Concord and 
 
 Kelyra received an Ink Pact after Selina's death. She used Ink, Archeon-derived ability, and martial prowess to kill the prior Concord leader in a Trial of Dominion and take power.
 
-Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans. Karra's motive combines ambition, fear that Kelyra is spiraling into dangerous unrewarding missions, and intentional Harbinger manipulation.
+Karra challenges Kelyra to the Trial of Dominion. This is also part of the Harbinger punishment for failing to kill Niall and part of one of Elric's plans. Karra's motive combines ambition, fear that Kelyra is spiraling into dangerous unrewarding missions, and intentional Harbinger manipulation. The challenge is legitimate enough under Concord custom to create post-Trial obedience, but rigged by Harbinger/Elric intervention.
 
 Detailed Trial of Dominion rules, preparation, fight choreography, and Karra's full role belong to later outline/revision and character reviews.
 
@@ -95,13 +95,14 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Davian Mask Zan Marks and Shade Symbolism](../../decisions/0035-davian-mask-zan-marks-and-shade-symbolism.md)
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 
 ## Canonical Uncertainties
 
-- Exact detailed Trial of Dominion rules remain for later review.
+- Exact detailed Trial of Dominion rules and the current chapter's Ink-running-out / transfer-to-Davian explanation remain for later review.
 - Exact Karra post-Book-1 role remains candidate material in `char-karra`.
 - Exact Masked Clade social structure beyond the Concord remains for broader culture or organization review.
 - Exact manuscript cleanup of older zän terminology remains for later revision work.

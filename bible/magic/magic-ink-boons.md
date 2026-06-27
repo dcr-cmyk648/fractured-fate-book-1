@@ -88,7 +88,7 @@ Kelyra received an Ink Pact that helped her kill the prior Concord leader in a T
 
 Karra:
 
-Karra receives an Ink Pact from the Harbinger leader to challenge Kelyra. Karra has deeper forced-restructuring healing, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing.
+Karra receives an Ink Pact from the Harbinger leader to challenge Kelyra. Karra has deeper forced-restructuring healing, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing. The current chapter's Ink-running-out / transfer-to-Davian explanation for Kelyra's defeat remains candidate material.
 
 Serathis and Archeon:
 
@@ -146,11 +146,12 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Provenance
 
 - `imports/normalized/melissa-copy.md:984-1265`: current manuscript Ink ritual, older Boon terminology, and now-superseded Antithesis transformation.
-- `imports/normalized/melissa-copy.md:16580-16895`: Kelyra/Karra Ink, Trial of Dominion, speed, depletion, and healing evidence.
+- `imports/normalized/melissa-copy.md:16580-16895`: Kelyra/Karra Ink, Trial of Dominion, speed, candidate depletion/transfer language, and accepted healing evidence.
 - `imports/normalized/melissa-copy.md:19180-19490`: Elric Ink remnant, Davian's pressure toward killing Niall, and Ink information.
 - `imports/normalized/melissa-copy.md:20180-20460`: Davian's aura admission, Treasury backlash, and healing statement.
 - `imports/normalized/melissa-copy.md:20940-21155`: Kelyra's old Ink reaction near Serathis.

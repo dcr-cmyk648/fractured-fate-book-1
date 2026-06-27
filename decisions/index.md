@@ -66,3 +66,4 @@ Do not use this file as a dump for unresolved questions.
 | High Clade Political Sequence and Archeon Trap | 2026-06-27 | accepted; stored in approved `thread-high-clade-politics` arc seed | [0058-high-clade-politics-archeon-trap.md](0058-high-clade-politics-archeon-trap.md) |
 | Maya Presentation Event Architecture | 2026-06-27 | accepted; stored in approved `event-maya-presentation` record | [0059-maya-presentation-event-architecture.md](0059-maya-presentation-event-architecture.md) |
 | Heart Theft Event Architecture | 2026-06-27 | accepted; stored in approved `event-heart-theft` record | [0060-heart-theft-event-architecture.md](0060-heart-theft-event-architecture.md) |
+| Harbinger Betrayal, Trial, and Kelyra Capture | 2026-06-27 | accepted; stored in approved `event-harbinger-raid` record | [0061-harbinger-betrayal-trial-and-kelyra-capture.md](0061-harbinger-betrayal-trial-and-kelyra-capture.md) |

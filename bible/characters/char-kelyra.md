@@ -21,7 +21,7 @@ Kelyra became the Concord's de facto primary leader after killing the prior Conc
 
 The Harbingers' Heart-theft pressure now targets Kelyra's position as Concord leader. Because Kelyra gained power through an Ink Pact and Trial of Dominion, the implied threat is that someone else could be granted comparable power to challenge her.
 
-Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan. Karra's motive is a mix of ambition, fear that Kelyra is spiraling into dangerous and unrewarding revenge/destruction missions, and intentional Harbinger feeding of both of those vulnerabilities.
+Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan. Karra's motive is a mix of ambition, fear that Kelyra is spiraling into dangerous and unrewarding revenge/destruction missions, and intentional Harbinger feeding of both of those vulnerabilities. The challenge is legitimate enough under Concord custom to matter, but it is also rigged by Harbinger/Elric manipulation.
 
 ## Personality and Psychological Patterns
 
@@ -95,13 +95,15 @@ In Chapter 3, Kelyra manages the family space, sends Kael and Lirien away from a
 
 She participates in planning the Heart theft, understands the Registry's aura/name restrictions, and explains the passive-mode requirement and active-mode danger.
 
-The accepted Heart theft event boundary includes Kelyra receiving the Heart from Davian after he returns broken and Ink-healing, then taking the Heart to the Harbingers that night seeking promised power and safety. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The Karra penalty / Trial of Dominion sequence remains a later event.
+The accepted Heart theft event boundary includes Kelyra receiving the Heart from Davian after he returns broken and Ink-healing, then taking the Heart to the Harbingers that night seeking promised power and safety. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The later Harbinger betrayal / Trial of Dominion event owns the refusal of the bargain, Karra's rigged challenge, Serathis's appearance, and Kelyra's capture.
 
 Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zän defenses, and the body-based foundations she taught Davian.
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
 
 Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforehand, gives advice, and supports her, but does not participate.
+
+Kelyra's defeat in that event should preserve her competence: she effectively wins the surface fight against Karra, but loses the hidden/rigged system after Karra's deeper Ink healing and Harbinger/Elric-weighted conditions make victory essentially impossible.
 
 ## Intended Arc Links
 
@@ -134,7 +136,9 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 
@@ -145,7 +149,7 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - Lethira's parentage and exact relationship to Kelyra remain unresolved.
 - Exact late-book capture, Ink/Archeon cooption, rescue, injury, or leadership consequences remain planning material.
 - Exact Selina/Vorren death choreography and when Davian learns the truth remain unresolved.
-- Exact Concord leadership chronology, prior-leader death, and detailed Trial of Dominion execution need a later consistency pass.
+- Exact Concord leadership chronology, prior-leader death, detailed Trial of Dominion execution, and the final status of the chapter's current Ink-running-out / transfer-to-Davian explanation need a later consistency pass.
 
 ## Provenance
 
@@ -166,3 +170,4 @@ Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforeh
 - `decisions/0006-kelyra-archeon-lineage-shroud-and-family.md`
 - `decisions/0010-jalen-kelyra-concord-role-swap.md`
 - `reviews/entities/events/event-heart-theft.md`: accepted Heart delivery boundary and deferral of Karra penalty / Trial of Dominion sequence.
+- `reviews/entities/events/event-harbinger-raid.md`: accepted Harbinger betrayal / Trial of Dominion event boundary and Kelyra capture framing.

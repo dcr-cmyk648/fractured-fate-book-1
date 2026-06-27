@@ -50,11 +50,11 @@ The hidden truth is that Elric uses the Harbingers as an operational tool for hi
 
 The Harbingers pressure Davian's family and the Concord into the Heart theft. They use Davian as the Shade / Heart thief because Elric sees him as a useful agent of chaos.
 
-The accepted Heart theft event boundary includes Harbinger escalation, Davian volunteering, the Treasury breach, Davian's escape, and Kelyra delivering the Heart to the Harbingers. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The Karra penalty / Trial of Dominion sequence remains a later event.
+The accepted Heart theft event boundary includes Harbinger escalation, Davian volunteering, the Treasury breach, Davian's escape, and Kelyra delivering the Heart to the Harbingers. The Harbinger leader takes the Heart and passes it to the masked figure beside him, accepted elsewhere as Vorren. The later Harbinger betrayal / Trial of Dominion event owns the refusal of the bargain, Karra's challenge, Serathis's appearance, and Kelyra's capture.
 
 For the Rezin-citadel infiltration, Harbingers/Elric exploit Alra's grief after her brother's death and buy her cooperation when she leaves the citadel to tell her family. Alra facilitates the entry of both Davian and the disposable assassin, helps Davian hide Antithesis before his search, and enables Davian's later retrieval of the dagger.
 
-The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan.
+The threat in the Heart-theft setup is now to Kelyra's position as the Concord leader. Kelyra received an Ink Pact and killed the prior Concord leader in a Trial of Dominion to take over. Karra challenges Kelyra to the Trial of Dominion as part of the Harbinger punishment for failing to kill Niall and as part of Elric's plan. The challenge is legitimate enough under Concord custom to matter, while also being rigged by Harbinger/Elric manipulation.
 
 Older manuscript material that frames this as a threat to Jalen's seat is suspect and should be repaired during Concord chronology or manuscript revision work.
 
@@ -88,14 +88,16 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 
 - Exact transfer, failure, depletion, and derivative/later-book Ink Pact mechanics remain unresolved.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
-- Exact detailed Trial of Dominion mechanics remain for `org-concord` and later revision/character reviews.
+- Exact detailed Trial of Dominion mechanics and the current chapter's Ink-running-out / transfer-to-Davian explanation remain for `org-concord`, Ink, and later revision/character reviews.
 - Exact late-book Harbinger / Drakhal / Vorren / Archeon operation sequence remains for later plot and character reviews.
 - Exact Masked Clade scripts, tattoos, signs, and mask customs remain for later culture or organization review.
 

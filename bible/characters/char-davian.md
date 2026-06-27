@@ -161,6 +161,8 @@ In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Hea
 
 Later manuscript material establishes Davian's post-theft exposure, interrogation, and training: he admits the aura theft, describes Subversion, manifests a weak Shroud, trains with Maya/Harvick/Selwin, and tries to make things right while still carrying guilt and defensive anger.
 
+After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and Karra evacuates the compromised Concord manor, Davian is left exposed for the later Archeon manor attack. That later attack is where Davian more clearly recognizes that he had choices earlier, including telling Maya and asking for help.
+
 ## Intended Arc Links
 
 - Approved arc file: [thread-davian-identity-guilt](../../outline/arcs/thread-davian-identity-guilt.md)
@@ -212,7 +214,9 @@ Later manuscript material establishes Davian's post-theft exposure, interrogatio
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 - Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
+- Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 
 ## Canonical Uncertainties
 

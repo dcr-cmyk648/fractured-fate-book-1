@@ -8,32 +8,32 @@ Last updated: 2026-06-27
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
 - Active or paused entity ID: none
-- Latest completed entity: event-heart-theft
+- Latest completed entity: event-harbinger-raid
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Heart theft event`
-- Working tree expected to be clean: yes after approval commit
+- Latest relevant commit message: pending commit for `event-harbinger-raid`
+- Working tree expected to be clean: no; `event-harbinger-raid` finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: narrative-threads
 - Block scope: major narrative threads beginning with Maya / Davian romance and trust arc
-- Approved entities since last consistency review: 4
+- Approved entities since last consistency review: 5
 - Last consistency review: reports/consistency/2026-06-26-secondary-characters-block-final.md
-- Consistency review due: no
+- Consistency review due: yes
 - Remote synchronized: yes
 
 ## Last completed work
 
-`event-heart-theft` was approved and is being finalized for commit.
+`event-harbinger-raid` was approved by the author and is being finalized.
 
 ## Current work
 
-No entity is currently active until the next queued entity is opened after the approval commit.
+`event-harbinger-raid` approved content has been applied to the story bible, candidate material, decision records, and direct dependents.
 
 ## Next action
 
-Validate, commit, and push `event-heart-theft`; then open the next queued entity.
+Validate, commit, and push `event-harbinger-raid`; then run the due narrative-thread/event block consistency review before opening the next queued entity.
 
 ## Awaiting author input
 
