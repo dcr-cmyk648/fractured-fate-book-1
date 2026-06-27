@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: none
+- Active or paused entity ID: thread-niall-grief-recovery
 - Latest completed entity: char-kelyra
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: prepare Kelyra revisit packet`
-- Working tree expected to be clean: no; approved `char-kelyra` revisit clearance is being recorded
+- Latest relevant commit message: `bible: clear Kelyra revisit`
+- Working tree expected to be clean: yes; `thread-niall-grief-recovery` review packet is committed and awaiting author input
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-kelyra` was approved by the author as the durable story-bible owner and is being cleared from `needs-revisit`.
+`char-kelyra` was cleared from `needs-revisit`, committed, and pushed. `thread-niall-grief-recovery` has been opened with a full author review packet.
 
 ## Next action
 
-Validate, commit, and push the approved `char-kelyra` revisit clearance. Then open the next remaining `needs-revisit` item, `thread-niall-grief-recovery`.
+Resolve the required author decisions in `reviews/entities/threads/thread-niall-grief-recovery.md`, then finalize the accepted and candidate Niall arc files if approved.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete review packet or phase gate is ready.
+Awaiting author input on `thread-niall-grief-recovery`. The review packet and summary/questions have been printed for audit.
 
 ## Workflow policy note
 
