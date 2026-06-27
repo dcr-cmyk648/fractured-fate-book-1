@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 6 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-06` current-draft map approval is committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 6 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-07` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-06` was approved as an accurate current-draft map. Author reminded Codex that future chapter-review presentations should print the summary, short list of divergences, and main chapter goals directly in the Codex thread before the approval question.
+`d1-ch-06` was approved, validated, committed, and pushed. Author reminded Codex that future chapter-review presentations should print the summary, short list of divergences, and main chapter goals directly in the Codex thread before the approval question.
 
 ## Next action
 
-Finalize, validate, commit, and push the `d1-ch-06` current-draft map approval, then prepare and present the `d1-ch-07` current-draft map packet.
+Prepare, validate, commit, push, and present the `d1-ch-07` current-draft map packet. The packet should describe Maya's private aftermath to the contractor-hall assassination attempt, Aldira/Alden's Sorevin/Registry investigation, Maya's return to public command, Erynn and Niall's pressure/support contrast, Alra's exposure and exile, and the auratic codex explanation that points Maya back toward Alara's journal.
 
 ## Awaiting author input
 
-None until the `d1-ch-07` current-draft map packet is prepared.
+Awaiting author review of `revision/current-draft-map/d1-ch-07.md`. Required decision: approve the Chapter 7 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
