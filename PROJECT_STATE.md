@@ -7,11 +7,11 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads
-- Active or paused entity ID: none
+- Active or paused entity ID: event-alara-death-war-memory
 - Latest completed entity: event-harbinger-raid
 - Latest relevant commit: HEAD
-- Latest relevant commit message: pending commit for narrative-thread/event consistency review
-- Working tree expected to be clean: no; consistency review finalization is in progress
+- Latest relevant commit message: `app: refresh review data for story bible updates`
+- Working tree expected to be clean: no; `event-alara-death-war-memory` is awaiting author review
 - Remote synchronized: yes
 
 ## Block status
@@ -25,24 +25,25 @@ Last updated: 2026-06-27
 
 ## Last completed work
 
-The narrative-thread/event block consistency review was run after `event-harbinger-raid`.
+The narrative-thread/event block consistency review was run, committed, pushed to `beta`, merged to `main`, and the static app data was regenerated and pushed to `main`. `beta` was fast-forwarded to match `main`.
 
 ## Current work
 
-No entity is currently open. The narrative-thread/event block consistency review passed with documented uncertainties.
+`event-alara-death-war-memory` has a deep review packet prepared and is awaiting author decisions.
 
 ## Next action
 
-Validate, commit, and push the consistency review / workflow policy update; then open the next queued entity.
+Resolve the author decisions in `reviews/entities/events/event-alara-death-war-memory.md`, then finalize the accepted event record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-None.
+Awaiting author answers for `event-alara-death-war-memory`.
 
 ## Workflow policy note
 
 - Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark the entity approved.
 - When waiting for author input, print the useful terminal summary and required author questions last so the author can audit them without opening packet files.
+- Do not stop on an opened entity or source-gathering stub. If author input is needed, the repository must contain a concrete author-review packet, approval packet, or phase-gate packet with the information needed to respond.
 - Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 
 ## Known blockers or risks

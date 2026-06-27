@@ -413,6 +413,10 @@ The author should review substantive content decisions, not routine repository m
 
 When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The final thing printed before waiting for author input must be the concrete numbered questions, so the author can audit and answer them without scrolling past later status text. The author should not have to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 
+Do not stop merely because an entity has been opened, a source-gathering stub exists, or a routine checkpoint has been reached. If Codex is going to wait for author input, the repository must already contain a specific author-review packet, approval packet, or phase-gate packet with the information the author needs to respond. The exception is a major phase checkpoint that explicitly requires author signoff before new work can begin.
+
+If the author leaves and returns, they should have a concrete packet to review rather than needing to ask Codex to generate one.
+
 For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, such as core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
 
 For ordinary reviews, prefer this hierarchy:
@@ -708,7 +712,7 @@ Present:
 
 Then stop only if the questions require real author judgment before the current entity can be finalized.
 
-When real author judgment is needed, set the entity status to `awaiting-author`. Do not write proposed facts into accepted bible files yet, and do not move to another entity until the author answers.
+When real author judgment is needed, set the entity status to `awaiting-author`. Do not write proposed facts into accepted bible files yet, and do not move to another entity until the author answers. Do this only after the packet contains the proposed material, source-backed summary, and concrete author questions needed for the author to respond.
 
 If the review packet does not contain real author questions and only records routine source-gathering status, durable checkpoint state, or unambiguous dependent updates, do not stop at the checkpoint. Continue directly to the next queued entity once validation, commit, push, and handoff state are complete.
 
