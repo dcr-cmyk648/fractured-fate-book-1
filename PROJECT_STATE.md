@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: prepare Chapter 4 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-04` approval and `d1-ch-05` current-draft map packet are committed and pushed
+- Latest relevant commit message: `revision: approve Chapter 4 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-05` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-04` was approved as an accurate descriptive current-draft map. Author feedback emphasized family pressure on Davian from protective and toxic/punitive angles, Kelyra as operational/combat lead, Jalen as logistics, culpability versus trauma-drive, Arrek as a person caught in resentment-breeding systems, and Davian's dissociation linked to emerging near-psychotic Ink Pact symptoms.
+`d1-ch-04` was approved, validated, committed, and pushed. Author feedback emphasized family pressure on Davian from protective and toxic/punitive angles, Kelyra as operational/combat lead, Jalen as logistics, culpability versus trauma-drive, Arrek as a person caught in resentment-breeding systems, and Davian's dissociation linked to emerging near-psychotic Ink Pact symptoms.
 
 ## Next action
 
-Finalize the `d1-ch-04` approval, then prepare and present the `d1-ch-05` current-draft map packet.
+Prepare and present the `d1-ch-05` current-draft map packet. The packet should describe the Maya/Niall Presentation aftermath, Selwin training, and Alara journal discovery chapter accurately and flag divergences around Ironstrider removal, Shroud/Convergence explanation, Alara-not-guiding-Maya, Aldira naming, and journal hiding/cover details.
 
 ## Awaiting author input
 
-None until the `d1-ch-05` current-draft map packet is prepared.
+Awaiting author review of `revision/current-draft-map/d1-ch-05.md`. Required decision: approve the Chapter 5 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
 
 ## Workflow policy note
 
@@ -84,7 +84,7 @@ None until the `d1-ch-05` current-draft map packet is prepared.
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-04.md
+- revision/current-draft-map/d1-ch-05.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
