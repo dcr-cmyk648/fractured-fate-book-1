@@ -22,7 +22,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 |---|---|---:|---|---|
 | d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | pending | later-working-fragment |
 | d1-prologue | Prologue | 228-674 | [d1-prologue.md](d1-prologue.md) | approved |
-| d1-ch-01 | Chapter 1 | 678-923 | pending | discovered |
+| d1-ch-01 | Chapter 1 | 678-923 | [d1-ch-01.md](d1-ch-01.md) | awaiting-author |
 | d1-ch-02 | Chapter 2 | 927-1262 | pending | discovered |
 | d1-ch-03 | Chapter 3 | 1266-1694 | pending | discovered |
 | d1-ch-04 | Chapter 4 | 1698-2141 | pending | discovered |
@@ -63,8 +63,8 @@ Default current-draft mapping order should therefore proceed through the prologu
 
 Current packet awaiting author review:
 
-- `d1-prologue`
-
-Next mapping unit after `d1-prologue` approval:
-
 - `d1-ch-01`
+
+Next mapping unit after `d1-ch-01` approval:
+
+- `d1-ch-02`

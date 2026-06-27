@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `review: story-bible completion gate`
-- Working tree expected to be clean: yes, after the `d1-prologue` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: approve Prologue current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-01` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-prologue` was approved as an accurate descriptive current-draft map, with canon divergences preserved as later chapter-architecture/revision issues. The author added chapter-purpose notes for the Prologue and confirmed that Chapter 1 is the next mapping unit.
+`d1-prologue` was approved, validated, committed, and pushed. The author added chapter-purpose notes for the Prologue and confirmed that Chapter 1 is the next mapping unit.
 
 ## Next action
 
-Validate, commit, and push the approved `d1-prologue` current-draft map. Then prepare the `d1-ch-01` current-draft map packet.
+`d1-ch-01` has been prepared as the next current-draft map packet. It describes what is currently written in Chapter 1 and flags divergences/purpose-level issues for later chapter architecture.
 
 ## Awaiting author input
 
-None. Do not stop unless a concrete current-draft map packet is ready for author review.
+Author input is pending on the `d1-ch-01` current-draft map approval.
 
 ## Workflow policy note
 
@@ -84,7 +84,7 @@ None. Do not stop unless a concrete current-draft map packet is ready for author
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-prologue.md
+- revision/current-draft-map/d1-ch-01.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
