@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 20 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-21` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 21 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-21` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-21` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Maya's fallout from the Caius/Shade incident: debriefing with Aldira, Niall's political disappointment, uncontrolled fate-thread warning of attack, Aldira's respectful support, Erynn's grounding friendship, and the next-morning Maya/Arrek responsibility/perfection exchange.
+`d1-ch-21` was approved as an accurate current-draft map with correction. Elric knows Maya will not immediately command fateweaving, so repeated stress exposure through attacks/crises is part of his hidden strategy to make her capable of manipulating fate. His endgame is to create an unfixable situation, such as Niall or Davian dying, so Maya damages the Skein via resurrection and draws the outer god, repeating the pattern he knows from Alara.
 
 ## Next action
 
-Present the `d1-ch-21` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-22`.
+Finalize, validate, commit, and push the `d1-ch-21` current-draft map approval, then prepare and present the `d1-ch-22` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of `revision/current-draft-map/d1-ch-21.md`.
+None until the `d1-ch-22` current-draft map packet is prepared.
 
 ## Workflow policy note
 
