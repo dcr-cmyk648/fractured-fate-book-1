@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 24 current draft map`
-- Working tree expected to be clean: yes, after the current-draft map consistency review is committed and pushed
+- Latest relevant commit message: `revision: review current draft maps through Chapter 24`
+- Working tree expected to be clean: yes, after the `d1-ch-25` current-draft map packet is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-24` has been approved by the author as a current-draft chapter-map packet. The significant current-draft chapter-map consistency review through Chapter 24 found no blocker to preparing Chapter 25.
+`d1-ch-25` has been prepared as a current-draft chapter-map packet and is awaiting author review. The packet identifies the chapter as Maya/Davian social-afterglow, public-class-boundary, Selwin exposure, and Archeon-gauntlet analysis: Maya tries to enter ordinary contractor life after Chapter 24's charged training, sees Davian protect her and Selwin reflexively, and then pivots into an Archeon technology/Shroud-theory investigation.
 
 ## Next action
 
-Prepare the `d1-ch-25` current-draft map packet next.
+Present the `d1-ch-25` current-draft map packet summary and author decision prompt. If approved or corrected, apply author feedback, validate, commit, push, and then prepare `d1-ch-26`.
 
 ## Awaiting author input
 
-None.
+Author review of `revision/current-draft-map/d1-ch-25.md`.
 
 ## Workflow policy note
 
