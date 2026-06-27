@@ -3,7 +3,10 @@ const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
   comments: "ffReview.comments",
-  bookmark: "ffReview.bookmark"
+  bookmark: "ffReview.bookmark",
+  mode: "ffReview.mode",
+  chapter: "ffReview.chapterId",
+  layer: "ffReview.layer"
 };
 
 let appIndex = null;
@@ -138,8 +141,15 @@ function setView(view) {
   if (view === "repo-browser") syncMobileBrowserUi();
 }
 
+function saveReaderState() {
+  localStorage.setItem(STORAGE_KEYS.mode, currentMode);
+  if (currentChapterId) localStorage.setItem(STORAGE_KEYS.chapter, currentChapterId);
+  if (currentLayer) localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
+}
+
 function setMode(mode) {
   currentMode = mode;
+  localStorage.setItem(STORAGE_KEYS.mode, mode);
   document.body.classList.toggle("mode-reader", mode === "reader");
   document.body.classList.toggle("mode-author", mode === "author");
   $("readerModeBtn").classList.toggle("active", mode === "reader");
@@ -150,6 +160,7 @@ function setMode(mode) {
     : "Author Mode active: repository browser and spoiler layers are available.";
   if (mode === "reader" && currentLayer !== "prose") {
     currentLayer = "prose";
+    localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
   }
   if (mode === "reader" && currentView === "repo-browser") {
     setView("book-reader");
@@ -181,7 +192,12 @@ function renderChapters() {
     select.appendChild(option);
   }
   if (appIndex.chapters?.length) {
-    currentChapterId = appIndex.chapters[0].chapter_id;
+    const savedChapter = localStorage.getItem(STORAGE_KEYS.chapter);
+    const savedLayer = localStorage.getItem(STORAGE_KEYS.layer);
+    currentChapterId = (appIndex.chapters || []).some((chapter) => chapter.chapter_id === savedChapter)
+      ? savedChapter
+      : appIndex.chapters[0].chapter_id;
+    if (savedLayer) currentLayer = savedLayer;
     select.value = currentChapterId;
     renderLayerSelect();
     renderChapter();
@@ -213,6 +229,7 @@ function renderLayerSelect() {
     currentLayer = prose ? "prose" : chapter.available_layers[0]?.key || "prose";
   }
   select.value = currentLayer;
+  saveReaderState();
 }
 
 function normalizeProseText(text) {
@@ -356,7 +373,8 @@ function renderChapter() {
   renderLayerSelect();
   const contentPanel = $("readerContent");
   contentPanel.classList.toggle("prose", currentLayer === "prose");
-  contentPanel.classList.toggle("code-like", currentLayer !== "prose");
+  contentPanel.classList.toggle("repo-readable", currentLayer !== "prose");
+  contentPanel.classList.remove("code-like");
   $("readerPath").textContent = chapter.source_file || "";
   $("readerLines").textContent = `Lines ${chapter.source_line_start || "?"}-${chapter.source_line_end || "?"}`;
 
@@ -375,7 +393,8 @@ function renderChapter() {
     text = appContent.files[layer.source_file].content || "";
     currentFilePath = layer.source_file;
   }
-  contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : renderLines(text, 1);
+  contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : basicMarkdownToHtml(text);
+  saveReaderState();
   updateTargetDisplay();
   syncMobileReaderUi();
 }
@@ -438,7 +457,6 @@ function chapterStep(delta) {
   const next = chapters[index + delta];
   if (!next) return;
   currentChapterId = next.chapter_id;
-  currentLayer = "prose";
   renderLayerSelect();
   renderChapter();
 }
@@ -845,13 +863,13 @@ function wireEvents() {
   $("authorModeBtn").addEventListener("click", () => setMode("author"));
   $("chapterSelect").addEventListener("change", (event) => {
     currentChapterId = event.target.value;
-    currentLayer = "prose";
     renderLayerSelect();
     renderChapter();
     if (isMobileLayout()) setReaderControlsOpen(false);
   });
   $("layerSelect").addEventListener("change", (event) => {
     currentLayer = event.target.value;
+    localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
     renderChapter();
     if (isMobileLayout()) setReaderControlsOpen(false);
   });
@@ -904,9 +922,10 @@ async function init() {
     return;
   }
   renderMetadata();
+  const savedMode = localStorage.getItem(STORAGE_KEYS.mode);
+  setMode(savedMode === "author" ? "author" : "reader");
   renderChapters();
   renderFileTree();
-  setMode("reader");
   setView("book-reader");
   syncMobileReaderUi();
   syncMobileCommentUi();
