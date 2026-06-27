@@ -28,7 +28,7 @@ Alara's accepted high-level ability package is:
 - fateweaving
 - Convergence heat transfer
 
-Exact mechanics, limits, terminology, and how these abilities relate to Maya, Selwin, Naerothi inheritance, and the Skein remain for later magic and endgame reviews.
+Convergence's accepted owner record defines it as Naerothi-linked heat-transfer magic that manipulates heat flow rather than creating heat from nothing. Alara had Convergence at a high level, but exact Alara usage, limits, terminology, and how these abilities relate to Maya, Selwin, Naerothi inheritance, and the Skein remain for later magic and endgame reviews.
 
 ## War and Reform
 
@@ -106,15 +106,17 @@ Current manuscript material establishes Alara through:
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related magic: [Convergence heat transfer](../magic/magic-convergence-heat-transfer.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
+- Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 
 ## Canonical Uncertainties
 
 - Exact Naerothi culture, title, family, father name, homeland, and command structure remain unresolved.
-- Exact Convergence/fateweaving/Shroud mechanics remain for later magic reviews.
+- Exact Alara-specific Convergence/fateweaving/Shroud usage remains for later magic, endgame, or chapter reviews.
 - Exact apparent death scene choreography remains candidate/deferred for later endgame or chapter review.
 - Exact higher-plane state and extraplanar-deity conflict remain deferred.
 - Exact relationship among postpartum psychosis, fateweaving, the eye, Nizän, Sheol, the Skein, and Alara's apparent death remains unresolved.

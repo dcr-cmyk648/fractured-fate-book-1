@@ -38,7 +38,7 @@ Alara's accepted high-level ability package is:
 - fateweaving
 - Convergence heat transfer
 
-Exact mechanics of those abilities remain deferred to Alara, Fateweaving/Skein, and Convergence reviews.
+The Convergence owner record accepts Convergence as Naerothi-linked heat-transfer magic that manipulates heat flow rather than creating heat from nothing. Exact Fateweaving/Convergence/Shroud inheritance mechanics remain deferred.
 
 ## Maya and Selwin
 
@@ -66,11 +66,12 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
 - Related culture: [Demi-human peoples, origins, and social roles](culture-demi-human-peoples.md)
-- Related future magic: `magic-convergence-heat-transfer`
+- Related magic: [Convergence heat transfer](../magic/magic-convergence-heat-transfer.md)
 - Related character: [Alara](../characters/char-alara.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
+- Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 
 ## Provenance
 

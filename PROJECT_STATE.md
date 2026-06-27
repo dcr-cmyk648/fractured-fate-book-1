@@ -7,20 +7,20 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: magic-systems
-- Active or paused entity ID: magic-convergence-heat-transfer
-- Latest completed entity: culture-demi-human-peoples
+- Active or paused entity ID: none
+- Latest completed entity: magic-convergence-heat-transfer
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve demi-human lineage structure`
-- Working tree expected to be clean: no; `magic-convergence-heat-transfer` is awaiting author review
+- Latest relevant commit message: `review: prepare Convergence magic packet`
+- Working tree expected to be clean: no; Convergence approval files are being finalized
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: magic-systems
 - Block scope: Convergence heat transfer and related Naeroth/Maya magic constraints
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
-- Consistency review due: no
+- Consistency review due: yes; category will shift after this single magic entity
 - Remote synchronized: yes
 
 ## Last completed work
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`culture-demi-human-peoples` was approved, committed, and pushed. `magic-convergence-heat-transfer` has been opened with a standard-depth review packet.
+`magic-convergence-heat-transfer` was approved by the author and is being finalized into accepted, candidate, decision, index, and direct dependency files.
 
 ## Next action
 
-Resolve the author decisions in `reviews/entities/magic/magic-convergence-heat-transfer.md`, then finalize the accepted magic record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
+Validate, commit, and push the approved `magic-convergence-heat-transfer` record. Then run the due block/category-shift consistency review before opening the next queued entity.
 
 ## Awaiting author input
 
-Awaiting author answers for `magic-convergence-heat-transfer`.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 

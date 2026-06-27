@@ -56,7 +56,7 @@ Naeroth heritage can rarely grant fateweaving and Convergence heat transfer desp
 
 Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level. Exact inheritance mechanics and the relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remain deferred.
 
-This file stores Alara's fateweaving and Convergence only at high level. Detailed Alara mechanics belong to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
+This file stores Alara's fateweaving and Convergence only at high level. Convergence's accepted owner record defines it as Naerothi-linked heat-transfer magic that manipulates heat flow rather than creating heat. Detailed Alara usage belongs to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
 
 At the hidden cosmology level, Alara is likely trapped in a higher plane after going there to try to kill the extraplanar deity. No Book 1 character knows this, and it should remain mostly invisible except possibly during Maya's end-book resurrection of Davian and contact with higher planes.
 
@@ -101,6 +101,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Related character: [Elric Rezin](../characters/char-elric.md)
 - Related magic: [Ink Pact](magic-ink-boons.md)
 - Related magic: [Shroud / Shrouds](magic-shroud.md)
+- Related magic: [Convergence heat transfer](magic-convergence-heat-transfer.md)
 - Related magic: [Zän / zä lattices / zänwrights](magic-zan-lattices.md)
 - Related magic: [Codex / memory journals / auratic codices](magic-codex-memory.md)
 - Related culture: [Naeroth and non-human lineages](../cultures/culture-naeroth-lineages.md)
@@ -113,6 +114,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
+- Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 
 ## Provenance
 

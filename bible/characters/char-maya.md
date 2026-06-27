@@ -54,6 +54,8 @@ Maya's magic includes:
 - Registry and zän-lattice work
 - emerging Fateweaving/Skein perception
 
+Her heat and flame manipulation is accepted as Convergence heat transfer: a rare Naerothi-linked ability inherited through Alara that manipulates heat flow rather than creating heat from nothing. Maya receives her Shroud and some of the mental abilities that let her operate at such high power from Niall; her exceptional profile combines both parents' inheritances with training, perfectionism, emerging fate/Skein perception, and the broader damaged-reality conditions that empower magic after the original sin.
+
 Her Shroud is effectively permanent while she is awake. She can mute it enough to eat and interact with objects, but muting requires conscious effort and can get out of control. Her Shroud can activate while she sleeps if triggered by a bad dream or similar stressor.
 
 This awake-permanent Shroud pattern is a manifestation of Niall's childhood emotional abuse after Alara's death, when he was grieving and frantically punishing and pushing Maya to develop a Shroud. Although it comes from trauma, Niall and most magi would view the result as a positive protective ability.
@@ -139,7 +141,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 ## Canonical Uncertainties
 
 - The exact social mechanics of Naeroth heritage and demi-human status remain to be reviewed in broader worldbuilding files.
-- The exact details of Maya's Convergence heat transfer and broader relationship to Naeroth abilities remain linked to future reviews.
+- Exact low-level Convergence technique details remain candidate, but the high-level heat-transfer model is accepted in the related magic record.
 - Exact Fateweaving/Convergence relationship and resurrection mechanics remain unresolved, though Davian's end-book resurrection is accepted future-plan canon.
 - Maya's final arc integration remains planning/candidate material.
 
@@ -158,6 +160,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related culture: [Magus status / Presentation](../cultures/culture-magus-presentation.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related magic: [Convergence heat transfer](../magic/magic-convergence-heat-transfer.md)
 - Related object: [Paradox](../objects/object-paradox.md)
 - Related object: [Alara's journal](../objects/object-alara-journal.md)
 - Candidate material: [char-maya](../../planning/candidates/characters/char-maya.md)
@@ -181,6 +184,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Decision: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
+- Decision: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 
 ## Provenance
 

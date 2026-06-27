@@ -2,14 +2,28 @@
 id: magic-convergence-heat-transfer
 entity_type: magic
 display_name: Convergence heat transfer
-status: awaiting-author
+status: approved
 review_depth: standard
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: bible/magic/magic-convergence-heat-transfer.md
 candidate_file: planning/candidates/magic/magic-convergence-heat-transfer.md
 ---
 
 # Convergence Heat Transfer Review Packet
+
+## Current Author Decisions
+
+Approved on 2026-06-27:
+
+- Convergence is a rare Naerothi-linked heat-transfer ability associated with Alara and Maya.
+- It manipulates heat flow rather than creating heat from nothing.
+- It is affected by the same reality distortion that affects Clade hereditary magic, allowing it to be much more powerful than it would have been pre-original sin.
+- Maya receives her Shroud from Niall, along with some mental abilities that let her be so powerful and engage reality directly.
+- Maya receives her Naerothi Convergence inheritance through Alara.
+- Maya's working model is accepted at high level: heat/cold overlays, schemas, mental circuits, carvings, surfaces, conduits, and controlled gathering/compression/containment/redirection/release of heat.
+- On-page description should favor carving-based language and surfaces.
+- Thread/ribbon/channel imagery can remain visually useful without implying Convergence is identical to Fateweaving.
+- Detailed physics language, body-as-focus techniques, heat/charge plasma synergy, and Convergence/Fateweaving/Selwin relationships remain candidate/deferred.
 
 ## Review Depth
 
@@ -115,10 +129,6 @@ This would be enough for future chapter mapping to track Maya's heat/cold combat
 - Update direct links in Maya, Alara, Fateweaving/Skein, and Naeroth files where useful.
 - Preserve unresolved Fateweaving/Convergence/Selwin issues in candidates or the consistency queue.
 
-## Required Decisions
+## Decision Disposition
 
-1. Should Convergence be accepted as a rare Naerothi-linked heat-transfer ability associated with Alara and Maya, manipulating heat flow rather than creating heat from nothing?
-2. Should Maya's working model be accepted as: perceive heat/cold overlays, carve/visualize channels, gather/compress/constrain heat, and release it; cold effects come from heat removal?
-3. Should the limitations be accepted at high level: distance, complexity, containment surface, and high-energy concentration increase cognitive load; extreme heat is unstable and best held briefly before discharge?
-4. Should thread/ribbon/channel imagery for heat remain visually usable without implying Convergence is identical to Fateweaving?
-5. Should the detailed physics language, body-as-focus techniques, heat/charge plasma synergy, and Convergence/Fateweaving/Selwin relationships remain candidate/deferred for later reviews?
+All required decisions were resolved by author feedback on 2026-06-27. Accepted material is stored in `bible/magic/magic-convergence-heat-transfer.md`; deferred and optional material is stored in `planning/candidates/magic/magic-convergence-heat-transfer.md`.

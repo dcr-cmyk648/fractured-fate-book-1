@@ -47,7 +47,7 @@ High Clades are deeply self-congratulatory about this magic and use it to justif
 
 The hidden truth is that this power is tied to the original sin and damage to reality, not to any inherent moral superiority. High Clade society generally does not know this.
 
-Naerothi are the rare accepted demi-human exception because they can produce Shrouds and rare fateweaving / Convergence-associated abilities. Other demi-human lineages are not known to produce hereditary magic or Shrouds in the accepted Book 1 structure.
+Naerothi are the rare accepted demi-human exception because they can produce Shrouds and rare fateweaving / Convergence-associated abilities. Convergence is accepted as Naerothi-linked heat-transfer magic. Other demi-human lineages are not known to produce hereditary magic or Shrouds in the accepted Book 1 structure.
 
 ## Status and Prejudice
 
@@ -111,8 +111,10 @@ Detailed military organization, contract terms, and death-payment economics belo
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related arc/thread: `thread-demi-human-mercenary-forces`
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
+- Related magic: [Convergence heat transfer](../magic/magic-convergence-heat-transfer.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
+- Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 
 ## Canonical Uncertainties
 
