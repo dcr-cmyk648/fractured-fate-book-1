@@ -63,7 +63,7 @@ After Davian leaves again, Kael and Lirien are sent to bed amid tears and questi
 - Related character: [Davian](char-davian.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Jalen](char-jalen.md)
-- Related character: Lirien (queued)
+- Related character: [Lirien](char-lirien.md)
 - Related character: [Selwin Rezin](char-selwin.md)
 - Related location: [Concord manor](../locations/loc-concord-manor.md)
 - Related organization: [Twilight Concord / Concord](../organizations/org-concord.md)

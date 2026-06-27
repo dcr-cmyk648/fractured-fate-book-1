@@ -2,9 +2,9 @@
 id: char-lirien
 entity_type: character
 display_name: Lirien
-status: awaiting-author
+status: approved
 review_depth: brief
-outline_ready: no
+outline_ready: yes-with-uncertainties
 accepted_file: bible/characters/char-lirien.md
 candidate_file: planning/candidates/characters/char-lirien.md
 ---
@@ -141,3 +141,10 @@ The entity does not need deeper development before future outline work unless th
 2. Should Lirien receive a brief dedicated character record rather than being folded into Kael or a grouped younger-siblings file?
 3. Should her Book 1 role be accepted as family-stakes/domestic texture beside Kael, more composed and serious than Kael, without a major independent subplot?
 4. Should exact age, nickname, knowledge state, evacuation scene, magic/training, and future-book role remain candidate/deferred?
+
+## Author Responses
+
+1. Yes.
+2. Yes.
+3. Yes.
+4. Yes.

@@ -7,18 +7,18 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: secondary-characters
-- Active or paused entity ID: char-lirien
-- Latest completed entity: thread-kelyra-archeon-recovery
+- Active or paused entity ID: none
+- Latest completed entity: char-lirien
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `chore: run narrative threads follow-up consistency review`
-- Working tree expected to be clean: yes; `char-lirien` review packet is committed and awaiting author input
+- Latest relevant commit message: `review: prepare Lirien character packet`
+- Working tree expected to be clean: no; approved `char-lirien` finalization is being recorded
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: secondary-characters
 - Block scope: brief supporting-character records for remaining family/Archeon-side figures
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-followup-block.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, and push
 
 ## Current work
 
-`char-lirien` has been opened with a brief author review packet. The packet preserves Lirien's current source-backed role as Davian's composed younger sister and tracks the `Lirien`/`Lirin` spelling issue without creating accepted canon yet.
+`char-lirien` was approved by the author and is being finalized into accepted and candidate files.
 
 ## Next action
 
-Resolve the required author decisions in `reviews/entities/characters/char-lirien.md`, then finalize the accepted and candidate Lirien files if approved.
+Validate, commit, and push the approved `char-lirien` finalization. Then open the next queued entity, `char-lethira`, with a concrete author review packet.
 
 ## Awaiting author input
 
-Awaiting author input on `char-lirien`. The review packet and summary/questions have been printed for audit.
+None. Do not stop unless a concrete review packet or phase gate is ready.
 
 ## Workflow policy note
 
@@ -86,6 +86,9 @@ Awaiting author input on `char-lirien`. The review packet and summary/questions 
 - reviews/entities/threads/thread-demi-human-mercenary-forces.md
 - reviews/entities/threads/thread-kelyra-archeon-recovery.md
 - reviews/entities/characters/char-lirien.md
+- bible/characters/char-lirien.md
+- planning/candidates/characters/char-lirien.md
+- decisions/0067-lirien-brief-family-role-and-spelling.md
 - bible/characters/char-kael.md
 - bible/locations/loc-concord-manor.md
 - bible/organizations/org-concord.md
