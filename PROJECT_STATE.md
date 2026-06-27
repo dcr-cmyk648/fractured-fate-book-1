@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 7 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-08` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 8 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-08` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-07` was approved, validated, committed, and pushed. Author feedback emphasized that this is a key chapter for showing Maya's thin veil of public confidence and competence, followed by a near-panic attack when alone. This should contrast with Davian's prior view of the assassination attempt, where he sees only Maya's outward performance and interprets her as a cold-blooded killer through his negative biases.
+`d1-ch-08` was approved as an accurate current-draft map. Author feedback emphasized that this is Davian's first taste of relatively normal social interaction outside the criminal underworld and outside Kelyra's paranoid killer-training home context. Davian should be suspicious of normal social warmth here and only start enjoying it later. Harvick's meeting is not pure chance: Aldira asked Harvick to check into Davian. Harvick does not let Davian off easily for that reason, but he is also charmed by the idea of helping a young rough-edged man with an apparent good side, which is a positive-regard blind spot that makes him miss that Davian is literally an assassin.
 
 ## Next action
 
-Prepare, validate, commit, push, and present the `d1-ch-08` current-draft map packet. The packet should describe Davian's mess-hall worker-group pressure, Tanelle's forced friendliness, Harvick's first sparring/mentor setup, Davian's biased read of Maya after the reader has seen her private panic, and his Arrek/Selina guilt nightmare.
+Finalize, validate, commit, and push the `d1-ch-08` current-draft map approval, then prepare and present the `d1-ch-09` current-draft map packet.
 
 ## Awaiting author input
 
-Awaiting author review of `revision/current-draft-map/d1-ch-08.md`. Required decision: approve the Chapter 8 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
+None until the `d1-ch-09` current-draft map packet is prepared.
 
 ## Workflow policy note
 
@@ -85,7 +85,7 @@ Awaiting author review of `revision/current-draft-map/d1-ch-08.md`. Required dec
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-08.md
+- revision/current-draft-map/d1-ch-09.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
 - CONSISTENCY_QUEUE.md
