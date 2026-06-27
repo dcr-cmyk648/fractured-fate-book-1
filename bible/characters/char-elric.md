@@ -54,7 +54,7 @@ His villainy should preserve the shape of failed idealism rather than flattening
 
 ## Fate, Ink, and Manipulation
 
-Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. His sight is probabilistic trauma-script perception rather than deterministic future sight. He uses those strands to further his goals.
+Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. His sight is real, and Elric likely experiences fate as mostly deterministic, especially where trauma is concerned. The story should not validate that worldview completely: trauma can create powerful repeating patterns, but it does not remove agency or make change impossible.
 
 He manipulates people by leaning on their trauma scripts, urges, fear, grief, perfectionism, rage, helplessness, and desire for agency. This makes events feel inevitable to the characters, even when growth and healthier choices can move them off the path he expected.
 
@@ -131,10 +131,11 @@ Current manuscript material establishes:
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
+- Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
 
 ## Canonical Uncertainties
 
-- Elric's fate sight is accepted as trauma-script / path-of-least-resistance perception, but its source remains unresolved.
+- Elric's fate sight is accepted as trauma-script / path-of-least-resistance perception that he likely experiences as mostly deterministic, but its source remains unresolved.
 - Exact mechanics of fate-thread visibility, Ink simulacrum persistence, the Harbinger leader's takeover, the interactive Elric presence in the tampered codex, and the contents/use of Elric's own codex remain for later Elric, Fateweaving/Skein, Ink, and Heart reviews.
 - Elric's fate sight is canonically at least somewhat linked to Heart exposure. Exact Heart/original-sin/first-magus metaphysics remain for `object-seraph-heart`, `magic-fateweaving-skein`, and later world-history reviews.
 - Exact endgame execution remains planning material: Davian's death, Maya's resurrection of Davian, Elric's final body/state, Elric's escape, and reality breakdown.

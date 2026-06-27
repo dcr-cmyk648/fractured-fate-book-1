@@ -3,13 +3,16 @@ id: thread-elric-reality-skein
 entity_type: narrative-thread
 display_name: Elric, Trauma Scripts, and Reality/Skein Arc
 status: approved-seed
-last_reviewed: 2026-06-23
-source_review: reviews/entities/characters/char-elric.md
+last_reviewed: 2026-06-27
+review_packet: reviews/entities/threads/thread-elric-reality-skein.md
+candidate_file: planning/candidates/threads/thread-elric-reality-skein.md
+review_depth: deep
+outline_ready: yes-with-uncertainties
 ---
 
 # Elric, Trauma Scripts, and Reality/Skein Arc
 
-## Approved Seed
+## Approved Thread
 
 Elric is the hidden primary force behind Book 1. The book's events begin because of his manipulations, proceed under heavy influence from him leaning on the scales of fate and trauma, and conclude in an endgame he orchestrates.
 
@@ -21,9 +24,13 @@ Elric was once an idealist who believed society could be reformed. His perfectio
 
 He comes to see suffering as the ultimate state of existence. Because perfection is impossible, he decides negation is preferable.
 
-## Manipulation Pattern
+## Manipulation Pattern and Theme
 
-Elric sees strands of fate tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. This is probabilistic trauma-script perception rather than deterministic future sight. He uses those strands to push people along paths that feel inevitable:
+Elric sees strands of fate tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. His sight is real, and Elric likely experiences fate as mostly deterministic, especially where trauma is concerned.
+
+The book's governing theme cuts against Elric's interpretation. Trauma creates powerful grooves and repeating patterns, but it does not make people permanently determined by those patterns. Characters can change, grow, choose values, accept help, and stop repeating the same injuries.
+
+Elric uses fate/trauma strands to push people along paths that feel inevitable:
 
 - Davian's rage, helplessness, family loyalty, desire to matter, and attraction to Maya
 - Niall's grief, rigidity, fear of weakness, and need to prove he can still stand alone
@@ -41,7 +48,7 @@ Harvick's prototypical Ink Pact, his history with Elric, and his unofficial plac
 
 ## Endgame Direction
 
-Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and Davian's end-book resurrection to damage or unmake reality. He has backup plans and long-running manipulations because he has been planning for many years.
+Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, the Harbingers, and Davian's end-book resurrection to damage or unmake reality or enable the extraplanar threat. He has backup plans and long-running manipulations because he has been planning for many years.
 
 Davian's resurrection is canon future-plan material. Exact endgame execution, resurrection mechanics, cost, and reality-damage mechanics remain candidate material until later plot review.
 
@@ -49,14 +56,40 @@ Elric's tampering with Alara's auratic codex is part of this pressure system. Th
 
 Elric likely did not want Alara to die, because she was a potential fateweaver tool for damaging the Skein and summoning the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still recrystallizing / taking over the Syndicate through the Ink Pact route. His accepted role in Alara's apparent-death aftermath is exploitation through the codex trap and fate/trauma pressure, not causing the death.
 
+## A Cord of Six Strands
+
+`A Cord of Six Strands` is the title-level frame for two intertwined triads:
+
+- Elric-Niall-Maya
+- Serathis-Kelyra-Davian
+
+This framing should be revealed very late, when Maya is about to resurrect Davian. Earlier story material can build toward it structurally, but should not overexplain it.
+
+## Canonical Uncertainties
+
+- Exact source mix for Elric's fate sight.
+- Exact Heart exposure pathway.
+- Exact Ink Pact possession / Harbinger leader mechanics.
+- Exact Elric persistence across codex, Ink, remnant, body, and contingency systems.
+- Exact contents and use of Elric's own codex.
+- Exact Davian death and Maya resurrection choreography.
+- Exact resurrection cost.
+- Exact Heart/Skein/fateweaving interaction during resurrection.
+- Exact reality-damage mechanics.
+- Exact truth of Sheol, Nizän, extraplanar deity, higher planes, and original-sin cosmology.
+- Exact staging of Elric's six-strand speech.
+
 ## Related Files
 
 - Accepted character: [Elric Rezin](../../bible/characters/char-elric.md)
 - Candidate material: [char-elric](../../planning/candidates/characters/char-elric.md)
+- Candidate material: [thread-elric-reality-skein](../../planning/candidates/threads/thread-elric-reality-skein.md)
+- Review packet: [thread-elric-reality-skein](../../reviews/entities/threads/thread-elric-reality-skein.md)
 - Review packet: [char-elric](../../reviews/entities/characters/char-elric.md)
 - Decision record: [Elric Rezin Remnant and Reality/Skein Role](../../decisions/0007-elric-rezin-remnant-and-reality-skein-role.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
+- Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
 - Related accepted character: [Davian](../../bible/characters/char-davian.md)
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)

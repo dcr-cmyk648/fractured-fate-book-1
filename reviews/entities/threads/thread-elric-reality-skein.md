@@ -2,7 +2,7 @@
 id: thread-elric-reality-skein
 entity_type: narrative-thread
 display_name: Elric, trauma scripts, and reality/Skein arc
-review_status: awaiting-author
+review_status: approved
 review_depth: deep
 outline_ready: yes-with-uncertainties
 source_scope:
@@ -140,7 +140,17 @@ The future outline can use this thread as the governing hidden-antagonist archit
 - Update `PROJECT_STATE.md` to mark this needs-revisit item complete and identify the next workflow step.
 - Leave accepted character, magic, object, and culture records unchanged unless a direct wording update is needed after the author's answers.
 
-## Required Decisions
+## Author Decisions
+
+Approved on 2026-06-27:
+
+- Elric likely sees fate as mostly deterministic, especially where trauma is concerned.
+- The overarching theme is lack of trauma-determinism: characters can change and grow instead of being stuck repeating the same patterns.
+- Elric's Book 1 endgame function uses Niall, Davian, Maya, the Heart, Ink, the Harbingers, and Davian's resurrection to damage/unmake reality or enable the extraplanar threat, while exact mechanics remain deferred.
+- `A Cord of Six Strands` is revealed very late.
+- Exact fate-sight source, Heart/Skein/resurrection mechanics, Elric persistence mechanics, Alara codex bridge details, Sheol/Nizän/extraplanar cosmology, and reality-fracture mechanics remain deferred/candidate rather than blocking this thread's outline readiness.
+
+## Required Decisions Resolved
 
 1. Approve the Elric/Skein thread as a structural arc where Elric manipulates real but probabilistic trauma/fate paths rather than deterministic fate?
 2. Approve the Book 1 endgame function as Elric using Niall, Davian, Maya, the Heart, Ink, the Harbingers, and Davian's resurrection to damage/unmake reality or enable the extraplanar threat, while leaving exact mechanics deferred?

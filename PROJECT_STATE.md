@@ -7,37 +7,37 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: narrative-threads-final
-- Active or paused entity ID: thread-elric-reality-skein
-- Latest completed entity: thread-davian-identity-guilt
+- Active or paused entity ID: none
+- Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `bible: approve Davian identity arc`
-- Working tree expected to be clean: yes, after the `thread-elric-reality-skein` review packet checkpoint is committed and pushed
+- Latest relevant commit message: `bible: approve Elric reality arc`
+- Working tree expected to be clean: yes, after the approved `thread-elric-reality-skein` finalization is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: narrative-threads-final
-- Block scope: final needs-revisit thread review before story-bible completion checks
-- Approved entities since last consistency review: 0
+- Current block: story-bible-completion-gate
+- Block scope: full story-bible inventory completion, consistency, dependency, and opportunity review before author approval to open outline work
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-secondary-characters-tail-block.md
-- Consistency review due: no
+- Consistency review due: yes; initial story-bible inventory now appears complete and needs final completion/dependency review
 - Remote synchronized: yes
 
 ## Last completed work
 
-`thread-davian-identity-guilt` was approved, finalized, validated, committed, and pushed to `beta`.
+`thread-elric-reality-skein` was approved by the author, finalized into accepted and candidate arc files, and validated.
 
 ## Current work
 
-`thread-elric-reality-skein` has been opened as the final remaining `needs-revisit` item. The review packet consolidates the accepted Elric/Skein material and asks the author to approve the structural arc while keeping detailed endgame cosmology and mechanics deferred.
+The approved `thread-elric-reality-skein` finalization records Elric's mostly deterministic interpretation of trauma-fate, the book's anti-trauma-determinism theme, the late `A Cord of Six Strands` frame, and deferred endgame/cosmology mechanics.
 
 ## Next action
 
-Wait for the author's answers to the `thread-elric-reality-skein` required decisions. If approved, finalize the thread arc, update indexes and project state, validate, commit, push, and then proceed to the appropriate story-bible completion / consistency gate rather than starting a new entity automatically.
+Commit and push the approved `thread-elric-reality-skein` finalization. Then run the story-bible completion, dependency, consistency, and opportunity review required before asking the author to open the outline phase.
 
 ## Awaiting author input
 
-Author input is pending on `reviews/entities/threads/thread-elric-reality-skein.md`.
+None. Do not stop unless a concrete story-bible completion/consistency packet or phase-gate packet is ready.
 
 ## Workflow policy note
 
@@ -83,17 +83,10 @@ Author input is pending on `reviews/entities/threads/thread-elric-reality-skein.
 - MIGRATION_STATUS.md
 - decisions/index.md
 - AUTHORING.md
-- reviews/entities/threads/thread-elric-reality-skein.md
 - outline/arcs/thread-elric-reality-skein.md
-- bible/characters/char-elric.md
-- planning/candidates/characters/char-elric.md
-- bible/magic/magic-fateweaving-skein.md
-- bible/magic/magic-codex-memory.md
-- bible/objects/object-alara-journal.md
-- bible/cultures/culture-creator-sheol.md
-- decisions/0007-elric-rezin-remnant-and-reality-skein-role.md
-- decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md
-- decisions/0062-alara-apparent-death-boundary-and-elric-timing.md
+- planning/candidates/threads/thread-elric-reality-skein.md
+- decisions/0072-elric-reality-skein-arc-trauma-determinism.md
+- reports/consistency/
 - CONSISTENCY_QUEUE.md
 
 ## Later branch recommendation

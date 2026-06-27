@@ -28,7 +28,7 @@ Fate-thread sight does not mean immutable destiny.
 
 The accepted Book 1 model is path reading and limited interaction with likely trajectories, especially where choices, trauma, compulsions, fear, guilt, avoidance, rage, responsibility, or attachment create strong paths of least resistance.
 
-Elric can see and lean on strands tied to people acting out trauma or negative impulses. This lets him make events feel inevitable, but it does not remove agency. Characters can move off the paths he expects by choosing values, relationships, and healthier patterns instead of trauma scripts.
+Elric can see and lean on strands tied to people acting out trauma or negative impulses. He likely experiences these paths as mostly deterministic, especially where trauma is concerned. This lets him make events feel inevitable, but it does not remove agency. Characters can move off the paths he expects by choosing values, relationships, and healthier patterns instead of trauma scripts.
 
 Ink, the Heart, original-sin/reality-fracture knowledge, and the Skein overlap in Elric's work. Elric's fate sight is canonically at least somewhat linked to exposure to the Heart, but the exact source mix remains unresolved.
 
@@ -63,6 +63,8 @@ At the hidden cosmology level, Alara is likely trapped in a higher plane after g
 ## Elric and Dark Threads
 
 Elric sees fate strands tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. He uses that sight to nudge events toward his goals.
+
+The story's thematic answer to Elric is anti-trauma-determinism. Trauma creates powerful grooves and repeating patterns, but it does not make people permanently stuck. Growth, relationship, responsibility, and committed action can change the path.
 
 His fate sight is accepted as real and is at least somewhat linked to exposure to the Heart. Possible additional contributors include Ink, original-sin/reality-fracture knowledge, old research, or some combination.
 
@@ -115,6 +117,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
 
 ## Provenance
 

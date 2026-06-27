@@ -77,3 +77,4 @@ Do not use this file as a dump for unresolved questions.
 | Kelyra Revisit Clearance | 2026-06-27 | accepted; clears `char-kelyra` needs-revisit status | [0069-kelyra-revisit-clearance.md](0069-kelyra-revisit-clearance.md) |
 | Niall Grief Recovery and Committed Action | 2026-06-27 | accepted; stored in approved `thread-niall-grief-recovery` arc seed | [0070-niall-grief-recovery-committed-action.md](0070-niall-grief-recovery-committed-action.md) |
 | Davian Identity, Guilt, and Agency Arc | 2026-06-27 | accepted; stored in approved `thread-davian-identity-guilt` arc seed | [0071-davian-identity-guilt-agency.md](0071-davian-identity-guilt-agency.md) |
+| Elric Reality/Skein Arc and Trauma Determinism | 2026-06-27 | accepted; stored in approved `thread-elric-reality-skein` arc record | [0072-elric-reality-skein-arc-trauma-determinism.md](0072-elric-reality-skein-arc-trauma-determinism.md) |
