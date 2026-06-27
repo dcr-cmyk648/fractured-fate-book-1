@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 9 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-10` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 10 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-10` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-10` has been prepared as a current-draft map packet. It covers Davian scouting the Rezin citadel, relying on Tanelle as cover and technical tutor, entering the Treasury chamber, seeing the floating sphere and weightless worksite, misreading Maya's inspection, and forming the first rough sabotage/Heart-theft idea.
+`d1-ch-10` was approved as an accurate current-draft map. Author feedback added that this chapter should introduce more zän lore: strike-lines, zän lattices as circuits, and basic mechanics of the work. Davian's early thoughts about dropping the sphere are obsolete and should be removed later; instead, he should be thinking about how to get into the sphere, what is stored there, how access works, and how much of that is beyond the workers' purview/pay grade because they are only there to re-etch zä.
 
 ## Next action
 
-Present the `d1-ch-10` current-draft map packet for author review. If approved, finalize, validate, commit, and push the approval, then prepare `d1-ch-11`.
+Finalize, validate, commit, and push the `d1-ch-10` current-draft map approval, then prepare and present the `d1-ch-11` current-draft map packet.
 
 ## Awaiting author input
 
-Author review of the `d1-ch-10` current-draft map packet.
+None until the `d1-ch-11` current-draft map packet is prepared.
 
 ## Workflow policy note
 
