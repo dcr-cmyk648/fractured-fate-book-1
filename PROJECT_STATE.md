@@ -7,18 +7,18 @@ Last updated: 2026-06-27
 - Current branch: beta
 - Current migration phase: Phase 4 entity-by-entity review; repository stabilization checkpoint complete
 - Current block: cultures-world-systems
-- Active or paused entity ID: culture-demi-human-peoples
-- Latest completed entity: event-alara-death-war-memory
+- Active or paused entity ID: none
+- Latest completed entity: culture-demi-human-peoples
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `app: refresh review data for story bible updates`
-- Working tree expected to be clean: no; `culture-demi-human-peoples` is awaiting author review
+- Working tree expected to be clean: no; `culture-demi-human-peoples` finalization is in progress
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: cultures-world-systems
 - Block scope: broader demi-human peoples and related social/world systems
-- Approved entities since last consistency review: 0
+- Approved entities since last consistency review: 1
 - Last consistency review: reports/consistency/2026-06-27-narrative-threads-events-block-final.md
 - Consistency review due: no
 - Remote synchronized: yes
@@ -29,15 +29,15 @@ The narrative-thread/event block consistency review was run, committed, pushed t
 
 ## Current work
 
-`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review was committed and pushed. `culture-demi-human-peoples` has been opened with a standard-depth review packet.
+`event-alara-death-war-memory` was approved, committed, and pushed. The final narrative-thread/event block consistency review was committed and pushed. `culture-demi-human-peoples` author decisions were resolved and finalization is in progress.
 
 ## Next action
 
-Resolve the author decisions in `reviews/entities/cultures/culture-demi-human-peoples.md`, then finalize the accepted culture record, candidate file, decision record, indexes, validation, commit, push, and automatic progression according to `WORKFLOW.md`.
+Validate, commit, and push `culture-demi-human-peoples`, then continue to the next queued story-bible entity according to `WORKFLOW.md`.
 
 ## Awaiting author input
 
-Awaiting author answers for `culture-demi-human-peoples`.
+None.
 
 ## Workflow policy note
 

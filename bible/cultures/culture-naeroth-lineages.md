@@ -65,11 +65,12 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 - Related character: [Selwin Rezin](../characters/char-selwin.md)
 - Related magic: [Shroud / Shrouds](../magic/magic-shroud.md)
 - Related magic: [Fateweaving / Skein / fate ties](../magic/magic-fateweaving-skein.md)
-- Related future culture: `culture-demi-human-peoples`
+- Related culture: [Demi-human peoples, origins, and social roles](culture-demi-human-peoples.md)
 - Related future magic: `magic-convergence-heat-transfer`
 - Related character: [Alara](../characters/char-alara.md)
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
+- Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
 
 ## Provenance
 

@@ -76,6 +76,8 @@ If approved, the accepted record would store:
 
 - Demi-human or non-human-descended peoples exist in Elarion and surrounding regions.
 - Most non-Naeroth demi-human lineages are heavily interbred with humans, so traits are often subtle rather than sharply separated species categories.
+- Pure versions of any non-human lineage are extremely rare in the Six Cities. Most demi-human-descended people look fairly ordinary, with only subtle lineage traces visible.
+- Less obviously human-looking demi-humans are more likely to be pushed toward social outskirts, rural margins, or the criminal world because of social pressure, discrimination, and lack of magic.
 - Non-human lineage is generally treated as low-status in High Clade society.
 - Naeroth are a special exception because they can rarely produce Shrouds and fateweaving / Convergence-associated abilities.
 - Other demi-human lineages are not known to produce hereditary magic or Shrouds in the way High Clade humans and rare Naeroth do.
@@ -164,7 +166,7 @@ The future outline would have enough to handle mercenary scenes, anti-Naeroth pr
 
 1. Accepted: keep high-level demi-human/non-human-descended canon; most lineages are heavily interbred with humans, traits are usually subtle, and non-human lineage is generally low-status.
 2. Accepted: Naeroth remain the only accepted magic-capable demi-human exception for now. Other demi-human lineages do not produce known Shrouds/hereditary magic, contributing to their low status under High Clade ideology.
-3. Pending: author wants candidate names/options for a six-lineage taxonomy before locking the record.
+3. Accepted: lock the six-lineage structure now, with the caveat that pure non-human lineages are extremely rare in the Six Cities and most people show only subtle traces.
 4. Accepted: mercenary death-money economics can be accepted here at high level, with detailed military/economic handling deferred to `thread-demi-human-mercenary-forces`.
 5. Accepted: anti-Naeroth rumors about Alara bewitching Niall are canon rumors, partly grounded in the rarity of Naeroth interactions. How much Davian has heard specifically remains candidate.
 
