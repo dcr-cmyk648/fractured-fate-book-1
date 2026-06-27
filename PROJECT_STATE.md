@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 4 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-05` current-draft map packet is committed and pushed
+- Latest relevant commit message: `revision: prepare Chapter 5 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-05` current-draft map approval is committed and pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -29,15 +29,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-04` was approved, validated, committed, and pushed. Author feedback emphasized family pressure on Davian from protective and toxic/punitive angles, Kelyra as operational/combat lead, Jalen as logistics, culpability versus trauma-drive, Arrek as a person caught in resentment-breeding systems, and Davian's dissociation linked to emerging near-psychotic Ink Pact symptoms.
+`d1-ch-05` was approved as an accurate current-draft map. Author feedback emphasized that the chapter focuses on Maya's search for something meaningful beyond Niall's constant "be perfect or die" mentality, as part of Maya's second individuation, making her vulnerable to Elric's trap and drawing her toward Alara's journal.
 
 ## Next action
 
-Prepare and present the `d1-ch-05` current-draft map packet. The packet should describe the Maya/Niall Presentation aftermath, Selwin training, and Alara journal discovery chapter accurately and flag divergences around Ironstrider removal, Shroud/Convergence explanation, Alara-not-guiding-Maya, Aldira naming, and journal hiding/cover details.
+Finalize, validate, commit, and push the `d1-ch-05` current-draft map approval, then prepare and present the `d1-ch-06` current-draft map packet.
 
 ## Awaiting author input
 
-Awaiting author review of `revision/current-draft-map/d1-ch-05.md`. Required decision: approve the Chapter 5 map as an accurate descriptive record of what is currently written, with listed divergences and purpose-level issues preserved for later chapter architecture.
+None until the `d1-ch-06` current-draft map packet is prepared.
 
 ## Workflow policy note
 
