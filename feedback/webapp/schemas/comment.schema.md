@@ -9,11 +9,13 @@ A raw app comment may include:
 - `id`
 - `created_at`
 - `commenter_name`
+- `reviewer_session_id`
 - `repo_commit`
 - `repo_branch`
 - `app_version`
 - `view_mode`
 - `current_layer`
+- `scratchpad_type`
 - `current_file_path`
 - `chapter_id`
 - `chapter_title`
@@ -24,8 +26,17 @@ A raw app comment may include:
 - `approximate_scroll_percent`
 - `comment_text`
 - `status`
+- `initial_classification`
 
 If exact line data is unavailable, preserve the best available anchor: file path, chapter ID, heading, selected text, or scroll percent.
+
+Scratchpad entries intentionally do not require a file or chapter anchor. For scratchpad records:
+
+- `view_mode`: `scratchpad`
+- `current_layer`: `author-scratchpad`
+- `scratchpad_type`: `content` or `technical-processing`
+- `current_heading`: `Content` or `Technical / Processing`
+- `initial_classification`: `scratchpad-content` or `scratchpad-technical`
 
 ## Derived Normalization Fields
 
@@ -54,11 +65,15 @@ The importer may assign only lightweight deterministic classifications:
 - `story-bible-question`
 - `chapter-architecture-note`
 - `prose-preservation-candidate`
+- `scratchpad-content`
+- `scratchpad-technical`
 - `app-bug`
 - `general-reaction`
 - `unclear`
 
 These classifications are triage hints only. Codex performs synthesis later, and the author approves routing before comments affect durable book files.
+
+`scratchpad-content` may later route to note inbox items, story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
 
 ## Deduplication
 

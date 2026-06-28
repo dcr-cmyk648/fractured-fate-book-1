@@ -145,6 +145,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 
 Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Reader comments may reveal problems, opportunities, or tickets, but they do not bypass existing approval workflows. Multiple readers saying the same thing increases salience but does not automatically decide the fix.
 
+Author Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
+
 The durable repository-side silo is `feedback/webapp/`:
 
 - `incoming/`: manual drop zone for exported `.json`, `.jsonl`, or `.md` app comment files.
@@ -162,6 +164,7 @@ Comment import is mechanical and may be run without a creative author checkpoint
 2. Run `python3 scripts/import_webapp_comments.py`.
 3. The script copies raw files to `feedback/webapp/raw/<batch-id>/`, writes normalized JSONL under `feedback/webapp/batches/<batch-id>/`, appends deduplicated records to `feedback/webapp/normalized/comments.jsonl`, updates `feedback/webapp/normalized/comments-index.md`, and moves source files to `feedback/webapp/processed/<batch-id>/`.
 4. The script may assign only lightweight deterministic classifications such as `prose-preservation-candidate`, `line-edit`, `reader-confusion`, `continuity-question`, `story-bible-question`, `chapter-architecture-note`, `app-bug`, `general-reaction`, or `unclear`.
+   Scratchpad records may also classify as `scratchpad-content` or `scratchpad-technical`.
 5. The script must not make substantive creative decisions, edit prose, modify canon, call Google Drive APIs, call OpenAI APIs, or create GitHub Issues.
 
 After import, use a Web-App Comment Batch Review process:

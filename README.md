@@ -37,6 +37,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - `prose-preservation/` will later track wording-level preservation intent after chapter mapping opens.
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
 - `feedback/` contains reader feedback and source-intake workflows. `feedback/webapp/` is the durable inbox, archive, normalization, synthesis, and ticket silo for exported static-review-app comments. `feedback/source-intake/` stores proposed tickets and summaries from non-definitive supplemental source documents.
+- `docs/` contains the static read-only review app. In Author Mode, its Author Scratchpad captures quick content and technical notes as comment-like inbox records for later export and processing.
 - `decisions/` records explicit author decisions.
 - `reports/consistency/` contains block-level consistency-review reports.
 - `scripts/` contains repository validation and maintenance scripts.

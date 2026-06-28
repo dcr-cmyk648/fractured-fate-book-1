@@ -32,11 +32,13 @@ RAW_FIELDS = [
     "id",
     "created_at",
     "commenter_name",
+    "reviewer_session_id",
     "repo_commit",
     "repo_branch",
     "app_version",
     "view_mode",
     "current_layer",
+    "scratchpad_type",
     "current_file_path",
     "chapter_id",
     "chapter_title",
@@ -47,6 +49,7 @@ RAW_FIELDS = [
     "approximate_scroll_percent",
     "comment_text",
     "status",
+    "initial_classification",
 ]
 
 CONTENT_HASH_FIELDS = [
@@ -55,6 +58,7 @@ CONTENT_HASH_FIELDS = [
     "current_file_path",
     "chapter_id",
     "current_layer",
+    "scratchpad_type",
     "selected_text",
     "comment_text",
 ]
@@ -200,7 +204,10 @@ def likely_target(comment: dict[str, Any]) -> tuple[str, str]:
     chapter_id = as_text(comment.get("chapter_id")).strip()
     current_file_path = as_text(comment.get("current_file_path")).strip()
     view_mode = as_text(comment.get("view_mode")).lower()
+    scratchpad_type = as_text(comment.get("scratchpad_type")).strip()
     comment_text = as_text(comment.get("comment_text")).lower()
+    if view_mode == "scratchpad":
+        return "scratchpad", scratchpad_type or "scratchpad"
     if chapter_id:
         return "chapter", chapter_id
     if current_file_path:
@@ -211,6 +218,12 @@ def likely_target(comment: dict[str, Any]) -> tuple[str, str]:
 
 
 def classify_comment(comment: dict[str, Any]) -> str:
+    if as_text(comment.get("view_mode")).lower() == "scratchpad":
+        scratchpad_type = as_text(comment.get("scratchpad_type")).lower()
+        if scratchpad_type == "technical-processing":
+            return "scratchpad-technical"
+        return "scratchpad-content"
+
     text = " ".join(
         [
             as_text(comment.get("comment_text")),

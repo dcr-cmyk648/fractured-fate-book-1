@@ -14,6 +14,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 
 Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Preserve source exports under `feedback/webapp/`; do not modify existing exports except to copy or archive them. Do not call Google Drive APIs, OpenAI APIs, or create GitHub Issues as part of comment intake unless a later explicit workflow authorizes that.
 
+Author Scratchpad entries from the static app are comment-like inbox records, not a separate notes database. Treat `scratchpad-content` and `scratchpad-technical` records as web-app comment material that must go through the same import, synthesis, ticketing, and author-approval workflow before affecting story files, app work, prose-preservation records, or manuscript prose.
+
 ## Startup Procedure
 
 Before doing book work, Codex must:

@@ -26,12 +26,20 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 - Book Reader with chapter navigation.
 - Reader Mode by default, using prose-first display.
 - Author Mode for repository browser and all generated layers.
+- Author Scratchpad in Author Mode, with `Content` and `Technical / Processing` tabs.
 - Repository browser for readable generated project files.
 - Layer selector with graceful unavailable-layer handling.
 - Persistent comment box: right-side rail on desktop, collapsible drawer on mobile.
 - Browser-local comment storage.
-- Comment export as JSON.
+- Comment and scratchpad export as JSON, JSONL, or Markdown.
+- Last-export tracking with an option to export all entries or entries created since the last export.
 - Clear local comments with confirmation.
+
+## Author Scratchpad
+
+Author Mode includes an `Author Scratchpad` tab for quick capture. Use `Content` for story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, questions, and anything that used to go into the Bullet notes Google Doc. Use `Technical / Processing` for app bugs, broken navigation, export/import problems, data-processing issues, workflow issues, Codex-processing notes, and UI ideas.
+
+Scratchpad drafts autosave locally until submitted. Clicking `Save to Inbox` creates a comment-like inbox record in browser `localStorage`. Scratchpad entries export with ordinary comments and are not canon, accepted revisions, manuscript edits, or approved prose-preservation records.
 
 ## Mobile Install
 

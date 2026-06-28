@@ -10,8 +10,8 @@ Last updated: 2026-06-28
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `source: route lore and web-app ticket decisions`
-- Working tree expected to be clean: yes, after the lower-level ticket routing commit is pushed
+- Latest relevant commit message: `app: add author scratchpad and export tracking`
+- Working tree expected to be clean: yes, after the scratchpad app commit is pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,7 +30,7 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-29` current-draft map packet has been prepared and is awaiting author review. No manuscript prose has been changed.
+The `d1-ch-29` current-draft map packet has been prepared and checkpointed as awaiting author review. The static review app has been updated with Author Scratchpad and export tracking. No manuscript prose has been changed.
 
 ## Next action
 

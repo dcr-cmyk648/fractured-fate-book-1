@@ -13,8 +13,8 @@ Intended path:
 1. Reader opens the local app or a future GitHub Pages version.
 2. Reader enters a commenter name.
 3. Reader reads prose in Reader Mode or, if authorized, uses Author Mode for repository files and other layers.
-4. Reader submits comments using the fixed bottom comment box.
-5. Reader exports comments as JSON.
+4. Reader submits comments using the fixed comment box, or the author captures contextless notes in Author Scratchpad.
+5. Reader or author exports comments and scratchpad entries.
 6. Reader sends the exported comments file to the author.
 7. Author manually copies the exported comments file into `feedback/webapp/incoming/`.
 8. Codex or the author runs the local import command.
@@ -92,6 +92,23 @@ The importer:
 
 The importer uses only Python standard library code. It does not call Google Drive APIs, OpenAI APIs, GitHub APIs, or any network service. It performs only lightweight deterministic classification.
 
+## Author Scratchpad Entries
+
+The static app's Author Scratchpad replaces the old Bullet notes capture habit for quick notes. It does not create a separate notes database. Scratchpad entries are stored in the same browser `localStorage` collection as comments and export inside the same comment files.
+
+Scratchpad entries use:
+
+- `view_mode: scratchpad`
+- `current_layer: author-scratchpad`
+- `scratchpad_type: content` or `technical-processing`
+- `initial_classification: scratchpad-content` or `scratchpad-technical`
+
+`scratchpad-content` may later become a note inbox item, story-bible review item, candidate idea, future sequence note, chapter architecture issue, prose-preservation candidate, revision suggestion, or consistency-queue item.
+
+`scratchpad-technical` may later become an app bug ticket, data-processing ticket, workflow ticket, export/import issue, or repository maintenance task.
+
+Scratchpad entries remain inbox material until processed. They are not canon, accepted revisions, approved prose-preservation records, or instructions to edit manuscript prose.
+
 ## Later Batch Synthesis
 
 After import, ask Codex:
@@ -137,6 +154,8 @@ Tickets are still proposed work only. Do not apply tickets automatically to manu
 - Story-bible-review tickets: unclear worldbuilding, character motivation, magic-system uncertainty, organization/location/object detail, or entity ownership.
 - Revision-suggestion tickets: local chapter changes, possible cuts, possible expansions, prose clarity, or current-draft reader confusion.
 - App-maintenance tickets: missing chapter, broken navigation, wrong layer, export problem, UI problem.
+- Scratchpad-content tickets: author-captured story, lore, character, outline, prose-preservation, revision, or consistency ideas pending routing.
+- Scratchpad-technical tickets: author-captured app, workflow, data-processing, export/import, or repository-maintenance issues pending routing.
 
 Reader comments do not override approved canon, approve exact prose reuse, authorize manuscript edits, or create durable revisions. Repeated comments increase salience but do not decide the fix.
 

@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=repo-readable-1">
+    <link rel="stylesheet" href="styles.css?v=scratchpad-1">
   </head>
   <body>
     <section class="access-strip" aria-label="Access mode">
@@ -43,6 +43,7 @@
         <nav aria-label="Primary navigation">
           <button id="readerNavBtn" class="active" type="button">Book Reader</button>
           <button id="browserNavBtn" type="button">Repository Browser</button>
+          <button id="scratchpadNavBtn" type="button">Author Scratchpad</button>
           <button id="exportNavBtn" type="button">Comment Export</button>
         </nav>
       </div>
@@ -116,13 +117,55 @@
       <section id="exportView" class="view" aria-labelledby="exportHeading">
         <div class="section-heading">
           <h2 id="exportHeading">Comment Export</h2>
-          <p>Comments are stored only in this browser until exported.</p>
+          <p>Comments and scratchpad entries are stored only in this browser until exported.</p>
+        </div>
+        <div class="export-status" aria-label="Export status">
+          <span id="lastExportStatus">Last export generated: Never</span>
+          <span id="commentsSinceExport">Entries since last export: 0</span>
+          <span id="totalCommentStatus">Total local entries: 0</span>
         </div>
         <div class="export-grid">
-          <button id="exportJsonBtn" type="button">Export Comments</button>
+          <label>
+            Export scope
+            <select id="exportScopeSelect">
+              <option value="all">All comments and scratchpad entries</option>
+              <option value="since-last">Only entries since last export</option>
+            </select>
+          </label>
+          <button id="exportJsonBtn" type="button">Export JSON</button>
+          <button id="exportJsonlBtn" type="button">Export JSONL</button>
+          <button id="exportMarkdownBtn" type="button">Export Markdown</button>
+          <label class="import-label">
+            Import JSON
+            <input id="importCommentsInput" type="file" accept="application/json,.json">
+          </label>
           <button id="clearCommentsBtn" class="danger" type="button">Clear Local Comments</button>
         </div>
         <div id="commentList" class="comment-list"></div>
+      </section>
+
+      <section id="scratchpadView" class="view" aria-labelledby="scratchpadHeading">
+        <div class="section-heading">
+          <h2 id="scratchpadHeading">Author Scratchpad</h2>
+          <p>Quick capture for author notes. Entries are local inbox material until exported and processed.</p>
+        </div>
+        <div class="scratchpad-tabs" role="tablist" aria-label="Scratchpad tabs">
+          <button id="scratchContentTab" class="active" type="button">Content</button>
+          <button id="scratchTechTab" type="button">Technical / Processing</button>
+        </div>
+        <div class="scratchpad-panel">
+          <div class="scratchpad-note">
+            <strong id="scratchpadTypeLabel">Content</strong>
+            <span id="scratchpadTypeHelp">Story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, and questions to resolve later.</span>
+          </div>
+          <textarea id="scratchpadText" rows="12" placeholder="Capture a note. It will be saved locally as a scratchpad entry when you click Save to Inbox."></textarea>
+          <div class="scratchpad-actions">
+            <button id="submitScratchpadBtn" type="button">Save to Inbox</button>
+            <span id="scratchpadCount">0 saved entries</span>
+            <span>Draft autosaves locally until submitted.</span>
+          </div>
+          <div id="scratchpadRecent" class="scratchpad-recent"></div>
+        </div>
       </section>
     </main>
 
@@ -155,6 +198,6 @@
       </details>
     </aside>
 
-    <script src="app.js?v=repo-readable-1"></script>
+    <script src="app.js?v=scratchpad-1"></script>
   </body>
 </html>

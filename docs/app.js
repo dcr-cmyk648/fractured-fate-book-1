@@ -1,12 +1,22 @@
-const APP_VERSION = "review-interface-v0";
+const APP_VERSION = "review-interface-v0-scratchpad-1";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
   comments: "ffReview.comments",
   bookmark: "ffReview.bookmark",
   mode: "ffReview.mode",
+  view: "ffReview.view",
   chapter: "ffReview.chapterId",
-  layer: "ffReview.layer"
+  layer: "ffReview.layer",
+  file: "ffReview.filePath",
+  scratchpadTab: "ffReview.scratchpadTab",
+  scratchpadContentDraft: "ffReview.scratchpad.contentDraft",
+  scratchpadTechDraft: "ffReview.scratchpad.techDraft",
+  scroll: "ffReview.scrollPercent",
+  lastExportAt: "ffReview.lastExport.generatedAt",
+  lastExportCount: "ffReview.lastExport.commentCount",
+  lastExportLatestCreatedAt: "ffReview.lastExport.latestCommentCreatedAt",
+  lastExportFormat: "ffReview.lastExport.format"
 };
 
 let appIndex = null;
@@ -17,8 +27,10 @@ let currentMode = "reader";
 let currentChapterId = null;
 let currentLayer = "prose";
 let currentFilePath = null;
+let currentScratchpadTab = "content";
 let browserTreeOpen = false;
 let readerControlsOpen = false;
+let scrollSaveTimer = null;
 
 const $ = (id) => document.getElementById(id);
 
@@ -76,6 +88,8 @@ function saveComments() {
   localStorage.setItem(STORAGE_KEYS.comments, JSON.stringify(comments));
   renderCommentCount();
   renderCommentList();
+  renderScratchpadUi();
+  renderExportStatus();
 }
 
 function loadBookmark() {
@@ -125,20 +139,27 @@ async function loadData() {
 }
 
 function setView(view) {
+  if (view === "repo-browser" && currentMode === "reader") view = "book-reader";
+  if (view === "scratchpad" && currentMode === "reader") view = "book-reader";
   currentView = view;
+  localStorage.setItem(STORAGE_KEYS.view, view);
   document.body.classList.toggle("view-reader", view === "book-reader");
   document.body.classList.toggle("view-browser", view === "repo-browser");
   document.body.classList.toggle("view-export", view === "export");
+  document.body.classList.toggle("view-scratchpad", view === "scratchpad");
   $("bookReaderView").classList.toggle("active", view === "book-reader");
   $("repoBrowserView").classList.toggle("active", view === "repo-browser");
   $("exportView").classList.toggle("active", view === "export");
+  $("scratchpadView").classList.toggle("active", view === "scratchpad");
   $("readerNavBtn").classList.toggle("active", view === "book-reader");
   $("browserNavBtn").classList.toggle("active", view === "repo-browser");
+  $("scratchpadNavBtn").classList.toggle("active", view === "scratchpad");
   $("exportNavBtn").classList.toggle("active", view === "export");
   updateTargetDisplay();
   if (view === "book-reader") syncMobileReaderUi();
   if (view === "export") renderCommentList();
   if (view === "repo-browser") syncMobileBrowserUi();
+  if (view === "scratchpad") renderScratchpadUi();
 }
 
 function saveReaderState() {
@@ -155,6 +176,7 @@ function setMode(mode) {
   $("readerModeBtn").classList.toggle("active", mode === "reader");
   $("authorModeBtn").classList.toggle("active", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
+  $("scratchpadNavBtn").disabled = mode === "reader";
   $("modeStatus").textContent = mode === "reader"
     ? "Reader Mode active: repository browser is hidden."
     : "Author Mode active: repository browser and spoiler layers are available.";
@@ -162,7 +184,7 @@ function setMode(mode) {
     currentLayer = "prose";
     localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
   }
-  if (mode === "reader" && currentView === "repo-browser") {
+  if (mode === "reader" && (currentView === "repo-browser" || currentView === "scratchpad")) {
     setView("book-reader");
   }
   if (!appIndex) return;
@@ -507,6 +529,7 @@ function renderFile(path) {
   if (!file) return;
   setView("repo-browser");
   currentFilePath = path;
+  localStorage.setItem(STORAGE_KEYS.file, path);
   currentLayer = "repository-file";
   $("filePath").textContent = `${file.display_name || path} · ${file.line_count} lines · ${path}`;
   $("fileBadge").textContent = file.category;
@@ -538,6 +561,9 @@ function approximateScrollPercent() {
 }
 
 function currentHeading() {
+  if (currentView === "scratchpad") {
+    return currentScratchpadTab === "technical-processing" ? "Technical / Processing" : "Content";
+  }
   if (currentView === "repo-browser" && currentFilePath) {
     const file = appContent.files?.[currentFilePath];
     return file?.headings?.[0]?.text || null;
@@ -560,6 +586,24 @@ function abbreviate(value, max = 120) {
 function currentReference() {
   const chapter = currentView === "book-reader" ? currentChapter() : null;
   const meta = appIndex.metadata || {};
+  if (currentView === "scratchpad") {
+    return {
+      repo_commit: meta.commit_hash || null,
+      repo_branch: meta.branch || null,
+      app_version: APP_VERSION,
+      view_mode: "scratchpad",
+      current_layer: "author-scratchpad",
+      scratchpad_type: currentScratchpadTab,
+      current_file_path: null,
+      chapter_id: null,
+      chapter_title: null,
+      source_line_start: null,
+      source_line_end: null,
+      current_heading: currentHeading(),
+      selected_text: null,
+      approximate_scroll_percent: null
+    };
+  }
   return {
     repo_commit: meta.commit_hash || null,
     repo_branch: meta.branch || null,
@@ -579,7 +623,9 @@ function currentReference() {
 
 function updateTargetDisplay() {
   const ref = currentReference();
-  const target = ref.chapter_title
+  const target = ref.view_mode === "scratchpad"
+    ? `Author Scratchpad · ${ref.current_heading}`
+    : ref.chapter_title
     ? `${ref.chapter_title} · ${ref.current_layer}`
     : ref.current_file_path || "No target";
   $("commentTarget").textContent = target;
@@ -611,7 +657,7 @@ function renderReferenceDetails(ref = currentReference()) {
 
 function renderCommentCount() {
   const count = comments.length;
-  $("commentCount").textContent = `${count} comment${count === 1 ? "" : "s"}`;
+  $("commentCount").textContent = `${count} entr${count === 1 ? "y" : "ies"}`;
 }
 
 function submitComment() {
@@ -632,6 +678,82 @@ function submitComment() {
   saveComments();
 }
 
+function scratchpadDraftKey(tab = currentScratchpadTab) {
+  return tab === "technical-processing"
+    ? STORAGE_KEYS.scratchpadTechDraft
+    : STORAGE_KEYS.scratchpadContentDraft;
+}
+
+function scratchpadClassification(tab = currentScratchpadTab) {
+  return tab === "technical-processing" ? "scratchpad-technical" : "scratchpad-content";
+}
+
+function scratchpadLabel(tab = currentScratchpadTab) {
+  return tab === "technical-processing" ? "Technical / Processing" : "Content";
+}
+
+function scratchpadHelp(tab = currentScratchpadTab) {
+  if (tab === "technical-processing") {
+    return "App bugs, broken navigation, missing content, export problems, data-processing issues, workflow issues, Codex-processing notes, and UI improvement ideas.";
+  }
+  return "Story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, and questions to resolve later.";
+}
+
+function setScratchpadTab(tab) {
+  localStorage.setItem(scratchpadDraftKey(currentScratchpadTab), $("scratchpadText")?.value || "");
+  currentScratchpadTab = tab === "technical-processing" ? "technical-processing" : "content";
+  localStorage.setItem(STORAGE_KEYS.scratchpadTab, currentScratchpadTab);
+  renderScratchpadUi();
+  updateTargetDisplay();
+}
+
+function submitScratchpad() {
+  const text = $("scratchpadText").value.trim();
+  if (!text) return;
+  const commenter = getCommenterName() || "Reader";
+  const record = {
+    id: `scratchpad-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    created_at: new Date().toISOString(),
+    commenter_name: commenter,
+    reviewer_session_id: getSessionId(),
+    ...currentReference(),
+    scratchpad_type: currentScratchpadTab,
+    comment_text: text,
+    status: "inbox",
+    initial_classification: scratchpadClassification()
+  };
+  comments.push(record);
+  $("scratchpadText").value = "";
+  localStorage.removeItem(scratchpadDraftKey());
+  saveComments();
+}
+
+function renderScratchpadUi() {
+  if (!$("scratchpadText")) return;
+  $("scratchContentTab").classList.toggle("active", currentScratchpadTab === "content");
+  $("scratchTechTab").classList.toggle("active", currentScratchpadTab === "technical-processing");
+  $("scratchpadTypeLabel").textContent = scratchpadLabel();
+  $("scratchpadTypeHelp").textContent = scratchpadHelp();
+  const draft = localStorage.getItem(scratchpadDraftKey()) || "";
+  if ($("scratchpadText").value !== draft && document.activeElement !== $("scratchpadText")) {
+    $("scratchpadText").value = draft;
+  }
+  const tabEntries = comments.filter((comment) =>
+    comment.view_mode === "scratchpad" && comment.scratchpad_type === currentScratchpadTab
+  );
+  $("scratchpadCount").textContent = `${tabEntries.length} saved entr${tabEntries.length === 1 ? "y" : "ies"}`;
+  $("scratchpadRecent").innerHTML = tabEntries.length
+    ? tabEntries.slice().reverse().slice(0, 6).map((entry) => `<article class="comment-card scratchpad-entry">
+        <strong>${escapeHtml(scratchpadLabel(entry.scratchpad_type))}</strong>
+        <div class="content-meta">
+          <span>${escapeHtml(entry.commenter_name || "")} · ${escapeHtml(entry.created_at || "")}</span>
+          <span>${escapeHtml(entry.initial_classification || scratchpadClassification(entry.scratchpad_type))}</span>
+        </div>
+        <p>${escapeHtml(entry.comment_text || "")}</p>
+      </article>`).join("")
+    : "<p>No saved entries for this scratchpad tab yet.</p>";
+}
+
 function exportMetadata() {
   return {
     exported_at: new Date().toISOString(),
@@ -644,11 +766,41 @@ function exportMetadata() {
   };
 }
 
-function exportPayload() {
+function latestCommentCreatedAt(records = comments) {
+  return records
+    .map((comment) => comment.created_at)
+    .filter(Boolean)
+    .sort()
+    .at(-1) || null;
+}
+
+function commentsForExport() {
+  const scope = $("exportScopeSelect")?.value || "all";
+  if (scope !== "since-last") return comments.slice();
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
+  if (!lastLatest) return comments.slice();
+  return comments.filter((comment) => (comment.created_at || "") > lastLatest);
+}
+
+function exportPayload(records = commentsForExport()) {
   return {
-    export_metadata: exportMetadata(),
-    comments
+    export_metadata: {
+      ...exportMetadata(),
+      comment_count: records.length,
+      export_scope: $("exportScopeSelect")?.value || "all",
+      total_local_comment_count: comments.length
+    },
+    comments: records
   };
+}
+
+function markExportGenerated(format, records) {
+  const now = new Date().toISOString();
+  localStorage.setItem(STORAGE_KEYS.lastExportAt, now);
+  localStorage.setItem(STORAGE_KEYS.lastExportCount, String(comments.length));
+  localStorage.setItem(STORAGE_KEYS.lastExportLatestCreatedAt, latestCommentCreatedAt(comments) || "");
+  localStorage.setItem(STORAGE_KEYS.lastExportFormat, format);
+  renderExportStatus();
 }
 
 function download(filename, mimeType, body) {
@@ -665,50 +817,63 @@ function download(filename, mimeType, body) {
 
 function exportJson() {
   const name = slugName(getCommenterName());
+  const records = commentsForExport();
   download(
     `fractured-fate-comments-${name}-${timestampForFile()}.json`,
     "application/json",
-    JSON.stringify(exportPayload(), null, 2)
+    JSON.stringify(exportPayload(records), null, 2)
   );
+  markExportGenerated("json", records);
 }
 
 function exportJsonl() {
   const name = slugName(getCommenterName());
-  const body = comments.map((comment) => JSON.stringify(comment)).join("\n") + (comments.length ? "\n" : "");
+  const records = commentsForExport();
+  const body = records.map((comment) => JSON.stringify(comment)).join("\n") + (records.length ? "\n" : "");
   download(
     `fractured-fate-comments-${name}-${timestampForFile()}.jsonl`,
     "application/x-ndjson",
     body
   );
+  markExportGenerated("jsonl", records);
 }
 
 function markdownGroupKey(comment) {
+  if (comment.view_mode === "scratchpad") return `Scratchpad: ${scratchpadLabel(comment.scratchpad_type)}`;
   return comment.chapter_title || comment.current_file_path || "Unanchored";
 }
 
 function exportMarkdown() {
   const name = slugName(getCommenterName());
+  const records = commentsForExport();
   const groups = new Map();
-  for (const comment of comments) {
+  for (const comment of records) {
     const key = markdownGroupKey(comment);
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(comment);
   }
+  const metadata = exportPayload(records).export_metadata;
   const lines = [
     "# Fractured Fate Comments",
     "",
-    `- Exported at: ${exportMetadata().exported_at}`,
+    `- Exported at: ${metadata.exported_at}`,
     `- Commenter: ${getCommenterName() || "Reader"}`,
     `- Repo branch: ${appIndex.metadata?.branch || "unknown"}`,
     `- Repo commit: ${appIndex.metadata?.commit_hash || "unknown"}`,
-    `- Comment count: ${comments.length}`,
+    `- Export scope: ${metadata.export_scope}`,
+    `- Comment count: ${records.length}`,
     ""
   ];
   for (const [key, group] of groups) {
     lines.push(`## ${key}`, "");
     for (const comment of group) {
-      lines.push(`### ${comment.created_at}`);
+      lines.push(`### ${comment.id || comment.created_at}`);
       lines.push("");
+      lines.push(`- Timestamp: ${comment.created_at || ""}`);
+      lines.push(`- Commenter: ${comment.commenter_name || ""}`);
+      if (comment.view_mode === "scratchpad") {
+        lines.push(`- Scratchpad type: ${scratchpadLabel(comment.scratchpad_type)}`);
+      }
       lines.push(`- Layer: ${comment.current_layer || ""}`);
       lines.push(`- File: ${comment.current_file_path || ""}`);
       if (comment.chapter_id) lines.push(`- Chapter ID: ${comment.chapter_id}`);
@@ -729,6 +894,7 @@ function exportMarkdown() {
     "text/markdown",
     lines.join("\n")
   );
+  markExportGenerated("markdown", records);
 }
 
 function importJsonFile(file) {
@@ -760,6 +926,21 @@ function clearComments() {
     comments = [];
     saveComments();
   }
+}
+
+function entriesSinceLastExport() {
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
+  if (!lastLatest) return comments.length;
+  return comments.filter((comment) => (comment.created_at || "") > lastLatest).length;
+}
+
+function renderExportStatus() {
+  if (!$("lastExportStatus")) return;
+  const lastAt = localStorage.getItem(STORAGE_KEYS.lastExportAt);
+  const format = localStorage.getItem(STORAGE_KEYS.lastExportFormat);
+  $("lastExportStatus").textContent = `Last export generated: ${lastAt || "Never"}${format ? ` (${format})` : ""}`;
+  $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
+  $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
 }
 
 function isMobileLayout() {
@@ -842,8 +1023,11 @@ function renderCommentList() {
     .reverse()
     .map((comment) => {
       const target = comment.chapter_title || comment.current_file_path || "No target";
+      const label = comment.view_mode === "scratchpad"
+        ? `Scratchpad: ${scratchpadLabel(comment.scratchpad_type)}`
+        : target;
       return `<article class="comment-card">
-        <strong>${escapeHtml(target)}</strong>
+        <strong>${escapeHtml(label)}</strong>
         <div class="content-meta">
           <span>${escapeHtml(comment.commenter_name)} · ${escapeHtml(comment.created_at)}</span>
           <span>${escapeHtml(comment.current_layer || "")}</span>
@@ -858,6 +1042,7 @@ function wireEvents() {
   $("changeNameBtn").addEventListener("click", () => promptForName(true));
   $("readerNavBtn").addEventListener("click", () => setView("book-reader"));
   $("browserNavBtn").addEventListener("click", () => setView("repo-browser"));
+  $("scratchpadNavBtn").addEventListener("click", () => setView("scratchpad"));
   $("exportNavBtn").addEventListener("click", () => setView("export"));
   $("readerModeBtn").addEventListener("click", () => setMode("reader"));
   $("authorModeBtn").addEventListener("click", () => setMode("author"));
@@ -889,7 +1074,20 @@ function wireEvents() {
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
+  $("exportJsonlBtn").addEventListener("click", exportJsonl);
+  $("exportMarkdownBtn").addEventListener("click", exportMarkdown);
+  $("importCommentsInput").addEventListener("change", (event) => {
+    const file = event.target.files?.[0];
+    if (file) importJsonFile(file);
+    event.target.value = "";
+  });
   $("clearCommentsBtn").addEventListener("click", clearComments);
+  $("scratchContentTab").addEventListener("click", () => setScratchpadTab("content"));
+  $("scratchTechTab").addEventListener("click", () => setScratchpadTab("technical-processing"));
+  $("submitScratchpadBtn").addEventListener("click", submitScratchpad);
+  $("scratchpadText").addEventListener("input", (event) => {
+    localStorage.setItem(scratchpadDraftKey(), event.target.value);
+  });
   $("commentDrawerToggle").addEventListener("click", () => {
     setCommentDrawer(!$("commentBox").classList.contains("is-open"));
   });
@@ -903,7 +1101,13 @@ function wireEvents() {
     }
   });
   document.addEventListener("selectionchange", updateTargetDisplay);
-  window.addEventListener("scroll", updateTargetDisplay, { passive: true });
+  window.addEventListener("scroll", () => {
+    updateTargetDisplay();
+    window.clearTimeout(scrollSaveTimer);
+    scrollSaveTimer = window.setTimeout(() => {
+      localStorage.setItem(STORAGE_KEYS.scroll, String(approximateScrollPercent()));
+    }, 150);
+  }, { passive: true });
   window.addEventListener("resize", syncMobileCommentUi, { passive: true });
   window.addEventListener("resize", syncMobileReaderUi, { passive: true });
   window.addEventListener("resize", syncMobileBrowserUi, { passive: true });
@@ -923,15 +1127,32 @@ async function init() {
   }
   renderMetadata();
   const savedMode = localStorage.getItem(STORAGE_KEYS.mode);
+  currentScratchpadTab = localStorage.getItem(STORAGE_KEYS.scratchpadTab) === "technical-processing"
+    ? "technical-processing"
+    : "content";
   setMode(savedMode === "author" ? "author" : "reader");
   renderChapters();
   renderFileTree();
-  setView("book-reader");
+  const savedView = localStorage.getItem(STORAGE_KEYS.view);
+  const savedFile = localStorage.getItem(STORAGE_KEYS.file);
+  if (currentMode === "author" && savedView === "scratchpad") {
+    setView("scratchpad");
+  } else if (currentMode === "author" && savedView === "repo-browser" && savedFile && appContent.files?.[savedFile]) {
+    renderFile(savedFile);
+  } else {
+    setView("book-reader");
+  }
   syncMobileReaderUi();
   syncMobileCommentUi();
   renderBookmarkStatus();
   renderCommentCount();
   renderCommentList();
+  renderScratchpadUi();
+  renderExportStatus();
+  const savedScroll = Number(localStorage.getItem(STORAGE_KEYS.scroll));
+  if (Number.isFinite(savedScroll) && savedScroll > 0) {
+    window.setTimeout(() => scrollToPercent(savedScroll), 120);
+  }
 }
 
 init();
