@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The lower-level ticket checkpoint from `imports/raw/Lore (running addended version).txt` and web-app comment batch `2026-06-28-001` has been answered by the author and routed. Accepted low-level lore, cosmology, zän, and notation decisions have been stored. Candidate-only and deferred items remain in their ticket/source records. No manuscript prose or chapter-map state has been changed.
+The `d1-ch-29` current-draft map packet has been prepared and is awaiting author review. No manuscript prose has been changed.
 
 ## Next action
 
-Resume by preparing the `d1-ch-29` current-draft map packet. After one more approved current-draft map, run the next significant current-draft-map consistency review unless a broad issue requires it sooner.
+Wait for author review of `revision/current-draft-map/d1-ch-29.md`. After approval, finalize the map, update the chapter-map index and project state, validate, commit, push, and then run the significant current-draft-map consistency review through Chapter 29 before preparing Chapter 30.
 
 ## Awaiting author input
 
-None.
+Author review of `d1-ch-29` current-draft map packet.
 
 ## Workflow policy note
 
