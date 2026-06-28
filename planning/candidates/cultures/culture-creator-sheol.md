@@ -20,6 +20,8 @@ accepted_file: bible/cultures/culture-creator-sheol.md
 - Archeon throne-room stained glass remains accepted as prior High Clade Creator-worship residue.
 - The Niall/Serathis conversation about Death, Sheol, gods, the absent Creator, and the broken world is an accepted future confrontation direction, but exact dialogue remains in development.
 - Alara's good-God/spiritual orientation belongs to `char-alara`, not this culture-wide record.
+- The Creator has not truly abandoned reality; Elric's belief in abandonment is an important but flawed interpretation.
+- Nizän is accepted at the high level as a hungry substrate associated with zero, negation, void, Sheol-adjacent imagery, and the extraplanar threat.
 
 ## Preserved Cosmology Material
 
@@ -27,13 +29,13 @@ The true nature of the fractured fate of reality, Sheol, the Creator, the Skein,
 
 Current unresolved possibilities include:
 
-- The Creator as absent watchmaker who made the world and left.
+- Elric's and Serathis's belief in the Creator as absent watchmaker who made the world and left.
 - Reality as a created order that has become fractured or broken.
 - The first magus/original sin as the cause or key inflection point in reality's fracture.
 - Sheol as void, non-existence, outside-Skein planes, the place or condition of an extraplanar deity, or another hostile outside.
 - The Heart as connected to the Skein, reality fracture, an outside force, or a divine/cosmological remnant.
 - Nizän as zero/negation/void and possible connection to larger cosmology.
-- A good deity, evil god, dark god, extraplanar deity, Zerakh'tum, or other literal cosmological entity.
+- The exact nature of Zerakh'tum, the extraplanar deity, and whether characters understand Nizän as entity, substrate, place, force, or metaphor.
 - Selwin's possible final-series deity-killing role.
 
 ## Remaining Candidate Details

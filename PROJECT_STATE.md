@@ -10,8 +10,8 @@ Last updated: 2026-06-28
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `workflow: prioritize lower-level tickets before outline work`
-- Working tree expected to be clean: yes, after the ticket-priority workflow update is pushed
+- Latest relevant commit message: `source: route lore and web-app ticket decisions`
+- Working tree expected to be clean: yes, after the lower-level ticket routing commit is pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -21,7 +21,7 @@ Last updated: 2026-06-28
 - Approved current-draft maps since last chapter-map consistency review: 4
 - Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
-- Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
+- Consistency review due: no; next significant current-draft map review due after one more approved map or sooner if a broad issue appears
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The current checkpoint is ticket-queue review. New lower-level tickets created from `imports/raw/Lore (running addended version).txt` and web-app comment batch `2026-06-28-001` should be reviewed before returning to higher-level current-draft chapter mapping when they could affect story bible, basic lore, character, magic, terminology, location, object, chronology, or consistency decisions. No accepted canon, manuscript prose, or chapter-map state has been changed.
+The lower-level ticket checkpoint from `imports/raw/Lore (running addended version).txt` and web-app comment batch `2026-06-28-001` has been answered by the author and routed. Accepted low-level lore, cosmology, zän, and notation decisions have been stored. Candidate-only and deferred items remain in their ticket/source records. No manuscript prose or chapter-map state has been changed.
 
 ## Next action
 
-Present the prioritized lower-level ticket checkpoint from `feedback/source-intake/lore-running-addended-version-2026-06-28/tickets.md` and `feedback/webapp/tickets/2026-06-28-001/tickets.md`. After author answers are stored and any approved lower-level routing is complete, resume by preparing the `d1-ch-29` current-draft map packet.
+Resume by preparing the `d1-ch-29` current-draft map packet. After one more approved current-draft map, run the next significant current-draft-map consistency review unless a broad issue requires it sooner.
 
 ## Awaiting author input
 
-Author review of the first lower-level ticket checkpoint.
+None.
 
 ## Workflow policy note
 

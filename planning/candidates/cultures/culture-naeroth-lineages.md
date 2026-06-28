@@ -14,15 +14,20 @@ accepted_file: bible/cultures/culture-naeroth-lineages.md
 - This record focuses narrowly on Naeroth lineage; broader demi-human peoples/races belong to `culture-demi-human-peoples`.
 - Alara is Naeroth.
 - Maya and Selwin are mixed Rezin/Naeroth descendants.
+- Naerothi is a lineage among the six major lineages, not only a city or location label.
 - Naeroth are a rare exception to the dominant human-only magic assumption because they can produce Shrouds and rare fateweaving / Convergence-associated abilities.
+- Naerothi Fateweaving/Convergence knowledge was suppressed through taboo, fear, and record destruction; old pictographic or conceptual writing may preserve fragments.
+- Alara left Naerothi society legally and voluntarily as a high-status military or diplomatic figure.
 - Alara's accepted high-level ability package is Shroud + fateweaving + Convergence heat transfer.
 - Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level.
 - Selwin's mixed-heritage and Dissolution implications remain deferred.
 
 ## Remaining Candidate Details
 
-- Exact Naeroth origin, homeland, culture, social organization, language, and isolationism.
+- Exact Naerothi origin, homeland, culture, social organization, language, and isolationism.
 - Whether Naeroth should be called demi-human, non-human, lineage, people, or another in-world term.
+- Exact Fateweaving taboo, record destruction, old writing, and lost-lore transmission details.
+- Exact Alara title, command structure, and departure circumstances.
 - Exact physical traits beyond Alara's fully purple eyes and Maya's purple eye rings.
 - Exact Fateweaving / Convergence / Shroud inheritance mechanics.
 - Exact relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution.

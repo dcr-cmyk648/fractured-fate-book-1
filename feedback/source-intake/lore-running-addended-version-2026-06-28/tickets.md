@@ -1,21 +1,21 @@
 # Author-Question Tickets: Lore (running addended version)
 
-Status: proposed; awaiting author review.
+Status: lower-level tickets routed by author decision on 2026-06-28. Higher-level chapter/candidate tickets remain deferred.
 
 These tickets are derived from `imports/raw/Lore (running addended version).txt`. The source document is useful but outdated. Nothing here is canon or an accepted revision until approved through the normal workflow.
 
 | Ticket ID | Priority | Type | Proposed routing | Requires author decision |
 |---|---|---|---|---|
-| LORE-2026-06-28-001 | high | story-bible-review | Naeroth / Alara / Fateweaving | yes |
-| LORE-2026-06-28-002 | high | story-bible-review | Cosmology / Creator / Sheol / Nizän | yes |
-| LORE-2026-06-28-003 | high | story-bible-review | Magic origins / Shroud / Kinesis | yes |
-| LORE-2026-06-28-004 | medium | story-bible-review | Abyssal / Unwoven / Eclipsed / Threadblights | yes |
-| LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | yes |
-| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | yes |
-| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | yes |
-| LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | yes |
-| LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | yes |
-| LORE-2026-06-28-010 | medium | consistency-check | Obsolete terminology and stale lore quarantine | no |
+| LORE-2026-06-28-001 | high | story-bible-review | Naeroth / Alara / Fateweaving | resolved; accepted high-level boundary stored |
+| LORE-2026-06-28-002 | high | story-bible-review | Cosmology / Creator / Sheol / Nizän | resolved; accepted high-level boundary stored |
+| LORE-2026-06-28-003 | high | story-bible-review | Magic origins / Shroud / Kinesis | resolved; narrow high-level boundary stored; old taxonomy rejected |
+| LORE-2026-06-28-004 | medium | story-bible-review | Abyssal / Unwoven / Eclipsed / Threadblights | resolved; candidate-only |
+| LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | resolved; accepted constraints and candidate taxonomy stored |
+| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | deferred |
+| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | deferred |
+| LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | deferred |
+| LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | deferred |
+| LORE-2026-06-28-010 | medium | consistency-check | Obsolete terminology and stale lore quarantine | resolved; quarantine rule preserved |
 
 ## LORE-2026-06-28-001: Naeroth as Suppressed Fateweaving Source
 
@@ -24,11 +24,14 @@ These tickets are derived from `imports/raw/Lore (running addended version).txt`
 - Type: story-bible-review
 - Proposed routing: `char-alara`, `culture-naeroth-lineages`, `magic-fateweaving-skein`, future Naeroth record if needed
 - Blocking: unknown
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; accepted high-level boundary stored by `decisions/0074-source-intake-lore-and-webapp-ticket-routing.md`
 
 Question: How much of the Naeroth lost-lore model should be preserved for Book 1 and future outline work?
 
-Candidate material: Naeroth is Alara's homeland; its Convergence/Fateweaving knowledge was suppressed through taboo and record destruction; old pictographic/conceptual writing preserves fragments; Fateweaving/Threads/resurrection are forbidden topics; Alara left legally and voluntarily as a high-status military/diplomatic figure.
+Older-source candidate material: the source framed Naeroth as Alara's homeland; the accepted correction is that Naerothi is a lineage among the six major lineages. Preserve Convergence/Fateweaving knowledge suppression through taboo and record destruction, old pictographic/conceptual writing fragments, forbidden Fateweaving/Threads/resurrection topics, and Alara leaving legally and voluntarily as a high-status military/diplomatic figure.
+
+Disposition: Preserve the general pieces about Fateweaving taboo, written language, Alara's departure, and source of Convergence/Fateweaving. Correct the lineage frame: Naerothi is a lineage among the six races rather than just a city/location. Exact cultural details remain deferred.
 
 Why it matters: This could explain Alara's authority, the danger of Fateweaving, why Maya lacks clear instruction, and where later cosmology evidence comes from.
 
@@ -39,11 +42,14 @@ Why it matters: This could explain Alara's authority, the danger of Fateweaving,
 - Type: story-bible-review
 - Proposed routing: `culture-creator-sheol`, `thread-elric-reality-skein`, `magic-fateweaving-skein`, future endgame outline
 - Blocking: unknown
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; accepted high-level boundary stored by `decisions/0074-source-intake-lore-and-webapp-ticket-routing.md`
 
 Question: Which parts of the Creator-withdrawal / Sheol / Nizän model are true cosmology, which are Elric's interpretation, and which should remain candidate-only?
 
 Candidate material: Elric may believe the Creator withdrew, the Nizän/Deep is the hungry substrate exposed by that withdrawal, Zerakh'tum bargained with it, and reality is being fed to it. The ticket also preserves the alternate possibility that the Creator never abandoned reality and Elric's destructive conclusion is a despair-driven misinterpretation.
+
+Disposition: Nizän as hungry substrate and the Creator not truly abandoning reality are true at the high level. Elric's Creator-abandonment model is canonically important to his character and worldview, but flawed as literal cosmology. Exact mechanics remain deferred.
 
 Why it matters: This affects endgame metaphysics, Elric's motive, Selwin/Maya's future role, and how much cosmic truth can appear in Book 1.
 
@@ -54,11 +60,14 @@ Why it matters: This affects endgame metaphysics, Elric's motive, Selwin/Maya's 
 - Type: story-bible-review
 - Proposed routing: `magic-shroud`, `magic-subversion`, `magic-convergence-heat-transfer`, `org-archeon`, `thread-elric-reality-skein`
 - Blocking: unknown
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; narrow high-level boundary stored; detailed older taxonomy rejected/deferred
 
 Question: Should the two-line magic architecture be preserved as the underlying model: older energy-redirection/original magic plus post-original-sin reality-softened hereditary magic?
 
 Candidate material: Shrouds may be an interface between older kinesis-like energy transformation and hereditary magic; Archeon partly understands this and exploits it; Maya may eventually infer the Clade narrative is built on misunderstanding or obfuscation.
+
+Disposition: Most detailed old-source taxonomy is dated and not accepted. Preserve only the high-level truth that the original sin softened reality, allowing modern Clade magi to wield extremely overpowered and unbalanced magic. Older or primeval magic being more balanced is also accepted at the high level.
 
 Why it matters: This could unify Shrouds, kinesis/Subversion, Archeon combat, Davian's unusual manifestation, and Maya's later discoveries.
 
@@ -69,11 +78,14 @@ Why it matters: This could unify Shrouds, kinesis/Subversion, Archeon combat, Da
 - Type: story-bible-review
 - Proposed routing: future cosmology/endgame candidate file; `thread-elric-reality-skein`; `magic-fateweaving-skein`
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; candidate-only labels
 
 Question: Are `Abyssal`, `Unwoven`, `Eclipsed`, and `Threadblights` useful in-world categories, later-series mythology, or obsolete/candidate-only labels?
 
 Candidate material: Resurrection and unsafe Fateweaving create damaged states; Elric may be an Eclipsed case; Threadblights may be manifestations of reality failure rather than living beings.
+
+Disposition: Keep `Abyssal`, `Unwoven`, `Eclipsed`, and `Threadblights` as candidate-only labels. The general concept of Elric as a combination of damaged/unwoven/Ink-preserved/fate-corrupted states is accurate, but the specific taxonomy and cosmology remain speculative.
 
 Why it matters: These terms could be powerful but may overload Book 1 if surfaced too early.
 
@@ -84,11 +96,14 @@ Why it matters: These terms could be powerful but may overload Book 1 if surface
 - Type: story-bible-review
 - Proposed routing: `magic-zan-lattices`, `culture-number-system-zan-script`, `char-zirene`, `org-archeon`
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; accepted reproduction constraints and candidate taxonomy stored
 
 Question: How much of the detailed zän component taxonomy should be kept versus left as technical candidate material?
 
 Candidate material: zän are circuit components with material-specific functions; miniaturization is expensive and difficult; Naeroth may preserve advanced shaping-oriented zän techniques; possible six core forms include grounding, storage, restraint, conduction, timing, and filtering.
+
+Disposition: Keep the six-core taxonomy as candidate technical material. Accept the high-level constraint that ancient-style, miniaturized, and Zirene-level zänwork require greater technical skill, smaller detail, specialized tooling, and expensive/exacting materials.
 
 Why it matters: This can support Treasury work, Zirene's uniqueness, Archeon knockoffs, and everyday zän use without requiring exhaustive technical canon.
 

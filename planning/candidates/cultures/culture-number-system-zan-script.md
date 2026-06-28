@@ -12,12 +12,13 @@ accepted_file: bible/cultures/culture-number-system-zan-script.md
 ## Resolved by Approved Culture Record
 
 - Accepted spelling uses accents: `zän` singular/root, `zä` plural, and `zänwright`.
-- The prior `zä` / `zän` / `zänwright` convention is superseded.
+- The prior acute-accent `zá` / `zán` / `zánwright` convention is superseded.
 - The culture uses a base-6 number system.
 - The number system is culturally central and structurally linked to zän lattice design through the strike-line.
 - Nizän is the zän of zero / negation / void.
 - Nizän is used numerically only when the value itself is absolutely nothing / zero.
-- Ordinary multi-digit empty place values use no mark, an absent strike-line segment, or a small notch rather than Nizän.
+- Ordinary multi-digit empty place values use a lengthened blank segment or a small intentional notch rather than Nizän, so longer values cannot be confused with shorter numbers.
+- A six-day week may be called a `hexday`.
 - Nizän has no strike-line and is visually two sets of overlapping parallel lines leaving a diamond-shaped empty center.
 - Monad/monadic and dyad/dyadic terminology is accepted at the high level.
 
@@ -30,7 +31,7 @@ Preserve for later visual/chart documentation:
 - exact cross-line shapes for values 0-5
 - how each value attaches to or crosses the strike-line
 - how longer numbers are strung together on one long strike-line
-- whether blank place values use no strike-line continuation, a small notch, or context-dependent notation
+- exact visual convention for lengthened blank segments and intentional notches
 - how the chart should be represented in future reference art or manuscript explanation
 
 ## Phonemes, Dialects, and Hand Signs

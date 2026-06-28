@@ -35,10 +35,12 @@ This file preserves unresolved execution and mechanics for the approved Elric/Sk
 
 ## Deferred Cosmology
 
-- Exact truth of Sheol.
+- Exact truth and in-world language of Sheol.
 - Exact relationship among the Creator, first magus, original sin, the Skein, Heart, Nizän, Sheol, higher planes, and the extraplanar deity.
 - Exact nature of the reality fracture.
 - Exact role of Alara's higher-plane state in the endgame, if any.
+
+Accepted high-level boundary: the Creator has not truly abandoned reality, Nizän is a hungry substrate, and Elric's Creator-abandonment model is a flawed but character-defining interpretation.
 
 ## Staging Candidates
 

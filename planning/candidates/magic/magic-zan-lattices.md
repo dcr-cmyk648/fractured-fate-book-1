@@ -55,6 +55,19 @@ Defer to more specific review:
 - tarot-like ancient zän experience
 - how much ancient symbolic meaning modern practical systems preserve
 
+## Component Taxonomy
+
+The six-core-form taxonomy remains candidate technical material rather than definitive canon.
+
+Preserve as possible zän component categories:
+
+- grounding
+- storage
+- restraint
+- conduction
+- timing
+- filtering
+
 ## Person-Specific Zän
 
 Zirene raises the conceptual issue of whether people have a zän in the same way they have names and auras.
@@ -104,6 +117,8 @@ Still unresolved:
 
 Accepted high level: Zirene is an advanced zänwright tied to Niall's metals, Davian's bands, Archeon-derived technology, and Antithesis lineage.
 
+Accepted high-level constraint: ancient-style, miniaturized, and Zirene-level zänwork require greater technical ability, smaller detail, specialized tooling, and expensive or exacting materials. Archeon knockoffs are materially inferior because they copy design concepts without fully reproducing Zirene's skill or materials.
+
 Still unresolved:
 
 - exact Davian band mechanics and whether they should remain black iron or change material
@@ -112,6 +127,7 @@ Still unresolved:
 - exact force-buffer and transfer technology
 - exact Antithesis mechanics and relation to Zirene's older/prototypical designs
 - whether Zirene learned any technique from Ink or merely recognized Ink-like principles
+- possible later Archeon zänwright who helps Kelyra make more anti-Clade zän-tech
 
 ## Naeroth and Historical Development
 

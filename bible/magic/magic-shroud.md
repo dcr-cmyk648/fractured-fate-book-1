@@ -16,6 +16,8 @@ The Shroud is a magus defensive field and reflex. It manifests around the body a
 
 Shrouds are separate from hereditary magic. Culturally, and in most magi's practical awareness, Shrouds and hereditary magic are treated as part and parcel of the same magus package: lineage, Shroud, Presentation, and inherited magical ability.
 
+At the hidden-system level, the original sin softened reality and enabled the extremely overpowered and unbalanced magic wielded by modern Clade magi. The older or primeval magical condition was more balanced, but detailed older-source taxonomies are not accepted unless separately reviewed.
+
 ## Technical Model
 
 The Shroud's practical ability to protect a user depends primarily on:
@@ -108,6 +110,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Canonical Uncertainties
 

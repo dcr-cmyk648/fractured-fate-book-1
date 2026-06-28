@@ -34,6 +34,8 @@ Convergence's accepted owner record defines it as Naerothi-linked heat-transfer 
 
 Alara was a capable anti-Elarion commander or war leader before joining Niall.
 
+Accepted high-level direction: Alara left Naerothi society legally and voluntarily as a high-status military or diplomatic figure. Exact title, command structure, homeland politics, and formal departure terms remain deferred.
+
 She opposed Elarion's High Clade caste logic, especially its obsession with magical killing potential and the expendability of soldiers.
 
 Niall was already a hopeful reformer before Alara. He had some similarity to very young Elric in that respect, and Elric likely allowed Niall to pass through that phase in the hope that Niall would eventually turn toward Elric's goals.
@@ -112,6 +114,7 @@ Current manuscript material establishes Alara through:
 - Decision record: [Alara Naerothi Role, Spirituality, and Death Direction](../../decisions/0045-alara-naerothi-role-spirituality-and-death-direction.md)
 - Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Canonical Uncertainties
 

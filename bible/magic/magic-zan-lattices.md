@@ -26,7 +26,9 @@ Each zän is a component with meaning and function. Multiple zä connect into a 
 
 The base-6 number system is structurally linked to zän design. The strike-line running through numbers and characters conducts energy between zä in a lattice. Orientation, marks, and connected lines can change how energy moves through the system.
 
-Advanced zänwork depends on physical craft, tooling, scale, and the representational fit between sign, material, target, and intended effect.
+Advanced zänwork depends on physical craft, tooling, scale, materials, and the representational fit between sign, material, target, and intended effect.
+
+Ancient-style, miniaturized, or Zirene-level zänwork is hard to reproduce because it requires greater technical skill, smaller detail, specialized tooling, and expensive or exacting materials. This is one reason Zirene's best work is not easily copied and why Archeon imitations remain inferior.
 
 ## Modern and Ancient Zänwork
 
@@ -70,7 +72,7 @@ Antithesis is an attempted Archeon copy of older Zirene designs. It functions as
 
 Paradox is the normal sword made by Zirene from ruined Antithesis according to Maya's design. It inherits and improves Antithesis's schema-sink/anchor role, with greater mass and surface area to absorb, redirect, buffer, or burn off kinesis backlash.
 
-Exact gauntlet mechanics, low-level Antithesis/Paradox circuitry, force-buffer limits, and Archeon kinesis extensions remain for later reviews.
+Exact gauntlet mechanics, low-level Antithesis/Paradox circuitry, force-buffer limits, and Archeon kinesis extensions remain for later reviews. A possible later Archeon zänwright helping Kelyra build more anti-Clade zän-tech remains future/candidate material.
 
 ## Language and Signs
 
@@ -91,6 +93,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïzä`, and archetypal 
 - Exact Registry/Treasury/Heart power path remains unresolved beyond the accepted Treasury chamber function that Heart/containment-armature interaction produces non-Registry-operated weightlessness.
 - Exact Niall silver conduit mechanics remain unresolved.
 - Exact low-level Zirene/Archeon/Antithesis/Paradox object circuitry and gauntlet mechanics remain unresolved.
+- Exact six-part zän component taxonomy remains candidate technical material.
 - Exact Naeroth influence on zänwork remains for later culture reviews.
 - Exact archetypal zän such as the Tyrant remain candidate material.
 
@@ -124,6 +127,7 @@ Detailed language history, base-6 notation, `Nizän` / `nïzä`, and archetypal 
 - Decision record: [Treasury Placement and Containment Function](../../decisions/0027-treasury-placement-and-containment-function.md)
 - Decision record: [Heart Name, Containment, and Skein Links](../../decisions/0032-heart-name-containment-and-skein-links.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Provenance
 

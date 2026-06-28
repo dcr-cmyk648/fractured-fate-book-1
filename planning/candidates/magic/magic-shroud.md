@@ -39,6 +39,12 @@ Archeon/Naeroth-adjacent body training may help internalize instincts needed for
 
 Exact mechanics remain for Archeon, Naeroth, martial training, and magic-system reviews.
 
+## Older Magic-Origin Notes
+
+Accepted high-level boundary: the original sin softened reality and allowed modern Clade magic to become extremely overpowered and unbalanced. Older or primeval magic being more balanced is true at the high level.
+
+Older source-file implications about exact Shroud architecture, original-magic taxonomy, or direct two-system interfaces are dated and should not override the current Shroud, Kinesis, Ink, and Convergence owner files unless separately reopened.
+
 ## Kinesis Interaction
 
 Exact kinesis/Shroud interaction remains candidate.

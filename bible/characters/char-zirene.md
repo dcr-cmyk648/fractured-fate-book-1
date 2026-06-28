@@ -50,6 +50,8 @@ She thinks modern terminology has decayed and simplified older systems. Symbols 
 
 She treats high-level attached zänwork as needing to represent or understand the person it is attached to. This connects her work to name, aura, identity, body, and the practical limits of miniaturization and tooling.
 
+Zirene-level work is hard to reproduce because it depends on unusually high technical skill, small detail, specialized tooling, and expensive or exacting materials. This is why her best work remains rare and why Archeon copies are below her standard.
+
 ## Device Boundaries
 
 ### Niall's Silver
@@ -125,6 +127,7 @@ She does not know or approve Elric's full plan.
 - Related object: [Paradox](../objects/object-paradox.md)
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Canonical Uncertainties
 

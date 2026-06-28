@@ -4,4 +4,4 @@ Source-intake records preserve non-definitive material that the author has added
 
 | Intake ID | Source | Status | Summary | Tickets |
 |---|---|---|---|---|
-| lore-running-addended-version-2026-06-28 | `imports/raw/Lore (running addended version).txt` | proposed tickets created | Older but useful lore document covering Naeroth, cosmology, magic origins, zän, martial arts, clothing, and geography | [tickets](lore-running-addended-version-2026-06-28/tickets.md) |
+| lore-running-addended-version-2026-06-28 | `imports/raw/Lore (running addended version).txt` | lower-level tickets routed; higher-level tickets deferred | Older but useful lore document covering Naeroth, cosmology, magic origins, zän, martial arts, clothing, and geography | [tickets](lore-running-addended-version-2026-06-28/tickets.md) |

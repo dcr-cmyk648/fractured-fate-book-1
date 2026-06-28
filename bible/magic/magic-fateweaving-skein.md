@@ -56,6 +56,8 @@ Naeroth heritage can rarely grant fateweaving and Convergence heat transfer desp
 
 Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level. Exact inheritance mechanics and the relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remain deferred.
 
+Naerothi culture preserves traces of older Fateweaving and Convergence knowledge, but that knowledge has been suppressed by taboo, fear, and record destruction. Old pictographic or conceptual writing may preserve fragments. Exact texts, training traditions, and cultural mechanisms remain deferred.
+
 This file stores Alara's fateweaving and Convergence only at high level. Convergence's accepted owner record defines it as Naerothi-linked heat-transfer magic that manipulates heat flow rather than creating heat. Detailed Alara usage belongs to `char-alara`, `magic-convergence-heat-transfer`, and Naeroth culture reviews.
 
 At the hidden cosmology level, Alara is likely trapped in a higher plane after going there to try to kill the extraplanar deity. No Book 1 character knows this, and it should remain mostly invisible except possibly during Maya's end-book resurrection of Davian and contact with higher planes.
@@ -70,7 +72,7 @@ His fate sight is accepted as real and is at least somewhat linked to exposure t
 
 Elric's fall is tied to idealism, perfectionism, and rigidity being twisted by his inability to accept imperfect reality. He learned that reality was fractured after the original sin of the first magus and chose negation rather than an imperfect world.
 
-The original sin / first magus / fractured reality backstory is accepted here at a high level because it links directly to Elric's reality/Skein endgame. Detailed cosmology remains for later world-history, Heart, and Skein reviews.
+The original sin / first magus / fractured reality backstory is accepted here at a high level because it links directly to Elric's reality/Skein endgame. The original sin softened reality, allowing the extremely overpowered and unbalanced hereditary magic wielded by modern Clade magi. Older or primeval magic was more balanced, but specific taxonomies and implications from older notes are not accepted unless separately reviewed. Detailed cosmology remains for later world-history, Heart, and Skein reviews.
 
 ## Accepted Future Plan
 
@@ -90,7 +92,8 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Exact resurrection cost and reality-damage mechanics remain unresolved.
 - Exact Fateweaving / Convergence relationship remains unresolved.
 - Exact relationship among Elric's codex tampering, Ink persistence, Heart exposure, and fate-thread sight remains unresolved.
-- Larger cosmology beyond the Skein remains candidate material.
+- The high-level cosmology that Nizän is a hungry substrate and that the Creator has not truly abandoned reality is accepted, while exact mechanics and in-world language remain deferred.
+- Larger cosmology beyond that high-level boundary remains candidate material.
 - Skein-layer zän or reality-layer etching remains candidate for later cosmology or advanced-zän review.
 - Whether Niall's fear of fateweaving is correct, partly correct, or projection from Alara/Elric trauma remains unresolved.
 
@@ -118,6 +121,7 @@ Elric's endgame uses Niall, Davian, Maya, the Heart, Ink, and resurrection to da
 - Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 - Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Provenance
 

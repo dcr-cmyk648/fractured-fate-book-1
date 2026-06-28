@@ -52,7 +52,7 @@ When Maya sees the `eye` of the extraplanar deity at the conclusion of Book 1 wh
 
 Longer numbers are strung along a longer strike-line with multiple crossing marks.
 
-A value equivalent to decimal 6 would be conceptually written as a base-6 `10`, but the in-world notation would look more like a first position marked for value 1 followed by an intentionally blank second position. That second empty value is not normally written with Nizän; it may use no strike-line extension or a small notch that indicates the place is intentionally blank.
+A value equivalent to decimal 6 would be conceptually written as a base-6 `10`, but the in-world notation would look more like a first position marked for value 1 followed by an intentionally blank second position. That second empty value is not normally written with Nizän; it should use a lengthened blank segment or a small intentional notch so the notation cannot be confused with a shorter number.
 
 Nizän is used numerically only when the value itself is absolutely nothing / zero.
 
@@ -76,6 +76,8 @@ Haloes use a center zän to indicate value within a metal tier. Those marks run 
 
 The 36-day month and the Moon value for a 6-gold halo reinforce the base-6 cultural structure.
 
+A six-day week may be called a `hexday`.
+
 ## Canonical Uncertainties
 
 - The author's detailed digit chart is canon to the author, but the exact drawn chart is not reproduced in this repository yet.
@@ -95,6 +97,7 @@ The 36-day month and the Moon value for a 6-gold halo reinforce the base-6 cultu
 - Related culture: [Creator / Sheol / gods and religious language](culture-creator-sheol.md)
 - Decision record: [Zän Number System, Nizän, and Script Terminology](../../decisions/0042-zan-number-system-nizan-and-script-terminology.md)
 - Decision record: [Zän Spelling Convention Correction](../../decisions/0051-zan-spelling-convention-correction.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Provenance
 

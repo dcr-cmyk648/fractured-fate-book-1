@@ -73,12 +73,16 @@ Candidate questions:
 
 The Skein is accepted as real, but larger cosmology remains candidate.
 
+Accepted high-level boundary from source-intake review: Nizän is a hungry substrate and the Creator has not truly abandoned reality. Elric's belief that the Creator abandoned reality is canonically important to his psychology, but flawed as literal cosmology.
+
 Preserve:
 
 - beach/shore imagery
 - moon/eye imagery
 - dark ocean imagery
 - threadblights
+- candidate-only labels such as Abyssal, Unwoven, Eclipsed, and Threadblights
+- Elric as some combination of damaged, unwoven, Ink-preserved, and fate/reality-corrupted states, without locking the taxonomy
 - whether the Skein is only one layer or one "grain" in a larger reality
 - whether larger cosmology belongs in Book 1 or later books
 
@@ -94,6 +98,12 @@ Possibilities to preserve:
 - a broader Naeroth training foundation that can express in multiple abilities
 
 Route detailed mechanics to `magic-convergence-heat-transfer`, `char-alara`, and Naeroth culture reviews.
+
+## Older Magic-Origin Taxonomies
+
+The accepted high-level principle is that the original sin softened reality and enabled the overpowered, unbalanced hereditary magic wielded by modern Clade magi. Older or primeval magic being more balanced remains true at the high level.
+
+Most detailed older-source taxonomies about original magic, Shroud architecture, Subversion, Kinesis, and specific lineages are dated and should not override the current story bible unless separately reopened.
 
 ## Niall's Fear
 

@@ -24,6 +24,8 @@ Elric was once an idealist who believed society could be reformed. His perfectio
 
 He comes to see suffering as the ultimate state of existence. Because perfection is impossible, he decides negation is preferable.
 
+Elric's belief that the Creator withdrew or abandoned reality is canonically important to his worldview, but it is a flawed interpretation. The high-level hidden cosmology is that the Creator has not truly abandoned reality and that Nizän is a hungry substrate associated with zero, negation, void, and the extraplanar threat. Exact mechanics remain deferred.
+
 ## Manipulation Pattern and Theme
 
 Elric sees strands of fate tied to people acting out trauma, negative impulses, compulsions, and paths of least resistance. His sight is real, and Elric likely experiences fate as mostly deterministic, especially where trauma is concerned.
@@ -76,7 +78,7 @@ This framing should be revealed very late, when Maya is about to resurrect Davia
 - Exact resurrection cost.
 - Exact Heart/Skein/fateweaving interaction during resurrection.
 - Exact reality-damage mechanics.
-- Exact truth of Sheol, Nizän, extraplanar deity, higher planes, and original-sin cosmology.
+- Exact mechanics of Sheol, Nizän, the extraplanar deity, higher planes, and original-sin cosmology beyond the accepted high-level boundary.
 - Exact staging of Elric's six-strand speech.
 
 ## Related Files
@@ -90,6 +92,7 @@ This framing should be revealed very late, when Maya is about to resurrect Davia
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 - Related accepted character: [Davian](../../bible/characters/char-davian.md)
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)

@@ -12,25 +12,27 @@ candidate_file: planning/candidates/cultures/culture-naeroth-lineages.md
 
 ## Identity
 
-This record owns the Naeroth lineage as it matters to Book 1's story bible: Alara, Maya, Selwin, High Clade prejudice, and rare fate/Convergence exceptions.
+This record owns the Naerothi lineage as it matters to Book 1's story bible: Alara, Maya, Selwin, High Clade prejudice, and rare fate/Convergence exceptions.
 
-Broader demi-human peoples, race taxonomy, mercenary roles, and non-Naeroth social structures belong to `culture-demi-human-peoples`.
+Broader demi-human peoples, race taxonomy, mercenary roles, and non-Naerothi social structures belong to `culture-demi-human-peoples`.
 
 ## Core Facts
 
-Alara is Naerothi, meaning of Naeroth descent.
+Alara is Naerothi, meaning of Naerothi lineage or descent. Naerothi is one of the six major lineages rather than only a city or location label.
 
 Maya and Selwin are mixed Rezin/Naerothi descendants through Alara and Niall.
 
-Naeroth are non-human or demi-human enough to trigger prejudice in High Clade society. Maya receives racist sentiment outside Rezin influence because of her Naeroth heritage, though people are afraid to go too far because of Niall and because insulting Maya implies insulting Alara.
+Naerothi are non-human or demi-human enough to trigger prejudice in High Clade society. Maya receives racist sentiment outside Rezin influence because of her Naerothi heritage, though people are afraid to go too far because of Niall and because insulting Maya implies insulting Alara.
 
 Davian has heard enough racist or cultural claims about Naeroth demi-humans to worry that his attraction to Maya might be unnatural or magically compelled. This is Davian's misconception and anxiety, not objective truth.
 
 ## Magic Exception
 
-Naeroth are a rare exception to the dominant High Clade cultural assumption that Shrouds and hereditary magic belong only to humans.
+Naerothi are a rare exception to the dominant High Clade cultural assumption that Shrouds and hereditary magic belong only to humans.
 
-Naeroth can produce Shrouds and rare fateweaving / Convergence-associated abilities.
+Naerothi can produce Shrouds and rare fateweaving / Convergence-associated abilities.
+
+Naerothi culture preserves traces of older Fateweaving and Convergence knowledge, but much of that knowledge is suppressed by taboo, record destruction, and fear of unsafe Fateweaving. Old pictographic or conceptual writing may preserve fragments of this lost lore. Exact source texts, institutions, and cultural practices remain deferred.
 
 Alara's accepted high-level ability package is:
 
@@ -40,6 +42,10 @@ Alara's accepted high-level ability package is:
 
 The Convergence owner record accepts Convergence as Naerothi-linked heat-transfer magic that manipulates heat flow rather than creating heat from nothing. Exact Fateweaving/Convergence/Shroud inheritance mechanics remain deferred.
 
+## Alara's Departure
+
+Accepted high-level direction: Alara left Naerothi society legally and voluntarily as a high-status military or diplomatic figure. Exact title, homeland politics, command structure, and the terms of that departure remain deferred.
+
 ## Maya and Selwin
 
 Maya's purple eye rings and emerging fate/Skein perception are tied to Naeroth heritage at the high level.
@@ -48,8 +54,8 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 
 ## Canonical Uncertainties
 
-- Exact Naeroth origin, homeland, culture, social organization, language, and isolationism remain unresolved.
-- Whether Naeroth should be called demi-human, non-human, lineage, people, or another in-world term remains unresolved. `Naerothi` is accepted for someone of Naeroth descent.
+- Exact Naerothi origin, homeland, culture, social organization, language, and isolationism remain unresolved.
+- Whether Naerothi should be called demi-human, non-human, lineage, people, or another in-world term in-world remains unresolved. `Naerothi` is accepted for someone of Naerothi descent.
 - Exact physical traits beyond Alara's fully purple eyes and Maya's purple eye rings remain deferred.
 - Exact Fateweaving / Convergence / Shroud inheritance mechanics remain unresolved.
 - Exact relationship among Alara's abilities, Maya's abilities, and Selwin's Dissolution remains unresolved.
@@ -72,6 +78,7 @@ Selwin's mixed-heritage and Dissolution implications remain deferred. He is acce
 - Decision record: [Naeroth Lineage and Magic Exception](../../decisions/0039-naeroth-lineage-and-magic-exception.md)
 - Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Provenance
 

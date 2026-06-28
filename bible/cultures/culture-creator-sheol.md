@@ -42,13 +42,19 @@ The Niall/Serathis conversation about Death, Sheol, gods, the absent Creator, an
 
 That conversation is one place where the Elric/Serathis cosmology can surface: the Creator as absent watchmaker and reality as a now-broken created order. This worldview underlies Elric's psychotic depression.
 
+## Hidden Cosmology Boundary
+
+At the high level, the Creator has not truly abandoned reality. Elric's belief that the Creator withdrew or abandoned the created order is canonically important to his character and worldview, but it is a flawed interpretation rather than the literal truth.
+
+At the high level, Nizän is a hungry substrate associated with zero, negation, void, Sheol-adjacent imagery, and the extraplanar threat. Exact mechanics, religious language, and whether any character can accurately describe this remain deferred.
+
 ## Canonical Uncertainties
 
 - The true nature of the fractured fate of reality remains unresolved but important.
 - The literal nature of Sheol remains vague.
 - Whether Sheol is void, non-existence, outside-Skein planes, an extraplanar-deity realm, or something else remains unresolved.
 - The exact relationship among the Creator, first magus, original sin, the Skein, Heart, Nizän, Sheol, and reality fracture remains deferred.
-- Whether there is a good deity, evil god, dark god, extraplanar deity, Nizän entity, Zerakh'tum, or other literal cosmological force remains unresolved.
+- The exact nature of Zerakh'tum, the extraplanar deity, and whether in-world characters understand Nizän as entity, substrate, place, force, or metaphor remains unresolved.
 - Alara's personal good-God/spiritual orientation belongs to `char-alara`, not this culture-wide record.
 - Exact religious institutions, worship practices, clergy, holidays, doctrine, and modern distribution of belief remain deferred.
 
@@ -63,6 +69,7 @@ That conversation is one place where the Elric/Serathis cosmology can surface: t
 - Related character: [Niall Rezin](../characters/char-niall.md)
 - Related location: [Archeon](../locations/loc-archeon.md)
 - Decision record: [Creator, Sheol, and Watchmaker Cosmology](../../decisions/0041-creator-sheol-and-watchmaker-cosmology.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Provenance
 

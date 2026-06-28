@@ -36,7 +36,7 @@ The true root of Archeon power is a constructed overlap of abilities and tools t
 - rigorous martial arts
 - for less accomplished practitioners, technology derived from Zirene's designs to help buffer and transfer force
 
-Antithesis is one such attempted Archeon copy of older Zirene designs. It is a dagger-schema-sink/anchor design related in concept to Archeon combat equipment, but it is not a direct precursor to the gauntlets; Archeon later favored gauntlets because they were easier for low-skill magi to use without changing their fighting style as much.
+Antithesis is one such attempted Archeon copy of older Zirene designs. It is a dagger-schema-sink/anchor design related in concept to Archeon combat equipment, but it is not a direct precursor to the gauntlets; Archeon later favored gauntlets because they were easier for low-skill magi to use without changing their fighting style as much. Archeon knockoffs remain inferior to Zirene-level work because the original techniques require greater skill, smaller detail, and more exacting materials than Archeon can routinely reproduce.
 
 Kinesis is short-range, primarily kinetic redirection of energy. Because Archeon's kinesis is closer to original magic, it requires more balance and less simple reality-bending force than most refined High Clade magic. Exact Shroud interaction, tremorsense/kinetic sensitivity, and tool mechanics remain for later reviews.
 
@@ -133,6 +133,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Related arc: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+- Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 
 ## Canonical Uncertainties
 
