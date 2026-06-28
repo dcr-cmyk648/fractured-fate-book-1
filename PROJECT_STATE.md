@@ -10,15 +10,15 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 27 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-28` current-draft map packet is prepared, committed, and pushed
+- Latest relevant commit message: `revision: approve Chapter 28 current draft map`
+- Working tree expected to be clean: yes, after the `d1-ch-28` approval commit is pushed to `beta` and `main`
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 3
+- Approved current-draft maps since last chapter-map consistency review: 4
 - Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-27` has been approved as a current-draft chapter map. The map records Evana's Shade accusation as opportunistic dishonesty that can erase Caius's actual culpability, preserves Maya's misreading of Niall's restraint as distrust, and sharpens Davian/Arrek's post-breakdown arrival so Maya is near collapse when he appears suddenly, possibly through Ink Pact speed from a later reader understanding.
+`d1-ch-28` has been approved as a current-draft chapter-map packet. The approved map identifies the chapter as the intentional long split-view hinge where the kiss ruptures, Davian recommits under family/Elric pressure, Maya's fateweaving escalates, Harvick is maimed, the Heart is stolen, and Maya discovers the betrayal. Author-approved notes emphasize preserving the broad structure, heightening the kiss's romantic physicality from Davian's POV, treating Elric's alley contact as a final push, preserving Harvick's helper vulnerability, preserving Niall's grim worldview and protective contradiction, preserving Davian's culpability and first taste of power, preserving Maya's dangerous overreach, and using fateweaving visions for Selina/Vorren, Caius abuse, Alara's resurrection of Niall, and Elric killing Niall.
 
 ## Next action
 
-Prepare the `d1-ch-28` current-draft map packet from `imports/normalized/melissa-copy.md` lines 14516-16284, validate, commit, push, and present the author-review summary with questions last.
+After the author resumes, prepare the `d1-ch-29` current-draft map packet and present its summary, key divergences, main chapter goals, and required approval question.
 
 ## Awaiting author input
 
-None. Next author input should be for the `d1-ch-28` current-draft map packet after it is prepared.
+None. The author is pausing to review the updated app and approved maps.
 
 ## Workflow policy note
 
@@ -86,7 +86,7 @@ None. Next author input should be for the `d1-ch-28` current-draft map packet af
 - decisions/index.md
 - AUTHORING.md
 - revision/current-draft-map/index.md
-- revision/current-draft-map/d1-ch-28.md
+- imports/normalized/melissa-copy.md
 - reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
