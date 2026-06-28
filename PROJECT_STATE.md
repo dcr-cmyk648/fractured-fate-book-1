@@ -10,7 +10,7 @@ Last updated: 2026-06-28
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `app: add author scratchpad and export tracking`
+- Latest relevant commit message: `revision: approve Chapter 29 map and consistency review`
 - Working tree expected to be clean: yes, after the scratchpad app commit is pushed
 - Remote synchronized: yes
 
@@ -18,10 +18,10 @@ Last updated: 2026-06-28
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 4
-- Last consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
-- Last chapter-map consistency review: reports/consistency/2026-06-27-current-draft-map-through-ch24.md
-- Consistency review due: no; next significant current-draft map review due after one more approved map or sooner if a broad issue appears
+- Approved current-draft maps since last chapter-map consistency review: 0
+- Last consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
+- Last chapter-map consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
+- Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-29` current-draft map packet has been prepared and checkpointed as awaiting author review. The static review app has been updated with Author Scratchpad and export tracking. No manuscript prose has been changed.
+The `d1-ch-29` current-draft map packet has been approved by the author. The significant current-draft-map consistency review through Chapter 29 is complete and clears Chapter 30. No manuscript prose has been changed.
 
 ## Next action
 
-Wait for author review of `revision/current-draft-map/d1-ch-29.md`. After approval, finalize the map, update the chapter-map index and project state, validate, commit, push, and then run the significant current-draft-map consistency review through Chapter 29 before preparing Chapter 30.
+Validate, commit, push `beta`, merge to `main`, push `main`, and check out `beta` again as requested. After that, the next creative work is preparing `d1-ch-30`.
 
 ## Awaiting author input
 
-Author review of `d1-ch-29` current-draft map packet.
+None.
 
 ## Workflow policy note
 
