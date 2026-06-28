@@ -2,7 +2,7 @@
 
 Web-app comments are inbox material. They are not canon, accepted revisions, manuscript-edit authorization, or prose-preservation approval.
 
-- Total normalized comments: 0
+- Total normalized comments: 4
 - Duplicate records archived: 0
 - Rejected/unparsed records archived: 0
 
@@ -10,22 +10,25 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 
 | Batch | Comments |
 |---|---:|
-| _None yet_ | 0 |
+| `2026-06-28-001` | 4 |
 
 ## Commenters
 
 | Commenter | Comments |
 |---|---:|
-| _None yet_ | 0 |
+| `Dustin` | 4 |
 
 ## Comments by Target
 
 | Target | Comments |
 |---|---:|
-| _None yet_ | 0 |
+| `bible/cultures/culture-number-system-zan-script.md` | 2 |
+| `bible/locations/loc-sorevin-redbridge.md` | 1 |
+| `bible/magic/magic-zan-lattices.md` | 1 |
 
 ## Comments by Classification
 
 | Classification | Comments |
 |---|---:|
-| _None yet_ | 0 |
+| `story-bible-question` | 3 |
+| `continuity-question` | 1 |

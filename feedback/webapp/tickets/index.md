@@ -4,4 +4,7 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 
 | Ticket ID | Batch ID | Status | Type | Priority | Target | Destination | Author decision needed |
 |---|---|---|---|---|---|---|---|
-| _None yet_ |  |  |  |  |  |  |  |
+| WC-2026-06-28-001 | 2026-06-28-001 | proposed | story-bible-review | medium | `bible/cultures/culture-number-system-zan-script.md` | future accepted-file update or consistency queue item | yes |
+| WC-2026-06-28-002 | 2026-06-28-001 | proposed | story-bible-review | low | `bible/cultures/culture-number-system-zan-script.md` | future accepted-file update or terminology candidate | yes |
+| WC-2026-06-28-003 | 2026-06-28-001 | proposed | chapter-architecture | medium | Sorevin manor / Prologue | chapter architecture and possible later location update | yes |
+| WC-2026-06-28-004 | 2026-06-28-001 | proposed | story-bible-review | medium | `bible/magic/magic-zan-lattices.md` | zän technology review and candidate links | yes |

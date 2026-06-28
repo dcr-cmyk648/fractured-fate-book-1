@@ -36,7 +36,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - `revision/` will contain proposed or accepted prose-change plans.
 - `prose-preservation/` will later track wording-level preservation intent after chapter mapping opens.
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
-- `feedback/` contains reader feedback workflows. `feedback/webapp/` is the durable inbox, archive, normalization, synthesis, and ticket silo for exported static-review-app comments.
+- `feedback/` contains reader feedback and source-intake workflows. `feedback/webapp/` is the durable inbox, archive, normalization, synthesis, and ticket silo for exported static-review-app comments. `feedback/source-intake/` stores proposed tickets and summaries from non-definitive supplemental source documents.
 - `decisions/` records explicit author decisions.
 - `reports/consistency/` contains block-level consistency-review reports.
 - `scripts/` contains repository validation and maintenance scripts.

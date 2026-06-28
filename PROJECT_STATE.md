@@ -10,8 +10,8 @@ Last updated: 2026-06-28
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `feedback: add web-app comment intake workflow`
-- Working tree expected to be clean: yes, after the web-app comment intake workflow commit is pushed
+- Latest relevant commit message: `feedback: import comments and process lore source`
+- Working tree expected to be clean: yes, after the lore-source and comment-batch intake commit is pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-28` has been approved as a current-draft chapter-map packet. A durable web-app comment intake workflow is being added under `feedback/webapp/` without changing accepted book content or the current chapter-map state. The comment workflow treats exported review-app comments as inbox material only: they must be imported, archived, normalized, synthesized, ticketed, and author-approved for routing before they affect manuscript, bible, outline, chapter architecture, prose preservation, or consistency queue files.
+`d1-ch-28` has been approved as a current-draft chapter-map packet. The supplemental raw lore document `imports/raw/Lore (running addended version).txt` has been processed as non-definitive source material, with proposed author-question tickets under `feedback/source-intake/lore-running-addended-version-2026-06-28/`. The latest Google Drive web-app comment export was copied from the comments inbox sheet, imported as batch `2026-06-28-001`, and synthesized into proposed tickets under `feedback/webapp/tickets/2026-06-28-001/`. No accepted canon, manuscript prose, or chapter-map state was changed.
 
 ## Next action
 
-After the author resumes, prepare the `d1-ch-29` current-draft map packet and present its summary, key divergences, main chapter goals, and required approval question.
+After the author reviews or defers the proposed lore/comment tickets as desired, resume by preparing the `d1-ch-29` current-draft map packet and presenting its summary, key divergences, main chapter goals, and required approval question.
 
 ## Awaiting author input
 
-None. The author is pausing to review the updated app and approved maps.
+Optional author review of proposed source/comment tickets. No blocking author input is required before resuming `d1-ch-29` unless the author wants to route those tickets immediately.
 
 ## Workflow policy note
 
@@ -93,6 +93,12 @@ None. The author is pausing to review the updated app and approved maps.
 - feedback/webapp/schemas/comment.schema.md
 - feedback/webapp/schemas/ticket.schema.md
 - scripts/import_webapp_comments.py
+- feedback/source-intake/index.md
+- feedback/source-intake/lore-running-addended-version-2026-06-28/source-summary.md
+- feedback/source-intake/lore-running-addended-version-2026-06-28/tickets.md
+- feedback/webapp/batches/2026-06-28-001/import-report.md
+- feedback/webapp/synthesis/2026-06-28-001-synthesis.md
+- feedback/webapp/tickets/2026-06-28-001/tickets.md
 - reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md
