@@ -139,6 +139,56 @@ Do not ask for author approval for every mechanical update. Do ask for author ju
 
 Prefer grouped checkpoints, such as unresolved issues from a chapter architecture batch, story-bible conflicts that block the next outline section, or opportunities and contradictions from a block review.
 
+## Web-App Comment Intake and Batch Review
+
+Web-app comments are inbox material. They are not canon, accepted revisions, instructions to alter manuscript prose, automatic story-bible decisions, or automatic prose-preservation approvals.
+
+Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Reader comments may reveal problems, opportunities, or tickets, but they do not bypass existing approval workflows. Multiple readers saying the same thing increases salience but does not automatically decide the fix.
+
+The durable repository-side silo is `feedback/webapp/`:
+
+- `incoming/`: manual drop zone for exported `.json`, `.jsonl`, or `.md` app comment files.
+- `raw/`: immutable archive of imported source files, grouped by batch.
+- `normalized/`: deduplicated normalized comment records and comment index.
+- `batches/`: one directory per import batch with manifest, normalized comments, report, duplicates, and rejected records.
+- `synthesis/`: batch-level Codex analysis reports.
+- `tickets/`: proposed actionable work items generated from batches.
+- `processed/`: successfully imported source files after archival/import confirmation.
+- `schemas/`: expected comment and ticket shapes.
+
+Comment import is mechanical and may be run without a creative author checkpoint:
+
+1. Place exported app comment files in `feedback/webapp/incoming/`.
+2. Run `python3 scripts/import_webapp_comments.py`.
+3. The script copies raw files to `feedback/webapp/raw/<batch-id>/`, writes normalized JSONL under `feedback/webapp/batches/<batch-id>/`, appends deduplicated records to `feedback/webapp/normalized/comments.jsonl`, updates `feedback/webapp/normalized/comments-index.md`, and moves source files to `feedback/webapp/processed/<batch-id>/`.
+4. The script may assign only lightweight deterministic classifications such as `prose-preservation-candidate`, `line-edit`, `reader-confusion`, `continuity-question`, `story-bible-question`, `chapter-architecture-note`, `app-bug`, `general-reaction`, or `unclear`.
+5. The script must not make substantive creative decisions, edit prose, modify canon, call Google Drive APIs, call OpenAI APIs, or create GitHub Issues.
+
+After import, use a Web-App Comment Batch Review process:
+
+1. Codex reads the normalized batch, import report, comment index, relevant target files, relevant story-bible files, and relevant workflow files.
+2. Codex groups comments by chapter, file, layer, selected text, issue type, repeated concern, commenter, story-bible entity, and consistency impact.
+3. Codex creates `feedback/webapp/synthesis/<batch-id>-synthesis.md`.
+4. Codex proposes tickets under `feedback/webapp/tickets/<batch-id>/`.
+5. Codex presents one author checkpoint for the batch, not one checkpoint per raw comment.
+6. After author approval, Codex marks approved tickets as `accepted-for-workflow`, rejected tickets as `rejected`, and uncertain tickets as `proposed` or `needs-author-decision`.
+7. Only after approval should tickets be routed into the appropriate workflow, `CONSISTENCY_QUEUE.md`, chapter architecture, story-bible review, revision suggestions, app maintenance, or future prose-preservation records.
+
+Batch checkpoints should summarize import count, duplicates, rejected records, top repeated concerns, high-priority tickets, blocking tickets, prose-preservation candidates, continuity/story-bible risks, app bugs, suggested routing, and grouped questions requiring author judgment.
+
+Ticket routing:
+
+- Route contradictions, possible contradictions, chronology problems, ability/magic conflicts, knowledge-state problems, current-versus-future confusion, and prior document conflicts to `CONSISTENCY_QUEUE.md` only after approval, except for clearly blocking contradictions that would otherwise be lost.
+- Route "keep this line," "near-quote this," "preserve this image," "this exchange works," "do not reuse this prose," and "echo this later" comments to prose-preservation tickets unless the prose-preservation workflow is open or the author explicitly authorizes record creation.
+- Route chapter function, pacing, setup/payoff, reader-confusion-about-purpose, and worldbuilding/plotline-development comments to chapter architecture tickets. If chapter architecture has not begun, mark them `pending-outline-phase`.
+- Route unclear worldbuilding, character motivation, magic-system uncertainty, organization/location/object detail, or entity ownership issues to story-bible review tickets.
+- Route local chapter changes, possible cuts, possible expansions, prose clarity, and reader confusion in the current draft to revision-suggestion tickets. Do not edit prose.
+- Route missing chapter, broken navigation, wrong layer, export problem, or UI problem comments to app-maintenance tickets.
+
+Every synthesis item and ticket must preserve source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. Do not summarize a comment in a way that loses its target or strengthens an ambiguous comment beyond what it says.
+
+The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
+
 ## Book-Improvement Test
 
 Before deepening an entity or asking the author to settle another detail, Codex should ask whether the work could plausibly do at least one of the following:

@@ -36,7 +36,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - `revision/` will contain proposed or accepted prose-change plans.
 - `prose-preservation/` will later track wording-level preservation intent after chapter mapping opens.
 - `planning/candidates/` will retain speculation, alternatives, and unresolved possibilities.
-- `feedback/` will contain reader feedback when extracted or recorded.
+- `feedback/` contains reader feedback workflows. `feedback/webapp/` is the durable inbox, archive, normalization, synthesis, and ticket silo for exported static-review-app comments.
 - `decisions/` records explicit author decisions.
 - `reports/consistency/` contains block-level consistency-review reports.
 - `scripts/` contains repository validation and maintenance scripts.
@@ -52,6 +52,7 @@ If the repository only produces an excellent outline and never generates prose, 
 - [CONSISTENCY_QUEUE.md](CONSISTENCY_QUEUE.md) tracks cross-file consistency issues that may need later checking or author judgment.
 - [MIGRATION_STATUS.md](MIGRATION_STATUS.md) records migration phases and gates.
 - [decisions/index.md](decisions/index.md) indexes explicit author decisions.
+- [feedback/webapp/README.md](feedback/webapp/README.md) defines how exported web-app comments are imported, archived, normalized, synthesized, and routed.
 
 ## Resuming Work
 

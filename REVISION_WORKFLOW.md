@@ -208,9 +208,32 @@ This supports later prose work without turning outline files into copied manuscr
 
 ## Feedback and Review-App Imports
 
+Web-app comments are inbox material. They are not canon, accepted revisions, instructions to alter manuscript prose, automatic story-bible decisions, or automatic prose-preservation approvals.
+
 Reader and author comments may imply prose-preservation work. Later feedback imports should recognize comments such as "keep this line," "near quote this," "preserve this image," "keep the emotional beat but rewrite the prose," "this exchange works," "this paragraph is confusing; do not reuse," "this should come back later," "echo this phrase in the ending," or "preserve this as a motif."
 
-When Codex imports comments later, route them into Prose Preservation Notes, revision notes, or `CONSISTENCY_QUEUE.md` as appropriate. Comments remain inbox material until processed. A reader comment does not automatically approve exact prose reuse.
+The repository-side intake workflow lives in `feedback/webapp/` and is governed by `WORKFLOW.md`. Imported comments must be archived, normalized, deduplicated, synthesized, and converted into proposed tickets before they affect chapter maps, Chapter Goal Cards, revision suggestions, prose-preservation records, story-bible files, or `CONSISTENCY_QUEUE.md`.
+
+During a Web-App Comment Batch Review, Codex should:
+
+1. read `feedback/webapp/batches/<batch-id>/normalized-comments.jsonl`, the batch import report, and the comment index
+2. inspect relevant target files, approved story-bible files, chapter maps, candidate files, decision records, and consistency queue items
+3. group comments by chapter, file, layer, selected text, repeated concern, issue type, commenter, target entity, and consistency impact
+4. create `feedback/webapp/synthesis/<batch-id>-synthesis.md`
+5. create proposed tickets under `feedback/webapp/tickets/<batch-id>/`
+6. present one batch-level author checkpoint rather than one checkpoint per raw comment
+
+Ticket routing during revision work:
+
+- Use prose-preservation tickets for comments about keeping, near-quoting, echoing, reusing, or deliberately avoiding wording. Do not create actual Prose Preservation Notes unless that workflow phase is open or the author explicitly authorizes it.
+- Use chapter-architecture tickets for chapter function, pacing, scene-purpose, setup/payoff, reader-confusion-about-purpose, or missing worldbuilding/plotline movement.
+- Use revision-suggestion tickets for local chapter changes, possible cuts, possible expansions, prose clarity, and current-draft reader confusion. Do not edit prose.
+- Use story-bible-review or consistency-check tickets for worldbuilding, character motivation, magic, organization, location, object, chronology, knowledge-state, or current-versus-future issues.
+- Use app-bug tickets for missing chapters, broken navigation, wrong layers, export problems, display issues, or other review-app problems.
+
+After author approval, approved tickets may be marked `accepted-for-workflow`, rejected tickets may be marked `rejected`, and uncertain tickets may remain `proposed` or `needs-author-decision`. Do not apply ticket resolutions automatically to manuscript, bible, outline, chapter architecture, prose preservation, or consistency queue files unless the batch checkpoint explicitly authorizes that routing.
+
+Every synthesis item and ticket must preserve the source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. If a comment is ambiguous, preserve the ambiguity and classify it as unclear or needing author decision.
 
 ## Chapter Architecture Consistency Checks
 

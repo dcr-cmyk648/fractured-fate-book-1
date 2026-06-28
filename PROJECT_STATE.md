@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-27
+Last updated: 2026-06-28
 
 ## Repository state
 
@@ -10,8 +10,8 @@ Last updated: 2026-06-27
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 28 current draft map`
-- Working tree expected to be clean: yes, after the `d1-ch-28` approval commit is pushed to `beta` and `main`
+- Latest relevant commit message: `feedback: add web-app comment intake workflow`
+- Working tree expected to be clean: yes, after the web-app comment intake workflow commit is pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,7 +30,7 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-28` has been approved as a current-draft chapter-map packet. The approved map identifies the chapter as the intentional long split-view hinge where the kiss ruptures, Davian recommits under family/Elric pressure, Maya's fateweaving escalates, Harvick is maimed, the Heart is stolen, and Maya discovers the betrayal. Author-approved notes emphasize preserving the broad structure, heightening the kiss's romantic physicality from Davian's POV, treating Elric's alley contact as a final push, preserving Harvick's helper vulnerability, preserving Niall's grim worldview and protective contradiction, preserving Davian's culpability and first taste of power, preserving Maya's dangerous overreach, and using fateweaving visions for Selina/Vorren, Caius abuse, Alara's resurrection of Niall, and Elric killing Niall.
+`d1-ch-28` has been approved as a current-draft chapter-map packet. A durable web-app comment intake workflow is being added under `feedback/webapp/` without changing accepted book content or the current chapter-map state. The comment workflow treats exported review-app comments as inbox material only: they must be imported, archived, normalized, synthesized, ticketed, and author-approved for routing before they affect manuscript, bible, outline, chapter architecture, prose preservation, or consistency queue files.
 
 ## Next action
 
@@ -47,6 +47,7 @@ None. The author is pausing to review the updated app and approved maps.
 - For current-draft chapter-map packets, the in-thread presentation must include a concise chapter summary, a short list of key divergences, and the main chapter goals before the required approval question.
 - Do not stop on an opened entity or source-gathering stub. If author input is needed, the repository must contain a concrete author-review packet, approval packet, or phase-gate packet with the information needed to respond.
 - Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
+- Web-app comments are inbox material. Importing and normalizing exported comments does not make them canon, accepted revisions, manuscript-edit instructions, story-bible decisions, or prose-preservation approvals. Use `python3 scripts/import_webapp_comments.py` after placing exported files in `feedback/webapp/incoming/`, then synthesize a batch only when explicitly asked.
 
 ## Known blockers or risks
 
@@ -87,6 +88,11 @@ None. The author is pausing to review the updated app and approved maps.
 - AUTHORING.md
 - revision/current-draft-map/index.md
 - imports/normalized/melissa-copy.md
+- feedback/webapp/README.md
+- feedback/webapp/PROCESS_BATCH_PROMPT.md
+- feedback/webapp/schemas/comment.schema.md
+- feedback/webapp/schemas/ticket.schema.md
+- scripts/import_webapp_comments.py
 - reports/consistency/2026-06-27-current-draft-map-through-ch24.md
 - REVISION_WORKFLOW.md
 - MIGRATION_STATUS.md

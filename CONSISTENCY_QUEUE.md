@@ -44,6 +44,16 @@ Future prose-preservation issue examples include:
 - approved line not mapped to next-draft outline
 - do-not-reuse prose still appears in a proposed outline/prose plan
 
+Web-app comment-derived issue examples include:
+
+- repeated reader confusion about a current chapter's causality
+- reader-flagged chronology or knowledge-state conflict
+- comment-derived possible magic/ability contradiction
+- comment-derived current-versus-future confusion
+- comment-derived story-bible ownership gap
+
+Web-app comments remain inbox material until imported, synthesized, ticketed, and author-approved for routing. Do not add comment-derived issues here automatically unless the batch review authorizes routing or a clearly blocking contradiction would otherwise be lost.
+
 | ID | Triggering change | Affected entity/file | Issue | Severity | Status | Blocking | Review stage |
 |---|---|---|---|---|---|---|---|
 | CQ-0001 | `char-niall` approval stores hidden silver zan-strike-line-etched conduits as lightning modifiers; `culture-magus-presentation` approval accepts sleeveless High Clade fashion as universal in Presentation-era culture | `magic-zan-lattices`; `object-seraph-heart`; `char-niall`; future object/technology reviews | Later reviews should reconcile silver conduit mechanics, Heart overcharging, and Niall's current military jacket as an exception to High Clade sleeveless fashion. Niall would have worn sleeveless fashion when Presented; exact Evana/Caius jacket comment remains candidate scene material. | possible-conflict | deferred | unknown | block-review |
