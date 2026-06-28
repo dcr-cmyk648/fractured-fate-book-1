@@ -187,6 +187,8 @@ Ticket routing:
 
 Every synthesis item and ticket must preserve source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. Do not summarize a comment in a way that loses its target or strengthens an ambiguous comment beyond what it says.
 
+When new tickets are created during another workflow, process lower-level dependencies before higher-level work. Prioritize story-bible, basic lore, character, magic, terminology, location, object, chronology, and consistency tickets before chapter-architecture, current-draft-map, future-outline, next-draft-outline, prose-preservation, or prose-phase tickets that depend on them. If a higher-level ticket can proceed safely without the lower-level decision, keep it queued; otherwise pause the higher-level unit until the lower-level ticket is approved, rejected, or explicitly deferred.
+
 The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
 
 ## Book-Improvement Test

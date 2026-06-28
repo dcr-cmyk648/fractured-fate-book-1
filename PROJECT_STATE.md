@@ -10,8 +10,8 @@ Last updated: 2026-06-28
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `feedback: import comments and process lore source`
-- Working tree expected to be clean: yes, after the lore-source and comment-batch intake commit is pushed
+- Latest relevant commit message: `workflow: prioritize lower-level tickets before outline work`
+- Working tree expected to be clean: yes, after the ticket-priority workflow update is pushed
 - Remote synchronized: yes
 
 ## Block status
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-`d1-ch-28` has been approved as a current-draft chapter-map packet. The supplemental raw lore document `imports/raw/Lore (running addended version).txt` has been processed as non-definitive source material, with proposed author-question tickets under `feedback/source-intake/lore-running-addended-version-2026-06-28/`. The latest Google Drive web-app comment export was copied from the comments inbox sheet, imported as batch `2026-06-28-001`, and synthesized into proposed tickets under `feedback/webapp/tickets/2026-06-28-001/`. No accepted canon, manuscript prose, or chapter-map state was changed.
+The current checkpoint is ticket-queue review. New lower-level tickets created from `imports/raw/Lore (running addended version).txt` and web-app comment batch `2026-06-28-001` should be reviewed before returning to higher-level current-draft chapter mapping when they could affect story bible, basic lore, character, magic, terminology, location, object, chronology, or consistency decisions. No accepted canon, manuscript prose, or chapter-map state has been changed.
 
 ## Next action
 
-After the author reviews or defers the proposed lore/comment tickets as desired, resume by preparing the `d1-ch-29` current-draft map packet and presenting its summary, key divergences, main chapter goals, and required approval question.
+Present the prioritized lower-level ticket checkpoint from `feedback/source-intake/lore-running-addended-version-2026-06-28/tickets.md` and `feedback/webapp/tickets/2026-06-28-001/tickets.md`. After author answers are stored and any approved lower-level routing is complete, resume by preparing the `d1-ch-29` current-draft map packet.
 
 ## Awaiting author input
 
-Optional author review of proposed source/comment tickets. No blocking author input is required before resuming `d1-ch-29` unless the author wants to route those tickets immediately.
+Author review of the first lower-level ticket checkpoint.
 
 ## Workflow policy note
 

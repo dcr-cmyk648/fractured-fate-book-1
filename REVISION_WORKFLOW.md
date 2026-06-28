@@ -235,6 +235,8 @@ After author approval, approved tickets may be marked `accepted-for-workflow`, r
 
 Every synthesis item and ticket must preserve the source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. If a comment is ambiguous, preserve the ambiguity and classify it as unclear or needing author decision.
 
+When ticket review creates or reveals lower-level dependencies, process those before higher-level chapter or outline work. Story-bible, basic lore, character, magic, terminology, location, object, chronology, and consistency tickets take priority over chapter-architecture, current-draft-map, future-outline, next-draft-outline, prose-preservation, or prose-phase tickets that depend on them. Higher-level tickets may remain queued when they are not blocking, but do not silently build chapter architecture or outline decisions on unresolved lower-level material.
+
 ## Chapter Architecture Consistency Checks
 
 Every Chapter Goal Card should trigger a lightweight consistency check before approval.
