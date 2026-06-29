@@ -10,5 +10,5 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-28-004 | 2026-06-28-001 | accepted-for-workflow | story-bible-review | medium | `bible/magic/magic-zan-lattices.md` | accepted/candidate files updated | no |
 | WC-2026-06-29-001 | 2026-06-29-001 | accepted-for-workflow | revision-suggestion | medium | future chapter/prose guidance | `AUTHORING.md` prose guidance updated | no |
 | WC-2026-06-29-002 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | comment export UI | app update applied | no |
-| WC-2026-06-29-003 | 2026-06-29-001 | proposed | app-bug | medium | reader accounts / Drive persistence | app design checkpoint | yes |
+| WC-2026-06-29-003 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | reader-code comment sync | app and Apps Script update applied | no |
 | WC-2026-06-29-004 | 2026-06-29-001 | accepted-for-workflow | chapter-architecture | high | Kelyra/Davian/Maya; Sorevin; Presentation fallout | accepted owner files updated | no |

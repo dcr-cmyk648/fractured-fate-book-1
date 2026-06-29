@@ -2,7 +2,7 @@
 
 This folder contains a static, read-only review interface for local use and possible future GitHub Pages publishing.
 
-The repository remains the source of truth. The app only reads generated JSON data and stores reader comments in browser `localStorage` until exported.
+The repository remains the source of truth. The app only reads generated JSON data and stores reader comments in browser `localStorage` until synced or exported.
 
 ## Local Use
 
@@ -19,7 +19,7 @@ Then open:
 http://localhost:8787
 ```
 
-No npm install, backend, database, authentication, AI call, or Google Drive connection is required.
+No npm install, backend, database, authentication, or AI call is required. Comment sync uses a Google Apps Script web app when configured; backup JSON export still works without it.
 
 ## What V0 Supports
 
@@ -31,7 +31,8 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 - Layer selector with graceful unavailable-layer handling.
 - Persistent comment box: right-side rail on desktop, collapsible drawer on mobile.
 - Browser-local comment storage.
-- Comment and scratchpad export as JSON.
+- Optional comment sync through the private Apps Script endpoint when a reader code is saved.
+- Backup comment and scratchpad export as JSON.
 - Last-export tracking with an option to export all entries or entries created since the last export.
 - Clear local comments with confirmation.
 
@@ -40,6 +41,18 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 Author Mode includes an `Author Scratchpad` tab for quick capture. Use `Content` for story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, questions, and anything that used to go into the Bullet notes Google Doc. Use `Technical / Processing` for app bugs, broken navigation, export/import problems, data-processing issues, workflow issues, Codex-processing notes, and UI ideas.
 
 Scratchpad drafts autosave locally until submitted. Clicking `Save to Inbox` creates a comment-like inbox record in browser `localStorage`. Scratchpad entries export with ordinary comments and are not canon, accepted revisions, manuscript edits, or approved prose-preservation records.
+
+## Comment Sync
+
+The Comment Sync page supports a submit-only sync path for beta readers with private reader codes.
+
+- The app stores the reader code only in that browser's `localStorage`.
+- The static app does not contain reader secrets or account lists.
+- Sync sends comments and scratchpad entries to the configured Apps Script endpoint.
+- Apps Script validates the reader code privately and writes submitted comments to Google Drive / Sheets for later Codex import.
+- `Download Backup JSON` remains available if sync fails or a reader does not have a code.
+
+Sync is submit-only. The app does not read prior comments back from Google Drive and does not provide cross-device comment history.
 
 ## Mobile Install
 

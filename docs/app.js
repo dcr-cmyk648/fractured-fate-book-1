@@ -1,4 +1,5 @@
-const APP_VERSION = "review-interface-v0-scratchpad-1";
+const APP_VERSION = "review-interface-v0-sync-1";
+const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
@@ -16,7 +17,13 @@ const STORAGE_KEYS = {
   lastExportAt: "ffReview.lastExport.generatedAt",
   lastExportCount: "ffReview.lastExport.commentCount",
   lastExportLatestCreatedAt: "ffReview.lastExport.latestCommentCreatedAt",
-  lastExportFormat: "ffReview.lastExport.format"
+  lastExportFormat: "ffReview.lastExport.format",
+  readerCode: "ffReview.readerCode",
+  readerCodeValidatedAt: "ffReview.readerCode.validatedAt",
+  readerCodeDisplayName: "ffReview.readerCode.displayName",
+  lastSyncAt: "ffReview.lastSync.generatedAt",
+  lastSyncCount: "ffReview.lastSync.commentCount",
+  lastSyncLatestCreatedAt: "ffReview.lastSync.latestCommentCreatedAt"
 };
 
 let appIndex = null;
@@ -777,7 +784,8 @@ function latestCommentCreatedAt(records = comments) {
 function commentsForExport() {
   const scope = $("exportScopeSelect")?.value || "all";
   if (scope !== "since-last") return comments.slice();
-  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastSyncLatestCreatedAt) ||
+    localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
   if (!lastLatest) return comments.slice();
   return comments.filter((comment) => (comment.created_at || "") > lastLatest);
 }
@@ -801,6 +809,79 @@ function markExportGenerated(format, records) {
   localStorage.setItem(STORAGE_KEYS.lastExportLatestCreatedAt, latestCommentCreatedAt(comments) || "");
   localStorage.setItem(STORAGE_KEYS.lastExportFormat, format);
   renderExportStatus();
+}
+
+function getReaderCode() {
+  return localStorage.getItem(STORAGE_KEYS.readerCode) || "";
+}
+
+function saveReaderCode() {
+  const code = $("readerCodeInput").value.trim();
+  if (!code) {
+    window.alert("Enter a reader code before saving.");
+    return;
+  }
+  localStorage.setItem(STORAGE_KEYS.readerCode, code);
+  localStorage.removeItem(STORAGE_KEYS.readerCodeValidatedAt);
+  localStorage.removeItem(STORAGE_KEYS.readerCodeDisplayName);
+  $("readerCodeInput").value = "";
+  renderExportStatus();
+}
+
+function markSyncGenerated(result, records) {
+  const now = new Date().toISOString();
+  localStorage.setItem(STORAGE_KEYS.lastSyncAt, now);
+  localStorage.setItem(STORAGE_KEYS.lastSyncCount, String(comments.length));
+  localStorage.setItem(STORAGE_KEYS.lastSyncLatestCreatedAt, latestCommentCreatedAt(comments) || "");
+  if (result?.reader?.display_name) {
+    localStorage.setItem(STORAGE_KEYS.readerCodeDisplayName, result.reader.display_name);
+  }
+  localStorage.setItem(STORAGE_KEYS.readerCodeValidatedAt, now);
+  renderExportStatus();
+}
+
+async function syncComments() {
+  const readerCode = getReaderCode();
+  if (!readerCode) {
+    setView("export");
+    window.alert("Enter and save your private reader code before syncing.");
+    return;
+  }
+  const records = commentsForExport();
+  if (!records.length) {
+    window.alert("No comments or scratchpad entries to sync for the selected scope.");
+    return;
+  }
+  if (!COMMENT_SYNC_ENDPOINT) {
+    window.alert("Comment sync is not configured. Use Download Backup JSON instead.");
+    return;
+  }
+  $("syncCommentsBtn").disabled = true;
+  $("syncCommentsBtn").textContent = "Syncing...";
+  try {
+    const response = await fetch(COMMENT_SYNC_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        action: "submit-comments",
+        reader_code: readerCode,
+        export_payload: exportPayload(records)
+      })
+    });
+    const result = await response.json();
+    if (!result.ok) {
+      throw new Error(result.error || "Sync failed.");
+    }
+    markSyncGenerated(result.result, records);
+    window.alert(`Synced ${result.result.new_comments} new comment${result.result.new_comments === 1 ? "" : "s"}. ${result.result.duplicate_comments} duplicate${result.result.duplicate_comments === 1 ? "" : "s"} skipped.`);
+  } catch (error) {
+    window.alert(`Sync failed: ${error.message}. Use Download Backup JSON if needed.`);
+  } finally {
+    $("syncCommentsBtn").disabled = false;
+    $("syncCommentsBtn").textContent = "Sync Comments";
+  }
 }
 
 function formatExportTimestamp(value) {
@@ -876,12 +957,30 @@ function entriesSinceLastExport() {
   return comments.filter((comment) => (comment.created_at || "") > lastLatest).length;
 }
 
+function entriesSinceLastSync() {
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastSyncLatestCreatedAt);
+  if (!lastLatest) return comments.length;
+  return comments.filter((comment) => (comment.created_at || "") > lastLatest).length;
+}
+
 function renderExportStatus() {
   if (!$("lastExportStatus")) return;
   const lastAt = localStorage.getItem(STORAGE_KEYS.lastExportAt);
+  const lastSyncAt = localStorage.getItem(STORAGE_KEYS.lastSyncAt);
+  const validatedAt = localStorage.getItem(STORAGE_KEYS.readerCodeValidatedAt);
+  const readerDisplayName = localStorage.getItem(STORAGE_KEYS.readerCodeDisplayName);
+  const readerCode = getReaderCode();
+  $("readerCodeStatus").textContent = readerCode
+    ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}` : "Saved, not yet validated"}`
+    : "Reader code: Not saved";
+  $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
+  $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
   $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
   $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
   $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
+  if ($("quickExportBtn")) {
+    $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
+  }
 }
 
 function isMobileLayout() {
@@ -1013,7 +1112,12 @@ function wireEvents() {
   $("saveBookmarkBtn").addEventListener("click", saveBookmark);
   $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
   $("submitCommentBtn").addEventListener("click", submitComment);
-  $("quickExportBtn").addEventListener("click", exportJson);
+  $("quickExportBtn").addEventListener("click", () => {
+    if (getReaderCode()) syncComments();
+    else setView("export");
+  });
+  $("saveReaderCodeBtn").addEventListener("click", saveReaderCode);
+  $("syncCommentsBtn").addEventListener("click", syncComments);
   $("exportJsonBtn").addEventListener("click", exportJson);
   $("importCommentsInput").addEventListener("change", (event) => {
     const file = event.target.files?.[0];

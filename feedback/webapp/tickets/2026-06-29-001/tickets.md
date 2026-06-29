@@ -6,7 +6,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 |---|---|---|---|---|---|
 | WC-2026-06-29-001 | accepted-for-workflow | medium | revision-suggestion | future chapter maps / prose phase guidance | no |
 | WC-2026-06-29-002 | accepted-for-workflow | medium | app-bug | `docs/index.html`; `docs/app.js`; `docs/README.md` | no |
-| WC-2026-06-29-003 | proposed | medium | app-bug | review app persistence / authentication concept | yes |
+| WC-2026-06-29-003 | accepted-for-workflow | medium | app-bug | review app reader-code comment sync | no |
 | WC-2026-06-29-004 | accepted-for-workflow | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | no |
 
 ## WC-2026-06-29-001: Subtle Character-Natural Worldbuilding
@@ -57,21 +57,23 @@ Rationale: This reduces UI confusion while preserving the existing JSON intake w
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: app-bug
 - Source comment IDs: `scratchpad-1782756260074-ci0uw1`; `scratchpad-1782757000096-36uk5k`
 - Normalized comment IDs: `wc-eec024d29a11c1b9`; `wc-9e186665cfbb0ec7`
 - Commenter: DustinR
-- Target file: future app architecture
+- Target files: `docs/index.html`; `docs/app.js`; `feedback/webapp/import-webapp-comments.gs`; `docs/README.md`; `feedback/webapp/README.md`
 - Target layer: technical-processing
-- Proposed destination: app design checkpoint before implementation
+- Proposed destination: implemented app update and Apps Script update
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
 
 Summary: Consider hardcoded reader accounts and automated comment transfer or Drive-backed persistence for beta readers. The main goals are cross-device persistence and less manual export/upload work, not high-security authentication.
 
 Rationale: This would change the current static/localStorage/manual-export architecture and may require Apps Script, Drive permissions, or another storage layer. It should be designed deliberately before implementation.
+
+Disposition: Accepted by author on 2026-06-29 as a submit-only reader-code sync design. Implemented a V1 path where the static app stores a private reader code locally, submits comment exports to Apps Script with `action: submit-comments`, and keeps backup JSON download available. Apps Script now validates reader codes from private Script Properties, writes submitted comments to the tracking Sheet, and archives new submitted JSON files in Drive for later Codex import.
 
 ## WC-2026-06-29-004: Route Content Scratchpad Story and Lore Notes
 
