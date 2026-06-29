@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-6";
+const APP_VERSION = "review-interface-v0-sync-7";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -847,49 +847,6 @@ function markSyncSubmitted() {
   renderExportStatus();
 }
 
-function submitSyncForm(payload) {
-  return new Promise((resolve, reject) => {
-    const frameName = `comment-sync-${Date.now()}`;
-    const iframe = document.createElement("iframe");
-    iframe.name = frameName;
-    iframe.hidden = true;
-
-    const form = document.createElement("form");
-    form.method = "POST";
-    form.action = COMMENT_SYNC_ENDPOINT;
-    form.target = frameName;
-    form.hidden = true;
-
-    for (const [name, value] of Object.entries(payload)) {
-      const input = document.createElement("input");
-      input.type = "hidden";
-      input.name = name;
-      input.value = value;
-      form.appendChild(input);
-    }
-
-    const timeout = window.setTimeout(() => {
-      cleanup();
-      reject(new Error("Google did not confirm the sync request finished."));
-    }, 20000);
-
-    function cleanup() {
-      window.clearTimeout(timeout);
-      iframe.remove();
-      form.remove();
-    }
-
-    iframe.addEventListener("load", () => {
-      cleanup();
-      resolve();
-    }, { once: true });
-
-    document.body.appendChild(iframe);
-    document.body.appendChild(form);
-    form.submit();
-  });
-}
-
 async function syncComments() {
   const readerCode = getReaderCode();
   if (!readerCode) {
@@ -909,10 +866,14 @@ async function syncComments() {
   $("syncCommentsBtn").disabled = true;
   $("syncCommentsBtn").textContent = "Syncing...";
   try {
-    await submitSyncForm({
-      action: "submit-comments",
-      reader_code: readerCode,
-      export_payload: JSON.stringify(exportPayload(records))
+    const form = new URLSearchParams();
+    form.set("action", "submit-comments");
+    form.set("reader_code", readerCode);
+    form.set("export_payload", JSON.stringify(exportPayload(records)));
+    await fetch(COMMENT_SYNC_ENDPOINT, {
+      method: "POST",
+      mode: "no-cors",
+      body: form
     });
     markSyncSubmitted();
     window.alert("Sync request submitted. Comments stay local; use Download Backup JSON if you need a manual copy.");
