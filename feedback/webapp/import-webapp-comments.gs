@@ -229,12 +229,33 @@ function handleWebImport_(e) {
 }
 
 function parsePostPayload_(e) {
-  if (!e || !e.postData || !e.postData.contents) return null;
-  try {
-    return JSON.parse(e.postData.contents);
-  } catch (error) {
-    return null;
+  if (!e) return null;
+
+  if (e.parameter && e.parameter.action === "submit-comments") {
+    let exportPayload = {};
+    if (e.parameter.export_payload) {
+      try {
+        exportPayload = JSON.parse(e.parameter.export_payload);
+      } catch (error) {
+        throw new Error("Submitted export payload is not valid JSON.");
+      }
+    }
+    return {
+      action: e.parameter.action,
+      reader_code: e.parameter.reader_code,
+      export_payload: exportPayload
+    };
   }
+
+  if (e.postData && e.postData.contents) {
+    try {
+      return JSON.parse(e.postData.contents);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  return null;
 }
 
 function assertAuthorized_(e) {

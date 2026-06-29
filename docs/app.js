@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-2";
+const APP_VERSION = "review-interface-v0-sync-3";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbz_4fXcUt08wV8qOJpEdSfMvRbI1OKntU6Iylgp5meBo8z8oizAK2HxkrPGlrGK9nVX/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -859,18 +859,21 @@ async function syncComments() {
   $("syncCommentsBtn").disabled = true;
   $("syncCommentsBtn").textContent = "Syncing...";
   try {
+    const form = new URLSearchParams();
+    form.set("action", "submit-comments");
+    form.set("reader_code", readerCode);
+    form.set("export_payload", JSON.stringify(exportPayload(records)));
     const response = await fetch(COMMENT_SYNC_ENDPOINT, {
       method: "POST",
-      headers: {
-        "Content-Type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify({
-        action: "submit-comments",
-        reader_code: readerCode,
-        export_payload: exportPayload(records)
-      })
+      body: form
     });
-    const result = await response.json();
+    const responseText = await response.text();
+    let result;
+    try {
+      result = JSON.parse(responseText);
+    } catch {
+      throw new Error(`Unexpected sync response: ${responseText.slice(0, 120)}`);
+    }
     if (!result.ok) {
       throw new Error(result.error || "Sync failed.");
     }
