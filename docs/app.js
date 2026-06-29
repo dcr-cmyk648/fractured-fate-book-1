@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-4";
+const APP_VERSION = "review-interface-v0-sync-5";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -840,6 +840,56 @@ function markSyncGenerated(result, records) {
   renderExportStatus();
 }
 
+function markSyncSubmitted() {
+  const now = new Date().toISOString();
+  localStorage.setItem(STORAGE_KEYS.lastSyncAt, now);
+  localStorage.setItem(STORAGE_KEYS.lastSyncCount, String(comments.length));
+  renderExportStatus();
+}
+
+function submitSyncForm(payload) {
+  return new Promise((resolve, reject) => {
+    const frameName = `comment-sync-${Date.now()}`;
+    const iframe = document.createElement("iframe");
+    iframe.name = frameName;
+    iframe.hidden = true;
+
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = COMMENT_SYNC_ENDPOINT;
+    form.target = frameName;
+    form.hidden = true;
+
+    for (const [name, value] of Object.entries(payload)) {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = name;
+      input.value = value;
+      form.appendChild(input);
+    }
+
+    const timeout = window.setTimeout(() => {
+      cleanup();
+      reject(new Error("Google did not confirm the sync request finished."));
+    }, 20000);
+
+    function cleanup() {
+      window.clearTimeout(timeout);
+      iframe.remove();
+      form.remove();
+    }
+
+    iframe.addEventListener("load", () => {
+      cleanup();
+      resolve();
+    }, { once: true });
+
+    document.body.appendChild(iframe);
+    document.body.appendChild(form);
+    form.submit();
+  });
+}
+
 async function syncComments() {
   const readerCode = getReaderCode();
   if (!readerCode) {
@@ -859,28 +909,15 @@ async function syncComments() {
   $("syncCommentsBtn").disabled = true;
   $("syncCommentsBtn").textContent = "Syncing...";
   try {
-    const form = new URLSearchParams();
-    form.set("action", "submit-comments");
-    form.set("reader_code", readerCode);
-    form.set("export_payload", JSON.stringify(exportPayload(records)));
-    const response = await fetch(COMMENT_SYNC_ENDPOINT, {
-      method: "POST",
-      body: form
+    await submitSyncForm({
+      action: "submit-comments",
+      reader_code: readerCode,
+      export_payload: JSON.stringify(exportPayload(records))
     });
-    const responseText = await response.text();
-    let result;
-    try {
-      result = JSON.parse(responseText);
-    } catch {
-      throw new Error(`Unexpected sync response: ${responseText.slice(0, 120)}`);
-    }
-    if (!result.ok) {
-      throw new Error(result.error || "Sync failed.");
-    }
-    markSyncGenerated(result.result, records);
-    window.alert(`Synced ${result.result.new_comments} new comment${result.result.new_comments === 1 ? "" : "s"}. ${result.result.duplicate_comments} duplicate${result.result.duplicate_comments === 1 ? "" : "s"} skipped.`);
+    markSyncSubmitted();
+    window.alert("Sync request submitted. Comments stay local; use Download Backup JSON if you need a manual copy.");
   } catch (error) {
-    window.alert(`Sync failed: ${error.message}. Use Download Backup JSON if needed.`);
+    window.alert(`Sync failed: ${error.message}. Use Download Backup JSON instead.`);
   } finally {
     $("syncCommentsBtn").disabled = false;
     $("syncCommentsBtn").textContent = "Sync Comments";
