@@ -190,7 +190,34 @@ Ticket routing:
 
 Every synthesis item and ticket must preserve source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. Do not summarize a comment in a way that loses its target or strengthens an ambiguous comment beyond what it says.
 
-When new tickets are created during another workflow, process lower-level dependencies before higher-level work. Prioritize story-bible, basic lore, character, magic, terminology, location, object, chronology, and consistency tickets before chapter-architecture, current-draft-map, future-outline, next-draft-outline, prose-preservation, or prose-phase tickets that depend on them. If a higher-level ticket can proceed safely without the lower-level decision, keep it queued; otherwise pause the higher-level unit until the lower-level ticket is approved, rejected, or explicitly deferred.
+## Ticket Preemption
+
+Tickets are first-class workflow items. When any workflow creates a ticket, Codex must pause the current higher-order work and address the ticket queue before continuing that higher-order unit.
+
+This applies when tickets are produced by:
+
+- web-app comment imports or scratchpad imports
+- chapter approval or current-draft mapping
+- chapter architecture or Chapter Goal Cards
+- future-outline or next-draft outline work
+- consistency reviews
+- story-bible review
+- app, workflow, data-processing, or validation work
+
+Tickets should be handled before approval packets, next chapter packets, new entity packets, or outline expansion unless the author explicitly says to defer that ticket or the ticket is already marked for a later phase.
+
+Default priority order:
+
+1. Story-bible, basic lore, terminology, character, relationship, magic, object, location, organization, chronology, and continuity tickets.
+2. Chapter-map and chapter-architecture tickets.
+3. Future-outline and next-draft-outline tickets.
+4. Prose-preservation tickets.
+5. Prose-phase tickets, only after the prose gate opens.
+6. App/workflow tickets that affect review usability, intake, export, validation, repository operation, or the author's ability to audit material.
+
+If a higher-order ticket depends on a lower-level decision, resolve, reject, accept-for-workflow, or explicitly defer the lower-level ticket before continuing the higher-order work. If a ticket can be safely deferred because it belongs to a later phase and does not affect current decisions, mark the ticket status and destination clearly.
+
+Existing packets are not discarded when ticket preemption occurs. Preserve the packet and return to it after the relevant tickets are handled. If a ticket is created while an approval packet is awaiting author input, the next Codex action should be the ticket queue unless the author directly answers and resolves the pending packet first.
 
 The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
 

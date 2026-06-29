@@ -146,6 +146,8 @@ The checkpoint should summarize:
 
 Tickets are still proposed work only. Do not apply tickets automatically to manuscript, bible, outline, chapter architecture, prose preservation, or `CONSISTENCY_QUEUE.md` unless the author explicitly approves that routing.
 
+Ticket preemption rule: once a batch synthesis creates tickets, the ticket queue becomes the next workflow item before returning to chapter approval, chapter architecture, outlining, or other higher-order review. Lower-level story-bible, lore, character, magic, terminology, chronology, location, object, organization, and continuity tickets should be addressed before dependent chapter/outline tickets. Preserve any in-progress packet, but resume it only after relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred.
+
 ## Ticket Routing
 
 - `CONSISTENCY_QUEUE.md`: contradictions, possible contradictions, chronology problems, ability/magic conflicts, knowledge-state problems, current-versus-future confusion, and prior document conflicts.

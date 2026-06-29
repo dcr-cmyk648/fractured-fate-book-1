@@ -72,6 +72,14 @@ For each review unit, preserve enough provenance for another session to locate t
 
 When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The author should not need to open the map file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
 
+### Ticket Preemption During Chapter Work
+
+If current-draft mapping, chapter approval, chapter architecture, future-sequence planning, next-draft outlining, or consistency review creates a ticket, pause the chapter/outline workflow and address the ticket queue before preparing the next chapter packet or expanding higher-order outline work.
+
+Prioritize lower-level story-bible, lore, character, magic, terminology, chronology, continuity, location, object, and organization tickets before chapter-architecture or outline tickets that depend on them. A chapter packet already awaiting author review should be preserved, not discarded, but ticket review takes priority unless the author explicitly resolves the packet first or explicitly defers the ticket.
+
+Tickets that clearly belong to a later phase may remain queued only when their status and deferred destination are recorded.
+
 ### Current-Draft Map Consistency Cadence
 
 During current-draft chapter mapping, run a significant chapter-map consistency review at least every five approved chapter summaries, and sooner when a broad contradiction, major terminology change, important magic/ability question, chronology issue, or author request makes it useful.
@@ -213,6 +221,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 Reader and author comments may imply prose-preservation work. Later feedback imports should recognize comments such as "keep this line," "near quote this," "preserve this image," "keep the emotional beat but rewrite the prose," "this exchange works," "this paragraph is confusing; do not reuse," "this should come back later," "echo this phrase in the ending," or "preserve this as a motif."
 
 The repository-side intake workflow lives in `feedback/webapp/` and is governed by `WORKFLOW.md`. Imported comments must be archived, normalized, deduplicated, synthesized, and converted into proposed tickets before they affect chapter maps, Chapter Goal Cards, revision suggestions, prose-preservation records, story-bible files, or `CONSISTENCY_QUEUE.md`.
+
+New feedback-derived tickets preempt the current chapter/outline workflow. Address the ticket queue first, especially lower-level story-bible or continuity tickets, then return to the preserved chapter packet or outline unit.
 
 During a Web-App Comment Batch Review, Codex should:
 

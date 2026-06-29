@@ -70,6 +70,21 @@ Before doing book work, Codex must:
 - Do not add routine author checkpoints for dependency searches, unambiguous dependent updates, queue entries, `needs-revisit` marking, validation, local commits, or block-level consistency review.
 - Stop for author input only when consistency work requires choosing between conflicting canon versions, making a new creative decision, changing the meaning of an approved entity, a broad retcon, manuscript prose changes, or overwriting manual edits.
 
+## Ticket Preemption Rule
+
+Tickets are first-class workflow items, not background notes. When any process creates a ticket, including web-app comment intake, scratchpad intake, chapter approval, current-draft mapping, chapter architecture, outlining, consistency review, story-bible review, or app/workflow work, Codex must pause the higher-order workflow and address the ticket queue before continuing that higher-order unit.
+
+Prioritize lower-level foundation tickets before higher-level work that depends on them:
+
+1. story-bible, basic lore, terminology, character, relationship, magic, object, location, organization, chronology, and continuity tickets
+2. chapter-map and chapter-architecture tickets
+3. future-outline and next-draft-outline tickets
+4. prose-preservation tickets
+5. prose-phase tickets, only after the prose gate is explicitly opened
+6. app/workflow tickets when they affect review usability, intake, export, validation, or repository operation
+
+Existing approval packets are preserved when ticket preemption occurs, but they do not take priority over newly created unresolved tickets. Resume the preserved packet only after the relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred.
+
 ## Minimum Sufficient Canon
 
 During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.
