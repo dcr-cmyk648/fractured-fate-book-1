@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-11";
+const APP_VERSION = "review-interface-v0-sync-12";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -932,6 +932,8 @@ async function syncComments() {
       markSyncGenerated(confirmation, records);
       const archiveNote = confirmation.archive_status === "failed"
         ? " Drive archive file was not created, but the Sheet received the comments."
+        : confirmation.archive_status === "disabled"
+          ? " Drive archive file creation is disabled; the Sheet is the sync inbox."
         : "";
       const sheetNote = confirmation.sheet_last_row
         ? ` Sheet now has ${confirmation.sheet_last_row} row${confirmation.sheet_last_row === 1 ? "" : "s"}.`

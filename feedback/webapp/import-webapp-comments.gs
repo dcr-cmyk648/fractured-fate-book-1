@@ -16,6 +16,10 @@ const CONFIG = {
   // Leave blank to use folderId.
   submittedCommentsFolderId: "",
 
+  // Direct app sync writes to the Sheet first. Leave this false unless the
+  // deployed web app is confirmed to have Drive file-create permission.
+  archiveDirectSyncFiles: false,
+
   // Optional: leave blank to create a new spreadsheet on first run.
   spreadsheetId: "",
 
@@ -197,7 +201,7 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
   let fileId = "";
   let fileName = "";
   let archiveError = "";
-  if (newComments.length) {
+  if (newComments.length && CONFIG.archiveDirectSyncFiles) {
     try {
       const folder = DriveApp.getFolderById(CONFIG.submittedCommentsFolderId || CONFIG.folderId);
       fileName = submittedFileName_(reader);
@@ -238,7 +242,7 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
     sheet_last_row: sheet.getLastRow(),
     submitted_file_id: fileId,
     submitted_file_name: fileName,
-    archive_status: fileId || !newComments.length ? "ok" : "failed",
+    archive_status: !newComments.length ? "ok" : (CONFIG.archiveDirectSyncFiles ? (fileId ? "ok" : "failed") : "disabled"),
     archive_error: archiveError
   };
 }
