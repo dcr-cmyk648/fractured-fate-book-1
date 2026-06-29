@@ -89,6 +89,8 @@ Existing approval packets are preserved when ticket preemption occurs, but they 
 
 Do not ask the author which ticket to process next unless two or more tickets conflict, have equal priority and no clear queue order, or require a sequencing decision that cannot be inferred from workflow priority. Otherwise, process tickets in priority/queue order and continue until the next ticket itself requires substantive author judgment or the queue is clear.
 
+Selecting a ticket number means "work on this ticket next," not automatic approval of the ticket's substantive resolution. If a ticket is marked as requiring author decision, Codex may gather context, preserve source material, draft a routing proposal, or perform unambiguous mechanical work, but must present the proposed resolution before applying it globally, promoting it to accepted workflow/canon/outline guidance, or marking it `accepted-for-workflow`.
+
 ## Minimum Sufficient Canon
 
 During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.

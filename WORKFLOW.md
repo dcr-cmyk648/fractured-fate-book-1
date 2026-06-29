@@ -217,6 +217,8 @@ Default priority order:
 
 Within those priority bands, process tickets in queue order. Do not ask the author which ticket to pick next unless tickets conflict, have equal priority without a clear queue order, or require a sequencing decision that cannot be inferred. Otherwise, continue through the ticket queue automatically until the next ticket itself requires substantive author judgment or the queue is clear.
 
+Choosing or reaching the next ticket does not approve that ticket's substantive resolution. When a ticket is marked `requires_author_decision: yes` or otherwise requires author judgment, Codex may gather context, preserve source material as candidate/inbox material, and prepare a proposed disposition, but must stop for approval before applying the resolution globally, promoting material to accepted guidance/canon/outline structure, or marking the ticket `accepted-for-workflow`.
+
 If a higher-order ticket depends on a lower-level decision, resolve, reject, accept-for-workflow, or explicitly defer the lower-level ticket before continuing the higher-order work. If a ticket can be safely deferred because it belongs to a later phase and does not affect current decisions, mark the ticket status and destination clearly.
 
 Existing packets are not discarded when ticket preemption occurs. Preserve the packet and return to it after the relevant tickets are handled. If a ticket is created while an approval packet is awaiting author input, the next Codex action should be the ticket queue unless the author directly answers and resolves the pending packet first.

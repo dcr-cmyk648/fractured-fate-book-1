@@ -82,6 +82,8 @@ Tickets that clearly belong to a later phase may remain queued only when their s
 
 Do not ask the author to choose the next ticket unless tickets conflict or the workflow priority order does not determine sequencing. Otherwise, process tickets in priority/queue order until the next ticket requires a substantive author decision or the ticket queue is clear.
 
+Processing the next ticket automatically does not authorize substantive resolution when the ticket itself requires author decision. Codex may preserve candidate material and draft a disposition, but must present the proposed resolution before promoting it into accepted chapter, outline, prose-preservation, or prose-phase guidance.
+
 ### Current-Draft Map Consistency Cadence
 
 During current-draft chapter mapping, run a significant chapter-map consistency review at least every five approved chapter summaries, and sooner when a broad contradiction, major terminology change, important magic/ability question, chronology issue, or author request makes it useful.

@@ -7,13 +7,13 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | WC-2026-06-29-001 | accepted-for-workflow | medium | revision-suggestion | future chapter maps / prose phase guidance | no |
 | WC-2026-06-29-002 | accepted-for-workflow | medium | app-bug | `docs/index.html`; `docs/app.js`; `docs/README.md` | no |
 | WC-2026-06-29-003 | proposed | medium | app-bug | review app persistence / authentication concept | yes |
-| WC-2026-06-29-004 | accepted-for-workflow | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | no |
+| WC-2026-06-29-004 | needs-author-decision | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | yes |
 
 ## WC-2026-06-29-001: Subtle Character-Natural Worldbuilding
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: accepted-for-workflow
+- Status: needs-author-decision
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `scratchpad-1782670811946-3rhhwk`
@@ -85,9 +85,9 @@ Rationale: This would change the current static/localStorage/manual-export archi
 - Commenter: DustinR
 - Target files: future Kelyra/Davian/Maya outline material; Sorevin/Low Clade story-bible material; Presentation chapter architecture
 - Target layer: author-scratchpad
-- Proposed destination: routed to candidate files for future story-bible review and chapter architecture
+- Proposed destination: candidate files updated; author decision needed before promotion or structural use
 - Blocking: no for Chapter 31; potentially relevant before final next-draft outline
-- Requires author decision: no
+- Requires author decision: yes
 
 Summary: Preserve these content notes for later routing:
 
@@ -98,4 +98,4 @@ Summary: Preserve these content notes for later routing:
 
 Rationale: These notes affect character arcs, Clade/proxy governance, and chapter-level purpose. They should be available to future lower-level review before higher-level outline decisions depend on them.
 
-Disposition: Accepted for workflow and routed as candidate material to `planning/candidates/threads/thread-maya-davian-romance.md`, `planning/candidates/threads/thread-kelyra-archeon-recovery.md`, `planning/candidates/locations/loc-sorevin-redbridge.md`, and `planning/candidates/events/event-maya-presentation.md`.
+Disposition: Source material preserved in candidate files for later review. This ticket still needs author decision before the material is promoted into accepted story-bible, chapter-architecture, outline, or prose-phase guidance.

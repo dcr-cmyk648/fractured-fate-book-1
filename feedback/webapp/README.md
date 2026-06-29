@@ -150,6 +150,8 @@ Ticket preemption rule: once a batch synthesis creates tickets, the ticket queue
 
 Process tickets in priority/queue order. Ask the author to choose only when tickets conflict, have equal priority with no clear queue order, or require a sequencing decision that cannot be inferred.
 
+Selecting or reaching a ticket does not approve its substantive outcome. If a ticket requires author decision, Codex may prepare the packet and preserve candidate material, but must ask before applying the resolution globally or marking the ticket `accepted-for-workflow`.
+
 ## Ticket Routing
 
 - `CONSISTENCY_QUEUE.md`: contradictions, possible contradictions, chronology problems, ability/magic conflicts, knowledge-state problems, current-versus-future confusion, and prior document conflicts.
