@@ -219,6 +219,8 @@ If a higher-order ticket depends on a lower-level decision, resolve, reject, acc
 
 Existing packets are not discarded when ticket preemption occurs. Preserve the packet and return to it after the relevant tickets are handled. If a ticket is created while an approval packet is awaiting author input, the next Codex action should be the ticket queue unless the author directly answers and resolves the pending packet first.
 
+After the relevant tickets are handled, re-present the preserved approval packet or next ticket checkpoint in the chat before waiting for author input. The author should never need to ask Codex to regenerate the current review item after an interruption.
+
 The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
 
 ## Book-Improvement Test
@@ -498,6 +500,10 @@ When a review packet reaches a checkpoint, print a useful summary and the concre
 Do not stop merely because an entity has been opened, a source-gathering stub exists, or a routine checkpoint has been reached. If Codex is going to wait for author input, the repository must already contain a specific author-review packet, approval packet, or phase-gate packet with the information the author needs to respond. The exception is a major phase checkpoint that explicitly requires author signoff before new work can begin.
 
 If the author leaves and returns, they should have a concrete packet to review rather than needing to ask Codex to generate one.
+
+Any time Codex is done working and expects the author to respond later, the chat must contain a specific actionable review item: a packet summary, ticket queue checkpoint, approval question set, or phase-gate decision. A status-only ending is not enough when there is a packet or ticket that can be reviewed.
+
+If the author interrupts a ready packet by asking for another task, preserve and re-queue the interrupted packet. When the interrupting task is complete and ticket-preemption rules allow return to that workflow, re-present the queued packet summary and questions in the chat. Do not merely point to the file path or assume the author remembers the earlier packet.
 
 For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, such as core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
 
@@ -1103,6 +1109,8 @@ Before ending a substantial work session, update `PROJECT_STATE.md` with:
 - latest relevant commit if available
 
 Do not put essential state only in the conversation.
+
+Before ending any work turn that is not fully complete, ensure the conversation contains the current actionable review item. If no author decision is needed, continue to the next packet or ticket until one exists, unless a documented blocker, major phase gate, or explicit author stop instruction prevents that.
 
 ## Branch and Milestone Policy
 

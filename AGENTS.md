@@ -56,6 +56,8 @@ Before doing book work, Codex must:
 - When a review packet reaches a checkpoint, print a useful summary and the concrete author questions in the Codex conversation/terminal. The final thing printed before waiting for author input must be the concrete numbered questions, so the author can audit and answer them without scrolling past later status text. Do not require the author to open the packet file unless they want provenance detail, full audit context, or have significant concerns.
 - Do not stop merely because an entity has been opened or source gathering has started. If Codex is going to wait for author input, the repository must already contain a specific author-review packet, approval packet, or phase-gate packet with the information the author needs to respond. The exception is a major phase checkpoint that explicitly requires author signoff before new work can begin.
 - If the author leaves and returns, they should have a concrete packet to review rather than needing to ask Codex to generate one.
+- Any time Codex is done working and expects the author to respond later, there must be a specific review item ready in the chat: a packet summary, ticket queue checkpoint, approval question set, or phase-gate decision. Do not end with only a status report when an actionable review item could be presented.
+- If the author interrupts a ready packet by asking for another task, preserve and re-queue that packet. When the interrupting task is complete and ticket-preemption rules allow it, re-present the queued packet in the chat instead of assuming the author remembers it or requiring them to ask for it again.
 - Do not require exact approval phrases. Treat clear statements such as "looks good," "approved," "go ahead," "that works," "commit it," "continue," "yes, use that," or "add that to the file" as approval when substantive questions have been resolved.
 - Do not interpret casual agreement as final entity approval when meaningful questions remain. Ask only about the remaining substantive ambiguity.
 - After substantive approval, automatically apply the already-approved entity content, create the previously proposed durable files, update indexes and project-state files, run validation, inspect the staged file list, commit the approved entity locally, run any due consistency review, and begin preparing the next queued entity.
@@ -83,7 +85,7 @@ Prioritize lower-level foundation tickets before higher-level work that depends 
 5. prose-phase tickets, only after the prose gate is explicitly opened
 6. app/workflow tickets when they affect review usability, intake, export, validation, or repository operation
 
-Existing approval packets are preserved when ticket preemption occurs, but they do not take priority over newly created unresolved tickets. Resume the preserved packet only after the relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred.
+Existing approval packets are preserved when ticket preemption occurs, but they do not take priority over newly created unresolved tickets. Resume the preserved packet only after the relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred. When a preserved packet becomes current again, re-present its summary and concrete questions in the chat. Do not merely say that the packet exists on disk.
 
 ## Minimum Sufficient Canon
 
@@ -270,6 +272,8 @@ Before ending a substantial work session, Codex must update `PROJECT_STATE.md` s
 - latest relevant commit if available
 
 Codex must update persistent project-state files before ending a work session when it has changed workflow state, entity state, phase state, or review artifacts.
+
+Before ending, Codex must also ensure the chat contains the current actionable review item unless the session is blocked by a major phase gate, external tool failure, or explicit author instruction to stop. If work was redirected away from a ready packet, record the queued packet in `PROJECT_STATE.md` when project state changes and re-present it when returning to that workflow.
 
 If work is interrupted during an entity review:
 
