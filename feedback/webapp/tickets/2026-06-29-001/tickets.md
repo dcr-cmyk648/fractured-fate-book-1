@@ -4,7 +4,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
-| WC-2026-06-29-001 | proposed | medium | revision-suggestion | future chapter maps / prose phase guidance | yes, before prose work |
+| WC-2026-06-29-001 | accepted-for-workflow | medium | revision-suggestion | future chapter maps / prose phase guidance | no |
 | WC-2026-06-29-002 | accepted-for-workflow | medium | app-bug | `docs/index.html`; `docs/app.js`; `docs/README.md` | no |
 | WC-2026-06-29-003 | proposed | medium | app-bug | review app persistence / authentication concept | yes |
 | WC-2026-06-29-004 | proposed | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | yes |
@@ -13,7 +13,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `scratchpad-1782670811946-3rhhwk`
@@ -23,11 +23,13 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 - Target layer: author-scratchpad
 - Proposed destination: future chapter architecture / prose-preservation and later prose guidance
 - Blocking: no
-- Requires author decision: yes, before prose drafting or direct manuscript revision
+- Requires author decision: no
 
 Summary: Worldbuilding and thematic exposition should be filtered through what the POV character would naturally notice, think, normalize, or resist, especially for moral or social material. Avoid over-explaining concepts the character is already used to.
 
 Rationale: This can improve future chapter maps and prose work by keeping exposition character-grounded and avoiding reader-facing moral overstatement.
+
+Disposition: Accepted for workflow. Stored in `AUTHORING.md` as prose-phase guidance: social, political, moral, and cultural worldbuilding should be filtered through the POV character's natural perception rather than presented as reader-facing moral explanation.
 
 ## WC-2026-06-29-002: Simplify Comment Export UI
 

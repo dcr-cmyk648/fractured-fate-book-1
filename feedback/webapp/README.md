@@ -148,6 +148,8 @@ Tickets are still proposed work only. Do not apply tickets automatically to manu
 
 Ticket preemption rule: once a batch synthesis creates tickets, the ticket queue becomes the next workflow item before returning to chapter approval, chapter architecture, outlining, or other higher-order review. Lower-level story-bible, lore, character, magic, terminology, chronology, location, object, organization, and continuity tickets should be addressed before dependent chapter/outline tickets. Preserve any in-progress packet, but resume it only after relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred.
 
+Process tickets in priority/queue order. Ask the author to choose only when tickets conflict, have equal priority with no clear queue order, or require a sequencing decision that cannot be inferred.
+
 ## Ticket Routing
 
 - `CONSISTENCY_QUEUE.md`: contradictions, possible contradictions, chronology problems, ability/magic conflicts, knowledge-state problems, current-versus-future confusion, and prior document conflicts.

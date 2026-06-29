@@ -298,6 +298,7 @@ Explain only what the POV character would perceive or understand in that moment.
 - Integrate worldbuilding through what the POV character notices, uses, fears, misunderstands, or takes for granted.
 - Do not pause the scene for encyclopedia exposition.
 - Do not insert lore simply because it exists in the repository.
+- For social, political, moral, or cultural worldbuilding, avoid reader-facing moral explanation unless the scene specifically calls for it. Filter the material through what the POV character would naturally think, normalize, resent, question, or fail to notice as someone who lives in the world.
 
 ## 10. Preview before application
 

@@ -215,6 +215,8 @@ Default priority order:
 5. Prose-phase tickets, only after the prose gate opens.
 6. App/workflow tickets that affect review usability, intake, export, validation, repository operation, or the author's ability to audit material.
 
+Within those priority bands, process tickets in queue order. Do not ask the author which ticket to pick next unless tickets conflict, have equal priority without a clear queue order, or require a sequencing decision that cannot be inferred. Otherwise, continue through the ticket queue automatically until the next ticket itself requires substantive author judgment or the queue is clear.
+
 If a higher-order ticket depends on a lower-level decision, resolve, reject, accept-for-workflow, or explicitly defer the lower-level ticket before continuing the higher-order work. If a ticket can be safely deferred because it belongs to a later phase and does not affect current decisions, mark the ticket status and destination clearly.
 
 Existing packets are not discarded when ticket preemption occurs. Preserve the packet and return to it after the relevant tickets are handled. If a ticket is created while an approval packet is awaiting author input, the next Codex action should be the ticket queue unless the author directly answers and resolves the pending packet first.

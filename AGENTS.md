@@ -87,6 +87,8 @@ Prioritize lower-level foundation tickets before higher-level work that depends 
 
 Existing approval packets are preserved when ticket preemption occurs, but they do not take priority over newly created unresolved tickets. Resume the preserved packet only after the relevant tickets are resolved, rejected, accepted-for-workflow, or explicitly deferred. When a preserved packet becomes current again, re-present its summary and concrete questions in the chat. Do not merely say that the packet exists on disk.
 
+Do not ask the author which ticket to process next unless two or more tickets conflict, have equal priority and no clear queue order, or require a sequencing decision that cannot be inferred from workflow priority. Otherwise, process tickets in priority/queue order and continue until the next ticket itself requires substantive author judgment or the queue is clear.
+
 ## Minimum Sufficient Canon
 
 During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.
