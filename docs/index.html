@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=scratchpad-1">
+    <link rel="stylesheet" href="styles.css?v=sync-1">
   </head>
   <body>
     <section class="access-strip" aria-label="Access mode">
@@ -44,7 +44,7 @@
           <button id="readerNavBtn" class="active" type="button">Book Reader</button>
           <button id="browserNavBtn" type="button">Repository Browser</button>
           <button id="scratchpadNavBtn" type="button">Author Scratchpad</button>
-          <button id="exportNavBtn" type="button">Comment Export</button>
+          <button id="exportNavBtn" type="button">Comment Sync</button>
         </nav>
       </div>
     </header>
@@ -116,25 +116,32 @@
 
       <section id="exportView" class="view" aria-labelledby="exportHeading">
         <div class="section-heading">
-          <h2 id="exportHeading">Comment Export</h2>
-          <p>Comments and scratchpad entries are stored only in this browser until exported.</p>
+          <h2 id="exportHeading">Comment Sync</h2>
+          <p>Comments and scratchpad entries stay local until synced or downloaded.</p>
         </div>
         <div class="export-status" aria-label="Export status">
+          <span id="readerCodeStatus">Reader code: Not saved</span>
+          <span id="lastSyncStatus">Last sync: Never</span>
+          <span id="commentsSinceSync">Entries since last sync: 0</span>
           <span id="lastExportStatus">Last export generated: Never</span>
           <span id="commentsSinceExport">Entries since last export: 0</span>
           <span id="totalCommentStatus">Total local entries: 0</span>
         </div>
         <div class="export-grid">
           <label>
-            Export scope
+            Reader code
+            <input id="readerCodeInput" type="password" autocomplete="off" placeholder="Enter private reader code">
+          </label>
+          <button id="saveReaderCodeBtn" type="button">Save Reader Code</button>
+          <label>
+            Sync scope
             <select id="exportScopeSelect">
               <option value="all">All comments and scratchpad entries</option>
-              <option value="since-last">Only entries since last export</option>
+              <option value="since-last">Only entries since last sync/export</option>
             </select>
           </label>
-          <button id="exportJsonBtn" type="button">Export JSON</button>
-          <button id="exportJsonlBtn" type="button">Export JSONL</button>
-          <button id="exportMarkdownBtn" type="button">Export Markdown</button>
+          <button id="syncCommentsBtn" type="button">Sync Comments</button>
+          <button id="exportJsonBtn" type="button">Download Backup JSON</button>
           <label class="import-label">
             Import JSON
             <input id="importCommentsInput" type="file" accept="application/json,.json">
@@ -182,7 +189,7 @@
       <textarea id="commentText" rows="3" placeholder="Write a comment about the current chapter, layer, or file."></textarea>
       <div class="comment-actions">
         <button id="submitCommentBtn" type="button">Submit Comment</button>
-        <button id="quickExportBtn" type="button">Export Comments</button>
+        <button id="quickExportBtn" type="button">Sync Comments</button>
       </div>
       <details id="bookmarkCard" class="bookmark-card" aria-label="Bookmark tools">
         <summary>Bookmark</summary>
@@ -198,6 +205,6 @@
       </details>
     </aside>
 
-    <script src="app.js?v=scratchpad-1"></script>
+    <script src="app.js?v=sync-1"></script>
   </body>
 </html>

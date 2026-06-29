@@ -12,10 +12,25 @@ const CONFIG = {
   // Required: Drive folder ID containing fractured-fate-comments-*.json files.
   folderId: "PASTE_GOOGLE_DRIVE_FOLDER_ID_HERE",
 
+  // Optional: Drive folder ID where direct app sync submissions should be written.
+  // Leave blank to use folderId.
+  submittedCommentsFolderId: "",
+
   // Optional: leave blank to create a new spreadsheet on first run.
   spreadsheetId: "",
 
-  sheetName: "webapp-comments"
+  sheetName: "webapp-comments",
+
+  // Optional setup helper input. Edit this in Apps Script, run
+  // installReaderAccountsFromConfig(), then remove the plaintext codes here.
+  readerAccounts: [
+    // {
+    //   reader_id: "reader-a",
+    //   display_name: "Reader A",
+    //   code: "PASTE_PRIVATE_READER_CODE_HERE",
+    //   active: true
+    // }
+  ]
 };
 
 const COMMENT_COLUMNS = [
@@ -44,6 +59,10 @@ const COMMENT_COLUMNS = [
 ];
 
 function doPost(e) {
+  const payload = parsePostPayload_(e);
+  if (payload && payload.action === "submit-comments") {
+    return handleCommentSubmit_(payload);
+  }
   return handleWebImport_(e);
 }
 
@@ -116,6 +135,83 @@ function importNewComments() {
   };
 }
 
+function handleCommentSubmit_(payload) {
+  try {
+    const reader = validateReaderCode_(payload.reader_code);
+    const exportPayload = payload.export_payload || {};
+    const comments = extractComments_(exportPayload);
+    const submitted = submitComments_(reader, exportPayload, comments);
+    return jsonResponse_({
+      ok: true,
+      result: submitted
+    });
+  } catch (error) {
+    return jsonResponse_({
+      ok: false,
+      error: error.message
+    });
+  }
+}
+
+function submitComments_(reader, exportPayload, comments) {
+  const sheet = getOrCreateSheet_();
+  ensureHeader_(sheet);
+  const seenIds = getSeenCommentIds_(sheet);
+  const importedAt = new Date().toISOString();
+  const rows = [];
+  const newComments = [];
+  let duplicateCount = 0;
+
+  for (const comment of comments) {
+    if (!comment || !comment.id) continue;
+    if (seenIds.has(comment.id)) {
+      duplicateCount += 1;
+      continue;
+    }
+    rows.push(commentToRow_(comment, { getName: () => "direct-sync", getId: () => "" }, importedAt));
+    seenIds.add(comment.id);
+    newComments.push(comment);
+  }
+
+  if (rows.length) {
+    sheet.getRange(sheet.getLastRow() + 1, 1, rows.length, COMMENT_COLUMNS.length).setValues(rows);
+  }
+
+  let fileId = "";
+  let fileName = "";
+  if (newComments.length) {
+    const folder = DriveApp.getFolderById(CONFIG.submittedCommentsFolderId || CONFIG.folderId);
+    fileName = submittedFileName_(reader);
+    const storedPayload = {
+      export_metadata: Object.assign({}, exportPayload.export_metadata || {}, {
+        submitted_at: importedAt,
+        submitted_by_reader_id: reader.reader_id,
+        submitted_by_display_name: reader.display_name,
+        submission_source: "review-app-direct-sync",
+        comment_count: newComments.length
+      }),
+      comments: newComments
+    };
+    const blob = Utilities.newBlob(
+      JSON.stringify(storedPayload, null, 2),
+      "application/json",
+      fileName
+    );
+    fileId = folder.createFile(blob).getId();
+  }
+
+  return {
+    reader: {
+      reader_id: reader.reader_id,
+      display_name: reader.display_name
+    },
+    new_comments: newComments.length,
+    duplicate_comments: duplicateCount,
+    submitted_file_id: fileId,
+    submitted_file_name: fileName
+  };
+}
+
 function handleWebImport_(e) {
   try {
     assertAuthorized_(e);
@@ -132,6 +228,15 @@ function handleWebImport_(e) {
   }
 }
 
+function parsePostPayload_(e) {
+  if (!e || !e.postData || !e.postData.contents) return null;
+  try {
+    return JSON.parse(e.postData.contents);
+  } catch (error) {
+    return null;
+  }
+}
+
 function assertAuthorized_(e) {
   const expected = PropertiesService.getScriptProperties().getProperty("import_token");
   if (!expected) {
@@ -142,6 +247,57 @@ function assertAuthorized_(e) {
   if (!provided || provided !== expected) {
     throw new Error("Unauthorized import request.");
   }
+}
+
+function installReaderAccountsFromConfig() {
+  const accounts = {};
+  for (const account of CONFIG.readerAccounts || []) {
+    if (!account.reader_id || !account.display_name || !account.code) {
+      throw new Error("Every reader account needs reader_id, display_name, and code.");
+    }
+    accounts[account.reader_id] = {
+      reader_id: account.reader_id,
+      display_name: account.display_name,
+      token_hash: hashReaderCode_(account.code),
+      active: account.active !== false
+    };
+  }
+  PropertiesService.getScriptProperties().setProperty("reader_accounts_json", JSON.stringify(accounts));
+  Logger.log("Installed %s reader account(s). Remove plaintext codes from CONFIG.readerAccounts after confirming setup.", Object.keys(accounts).length);
+  return Object.keys(accounts);
+}
+
+function getReaderAccounts() {
+  const raw = PropertiesService.getScriptProperties().getProperty("reader_accounts_json");
+  return raw ? JSON.parse(raw) : {};
+}
+
+function validateReaderCode_(code) {
+  if (!code) throw new Error("Reader code is required.");
+  const tokenHash = hashReaderCode_(code);
+  const accounts = getReaderAccounts();
+  for (const readerId of Object.keys(accounts)) {
+    const account = accounts[readerId];
+    if (account && account.active !== false && account.token_hash === tokenHash) {
+      return {
+        reader_id: account.reader_id || readerId,
+        display_name: account.display_name || readerId
+      };
+    }
+  }
+  throw new Error("Reader code is not valid.");
+}
+
+function hashReaderCode_(code) {
+  const bytes = Utilities.computeDigest(
+    Utilities.DigestAlgorithm.SHA_256,
+    String(code).trim(),
+    Utilities.Charset.UTF_8
+  );
+  return bytes.map((byte) => {
+    const value = byte < 0 ? byte + 256 : byte;
+    return (`0${value.toString(16)}`).slice(-2);
+  }).join("");
 }
 
 function jsonResponse_(payload) {
@@ -230,6 +386,15 @@ function extractComments_(parsed) {
   if (Array.isArray(parsed)) return parsed;
   if (parsed && Array.isArray(parsed.comments)) return parsed.comments;
   return [];
+}
+
+function submittedFileName_(reader) {
+  const safeName = String(reader.reader_id || "reader")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "") || "reader";
+  const stamp = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyyMMdd-HHmmss");
+  return `fractured-fate-submitted-comments-${safeName}-${stamp}.json`;
 }
 
 function commentToRow_(comment, file, importedAt) {

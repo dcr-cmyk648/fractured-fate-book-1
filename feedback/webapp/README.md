@@ -15,10 +15,11 @@ Intended path:
 3. Reader reads prose in Reader Mode or, if authorized, uses Author Mode for repository files and other layers.
 4. Reader submits comments using the fixed comment box, or the author captures contextless notes in Author Scratchpad.
 5. Reader or author exports comments and scratchpad entries.
-6. Reader sends the exported comments file to the author.
-7. Author manually copies the exported comments file into `feedback/webapp/incoming/`.
-8. Codex or the author runs the local import command.
-9. Codex later synthesizes the normalized batch into proposed tickets for author review.
+6. If comment sync is configured, reader enters a private reader code and clicks `Sync Comments`; Apps Script validates the code and writes submitted JSON to Google Drive.
+7. If sync is not configured or fails, reader downloads backup JSON and sends the exported comments file to the author.
+8. Author manually copies exported/submitted comment files into `feedback/webapp/incoming/` or authorizes Codex to pull the files from Drive.
+9. Codex or the author runs the local import command.
+10. Codex later synthesizes the normalized batch into proposed tickets for author review.
 
 If the author is using a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. The repository workflow does not depend on Google Drive APIs.
 
@@ -161,7 +162,7 @@ Reader comments do not override approved canon, approve exact prose reuse, autho
 
 ## Google Apps Script Importer
 
-`import-webapp-comments.gs` is a standalone Google Apps Script for pulling new comments from a Google Drive folder into a Google Sheet.
+`import-webapp-comments.gs` is a standalone Google Apps Script for pulling new comments from a Google Drive folder into a Google Sheet and for accepting submit-only comment sync from the static review app.
 
 Use:
 
@@ -174,6 +175,52 @@ Use:
 7. Approve the requested Drive and Sheets permissions.
 
 The importer deduplicates by exported comment `id`, so rerunning it only appends new comments. It does not modify the exported JSON files, call Codex, upload anything elsewhere, or treat comments as canon.
+
+## Optional Submit-Only Comment Sync
+
+The static app can submit comments directly to Apps Script when a reader has a private reader code.
+
+Security model:
+
+- No reader code, account list, token hash, or private Sheet ID belongs in GitHub.
+- The public app may contain the Apps Script web app URL.
+- The reader code is a bearer invite code stored in that reader's browser `localStorage`.
+- Apps Script validates the reader code against private Script Properties.
+- Sync is submit-only. The endpoint writes comments; it does not return prior comments or cross-device history.
+
+Setup:
+
+1. Paste the current `feedback/webapp/import-webapp-comments.gs` into Apps Script.
+2. Preserve or set `CONFIG.folderId` to the Drive folder that should receive submitted comment JSON files.
+3. Optionally set `CONFIG.submittedCommentsFolderId` if submitted files should go to a separate folder.
+4. Add reader accounts temporarily under `CONFIG.readerAccounts`, for example:
+
+```js
+readerAccounts: [
+  {
+    reader_id: "reader-a",
+    display_name: "Reader A",
+    code: "long-private-random-code",
+    active: true
+  }
+]
+```
+
+5. Run `installReaderAccountsFromConfig()` in Apps Script.
+6. Confirm the execution log says the accounts were installed.
+7. Remove plaintext `code` values from `CONFIG.readerAccounts` in Apps Script after installation.
+8. Deploy a new web app version.
+9. Give each reader their private code.
+
+When the app calls the endpoint with `action: submit-comments`, Apps Script:
+
+- validates the reader code
+- deduplicates by comment `id` using the private Sheet
+- appends new rows to the private Sheet
+- writes a compatible submitted JSON file to Drive
+- returns the accepted and duplicate counts
+
+If sync fails, the reader should use `Download Backup JSON`.
 
 Utility functions:
 

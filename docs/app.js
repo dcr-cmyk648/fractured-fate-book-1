@@ -1,4 +1,5 @@
-const APP_VERSION = "review-interface-v0-scratchpad-1";
+const APP_VERSION = "review-interface-v0-sync-1";
+const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
@@ -16,7 +17,13 @@ const STORAGE_KEYS = {
   lastExportAt: "ffReview.lastExport.generatedAt",
   lastExportCount: "ffReview.lastExport.commentCount",
   lastExportLatestCreatedAt: "ffReview.lastExport.latestCommentCreatedAt",
-  lastExportFormat: "ffReview.lastExport.format"
+  lastExportFormat: "ffReview.lastExport.format",
+  readerCode: "ffReview.readerCode",
+  readerCodeValidatedAt: "ffReview.readerCode.validatedAt",
+  readerCodeDisplayName: "ffReview.readerCode.displayName",
+  lastSyncAt: "ffReview.lastSync.generatedAt",
+  lastSyncCount: "ffReview.lastSync.commentCount",
+  lastSyncLatestCreatedAt: "ffReview.lastSync.latestCommentCreatedAt"
 };
 
 let appIndex = null;
@@ -777,7 +784,8 @@ function latestCommentCreatedAt(records = comments) {
 function commentsForExport() {
   const scope = $("exportScopeSelect")?.value || "all";
   if (scope !== "since-last") return comments.slice();
-  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastSyncLatestCreatedAt) ||
+    localStorage.getItem(STORAGE_KEYS.lastExportLatestCreatedAt);
   if (!lastLatest) return comments.slice();
   return comments.filter((comment) => (comment.created_at || "") > lastLatest);
 }
@@ -803,6 +811,92 @@ function markExportGenerated(format, records) {
   renderExportStatus();
 }
 
+function getReaderCode() {
+  return localStorage.getItem(STORAGE_KEYS.readerCode) || "";
+}
+
+function saveReaderCode() {
+  const code = $("readerCodeInput").value.trim();
+  if (!code) {
+    window.alert("Enter a reader code before saving.");
+    return;
+  }
+  localStorage.setItem(STORAGE_KEYS.readerCode, code);
+  localStorage.removeItem(STORAGE_KEYS.readerCodeValidatedAt);
+  localStorage.removeItem(STORAGE_KEYS.readerCodeDisplayName);
+  $("readerCodeInput").value = "";
+  renderExportStatus();
+}
+
+function markSyncGenerated(result, records) {
+  const now = new Date().toISOString();
+  localStorage.setItem(STORAGE_KEYS.lastSyncAt, now);
+  localStorage.setItem(STORAGE_KEYS.lastSyncCount, String(comments.length));
+  localStorage.setItem(STORAGE_KEYS.lastSyncLatestCreatedAt, latestCommentCreatedAt(comments) || "");
+  if (result?.reader?.display_name) {
+    localStorage.setItem(STORAGE_KEYS.readerCodeDisplayName, result.reader.display_name);
+  }
+  localStorage.setItem(STORAGE_KEYS.readerCodeValidatedAt, now);
+  renderExportStatus();
+}
+
+async function syncComments() {
+  const readerCode = getReaderCode();
+  if (!readerCode) {
+    setView("export");
+    window.alert("Enter and save your private reader code before syncing.");
+    return;
+  }
+  const records = commentsForExport();
+  if (!records.length) {
+    window.alert("No comments or scratchpad entries to sync for the selected scope.");
+    return;
+  }
+  if (!COMMENT_SYNC_ENDPOINT) {
+    window.alert("Comment sync is not configured. Use Download Backup JSON instead.");
+    return;
+  }
+  $("syncCommentsBtn").disabled = true;
+  $("syncCommentsBtn").textContent = "Syncing...";
+  try {
+    const response = await fetch(COMMENT_SYNC_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        action: "submit-comments",
+        reader_code: readerCode,
+        export_payload: exportPayload(records)
+      })
+    });
+    const result = await response.json();
+    if (!result.ok) {
+      throw new Error(result.error || "Sync failed.");
+    }
+    markSyncGenerated(result.result, records);
+    window.alert(`Synced ${result.result.new_comments} new comment${result.result.new_comments === 1 ? "" : "s"}. ${result.result.duplicate_comments} duplicate${result.result.duplicate_comments === 1 ? "" : "s"} skipped.`);
+  } catch (error) {
+    window.alert(`Sync failed: ${error.message}. Use Download Backup JSON if needed.`);
+  } finally {
+    $("syncCommentsBtn").disabled = false;
+    $("syncCommentsBtn").textContent = "Sync Comments";
+  }
+}
+
+function formatExportTimestamp(value) {
+  if (!value) return "Never";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return parsed.toLocaleString([], {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
 function download(filename, mimeType, body) {
   const blob = new Blob([body], { type: mimeType });
   const url = URL.createObjectURL(blob);
@@ -824,77 +918,6 @@ function exportJson() {
     JSON.stringify(exportPayload(records), null, 2)
   );
   markExportGenerated("json", records);
-}
-
-function exportJsonl() {
-  const name = slugName(getCommenterName());
-  const records = commentsForExport();
-  const body = records.map((comment) => JSON.stringify(comment)).join("\n") + (records.length ? "\n" : "");
-  download(
-    `fractured-fate-comments-${name}-${timestampForFile()}.jsonl`,
-    "application/x-ndjson",
-    body
-  );
-  markExportGenerated("jsonl", records);
-}
-
-function markdownGroupKey(comment) {
-  if (comment.view_mode === "scratchpad") return `Scratchpad: ${scratchpadLabel(comment.scratchpad_type)}`;
-  return comment.chapter_title || comment.current_file_path || "Unanchored";
-}
-
-function exportMarkdown() {
-  const name = slugName(getCommenterName());
-  const records = commentsForExport();
-  const groups = new Map();
-  for (const comment of records) {
-    const key = markdownGroupKey(comment);
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(comment);
-  }
-  const metadata = exportPayload(records).export_metadata;
-  const lines = [
-    "# Fractured Fate Comments",
-    "",
-    `- Exported at: ${metadata.exported_at}`,
-    `- Commenter: ${getCommenterName() || "Reader"}`,
-    `- Repo branch: ${appIndex.metadata?.branch || "unknown"}`,
-    `- Repo commit: ${appIndex.metadata?.commit_hash || "unknown"}`,
-    `- Export scope: ${metadata.export_scope}`,
-    `- Comment count: ${records.length}`,
-    ""
-  ];
-  for (const [key, group] of groups) {
-    lines.push(`## ${key}`, "");
-    for (const comment of group) {
-      lines.push(`### ${comment.id || comment.created_at}`);
-      lines.push("");
-      lines.push(`- Timestamp: ${comment.created_at || ""}`);
-      lines.push(`- Commenter: ${comment.commenter_name || ""}`);
-      if (comment.view_mode === "scratchpad") {
-        lines.push(`- Scratchpad type: ${scratchpadLabel(comment.scratchpad_type)}`);
-      }
-      lines.push(`- Layer: ${comment.current_layer || ""}`);
-      lines.push(`- File: ${comment.current_file_path || ""}`);
-      if (comment.chapter_id) lines.push(`- Chapter ID: ${comment.chapter_id}`);
-      if (comment.source_line_start) lines.push(`- Lines: ${comment.source_line_start}-${comment.source_line_end}`);
-      if (comment.approximate_scroll_percent !== null) lines.push(`- Scroll: ${comment.approximate_scroll_percent}%`);
-      if (comment.selected_text) {
-        lines.push("- Selected text:");
-        lines.push("");
-        lines.push("> " + comment.selected_text.replace(/\n/g, "\n> "));
-        lines.push("");
-      }
-      lines.push(comment.comment_text);
-      lines.push("");
-    }
-  }
-  download(
-    `fractured-fate-comments-${name}-${timestampForFile()}.md`,
-    "text/markdown",
-    lines.join("\n")
-  );
-  markExportGenerated("markdown", records);
 }
 
 function importJsonFile(file) {
@@ -934,13 +957,30 @@ function entriesSinceLastExport() {
   return comments.filter((comment) => (comment.created_at || "") > lastLatest).length;
 }
 
+function entriesSinceLastSync() {
+  const lastLatest = localStorage.getItem(STORAGE_KEYS.lastSyncLatestCreatedAt);
+  if (!lastLatest) return comments.length;
+  return comments.filter((comment) => (comment.created_at || "") > lastLatest).length;
+}
+
 function renderExportStatus() {
   if (!$("lastExportStatus")) return;
   const lastAt = localStorage.getItem(STORAGE_KEYS.lastExportAt);
-  const format = localStorage.getItem(STORAGE_KEYS.lastExportFormat);
-  $("lastExportStatus").textContent = `Last export generated: ${lastAt || "Never"}${format ? ` (${format})` : ""}`;
+  const lastSyncAt = localStorage.getItem(STORAGE_KEYS.lastSyncAt);
+  const validatedAt = localStorage.getItem(STORAGE_KEYS.readerCodeValidatedAt);
+  const readerDisplayName = localStorage.getItem(STORAGE_KEYS.readerCodeDisplayName);
+  const readerCode = getReaderCode();
+  $("readerCodeStatus").textContent = readerCode
+    ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}` : "Saved, not yet validated"}`
+    : "Reader code: Not saved";
+  $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
+  $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
+  $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
   $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
   $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
+  if ($("quickExportBtn")) {
+    $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
+  }
 }
 
 function isMobileLayout() {
@@ -1072,10 +1112,13 @@ function wireEvents() {
   $("saveBookmarkBtn").addEventListener("click", saveBookmark);
   $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
   $("submitCommentBtn").addEventListener("click", submitComment);
-  $("quickExportBtn").addEventListener("click", exportJson);
+  $("quickExportBtn").addEventListener("click", () => {
+    if (getReaderCode()) syncComments();
+    else setView("export");
+  });
+  $("saveReaderCodeBtn").addEventListener("click", saveReaderCode);
+  $("syncCommentsBtn").addEventListener("click", syncComments);
   $("exportJsonBtn").addEventListener("click", exportJson);
-  $("exportJsonlBtn").addEventListener("click", exportJsonl);
-  $("exportMarkdownBtn").addEventListener("click", exportMarkdown);
   $("importCommentsInput").addEventListener("change", (event) => {
     const file = event.target.files?.[0];
     if (file) importJsonFile(file);
