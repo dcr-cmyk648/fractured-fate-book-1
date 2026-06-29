@@ -269,6 +269,23 @@ def load_existing_hashes(master_path: Path) -> set[str]:
     return hashes
 
 
+def load_existing_comment_ids(master_path: Path) -> set[str]:
+    ids: set[str] = set()
+    if not master_path.exists():
+        return ids
+    for line in master_path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        comment_id = as_text(record.get("id")).strip()
+        if comment_id:
+            ids.add(comment_id)
+    return ids
+
+
 def write_jsonl(path: Path, records: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
@@ -450,7 +467,9 @@ def run_import() -> int:
 
     master_path = NORMALIZED_DIR / "comments.jsonl"
     existing_hashes = load_existing_hashes(master_path)
+    existing_comment_ids = load_existing_comment_ids(master_path)
     seen_this_batch: set[str] = set()
+    seen_ids_this_batch: set[str] = set()
     imported: list[dict[str, Any]] = []
     duplicates: list[dict[str, Any]] = []
 
@@ -460,12 +479,16 @@ def run_import() -> int:
             rejected.append(rejected_record(Path(source_file), record, "missing comment_text"))
             continue
         content_hash = normalized["content_hash"]
-        if content_hash in existing_hashes or content_hash in seen_this_batch:
+        comment_id = as_text(normalized.get("id")).strip()
+        duplicate_by_id = bool(comment_id and (comment_id in existing_comment_ids or comment_id in seen_ids_this_batch))
+        if duplicate_by_id or content_hash in existing_hashes or content_hash in seen_this_batch:
             duplicate = dict(normalized)
             duplicate["processing_status"] = "duplicate"
             duplicates.append(duplicate)
             continue
         seen_this_batch.add(content_hash)
+        if comment_id:
+            seen_ids_this_batch.add(comment_id)
         imported.append(normalized)
 
     write_jsonl(batch_dir / "normalized-comments.jsonl", imported)
