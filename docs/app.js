@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-5";
+const APP_VERSION = "review-interface-v0-sync-6";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -1018,9 +1018,16 @@ function renderExportStatus() {
   $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
   $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
   $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
+  $("appVersionStatus").textContent = `App version: ${APP_VERSION}`;
   if ($("quickExportBtn")) {
     $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
   }
+}
+
+function reloadApp() {
+  const url = new URL(window.location.href);
+  url.searchParams.set("reload", Date.now().toString());
+  window.location.href = url.toString();
 }
 
 function isMobileLayout() {
@@ -1158,6 +1165,7 @@ function wireEvents() {
   });
   $("saveReaderCodeBtn").addEventListener("click", saveReaderCode);
   $("syncCommentsBtn").addEventListener("click", syncComments);
+  $("reloadAppBtn").addEventListener("click", reloadApp);
   $("exportJsonBtn").addEventListener("click", exportJson);
   $("importCommentsInput").addEventListener("change", (event) => {
     const file = event.target.files?.[0];
