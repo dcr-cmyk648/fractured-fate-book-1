@@ -7,7 +7,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | WC-2026-06-29-001 | accepted-for-workflow | medium | revision-suggestion | future chapter maps / prose phase guidance | no |
 | WC-2026-06-29-002 | accepted-for-workflow | medium | app-bug | `docs/index.html`; `docs/app.js`; `docs/README.md` | no |
 | WC-2026-06-29-003 | proposed | medium | app-bug | review app persistence / authentication concept | yes |
-| WC-2026-06-29-004 | proposed | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | yes |
+| WC-2026-06-29-004 | accepted-for-workflow | high | chapter-architecture | Kelyra/Davian/Maya, Sorevin succession, Maya public role, Presentation fallout | no |
 
 ## WC-2026-06-29-001: Subtle Character-Natural Worldbuilding
 
@@ -57,7 +57,7 @@ Rationale: This reduces UI confusion while preserving the existing JSON intake w
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: app-bug
 - Source comment IDs: `scratchpad-1782756260074-ci0uw1`; `scratchpad-1782757000096-36uk5k`
@@ -85,9 +85,9 @@ Rationale: This would change the current static/localStorage/manual-export archi
 - Commenter: DustinR
 - Target files: future Kelyra/Davian/Maya outline material; Sorevin/Low Clade story-bible material; Presentation chapter architecture
 - Target layer: author-scratchpad
-- Proposed destination: future story-bible review or chapter-architecture pass, depending on target
+- Proposed destination: routed to candidate files for future story-bible review and chapter architecture
 - Blocking: no for Chapter 31; potentially relevant before final next-draft outline
-- Requires author decision: yes
+- Requires author decision: no
 
 Summary: Preserve these content notes for later routing:
 
@@ -97,3 +97,5 @@ Summary: Preserve these content notes for later routing:
 - Niall may warn Maya after Presentation that she does not understand the political ramifications of what she did.
 
 Rationale: These notes affect character arcs, Clade/proxy governance, and chapter-level purpose. They should be available to future lower-level review before higher-level outline decisions depend on them.
+
+Disposition: Accepted for workflow and routed as candidate material to `planning/candidates/threads/thread-maya-davian-romance.md`, `planning/candidates/threads/thread-kelyra-archeon-recovery.md`, `planning/candidates/locations/loc-sorevin-redbridge.md`, and `planning/candidates/events/event-maya-presentation.md`.
