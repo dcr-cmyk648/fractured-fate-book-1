@@ -2,7 +2,7 @@
   "name": "Fractured Fate Review",
   "short_name": "Fractured Fate",
   "description": "Read-only Fractured Fate review interface for comments and repository browsing.",
-  "start_url": "./?v=sync-9",
+  "start_url": "./?v=sync-10",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f6f3ee",
