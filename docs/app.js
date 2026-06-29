@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-8";
+const APP_VERSION = "review-interface-v0-sync-9";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -1043,10 +1043,27 @@ function renderExportStatus() {
   }
 }
 
-function reloadApp() {
+async function reloadApp() {
+  if ("caches" in window) {
+    const cacheNames = await caches.keys();
+    await Promise.all(cacheNames.map((name) => caches.delete(name)));
+  }
+  if ("serviceWorker" in navigator) {
+    const registration = await navigator.serviceWorker.getRegistration();
+    if (registration) await registration.update();
+  }
   const url = new URL(window.location.href);
   url.searchParams.set("reload", Date.now().toString());
   window.location.href = url.toString();
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(`sw.js?v=${encodeURIComponent(APP_VERSION)}`)
+      .then((registration) => registration.update())
+      .catch(() => {});
+  });
 }
 
 function isMobileLayout() {
@@ -1224,6 +1241,7 @@ function wireEvents() {
 }
 
 async function init() {
+  registerServiceWorker();
   promptForName();
   getSessionId();
   loadComments();
