@@ -31,7 +31,7 @@ No npm install, backend, database, authentication, AI call, or Google Drive conn
 - Layer selector with graceful unavailable-layer handling.
 - Persistent comment box: right-side rail on desktop, collapsible drawer on mobile.
 - Browser-local comment storage.
-- Comment and scratchpad export as JSON, JSONL, or Markdown.
+- Comment and scratchpad export as JSON.
 - Last-export tracking with an option to export all entries or entries created since the last export.
 - Clear local comments with confirmation.
 

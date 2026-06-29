@@ -803,6 +803,19 @@ function markExportGenerated(format, records) {
   renderExportStatus();
 }
 
+function formatExportTimestamp(value) {
+  if (!value) return "Never";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return parsed.toLocaleString([], {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
 function download(filename, mimeType, body) {
   const blob = new Blob([body], { type: mimeType });
   const url = URL.createObjectURL(blob);
@@ -824,77 +837,6 @@ function exportJson() {
     JSON.stringify(exportPayload(records), null, 2)
   );
   markExportGenerated("json", records);
-}
-
-function exportJsonl() {
-  const name = slugName(getCommenterName());
-  const records = commentsForExport();
-  const body = records.map((comment) => JSON.stringify(comment)).join("\n") + (records.length ? "\n" : "");
-  download(
-    `fractured-fate-comments-${name}-${timestampForFile()}.jsonl`,
-    "application/x-ndjson",
-    body
-  );
-  markExportGenerated("jsonl", records);
-}
-
-function markdownGroupKey(comment) {
-  if (comment.view_mode === "scratchpad") return `Scratchpad: ${scratchpadLabel(comment.scratchpad_type)}`;
-  return comment.chapter_title || comment.current_file_path || "Unanchored";
-}
-
-function exportMarkdown() {
-  const name = slugName(getCommenterName());
-  const records = commentsForExport();
-  const groups = new Map();
-  for (const comment of records) {
-    const key = markdownGroupKey(comment);
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(comment);
-  }
-  const metadata = exportPayload(records).export_metadata;
-  const lines = [
-    "# Fractured Fate Comments",
-    "",
-    `- Exported at: ${metadata.exported_at}`,
-    `- Commenter: ${getCommenterName() || "Reader"}`,
-    `- Repo branch: ${appIndex.metadata?.branch || "unknown"}`,
-    `- Repo commit: ${appIndex.metadata?.commit_hash || "unknown"}`,
-    `- Export scope: ${metadata.export_scope}`,
-    `- Comment count: ${records.length}`,
-    ""
-  ];
-  for (const [key, group] of groups) {
-    lines.push(`## ${key}`, "");
-    for (const comment of group) {
-      lines.push(`### ${comment.id || comment.created_at}`);
-      lines.push("");
-      lines.push(`- Timestamp: ${comment.created_at || ""}`);
-      lines.push(`- Commenter: ${comment.commenter_name || ""}`);
-      if (comment.view_mode === "scratchpad") {
-        lines.push(`- Scratchpad type: ${scratchpadLabel(comment.scratchpad_type)}`);
-      }
-      lines.push(`- Layer: ${comment.current_layer || ""}`);
-      lines.push(`- File: ${comment.current_file_path || ""}`);
-      if (comment.chapter_id) lines.push(`- Chapter ID: ${comment.chapter_id}`);
-      if (comment.source_line_start) lines.push(`- Lines: ${comment.source_line_start}-${comment.source_line_end}`);
-      if (comment.approximate_scroll_percent !== null) lines.push(`- Scroll: ${comment.approximate_scroll_percent}%`);
-      if (comment.selected_text) {
-        lines.push("- Selected text:");
-        lines.push("");
-        lines.push("> " + comment.selected_text.replace(/\n/g, "\n> "));
-        lines.push("");
-      }
-      lines.push(comment.comment_text);
-      lines.push("");
-    }
-  }
-  download(
-    `fractured-fate-comments-${name}-${timestampForFile()}.md`,
-    "text/markdown",
-    lines.join("\n")
-  );
-  markExportGenerated("markdown", records);
 }
 
 function importJsonFile(file) {
@@ -937,8 +879,7 @@ function entriesSinceLastExport() {
 function renderExportStatus() {
   if (!$("lastExportStatus")) return;
   const lastAt = localStorage.getItem(STORAGE_KEYS.lastExportAt);
-  const format = localStorage.getItem(STORAGE_KEYS.lastExportFormat);
-  $("lastExportStatus").textContent = `Last export generated: ${lastAt || "Never"}${format ? ` (${format})` : ""}`;
+  $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
   $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
   $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
 }
@@ -1074,8 +1015,6 @@ function wireEvents() {
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", exportJson);
   $("exportJsonBtn").addEventListener("click", exportJson);
-  $("exportJsonlBtn").addEventListener("click", exportJsonl);
-  $("exportMarkdownBtn").addEventListener("click", exportMarkdown);
   $("importCommentsInput").addEventListener("change", (event) => {
     const file = event.target.files?.[0];
     if (file) importJsonFile(file);
