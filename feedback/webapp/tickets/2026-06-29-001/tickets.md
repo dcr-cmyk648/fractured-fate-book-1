@@ -13,7 +13,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: needs-author-decision
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `scratchpad-1782670811946-3rhhwk`
@@ -57,7 +57,7 @@ Rationale: This reduces UI confusion while preserving the existing JSON intake w
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: accepted-for-workflow
+- Status: proposed
 - Priority: medium
 - Ticket type: app-bug
 - Source comment IDs: `scratchpad-1782756260074-ci0uw1`; `scratchpad-1782757000096-36uk5k`
@@ -77,7 +77,7 @@ Rationale: This would change the current static/localStorage/manual-export archi
 
 - Source: webapp-comments
 - Batch ID: `2026-06-29-001`
-- Status: proposed
+- Status: needs-author-decision
 - Priority: high
 - Ticket type: chapter-architecture
 - Source comment IDs: `scratchpad-1782670833833-xjex54`
