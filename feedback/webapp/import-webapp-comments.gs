@@ -67,6 +67,9 @@ function doPost(e) {
 }
 
 function doGet(e) {
+  if (e && e.parameter && e.parameter.action === "sync-status") {
+    return handleSyncStatus_(e);
+  }
   return handleWebImport_(e);
 }
 
@@ -140,12 +143,24 @@ function handleCommentSubmit_(payload) {
     const reader = validateReaderCode_(payload.reader_code);
     const exportPayload = payload.export_payload || {};
     const comments = extractComments_(exportPayload);
-    const submitted = submitComments_(reader, exportPayload, comments);
+    const submitted = submitComments_(reader, exportPayload, comments, payload.submission_id);
+    storeSyncStatus_(payload.submission_id, {
+      ok: true,
+      found: true,
+      result: submitted
+    });
     return jsonResponse_({
       ok: true,
       result: submitted
     });
   } catch (error) {
+    if (payload && payload.submission_id) {
+      storeSyncStatus_(payload.submission_id, {
+        ok: false,
+        found: true,
+        error: error.message
+      });
+    }
     return jsonResponse_({
       ok: false,
       error: error.message
@@ -153,7 +168,7 @@ function handleCommentSubmit_(payload) {
   }
 }
 
-function submitComments_(reader, exportPayload, comments) {
+function submitComments_(reader, exportPayload, comments, submissionId) {
   const sheet = getOrCreateSheet_();
   ensureHeader_(sheet);
   const seenIds = getSeenCommentIds_(sheet);
@@ -185,6 +200,7 @@ function submitComments_(reader, exportPayload, comments) {
     const storedPayload = {
       export_metadata: Object.assign({}, exportPayload.export_metadata || {}, {
         submitted_at: importedAt,
+        submission_id: submissionId || "",
         submitted_by_reader_id: reader.reader_id,
         submitted_by_display_name: reader.display_name,
         submission_source: "review-app-direct-sync",
@@ -210,6 +226,38 @@ function submitComments_(reader, exportPayload, comments) {
     submitted_file_id: fileId,
     submitted_file_name: fileName
   };
+}
+
+function handleSyncStatus_(e) {
+  const callback = e.parameter.callback || "callback";
+  const submissionId = e.parameter.submission_id || "";
+  if (!submissionId) {
+    return jsonpResponse_(callback, {
+      ok: false,
+      found: false,
+      error: "submission_id is required."
+    });
+  }
+
+  const raw = PropertiesService.getScriptProperties().getProperty(`sync_status_${submissionId}`);
+  if (!raw) {
+    return jsonpResponse_(callback, {
+      ok: true,
+      found: false
+    });
+  }
+
+  return jsonpResponse_(callback, JSON.parse(raw));
+}
+
+function storeSyncStatus_(submissionId, status) {
+  if (!submissionId) return;
+  PropertiesService.getScriptProperties().setProperty(
+    `sync_status_${submissionId}`,
+    JSON.stringify(Object.assign({}, status, {
+      checked_at: new Date().toISOString()
+    }))
+  );
 }
 
 function handleWebImport_(e) {
@@ -242,6 +290,7 @@ function parsePostPayload_(e) {
     }
     return {
       action: e.parameter.action,
+      submission_id: e.parameter.submission_id,
       reader_code: e.parameter.reader_code,
       export_payload: exportPayload
     };
@@ -325,6 +374,13 @@ function jsonResponse_(payload) {
   return ContentService
     .createTextOutput(JSON.stringify(payload))
     .setMimeType(ContentService.MimeType.JSON);
+}
+
+function jsonpResponse_(callback, payload) {
+  const safeCallback = String(callback || "callback").replace(/[^\w$.]/g, "");
+  return ContentService
+    .createTextOutput(`${safeCallback}(${JSON.stringify(payload)});`)
+    .setMimeType(ContentService.MimeType.JAVASCRIPT);
 }
 
 function resetImportedCommentMemory() {
