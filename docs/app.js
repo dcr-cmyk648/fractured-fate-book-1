@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-7";
+const APP_VERSION = "review-interface-v0-sync-8";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -847,6 +847,56 @@ function markSyncSubmitted() {
   renderExportStatus();
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
+
+function jsonpRequest(url, timeoutMs = 8000) {
+  return new Promise((resolve, reject) => {
+    const callbackName = `ffSyncStatus_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+    const script = document.createElement("script");
+    const requestUrl = new URL(url);
+    requestUrl.searchParams.set("callback", callbackName);
+
+    const timeout = window.setTimeout(() => {
+      cleanup();
+      reject(new Error("Sync status check timed out."));
+    }, timeoutMs);
+
+    function cleanup() {
+      window.clearTimeout(timeout);
+      delete window[callbackName];
+      script.remove();
+    }
+
+    window[callbackName] = (payload) => {
+      cleanup();
+      resolve(payload);
+    };
+
+    script.onerror = () => {
+      cleanup();
+      reject(new Error("Sync status check failed."));
+    };
+    script.src = requestUrl.toString();
+    document.body.appendChild(script);
+  });
+}
+
+async function waitForSyncConfirmation(submissionId) {
+  const statusUrl = new URL(COMMENT_SYNC_ENDPOINT);
+  statusUrl.searchParams.set("action", "sync-status");
+  statusUrl.searchParams.set("submission_id", submissionId);
+
+  for (let attempt = 0; attempt < 8; attempt += 1) {
+    await sleep(attempt === 0 ? 900 : 1400);
+    const status = await jsonpRequest(statusUrl.toString());
+    if (status?.ok && status?.found) return status.result;
+    if (status?.ok === false) throw new Error(status.error || "Sync status check failed.");
+  }
+  return null;
+}
+
 async function syncComments() {
   const readerCode = getReaderCode();
   if (!readerCode) {
@@ -866,8 +916,10 @@ async function syncComments() {
   $("syncCommentsBtn").disabled = true;
   $("syncCommentsBtn").textContent = "Syncing...";
   try {
+    const submissionId = `submission-${crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`}`;
     const form = new URLSearchParams();
     form.set("action", "submit-comments");
+    form.set("submission_id", submissionId);
     form.set("reader_code", readerCode);
     form.set("export_payload", JSON.stringify(exportPayload(records)));
     await fetch(COMMENT_SYNC_ENDPOINT, {
@@ -875,8 +927,14 @@ async function syncComments() {
       mode: "no-cors",
       body: form
     });
-    markSyncSubmitted();
-    window.alert("Sync request submitted. Comments stay local; use Download Backup JSON if you need a manual copy.");
+    const confirmation = await waitForSyncConfirmation(submissionId);
+    if (confirmation) {
+      markSyncGenerated(confirmation, records);
+      window.alert(`Sync confirmed: ${confirmation.new_comments} new comment${confirmation.new_comments === 1 ? "" : "s"} accepted; ${confirmation.duplicate_comments} duplicate${confirmation.duplicate_comments === 1 ? "" : "s"} skipped.`);
+    } else {
+      markSyncSubmitted();
+      window.alert("Sync request submitted, but confirmation was not available yet. Check the Drive folder or use Download Backup JSON if needed.");
+    }
   } catch (error) {
     window.alert(`Sync failed: ${error.message}. Use Download Backup JSON instead.`);
   } finally {
