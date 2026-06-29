@@ -29,11 +29,11 @@ last_reviewed: 2026-06-27
 
 - Whether Niall and Maya speak immediately after, during the return trip, or later.
 - Exact Niall warning language about assassins, tests, killing, and whether Maya wants that path.
-- Possible Niall warning line or beat: Maya has no idea of the political ramifications of what she did.
+- Accepted direction is now stored in `bible/events/event-maya-presentation.md`: Niall may warn Maya that she has no idea of the political ramifications of what she did. Exact wording remains candidate.
 - Whether an offhand comment about Niall's jacket appears before or during this sequence.
 - Exact way Drakhal uses the Presentation in backroom conversations with other High Clades.
 - Exact immediate Caius expression and how much Maya reads correctly.
-- Maya likely had some administrative familiarity before Presentation, but Presentation makes her role more public-facing and politically visible.
+- Accepted direction is now stored in `bible/events/event-maya-presentation.md`: Maya had some administrative familiarity before Presentation, but Presentation makes her role more public-facing and politically visible. Exact scene use remains candidate.
 
 ## Accepted Direction To Preserve
 

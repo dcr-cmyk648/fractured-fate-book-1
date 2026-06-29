@@ -40,7 +40,7 @@ Candidate material:
 - Exact end-book courtyard/Paradox/relationship resolution.
 - Whether Maya understands why she resurrects Davian in the moment or only later interrogates it.
 - Exact relationship status at the end of Book 1.
-- Possible later Kelyra/Davian confrontation line: Kelyra challenges Davian's hope of emerging from the shadows into the light with Maya after years of violence and concealment.
+- Accepted direction is now stored in `outline/arcs/thread-maya-davian-romance.md`: Kelyra may challenge Davian's hope of emerging from the shadows into the light with Maya after years of violence and concealment. Exact wording remains candidate.
 
 ## Prose / Future-Phase Notes
 

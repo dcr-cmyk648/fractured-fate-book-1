@@ -84,6 +84,10 @@ Maya does not understand why Niall acts this way. From her perspective, she did 
 
 Because Niall does not give Maya the information she would need to understand his worry, including his waning power and the real danger of the deterrence role, Maya may interpret his reaction as evidence that she has failed in some way.
 
+Accepted direction: Niall may warn Maya after Presentation that she has no idea of the political ramifications of what she did.
+
+Maya had some administrative familiarity before Presentation, but Presentation changes the public meaning of that work. She is no longer only learning or assisting inside Rezin structures; she is becoming a visible public actor whose decisions carry High Clade political consequences.
+
 ## Caius
 
 Caius becomes jealous and obsessed after Maya's Presentation.
@@ -111,6 +115,7 @@ Niall's worry should not make Maya obviously wrong. He can know she made the pol
 - Do not make Maya fully aware of all political consequences in the moment.
 - Do not make Caius's response purely romantic admiration.
 - Do not make Niall's reaction simply pride or simple disapproval. Maya should mostly receive his worry and lack the context needed to understand it.
+- Do not make Maya politically naive in every practical sense; distinguish prior administrative familiarity from the new public-facing consequences of being Presented.
 - Keep exact High Clade magic labels flexible unless later magic/organization reviews approve them.
 
 ## Outline Readiness
@@ -135,6 +140,7 @@ The approved material gives the future outline a durable event function and poli
 - Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
 - Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
+- Decision record: [Web-App Scratchpad Story Directions](../../decisions/0075-webapp-scratchpad-story-directions.md)
 
 ## Provenance
 

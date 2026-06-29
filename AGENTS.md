@@ -91,6 +91,8 @@ Do not ask the author which ticket to process next unless two or more tickets co
 
 Selecting a ticket number means "work on this ticket next," not automatic approval of the ticket's substantive resolution. If a ticket is marked as requiring author decision, Codex may gather context, preserve source material, draft a routing proposal, or perform unambiguous mechanical work, but must present the proposed resolution before applying it globally, promoting it to accepted workflow/canon/outline guidance, or marking it `accepted-for-workflow`.
 
+Automate comment and ticket handling as far as possible without making substantive decisions: import, normalize, deduplicate, gather context, prepare packets, route source material as candidates, validate, commit, and present review items. Treat all comment-derived ideas as preliminary until the author explicitly approves them.
+
 ## Minimum Sufficient Canon
 
 During the initial story-bible phase, Codex should settle only the amount of canon needed to understand the story, avoid major contradictions, support character and plot decisions, build the future chapter/scene outline, and prepare later prose work.

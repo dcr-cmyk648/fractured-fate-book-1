@@ -145,6 +145,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 
 Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Reader comments may reveal problems, opportunities, or tickets, but they do not bypass existing approval workflows. Multiple readers saying the same thing increases salience but does not automatically decide the fix.
 
+The workflow should automate as much as practical around comments: importing, deduplicating, gathering context, preparing synthesis, proposing ticket routing, preserving candidate material, presenting decision packets, validation, commits, and progression. Automation stops at real decisions. Comment-derived ideas are preliminary until the author explicitly approves them, especially because future comments may come from readers other than the author.
+
 Author Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
 
 The durable repository-side silo is `feedback/webapp/`:

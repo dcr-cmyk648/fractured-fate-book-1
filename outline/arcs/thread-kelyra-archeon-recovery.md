@@ -43,6 +43,10 @@ She teaches Davian secrecy, hard choices, anti-Clade violence, and survival thro
 
 The late-book Serathis/Kelyra/Davian sequence should resolve Davian's origin-family wound enough for him to move into the Maya/Niall/Vorren thread. Davian does not need Kelyra to become morally simple or fully healed. He needs to see her choose him, family, and protection over Serathis's project logic.
 
+Accepted direction: after Davian and Kelyra kill Serathis, Kelyra is unhappy that Davian wants to leave to help Maya. Kelyra may challenge Davian's hope that he can come out of the shadows into the light with Maya after years of violence, concealment, and survival training.
+
+This sets up Kelyra as a possible later antagonist toward Maya and preserves the tension between Kelyra's shadow/survival logic and Davian's movement toward chosen values.
+
 ## Accepted Endgame Role
 
 The accepted high-level endgame sequence remains:
@@ -78,6 +82,7 @@ Jalen remains important as support, planning, logistics, temperament, and family
 - Do not make Kelyra's Trial of Dominion defeat a simple skill failure.
 - Do not give Kelyra deeper forced-restructuring Ink healing; Karra, Davian, and later Vorren are the relevant deeper-healing cases.
 - Do not route Kelyra's core Concord leadership, assassin-training, Selina-training, Trial of Dominion, or Arrek field-pressure roles back to Jalen.
+- Do not let Kelyra's possible later antagonism toward Maya erase her love for Davian or the genuine protective basis of her Book 1 arc.
 - Do not resolve Lethira parentage unless later outline work needs it.
 - Do not overdefine exact kinesis/Shroud mechanics before the relevant magic/combat review.
 
@@ -97,6 +102,7 @@ Jalen remains important as support, planning, logistics, temperament, and family
 - Related magic: [Shroud / Shrouds](../../bible/magic/magic-shroud.md)
 - Related magic: [Kinesis](../../bible/magic/magic-subversion.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+- Decision record: [Web-App Scratchpad Story Directions](../../decisions/0075-webapp-scratchpad-story-directions.md)
 
 ## Canonical Uncertainties
 
@@ -124,3 +130,4 @@ Jalen remains important as support, planning, logistics, temperament, and family
 - `decisions/0010-jalen-kelyra-concord-role-swap.md`
 - `decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md`
 - Author feedback on 2026-06-27.
+- Web-app ticket `WC-2026-06-29-004`; author approval on 2026-06-29.
