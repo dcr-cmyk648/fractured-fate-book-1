@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-28
+Last updated: 2026-06-29
 
 ## Repository state
 
@@ -11,14 +11,14 @@ Last updated: 2026-06-28
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `revision: approve Chapter 29 map and consistency review`
-- Working tree expected to be clean: yes, after the scratchpad app commit is pushed
+- Working tree expected to be clean: yes, after the Chapter 30 map commit is pushed
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 0
+- Approved current-draft maps since last chapter-map consistency review: 1
 - Last consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
 - Last chapter-map consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,11 +30,11 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-29` current-draft map packet has been approved by the author. The significant current-draft-map consistency review through Chapter 29 is complete and clears Chapter 30. No manuscript prose has been changed.
+The `d1-ch-30` current-draft map packet has been approved by the author. No manuscript prose has been changed.
 
 ## Next action
 
-Validate, commit, push `beta`, merge to `main`, push `main`, and check out `beta` again as requested. After that, the next creative work is preparing `d1-ch-30`.
+Validate, commit, and push the approved Chapter 30 map. After that, prepare the `d1-ch-31` current-draft map packet unless a blocker appears.
 
 ## Awaiting author input
 
