@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-9";
+const APP_VERSION = "review-interface-v0-sync-10";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -930,7 +930,10 @@ async function syncComments() {
     const confirmation = await waitForSyncConfirmation(submissionId);
     if (confirmation) {
       markSyncGenerated(confirmation, records);
-      window.alert(`Sync confirmed: ${confirmation.new_comments} new comment${confirmation.new_comments === 1 ? "" : "s"} accepted; ${confirmation.duplicate_comments} duplicate${confirmation.duplicate_comments === 1 ? "" : "s"} skipped.`);
+      const archiveNote = confirmation.archive_status === "failed"
+        ? " Drive archive file was not created, but the Sheet received the comments."
+        : "";
+      window.alert(`Sync confirmed: ${confirmation.new_comments} new comment${confirmation.new_comments === 1 ? "" : "s"} accepted; ${confirmation.duplicate_comments} duplicate${confirmation.duplicate_comments === 1 ? "" : "s"} skipped.${archiveNote}`);
     } else {
       markSyncSubmitted();
       window.alert("Sync request submitted, but confirmation was not available yet. Check the Drive folder or use Download Backup JSON if needed.");

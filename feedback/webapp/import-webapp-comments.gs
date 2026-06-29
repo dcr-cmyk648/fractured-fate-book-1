@@ -194,26 +194,32 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
 
   let fileId = "";
   let fileName = "";
+  let archiveError = "";
   if (newComments.length) {
-    const folder = DriveApp.getFolderById(CONFIG.submittedCommentsFolderId || CONFIG.folderId);
-    fileName = submittedFileName_(reader);
-    const storedPayload = {
-      export_metadata: Object.assign({}, exportPayload.export_metadata || {}, {
-        submitted_at: importedAt,
-        submission_id: submissionId || "",
-        submitted_by_reader_id: reader.reader_id,
-        submitted_by_display_name: reader.display_name,
-        submission_source: "review-app-direct-sync",
-        comment_count: newComments.length
-      }),
-      comments: newComments
-    };
-    const blob = Utilities.newBlob(
-      JSON.stringify(storedPayload, null, 2),
-      "application/json",
-      fileName
-    );
-    fileId = folder.createFile(blob).getId();
+    try {
+      const folder = DriveApp.getFolderById(CONFIG.submittedCommentsFolderId || CONFIG.folderId);
+      fileName = submittedFileName_(reader);
+      const storedPayload = {
+        export_metadata: Object.assign({}, exportPayload.export_metadata || {}, {
+          submitted_at: importedAt,
+          submission_id: submissionId || "",
+          submitted_by_reader_id: reader.reader_id,
+          submitted_by_display_name: reader.display_name,
+          submission_source: "review-app-direct-sync",
+          comment_count: newComments.length
+        }),
+        comments: newComments
+      };
+      const blob = Utilities.newBlob(
+        JSON.stringify(storedPayload, null, 2),
+        "application/json",
+        fileName
+      );
+      fileId = folder.createFile(blob).getId();
+    } catch (error) {
+      archiveError = error.message;
+      fileName = "";
+    }
   }
 
   return {
@@ -224,7 +230,9 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
     new_comments: newComments.length,
     duplicate_comments: duplicateCount,
     submitted_file_id: fileId,
-    submitted_file_name: fileName
+    submitted_file_name: fileName,
+    archive_status: fileId || !newComments.length ? "ok" : "failed",
+    archive_error: archiveError
   };
 }
 
