@@ -1,5 +1,5 @@
-const APP_VERSION = "review-interface-v0-sync-3";
-const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbz_4fXcUt08wV8qOJpEdSfMvRbI1OKntU6Iylgp5meBo8z8oizAK2HxkrPGlrGK9nVX/exec";
+const APP_VERSION = "review-interface-v0-sync-4";
+const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
   session: "ffReview.sessionId",
