@@ -121,6 +121,7 @@ function importNewComments() {
   if (rows.length) {
     sheet.getRange(sheet.getLastRow() + 1, 1, rows.length, COMMENT_COLUMNS.length).setValues(rows);
   }
+  const spreadsheet = sheet.getParent();
 
   PropertiesService.getScriptProperties().setProperty(
     "last_import_summary",
@@ -171,6 +172,7 @@ function handleCommentSubmit_(payload) {
 function submitComments_(reader, exportPayload, comments, submissionId) {
   const sheet = getOrCreateSheet_();
   ensureHeader_(sheet);
+  const spreadsheet = sheet.getParent();
   const seenIds = getSeenCommentIds_(sheet);
   const importedAt = new Date().toISOString();
   const rows = [];
@@ -229,6 +231,11 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
     },
     new_comments: newComments.length,
     duplicate_comments: duplicateCount,
+    rows_written: rows.length,
+    spreadsheet_id: spreadsheet.getId(),
+    spreadsheet_url: spreadsheet.getUrl(),
+    sheet_name: sheet.getName(),
+    sheet_last_row: sheet.getLastRow(),
     submitted_file_id: fileId,
     submitted_file_name: fileName,
     archive_status: fileId || !newComments.length ? "ok" : "failed",
