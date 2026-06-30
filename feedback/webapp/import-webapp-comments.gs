@@ -176,7 +176,6 @@ function handleCommentSubmit_(payload) {
 function submitComments_(reader, exportPayload, comments, submissionId) {
   const sheet = getOrCreateSheet_();
   ensureHeader_(sheet);
-  const spreadsheet = sheet.getParent();
   const seenIds = getSeenCommentIds_(sheet);
   const importedAt = new Date().toISOString();
   const rows = [];
@@ -236,8 +235,6 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
     new_comments: newComments.length,
     duplicate_comments: duplicateCount,
     rows_written: rows.length,
-    spreadsheet_id: spreadsheet.getId(),
-    spreadsheet_url: spreadsheet.getUrl(),
     sheet_name: sheet.getName(),
     sheet_last_row: sheet.getLastRow(),
     submitted_file_id: fileId,
