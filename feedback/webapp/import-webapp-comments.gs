@@ -59,17 +59,17 @@ const COMMENT_COLUMNS = [
   "source_line_start",
   "source_line_end",
   "current_heading",
-  "ticket_id",
-  "ticket_title",
-  "ticket_status",
-  "ticket_type",
   "selected_text",
   "approximate_scroll_percent",
   "comment_text",
   "status",
   "commenter_role",
   "commenter_role_verified",
-  "reader_id"
+  "reader_id",
+  "ticket_id",
+  "ticket_title",
+  "ticket_status",
+  "ticket_type"
 ];
 
 function doPost(e) {
