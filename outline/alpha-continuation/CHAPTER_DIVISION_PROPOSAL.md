@@ -127,21 +127,23 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
 - Primary POV: starts Maya, then can alternate Maya/Davian in larger readable sections.
 - Main job: begin the split-front sequence after Davian has entered the underground, move Maya/Niall into Serathis's central-tower trap, and lock the simultaneous battles into place.
 - Major beats:
-  - Maya registers Davian leaving for the underground route and continues with Niall.
-  - Maya/Niall press toward the central tower; resistance is oddly easy or misallocated.
-  - Davian follows the underground route and notices it is credible but wrong.
+  - Maya and Davian have a quick unfinished exchange before he leaves for the underground route.
+  - Maya/Niall press toward the central tower; resistance seems easy and Niall comments that Archeon's weakness seems to hold up.
+  - Davian follows the underground route and reaches the likely holding area.
   - Central tower/throne-room path uses Creator-worship remnants and inherited High Clade architecture.
+  - Serathis sits on the throne between zä/zän-etched grounding pillars while apparent Archeon magi line the room.
   - Serathis needles Niall around godhood, death, weakness, Creator imagery, and what High Clades pretend to be.
-  - Niall overcommits.
+  - Niall kills the apparent magi with lightning through the windows; Maya realizes too late that they were non-Shrouded decoys.
+  - Serathis survives because the pillars ground out Niall's lightning, though they are heavily damaged.
   - Serathis triggers the floor/collapse trap.
-  - Niall drops toward Vorren.
-  - Maya is pinned above by Serathis and held-back Archeon magi.
-  - Davian is deep enough underground that the next Davian-side beat naturally becomes the Kelyra rescue/front.
-- Ends with: Niall below, Maya pinned above, and Davian on the underground rescue front.
+  - Niall drops toward Vorren while additional underground explosions go off.
+  - Davian finds Kelyra and Drosin, who intends to kill him despite Serathis's order to capture him alive.
+  - Serathis reveals numerous unPresented but Shrouded Archeon magi entering from in front of and behind Maya.
+- Ends with: Niall below, Maya surrounded above, and Davian facing Drosin near Kelyra.
 - Watchpoints:
   - Start intercutting cleanly here, but do not accelerate into rapid climax pacing yet.
   - Keep spatial logic readable.
-  - Do not resolve Kelyra's Shroud, Serathis's death, Vorren's defeat, or Davian's death here.
+  - Do not resolve Kelyra's Shroud, Drosin's defeat, Serathis's death, Vorren's defeat, or Davian's death here.
 
 ### Chapter 42 - Kelyra's Shroud and Maya's Attrition
 
