@@ -178,20 +178,26 @@ Purpose:
 - She still desperately wants to be trusted and treated as Niall's equal.
 - Niall can frame the Archeon attack as trusting Maya to have his back.
 - This makes Maya go along with it, despite the toxic undercurrent.
+- Maya can push against disposable-soldier logic or the assumption that forerunners/scouts are expendable.
+- Niall can frame a smaller/non-soldier strike as restraint while also wanting to prove Rezin supremacy: High Clade magi do not need armies, tricks, or expendable bodies to be effective.
+- Maya should see the contradiction: the action may avoid sacrificing soldiers, but Niall's motive is still partly pride, fear, and deterrent self-proof.
 
 Purpose:
 
 - Show why Maya supports Niall's attack on Archeon.
 - Keep the target choice in Maya's emotional logic, not only operational logic.
 - Hand Chapter 40 to either continued planning or Davian POV as they move toward action.
+- Move the core Maya/Niall planning psychology here so Chapter 40 can begin in Davian POV with departure preparation.
 
 ## Ending
 
 End after the initial planning has steered toward Archeon and Maya has accepted, at least for now, the role Niall gives her. The ending should feel like Maya knows something is off but chooses the feeling of being trusted/equal over stopping the momentum.
 
+The Archeon target is chosen by the end of the chapter. Chapter 40 should not reopen the core target debate; it should begin with departure preparation from Davian's POV.
+
 ## What to Move or Defer
 
-- Full Archeon assault logistics can continue in Chapter 40.
+- Full Archeon assault logistics can continue in Chapter 40 from Davian's POV.
 - The "Archeon is predictable/easy to beat" plan beat should be discussed later, likely on the way to Archeon, to avoid bogging down Chapter 39.
 - Forerunner/scout ethics belong Chapter 40 or the approach chapter.
 - Vorren/Serathis trap details should remain hidden.
@@ -205,6 +211,7 @@ End after the initial planning has steered toward Archeon and Maya has accepted,
 - Trigger Davian's disobedient, more powerful attack on Caius.
 - Let Niall defer public violence, then pivot privately toward retaliation.
 - Have Aldira/Jalen steer the first target toward Archeon.
+- Establish Maya's psychologically compromised support of the attack before the POV changes to Davian.
 
 ### Character Goals
 
@@ -277,6 +284,7 @@ Reader should not yet learn:
 - Serathis notices Davian.
 - Niall's retaliation planning continues in this chapter from Maya POV, including Aldira/Jalen steering him toward Archeon.
 - Maya supports the Archeon attack partly because she recognizes the toxic danger but desperately wants Niall's trust and equality.
+- Maya's resistance to disposable-soldier logic and Niall's partly prideful "Rezin supremacy" framing belong in this chapter's planning tail.
 - Evana's witness/backup delegation includes Lyranth and Cryndor. Lyranth is obvious because Niall killed their former Head Magus; Cryndor is valuable because they once leaned friendly toward Rezin but are justice-oriented and disapprove of Niall's takeover.
 - Cryndor and Lyranth bring other Presented magi; Drakhal brings its Head Magus, Caius, and another Presented female Drakhal magus; Serathis brings her heir.
 - The delegation needs plausible neutral/balanced optics because open gang-up politics between High Clades are taboo.

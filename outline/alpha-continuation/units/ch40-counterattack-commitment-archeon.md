@@ -3,232 +3,262 @@
 ## Status
 
 - Unit: proposed Chapter 40
-- Working title: Counterattack Planning and Commitment to Archeon
-- Current status: author-review packet
+- Working title: Departure Through the Wedge and the Archeon Split
+- Current status: revised author-review packet
 - Prior unit: `ch39-intelligence-drakhal-proposal.md`
 - Prose drafting: not authorized
 
 ## Purpose
 
-Chapter 40 should convert Niall's restrained public response into private lethal commitment. It should show Maya recognizing the toxic danger in Niall's thinking while still being drawn into the attack because Niall frames inclusion as trust and equality.
+Chapter 40 should switch to Davian POV. Chapter 39 already owns the Maya/Niall/Aldira/Jalen decision to strike Archeon. This chapter should begin with the assault party strapping up and leaving through the city-wedge, then follow Davian through the stealth approach, brief Harvick/Maya/Erynn farewell pressure, the practical Archeon counter-plan, the neglected-wedge social exposure, the first breach/entry movement, and the point where Davian splits off from Maya and Niall to pursue Kelyra.
 
-The chapter also needs to begin moving the group toward Archeon and place the concise "Archeon magi are predictable/easy to beat" tactical plan on the way, where it can function as practical confidence before the trap complicates everything.
+The chapter should carry more action and movement than the prior planning chapter. It should not reopen the decision to attack Archeon.
 
 ## Current Handoff
 
 Chapter 39 ends with:
 
-- Drakhal's Rezin-citadel parlay complete;
-- Evana taking Niall's apparent consideration/concession as a win;
-- Davian having exposed himself by attacking Caius;
-- Serathis having noticed Davian;
-- Niall dropping the mask after the delegation leaves;
-- Aldira and Jalen steering Niall's retaliation toward Archeon;
-- Maya accepting the Archeon target despite sensing the toxic undercurrent because she wants Niall's trust and equality.
+- Drakhal's parlay/proposal complete;
+- Niall having pretended to consider the deal;
+- Niall privately turning toward retaliation;
+- Aldira and Jalen steering the target toward Archeon;
+- Maya accepting the attack because Niall frames it as trusting her and treating her as an equal;
+- the Archeon target chosen.
+
+Chapter 40 begins after that commitment, from Davian's POV.
 
 ## Working Chapter Shape
 
-### Scene 1 - The Room After the Delegation
+### Scene 1 - Strapping Up
 
-- POV: likely Maya.
-- The Drakhal/Lyranth/Cryndor/Archeon delegation has left.
-- Niall's public composure is gone or visibly changing into cold purpose.
-- Maya can feel that the room has become more dangerous, not less.
-- Davian's attack on Caius has left political damage, but Niall is not primarily focused on scolding Davian.
-- Niall's focus is retaliation.
-
-Purpose:
-
-- Let the reader feel the whiplash from public diplomacy to private violence.
-- Keep Maya's perspective anchored in the emotional danger of Niall's shift.
-
-### Scene 2 - Niall Wants to Kill His Enemies
-
-- Niall says, in effect, that they are going to kill them/end this.
-- This should not read as calm strategy at first.
-- He wants to lash out at his enemies.
-- Maya can recognize that this is bad, rigid, and toxic.
-- Niall may frame it as what Rezin does: make deterrent examples.
-- Maya still wants to be included, trusted, and treated as his equal.
+- POV: Davian.
+- The group is preparing to leave for Archeon.
+- Davian is gearing up with the knowledge that Kelyra is there and Jalen is too injured to come.
+- The plan is a stealthier approach through the city-wedge rather than a formal military march with soldiers.
+- Niall's reasoning for not bringing soldiers is tangled: it avoids wasting lives, but also serves his need to prove Rezin supremacy.
+- Davian can see Maya preparing nearby, still carrying the unresolved night and public parlay tension.
+- Davian should feel the pressure of wanting to be useful and fearing he will fail her again.
 
 Purpose:
 
-- Make the moral and psychological stakes explicit.
-- Set up Maya's compromised support of the attack.
+- Start in action preparation, not planning-room debate.
+- Center Davian's body, tools, fear, and agency.
+- Establish stealth approach/no-soldiers before the route begins.
 
-### Scene 3 - Aldira and Jalen Shape the Target
+### Scene 2 - Niall Lets Davian Come
 
-- Aldira and Jalen help turn Niall's impulse into a targetable plan.
-- They steer him toward Archeon:
-  - Archeon is Drakhal's collaborator.
-  - Archeon is weaker and easier to remove than Drakhal directly.
-  - Archeon is where Kelyra is.
-  - Removing Archeon weakens the alliance and sends a warning without walking into an obvious Drakhal home-field fight.
-- They do not know about Serathis/Vorren's trap.
-- Jalen's motive includes Kelyra.
-- Aldira's motive includes weakening the alliance and using newly opened underworld intelligence.
-- Niall accepts because it gives him something to kill and a public lesson to deliver.
+- Davian is allowed to come, but Niall makes clear he does not really care if Davian comes or not.
+- Niall's attitude: Davian can distract a few Archeon magi if nothing else.
+- This is not a warm permission scene.
+- Niall is trying to prove to himself that Rezin supremacy still means something: he and Maya are enough; Davian is incidental.
+- Davian may resent the dismissal while also recognizing that being underestimated gives him room to act.
+- Maya may dislike Niall's treatment of Davian but is still caught in wanting Niall's trust.
 
 Purpose:
 
-- Make Archeon the rational target without making the choice clean.
-- Keep Jalen useful but noncombatant.
-- Let Aldira operate as strategist/spymaster.
+- Clarify Davian's place in the assault: useful, not central to Niall.
+- Keep Niall's pride and self-proof visible from Davian's perspective.
 
-### Scene 4 - Maya Pushes Against Disposable-Soldier Logic
+### Scene 3 - Harvick Tries to Stop Niall
 
-- The plan may raise scouts, forerunners, or disposable support.
-- Maya resists treating people as expendable bodies.
-- This can echo Alara's view that soldiers are not just resources.
-- Niall can frame not using troops as noble or efficient while also wanting to prove that High Clade magi do not need anyone else.
-- The contradiction should be visible: avoiding expendable soldiers is good, but Niall's reason is partly pride and self-proving.
-
-Purpose:
-
-- Keep the raid morally gray rather than cleanly heroic.
-- Prepare later approach/forerunner ethics.
-- Show Maya trying to separate values from Niall's toxic version of them.
-
-### Scene 5 - Niall Frames It as Trust
-
-- Niall includes Maya in the attack plan.
-- He frames this as trusting her to have his back or as acknowledging her as a full Rezin magus.
-- Maya wants this badly.
-- She sees warning signs but also interprets inclusion as what she has been craving from him.
-- This is not simple manipulation; Niall may partly mean it, but it is tangled with fear, pride, and deterrent logic.
+- Harvick comes to Niall before departure, asking him not to do this.
+- This should be brief but emotionally clear.
+- Harvick makes it obvious that he does not agree with what is happening.
+- Niall tells him, in essence, that he does not know any other way to do things.
+- This should echo Davian's own "mask on / run away from Maya after taking the Heart" logic: an admission of limitation that is not enough to stop harm.
+- Harvick realizes arguing will not work.
 
 Purpose:
 
-- Explain why Maya supports the attack despite recognizing danger.
-- Tie the action decision to Maya's father/equality wound.
+- Show that not everyone inside Rezin agrees.
+- Let Harvick function as a moral witness.
+- Make Niall's limitation tragic and dangerous, not just villainous.
 
-### Scene 6 - Davian's Role
+### Scene 4 - Harvick and Davian
 
-- Davian is desperate to go because Kelyra is in Archeon.
-- Niall may dislike or distrust this but needs Davian's knowledge/abilities.
-- Davian's attack on Caius may make his presence more politically dangerous, but also demonstrates that he is now a powerful actor.
-- Maya may be pulled between wanting Davian close, not trusting him fully, and needing his help.
-- Davian should not be allowed to become the center of the plan; he is one pressure point among several.
-
-Purpose:
-
-- Keep Davian in the assault path without over-centering him.
-- Preserve Maya/Davian unresolved tension in operational form.
-
-### Scene 7 - Harvick's Boundary / Sword Handoff Setup
-
-- Harvick likely cannot join the final assault because killing another magus or watching Niall die is too loaded.
-- He may give Davian a sword or prepare to give him one.
-- This does not need to be a full Paradox/Antithesis symbolic beat.
-- The practical point: Davian has trained with an actual sword more than with Antithesis, and Harvick can help equip him without going himself.
-- If this feels too much for Chapter 40, defer exact handoff to the departure/approach beat.
+- Harvick also knows telling Davian not to go will not work.
+- He keeps it short.
+- He tells Davian to remember what they worked on and stay safe.
+- This can include a practical reminder about Shroud, body awareness, not overreaching, or not letting panic choose for him.
+- Harvick may give Davian a sword here if it belongs naturally; otherwise the sword handoff can wait until the route or split.
+- Harvick gives Davian a handshake that turns into a very awkward quick hug before Harvick runs off or pulls away.
+- Davian should not quite know what to do with the affection.
 
 Purpose:
 
-- Prepare Davian's practical weapon state.
-- Keep Harvick emotionally present even if he stays behind.
+- Give Davian a human/mentor beat before the raid.
+- Keep Harvick present even though he is not joining.
+- Avoid overlong farewell melodrama.
 
-### Scene 8 - Moving Toward Archeon
+### Scene 5 - Maya and Erynn Mirror
 
-- The chapter can shift from planning to movement.
-- The group begins the path toward Archeon, or at least commits irreversibly to departure.
-- Use the transition to avoid endless planning-room discussion.
-- This may include forerunners/scouts, route selection, and initial city movement.
+- Davian can see something similar happening between Erynn and Maya.
+- Erynn may be trying to get Maya to see the danger or simply grounding her before departure.
+- Maya is in her public/control mode but not untouched.
+- This should be observed from Davian's POV, not entered deeply.
+- It reinforces that both Maya and Davian are leaving people behind who know this is not clean.
 
 Purpose:
 
-- Keep alpha moving toward action.
-- Transition the tactical discussion into motion.
+- Mirror Harvick/Davian.
+- Keep Maya emotionally present through Davian's observation.
 
-### Scene 9 - On the Way: Why They Think Archeon Can Be Beaten
+### Scene 6 - Stealth Route Through the City-Wedge
 
-- Place the concise Archeon tactical plan here.
+- The assault party chooses a stealthier approach rather than arriving with soldiers.
+- The route moves through poorer, neglected boundary areas between wedges/spoke roads.
+- Davian is a good POV for noticing how the city looks from below compared with Rezin's high-level political language.
+- Maya and Niall may see the same poverty differently; Davian can notice their reactions.
+- The area should show survival-level poverty, poor maintenance, proxy-rule failures, and people living under High Clade decisions rather than participating in them.
+
+Purpose:
+
+- Begin the social-worldbuilding approach without turning it into a detached essay.
+- Let Davian's underworld/class perspective make the neglected wedge vivid.
+
+### Scene 7 - On the Way: Why They Think Archeon Can Be Beaten
+
+- Put the concise tactical Archeon discussion here.
 - The characters can reassure themselves that they have a plan:
   - Archeon magi are powerful but narrow.
   - Their strength comes from drilled forms, Shroud timing, Ink/speed, martial habit, and force-transfer/gauntlet systems.
   - They are dangerous when their precomputed answers apply.
   - They are brittle when forced to adapt faster than their forms allow.
   - Maya's counter is unpredictability, body-focus, fast close-range Convergence, and punishing transitions.
-- This should be concise and practical, not a lecture.
-- The plan should feel plausible enough that Maya/Niall/Davian believe they can beat Archeon magi "easily."
-- The reader should later see the flaw: Serathis is not trying to win a fair Archeon-brawler contest; she is using held-back forces, attrition, spatial trap, and Vorren.
+- Davian can understand this through martial training and Kelyra's forms.
+- Niall may treat Archeon as beneath him or as a tool to prove Rezin dominance.
+- The plan should feel plausible enough that they believe they can beat Archeon magi "easily."
+- The later trap must exceed this plan: Serathis is not trying to win a fair Archeon-brawler contest.
 
 Purpose:
 
 - Preserve the deferred source-note function.
-- Give the protagonists a believable tactical confidence.
-- Set up dramatic reversal when the trap proves the plan incomplete.
+- Give the group tactical confidence.
+- Set up reversal when the trap exploits assumptions.
 
-### Scene 10 - Chapter Button
+### Scene 8 - Forerunners / Scouts / No-Soldier Ethics
 
-Possible endings:
+- If scouts/forerunners are used, keep the beat concise.
+- Maya may want to avoid disposable-soldier tactics.
+- If forerunners volunteer, they should have their own agency and death-money logic rather than being faceless resources.
+- Davian can connect them to Harvick's worldview or to people who choose dangerous support roles around magi.
+- Do not let this stall the movement toward Archeon.
 
-- End as they enter the neglected wedge/slum boundary on the way to Archeon.
-- Or end as the Archeon citadel first comes into view.
-- Or end on Maya accepting that Niall has trusted her, while the reader can feel that this trust is tangled with something dangerous.
+Purpose:
 
-Preferred ending:
+- Keep the ethics of support personnel alive.
+- Show that avoiding soldiers does not mean the assault has no human cost.
 
-- End with movement into the neglected wedge, setting up Chapter 41's approach and social-worldbuilding focus.
+### Scene 9 - Archeon Outer Approach / First Defenses
+
+- The group reaches Archeon territory or the outer approach.
+- Resistance may be oddly light or strange.
+- Davian can notice tactical wrongness, even if he cannot name Serathis's trap.
+- Maya/Niall may use overwhelming force or careful stealth depending on exact route.
+- Davian may try a technical/quiet way past a ward or door, only for Maya/Niall to choose raw power if that beat fits.
+- Keep the first outer contact readable and not yet the full throne-room trap.
+
+Purpose:
+
+- Move from approach into action.
+- Let Davian see both Rezin scale and Archeon wrongness.
+
+### Scene 10 - Information Points Toward Kelyra
+
+- Davian receives, sees, extracts, or interprets information pointing toward Kelyra's likely holding area.
+- This may come from:
+  - earlier Karra message;
+  - Jalen/Aldira network intelligence;
+  - an Archeon leak Serathis intentionally allowed;
+  - captured/interrogated Archeon personnel;
+  - signs/route clues Davian can read.
+- Serathis may want Davian removed from Maya/Niall's side before the trap fully closes.
+- Davian fears delay means Kelyra may be executed, used, or permanently broken.
+
+Purpose:
+
+- Make the split feel tactically and emotionally justified.
+- Preserve Serathis's possible manipulation.
+
+### Scene 11 - The Split
+
+- Davian splits off from Maya and Niall to go after Kelyra.
+- This should be the chapter endpoint or near-endpoint.
+- Maya may allow/trust him to go, even though it feels like abandoning Niall or letting Davian go into danger.
+- Niall should not care much about Kelyra, reinforcing his utilitarian logic.
+- Davian chooses family rescue while still being tied to Maya.
+- The split sets up alternating/split POV in Chapter 41/42.
+
+Purpose:
+
+- End Chapter 40 with a clean structural branch.
+- Move the book into simultaneous final fronts.
+
+## Ending
+
+Preferred ending: Davian splits off from Maya and Niall inside or at the threshold of Archeon to pursue Kelyra. End in Davian POV with urgency and separation, setting up the split-assault structure.
 
 ## What to Move or Defer
 
-- Full neglected-wedge social observation belongs Chapter 41.
-- Archeon breach belongs Chapter 41.
-- Exact Davian/Kelyra split belongs Chapter 41/42.
-- Serathis/Vorren trap details remain hidden.
-- Detailed forerunner death-money ethics can appear here only if concise; otherwise move to Chapter 41.
+- Maya/Niall target decision and toxic trust/equality logic belongs in Chapter 39.
+- Full throne-room confrontation and floor trap belong after the split.
+- Kelyra rescue fight belongs the next Davian-side chapter/sequence.
+- Full Serathis/Vorren trap mechanics remain hidden.
+- Extended neglected-wedge social observation can continue into the approach if Chapter 40 has room, but should not prevent reaching the split.
 
 ## Chapter Goals
 
 ### Plot Goals
 
-- Convert Niall's retaliation impulse into an Archeon attack plan.
-- Establish why Archeon is the first target instead of Drakhal.
-- Commit Maya, Niall, and Davian to the assault.
-- Begin physical movement toward Archeon.
-- Introduce the concise tactical reason they believe they can beat Archeon magi.
+- Gear up and leave for Archeon.
+- Establish stealth/no-soldier approach.
+- Show Harvick's objection and brief Davian farewell.
+- Move through the city-wedge toward Archeon.
+- Present the concise Archeon counter-plan while in motion.
+- Reach first Archeon approach/entry pressure.
+- End with Davian splitting off toward Kelyra.
 
 ### Character Goals
 
-- Maya: sees the toxic danger, wants Niall's trust/equality, and goes along with the attack.
-- Niall: frames the attack as strategy/trust while also trying to prove he can still act as deterrent.
-- Davian: wants Kelyra rescued and wants to be useful without repeating old scripts.
-- Aldira: turns intelligence into strategy.
-- Jalen: injured but useful; helps route Niall toward Archeon.
-- Harvick: supports from the edge while recognizing he may not be able to go.
+- Davian: moves from wanting to prove usefulness into a concrete rescue choice; sees himself dismissed by Niall but held by Harvick/Maya/Erynn's emotional network.
+- Niall: treats Davian as expendable/distraction-level and remains focused on proving Rezin supremacy.
+- Maya: seen from Davian's POV as committed, controlled, and emotionally complicated.
+- Harvick: objects to the raid, fails to stop Niall, then offers Davian brief practical care.
+- Erynn: mirrors Harvick as someone who sees Maya's danger but cannot stop her.
 
 ### Relationship Goals
 
-- Maya/Niall: toxic trust/equality knot.
-- Maya/Davian: unresolved intimacy becomes operational tension.
-- Davian/Jalen/Kelyra: family rescue pressure stays active.
-- Niall/Davian: Niall may begin treating Davian as more than a tool, but not warmly.
+- Davian/Harvick: mentor care under pressure, awkward affection.
+- Maya/Erynn: observed grounding/farewell mirror.
+- Davian/Maya: unresolved attraction becomes operational separation.
+- Davian/Niall: Niall's dismissal clarifies the lack of warmth and the Rezin-supremacy frame.
 
 ### Worldbuilding / Political Goals
 
-- Explain why attacking Drakhal directly is worse: Evana likely has allied High Clades ready there.
-- Explain why Archeon is attractive: collaborator, weaker target, Kelyra location, alliance weak point.
-- Maintain taboo/optics around High Clades openly ganging up.
-- Keep Rezin's deterrent logic central.
+- Show why stealth/no-soldier approach is chosen.
+- Show neglected wedge/city-boundary poverty from Davian's perspective.
+- Keep proxy-rule/social failure visible.
+- Maintain the taboo/optics that make direct open High Clade war politically fraught.
 
 ### Magic / Combat Goals
 
-- The Archeon counter-plan: force adaptability failures in precomputed forms.
-- Maya's practical counter: unpredictability, body-focus, close-range Convergence, transition punishment.
+- Concise Archeon counter-plan in motion.
 - Davian's current stack: martial arts, Ink movement, Shroud, some kinesis; do not overstate mastery.
+- Niall/Maya overwhelming force should feel available but not omniscient.
 - Do not use Ink as fuel meter.
 
 ## Consistency Checks
 
+- Chapter 40 is Davian POV.
+- Do not reopen the core Archeon target decision; Chapter 39 owns it.
+- Niall lets Davian come dismissively, not warmly.
+- Harvick does not join the assault.
 - Jalen remains noncombatant.
-- Archeon target choice is rational but incomplete because Aldira/Jalen do not know the trap.
-- Maya's support of the attack should be psychologically motivated, not clean endorsement of Niall's logic.
-- The "Archeon are predictable" plan should not make the later fight too easy; Serathis's trap must exceed that plan.
+- Davian splits off by the end if pacing allows.
 - Prose gate remains closed.
 
 ## Open Questions for Author Review
 
-1. Should Chapter 40 end before the actual city-wedge approach, or should it carry the first movement into the neglected wedge?
-2. Should Harvick's sword handoff happen in Chapter 40, on the route, or later closer to the split inside Archeon?
-3. How much forerunner/scout/death-money ethics should appear here versus Chapter 41?
+1. Should Harvick physically hand Davian a sword in this chapter, or should the scene stay to advice/awkward hug only?
+2. What is the cleanest trigger for Davian splitting off: Karra's message, Jalen/Aldira route intel, an Archeon leak, captured/interrogated personnel, or a combination?
+3. Should Chapter 40 end exactly on the split, or include the first short beat of Davian entering the Kelyra-rescue path alone?
