@@ -4,20 +4,20 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
-| WC-2026-06-30-001 | proposed | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | yes |
-| WC-2026-06-30-002 | proposed | medium | prose-preservation | `d1-ch-29` dialogue and quotes | yes |
-| WC-2026-06-30-003 | proposed | medium | revision-suggestion | `d1-prologue` exposition style | no |
-| WC-2026-06-30-004 | proposed | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | yes |
-| WC-2026-06-30-005 | proposed | medium | story-bible-review | `d1-ch-29` lineage assignments | yes |
-| WC-2026-06-30-006 | proposed | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
-| WC-2026-06-30-007 | proposed | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
-| WC-2026-06-30-008 | proposed | medium | revision-suggestion | future manuscript snapshot workflow | yes |
+| WC-2026-06-30-001 | accepted-for-workflow | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | yes |
+| WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | yes |
+| WC-2026-06-30-003 | accepted-for-workflow | medium | revision-suggestion | `d1-prologue` exposition style | no |
+| WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | yes |
+| WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | yes |
+| WC-2026-06-30-006 | accepted-for-workflow | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
+| WC-2026-06-30-007 | in-review | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
+| WC-2026-06-30-008 | accepted-for-workflow | medium | revision-suggestion | future manuscript snapshot workflow | yes |
 
 ## WC-2026-06-30-001: Resolve Endgame Fight Architecture and Character Agency
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: high
 - Ticket type: chapter-architecture
 - Source comment IDs: `scratchpad-1782781075290-8i9r0c`
@@ -43,7 +43,7 @@ Rationale: This affects final outline architecture, character agency, combat seq
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: prose-preservation
 - Source comment IDs: `comment-1782782676650-64lp99`; `comment-1782782736415-6pt0tz`; `comment-1782783058810-qpxm90`
@@ -69,7 +69,7 @@ Rationale: This should become prose-preservation candidate material later. It do
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `comment-1782781432248-odiech`
@@ -95,7 +95,7 @@ Rationale: This is a clear author note for later chapter architecture and prose 
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: style-line-edit
 - Source comment IDs: `comment-1782782812051-amtqer`
@@ -121,7 +121,7 @@ Rationale: This may be a global manuscript convention, not just a local Chapter 
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: story-bible-review
 - Source comment IDs: `comment-1782782887673-apfgo3`; `comment-1782782919463-ee86mu`
@@ -147,7 +147,7 @@ Rationale: These notes affect character/worldbuilding continuity and should be r
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: story-bible-review
 - Source comment IDs: `comment-1782782987526-pyloku`
@@ -173,7 +173,7 @@ Rationale: This should be checked against existing Harbingers/Syndicate records 
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: in-review
 - Priority: high
 - Ticket type: story-bible-review
 - Source comment IDs: `comment-1782783152000-qcjtx7`
@@ -199,7 +199,7 @@ Rationale: This could materially alter Ink Pact mechanics, Davian's history, Har
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `scratchpad-1782783485661-mx5f5x`
