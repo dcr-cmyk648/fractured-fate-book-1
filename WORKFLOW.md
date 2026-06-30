@@ -8,7 +8,7 @@ For future chapter, scene, future-sequence, and next-draft outline workflow afte
 
 ## Governing Objective
 
-The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
+The primary long-term product of this repository is a robust, detailed, internally consistent path to the next complete draft. The current operational goal, after current-draft mapping catches up to existing prose, is to finish the alpha draft before returning for a full beta re-outline and rewrite pass.
 
 The intended sequence is:
 
@@ -16,14 +16,14 @@ The intended sequence is:
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
 4. Track prose-preservation intent during chapter mapping, Chapter Goal Cards, feedback import, and later outline work.
-5. Create and review Chapter Architecture / Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build a detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Run whole-book structural and consistency review.
-10. Open prose work only later, by explicit author authorization.
+5. When existing prose is mapped through the latest partial fragment, run comment intake, ticket routing, and a consistency/validation pass.
+6. Build alpha-continuation architecture for the remaining unwritten Book 1 material, starting with chapter/sequence purpose before scene-level details.
+7. Build enough detailed outline for each unwritten alpha chapter or sequence to support drafting without inventing unresolved canon in prose.
+8. Draft the remaining alpha chapters only after explicit author authorization under `AUTHORING.md`, preserving durable snapshots when chapters are accepted.
+9. After the alpha draft is complete, return to the beginning for a full beta-draft chapter architecture, whole-book re-outline, and rewrite pass.
+10. Run whole-book structural and consistency review before and during the beta pass as needed.
 
-If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+If the author later changes the goal back to outline-only, producing an excellent outline remains a successful outcome. Until then, the repository should support alpha completion first, then beta redrafting.
 
 ## Startup
 
@@ -65,12 +65,12 @@ Proceed in this order:
 3. Receive author approval to open the outline phase.
 4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
 5. Track prose-preservation intent as a future chapter/outline artifact, without duplicating manuscript passages.
-6. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-7. Run whole-book architecture review.
-8. Build the detailed next-draft outline.
-9. Build the gap-to-ending future/unwritten sequence outline.
-10. Complete whole-book structural and consistency reviews.
-11. Open prose work only after explicit later authorization under `AUTHORING.md`.
+6. Resolve or explicitly defer current ticket-queue and consistency issues that would block continuing the alpha draft.
+7. Build alpha-continuation chapter/sequence architecture for the unwritten remainder of Book 1.
+8. Build enough detailed outline for the next unwritten alpha unit to support bounded drafting.
+9. Open alpha-continuation prose drafting only after explicit author authorization under `AUTHORING.md`.
+10. Preserve accepted alpha chapter snapshots as required by `AUTHORING.md`.
+11. After the alpha draft is complete, run the full beta-draft Chapter Architecture / Chapter Goal Card pass, whole-book architecture review, detailed next-draft outline, beta rewrite, and whole-book structural/consistency reviews.
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
@@ -145,6 +145,12 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 
 Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Reader comments may reveal problems, opportunities, or tickets, but they do not bypass existing approval workflows. Multiple readers saying the same thing increases salience but does not automatically decide the fix.
 
+The workflow should automate as much as practical around comments: importing, deduplicating, gathering context, preparing synthesis, proposing ticket routing, preserving candidate material, presenting decision packets, validation, commits, and progression. Automation stops at real decisions. Comment-derived ideas are preliminary until the author explicitly approves them, especially because future comments may come from readers other than the author.
+
+Author-origin web-app comments and scratchpad entries may be treated as stronger steering input than outside-reader comments, but they still enter the repository as inbox material. When the author has also approved the same direction in the Codex thread or another decision checkpoint, route it as accepted direction. When an author-origin comment has not been explicitly approved outside the inbox flow, synthesize it into a ticket and present the proposed disposition before applying it globally.
+
+Outside-reader comments should be treated as feedback, not instruction. Synthesize them with pros, cons, likely causes, and possible responses. Do not promote an outside-reader preference to canon, outline direction, prose-preservation approval, or manuscript change without author approval.
+
 Author Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
 
 The durable repository-side silo is `feedback/webapp/`:
@@ -190,7 +196,40 @@ Ticket routing:
 
 Every synthesis item and ticket must preserve source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. Do not summarize a comment in a way that loses its target or strengthens an ambiguous comment beyond what it says.
 
-When new tickets are created during another workflow, process lower-level dependencies before higher-level work. Prioritize story-bible, basic lore, character, magic, terminology, location, object, chronology, and consistency tickets before chapter-architecture, current-draft-map, future-outline, next-draft-outline, prose-preservation, or prose-phase tickets that depend on them. If a higher-level ticket can proceed safely without the lower-level decision, keep it queued; otherwise pause the higher-level unit until the lower-level ticket is approved, rejected, or explicitly deferred.
+## Ticket Preemption
+
+Tickets are first-class workflow items. When any workflow creates a ticket, Codex must pause the current higher-order work and address the ticket queue before continuing that higher-order unit.
+
+This applies when tickets are produced by:
+
+- web-app comment imports or scratchpad imports
+- chapter approval or current-draft mapping
+- chapter architecture or Chapter Goal Cards
+- future-outline or next-draft outline work
+- consistency reviews
+- story-bible review
+- app, workflow, data-processing, or validation work
+
+Tickets should be handled before approval packets, next chapter packets, new entity packets, or outline expansion unless the author explicitly says to defer that ticket or the ticket is already marked for a later phase.
+
+Default priority order:
+
+1. Story-bible, basic lore, terminology, character, relationship, magic, object, location, organization, chronology, and continuity tickets.
+2. Chapter-map and chapter-architecture tickets.
+3. Future-outline and next-draft-outline tickets.
+4. Prose-preservation tickets.
+5. Prose-phase tickets, only after the prose gate opens.
+6. App/workflow tickets that affect review usability, intake, export, validation, repository operation, or the author's ability to audit material.
+
+Within those priority bands, process tickets in queue order. Do not ask the author which ticket to pick next unless tickets conflict, have equal priority without a clear queue order, or require a sequencing decision that cannot be inferred. Otherwise, continue through the ticket queue automatically until the next ticket itself requires substantive author judgment or the queue is clear.
+
+Choosing or reaching the next ticket does not approve that ticket's substantive resolution. When a ticket is marked `requires_author_decision: yes` or otherwise requires author judgment, Codex may gather context, preserve source material as candidate/inbox material, and prepare a proposed disposition, but must stop for approval before applying the resolution globally, promoting material to accepted guidance/canon/outline structure, or marking the ticket `accepted-for-workflow`.
+
+If a higher-order ticket depends on a lower-level decision, resolve, reject, accept-for-workflow, or explicitly defer the lower-level ticket before continuing the higher-order work. If a ticket can be safely deferred because it belongs to a later phase and does not affect current decisions, mark the ticket status and destination clearly.
+
+Existing packets are not discarded when ticket preemption occurs. Preserve the packet and return to it after the relevant tickets are handled. If a ticket is created while an approval packet is awaiting author input, the next Codex action should be the ticket queue unless the author directly answers and resolves the pending packet first.
+
+After the relevant tickets are handled, re-present the preserved approval packet or next ticket checkpoint in the chat before waiting for author input. The author should never need to ask Codex to regenerate the current review item after an interruption.
 
 The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
 
@@ -471,6 +510,10 @@ When a review packet reaches a checkpoint, print a useful summary and the concre
 Do not stop merely because an entity has been opened, a source-gathering stub exists, or a routine checkpoint has been reached. If Codex is going to wait for author input, the repository must already contain a specific author-review packet, approval packet, or phase-gate packet with the information the author needs to respond. The exception is a major phase checkpoint that explicitly requires author signoff before new work can begin.
 
 If the author leaves and returns, they should have a concrete packet to review rather than needing to ask Codex to generate one.
+
+Any time Codex is done working and expects the author to respond later, the chat must contain a specific actionable review item: a packet summary, ticket queue checkpoint, approval question set, or phase-gate decision. A status-only ending is not enough when there is a packet or ticket that can be reviewed.
+
+If the author interrupts a ready packet by asking for another task, preserve and re-queue the interrupted packet. When the interrupting task is complete and ticket-preemption rules allow return to that workflow, re-present the queued packet summary and questions in the chat. Do not merely point to the file path or assume the author remembers the earlier packet.
 
 For ordinary entity reviews, Codex should normally present no more than 3-5 substantive author questions. Exceptions are allowed for foundational systems or broad retcons, such as core magic systems, major character identity or arc changes, organization-wide structural changes, broad chronology or cosmology decisions, and contradictions affecting multiple approved files.
 
@@ -755,7 +798,7 @@ The entity does not need a fully simulated life or exhaustive history.
 
 ### Step 4: Present the Review
 
-Show the author a useful summary of the review packet in the Codex conversation. Do not merely say the packet exists.
+Show the author a useful summary of the review packet in the Codex conversation. Do not merely say the packet exists. Whenever Codex asks for any author decision or feedback, including tickets, comment-batch routing, chapter-map packets, outline packets, consistency checkpoints, and phase gates, include a short in-chat version of the relevant context before the question. The author should be able to answer from the chat summary without opening the packet file unless they want full provenance.
 
 Present:
 
@@ -894,7 +937,7 @@ After storing approved information:
 11. Push the current branch normally without force. If the remote has diverged, stop and report.
 12. Leave the working tree clean.
 13. Run any due block-level consistency review automatically before preparing the next queued entity.
-14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
+14. If the next entity, ticket, packet, outline unit, consistency checkpoint, or phase gate reaches a checkpoint with real author questions, print a reasonable terminal summary of the relevant context, proposed disposition, and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
 15. Continue directly through routine checkpoints that do not require real author judgment.
 16. Stop only when the next entity review or block-level consistency checkpoint has substantive author questions, or when another documented exception requires author input.
 
@@ -1076,6 +1119,8 @@ Before ending a substantial work session, update `PROJECT_STATE.md` with:
 - latest relevant commit if available
 
 Do not put essential state only in the conversation.
+
+Before ending any work turn that is not fully complete, ensure the conversation contains the current actionable review item. The chat must include a short summary of what the item is about, the relevant recommendation or status, and the exact author decision or feedback requested. If no author decision is needed, continue to the next packet or ticket until one exists, unless a documented blocker, major phase gate, or explicit author stop instruction prevents that.
 
 ## Branch and Milestone Policy
 

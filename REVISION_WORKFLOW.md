@@ -2,7 +2,7 @@
 
 This file owns the future chapter, scene, future-sequence, and next-draft-outline process.
 
-It is not active yet. Do not begin chapter review, scene review, future-sequence outlining, or next-draft outline construction until the story-bible completion gate in `WORKFLOW.md` has passed and the author clearly approves opening the outline phase.
+The story-bible completion gate has passed and the author has opened chapter/outline work. Current-draft mapping is active. Future alpha-continuation architecture, future-sequence outlining, and prose drafting remain gated by the sequencing and prose-authorization rules below.
 
 ## Story-Bible-First Sequence
 
@@ -12,14 +12,14 @@ The project proceeds in this order:
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
 4. Track prose-preservation intent where wording-level reuse or avoidance may matter.
-5. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build the detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Run whole-book structural and consistency review.
-10. Open prose work only later, by explicit author authorization.
+5. Resolve or explicitly defer tickets and consistency issues that would block continuing the alpha draft.
+6. Build alpha-continuation architecture for the remaining unwritten Book 1 material, making chapter/sequence-purpose decisions before detailed scene outlines.
+7. Build enough detailed outline for each unwritten alpha chapter or sequence to support bounded drafting.
+8. Open alpha-continuation prose drafting only after explicit author authorization under `AUTHORING.md`.
+9. Preserve accepted alpha chapter snapshots according to `AUTHORING.md`.
+10. After the alpha draft is complete, return to the beginning for beta-draft Chapter Architecture / Chapter Goal Cards, whole-book architecture review, detailed beta outline, beta rewrite, and whole-book structural/consistency reviews.
 
-The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline. If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+The primary long-term product of this repository is a robust, detailed, internally consistent path to the next complete draft. The current operational goal is to finish the existing alpha draft first, then return to the beginning for a full beta-draft re-outline and rewrite pass.
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
@@ -70,7 +70,19 @@ Chapter and scene mapping is read-only with respect to manuscript prose. It may 
 
 For each review unit, preserve enough provenance for another session to locate the source material. Record unresolved issues in existing control files rather than creating competing tracking systems.
 
-When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The author should not need to open the map file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
+When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The same rule applies to any chapter, outline, ticket, feedback, consistency, prose-preservation, or phase-gate decision created during revision work: include the short relevant context, proposed disposition or recommendation, and exact author decision needed in chat. The author should not need to open the map or packet file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
+
+### Ticket Preemption During Chapter Work
+
+If current-draft mapping, chapter approval, chapter architecture, future-sequence planning, next-draft outlining, or consistency review creates a ticket, pause the chapter/outline workflow and address the ticket queue before preparing the next chapter packet or expanding higher-order outline work.
+
+Prioritize lower-level story-bible, lore, character, magic, terminology, chronology, continuity, location, object, and organization tickets before chapter-architecture or outline tickets that depend on them. A chapter packet already awaiting author review should be preserved, not discarded, but ticket review takes priority unless the author explicitly resolves the packet first or explicitly defers the ticket.
+
+Tickets that clearly belong to a later phase may remain queued only when their status and deferred destination are recorded.
+
+Do not ask the author to choose the next ticket unless tickets conflict or the workflow priority order does not determine sequencing. Otherwise, process tickets in priority/queue order until the next ticket requires a substantive author decision or the ticket queue is clear.
+
+Processing the next ticket automatically does not authorize substantive resolution when the ticket itself requires author decision. Codex may preserve candidate material and draft a disposition, but must present the proposed resolution before promoting it into accepted chapter, outline, prose-preservation, or prose-phase guidance.
 
 ### Current-Draft Map Consistency Cadence
 
@@ -214,6 +226,8 @@ Reader and author comments may imply prose-preservation work. Later feedback imp
 
 The repository-side intake workflow lives in `feedback/webapp/` and is governed by `WORKFLOW.md`. Imported comments must be archived, normalized, deduplicated, synthesized, and converted into proposed tickets before they affect chapter maps, Chapter Goal Cards, revision suggestions, prose-preservation records, story-bible files, or `CONSISTENCY_QUEUE.md`.
 
+New feedback-derived tickets preempt the current chapter/outline workflow. Address the ticket queue first, especially lower-level story-bible or continuity tickets, then return to the preserved chapter packet or outline unit.
+
 During a Web-App Comment Batch Review, Codex should:
 
 1. read `feedback/webapp/batches/<batch-id>/normalized-comments.jsonl`, the batch import report, and the comment index
@@ -231,11 +245,31 @@ Ticket routing during revision work:
 - Use story-bible-review or consistency-check tickets for worldbuilding, character motivation, magic, organization, location, object, chronology, knowledge-state, or current-versus-future issues.
 - Use app-bug tickets for missing chapters, broken navigation, wrong layers, export problems, display issues, or other review-app problems.
 
+Author-origin comments may be treated as stronger steering input than outside-reader comments, but they are still inbox records until routed. If the author has separately approved the same direction in the Codex thread, a decision record, or a review checkpoint, route it as accepted direction. If not, prepare a ticket and present the proposed disposition before applying it globally. Outside-reader comments should be synthesized with pros, cons, likely causes, and possible responses rather than treated as instructions.
+
 After author approval, approved tickets may be marked `accepted-for-workflow`, rejected tickets may be marked `rejected`, and uncertain tickets may remain `proposed` or `needs-author-decision`. Do not apply ticket resolutions automatically to manuscript, bible, outline, chapter architecture, prose preservation, or consistency queue files unless the batch checkpoint explicitly authorizes that routing.
 
 Every synthesis item and ticket must preserve the source comment ID, normalized comment ID, batch ID, commenter, timestamp, target file/chapter/layer, selected text or anchor if available, and exported repo commit if available. If a comment is ambiguous, preserve the ambiguity and classify it as unclear or needing author decision.
 
 When ticket review creates or reveals lower-level dependencies, process those before higher-level chapter or outline work. Story-bible, basic lore, character, magic, terminology, location, object, chronology, and consistency tickets take priority over chapter-architecture, current-draft-map, future-outline, next-draft-outline, prose-preservation, or prose-phase tickets that depend on them. Higher-level tickets may remain queued when they are not blocking, but do not silently build chapter architecture or outline decisions on unresolved lower-level material.
+
+## Alpha-Continuation Architecture
+
+After current-draft mapping reaches the latest existing prose or working fragment, and after comment/ticket intake plus the requested consistency/validation pass, Codex may prepare alpha-continuation architecture for the unwritten remainder of Book 1.
+
+Alpha-continuation architecture is not the same as the later beta-draft whole-book rewrite pass. Its purpose is pragmatic: define what the remaining alpha chapters or major sequences must accomplish so the author can finish the current alpha draft without waiting for a complete front-to-back beta restructure.
+
+Default sequence:
+
+1. Confirm open tickets and consistency issues that block alpha continuation are resolved or explicitly deferred.
+2. Identify the required remaining alpha sequences from the latest current-draft state to the accepted Book 1 ending.
+3. For each next sequence, decide the chapter or sequence purpose from aggregate events before scene-level outlining.
+4. Build enough beats, POV, starting state, ending state, character movement, relationship movement, magic/worldbuilding requirements, setup/payoff, and unresolved questions to support bounded drafting.
+5. Stop for author approval when the next alpha unit requires a real plot, character, POV, or canon decision.
+6. Draft prose only after the author explicitly asks for drafting under `AUTHORING.md`.
+7. When an alpha chapter is accepted, preserve a durable snapshot before further revision risks obscuring the accepted alpha version.
+
+Alpha-continuation work should still use the ticket-preemption, consistency, prose-preservation, and manual-edit protections in this file.
 
 ## Chapter Architecture Consistency Checks
 
@@ -365,6 +399,8 @@ Every major phase and meaningful block should re-check prior accepted documents 
 
 Prose-preservation checks should also verify that preservation notes are not orphaned; approved-near-quote or approved-exact-quote items are not lost during outlining; `do-not-reuse-prose` items are not accidentally treated as keepers; exact/near-exact reuse still fits changed canon and chapter structure; preserved lines still make sense after later story-bible or outline changes; preserved imagery or motifs are not duplicated awkwardly; notes linked to removed or merged chapters are remapped or marked `superseded`; and feedback-derived preservation notes are not silently ignored. When in doubt, queue the issue in `CONSISTENCY_QUEUE.md`.
 
+Before prose work creates durable new chapter drafts, establish the manuscript snapshot convention described in `AUTHORING.md`. Chapter mapping, Chapter Goal Cards, and outline work may identify future snapshot or protected-passage needs, but they must not create manuscript snapshots or protected prose sections before the prose phase is explicitly opened.
+
 ## Future and Unwritten Chapters
 
 The same blocking-story-bible mechanism applies to future chapters and unwritten sequences.
@@ -388,11 +424,21 @@ Story-bible work, chapter mapping, Chapter Goal Cards, detailed outlines, future
 
 Prose Preservation Notes do not authorize Codex to rewrite the manuscript, apply preserved text into manuscript files, generate replacement prose, edit existing prose, quote large passages into outline files, or convert chapter goals into prose.
 
-Prose work begins only after:
+Alpha-continuation prose work begins only after:
 
 - the story bible is sufficiently complete
-- the next-draft outline is sufficiently complete
-- applicable consistency reviews pass
+- the current-draft map has caught up to the latest existing prose or working fragment
+- tickets and consistency issues blocking alpha continuation have been resolved or explicitly deferred
+- the next alpha chapter or sequence has an author-approved enough outline/beat plan
 - the author explicitly opens prose work under `AUTHORING.md`
 
+Beta-draft prose work begins only after:
+
+- the alpha draft is complete, or the author explicitly abandons the alpha-completion track
+- the beta-draft chapter architecture / whole-book re-outline is sufficiently complete for the requested rewrite scope
+- applicable consistency reviews pass
+- the author explicitly opens beta prose work under `AUTHORING.md`
+
 When prose work is eventually opened, manual edits on disk remain authoritative. Codex must not restore a removed line merely because it appears in a Prose Preservation Note. Before using a preservation note in actual prose work, reload the current manuscript file from disk, check whether the source text still exists, check whether the author has removed or changed it, treat author-edited text as newer authority, and ask before restoring text that has been manually removed.
+
+When the author accepts future first/alpha chapter versions or finalized beta rewrites, preserve durable snapshots according to the future prose-phase convention before further revision risks obscuring what was accepted. Protected passages or sections require explicit author approval and should be checked before any later rewrite, polish, or structural merge changes them.

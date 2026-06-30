@@ -9,6 +9,9 @@ A raw app comment may include:
 - `id`
 - `created_at`
 - `commenter_name`
+- `commenter_role`
+- `commenter_role_verified`
+- `reader_id`
 - `reviewer_session_id`
 - `repo_commit`
 - `repo_branch`
@@ -38,6 +41,18 @@ Scratchpad entries intentionally do not require a file or chapter anchor. For sc
 - `current_heading`: `Content` or `Technical / Processing`
 - `initial_classification`: `scratchpad-content` or `scratchpad-technical`
 
+## Commenter Role
+
+`commenter_role` distinguishes author-origin and outside-reader-origin material when that distinction is available. Allowed normalized values are:
+
+- `author`
+- `reader`
+- `unverified`
+
+`commenter_role_verified` should be true only when a private reader code has been validated by the configured Apps Script sync endpoint. The local importer preserves verified role fields from synced/archived records, but it does not infer author status from `commenter_name`.
+
+Manual JSON/JSONL/Markdown exports without a verified role are treated as `unverified` for synthesis. They remain inbox material and do not bypass ticketing, approval, or prose/canon gates.
+
 ## Derived Normalization Fields
 
 `scripts/import_webapp_comments.py` adds:
@@ -50,6 +65,8 @@ Scratchpad entries intentionally do not require a file or chapter anchor. For sc
 - `likely_target_type`
 - `likely_target_id`
 - `initial_classification`
+- `commenter_role`
+- `commenter_role_verified`
 - `processing_status`
 - `imported_at`
 - `importer_version`

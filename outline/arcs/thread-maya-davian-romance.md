@@ -52,6 +52,12 @@ Maya resurrects Davian and may not have a full conscious concept of why she does
 
 Exact resurrection mechanics, cost, Heart/Skein/fateweaving interaction, final relationship status, and exact endgame scene execution remain deferred for endgame outline review.
 
+## Kelyra Pressure on the Relationship
+
+Accepted direction: after Davian and Kelyra kill Serathis, Kelyra is unhappy that Davian wants to go help Maya. Kelyra may challenge Davian's hope of coming out of years in the shadows into the light with Maya.
+
+This beat supports Kelyra as a possible later antagonist toward Maya and keeps Davian's origin-family loyalty in tension with his movement toward Maya, Niall, and chosen values.
+
 ## Developmental Profile
 
 This relationship should stay dialectical rather than becoming simple healing romance too early:
@@ -78,6 +84,7 @@ Their book-improvement value is that the relationship forces both characters int
 - The thread must not erase Davian's culpability.
 - Davian's "in love since the wall" idea remains candidate for exact wording/placement, but the durable core accepts only that the wall scene planted an early rush of feeling he could not yet understand.
 - Davian's resurrection is accepted future-plan material, but the exact mechanics and final relationship status remain deferred.
+- Kelyra's later pressure should not make the Maya/Davian bond fake; it should pressure Davian's conflict between shadow/survival logic and chosen connection.
 
 ## Related Files
 
@@ -91,6 +98,7 @@ Their book-improvement value is that the relationship forces both characters int
 - Related magic: [Fateweaving / Skein / fate ties](../../bible/magic/magic-fateweaving-skein.md)
 - Related arc: [Davian Identity, Guilt, and Agency Arc](thread-davian-identity-guilt.md)
 - Decision record: [Maya / Davian Romance and Trust Architecture](../../decisions/0057-maya-davian-romance-trust-architecture.md)
+- Decision record: [Web-App Scratchpad Story Directions](../../decisions/0075-webapp-scratchpad-story-directions.md)
 
 ## Provenance
 
@@ -102,3 +110,4 @@ Their book-improvement value is that the relationship forces both characters int
 - `imports/normalized/book-1-outline.md:5151`, `imports/normalized/book-1-outline.md:8271`, `imports/normalized/book-1-outline.md:9208-9530`: kiss, vulnerability, training, values, and worker-space planning.
 - `imports/normalized/bullet-notes.md:39`, `imports/normalized/bullet-notes.md:48`, `imports/normalized/bullet-notes.md:60`: genuine smile, wall-confession candidate, and post-return statement.
 - Author approval and additions on 2026-06-27.
+- Web-app ticket `WC-2026-06-29-004`; author approval on 2026-06-29.

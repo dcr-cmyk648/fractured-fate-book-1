@@ -92,6 +92,8 @@ Kelyra has strong kinesis, which she calls Subversion as a misnomer, and genius 
 
 Davian inherits or develops kinesis through Kelyra. His Shroud, Ink exposure, martial training, and kinesis make him especially important to Serathis's long project.
 
+In the accepted endgame architecture, Serathis appears to hold back valuable Archeon magi/heirs from the outer defense and uses them in the interior trap against Maya. Exact reasons can remain partly unstated, but plausible drivers include preserving valuable descendants, springing the throne-room trap, isolating Niall, and keeping Maya pinned until Vorren can kill Niall.
+
 ## Political Position
 
 Archeon is politically involved with Drakhal and other High Clade maneuvering after the Heart theft. Drakhal may use Archeon as ally, leverage, blackmail, or a less-fortunate partner, while Serathis resents being treated as subordinate.
@@ -134,6 +136,7 @@ Exact Archeon/Drakhal alliance mechanics, breeding-contract politics, and raid s
 - Related arc: [Kelyra Archeon trauma and family-protection arc](../../outline/arcs/thread-kelyra-archeon-recovery.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Canonical Uncertainties
 

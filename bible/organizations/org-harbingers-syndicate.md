@@ -18,6 +18,8 @@ The Syndicate-to-Harbingers name change is a proxy measure for Elric's takeover 
 
 The organization should remain one combined entity record unless later review requires splitting the earlier Syndicate from the later Harbingers.
 
+Chapter 29's Kelyra POV / underworld lore about the Syndicate becoming the Harbingers is canonical evidence for this transition, even though the exact leader name and pre-takeover organizational history remain unresolved.
+
 ## Origin and Leadership
 
 Before Elric's intervention, the leader was much more minor than he is now, but already up-and-coming because of tactical genius and an ability to make bargains.
@@ -32,9 +34,15 @@ The leader's exact original name and pre-takeover history remain unresolved.
 
 The Harbingers operate through hidden meeting places, underground routes, guides, dead drops, codes, masks, intimidation, bargains, and reputation.
 
+The recurring Harbinger guide who escorts Davian and Jalen to the early meeting and later reappears to escort Kelyra, Jalen, and Karra to the Heart handoff is clearly of Thaleni heritage: unnaturally large even beside Karra, with boulder-like features. His presence fits the accepted broader rule that a few Thaleni serve the Harbingers in the catacombs beneath the city.
+
 They use Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence.
 
+The Harbinger leader is the visible arbiter and purveyor of Book 1 Ink Pacts, with Elric as the hidden actor inside or behind him. Major Pacts route through the leader / Elric's direct touch or direct attention. Harbinger chambers, zä, pooled Ink, and tendrils can serve as delivery infrastructure, but they should not read as independent machines that any Harbinger can operate without Elric's authority.
+
 One accepted use of Harbinger/Elric Ink is Davian's Registry bypass: he adds Arrek's name and relies on the Ink Pact to maintain the aura/name match under extremely specific conditions made plausible by Elric's knowledge of the Rezin Registry.
+
+Elric's later Rezin-citadel visit reinforces Davian's Arrek-aura mimicry rather than granting Davian's deeper healing. The visit also shows that Elric can enter and leave the citadel despite the Registry, while still needing to avoid Niall's attention.
 
 The five hooded figures from the early Syndicate meeting can remain part of the current canon. Elric has many allies whose identities he might want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people. Their exact identities and structural role remain unresolved.
 
@@ -80,6 +88,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Twilight Concord / Concord](org-concord.md)
 - Related organization: [Registry](org-registry.md)
+- Related culture: [Demi-human peoples, origins, and social roles](../cultures/culture-demi-human-peoples.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
@@ -91,10 +100,13 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Karra and Harbinger Guide Lineage Assignments](../../decisions/0077-karra-and-harbinger-guide-lineages.md)
+- Decision record: [Syndicate to Harbingers Transition Evidence](../../decisions/0078-syndicate-to-harbingers-transition-evidence.md)
 
 ## Canonical Uncertainties
 
 - Exact transfer, failure, depletion, and derivative/later-book Ink Pact mechanics remain unresolved.
+- Major Book 1 Ink Pacts route through Elric / the Harbinger leader, but the exact limits of direct touch versus direct attention remain flexible.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
 - Exact detailed Trial of Dominion mechanics and the current chapter's Ink-running-out / transfer-to-Davian explanation remain for `org-concord`, Ink, and later revision/character reviews.

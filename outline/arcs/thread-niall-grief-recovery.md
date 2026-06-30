@@ -27,6 +27,8 @@ His arc should move toward accepting help, living with Maya and Selwin, and prot
 
 The author specifically approves framing this as committed action toward what Niall still does have, especially Maya and Selwin, instead of remaining focused on the past and things he cannot change.
 
+Chapter 34 is a key pressure point for this arc. Niall tries to kill Davian after Maya frees him against orders, forcing Maya to interpose. Niall also frames Maya's defiance as an implicit High Clade authority challenge because High Clades decide rule through killing and strength. The scene should show Niall's frightened, rigid "I can only make people die" model of power rather than make him a flat villain. Maya challenges whether he can be a leader instead of only a killer who rules by fear. He agrees to try her way for now, but this is not a permanent recovery; he later regresses when he decides to go kill Archeon.
+
 ## Alara, Maya, and Selwin
 
 Niall believes Alara is unrecoverably dead/lost after her postpartum/fateweaving decline and apparent death. He does not know the hidden higher-plane truth.
@@ -41,7 +43,9 @@ Niall's reputation is the Rezin political deterrent. Other High Clades fear that
 
 Niall's power has been waning before Book 1, but he hides this and Maya does not understand the full truth during key political moments.
 
-Niall's endgame recovery should involve accepting help from Maya and, structurally, joining Maya and Davian against Vorren. Exact mechanics and choreography remain deferred.
+Niall's endgame recovery should involve accepting help from Maya and, structurally, joining Maya and Davian against Vorren.
+
+In the accepted endgame assault direction, Niall and Maya proceed toward Archeon's central tower/throne room after Davian splits off to rescue Kelyra. Niall kills the apparent/fake opposition there before Serathis triggers the floor trap and drops him into the subterranean Vorren fight. Maya later reaches him after Davian and Kelyra relieve her pressure. The final Vorren defeat uses all three: Maya opens the ceiling, Niall brings lightning through the opening, and Davian reduces pressure/blockades Vorren long enough for Maya and Niall to act. Exact mechanics and choreography remain deferred.
 
 ## Continuity Constraints
 
@@ -52,6 +56,7 @@ Niall's endgame recovery should involve accepting help from Maya and, structural
 - Do not use Niall's silver conduits as a separate innate ability; they are technology/modifiers for his lightning.
 - Do not resolve exact Alara death/higher-plane mechanics here.
 - Do not lock exact Vorren fight choreography or experiential brine imagery before chapter/endgame outline work.
+- Do not make Niall's final Vorren defeat solitary; his recovery arc requires accepting help from Maya and Davian.
 
 ## Deferred
 
@@ -78,6 +83,8 @@ Niall's endgame recovery should involve accepting help from Maya and, structural
 - Related arc: [Demi-human mercenary forces and death payments](thread-demi-human-mercenary-forces.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Niall Grief Recovery and Committed Action](../../decisions/0070-niall-grief-recovery-committed-action.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
 
 ## Provenance
 

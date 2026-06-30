@@ -57,6 +57,8 @@ Most demi-human lineages in the Six Cities are heavily interbred with humans. Th
 
 People who look less obviously human are more likely to be pushed toward social outskirts, rural margins, or the criminal world because social pressure, discrimination, and lack of magic make mainstream advancement difficult.
 
+Within the Six Cities, even visibly demi-human-descended people usually have mostly human ancestry. The amount of visible non-human lineage tolerated is slightly higher in the Masked Clades and criminal underworld than in respectable society, partly because masks obscure features and partly because those communities are already outside the High Clade social order.
+
 Any level of non-human lineage is generally treated as low-status under High Clade culture. This prejudice is reinforced by human magical dominance and by the assumption that non-human lineages cannot produce the kinds of magic that let High Clades rule.
 
 Different lineages face different stereotypes:
@@ -81,6 +83,8 @@ Veyri are more often used as scouts than muscle because their traits suggest wat
 
 Thaleni mostly live in rural areas outside direct or constant Clade influence. A few serve the Harbingers in the catacombs beneath the city.
 
+The recurring Harbinger guide who escorts Davian and Jalen to the early Harbinger meeting and later reappears to escort Kelyra, Jalen, and Karra to the Heart handoff is clearly of Thaleni heritage: unnaturally large even beside Karra, with boulder-like features. This should read as striking and underworld-coded rather than ordinary Six Cities visibility.
+
 ## Mercenary Death Money
 
 Mercenaries are often desperate poor people who accept lethal risk in exchange for death payments to their families.
@@ -99,6 +103,7 @@ Detailed military organization, contract terms, and death-payment economics belo
 - Preserve that human magic dominance is secretly tied to damaged reality / original sin.
 - Preserve that pure non-human lineages are extremely rare in the Six Cities and that most demi-human-descended people look mostly ordinary with subtle lineage traces.
 - More visibly non-human demi-humans should be more likely to appear on social outskirts, rural margins, or in criminal/underworld spaces because of discrimination and lack of magic.
+- Masked Clade / underworld spaces can tolerate somewhat more visible demi-human lineage than mainstream Six Cities society, but that does not make strong visible lineage common.
 - Do not treat anti-Naeroth rumors as objective truth.
 - Do not make mercenaries morally interchangeable with High Clade magi; many are poor people accepting lethal risk for family survival.
 - Use the human-language plural forms: Durnai, Ghorreni, Veyri, Thaleni, Naerothi.
@@ -118,6 +123,7 @@ Detailed military organization, contract terms, and death-payment economics belo
 - Decision record: [Demi-Human Six-Lineage Structure and Social Role](../../decisions/0063-demi-human-six-lineage-structure-and-social-role.md)
 - Decision record: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
 - Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
+- Decision record: [Karra and Harbinger Guide Lineage Assignments](../../decisions/0077-karra-and-harbinger-guide-lineages.md)
 
 ## Canonical Uncertainties
 

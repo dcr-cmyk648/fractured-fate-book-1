@@ -258,6 +258,14 @@ When magic is important, show relevant elements such as:
 - sensory effects
 - backlash
 - loss of precision as exhaustion increases
+
+### Sign Language and Concord Hand Sign
+
+When future prose work renders Concord / Masked Clade sign language, use italics for signed dialogue.
+
+The signed language should not read exactly like clean spoken English. It should have a slightly ASL-like, foreign, compressed quality. The underlying convention is that some common words have established signs, while the rest is rendered through phonetic zän/sign components. In prose, this can appear as a mixture of direct common-word signs and more awkward phonetic or component-based phrasing.
+
+Do not apply this convention to manuscript files until prose revision is explicitly authorized.
 - how trained reflexes differ from consciously constructed techniques
 
 Technical details must remain consistent with approved magic-system files.
@@ -298,6 +306,8 @@ Explain only what the POV character would perceive or understand in that moment.
 - Integrate worldbuilding through what the POV character notices, uses, fears, misunderstands, or takes for granted.
 - Do not pause the scene for encyclopedia exposition.
 - Do not insert lore simply because it exists in the repository.
+- For social, political, moral, or cultural worldbuilding, avoid reader-facing moral explanation unless the scene specifically calls for it. Filter the material through what the POV character would naturally think, normalize, resent, question, or fail to notice as someone who lives in the world.
+- Functional details such as clothing, equipment, room layout, or social custom should usually be shown through POV-relevant action or perception rather than explanatory aside. For example, if Maya's formal clothing allows movement, later prose should show her testing, using, or noticing that freedom rather than explaining that it is "a necessity given her responsibilities."
 
 ## 10. Preview before application
 
@@ -316,7 +326,21 @@ When applying approved prose:
 4. note any new canon decision that still needs to be recorded
 5. do not commit without authorization
 
-## 11. Durable scene state
+## 11. Future manuscript snapshots
+
+When prose work eventually opens, establish a durable snapshot convention before producing or finalizing new chapter drafts. Do not create snapshot directories or archive copies during story-bible review, chapter mapping, Chapter Goal Cards, or outline work.
+
+The future convention should preserve:
+
+- first/alpha chapter versions once the author accepts them as durable draft records
+- finalized beta rewrites once the author accepts them as durable rewrite records
+- enough metadata to identify source chapter, draft stage, date, and related outline/prose-preservation records
+
+Snapshots are historical records, not the live manuscript. Codex must not silently restore text from a snapshot, overwrite manual edits, or treat a snapshot as newer authority than the current manuscript on disk.
+
+Later prose phases may also mark protected passages, lines, exchanges, or sections that should not be changed without explicit author permission. Protected status is not created by ordinary reader feedback or candidate notes; it requires author approval and should be tracked in the future prose/prose-preservation workflow.
+
+## 12. Durable scene state
 
 When active prose work eventually begins, create:
 

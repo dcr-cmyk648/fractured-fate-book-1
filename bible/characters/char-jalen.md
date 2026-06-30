@@ -58,6 +58,14 @@ Jalen has no magical abilities.
 
 His combat contribution is primarily support and ranged weapons. Older planning where Jalen has Subversion, Archeon/Low-Clade offshoot origin, Shroud inability, or major martial dominance is obsolete for Jalen.
 
+## Accepted Future Direction
+
+During Kelyra's late-book capture, Archeon leaves Jalen for dead. From Kelyra's perspective, a High Clade magus hits him and she can reasonably assume he was killed.
+
+Jalen reaches the Rezin citadel essentially dying, deliriously collapses near the gate, and is dragged in. His survival can be justified by criminal-underworld skills, stubbornness, and route knowledge, but he is still badly enough injured to require major painful gold strike-line healing.
+
+Jalen does not physically join the final Archeon assault. His injuries and healing route him into support, logistics, and intelligence. He can provide concrete details about the Harbinger-Archeon collaboration, the Heart delivery to someone, and the capture sequence, while Aldira can help use his access to criminal intelligence networks. He does not need to know Kelyra's exact holding location; Davian knows Archeon has her from Karra's message.
+
 ## Current Manuscript State
 
 Current manuscript material still contains earlier-role traces where the Syndicate/Harbingers threaten Jalen's "seat" and initially plan to use him for the Heart theft with an aura-mimic Ink Pact. The accepted organization direction moves this threat to Kelyra's position as Concord leader. These older Jalen-seat references need chronology and manuscript revision review.
@@ -92,6 +100,7 @@ Current manuscript material establishes Jalen as:
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Canonical Uncertainties
 
@@ -99,6 +108,7 @@ Current manuscript material establishes Jalen as:
 - Exact handling of older manuscript references to Jalen's seat and Ink Pact role needs later chronology and manuscript revision review.
 - Exact Jalen's personal knowledge, reaction, and involvement around Selina's death remain for later review.
 - Exact Jalen/Kelyra logistics during the Heart theft, Arrek murder support, and late Concord conflict need later plot review.
+- Exact route, timing, and physical details of Jalen's survival trip to Rezin remain for later chapter architecture.
 
 ## Provenance
 

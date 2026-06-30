@@ -90,6 +90,8 @@ Serathis claims Kelyra as daughter, granddaughter, and descendant. Kelyra is dir
 
 Serathis intentionally allowed Kelyra's escape and later uses the parallel to Serathis's own release to gaslight Kelyra. There is a gray area around whether Serathis is partly right that this helped produce who Kelyra became, but that does not make Serathis's methods morally defensible. Serathis's value for Kelyra and Davian is recent and conditional on their results; if they had disappointed her, she would not have cared about them.
 
+Chapter 34's Aldira inference that Archeon may have let Kelyra go is true at the author/outline level, though Aldira cannot know it for certain in-scene. The implication should support later Archeon/Kelyra planning without making Kelyra knowingly loyal to Archeon.
+
 Serathis sees Kelyra as one of the closest realized heirs to her project and is desperate to bring her back to Archeon's side.
 
 Accepted future direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Serathis shares her desire to kill all High Clade magi and burn down the Clade system with Kelyra as Serathis dies.
@@ -105,6 +107,8 @@ The accepted Heart theft event boundary includes Kelyra receiving the Heart from
 Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack of manifested Shroud in known history, her use of Subversion/kinesis to drain zän defenses, and the body-based foundations she taught Davian.
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
+
+The Chapter 35 Archeon healing beat should later be updated toward the newer painful gold strike-line healing model while preserving that Archeon can only maintain one expensive healer. Under the newer Ink system, Kelyra can still have some rapid-movement ability during this captivity sequence rather than being completely depowered. Kelyra does not have Davian/Karra-style deeper forced-restructuring Ink healing; psychotic or compulsive old-Ink symptoms can come from long-term exposure without implying that healing case.
 
 Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforehand, gives advice, and supports her, but does not participate.
 
@@ -147,6 +151,8 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 

@@ -50,6 +50,8 @@ Concord members use matte black masks. Davian's customized mask is an exception:
 
 The Concord uses hand sign in the field. It also uses a cipher described in manuscript as pared-down zän, stripped of flourish, used phonetically and rearranged in a precise sequence.
 
+Future prose should render Concord / Masked Clade sign language in italics. The signed language should not read exactly like clean spoken English: common words can have established signs, while other material is phonetically rendered through zän/sign components, producing a slightly ASL-like, compressed, awkward quality.
+
 The Concord is vulnerable to Harbinger pressure because Kelyra received Ink power and the family/organization is bound by bargains, debt, leverage, and the threat of leadership challenge.
 
 ## Manor and Hideout
@@ -96,6 +98,7 @@ Older Jalen-seat and Jalen-Trial material is suspect and should be repaired duri
 - Decision record: [Clade Hierarchy Categories and Presented Status](../../decisions/0038-clade-hierarchy-categories-and-presented-status.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Concord Sign Language Rendering Convention](../../decisions/0079-concord-sign-language-rendering.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)

@@ -62,18 +62,28 @@ Davian's current abilities include:
 - kinesis, called Subversion by Kelyra and Davian's family
 - exposure to Harbinger/Syndicate Ink Pact
 - aura absorption/mimicry through Ink Pact after killing a target
-- rapid movement related to moving through a wrinkle-in-space manner through the Skein
-- deeper Ink Pact healing through forced restructuring after Elric visits him in the Rezin citadel
+- rapid movement related to perceiving or taking shorter paths through the Skein/reality
+- deeper Ink Pact healing through forced restructuring after Elric's later head-touch reinforcement pushes him into near-psychotic Ink pressure
 
-Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, kinesis, and Ink exposure without being controlled by the Ink's pressure.
+Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Ink exposure, Shroud, and eventually kinesis without being controlled by the Ink's pressure.
 
-Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink, not a separate accepted Pact ability. Ink influence does not erase his agency.
+His broad Book 1 ability progression is: strong martial arts, then Ink, then Shroud, then later kinesis. The full Archeon-style combat stack is martial arts + Ink + Shroud + kinesis. Chapter 31 should mainly show him getting Shroud and martial arts to work together while Ink-altered movement/perception remains part of his body; kinesis integration comes later.
+
+By Chapter 36, Davian should already have the basic faster/right movement ability provided by Ink. Harvick's prototype Ink reveal is useful because it proves Harvick has an older Elric prototype Pact, not because it grants Davian a new movement category.
+
+Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink / being forced along Elric's intended path, not a separate accepted Pact ability. Ink influence does not erase his agency.
+
+Davian's initial Ink Pact is delivered through the Harbinger chamber ritual, with Ink running across the ground, grabbing him, and burning into him, but Elric / the Harbinger leader's direct touch or direct attention is the decisive transfer. The later underground Ink-spectre lair can echo this as a prototype or related delivery system.
+
+Elric's Rezin-citadel visit after Davian saves Selwin and is promoted does not grant Davian's healing. Its accepted function is to show that Elric can enter and leave the citadel despite the Registry, that he wants to remain hidden from Niall, and that he is reinforcing the Ink that lets Davian mimic Arrek's aura. Davian's forced-restructuring healing comes later, when Elric has almost fully taken over the Harbinger leader's body and touches Davian on the head. That final contact flips Davian into near-psychotic Ink levels: dark-thread perception, whispered pressure, and the sense that "he" will not let Davian die before the intended endpoint.
+
+Davian's Ink effects should not be treated as a fuel meter. Healing works as a forcing-to-a-thread function when he is following Elric's intended dark-thread path rather than as a consumable resource. Ink movement is less a discrete power than a brain/perception change that lets him perceive or take shorter paths through reality, manifesting as speed that looks strange to observers while he remains fully present in observed reality.
 
 Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
 Accepted future object direction: Paradox is the normal sword made from ruined Antithesis after Davian blocks Vorren's attack. Niall gives Paradox to Davian in the end-book courtyard scene. It is not bound to Davian's aura.
 
-Zirene makes Davian's black iron bands after the Heart theft. They are a lethal trust/control device activated by Niall or Maya, but exact function/design remains subject to later review. Zirene may use an engrave-on-flesh-with-metal technique related to strike-lines directly on flesh.
+Zirene makes Davian's black iron upper-arm bands after the Heart theft. They are a lethal trust/control device with circuits etched into Davian's skin beneath/through the metal, conceptually adjacent to painful gold strike-line healing and Ink Pact body inscription. They are sensitive to Niall's electricity and Maya's rapid cooling. Exact low-level heart-kill mechanics remain subject to later review.
 
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
@@ -141,6 +151,8 @@ Selwin:
 
 After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, apologizes for lying, and says he wants to help make things right.
 
+In Chapter 36, Selwin's response that Davian is "not as sad" because Davian cares about what he said is acceptable for now as part of the Davian-Selwin mirror: Selwin reads Davian's sadness/care and responds with openness rather than enemy-category abstraction.
+
 Accepted Selwin record: [Selwin Rezin](char-selwin.md)
 
 Davian saves Selwin during the Dissolution outburst, exposing Davian's underlying protective values and complicating his attempt to categorize all High Clades as enemies.
@@ -161,7 +173,7 @@ Davian's original start-book mask is not Selina's. The later Nizän-marked mask 
 
 In the prologue, Davian operates with the Twilight Concord under Jalen, fights the Sorevin Head Magus at Sorevin manor with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
 
-In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact.
+In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact through the Harbinger chamber ritual and the leader / Elric's decisive contact or attention.
 
 Later manuscript material establishes Davian's post-theft exposure, interrogation, and training: he admits the aura theft, describes Subversion, manifests a weak Shroud, trains with Maya/Harvick/Selwin, and tries to make things right while still carrying guilt and defensive anger.
 
@@ -213,6 +225,7 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Chapter 33 Map, Davian Bands, and Agency Boundary](../../decisions/0086-chapter-33-map-davian-bands-agency.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)
@@ -221,12 +234,14 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
+- Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
 
 ## Canonical Uncertainties
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
 - Broader Ink/Shroud/kinesis interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
-- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
+- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews, but the accepted high-level sequence now distinguishes Davian's initial Pact, the Rezin-citadel aura-mimic reinforcement, and the later head-touch healing / near-psychotic pressure escalation.
 - Arrek-family restitution or cousin consequences remain candidate material in `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 

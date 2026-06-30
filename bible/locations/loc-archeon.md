@@ -50,13 +50,15 @@ The throne room has stained glass windows along the sides. These are remnants fr
 
 The throne room contains a trap that collapses the floor, dropping Niall into the subterranean areas below the Archeon citadel, where Vorren waits for him.
 
-Accepted high-level endgame direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Vorren is killed by Maya, Niall, and Davian together. Exact route and fight choreography remain deferred.
+Accepted high-level endgame direction: Niall, Maya, and Davian breach Archeon from aboveground and move toward the central tower. Davian splits off under time pressure to rescue Kelyra, while Maya and Niall reach the throne room. Niall kills the apparent/fake opposition there before Serathis triggers the floor trap and drops him toward Vorren. Serathis and held-back Archeon magi pin Maya in an attrition fight until Davian and Kelyra relieve pressure on her. Maya goes down to Niall. Davian and Kelyra fight and kill Serathis, after which Davian goes to help Maya and Niall against Vorren. Vorren is killed by Maya, Niall, and Davian together. Exact route and fight choreography remain deferred.
 
 ## Final Attack Geography
 
 The final attack approach will lead through the slums and neglected city-wedge-boundary areas before the main characters enter the Archeon citadel.
 
-The current plan is for all main attackers to approach from aboveground. Once inside, they proceed through the Archeon citadel toward the central tower for the battle in and under the throne room.
+The current plan is for the main attackers to approach from aboveground and violently breach Archeon through gates, walls, towers, or equivalent defenses. Early resistance may be unexpectedly light because Serathis has held back valuable magi/heirs for the interior trap, though the protagonists do not know this at first.
+
+Once inside, the initial objective proceeds toward the central tower for the battle in and under the throne room, but Davian can split off to rescue Kelyra before the throne-room trap fully resolves.
 
 The political reason for this route is the accepted High Clade/Drakhal/Archeon trap: Drakhal's public pressure and deniability route the protagonists toward Archeon, where the central-tower trap can isolate Niall and drop him toward Vorren.
 
@@ -79,6 +81,7 @@ Exact route choreography, outer wall/gate configuration, and battle matchups rem
 - Decision record: [Serathis Archeon Role, Heirs, and Endgame Direction](../../decisions/0046-serathis-archeon-role-heirs-and-endgame-direction.md)
 - Decision record: [Vorren Drakhal Role, Appetite, and Endgame Function](../../decisions/0047-vorren-drakhal-role-appetite-and-endgame-function.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Canonical Uncertainties
 

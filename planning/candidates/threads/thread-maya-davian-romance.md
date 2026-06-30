@@ -40,6 +40,7 @@ Candidate material:
 - Exact end-book courtyard/Paradox/relationship resolution.
 - Whether Maya understands why she resurrects Davian in the moment or only later interrogates it.
 - Exact relationship status at the end of Book 1.
+- Accepted direction is now stored in `outline/arcs/thread-maya-davian-romance.md`: Kelyra may challenge Davian's hope of emerging from the shadows into the light with Maya after years of violence and concealment. Exact wording remains candidate.
 
 ## Prose / Future-Phase Notes
 
@@ -51,6 +52,7 @@ When the chapter/outline phase opens, possible material to evaluate for prose-pr
 - Maya's post-betrayal memory of Davian's mouth and eyes
 - any line where Maya asks whether what happened was real
 - any future line where Davian reframes the wall scene after understanding Maya better
+- the possible Kelyra "shadows/light" challenge, if it survives later outline work
 
 These are future candidates only and do not authorize exact prose reuse.
 
@@ -60,3 +62,4 @@ These are future candidates only and do not authorize exact prose reuse.
 - `imports/normalized/bullet-notes.md:39`, `imports/normalized/bullet-notes.md:48`, `imports/normalized/bullet-notes.md:60`
 - `imports/normalized/book-1-outline.md:5151`, `imports/normalized/book-1-outline.md:8271`, `imports/normalized/book-1-outline.md:9208-9530`
 - Author approval and additions on 2026-06-27.
+- Web-app comment ticket `WC-2026-06-29-004`.

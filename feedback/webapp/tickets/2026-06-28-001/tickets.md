@@ -1,6 +1,6 @@
 # Proposed Web-App Comment Tickets: 2026-06-28-001
 
-Status: author-reviewed on 2026-06-28. Lower-level story-bible tickets resolved; chapter-architecture ticket deferred.
+Status: author-reviewed on 2026-06-28. All tickets resolved or routed.
 
 Tickets are not canon, accepted revisions, manuscript-edit authorization, or prose-preservation approval.
 
@@ -8,7 +8,7 @@ Tickets are not canon, accepted revisions, manuscript-edit authorization, or pro
 |---|---|---|---|---|---|
 | WC-2026-06-28-001 | accepted-for-workflow | medium | story-bible-review | `bible/cultures/culture-number-system-zan-script.md` | resolved |
 | WC-2026-06-28-002 | accepted-for-workflow | low | story-bible-review | `bible/cultures/culture-number-system-zan-script.md` | resolved |
-| WC-2026-06-28-003 | deferred | medium | chapter-architecture | `bible/locations/loc-sorevin-redbridge.md`; Prologue/Sorevin manor scene | deferred |
+| WC-2026-06-28-003 | accepted-for-workflow | medium | chapter-architecture | `bible/locations/loc-sorevin-redbridge.md`; Prologue/Sorevin manor scene | resolved |
 | WC-2026-06-28-004 | accepted-for-workflow | medium | story-bible-review | `bible/magic/magic-zan-lattices.md` | resolved |
 
 ## WC-2026-06-28-001: Zero Segment Notation
@@ -59,7 +59,7 @@ Rationale: This is a compact terminology update. It is not structurally blocking
 
 - Source: webapp-comments
 - Batch ID: `2026-06-28-001`
-- Status: deferred
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: chapter-architecture
 - Source comment IDs: `comment-1782614072454-9d0xcm`
@@ -69,11 +69,11 @@ Rationale: This is a compact terminology update. It is not structurally blocking
 - Target heading: Sorevin Manor
 - Proposed destination: Prologue/Sorevin chapter architecture and possible later location update
 - Blocking: no
-- Requires author decision: yes; deferred to chapter architecture/location work
+- Requires author decision: resolved
 
 Summary: The Sorevin manor back gateway should likely have a protective or alarm zän lattice that Kelyra disables by draining it. This makes her contribution difficult and helps justify Davian wanting to keep her out of the direct combat. More broadly, zän technology should be more visible in Clade architecture and rough lower-class utility uses.
 
-Disposition: Deferred until Prologue/Sorevin chapter architecture or location work, after lower-level zän decisions are stable.
+Disposition: Accepted as future Prologue architecture guidance on 2026-06-30. See `feedback/webapp/tickets/2026-06-28-001/WC-2026-06-28-003-review.md` and `decisions/0092-sorevin-gateway-zan-prologue-guidance.md`.
 
 Rationale: This has chapter-level scene function, setting texture, and magic-system onboarding value.
 

@@ -36,7 +36,7 @@ The leader reveals that he has made an Ink Pact with Karra. Karra exposes Ink an
 
 Kelyra accepts the fight as a penalty. The challenge is both legitimate enough under Concord / Trial of Dominion custom to matter and rigged by Harbinger/Elric manipulation.
 
-Kelyra is more skilled than Karra. She apparently defeats or kills Karra through superior Archeon-trained martial technique. Karra rises whole because she has deeper forced-restructuring Ink healing, which Kelyra does not.
+Kelyra is more skilled than Karra. She apparently defeats or kills Karra through superior Archeon-trained martial technique. Karra rises whole because she has deeper forced-restructuring Ink healing personally granted by the Harbinger leader / Elric, which Kelyra does not.
 
 Kelyra does not realize how heavily the odds have been weighted against her. From the hidden side of the event, victory is essentially impossible once Karra's deeper Ink healing and the Harbinger/Elric rigging are in play.
 
@@ -83,9 +83,10 @@ Kelyra's capture feeds the accepted Kelyra Archeon recovery arc: Serathis uses r
 - The later Concord manor attack is separate Archeon-led fallout.
 - Karra's challenge must be both legitimate enough under Concord/Trial custom and rigged by Harbinger/Elric manipulation.
 - Karra cannot be treated as Kelyra's equal in skill without Ink.
-- Karra's healing is deeper forced-restructuring Ink healing; Kelyra does not have it.
+- Karra's healing is deeper forced-restructuring Ink healing personally granted by the Harbinger leader / Elric; Kelyra does not have it.
+- Kelyra has no reason to anticipate Karra's healing except the fresh but unexplained evidence of Davian's healing. Because she believes her lethal blow ended the fight, Karra's recovery can plausibly make Kelyra drop her guard.
 - Kelyra's defeat should preserve her competence. She wins the surface fight but loses the hidden/rigged system.
-- The current manuscript's Ink-running-out and transfer-to-Davian explanation is candidate material, not accepted canon.
+- The current manuscript's Ink-running-out and transfer-to-Davian explanation is not accepted canon.
 - Davian should not fully understand the Kelyra/Elric bargain or capture mechanics when the event occurs.
 
 ## Related Files

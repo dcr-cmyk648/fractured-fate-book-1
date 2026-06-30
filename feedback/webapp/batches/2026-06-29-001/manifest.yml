@@ -1,0 +1,14 @@
+batch_id: "2026-06-29-001"
+imported_at: "2026-06-29T19:49:35+00:00"
+importer_version: "webapp-comment-import-v1"
+source_file_count: 1
+source_files:
+  - "fractured-fate-comments-dustinr-20260629-1416-from-drive.json"
+parsed_records: 10
+imported_count: 6
+duplicate_count: 4
+rejected_count: 0
+raw_archive: "feedback/webapp/raw/2026-06-29-001"
+processed_archive: "feedback/webapp/processed/2026-06-29-001"
+normalized_batch: "feedback/webapp/batches/2026-06-29-001/normalized-comments.jsonl"
+master_normalized: "feedback/webapp/normalized/comments.jsonl"

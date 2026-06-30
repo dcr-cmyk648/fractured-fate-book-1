@@ -70,6 +70,10 @@ Elric gave the future Harbinger/Syndicate leader an Ink Pact before the book beg
 
 Through this takeover, he transformed the Syndicate criminal organization into the Harbingers. The name change is a proxy measure for Elric's takeover of the young leader's psyche.
 
+Through the Harbinger leader, Elric is the decisive arbiter of Book 1 Ink Pacts. Visible ritual spaces, zä, pooled Ink, tendrils, and chamber infrastructure can support delivery, but major Pacts are shaped by Elric / the leader's direct touch or direct attention rather than by independent transferable Ink machinery.
+
+Davian's initial Heart-theft Pact uses the Harbinger chamber infrastructure while Elric / the leader completes or directs the transfer. Elric later enters the Rezin citadel to reinforce Davian's Arrek-aura mimicry, demonstrating that he can bypass the Registry while still avoiding Niall's notice. Davian's deeper healing and near-psychotic dark-thread pressure come later, when Elric has nearly completed the takeover of the Harbinger leader's body and touches Davian on the head.
+
 Elric directly coordinates with Drakhal, Vorren, and Archeon through the Harbingers, although the fact that he is Elric in another body is not generally known. Serathis may possibly suspect it.
 
 Vorren serves Elric's plan without needing to share Elric's metaphysical despair. Vorren's appetite for violence and killing powerful people makes him usable as a path for baiting Niall near the Heart and pressuring Maya into the endgame rupture.
@@ -107,6 +111,8 @@ Current manuscript material establishes:
 - Elric's hidden tie to Harvick's Ink Pact.
 - Fate/Skein visions showing Elric's role in Niall's death and Niall's killing of Elric's original body.
 
+Chapter 32 establishes an Ink simulacrum/remnant under the Rezin citadel whose hope is to be destroyed. This desire belongs to the remnant specifically and should not be generalized into full Elric's endgame goal. The remnant's "blood in the water," "arrow of fate," and "third coffin" language is intentional future-book setup and should remain cryptic in Book 1.
+
 ## Intended Arc Links
 
 - Approved arc seed: [thread-elric-reality-skein](../../outline/arcs/thread-elric-reality-skein.md)
@@ -132,6 +138,7 @@ Current manuscript material establishes:
 - Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 - Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
+- Decision record: [Chapter 32 Map, Maya Violence Boundary, and Elric Remnant Clues](../../decisions/0085-chapter-32-map-elric-remnant-clues.md)
 
 ## Canonical Uncertainties
 

@@ -662,6 +662,13 @@ select {
   color: white;
 }
 
+.comment-actions button.is-syncing,
+#syncCommentsBtn.is-syncing {
+  background: #d8fff8;
+  border-color: #d8fff8;
+  color: #182225;
+}
+
 .bookmark-card,
 .reference-card {
   margin-top: 0.35rem;

@@ -48,6 +48,7 @@ Accepted boundary: Lethira is not Kelyra's child. She is another Archeon child w
 - Whether she is temporarily out of commission.
 - Whether she is unable or unwilling to lead the Concord/Masked Clades after Book 1.
 - Whether she stays to handle remaining Archeon forces as a practical battlefield action, an accidental succession event, or a deliberate rejection of Serathis's system.
+- Accepted direction is now stored in `outline/arcs/thread-kelyra-archeon-recovery.md`: Kelyra may become antagonistic toward Maya after Davian chooses to help Maya and Niall, framing Maya as a lure toward a false "light" that threatens to pull Davian away from the shadows and survival logic Kelyra trained into him. Exact wording remains candidate.
 
 ## Stale Material Routing
 
@@ -62,3 +63,7 @@ Preserve as possible Jalen support/logistics only:
 - emotional/temperament counterweight to Kelyra
 
 Do not route leadership, fieldwork pressure, Trial combat, assassin training, Selina training, or Archeon-derived magic back to Jalen without a later explicit decision.
+
+## Provenance
+
+- Web-app comment ticket `WC-2026-06-29-004`.

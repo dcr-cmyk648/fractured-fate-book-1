@@ -23,6 +23,8 @@ His arc moves toward values: valuing Maya, protecting people and things he value
 
 Davian's agency remains central. He is pressured by family danger, Harbingers/Elric, Ink/dark-thread compulsion, dissociation, and Kelyra's ideology, but he still chooses and persists.
 
+The Ink pressure is now structurally tied to staged Elric interventions: Davian's initial Pact comes through Harbinger chamber infrastructure and the leader / Elric's decisive touch or attention; the later Rezin-citadel visit reinforces Arrek-aura mimicry and proves Elric can bypass the Registry while hiding from Niall; and the later head-touch reinforcement pushes Davian into near-psychotic dark-thread pressure and forced-restructuring healing.
+
 His culpability includes Arrek's murder, the Heart theft, lying to Maya, harming Harvick, and nearly killing Niall.
 
 The author specifically notes that absolving Davian from culpability for bad decisions would also absolve him from having any real agency to make good or bad decisions. The arc should preserve the fact that his choices matter.
@@ -41,6 +43,10 @@ Davian resolves enough of the Kelyra/Serathis origin-family wound to go help May
 
 His endgame role is not to prove he is the sole decisive threat. He must support the people and values he wants to preserve.
 
+In the accepted endgame assault direction, Davian splits off inside Archeon to rescue Kelyra under time pressure, likely fearing that Serathis will execute or use her before the main objective can be completed. After Davian and Kelyra relieve Maya's pressure and kill Serathis, Davian chooses to leave Kelyra and help Maya and Niall anyway.
+
+Against Vorren, Davian recognizes that he does not have the strength to kill Vorren alone. His meaningful choice is protective: he reduces pressure on Maya and Niall, blocks Vorren's attack, and ruins Antithesis in defense of them. This redirects Antithesis from assassination/revenge toward protection before its destruction.
+
 Davian's death/resurrection remains accepted future emotional architecture, with exact mechanics and final relationship status deferred.
 
 ## Continuity Constraints
@@ -52,6 +58,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Do not turn Antithesis into a sword during Book 1; it remains a dagger until ruined.
 - Preserve Davian's weak/unstable Shroud as poor throughput/anchoring/training, not inherently tiny capacity.
 - Preserve that Davian helps Maya and Niall against Vorren rather than being the sole decisive threat in the final fight.
+- Preserve Davian's final support role as chosen protection, not tactical irrelevance.
 - Keep resurrection mechanics, final confession, final relationship status, and exact Paradox beat deferred.
 
 ## Deferred
@@ -63,7 +70,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Arrek-family restitution or cousin consequences.
 - Whether Davian explicitly tells Maya he has loved her since the wall, or whether that remains subtext/near-confession.
 - Exact Paradox handoff / Niall-Davian sword beat.
-- Exact mechanics of Elric's Ink/fate manipulation of Davian.
+- Exact low-level mechanics of Elric's Ink/fate manipulation of Davian, beyond the accepted staged intervention structure.
 - Exact late Shroud/kinesis/Ink integration.
 
 ## Related Files
@@ -87,6 +94,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Davian Identity, Guilt, and Agency Arc](../../decisions/0071-davian-identity-guilt-agency.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Provenance
 

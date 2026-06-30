@@ -1,27 +1,27 @@
 # Project State
 
-Last updated: 2026-06-28
+Last updated: 2026-06-30
 
 ## Repository state
 
 - Current branch: beta
-- Current migration phase: Phase 6 current-draft chapter map
-- Current block: current-draft-map
+- Current migration phase: Phase 7 alpha-continuation architecture
+- Current block: nonblocking ticket review
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 29 map and consistency review`
-- Working tree expected to be clean: yes, after the scratchpad app commit is pushed
+- Latest relevant commit message: current handoff commit
+- Working tree expected to be clean: yes
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: current-draft-map
-- Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 0
-- Last consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
-- Last chapter-map consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
-- Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
+- Current block: nonblocking ticket review
+- Block scope: current cutoff, approved remaining alpha sequence architecture, approved working chapter division, approved detailed Chapter 37, Chapter 38, Chapter 39, Chapter 40, and Chapter 41 unit outlines, detailed Chapter 42 unit outline paused for author review, and nonblocking web-app/source tickets
+- Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
+- Last consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
+- Last chapter-map consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
+- Consistency review due: no; nonblocking ticket `LORE-2026-06-28-008` is the next deferred source-intake ticket if nonblocking ticket review continues
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,24 +30,26 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-29` current-draft map packet has been approved by the author. The significant current-draft-map consistency review through Chapter 29 is complete and clears Chapter 30. No manuscript prose has been changed.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. Nonblocking ticket `WC-2026-06-28-003` was accepted as future Prologue architecture guidance and recorded in `decisions/0092-sorevin-gateway-zan-prologue-guidance.md`. Ticket `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. Ticket `LORE-2026-06-28-007` was preserved as candidate-only until Six Cities geography details become directly relevant. The permanent workflow was updated to require a short in-chat summary whenever Codex asks for author decision or feedback. The review app was updated to include approximate visible rendered line ranges for repository-browser files and non-prose book-reader layers, improving comment anchors for outlines and maps. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md` were approved as the working alpha-continuation structure, with flexible Chapter 37/38 boundary management and with the Spire provocation followed by the Rezin-citadel Drakhal proposal as sequential political trap beats. The detailed Chapter 37 outline at `outline/alpha-continuation/units/ch37-dining-jalen-intelligence.md`, Chapter 38 outline at `outline/alpha-continuation/units/ch38-davian-night-unresolved-want.md`, Chapter 39 outline at `outline/alpha-continuation/units/ch39-intelligence-drakhal-proposal.md`, Chapter 40 outline at `outline/alpha-continuation/units/ch40-counterattack-commitment-archeon.md`, and Chapter 41 outline at `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md` were approved as working detailed outlines. The detailed Chapter 42 outline packet remains available at `outline/alpha-continuation/units/ch42-kelyra-shroud-maya-attrition.md`; if nonblocking ticket review continues, the next deferred source-intake ticket is `LORE-2026-06-28-008`.
 
 ## Next action
 
-Validate, commit, push `beta`, merge to `main`, push `main`, and check out `beta` again as requested. After that, the next creative work is preparing `d1-ch-30`.
+Either continue nonblocking ticket review with `LORE-2026-06-28-008` or return to the paused Chapter 42 outline packet, depending on author direction. No prose drafting is authorized until explicitly requested.
 
 ## Awaiting author input
 
-None.
+No active ticket is awaiting author decision after `LORE-2026-06-28-007` was preserved as candidate-only. Detailed Chapter 42 outline packet remains paused and ready; no current web-app comment ticket blocks that packet.
 
 ## Workflow policy note
 
 - Unapproved review-packet commits are optional, not automatic. While the author is actively present in the same Codex session, keep an unapproved review packet in the working tree until the author checkpoint. Create and push an unapproved checkpoint only when durability matters: session ending, author switching computers or threads, likely context compaction/interruption, costly source-gathering, or explicit author request. Checkpoints must not create accepted bible files or mark the entity approved.
-- When waiting for author input, print the useful terminal summary and required author questions last so the author can audit them without opening packet files.
+- When waiting for author input, print a short version of the relevant information in chat, including what the packet/ticket/checkpoint is about, the recommendation or status, and the required author questions last so the author can audit and answer without opening packet files.
 - For current-draft chapter-map packets, the in-thread presentation must include a concise chapter summary, a short list of key divergences, and the main chapter goals before the required approval question.
 - Do not stop on an opened entity or source-gathering stub. If author input is needed, the repository must contain a concrete author-review packet, approval packet, or phase-gate packet with the information needed to respond.
 - Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 - Web-app comments are inbox material. Importing and normalizing exported comments does not make them canon, accepted revisions, manuscript-edit instructions, story-bible decisions, or prose-preservation approvals. Use `python3 scripts/import_webapp_comments.py` after placing exported files in `feedback/webapp/incoming/`, then synthesize a batch only when explicitly asked.
+- Author-origin web-app comments are stronger steering input than outside-reader comments, but they still require routing. Outside-reader comments should be synthesized with pros/cons and possible responses, not treated as instructions.
+- Current alpha path: finish current alpha draft first. After consistency/ticket clearance, build alpha-continuation architecture and enough outline for the next unwritten chapter/sequence, then draft prose only after explicit author authorization. After alpha completion, return for beta-draft re-outline/rewrite.
 
 ## Known blockers or risks
 

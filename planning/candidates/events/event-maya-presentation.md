@@ -29,9 +29,11 @@ last_reviewed: 2026-06-27
 
 - Whether Niall and Maya speak immediately after, during the return trip, or later.
 - Exact Niall warning language about assassins, tests, killing, and whether Maya wants that path.
+- Accepted direction is now stored in `bible/events/event-maya-presentation.md`: Niall may warn Maya that she has no idea of the political ramifications of what she did. Exact wording remains candidate.
 - Whether an offhand comment about Niall's jacket appears before or during this sequence.
 - Exact way Drakhal uses the Presentation in backroom conversations with other High Clades.
 - Exact immediate Caius expression and how much Maya reads correctly.
+- Accepted direction is now stored in `bible/events/event-maya-presentation.md`: Maya had some administrative familiarity before Presentation, but Presentation makes her role more public-facing and politically visible. Exact scene use remains candidate.
 
 ## Accepted Direction To Preserve
 
@@ -40,3 +42,7 @@ last_reviewed: 2026-06-27
 - Niall's dominant reaction is worry, not simple pride.
 - Caius's reaction is a toxic/narcissistic mirror of Davian's wall reaction.
 - Exact prose, staging, and choreography remain for later chapter architecture and prose revision.
+
+## Provenance
+
+- Web-app comment ticket `WC-2026-06-29-004`.

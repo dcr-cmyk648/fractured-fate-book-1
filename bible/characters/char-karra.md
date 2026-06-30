@@ -16,6 +16,8 @@ candidate_file: planning/candidates/characters/char-karra.md
 
 Karra is a young, tall, heavily built Concord bruiser/operator.
 
+Karra has Ghorreni lineage. Like most Six Cities residents, especially anyone living inside the city rather than in rural or outsider communities, her non-human percentage is probably not high overall. The Masked Clades tolerate a slightly higher visible demi-human contribution than mainstream society because masks obscure features and because criminal/outcast status already places people outside respectable High Clade norms. Even so, Karra's Ghorreni contribution is significant enough to support her huge, muscular build.
+
 She is not a principal character, but she has a dedicated standard-depth record because her role crosses the Sorevin job, Heart handoff, Trial of Dominion, Ink Pact healing, Concord evacuation, and Kelyra's capture fallout.
 
 Karra is physically powerful, blunt, brave, and practical. She is not Kelyra's equal in martial technique without Ink.
@@ -75,6 +77,7 @@ Karra likely has to lie to Davian's siblings to get them out.
 
 - Review packet: [char-karra](../../reviews/entities/characters/char-karra.md)
 - Candidate material: [char-karra](../../planning/candidates/characters/char-karra.md)
+- Related culture: [Demi-human peoples, origins, and social roles](../cultures/culture-demi-human-peoples.md)
 - Related character: [Kelyra](char-kelyra.md)
 - Related character: [Davian](char-davian.md)
 - Related character: [Jalen](char-jalen.md)
@@ -86,6 +89,7 @@ Karra likely has to lie to Davian's siblings to get them out.
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Karra and Harbinger Guide Lineage Assignments](../../decisions/0077-karra-and-harbinger-guide-lineages.md)
 
 ## Canonical Uncertainties
 
@@ -107,3 +111,4 @@ Karra likely has to lie to Davian's siblings to get them out.
 - `imports/normalized/book-1-outline.md:3835`: former Tarek role is now Karra, a huge muscular woman.
 - `imports/normalized/book-1-outline.md:8175`: Karra healing / Harbinger leaning on the scales.
 - Author feedback on 2026-06-26.
+- Author feedback on 2026-06-30.

@@ -47,9 +47,15 @@ The Drakhal/Archeon/Vorren trap has two broad political possibilities:
 - provoke Niall into public aggression against gathered High Clades
 - route Niall into the Archeon citadel, where Vorren waits
 
-The accepted final path currently routes through Archeon. The protagonists approach aboveground through neglected city-wedge / slum boundary areas, enter the Archeon citadel, and move toward the central tower and throne-room trap.
+The accepted final path currently routes through Archeon. The protagonists approach aboveground through neglected city-wedge / slum boundary areas, violently breach Archeon, and move toward the central tower and throne-room trap. The outer defenses may seem unexpectedly weak because Serathis has held back valuable Archeon magi/heirs for the interior trap.
 
 Caius does not appear in the final Archeon/Vorren fight. Drakhal wants plausible deniability, so Vorren is the only Drakhal magus committed to the endgame trap.
+
+Jalen is left for dead during Kelyra's capture and reaches Rezin essentially dying. His survival gives Rezin/Aldira concrete information about Harbinger-Archeon collaboration, Heart delivery, and criminal-network intelligence, but not a complete map to Kelyra. Davian already has Karra's message that Archeon has Kelyra.
+
+Inside Archeon, time pressure around Kelyra's possible execution or use splits Davian away from Maya and Niall. This split can be partly enabled or exploited by Serathis, who benefits from removing Davian as another observer of her traps and deceptions.
+
+Serathis's interior plan is an attrition trap: Niall is dropped toward Vorren, while Serathis and held-back Archeon magi pin Maya and prevent her from reaching him. Exact reasons for Serathis's force allocation can remain partly inferable rather than explicit.
 
 ## Spire Provocation
 
@@ -98,6 +104,7 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Caius should stay out of the final Archeon/Vorren fight.
 - Vorren should be Drakhal's deniable endgame commitment.
 - The final accepted route is aboveground through neglected city-wedge/slum boundary areas into Archeon, then toward the central tower/throne-room trap.
+- The early Archeon resistance can appear oddly light because Serathis has held back valuable magi/heirs for the interior attrition trap.
 - Exact final battle choreography remains deferred.
 - End-of-Book-1 political fallout remains flexible: Rezin authority is badly destabilized, and Drakhal can frame the Archeon/Vorren aftermath against them, but exact post-battle council outcomes are for later outline work.
 
@@ -126,6 +133,7 @@ Elric is not publicly visible as the author of the political crisis, but he is t
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../../bible/events/event-harbinger-raid.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Provenance
 

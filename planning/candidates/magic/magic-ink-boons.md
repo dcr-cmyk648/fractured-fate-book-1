@@ -32,11 +32,11 @@ Preserve for later revision work:
 
 ## Transfer Mechanics
 
-Ink Pact transfer between users or relatives remains candidate material.
+Ink Pact transfer between users or relatives remains candidate material for later stories, but it is not the accepted Book 1 explanation for Davian, Kelyra, or Karra.
 
 Current author direction is that transfer is probably too confusing for the Book 1 plot.
 
-The current Harbinger betrayal / Trial of Dominion chapter references Kelyra's Ink running out and/or Ink capacity transferring to Davian. That explanation is candidate material and should not be treated as accepted event logic unless later re-approved.
+The current Harbinger betrayal / Trial of Dominion chapter references Kelyra's Ink running out and/or Ink capacity transferring to Davian. That explanation is not accepted and should be replaced.
 
 ## Ink and Shroud Interaction
 
@@ -60,7 +60,9 @@ Still unresolved:
 - cost and depletion
 - what injuries it can or cannot restore
 - whether healing creates additional psychological or physical consequences
-- whether it depends on Elric's direct involvement, Pact depth, stored Ink volume, or user compatibility
+- exact limits of Pact depth, stored Ink volume, and user compatibility
+
+Accepted direction: Davian's deeper healing is connected to Elric's later head-touch reinforcement, when Elric has almost completely taken over the Harbinger leader's body. Karra's deeper healing is personally granted by the Harbinger leader / Elric before the Chapter 29 Trial. Kelyra does not have healing.
 
 ## Derivative and Later-Book Ink Pacts
 
@@ -80,6 +82,7 @@ Preserve for later Elric, Fateweaving/Skein, and Codex reviews:
 - how Elric's Ink remnant or simulacrum forms and dissipates
 - how Elric's old Ink pool or equipment network relates to Davian's Ink
 - whether Davian is connected to a legacy system rather than a unique mutation
+- how the underground Ink-spectre lair relates to the Harbinger chamber ritual as a prototype or related delivery system
 
 ## Zirene and Skin-Etched Zanwork
 

@@ -54,6 +54,8 @@ Harvick is an expert fighter and trainer.
 
 He has a hidden prototypical Ink Pact from Elric's first experiments with the concept. It did not give him a voice, psychotic pressure, or command pressure like Davian's Ink; instead it imbues him with bursts of unnatural speed and precision and a feeling for faster or more correct ways to move.
 
+The Chapter 36 reveal is not that faster/right movement exists as an Ink ability, because Davian already has that as the basic ability provided by Ink. The reveal is that Harvick has a prototype Ink Pact at all. Harvick's prototype may be designed for a normal human without a Shroud, which can explain why it is safer if used appropriately, weaker/slower than Davian's or Kelyra's newer Pacts, and less physically ruinous.
+
 Harvick has Naeroth or Naeroth-adjacent body-training knowledge that helps connect Davian's martial background, Archeon physical foundations, and later magic integration.
 
 Harvick has a special sword and bracers developed by Zirene that let the weapon be summoned back to his hand. This returning-weapon technology should only be hinted at before the Treasury fight, where Harvick summons his sword as Davian attacks with a lethal weapon.
@@ -84,6 +86,7 @@ Current manuscript material establishes Harvick as:
 - Related organization: [Rezin Family / Rezin Clade](../organizations/org-rezin.md)
 - Related arc seed: [thread-elric-reality-skein](../../outline/arcs/thread-elric-reality-skein.md)
 - Decision record: [Harvick Elric Ink and Mentorship](../../decisions/0008-harvick-elric-ink-and-mentorship.md)
+- Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Ink Pact Terminology and Core Mechanics](../../decisions/0019-ink-pact-terminology-and-core-mechanics.md)
 - Related magic: [Codex / memory journals / auratic codices](../magic/magic-codex-memory.md)

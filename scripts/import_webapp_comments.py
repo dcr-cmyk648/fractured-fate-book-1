@@ -32,6 +32,9 @@ RAW_FIELDS = [
     "id",
     "created_at",
     "commenter_name",
+    "commenter_role",
+    "commenter_role_verified",
+    "reader_id",
     "reviewer_session_id",
     "repo_commit",
     "repo_branch",
@@ -186,6 +189,8 @@ def normalize_comment(record: dict[str, Any], source_file: str, batch_id: str) -
     normalized["likely_target_type"] = likely_type
     normalized["likely_target_id"] = likely_id
     normalized["initial_classification"] = classify_comment(normalized)
+    normalized["commenter_role"] = normalized_commenter_role(normalized)
+    normalized["commenter_role_verified"] = normalized_commenter_role_verified(normalized)
     normalized["processing_status"] = "imported"
     normalized["imported_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     normalized["importer_version"] = APP_VERSION
@@ -198,6 +203,20 @@ def as_text(value: Any) -> str:
     if isinstance(value, str):
         return value
     return str(value)
+
+
+def normalized_commenter_role(comment: dict[str, Any]) -> str:
+    role = as_text(comment.get("commenter_role")).strip().lower()
+    if role in {"author", "reader"}:
+        return role
+    return "unverified"
+
+
+def normalized_commenter_role_verified(comment: dict[str, Any]) -> bool:
+    value = comment.get("commenter_role_verified")
+    if isinstance(value, bool):
+        return value
+    return as_text(value).strip().lower() in {"true", "yes", "1", "verified"}
 
 
 def likely_target(comment: dict[str, Any]) -> tuple[str, str]:
@@ -267,6 +286,23 @@ def load_existing_hashes(master_path: Path) -> set[str]:
         if isinstance(content_hash, str):
             hashes.add(content_hash)
     return hashes
+
+
+def load_existing_comment_ids(master_path: Path) -> set[str]:
+    ids: set[str] = set()
+    if not master_path.exists():
+        return ids
+    for line in master_path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        comment_id = as_text(record.get("id")).strip()
+        if comment_id:
+            ids.add(comment_id)
+    return ids
 
 
 def write_jsonl(path: Path, records: list[dict[str, Any]]) -> None:
@@ -450,7 +486,9 @@ def run_import() -> int:
 
     master_path = NORMALIZED_DIR / "comments.jsonl"
     existing_hashes = load_existing_hashes(master_path)
+    existing_comment_ids = load_existing_comment_ids(master_path)
     seen_this_batch: set[str] = set()
+    seen_ids_this_batch: set[str] = set()
     imported: list[dict[str, Any]] = []
     duplicates: list[dict[str, Any]] = []
 
@@ -460,12 +498,16 @@ def run_import() -> int:
             rejected.append(rejected_record(Path(source_file), record, "missing comment_text"))
             continue
         content_hash = normalized["content_hash"]
-        if content_hash in existing_hashes or content_hash in seen_this_batch:
+        comment_id = as_text(normalized.get("id")).strip()
+        duplicate_by_id = bool(comment_id and (comment_id in existing_comment_ids or comment_id in seen_ids_this_batch))
+        if duplicate_by_id or content_hash in existing_hashes or content_hash in seen_this_batch:
             duplicate = dict(normalized)
             duplicate["processing_status"] = "duplicate"
             duplicates.append(duplicate)
             continue
         seen_this_batch.add(content_hash)
+        if comment_id:
+            seen_ids_this_batch.add(comment_id)
         imported.append(normalized)
 
     write_jsonl(batch_dir / "normalized-comments.jsonl", imported)

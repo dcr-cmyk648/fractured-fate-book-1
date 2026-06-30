@@ -33,6 +33,10 @@ Deferred:
 - exact contractor network hierarchy
 - whether Sorevin needs a later organization or culture record
 
+Candidate succession/proxy note:
+
+- Accepted direction is now stored in `bible/locations/loc-sorevin-redbridge.md`: Sorevin may have surviving house members but no children capable of forming a Shroud or being Presented. Maya may initially expect to bring a Sorevin survivor forward after Sorevin's death, with Niall clarifying that Rezin can instead route surviving personnel into another proxy Low Clade and designate that house as the new contract handler. Exact administrative details remain candidate.
+
 ## Redbridge
 
 Accepted direction: Redbridge is candidate-only location material. It is just where Arrek happened to drink, not established Sorevin territory.
@@ -59,3 +63,4 @@ Deferred:
 - Review packet: `reviews/entities/locations/loc-sorevin-redbridge.md`
 - Accepted file: `bible/locations/loc-sorevin-redbridge.md`
 - Author feedback on 2026-06-25.
+- Web-app comment ticket `WC-2026-06-29-004`.

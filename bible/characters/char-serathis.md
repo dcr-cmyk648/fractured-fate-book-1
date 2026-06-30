@@ -64,17 +64,20 @@ Serathis collaborates with Drakhal after the Heart theft while resenting Drakhal
 
 The Kelyra/Vorren breeding-contract deal is accepted as a verbal agreement between Drakhal and Archeon. Vorren's knowledge, consent, and whether the deal would ever be executed remain unresolved.
 
+In Chapter 35, Serathis uses Lethira as a Serathis-controlled emotional manipulation cameo against Kelyra, violently discarding her after she fails to produce the desired result. Exact Lethira death/survival wording remains flexible, but the functional point is that Serathis treats obedience and children as disposable project material. The same chapter accepts Serathis's "he found you" language and Kelyra's old-Ink crawl / "kill her" whisper as subtle Elric/Ink connection cues without making Kelyra a deeper-healing Ink case.
+
 ## Accepted Future Direction
 
 Serathis participates in the final Archeon trap and throne-room conflict against Niall and the other protagonists.
 
 The high-level endgame progression is accepted:
 
-1. Davian fights the remaining Presented Archeon magus to free Kelyra.
-2. Kelyra manifests a Shroud to break out and help him.
-3. Davian and Kelyra together fight and kill Serathis.
-4. Kelyra stays to handle the remaining Archeon forces.
-5. Davian goes to help Maya and Niall against Vorren.
+1. Serathis benefits from early Archeon resistance appearing weaker than expected because she has held back valuable magi/heirs for the interior trap.
+2. Davian splits off to rescue Kelyra under time pressure, which Serathis can exploit because removing Davian leaves one fewer set of eyes on her traps and deceptions.
+3. Serathis triggers the throne-room floor trap after Niall kills the apparent/fake opposition, dropping him toward Vorren.
+4. Serathis and held-back Archeon magi pin Maya in an attrition fight to keep her from reaching Niall until Vorren can kill him.
+5. Davian and Kelyra relieve pressure on Maya after the rescue. Maya goes to help Niall while Davian and Kelyra fight Serathis.
+6. Davian and Kelyra kill Serathis. Kelyra does not want Davian to go help Maya and Niall, but he does.
 
 Exact fight choreography, final dialogue, returning-dagger mechanics, the remaining Presented Archeon magus, and post-Serathis Archeon succession remain for later outline/object/character reviews.
 
@@ -109,6 +112,8 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 

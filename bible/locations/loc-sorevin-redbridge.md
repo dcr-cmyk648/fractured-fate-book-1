@@ -42,6 +42,10 @@ The Sorevin manor was attacked for contractor records.
 
 The Sorevins were likely not completely wiped out, but the loss of their Head Magus / only significant magic user along with most personnel effectively cripples them for plot purposes.
 
+Accepted direction: Sorevin has no children capable of forming Shrouds and none who could be Presented. Surviving Sorevin house members may remain, but they cannot simply inherit the proxy-administrator role through magus viability.
+
+Maya may initially expect to bring a Sorevin survivor forward after Sorevin's death. Niall can clarify that Rezin may instead route surviving personnel into another proxy Low Clade and designate that house as the new contract handler.
+
 The attack fits the broader pattern of Low Clade head-magus assassinations and destabilization, but exact culprit and political routing remain for later plot/entity reviews.
 
 ## Redbridge
@@ -65,11 +69,12 @@ Arrek's final fate is accepted in his character record: Davian murders him in an
 - Related location: [Concord manor](loc-concord-manor.md)
 - Decision record: [Sorevin Manor and Redbridge Candidate](../../decisions/0031-sorevin-manor-and-redbridge-candidate.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
+- Decision record: [Web-App Scratchpad Story Directions](../../decisions/0075-webapp-scratchpad-story-directions.md)
 
 ## Canonical Uncertainties
 
 - Exact Sorevin manor map and district placement.
-- Exact Sorevin proxy-administrator structure under the Rezins.
+- Exact Sorevin proxy-administrator structure under the Rezins beyond the accepted no-Shroud-heirs and replacement-proxy direction.
 - Exact number of Sorevin survivors and personnel losses.
 - Exact Redbridge physical form and map placement.
 - Exact Arrek murder choreography and aura-capture mechanics.
@@ -86,3 +91,4 @@ Arrek's final fate is accepted in his character record: Davian murders him in an
 - `imports/normalized/book-1-outline.md:4012`: plot note about returning to Elric with Sorevin documents.
 - `imports/normalized/bullet-notes.md:159`: candidate intel alteration around Sorevin.
 - Author feedback on 2026-06-25.
+- Web-app ticket `WC-2026-06-29-004`; author approval on 2026-06-29.

@@ -20,7 +20,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 
 | Source ID | Current heading | Source lines | Map file | Status |
 |---|---|---:|---|---|
-| d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | pending | later-working-fragment |
+| d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | [d1-ch-37-preposed.md](d1-ch-37-preposed.md) | reviewed partial fragment |
 | d1-prologue | Prologue | 228-674 | [d1-prologue.md](d1-prologue.md) | approved |
 | d1-ch-01 | Chapter 1 | 678-923 | [d1-ch-01.md](d1-ch-01.md) | approved |
 | d1-ch-02 | Chapter 2 | 927-1262 | [d1-ch-02.md](d1-ch-02.md) | approved |
@@ -51,13 +51,13 @@ Default current-draft mapping order should therefore proceed through the prologu
 | d1-ch-27 | Chapter 27 | 13874-14512 | [d1-ch-27.md](d1-ch-27.md) | approved |
 | d1-ch-28 | Chapter 28 | 14516-16284 | [d1-ch-28.md](d1-ch-28.md) | approved |
 | d1-ch-29 | Chapter 29 | 16288-16908 | [d1-ch-29.md](d1-ch-29.md) | approved |
-| d1-ch-30 | Chapter 30 | 16912-17790 | pending | discovered |
-| d1-ch-31 | Chapter 31 | 17794-18588 | pending | discovered |
-| d1-ch-32 | Chapter 32 | 18592-19323 | pending | discovered |
-| d1-ch-33 | Chapter 33 | 19327-20004 | pending | discovered |
-| d1-ch-34 | Chapter 34 | 20008-20640 | pending | discovered |
-| d1-ch-35 | Chapter 35 | 20644-21155 | pending | discovered |
-| d1-ch-36 | Chapter 36 | 21159-21694 | pending | discovered |
+| d1-ch-30 | Chapter 30 | 16912-17790 | [d1-ch-30.md](d1-ch-30.md) | approved |
+| d1-ch-31 | Chapter 31 | 17794-18588 | [d1-ch-31.md](d1-ch-31.md) | approved |
+| d1-ch-32 | Chapter 32 | 18592-19323 | [d1-ch-32.md](d1-ch-32.md) | approved |
+| d1-ch-33 | Chapter 33 | 19327-20004 | [d1-ch-33.md](d1-ch-33.md) | approved |
+| d1-ch-34 | Chapter 34 | 20008-20640 | [d1-ch-34.md](d1-ch-34.md) | approved |
+| d1-ch-35 | Chapter 35 | 20644-21155 | [d1-ch-35.md](d1-ch-35.md) | approved |
+| d1-ch-36 | Chapter 36 | 21159-21694 | [d1-ch-36.md](d1-ch-36.md) | approved |
 
 ## Next Review Unit
 
@@ -67,4 +67,4 @@ Current packet awaiting author review:
 
 Next review unit:
 
-- `d1-ch-30`
+- Pull and process latest web-app comments, queue any outstanding tickets, then run a full consistency/validation pass before continuing book work.
