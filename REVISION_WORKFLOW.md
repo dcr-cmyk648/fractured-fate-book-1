@@ -70,7 +70,7 @@ Chapter and scene mapping is read-only with respect to manuscript prose. It may 
 
 For each review unit, preserve enough provenance for another session to locate the source material. Record unresolved issues in existing control files rather than creating competing tracking systems.
 
-When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The author should not need to open the map file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
+When a current-draft map packet is awaiting author review, print a concise but substantive audit summary and the required decisions directly in the Codex thread. The same rule applies to any chapter, outline, ticket, feedback, consistency, prose-preservation, or phase-gate decision created during revision work: include the short relevant context, proposed disposition or recommendation, and exact author decision needed in chat. The author should not need to open the map or packet file unless they want full provenance or have concerns. A future app view may also surface these packets, but the Codex thread remains the required review surface until that exists.
 
 ### Ticket Preemption During Chapter Work
 

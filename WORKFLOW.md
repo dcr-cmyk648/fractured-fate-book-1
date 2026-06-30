@@ -798,7 +798,7 @@ The entity does not need a fully simulated life or exhaustive history.
 
 ### Step 4: Present the Review
 
-Show the author a useful summary of the review packet in the Codex conversation. Do not merely say the packet exists.
+Show the author a useful summary of the review packet in the Codex conversation. Do not merely say the packet exists. Whenever Codex asks for any author decision or feedback, including tickets, comment-batch routing, chapter-map packets, outline packets, consistency checkpoints, and phase gates, include a short in-chat version of the relevant context before the question. The author should be able to answer from the chat summary without opening the packet file unless they want full provenance.
 
 Present:
 
@@ -937,7 +937,7 @@ After storing approved information:
 11. Push the current branch normally without force. If the remote has diverged, stop and report.
 12. Leave the working tree clean.
 13. Run any due block-level consistency review automatically before preparing the next queued entity.
-14. If the next entity reaches a checkpoint with real author questions, print a reasonable terminal summary of the proposed accepted information and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
+14. If the next entity, ticket, packet, outline unit, consistency checkpoint, or phase gate reaches a checkpoint with real author questions, print a reasonable terminal summary of the relevant context, proposed disposition, and important conflicts, then print the concrete numbered questions as the final output before waiting so the author can answer without opening the packet file.
 15. Continue directly through routine checkpoints that do not require real author judgment.
 16. Stop only when the next entity review or block-level consistency checkpoint has substantive author questions, or when another documented exception requires author input.
 
@@ -1120,7 +1120,7 @@ Before ending a substantial work session, update `PROJECT_STATE.md` with:
 
 Do not put essential state only in the conversation.
 
-Before ending any work turn that is not fully complete, ensure the conversation contains the current actionable review item. If no author decision is needed, continue to the next packet or ticket until one exists, unless a documented blocker, major phase gate, or explicit author stop instruction prevents that.
+Before ending any work turn that is not fully complete, ensure the conversation contains the current actionable review item. The chat must include a short summary of what the item is about, the relevant recommendation or status, and the exact author decision or feedback requested. If no author decision is needed, continue to the next packet or ticket until one exists, unless a documented blocker, major phase gate, or explicit author stop instruction prevents that.
 
 ## Branch and Milestone Policy
 

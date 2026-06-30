@@ -1,6 +1,6 @@
 # Author-Question Tickets: Lore (running addended version)
 
-Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` is reopened for nonblocking author decision; remaining higher-level chapter/candidate tickets remain deferred.
+Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. `LORE-2026-06-28-007` is the active nonblocking author-review ticket; remaining higher-level chapter/candidate tickets remain deferred.
 
 These tickets are derived from `imports/raw/Lore (running addended version).txt`. The source document is useful but outdated. Nothing here is canon or an accepted revision until approved through the normal workflow.
 
@@ -11,8 +11,8 @@ These tickets are derived from `imports/raw/Lore (running addended version).txt`
 | LORE-2026-06-28-003 | high | story-bible-review | Magic origins / Shroud / Kinesis | resolved; narrow high-level boundary stored; old taxonomy rejected |
 | LORE-2026-06-28-004 | medium | story-bible-review | Abyssal / Unwoven / Eclipsed / Threadblights | resolved; candidate-only |
 | LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | resolved; accepted constraints and candidate taxonomy stored |
-| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | needs-author-decision |
-| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | deferred |
+| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | rejected |
+| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | needs-author-decision |
 | LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | deferred |
 | LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | deferred |
 | LORE-2026-06-28-010 | medium | consistency-check | Obsolete terminology and stale lore quarantine | resolved; quarantine rule preserved |
@@ -114,8 +114,8 @@ Why it matters: This can support Treasury work, Zirene's uniqueness, Archeon kno
 - Type: chapter-architecture
 - Proposed routing: `char-kelyra`, `char-davian`, `char-harvick`, `org-archeon`, future combat/chapter architecture
 - Blocking: no
-- Requires author decision: yes
-- Status: needs-author-decision
+- Requires author decision: resolved
+- Status: rejected
 
 Question: Should the combat systems be retained as named/unnamed disciplines?
 
@@ -125,6 +125,8 @@ Why it matters: This could make fights more distinctive and make Harvick/Kelyra/
 
 Review packet: `feedback/source-intake/lore-running-addended-version-2026-06-28/LORE-2026-06-28-006-review.md`
 
+Disposition: Rejected on 2026-06-30 because newer combat/magic guidance supersedes this older-source framework.
+
 ## LORE-2026-06-28-007: Six Cities Geography and Neutral Market Model
 
 - Source lines: `imports/raw/Lore (running addended version).txt:1215`, `:1223`, `:1236`, `:1270`, `:1288`
@@ -133,6 +135,8 @@ Review packet: `feedback/source-intake/lore-running-addended-version-2026-06-28/
 - Proposed routing: `loc-spire`, `loc-archeon`, `loc-rezin-citadel`, `thread-high-clade-politics`, future map/geography review
 - Blocking: no
 - Requires author decision: yes
+- Status: needs-author-decision
+- Review packet: `feedback/source-intake/lore-running-addended-version-2026-06-28/LORE-2026-06-28-007-review.md`
 
 Question: Should the Six Cities be treated as six citadel-centered city-state wedges with guild rings/slum quarters and a central neutral market/amphitheater?
 
