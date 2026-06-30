@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 38
 - Working title: Davian's Night, Failed Confession, and Unresolved Want
-- Current status: author-review packet
+- Current status: approved working detailed outline
 - Prior unit: `ch37-dining-jalen-intelligence.md`
 - Prose drafting: not authorized
 
@@ -16,35 +16,11 @@ The chapter should end with a charged nighttime Maya/Davian encounter where Davi
 
 ## Current Handoff
 
-Chapter 37 is approved to end either:
-
-- after Aldira takes control of Jalen's healing/intelligence room; or
-- earlier, if Chapter 37 runs long, with Jalen's healing/intelligence shifting into the start of Chapter 38 from Davian POV.
-
-Chapter 38 should be able to absorb that overflow without breaking its core function.
+Chapter 37 is currently expected to keep Jalen's healing/intelligence scene. Chapter 38 should begin after that scene, with Davian processing what happened rather than switching POV during the emergency itself.
 
 ## Working Chapter Shape
 
-### Scene 1 - If Needed: Healing/Intelligence Overflow
-
-Use this scene only if Chapter 37 ends on Jalen's collapse/summons rather than Aldira taking over.
-
-- POV: Davian.
-- Davian follows Maya to where Jalen has been brought.
-- Jalen is dehydrated, delirious, barely conscious, and physically ruined.
-- The gold strike-line healing happens from Davian's perspective, emphasizing helplessness, cost, pain, and his inability to act.
-- Jalen mumbles fragments about Archeon.
-- Davian may be needed to read a Masked Clade sign, identify a mask/object, or interpret underworld/Concord material in Jalen's possession.
-- Jalen can say the Heart receiver was a magus because he saw a faint Shroud glimmer.
-- Aldira recognizes the value of Jalen's notes/network access and takes control.
-
-Purpose:
-
-- Preserve the flexible 37/38 boundary.
-- Let Davian experience Jalen's condition directly if that material moves here.
-- Keep Jalen's intelligence limited and damaged, not clean exposition.
-
-### Scene 2 - Forced Away
+### Scene 1 - Processing Jalen After Being Forced Away
 
 - Davian is forced out of Jalen's room or denied further access once Aldira/Niall/Maya decide Jalen needs rest.
 - He hates being useless.
@@ -59,7 +35,7 @@ Purpose:
 - Show that he is trying not to act impulsively, but the pressure is real.
 - Make Maya's authority both attractive and painful to him.
 
-### Scene 3 - Davian Alone With the Dinner Aftermath
+### Scene 2 - Davian Alone With the Dinner Aftermath
 
 - Davian thinks through the dining-hall warmth.
 - Maya trying to eat like everyone else should stay with him.
@@ -74,7 +50,7 @@ Purpose:
 - Make the romance feel destabilizing rather than soothing.
 - Keep Davian from flattening Maya into either enemy or savior.
 
-### Scene 4 - Rumination, Ink Pressure, and Agency
+### Scene 3 - Rumination, Ink Pressure, and Agency
 
 - Davian's mind circles: Jalen, Kelyra, Archeon, Maya, the Heart, the Ink, the things he has done.
 - Ink-linked thoughts can feel psychotic or coercive: the sense that something is there for him to take, that the path is already laid, that everything is conspiring to push him forward.
@@ -88,26 +64,28 @@ Purpose:
 - Keep culpability versus coercion active.
 - Prepare the later theme that trauma creates grooves, not inevitability.
 
-### Scene 5 - Optional Harvick / Selwin / Training Support
+### Scene 4 - Harvick Finds Davian Training Too Late
 
-Use only if the chapter needs a grounding middle scene before the night encounter.
-
-- Harvick may check on Davian or catch him trying to train too late.
-- Selwin can appear here rather than in Chapter 37 if the story needs his Shroud/body-awareness function.
-- Selwin's blunt Shroud language can mirror Davian's problem: awareness without panic, threat without reflexive surrender to fear.
+- Davian has gone somewhere he thinks he will not be found and trains too late.
+- Harvick tracks him down anyway, after some effort.
+- Harvick tells Davian to go to bed.
+- This should be brief.
 - Harvick can press the practical distinction: noticing danger is not the same as obeying every fear.
+- Harvick can observe that exhausting himself is not the same as getting ready, and rumination is not the same as solving the problem.
 - Do not reset Davian to pre-Shroud. He already has martial arts, Ink movement, Shroud access, and training. His missing piece remains stable integration and solid kinesis.
+- Selwin should not appear here by default.
 
 Purpose:
 
-- Preserve useful Selwin/Harvick material if needed.
+- Give Davian a grounding push without derailing the chapter.
 - Keep Davian's development practical rather than purely romantic.
-- Avoid overloading the chapter if the Jalen overflow already provides enough.
+- Route him toward bed, which creates the path into the Maya encounter.
 
-### Scene 6 - Nighttime Collision With Maya
+### Scene 5 - Nighttime Collision With Maya
 
 - Davian cannot sleep.
 - Maya also cannot sleep, or is overworking despite Erynn's warnings.
+- Davian encounters Maya on his way back toward bed after Harvick sends him away from training.
 - They encounter each other in a liminal Rezin space: corridor, balcony, training yard, library-adjacent hall, or other quiet place where status feels thinner but not gone.
 - The scene should echo the earlier almost-meeting around the Codex, but this time it actually happens.
 - The emotional mood should be intimate, charged, and precarious.
@@ -118,7 +96,7 @@ Purpose:
 - Let the romance and danger coexist.
 - Put both characters outside their official roles, but not free of them.
 
-### Scene 7 - The Conversation They Can Almost Have
+### Scene 6 - The Conversation They Can Almost Have
 
 Core topics to draw from:
 
@@ -137,15 +115,17 @@ Purpose:
 - Connect parents, trauma, magic, values, and attraction.
 - Avoid giving either of them a final answer.
 
-### Scene 8 - Failed Confession / Poor Landing
+### Scene 7 - Failed Confession / Poor Landing
 
 - Davian tries to tell Maya something real about what he feels.
 - He cannot get the words right.
 - He may fall back into self-attack, deflection, fatalism, or making it sound like he is warning her away.
-- Maya should be confused, hurt, angry, drawn in, and not fully reassured.
+- Maya's response may not be super positive, but she is still there because she does like him.
+- Davian does not see that. He interprets the poor landing as proof that he is messing everything up and that Maya is better without him.
 - This should not become a clean love confession.
 - It should not become a clean rejection either.
 - The sexual/romantic charge should remain, but the emotional result is unresolved.
+- Davian leaves.
 
 Purpose:
 
@@ -153,18 +133,47 @@ Purpose:
 - Give Maya's later resurrection choice unresolved emotional force.
 - Keep the raid from starting with a settled relationship.
 
-### Scene 9 - Chapter Button
+### Scene 8 - Ink Night / No Rest
 
-Preferred ending:
+- Davian goes to bed and closes his eyes.
+- He does not really sleep.
+- He sees the Ink, or experiences Ink-linked imagery/thoughts.
+- The pressure feels inevitable: he will let Maya down again, things will go poorly, and the path is already laid.
+- This should feel dangerous and fatalistic, but still not remove his agency.
 
-- Davian leaves or Maya leaves with the wrong thing still hanging between them.
-- He wants to go to Archeon more than ever, but not only for Kelyra now.
-- He understands that if he stays near Maya, he may become someone else; if he leaves, he may never become anything but what Kelyra/Elric/fear made him.
+Purpose:
 
-Alternative ending:
+- Let the failed confession flow directly into Ink/fate pressure.
+- Keep Davian emotionally unresolved when morning arrives.
 
-- A practical interruption arrives: Aldira/Jalen intelligence update, Harvick, Erynn, or a summons that points toward the next-day intelligence ramp.
-- Use only if the chapter needs a plot handoff into Chapter 39.
+### Scene 9 - Morning: Jalen and Aldira Already Working
+
+- Davian wakes or gives up on sleep and goes to check on Jalen.
+- Aldira is already there.
+- Jalen is still badly injured but surprisingly adaptable, already working in whatever limited way he can.
+- Aldira and Jalen are already coordinating intelligence: signs, contacts, notes, underworld routes, and what can be translated from his materials.
+- Davian sees that Jalen is useful but not physically recovered.
+- This should transition the chapter into the next-day intelligence ramp without making Jalen suddenly well.
+
+Purpose:
+
+- Show Jalen's adaptability.
+- Show Aldira's competence.
+- Set up Chapter 39's intelligence-machine opening.
+
+### Scene 10 - Maya Arrives / Drakhal Summons
+
+- Maya arrives.
+- Maya and Davian are about to say something to each other, carrying the failed night scene between them.
+- A runner interrupts: the Drakhals have arrived to "parlay," and Maya is needed in the throne room.
+- Davian follows her.
+- End from Davian's perspective as he follows Maya toward the next public crisis.
+
+Purpose:
+
+- Make the Chapter 39 handoff clear.
+- Leave Maya/Davian unresolved.
+- Move from private emotional failure into public political trap.
 
 ## What to Move or Defer
 
@@ -178,7 +187,6 @@ Alternative ending:
 
 ### Plot Goals
 
-- If needed, complete Jalen healing/intelligence overflow.
 - Establish Davian's post-Jalen urgency.
 - Bridge from Chapter 37's dining warmth to Chapter 39's intelligence/political ramp.
 - Keep Archeon pressure active without launching the assault yet.
@@ -187,8 +195,8 @@ Alternative ending:
 
 - Davian: wants action, feels helpless, wants Maya, fears what wanting her means, and struggles against Ink/trauma/fatalism without being absolved by them.
 - Maya: appears through Davian's eyes as both person and Rezin authority; vulnerable but still guarded.
-- Jalen: if present, functions as wounded family pressure and intelligence source.
-- Harvick/Selwin: optional grounding mirrors if needed.
+- Jalen: functions as wounded family pressure and adaptable intelligence source.
+- Harvick: briefly interrupts Davian's late training and gives practical advice.
 
 ### Relationship Goals
 
@@ -200,7 +208,7 @@ Alternative ending:
 
 - Ink pressure should feel like coercive/fatalistic thought without removing agency.
 - Maya's permanent Shroud and Davian's incomplete integration can mirror their psychologies.
-- Shroud/body-awareness can appear through Selwin/Harvick only if needed.
+- Shroud/body-awareness can appear through Harvick only if needed.
 
 ### Information-Flow Goals
 
@@ -210,6 +218,8 @@ Reader learns:
 - Maya matters to him in a way he cannot fit into his old story.
 - The Ink/trauma pressure is pushing him toward fatalistic action.
 - The relationship remains unresolved before the next political escalation.
+- Aldira and Jalen are already beginning the intelligence coordination.
+- Drakhal has arrived to parlay at Rezin.
 
 Reader should not yet learn:
 
@@ -225,10 +235,11 @@ Reader should not yet learn:
 - Do not absolve Davian by making the Ink "force" his choices.
 - Do not make Maya consciously in love or fully forgiving yet.
 - Keep Jalen combat-incapable if he appears.
+- Do not include Jalen healing/intelligence overflow by default; keep that in Chapter 37 unless prose length forces the flexible boundary.
+- Harvick can appear briefly; Selwin should not appear by default.
+- End with Davian following Maya after the Drakhal parlay summons.
 - Keep prose gate closed.
 
-## Open Questions for Author Review
+## Approval Status
 
-1. Should Chapter 38 include the Jalen healing/intelligence overflow from Davian POV by default, or should that stay in Chapter 37 unless the prose gets too long?
-2. Should Harvick/Selwin appear in Chapter 38 as a grounding/training beat, or should Chapter 38 stay almost entirely Davian/Maya/Jalen aftermath?
-3. Should the night scene end with Davian leaving, Maya leaving, or an external interruption?
+Approved on 2026-06-30 as the working detailed outline, with Jalen healing/intelligence staying in Chapter 37 by default, a brief Harvick late-training interaction, Davian leaving the night scene, an Ink-pressure night beat, and a morning handoff to Aldira/Jalen intelligence plus Drakhal's arrival.
