@@ -20,40 +20,85 @@ This is architecture only. It does not draft prose, edit manuscript files, assig
 - `imports/normalized/book-1-outline.md:360-735`: Kelyra rescue, Vorren fight, Davian support-role turn, Niall vulnerability, Elric's final move, Maya resurrection, Skein/void imagery, and Paradox aftermath notes.
 - `imports/normalized/bullet-notes.md:27-69`: Elric/Maya void, six-strand motif, Davian pre-death smile/confession, Vorren emphasis, Niall Heart/silver note.
 
+## Source precedence and synthesis rule
+
+Approved GitHub story-bible, decision, arc, object, and current-draft-map records have higher precedence than older Drive/source notes when they conflict. Older notes remain useful for function, texture, candidate lines, and missing beat discovery, but they do not override accepted repo state.
+
+The largest ending conflict is the older "raid Drakhal" direction versus the accepted Archeon route. Preserve the Drakhal material as political trigger, legitimacy trap, marriage/banishment pressure, Caius provocation, and Niall's psychological launch point. Do not treat Drakhal as the final physical raid target unless later explicitly reapproved. The physical endgame target is Archeon, with Drakhal using Vorren and plausible deniability rather than committing Caius/Evana to the final fight.
+
+The clean governing shape for the remaining alpha is:
+
+> Dining hall/Jalen return -> Jalen intelligence -> Maya/Davian unresolved night scene -> Drakhal political trap -> Niall/Jalen/Aldira route the counterattack through Archeon -> Rezin raid on Archeon -> split Kelyra/Serathis and Niall/Vorren fronts -> Davian joins Maya/Niall -> Maya, Davian, and Niall kill Vorren -> Elric kills Davian -> Maya resurrects Davian and damages reality -> unstable political/emotional aftermath.
+
+## Already-mapped detonator blocks
+
+The following beats are causal foundation for alpha continuation, not new future chapters to recreate:
+
+- Heart theft / Treasury breach: Davian injures Harvick, nearly kills or exposes Niall, takes the Heart, and is stopped from further harm by Maya.
+- Davian returns to the Concord broken: the Heart does not produce safety, and his family situation worsens.
+- Kelyra delivers the Heart and is betrayed: the Harbinger leader refuses the bargain, Vorren receives the Heart, Karra's Trial/healing reversal exposes a rigged system, and Serathis captures Kelyra.
+- Rezin aftermath: Niall is injured/exposed, the Registry/Heart infrastructure is crippled, Maya is furious and grieving, and Davian's betrayal remains emotionally real rather than a single accidental mistake.
+
+## Governing ending thesis
+
+The ending should not resolve as "the heroes beat the villains through greater power." The stronger thesis is that the antagonists are defeated when the protagonists stop obeying the trauma scripts Elric counted on:
+
+- Maya stops demanding perfection from herself and Niall.
+- Davian stops needing to be the decisive threat.
+- Niall stops standing alone.
+- Kelyra stops suppressing herself only to survive Archeon.
+- Serathis dies still believing suffering was worth it.
+- Vorren dies wanting more life, more experience, and more domination.
+- Elric survives because the wound is not closed, but his deterministic reading of people has been proven incomplete.
+
 ## Important correction to the first kickoff
 
 The path from the current cutoff to the Archeon assault should not jump directly from training pressure to Jalen/assault. The remaining alpha needs a meaningful ramp:
 
-1. finish the Chapter 37 dining hall / warmth / research movement;
-2. use Chapter 38 or nearby Davian material to metabolize the research, Shroud/body lessons, and renewed Maya proximity;
-3. bring in Jalen's near-death return and/or Karra's message as operational intelligence;
-4. include a charged nighttime Maya/Davian scene before the public political trap;
-5. stage Drakhal/Archeon arriving with allies for the Maya-marriage / Niall-banishment proposal;
-6. let Niall hold composure publicly, then pivot immediately into assault planning;
-7. then run the Archeon approach, breach, split, Kelyra rescue, throne-room trap, simultaneous final fights, Davian death, Maya's Skein resurrection, return, Kelyra exit pressure, and end-book Paradox beat.
+1. finish the Chapter 37 dining hall / warmth movement with Maya-Davian interaction, flirting, and missteps in focus;
+2. interrupt that social scene with Jalen's near-death return;
+3. use the Jalen healing/intelligence scene to confirm the Harbinger-Archeon-Heart chain and give Aldira access to Masked Clade networks;
+4. use Chapter 38 or nearby Davian material to metabolize the Maya interaction, Jalen's return, and Davian's rising Archeon urgency;
+5. include a charged nighttime Maya/Davian scene where Davian tries and fails to confess what he feels, leaving the relationship unresolved before the raid;
+6. show the next day with Jalen more recovered, Aldira and Jalen coordinating intelligence, and awkward continued training;
+7. stage Drakhal/Archeon arriving with allies for the Maya-marriage / Niall-banishment proposal;
+8. let Caius make some move toward Maya and Davian attack or nearly attack him, creating a standoff that Niall smooths over only to get the enemies out of Rezin space;
+9. have Niall immediately demand lethal counterattack planning, with Jalen and Aldira funneling him toward Archeon as the better strategic first target;
+10. then run the Archeon approach, breach, split, Kelyra rescue, throne-room trap, simultaneous final fights, Davian death, Maya's Skein resurrection, return, Kelyra exit pressure, and end-book Paradox beat.
+
+## Accepted author direction from kickoff review
+
+- Jalen's return should interrupt the dining-hall scene at the general-outline level. The pre-interruption dining material should emphasize Maya/Davian interaction, flirtation, and missteps.
+- Jalen's healing/intelligence scene should include Niall's reluctance to heal him, Maya arguing they need his information, painful gold strike-line healing, Jalen providing intelligence, and Aldira taking over so Jalen can rest.
+- The next Davian POV chapter should process Maya, Jalen's return, and Davian's urgent desire to go after Archeon.
+- The charged nighttime Maya/Davian scene should happen the same night. Davian tries to confess what he feels but cannot get the words out correctly, so the relationship remains unresolved going into the raid.
+- The next day should include Jalen and Aldira coordinating intelligence, with Aldira excited by Masked Clade network access and Jalen impressed by Rezin money/manpower.
+- The Drakhal proposal scene should include Caius making some move toward Maya and Davian blasting in to attack him, creating a standoff before Niall smooths things over.
+- Niall should then go to Aldira and Jalen and demand lethal counterattack planning. Jalen helps funnel Niall toward Archeon as the strategically better first target because Archeon is Drakhal's collaborator, weaker/easier to remove, and a lesson to the other Clades.
+- The Archeon endgame split should use alternating/split POV while Davian fights to free Kelyra, Maya fights Archeon magi, and Niall fights Vorren. POV changes can become more rapid during the climax.
+- After Vorren's defeat, switch to Maya POV for the Skein/resurrection material and return toward Rezin.
+- The book should end on Davian's perspective as he chooses to stay with the Rezins instead of rejoining his family at Archeon.
+- Paradox should be physically given to Davian in the final Book 1 movement, with exact staging deferred to close/detailed outlining.
 
 ## Proposed remaining alpha architecture
 
-### alpha-seq-001: Chapter 37 remainder - warmth, Archeon research, and imperfect closeness
+### alpha-seq-001: Chapter 37 remainder - warmth, missteps, and Jalen's interruption
 
 - Likely POV: Maya.
 - Working chapter position: completes or substantially completes the current Chapter 37 begun in `d1-ch-37-preposed`.
-- Purpose: finish the dining hall invitation as a compact warmth/social-pressure beat, pivot into practical Archeon/gauntlet research, and end with Maya choosing warmth and concrete next steps rather than certainty.
+- Purpose: finish the dining hall invitation as a compact warmth/social-pressure beat, then interrupt it with Jalen's near-death return before Maya/Davian can settle into certainty.
 - Starting state: Maya has trained Davian and Selwin for several days, is sleep-deprived, has accepted Davian's meal invitation, and is freezing in the worker dining hall under Registry/Skein anxiety.
-- Ending state: Maya has a concrete Archeon counter-doctrine direction, a more complicated but warmer connection with Davian, and a next step for research/drills.
+- Ending state: Maya and Davian have had a warmer but imperfect social interaction, and Jalen's near-death return interrupts before the scene can resolve neatly.
 - Major movement:
   - Maya almost retreats from the dining hall; Davian makes room without making a ceremony of it.
   - Tanelle, Kolvar, Jessa, Erynn, Harvick, and possibly Selwin provide social texture around Maya's attempt to enter worker space.
   - Davian is natural in the hall; Maya is visibly not.
   - Tray/crash beat triggers Davian's protective reflex, now cute and concerning rather than mission-useful.
   - Selwin can deepen the scene by showing rawness, trying to seem grown, and giving simple Shroud/body language that matters to Davian.
-  - Dinner talk pivots to Archeon predictability: drilled forms, Shroud timing, gauntlet/storage/overlay behavior.
-  - Harvick proposes hands-on study rather than more talk.
-  - Workshop or zänwright-annex testing uses battered Archeon gauntlets, low-output safety conditions, body-as-focus, and Shroud-envelope placement.
-  - The group reaches a working model: Archeon is not simply stronger; Archeon is narrow, precomputed, and brittle when forced off-script.
-  - Harvick or Maya corrects the "split focus" myth into rapid switching plus trained background structures.
-  - Davian realizes, from Maya's POV externally, that Shroud plus kinesis/Subversion could make his magic vastly safer and stronger.
-  - Quiet exit preserves flirt/misstep around fading Ink/tattoos and Registry surveillance.
+  - The pre-interruption focus is Maya/Davian interaction: awkward warmth, flirtation, class/status missteps, Registry surveillance discomfort, and mutual noticing.
+  - The tray/crash beat and Selwin/Tanelle texture can still be used if they serve the emotional/social pressure without crowding the scene.
+  - Jalen's near-death arrival interrupts the dining hall scene before Maya/Davian can settle into clarity.
+  - The chapter or sequence then moves into emergency healing and intelligence extraction from Jalen.
 - Character movement:
   - Maya experiences ordinary warmth as something she wants but cannot access without consequences.
   - Davian shows protective reflex and social fluency; Maya sees this as intimate and dangerous.
@@ -64,112 +109,101 @@ The path from the current cutoff to the Archeon assault should not jump directly
   - Maya is seen as Maya for moments, then reminded she is also surveillance/state power.
   - The Registry remark creates a small wound rather than a large fight.
 - Magic/worldbuilding:
-  - Archeon gauntlets as inside-Shroud/body-cue amplifiers.
-  - Shroud as background/reflex and possible older/separate layer.
-  - Cognitive switching, trained heuristics, and precomputed forms.
-  - Practical counter: unpredictability, forced bad transitions, close-range Convergence/body-focus counters.
+  - Dining-hall/Registry pressure remains primary here.
+  - Archeon-gauntlet and focus-myth research can be preserved but likely moves into the next detailed outline after Jalen's return, unless the detailed chapter proves there is room.
 - Source anchors:
   - `d1-ch-37-preposed` opening.
   - `book-1-outline.md:9165-9293`.
   - `d1-ch-25` and `d1-ch-26` functions for dinner/Shroud/gauntlet echoes.
-- Open questions:
-  - How much Selwin belongs in this chapter versus the next Davian chapter.
-  - Whether Jalen interrupts this dining/workshop sequence or arrives later.
+- Accepted direction:
+  - Jalen interrupts the dining-hall sequence.
+  - The scene before the interruption should focus more on Maya/Davian interaction, flirting, and missteps than on completing the full research session.
 - Blocking dependencies: none for high-level sequence approval.
 
-### alpha-seq-002: Chapter 38 opening - Davian metabolizes Maya, Shrouds, and danger
+### alpha-seq-002: Jalen's emergency healing and first intelligence
 
-- Likely POV: Davian.
-- Purpose: reinterpret the Chapter 37 warmth/research from Davian's side and show that closeness to Maya creates both growth and betrayal danger.
-- Starting state: Davian has just left the dining/workshop/corridor sequence with Harvick and Selwin or after a similar research session.
-- Ending state: Davian has a clearer private sense that the Rezin training path can make him powerful enough to face Archeon, but that every improvement also deepens what he owes Maya.
+- Likely POV: Maya, if this closes Chapter 37; Davian is also possible if the interruption lands at a chapter break.
+- Purpose: convert the dining-hall interruption into concrete operational pressure and establish Jalen as intelligence/logistics support.
+- Starting state: Jalen arrives essentially dead or collapses at Rezin after being left for dead by Archeon.
+- Ending state: Jalen has survived enough to provide key information, Aldira has taken over his care/intelligence handling, and Davian's urgency around Archeon is sharpened.
 - Major movement:
-  - Davian walks with Harvick and Selwin while his mind will not quiet.
-  - He processes Maya noticing his Ink, the Registry surveillance misstep, Archeon gauntlet familiarity, Selwin's Shroud simplicity, and the danger of staying near Maya.
-  - Davian asks Harvick guarded questions about what Harvick is not telling Maya or what the forms really are.
-  - Selwin tries to teach Davian or insists on practicing properly, letting Davian connect Shroud awareness to lifelong combat body awareness.
-  - A Shroud/body-awareness flicker or training improvement is possible, but because Chapter 36 already has more advanced shared training, this should probably be framed as consolidation or a specific new insight rather than "first Shroud."
-  - Harvick reframes threat awareness: noticing a blade is not the same as flinching at every shadow.
-  - Davian privately connects gauntlet structures, Antithesis, Kelyra's training, and the possibility of safer kinesis.
-  - Harvick can call out Davian's self-sabotage: acting as if the worst is inevitable helps him make it inevitable.
+  - Niall is not eager to heal Jalen.
+  - Maya argues that they need Jalen's information and therefore need him alive.
+  - Jalen receives painful gold strike-line healing.
+  - Jalen provides information about Harbinger-Archeon collaboration, Heart delivery, Kelyra's capture context, and criminal network access.
+  - Jalen probably cannot give exact Kelyra holding-location details.
+  - Aldira takes command of the information flow and forces the group to let Jalen rest.
 - Character movement:
-  - Davian sees Rezin knowledge as both rescue tool and betrayal weight.
-  - Harvick continues to help without absolving.
-  - Selwin gives Davian a nonthreatening mirror for practice and trust.
+  - Maya asserts practical leadership against Niall's reluctance.
+  - Jalen shifts from field participant to injured intelligence/logistics bridge.
+  - Davian's rescue urgency becomes harder to restrain.
 - Relationship movement:
-  - Maya is mostly absent but psychologically central.
-  - Davian is unsettled because Maya's world is making him more himself and more dangerous.
-- Magic/worldbuilding:
-  - Shroud/body awareness as observation without panic.
-  - Davian's current ability state: martial arts + Ink movement + Shroud, still lacking solid kinesis integration.
-  - Archeon stack remains a future full integration rather than already mastered.
-- Source anchors:
-  - User-supplied Chapter 38 note in current checkpoint.
-  - `d1-ch-36` accepted training state.
-  - `book-1-outline.md:9488-9518` for Boon flare, Harvick self-sabotage callout, and stakes reminder.
-- Open questions:
-  - How much of this chapter should be Davian/Selwin/Harvick training versus operational coordination with Jalen.
-
-### alpha-seq-003: Jalen's return and operational intelligence
-
-- Likely POV: Davian or Maya; Jalen's direct POV is probably unnecessary unless later desired.
-- Purpose: bring Jalen back into the story as a near-dead witness and logistics/intelligence bridge, not a final-assault fighter.
-- Starting state: Rezin has been preparing, but still lacks actionable confidence about Archeon, Kelyra, Harbinger collaboration, and the Heart's route.
-- Ending state: Rezin has enough concrete intelligence to coordinate networks, sharpen Archeon as the target, and intensify Davian's urgency around Kelyra.
-- Major movement:
-  - Jalen arrives at Rezin essentially dead or collapses at the gate after being left for dead.
-  - He receives painful gold strike-line healing, which also explains why he cannot join the physical assault.
-  - He provides concrete information about the Harbinger-Archeon collaboration, Heart delivery, the capture sequence, and criminal network access.
-  - He likely does not know Kelyra's exact holding location.
-  - Aldira can use his criminal-network access, possibly excited by what it opens.
-  - Davian may learn or confirm that Archeon has Kelyra from Karra's message, with Jalen providing corroborating context rather than sole proof.
-- Character movement:
-  - Jalen becomes a support/logistics/intelligence figure.
-  - Davian's family rescue pressure becomes more specific.
-  - Aldira's intelligence role expands into Masked Clade access.
-- Relationship movement:
-  - Davian/Jalen is a pressure point around family, guilt, and what Kelyra made Davian into.
-  - Maya/Davian tension intensifies because his urgency is real but still dangerous.
+  - Niall's contempt/utility calculation around Jalen can sharpen Maya's discomfort.
+  - Aldira and Jalen begin the partnership that will matter the next day.
 - Magic/worldbuilding:
   - Gold strike-line healing.
-  - Criminal/Masked Clade network routes.
-  - Rezin crisis operations under Registry weakness.
+  - Masked Clade network knowledge.
+  - Rezin intelligence infrastructure.
 - Source anchors:
   - `bible/characters/char-jalen.md`.
   - `decisions/0083-endgame-archeon-assault-character-agency.md`.
-  - User clarification in current checkpoint.
-- Open questions:
-  - Whether Jalen's return interrupts `alpha-seq-001`, sits inside `alpha-seq-002`, or becomes its own chapter beat.
+  - Author kickoff-review decision.
 
-### alpha-seq-004: Charged nighttime Maya/Davian confrontation
+### alpha-seq-003: Chapter 38 Davian aftermath and charged nighttime scene
 
-- Likely POV: Maya or split by chapter design; currently likely Maya if it follows her insomnia/overwork.
-- Purpose: give Maya/Davian a deeper emotional confrontation before the public Drakhal trap and assault.
-- Starting state: Maya and Davian have renewed closeness through training/research but have not resolved betrayal, surveillance, parents, or what they want from each other.
-- Ending state: Maya and Davian understand each other more deeply but remain unresolved; the scene arms later pre-raid confession/failure-to-confess beats.
+- Likely POV: Davian.
+- Purpose: process the dining-hall Maya interaction, Jalen's return, and Davian's escalating urge to attack Archeon, then use the nighttime Maya/Davian scene to keep the romance unresolved before the raid.
+- Starting state: Jalen is alive but badly injured; the room has been cleared by Aldira; Davian cannot quiet his thoughts.
+- Ending state: Davian and Maya have a charged nighttime encounter where he tries to say what he feels but cannot get it right, and the scene ends poorly enough that the relationship remains unresolved.
 - Major movement:
-  - Both cannot sleep and encounter each other at night.
-  - Sexual tension is explicit but not consummated; vulnerability matters more than payoff.
-  - Maya may accuse Davian of getting her to like him so he could rob Rezin better.
-  - They talk about Niall and Kelyra as parents who are both good and bad, and about taking good parts while refusing inherited damage.
-  - They discuss impossible "shoulds," values, and whether questions matter more than answers.
-  - The source line "The Skein is full of paths we'd never expect unless our eyes have been opened to them. I was blind." can be preserved as candidate dialogue/image.
-  - Their opposite Shroud problems can surface: Maya cannot put hers down; Davian struggles to keep his up.
+  - Davian thinks through Maya's warmth/flirting/misstep, the Registry/surveillance reminder, and what Jalen's condition means for Kelyra.
+  - Davian badly wants to go after Archeon.
+  - He cannot sleep and encounters Maya at night.
+  - Maya and Davian talk about what happened, Niall/Kelyra, parents as whole people, inherited training, and their opposite defenses.
+  - Davian tries to confess or name what he feels but cannot get the words out right.
+  - The scene is sexually charged and emotionally vulnerable but does not resolve them.
+  - The failed confession/poor ending becomes fuel for Maya's later resurrection choice.
 - Character movement:
-  - Maya moves from perfection/control toward wanting without final certainty.
-  - Davian moves from self-condemnation/deflection toward accepting that Maya sees him.
+  - Davian's agency problem shifts from "I must obey the thread" toward "I cannot bear wanting something this much."
+  - Maya remains drawn to him but not reassured.
 - Relationship movement:
-  - This scene should be charged, intimate, and still painful.
-  - It should not become full resolution or a big night-confrontation replacement for every later conflict.
+  - The romance becomes more important and less stable.
+  - They go into the raid with longing and unresolved hurt, not clean mutual commitment.
 - Magic/worldbuilding:
-  - Maya's permanent Shroud as embodiment of never dropping the magus mask.
-  - Skein/paths language as emotional-metaphysical pressure.
+  - Maya's permanent Shroud and Davian's incomplete Shroud control can become emotional/magical mirrors.
+  - Skein/path language can appear without solving resurrection mechanics.
 - Source anchors:
   - `book-1-outline.md:104`.
   - `book-1-outline.md:165-211`.
   - `imports/normalized/bullet-notes.md:270`.
-- Open questions:
-  - Exact placement relative to Jalen's return and Drakhal arrival.
+  - Author kickoff-review decision.
+
+### alpha-seq-004: Next-day intelligence, awkward training, and Drakhal arrival
+
+- Likely POV: Maya.
+- Purpose: show the intelligence machine accelerating and the awkward fallout from the night scene before the public political trap hits.
+- Starting state: Jalen is more recovered but still not combat-capable; Maya and Davian are unresolved after the night scene.
+- Ending state: Drakhal/Archeon arrive and force a public Rezin response.
+- Major movement:
+  - Jalen and Aldira work together to gather intelligence.
+  - Aldira is excited by access to Masked Clade networks.
+  - Jalen is impressed by Rezin money, manpower, and institutional reach.
+  - Jalen teaches useful signs, contacts, payoffs, and routing knowledge.
+  - Maya/Davian/Selwin/Harvick continue some training, but it is awkward after the night scene.
+  - Drakhal arrives with allies and/or Archeon representation.
+- Character movement:
+  - Aldira and Jalen form a productive intelligence partnership.
+  - Maya has to perform competence while privately emotionally unsettled.
+  - Davian is caught between training, wanting Maya, and wanting to leave for Archeon.
+- Relationship movement:
+  - Maya/Davian awkwardness is visible but not centered enough to stop the plot.
+  - Jalen/Rezin becomes a pragmatic alliance.
+- Magic/worldbuilding:
+  - Masked Clade intelligence systems.
+  - Continued Shroud/kinesis training.
+  - Rezin command/intelligence machinery.
+- Source anchors:
+  - Author kickoff-review decision.
 
 ### alpha-seq-005: Drakhal/Archeon proposal at Rezin
 
@@ -182,9 +216,12 @@ The path from the current cutoff to the Archeon assault should not jump directly
   - The proposal is a trap: Maya marries Caius and Niall is banished or steps aside.
   - Marriage to Maya is presented as claiming Rezin legacy.
   - Drakhal/Archeon are trying to provoke Niall into a bad fight or expose that he is weaker.
-  - Davian may be told to hide, but source notes include him attacking Caius when marriage is mentioned. This remains candidate and needs careful use because Davian is now under Rezin control/bands.
+  - Caius makes some move toward Maya.
+  - Davian comes blasting in to attack Caius, creating a standoff.
   - Niall smooths the public interaction or pretends consideration.
-  - Once they leave, Niall immediately starts planning to kill them / attack Archeon.
+  - Once they leave, Niall immediately starts planning to kill them.
+  - Niall goes to Aldira and Jalen and demands lethal counterattack planning.
+  - Jalen helps funnel Niall toward Archeon as the better first target: Drakhal's collaborator, weaker/easier to remove, and a lesson to the other Clades.
   - Maya follows along partly because inclusion feels like trust, even though Niall is also regressing into deterrent/killer logic.
 - Character movement:
   - Niall's need to prove strength and his fear of exposure sharpen.
@@ -201,7 +238,6 @@ The path from the current cutoff to the Archeon assault should not jump directly
   - `book-1-outline.md:270-326`.
   - `d1-ch-27` current-draft political-trap structure, but updated to post-Heart theft and the new proposal.
 - Open questions:
-  - Does Davian actually attack Caius here, almost attack, or get restrained before acting?
   - Which allied High Clades are physically present?
 
 ### alpha-seq-006: Assault planning and moral split before Archeon
@@ -211,7 +247,7 @@ The path from the current cutoff to the Archeon assault should not jump directly
 - Starting state: Niall has decided to strike, but the route, scouts, Davian's role, and Kelyra rescue are not yet structured.
 - Ending state: Niall, Maya, and Davian are committed to the Archeon assault.
 - Major movement:
-  - Niall frames the attack as making an example and restoring deterrence.
+  - Niall frames the attack on Archeon as making an example and restoring deterrence.
   - He may frame not using troops as altruism or Alara-aligned restraint, while also wanting to prove High Clade magi do not need anyone else.
   - Harvick's forerunner friends or scouts may volunteer, creating a death-money/scout ethics echo.
   - Harvick may give Davian a sword because he cannot make himself join the final assault.
@@ -332,7 +368,7 @@ The path from the current cutoff to the Archeon assault should not jump directly
 
 ### alpha-seq-011: Simultaneous final fights - Serathis above, Vorren below
 
-- Likely POV: back-and-forth Maya/Davian, with careful transitions.
+- Likely POV: alternating/split Maya and Davian, with Niall's fight against Vorren represented through Maya/Niall beats; POV changes can become more rapid during the climax.
 - Purpose: execute simultaneous climax fronts: Davian/Kelyra/Serathis and Maya/Niall/Vorren.
 - Starting state: Maya is pinned above, Niall is below with Vorren, Davian/Kelyra are emerging from rescue path.
 - Ending state: Serathis is dead, Vorren is defeated, Antithesis is ruined, and Davian is alive only until Elric's final strike.
@@ -358,7 +394,6 @@ The path from the current cutoff to the Archeon assault should not jump directly
   - `bullet-notes.md:42`, `bullet-notes.md:66`, `bullet-notes.md:69`.
   - `decisions/0083-endgame-archeon-assault-character-agency.md`.
 - Open questions:
-  - Exact POV switching pattern.
   - Exact Antithesis destruction choreography.
 
 ### alpha-seq-012: Elric kills Davian and Maya enters the Skein
@@ -391,7 +426,7 @@ The path from the current cutoff to the Archeon assault should not jump directly
 
 ### alpha-seq-013: Exit, Kelyra's choice, and Rezin return
 
-- Likely POV: Davian or Maya.
+- Likely POV: Maya until the return toward Rezin is complete, then transition toward Davian for the final choice posture if needed.
 - Purpose: bridge battle/resurrection aftermath into the end-book relational and political posture.
 - Starting state: Vorren, Serathis, and the immediate trap are defeated; Davian has returned; everyone is injured/exhausted.
 - Ending state: the survivors return toward Rezin; Kelyra separates toward her own path; Davian chooses Rezin/Maya over returning to Kelyra's script.
@@ -415,14 +450,14 @@ The path from the current cutoff to the Archeon assault should not jump directly
 
 ### alpha-seq-014: End-book Paradox and closing posture
 
-- Likely POV: Davian or Maya; could be split.
+- Likely POV: Davian.
 - Purpose: land the book with relational, symbolic, and future-pressure closure without beginning the beta rewrite.
 - Starting state: the survivors have returned or are returning to Rezin.
 - Ending state: Book 1 closes with Davian resurrected, Antithesis transformed in meaning, Paradox introduced or prepared, and the larger world destabilized.
 - Major movement:
   - Jalen goes to Kelyra.
   - Davian begins to go with Jalen but is turned back by Niall.
-  - Niall gives Davian Paradox, made from the ruined base of Antithesis.
+  - Niall gives Davian Paradox, made from the ruined base of Antithesis. Exact staging remains deferred to detailed close outlining.
   - The symbolic turn is explicit enough: Davian needs to be a sword, not a knife in the dark; he and the weapon have been broken and remade.
   - Davian may say what he failed to say before the raid, or the scene leaves the confession partially open depending on emotional pacing.
   - Maya's role in designing/naming Paradox and Zirene making it should be preserved, though exact scene staging can be deferred.
@@ -435,7 +470,6 @@ The path from the current cutoff to the Archeon assault should not jump directly
   - `bullet-notes.md:57-63`.
   - Paradox and Antithesis object records.
 - Open questions:
-  - Whether Paradox appears in the final scene or is only commissioned/implied.
   - Whether Davian's post-resurrection confession is spoken now or held.
 
 ## Sequence-level risks to watch
@@ -453,13 +487,12 @@ The path from the current cutoff to the Archeon assault should not jump directly
 
 1. Author reviews this expanded sequence map and corrects missing or misplaced beats.
 2. Codex revises the map if needed.
-3. Codex creates the first detailed unit outline for `alpha-seq-001` only.
-4. After `alpha-seq-001` is approved, proceed to `alpha-seq-002` or revise chapter boundaries if the material naturally splits differently.
-5. Prose drafting remains closed until the author explicitly asks to draft the approved unit.
+3. Codex reviews the proposed chapter division in [CHAPTER_DIVISION_PROPOSAL.md](CHAPTER_DIVISION_PROPOSAL.md).
+4. After the general map/chapter division is approved, Codex creates the first detailed unit outline for `alpha-seq-001` / proposed Chapter 37 only.
+5. After each detailed unit outline is approved, proceed to the next unit/chapter or revise chapter boundaries if the material naturally splits differently.
+6. Prose drafting remains closed until the author explicitly asks to draft the approved unit.
 
 ## Required author questions
 
-1. Should Jalen's near-death return interrupt the Chapter 37 dining/workshop material, or should it come after that material so Chapter 37 can close on Maya/Davian warmth/research?
-2. Should the charged nighttime Maya/Davian scene be its own sequence/chapter beat before Drakhal arrives, or should it be folded into the end of Chapter 38?
-3. In the Drakhal proposal scene, should Davian actually attack Caius, almost attack and be restrained, or stay hidden while the proposal poisons the room?
-4. Should Paradox be physically given to Davian in the final Book 1 scene, or should the final alpha only show the decision/commission with the actual handoff deferred?
+1. Does the revised general map preserve the intended ramp from dining hall to Jalen to night scene to Drakhal proposal to Archeon assault?
+2. Should the next detailed outline begin with proposed Chapter 37 exactly, or should Chapter 37 be split before Jalen's arrival if the dining material becomes too long?

@@ -6,7 +6,7 @@ Last updated: 2026-06-30
 
 - Current branch: beta
 - Current migration phase: Phase 7 alpha-continuation architecture
-- Current block: alpha-continuation kickoff
+- Current block: alpha-continuation ending architecture
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
@@ -16,12 +16,12 @@ Last updated: 2026-06-30
 
 ## Block status
 
-- Current block: alpha-continuation kickoff
-- Block scope: current cutoff, remaining alpha sequence architecture, and next-unit kickoff questions under `REVISION_WORKFLOW.md`
+- Current block: alpha-continuation ending architecture
+- Block scope: current cutoff, remaining alpha sequence architecture, proposed chapter division, and next-unit kickoff questions under `REVISION_WORKFLOW.md`
 - Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
 - Last consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
 - Last chapter-map consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
-- Consistency review due: no; alpha-continuation kickoff packet is ready for author review
+- Consistency review due: no; alpha-continuation general map and chapter division are ready for author review
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The initial alpha-continuation kickoff packet was created at `outline/alpha-continuation/ALPHA_KICKOFF.md`; after author feedback that it skipped too much remaining material, the current author-review packet is the expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md`.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The initial alpha-continuation kickoff packet was created at `outline/alpha-continuation/ALPHA_KICKOFF.md`; after author feedback that it skipped too much remaining material, the current author-review packet is the expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` plus the proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md`.
 
 ## Next action
 
-Author reviews `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md`, answers the sequence-map questions, and then Codex prepares the first detailed alpha-continuation unit outline. No prose drafting is authorized.
+Author reviews `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md`, answers the chapter-division questions, and then Codex prepares the first detailed alpha-continuation unit outline for proposed Chapter 37. No prose drafting is authorized.
 
 ## Awaiting author input
 
-Expanded alpha-continuation source sequence map is awaiting author review. No current web-app comment ticket blocks that packet.
+Expanded alpha-continuation source sequence map and chapter division proposal are awaiting author review. No current web-app comment ticket blocks that packet.
 
 ## Workflow policy note
 
