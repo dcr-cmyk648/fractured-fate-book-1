@@ -8,7 +8,7 @@ For future chapter, scene, future-sequence, and next-draft outline workflow afte
 
 ## Governing Objective
 
-The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
+The primary long-term product of this repository is a robust, detailed, internally consistent path to the next complete draft. The current operational goal, after current-draft mapping catches up to existing prose, is to finish the alpha draft before returning for a full beta re-outline and rewrite pass.
 
 The intended sequence is:
 
@@ -16,14 +16,14 @@ The intended sequence is:
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
 4. Track prose-preservation intent during chapter mapping, Chapter Goal Cards, feedback import, and later outline work.
-5. Create and review Chapter Architecture / Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build a detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Run whole-book structural and consistency review.
-10. Open prose work only later, by explicit author authorization.
+5. When existing prose is mapped through the latest partial fragment, run comment intake, ticket routing, and a consistency/validation pass.
+6. Build alpha-continuation architecture for the remaining unwritten Book 1 material, starting with chapter/sequence purpose before scene-level details.
+7. Build enough detailed outline for each unwritten alpha chapter or sequence to support drafting without inventing unresolved canon in prose.
+8. Draft the remaining alpha chapters only after explicit author authorization under `AUTHORING.md`, preserving durable snapshots when chapters are accepted.
+9. After the alpha draft is complete, return to the beginning for a full beta-draft chapter architecture, whole-book re-outline, and rewrite pass.
+10. Run whole-book structural and consistency review before and during the beta pass as needed.
 
-If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+If the author later changes the goal back to outline-only, producing an excellent outline remains a successful outcome. Until then, the repository should support alpha completion first, then beta redrafting.
 
 ## Startup
 
@@ -65,12 +65,12 @@ Proceed in this order:
 3. Receive author approval to open the outline phase.
 4. Map and review the current prose chapter by chapter and, when needed, scene by scene.
 5. Track prose-preservation intent as a future chapter/outline artifact, without duplicating manuscript passages.
-6. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-7. Run whole-book architecture review.
-8. Build the detailed next-draft outline.
-9. Build the gap-to-ending future/unwritten sequence outline.
-10. Complete whole-book structural and consistency reviews.
-11. Open prose work only after explicit later authorization under `AUTHORING.md`.
+6. Resolve or explicitly defer current ticket-queue and consistency issues that would block continuing the alpha draft.
+7. Build alpha-continuation chapter/sequence architecture for the unwritten remainder of Book 1.
+8. Build enough detailed outline for the next unwritten alpha unit to support bounded drafting.
+9. Open alpha-continuation prose drafting only after explicit author authorization under `AUTHORING.md`.
+10. Preserve accepted alpha chapter snapshots as required by `AUTHORING.md`.
+11. After the alpha draft is complete, run the full beta-draft Chapter Architecture / Chapter Goal Card pass, whole-book architecture review, detailed next-draft outline, beta rewrite, and whole-book structural/consistency reviews.
 
 Do not begin chapter outlining while the initial story-bible inventory is incomplete.
 
@@ -146,6 +146,10 @@ Web-app comments are inbox material. They are not canon, accepted revisions, ins
 Comments from the static review app must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files. Reader comments may reveal problems, opportunities, or tickets, but they do not bypass existing approval workflows. Multiple readers saying the same thing increases salience but does not automatically decide the fix.
 
 The workflow should automate as much as practical around comments: importing, deduplicating, gathering context, preparing synthesis, proposing ticket routing, preserving candidate material, presenting decision packets, validation, commits, and progression. Automation stops at real decisions. Comment-derived ideas are preliminary until the author explicitly approves them, especially because future comments may come from readers other than the author.
+
+Author-origin web-app comments and scratchpad entries may be treated as stronger steering input than outside-reader comments, but they still enter the repository as inbox material. When the author has also approved the same direction in the Codex thread or another decision checkpoint, route it as accepted direction. When an author-origin comment has not been explicitly approved outside the inbox flow, synthesize it into a ticket and present the proposed disposition before applying it globally.
+
+Outside-reader comments should be treated as feedback, not instruction. Synthesize them with pros, cons, likely causes, and possible responses. Do not promote an outside-reader preference to canon, outline direction, prose-preservation approval, or manuscript change without author approval.
 
 Author Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
 

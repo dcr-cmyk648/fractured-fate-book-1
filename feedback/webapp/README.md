@@ -8,6 +8,10 @@ They are not canon. They are not accepted revisions. They are not instructions t
 
 Comments must be imported, normalized, archived, synthesized, and converted into reviewable tickets or queue items before affecting durable book files.
 
+Author-origin comments and scratchpad entries may be treated as stronger steering input than outside-reader comments, but they remain inbox material until routed. If the author has separately approved the same direction in the Codex thread or another decision checkpoint, route it as accepted direction. If not, create a ticket and present the proposed disposition before applying it globally.
+
+Outside-reader comments are feedback, not instructions. Batch synthesis should preserve them, assess likely causes and usefulness, and present pros/cons or response options when they raise substantive story, structure, or prose questions.
+
 Intended path:
 
 1. Reader opens the local app or a future GitHub Pages version.

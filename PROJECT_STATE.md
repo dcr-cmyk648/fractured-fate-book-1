@@ -10,18 +10,18 @@ Last updated: 2026-06-30
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 36 map`
+- Latest relevant commit message: current handoff commit
 - Working tree expected to be clean: no; local Apps Script configuration may remain modified while comment-sync setup remains local
 - Remote synchronized: yes
 
 ## Block status
 
-- Current block: current-draft-map
-- Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
+- Current block: alpha-catchup-readiness
+- Block scope: comment intake, ticket routing, consistency validation, and alpha-continuation workflow setup under `REVISION_WORKFLOW.md`
 - Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
-- Last consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
-- Last chapter-map consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
-- Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
+- Last consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
+- Last chapter-map consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
+- Consistency review due: no; alpha-continuation architecture may begin after the current ticket/checkpoint state is reviewed
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. No manuscript prose has been changed.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` remain queued app-maintenance items. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture.
 
 ## Next action
 
-Pull and process latest web-app comments, queue any outstanding tickets, then run a full consistency/validation pass before continuing book work.
+Present the alpha-continuation kickoff packet: current cutoff, likely next alpha sequence, use/distribution of the Chapter 37 partial fragment, remaining Book 1 sequence list, and any decisions needed before outlining the next unwritten alpha unit.
 
 ## Awaiting author input
 
-No chapter-map author packet is currently pending. Next required work is comment intake/ticket routing followed by consistency validation and an alpha-continuation workflow check.
+No chapter-map author packet is currently pending. Next review item should be the alpha-continuation kickoff packet. App-maintenance tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` are queued but not story blockers.
 
 ## Workflow policy note
 
@@ -48,6 +48,8 @@ No chapter-map author packet is currently pending. Next required work is comment
 - Do not stop on an opened entity or source-gathering stub. If author input is needed, the repository must contain a concrete author-review packet, approval packet, or phase-gate packet with the information needed to respond.
 - Prose Preservation Notes are future chapter/outline planning artifacts only. Do not create them during the current story-bible entity phase unless the author has explicitly identified a specific prose-preservation issue.
 - Web-app comments are inbox material. Importing and normalizing exported comments does not make them canon, accepted revisions, manuscript-edit instructions, story-bible decisions, or prose-preservation approvals. Use `python3 scripts/import_webapp_comments.py` after placing exported files in `feedback/webapp/incoming/`, then synthesize a batch only when explicitly asked.
+- Author-origin web-app comments are stronger steering input than outside-reader comments, but they still require routing. Outside-reader comments should be synthesized with pros/cons and possible responses, not treated as instructions.
+- Current alpha path: finish current alpha draft first. After consistency/ticket clearance, build alpha-continuation architecture and enough outline for the next unwritten chapter/sequence, then draft prose only after explicit author authorization. After alpha completion, return for beta-draft re-outline/rewrite.
 
 ## Known blockers or risks
 

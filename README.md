@@ -4,7 +4,7 @@ Repository for the Book 1 migration, source import, normalization, review, and d
 
 ## Governing Objective
 
-The primary long-term product of this repository is a robust, detailed, internally consistent next-draft outline.
+The primary long-term product of this repository is a robust, detailed, internally consistent path to the next complete draft.
 
 The story bible is simultaneously a source of truth, a creative-development workspace, and a context engine for the future outline and later prose work. Minimum sufficient canon is the floor; narrative usefulness determines the ceiling. The repository should explore freely, canonize selectively, and audit in proportion to consequence.
 
@@ -16,14 +16,13 @@ Intended sequence:
 2. Run final story-bible consistency and dependency review.
 3. Create the current-draft chapter map.
 4. Track prose-preservation intent where wording-level reuse or avoidance may matter.
-5. Create and review Chapter Architecture / Chapter Goal Cards.
-6. Run whole-book architecture review.
-7. Build a detailed next-draft outline.
-8. Build the gap-to-ending future/unwritten sequence outline.
-9. Run whole-book structural and consistency review.
-10. Open prose work only later, by explicit author authorization.
+5. Pull and process web-app comments, route tickets, and run consistency/validation when current mapping catches up.
+6. Build alpha-continuation architecture for the unwritten remainder of Book 1.
+7. Draft remaining alpha chapters only after explicit author authorization.
+8. After the alpha draft is complete, return to the beginning for beta-draft Chapter Architecture / Chapter Goal Cards, whole-book re-outline, and rewrite.
+9. Run whole-book structural and consistency review before and during the beta pass as needed.
 
-If the repository only produces an excellent outline and never generates prose, that is still a successful outcome.
+If the author later changes the goal back to outline-only, producing an excellent outline remains a successful outcome. The current path is alpha completion first, then beta redrafting.
 
 ## Structure
 

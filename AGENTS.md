@@ -16,6 +16,8 @@ Comments from the static review app must be imported, normalized, archived, synt
 
 Author Scratchpad entries from the static app are comment-like inbox records, not a separate notes database. Treat `scratchpad-content` and `scratchpad-technical` records as web-app comment material that must go through the same import, synthesis, ticketing, and author-approval workflow before affecting story files, app work, prose-preservation records, or manuscript prose.
 
+Author-origin web-app comments may be treated as stronger steering input than outside-reader comments, but they are still inbox records until routed. Outside-reader comments are feedback and should be synthesized with pros, cons, likely causes, and possible responses; they are not instructions unless the author approves them.
+
 ## Startup Procedure
 
 Before doing book work, Codex must:
@@ -176,12 +178,11 @@ Required order:
 3. Receive author approval to open the outline phase.
 4. Map the current draft chapter by chapter and, when needed, scene by scene.
 5. Track prose-preservation intent where wording-level reuse or avoidance may matter.
-6. Run the Chapter Architecture Pass and create Chapter Goal Cards.
-7. Run whole-book architecture review.
-8. Build the detailed next-draft outline.
-9. Build the gap-to-ending future/unwritten sequence outline.
-10. Complete whole-book structural and consistency reviews.
-11. Open prose work only after explicit later authorization under `AUTHORING.md`.
+6. Resolve or explicitly defer tickets and consistency issues that would block continuing the alpha draft.
+7. Build alpha-continuation architecture and enough detailed outline for the unwritten remainder of Book 1.
+8. Open alpha-continuation prose only after explicit author authorization under `AUTHORING.md`.
+9. Preserve accepted alpha chapter snapshots.
+10. After the alpha draft is complete, return to the beginning for full beta-draft Chapter Architecture / Chapter Goal Cards, whole-book re-outline, beta rewrite, and whole-book structural/consistency reviews.
 
 The initial story-bible phase is complete enough to move into chapter/scene outline work when every entity in the approved initial inventory is `approved`, `deferred` by author, or `superseded`; every entity needed for the outline is `outline-ready` or `outline-ready with documented uncertainties`; any `needs-revisit` item that would materially affect the outline has been resolved or explicitly deferred by the author; block-level consistency and opportunity reviews have been run for completed entity categories; no known unresolved issue prevents understanding the book's causal structure; remaining uncertainties are preserved as candidates, queue items, or explicit deferred issues; and the author approves opening the outline phase.
 
