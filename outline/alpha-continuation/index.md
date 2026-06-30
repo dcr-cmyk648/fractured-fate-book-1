@@ -5,5 +5,6 @@ This folder owns planning artifacts for finishing the current alpha draft from t
 - Kickoff packet: [ALPHA_KICKOFF.md](ALPHA_KICKOFF.md)
 - Expanded source sequence map: [ALPHA_SOURCE_SEQUENCE_MAP.md](ALPHA_SOURCE_SEQUENCE_MAP.md)
 - Chapter division proposal: [CHAPTER_DIVISION_PROPOSAL.md](CHAPTER_DIVISION_PROPOSAL.md)
+- Detailed Chapter 37 outline packet: [units/ch37-dining-jalen-intelligence.md](units/ch37-dining-jalen-intelligence.md)
 
 These files are architecture and planning material only. They do not authorize prose drafting or manuscript edits.

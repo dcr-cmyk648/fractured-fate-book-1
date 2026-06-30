@@ -27,6 +27,19 @@ The workflow supports the requested stepwise process:
 9. Run an alpha-complete consistency pass.
 10. Only then return to beta-draft front-to-back re-outline/rewrite.
 
+## Approval Status
+
+Approved as the working alpha-continuation structure on 2026-06-30, with flexible 37/38 boundary management. If Chapter 37 becomes too long, Jalen's healing/intelligence material can shift into Davian's Chapter 38 POV because Chapter 38 has more room.
+
+The Drakhal proposal is not a replacement for the prior Spire public-provocation. The intended chain is:
+
+1. Evana first uses the Spire/public provocation to test whether Niall will attack in public or fail to appear while other High Clades are positioned to interpret or exploit either result.
+2. Niall's refusal to attack publicly becomes another data point suggesting possible weakness, but not definitive proof.
+3. Drakhal then continues the scheme by bringing allied or proposal-supporting High Clades to the Rezin citadel.
+4. The Rezin-citadel proposal again pressures Niall through Maya/Caius marriage, Niall's banishment, Shade accusations, and legitimacy theater.
+5. Evana's likely backup plan is that Niall will retaliate. If he attacks Drakhal directly, she can have allied High Clades ready. If he attacks Archeon, Vorren/Serathis's trap is waiting.
+6. Jalen and Aldira can plausibly recommend Archeon without knowing the trap because Archeon is weaker, is Drakhal's collaborator, is where Kelyra is, and can weaken the alliance before a direct Drakhal confrontation.
+
 ## Proposed chapter divisions
 
 ### Chapter 37 - Dining Hall, Jalen's Return, and First Intelligence
@@ -84,7 +97,7 @@ The workflow supports the requested stepwise process:
 - Watchpoints:
   - Niall's composure is tactical, not acceptance.
   - Davian's attack should be protective/jealous/impulsive without making him look strategically clean.
-  - If the older Spire/provocation function is still needed, decide in detailed outlining whether this Rezin-arrival scene fully carries it or whether a short public-political follow-up is needed before the assault.
+  - This scene follows the prior Spire/public-provocation sequence. It should continue that political trap rather than replace it.
 
 ### Chapter 40 - Counterattack Planning and Commitment to Archeon
 
@@ -226,9 +239,8 @@ The workflow supports the requested stepwise process:
 
 1. Is Chapter 37 too large if it contains the dining-hall scene, Jalen interruption, healing, and first intelligence? If so, split after Jalen's arrival.
 2. Does Chapter 39 become too overloaded with intelligence/training plus Drakhal arrival? If so, Drakhal arrival can become Chapter 40 and push assault planning forward.
-3. Should the Drakhal proposal scene fully replace the older Spire/public-provocation function for now, or should detailed outlining preserve a separate short public-political beat before the Archeon assault?
-4. Does the final battle need three chapters instead of two before the Skein chapter? If spatial choreography becomes confusing, split Chapter 44 into Serathis resolution and Vorren resolution.
-5. Should Chapter 46 include both Kelyra's exit confrontation and Paradox, or should Paradox be a short epilogue-style Chapter 47?
+3. Does the final battle need three chapters instead of two before the Skein chapter? If spatial choreography becomes confusing, split Chapter 44 into Serathis resolution and Vorren resolution.
+4. Should Chapter 46 include both Kelyra's exit confrontation and Paradox, or should Paradox be a short epilogue-style Chapter 47?
 
 ## Recommended next action
 

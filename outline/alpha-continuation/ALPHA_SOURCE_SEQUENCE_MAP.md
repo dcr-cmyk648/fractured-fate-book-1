@@ -69,11 +69,14 @@ The path from the current cutoff to the Archeon assault should not jump directly
 ## Accepted author direction from kickoff review
 
 - Jalen's return should interrupt the dining-hall scene at the general-outline level. The pre-interruption dining material should emphasize Maya/Davian interaction, flirtation, and missteps.
+- Some Chapter 37/38 material can move around during detailed outlining. If Chapter 37 becomes too long, Jalen's healing/intelligence scene can shift into Davian's Chapter 38 POV because Chapter 38 is less full.
 - Jalen's healing/intelligence scene should include Niall's reluctance to heal him, Maya arguing they need his information, painful gold strike-line healing, Jalen providing intelligence, and Aldira taking over so Jalen can rest.
 - The next Davian POV chapter should process Maya, Jalen's return, and Davian's urgent desire to go after Archeon.
 - The charged nighttime Maya/Davian scene should happen the same night. Davian tries to confess what he feels but cannot get the words out correctly, so the relationship remains unresolved going into the raid.
 - The next day should include Jalen and Aldira coordinating intelligence, with Aldira excited by Masked Clade network access and Jalen impressed by Rezin money/manpower.
-- The Drakhal proposal scene should include Caius making some move toward Maya and Davian blasting in to attack him, creating a standoff before Niall smooths things over.
+- The Drakhal proposal scene follows the earlier Spire/public-provocation sequence. Evana first uses the Spire setup to test whether Niall will attack publicly or fail to appear; his refusal to attack is another data point suggesting possible weakness, but not definitive proof. Drakhal then continues the trap by bringing allied/supporting High Clades to Rezin with the Maya/Caius marriage and Niall-banishment proposal.
+- The Rezin-citadel proposal scene should include Caius making some move toward Maya and Davian blasting in to attack him, creating a standoff before Niall smooths things over.
+- Evana's backup expectation is that Niall will retaliate. A direct Drakhal assault would likely face allied High Clade support; an Archeon assault hits a weaker collaborator where Serathis/Vorren's trap waits. Jalen and Aldira can recommend Archeon without knowing the trap because it weakens the alliance and is where Kelyra is.
 - Niall should then go to Aldira and Jalen and demand lethal counterattack planning. Jalen helps funnel Niall toward Archeon as the strategically better first target because Archeon is Drakhal's collaborator, weaker/easier to remove, and a lesson to the other Clades.
 - The Archeon endgame split should use alternating/split POV while Davian fights to free Kelyra, Maya fights Archeon magi, and Niall fights Vorren. POV changes can become more rapid during the climax.
 - After Vorren's defeat, switch to Maya POV for the Skein/resurrection material and return toward Rezin.
