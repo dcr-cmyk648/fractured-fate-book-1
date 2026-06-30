@@ -220,6 +220,110 @@ def build_tree(files: list[dict[str, Any]]) -> dict[str, Any]:
     return normalize(root)
 
 
+def strip_markdown_cell(value: str) -> str:
+    return value.strip().replace("`", "").strip()
+
+
+def ticket_source_for(ticket_id: str) -> str | None:
+    search_roots = [
+        ROOT / "feedback" / "webapp" / "tickets",
+        ROOT / "feedback" / "source-intake",
+    ]
+    for tickets_dir in search_roots:
+        if not tickets_dir.exists():
+            continue
+        for pattern in ("*/tickets.md", "*/*review.md", "**/tickets.md", "**/*review.md"):
+            for path in sorted(tickets_dir.glob(pattern)):
+                try:
+                    text = path.read_text(encoding="utf-8")
+                except OSError:
+                    continue
+                if ticket_id in text:
+                    return rel(path)
+    return None
+
+
+def extract_ticket_summary(ticket_id: str, source_file: str | None) -> str:
+    if not source_file:
+        return ""
+    path = ROOT / source_file
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8", errors="replace")
+    match = re.search(
+        rf"##\s+{re.escape(ticket_id)}[\s\S]*?(?=\n##\s+[A-Z]+-\d{{4}}-|\n#\s+|\Z)",
+        text,
+    )
+    section = match.group(0) if match else text
+    summary = re.search(r"Summary:\s*(.+)", section)
+    if summary:
+        return summary.group(1).strip()
+    for line in section.splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and not line.startswith("-") and not line.startswith("|"):
+            return line[:240]
+    return ""
+
+
+def status_from_source_intake_cell(value: str) -> str:
+    lower = value.lower()
+    if "rejected" in lower:
+        return "rejected"
+    if "candidate-only" in lower:
+        return "candidate-only"
+    if "deferred" in lower:
+        return "deferred"
+    if "resolved" in lower or "accepted" in lower or "stored" in lower:
+        return "accepted-for-workflow"
+    if lower in {"yes", "no"}:
+        return "proposed"
+    return lower or "proposed"
+
+
+def build_ticket_index() -> list[dict[str, Any]]:
+    index_paths = [
+        ROOT / "feedback" / "webapp" / "tickets" / "index.md",
+        *sorted((ROOT / "feedback" / "source-intake").glob("*/tickets.md")),
+    ]
+    tickets: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for index_path in index_paths:
+        if not index_path.exists():
+            continue
+        for line in index_path.read_text(encoding="utf-8", errors="replace").splitlines():
+            if not re.match(r"^\|\s+(?:WC|LORE)-", line):
+                continue
+            cells = [strip_markdown_cell(cell) for cell in line.strip().strip("|").split("|")]
+            if len(cells) >= 8:
+                ticket_id, batch_id, status, ticket_type, priority, target, destination, author_decision = cells[:8]
+            elif len(cells) >= 5:
+                ticket_id, priority, ticket_type, target, author_decision = cells[:5]
+                batch_id = index_path.parent.name
+                status = status_from_source_intake_cell(author_decision)
+                destination = "source-intake ticket queue"
+            else:
+                continue
+            if ticket_id in seen:
+                continue
+            seen.add(ticket_id)
+            source_file = ticket_source_for(ticket_id)
+            tickets.append(
+                {
+                    "ticket_id": ticket_id,
+                    "batch_id": batch_id,
+                    "status": status,
+                    "ticket_type": ticket_type,
+                    "priority": priority,
+                    "target": target,
+                    "destination": destination,
+                    "author_decision_needed": author_decision,
+                    "source_file": source_file,
+                    "summary": extract_ticket_summary(ticket_id, source_file),
+                }
+            )
+    return tickets
+
+
 def chapter_id_for(title: str) -> str:
     if title.lower() == "prologue":
         return "d1-prologue"
@@ -458,6 +562,7 @@ def main() -> None:
         "files": files,
         "file_tree": build_tree(files),
         "chapters": chapters,
+        "tickets": build_ticket_index(),
         "layer_definitions": [
             {"key": key, "label": label} for key, label in LAYER_DEFINITIONS
         ],

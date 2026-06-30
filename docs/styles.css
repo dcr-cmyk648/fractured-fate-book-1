@@ -145,6 +145,28 @@ button:disabled {
   align-items: center;
 }
 
+.primary-tabs,
+.scratchpad-tabs {
+  padding: 0.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+
+.primary-tabs button,
+.scratchpad-tabs button {
+  border-color: transparent;
+  background: transparent;
+}
+
+.primary-tabs button.active,
+.scratchpad-tabs button.active {
+  background: var(--panel);
+  color: var(--accent);
+  border-color: var(--line);
+  box-shadow: 0 1px 4px rgba(31, 37, 40, 0.08);
+}
+
 .commenter {
   color: var(--muted);
   font-size: 0.9rem;
@@ -213,7 +235,8 @@ main {
 }
 
 .reader-layout,
-.browser-layout {
+.browser-layout,
+.ticket-layout {
   display: grid;
   grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
   gap: 1rem;
@@ -221,7 +244,8 @@ main {
 }
 
 .reader-sidebar,
-.browser-sidebar {
+.browser-sidebar,
+.ticket-sidebar {
   position: sticky;
   top: 1rem;
   display: grid;
@@ -276,7 +300,8 @@ select {
 }
 
 .reader-panel,
-.file-viewer {
+.file-viewer,
+.ticket-panel {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -585,6 +610,54 @@ select {
 .scratchpad-recent > p {
   margin: 0;
   color: var(--muted);
+}
+
+.ticket-filter-row label {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.ticket-list {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.ticket-list > p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.ticket-item {
+  display: grid;
+  gap: 0.25rem;
+  width: 100%;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.ticket-item strong {
+  color: var(--text);
+}
+
+.ticket-item span,
+.ticket-item small {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ticket-item.active {
+  background: #e5efec;
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.ticket-item.active strong {
+  color: var(--accent);
 }
 
 .comment-list {
@@ -940,11 +1013,13 @@ select {
     justify-items: stretch;
   }
 
-  .browser-layout {
+  .browser-layout,
+  .ticket-layout {
     grid-template-columns: 1fr;
   }
 
-  .browser-sidebar {
+  .browser-sidebar,
+  .ticket-sidebar {
     position: static;
     max-height: none;
     overflow: visible;
@@ -1027,6 +1102,22 @@ select {
   .export-status {
     display: grid;
     justify-content: stretch;
+  }
+
+  .primary-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .primary-tabs button {
+    min-width: 0;
+    padding: 0.5rem 0.45rem;
+    font-size: 0.86rem;
+  }
+
+  .ticket-sidebar {
+    padding: 0.75rem;
   }
 }
 

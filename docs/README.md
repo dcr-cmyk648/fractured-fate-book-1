@@ -27,6 +27,7 @@ No npm install, backend, database, authentication, or AI call is required. Comme
 - Reader Mode by default, using prose-first display.
 - Author Mode for repository browser and all generated layers.
 - Author Scratchpad in Author Mode, with `Content` and `Technical / Processing` tabs.
+- Ticket Review in Author Mode, with current ticket browsing and ticket-anchored comments.
 - Repository browser for readable generated project files.
 - Layer selector with graceful unavailable-layer handling.
 - Persistent comment box: right-side rail on desktop, collapsible drawer on mobile.
@@ -50,9 +51,16 @@ The Comment Sync page supports a submit-only sync path for beta readers with pri
 - The static app does not contain reader secrets or account lists.
 - Sync sends comments and scratchpad entries to the configured Apps Script endpoint.
 - Apps Script validates the reader code privately and writes submitted comments to Google Drive / Sheets for later Codex import.
+- A code configured as `role: "author"` in Apps Script is stamped as verified author input during sync. Other verified reader codes are treated as provisional outside-reader feedback.
 - `Download Backup JSON` remains available if sync fails or a reader does not have a code.
 
 Sync is submit-only. The app does not read prior comments back from Google Drive and does not provide cross-device comment history.
+
+## Ticket Review
+
+Author Mode includes `Ticket Review`, which lists generated web-app tickets from `feedback/webapp/tickets/index.md` and source-intake tickets from `feedback/source-intake/*/tickets.md`. Selecting a ticket changes the persistent comment target to that ticket, so comments submitted from the comment box export with `view_mode: ticket-review` and ticket metadata.
+
+Ticket Review does not approve, reject, or apply tickets. It only provides a readable interface for author feedback that later returns through the normal comment intake workflow.
 
 ## Mobile Install
 

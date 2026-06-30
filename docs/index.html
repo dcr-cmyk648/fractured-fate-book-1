@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=sync-13">
+    <link rel="stylesheet" href="styles.css?v=sync-17">
   </head>
   <body>
     <section class="access-strip" aria-label="Access mode">
@@ -40,9 +40,10 @@
           <strong id="commenterName">Unset</strong>
           <button id="changeNameBtn" type="button">Change</button>
         </div>
-        <nav aria-label="Primary navigation">
+        <nav class="primary-tabs" aria-label="Primary navigation">
           <button id="readerNavBtn" class="active" type="button">Book Reader</button>
           <button id="browserNavBtn" type="button">Repository Browser</button>
+          <button id="ticketsNavBtn" type="button">Ticket Review</button>
           <button id="scratchpadNavBtn" type="button">Author Scratchpad</button>
           <button id="exportNavBtn" type="button">Comment Sync</button>
         </nav>
@@ -153,6 +154,36 @@
         <div id="commentList" class="comment-list"></div>
       </section>
 
+      <section id="ticketReviewView" class="view" aria-labelledby="ticketReviewHeading">
+        <div class="section-heading">
+          <h2 id="ticketReviewHeading">Ticket Review</h2>
+          <p>Author-mode review of current web-app/source tickets. Use the comment box to respond to the selected ticket.</p>
+        </div>
+        <div class="ticket-layout">
+          <aside class="ticket-sidebar" aria-label="Ticket list">
+            <div class="ticket-filter-row">
+              <label>
+                Status
+                <select id="ticketStatusFilter">
+                  <option value="current">Current open/proposed</option>
+                  <option value="all">All tickets</option>
+                  <option value="proposed">Proposed</option>
+                  <option value="accepted-for-workflow">Accepted</option>
+                </select>
+              </label>
+            </div>
+            <div id="ticketList" class="ticket-list"></div>
+          </aside>
+          <article class="ticket-panel">
+            <div class="content-meta">
+              <span id="ticketPath">Select a ticket</span>
+              <span id="ticketBadge" class="badge"></span>
+            </div>
+            <div id="ticketContent" class="document-content repo-readable"></div>
+          </article>
+        </div>
+      </section>
+
       <section id="scratchpadView" class="view" aria-labelledby="scratchpadHeading">
         <div class="section-heading">
           <h2 id="scratchpadHeading">Author Scratchpad</h2>
@@ -207,6 +238,6 @@
       </details>
     </aside>
 
-    <script src="app.js?v=sync-16"></script>
+    <script src="app.js?v=sync-17"></script>
   </body>
 </html>

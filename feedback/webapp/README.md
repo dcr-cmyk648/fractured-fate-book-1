@@ -114,6 +114,19 @@ Scratchpad entries use:
 
 Scratchpad entries remain inbox material until processed. They are not canon, accepted revisions, approved prose-preservation records, or instructions to edit manuscript prose.
 
+## Ticket Review Comments
+
+The static app's Author Mode includes a `Ticket Review` view for current proposed/open tickets. Comments submitted while a ticket is selected use:
+
+- `view_mode: ticket-review`
+- `current_layer: ticket-review`
+- `ticket_id`
+- `ticket_title`
+- `ticket_status`
+- `ticket_type`
+
+Ticket-review comments are still inbox material. A verified author-code submission may be treated as stronger author steering input, but it must still be routed through the normal ticket workflow before changing durable files. Verified outside-reader ticket comments remain tentative/provisional feedback.
+
 ## Later Batch Synthesis
 
 After import, ask Codex:

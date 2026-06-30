@@ -25,6 +25,10 @@ A raw app comment may include:
 - `source_line_start`
 - `source_line_end`
 - `current_heading`
+- `ticket_id`
+- `ticket_title`
+- `ticket_status`
+- `ticket_type`
 - `selected_text`
 - `approximate_scroll_percent`
 - `comment_text`
@@ -52,6 +56,8 @@ Scratchpad entries intentionally do not require a file or chapter anchor. For sc
 `commenter_role_verified` should be true only when a private reader code has been validated by the configured Apps Script sync endpoint. The local importer preserves verified role fields from synced/archived records, but it does not infer author status from `commenter_name`.
 
 Manual JSON/JSONL/Markdown exports without a verified role are treated as `unverified` for synthesis. They remain inbox material and do not bypass ticketing, approval, or prose/canon gates.
+
+Ticket-review comments may use `view_mode: ticket-review`, `current_layer: ticket-review`, and ticket metadata. These fields anchor a comment to a proposed ticket. They do not approve, reject, or apply that ticket.
 
 ## Derived Normalization Fields
 
@@ -101,6 +107,7 @@ Deduplication uses a stable `content_hash` from:
 - `current_file_path`
 - `chapter_id`
 - `current_layer`
+- `ticket_id`
 - `selected_text`
 - `comment_text`
 

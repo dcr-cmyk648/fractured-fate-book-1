@@ -48,6 +48,10 @@ RAW_FIELDS = [
     "source_line_start",
     "source_line_end",
     "current_heading",
+    "ticket_id",
+    "ticket_title",
+    "ticket_status",
+    "ticket_type",
     "selected_text",
     "approximate_scroll_percent",
     "comment_text",
@@ -227,6 +231,9 @@ def likely_target(comment: dict[str, Any]) -> tuple[str, str]:
     comment_text = as_text(comment.get("comment_text")).lower()
     if view_mode == "scratchpad":
         return "scratchpad", scratchpad_type or "scratchpad"
+    ticket_id = as_text(comment.get("ticket_id")).strip()
+    if view_mode == "ticket-review" and ticket_id:
+        return "ticket", ticket_id
     if chapter_id:
         return "chapter", chapter_id
     if current_file_path:
