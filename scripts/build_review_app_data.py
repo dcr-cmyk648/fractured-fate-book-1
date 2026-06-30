@@ -47,7 +47,7 @@ TEXT_SUFFIXES = {
 
 LAYER_DEFINITIONS = [
     ("prose", "Prose"),
-    ("current_map", "Current Map"),
+    ("current_map", "Current Map / Summary"),
     ("current_summary", "Current Summary"),
     ("chapter_goal_card", "Chapter Goal Card"),
     ("revision_notes", "Revision Notes"),

@@ -247,11 +247,11 @@ function renderLayerSelect() {
   if (!chapter) return;
   const visibleLayers = currentMode === "reader"
     ? chapter.available_layers.filter((layer) => layer.key === "prose")
-    : chapter.available_layers;
+    : chapter.available_layers.filter((layer) => layer.available);
   for (const layer of visibleLayers) {
     const option = document.createElement("option");
     option.value = layer.key;
-    option.textContent = layer.available ? layer.label : `${layer.label} (unavailable)`;
+    option.textContent = layer.label;
     select.appendChild(option);
   }
   const prose = chapter.available_layers.find((layer) => layer.key === "prose" && layer.available);
