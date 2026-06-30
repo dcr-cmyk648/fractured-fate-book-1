@@ -5,7 +5,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
 | WC-2026-06-30-001 | accepted-for-workflow | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | yes |
-| WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | yes |
+| WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | no |
 | WC-2026-06-30-003 | accepted-for-workflow | medium | revision-suggestion | `d1-prologue` exposition style | no |
 | WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | no |
 | WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | no |
@@ -53,9 +53,9 @@ Rationale: This affects final outline architecture, character agency, combat seq
 - Target chapter IDs: `d1-ch-29`
 - Target layer: prose
 - Relevant selected text: none captured; anchors are Chapter 29 at approximate scroll positions 23, 28, and 62
-- Proposed destination: prose-preservation candidate queue / Chapter 29 goal card
+- Proposed destination: future prose-preservation review / Chapter 29 goal card
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
 - Created at: 2026-06-30
 - Related consistency queue IDs: none
 - Related prose preservation IDs: none
@@ -64,6 +64,8 @@ Rationale: This affects final outline architecture, character agency, combat seq
 Summary: Multiple Chapter 29 comments mark dialogue/quotes as strong material the author may want to keep, especially in the back half of the book.
 
 Rationale: This should become prose-preservation candidate material later. It does not yet approve exact or near-exact reuse because full prose-preservation review is not open and no exact excerpts were captured in the comments.
+
+Disposition: Accepted by author on 2026-06-30 as future prose-preservation routing. Exact selected text was not captured, so no formal exact-quote or near-quote preservation records were created. Chapter 29 map now flags the author-praised dialogue for later review.
 
 ## WC-2026-06-30-003: Route Prologue Over-Explanation/Bloat Note to Later Revision
 
