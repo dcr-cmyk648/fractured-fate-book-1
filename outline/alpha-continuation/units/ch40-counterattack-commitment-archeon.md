@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 40
 - Working title: Departure Through the Wedge and the Archeon Split
-- Current status: revised author-review packet
+- Current status: approved working detailed outline
 - Prior unit: `ch39-intelligence-drakhal-proposal.md`
 - Prose drafting: not authorized
 
@@ -80,7 +80,8 @@ Purpose:
 - He keeps it short.
 - He tells Davian to remember what they worked on and stay safe.
 - This can include a practical reminder about Shroud, body awareness, not overreaching, or not letting panic choose for him.
-- Harvick may give Davian a sword here if it belongs naturally; otherwise the sword handoff can wait until the route or split.
+- Do not force a sword handoff here; the end-book sword/Paradox handoff belongs to Niall.
+- Harvick's beat is advice, practical concern, and awkward affection, not symbolic weapon inheritance.
 - Harvick gives Davian a handshake that turns into a very awkward quick hug before Harvick runs off or pulls away.
 - Davian should not quite know what to do with the affection.
 
@@ -165,14 +166,14 @@ Purpose:
 
 ### Scene 10 - Information Points Toward Kelyra
 
-- Davian receives, sees, extracts, or interprets information pointing toward Kelyra's likely holding area.
-- This may come from:
-  - earlier Karra message;
-  - Jalen/Aldira network intelligence;
-  - an Archeon leak Serathis intentionally allowed;
-  - captured/interrogated Archeon personnel;
-  - signs/route clues Davian can read.
-- Serathis may want Davian removed from Maya/Niall's side before the trap fully closes.
+- Davian already has basic intel from Jalen/Aldira that Archeon is likely holding Kelyra somewhere in the underground areas.
+- Their informants have not been able to get down there, so Davian does not yet have the exact entrance or route.
+- After Maya and Niall blast into Archeon and begin smashing through outer resistance/defenses, a random Archeon soldier shoots an arrow at Maya.
+- Davian blocks the arrow, then rams the soldier into the wall with his knife.
+- The soldier is dying; Davian asks where the underground entrance is.
+- The soldier gives him enough information before dying.
+- The soldier is not a planted messenger, but Serathis wanted this route to become available and could have ensured soldiers on duty knew enough to point Davian toward it.
+- The dying soldier's information aligns with Jalen/Aldira's broader underground intel, making the route feel risky but credible.
 - Davian fears delay means Kelyra may be executed, used, or permanently broken.
 
 Purpose:
@@ -183,7 +184,7 @@ Purpose:
 ### Scene 11 - The Split
 
 - Davian splits off from Maya and Niall to go after Kelyra.
-- This should be the chapter endpoint or near-endpoint.
+- Davian finds the underground entrance and follows it down far enough to commit to the separate front before the chapter ends.
 - Maya may allow/trust him to go, even though it feels like abandoning Niall or letting Davian go into danger.
 - Niall should not care much about Kelyra, reinforcing his utilitarian logic.
 - Davian chooses family rescue while still being tied to Maya.
@@ -196,13 +197,13 @@ Purpose:
 
 ## Ending
 
-Preferred ending: Davian splits off from Maya and Niall inside or at the threshold of Archeon to pursue Kelyra. End in Davian POV with urgency and separation, setting up the split-assault structure.
+Preferred ending: Davian splits off from Maya and Niall, finds the underground entrance, and starts down the Kelyra-rescue path alone. End in Davian POV with urgency, separation, and the sense that the assault has now become multiple simultaneous fronts.
 
 ## What to Move or Defer
 
 - Maya/Niall target decision and toxic trust/equality logic belongs in Chapter 39.
 - Full throne-room confrontation and floor trap belong after the split.
-- Kelyra rescue fight belongs the next Davian-side chapter/sequence.
+- Kelyra rescue fight belongs the next split-front chapter/sequence.
 - Full Serathis/Vorren trap mechanics remain hidden.
 - Extended neglected-wedge social observation can continue into the approach if Chapter 40 has room, but should not prevent reaching the split.
 
@@ -216,7 +217,8 @@ Preferred ending: Davian splits off from Maya and Niall inside or at the thresho
 - Move through the city-wedge toward Archeon.
 - Present the concise Archeon counter-plan while in motion.
 - Reach first Archeon approach/entry pressure.
-- End with Davian splitting off toward Kelyra.
+- Use the arrow/soldier interrogation beat to reveal the underground entrance.
+- End with Davian splitting off and entering the underground path toward Kelyra.
 
 ### Character Goals
 
@@ -254,11 +256,17 @@ Preferred ending: Davian splits off from Maya and Niall inside or at the thresho
 - Niall lets Davian come dismissively, not warmly.
 - Harvick does not join the assault.
 - Jalen remains noncombatant.
-- Davian splits off by the end if pacing allows.
+- Davian splits off and enters the underground by the end.
+- Do not give Davian a symbolic sword handoff from Harvick; Niall/Paradox owns that end-book function.
+- The dying soldier is not a plant, but Serathis arranged conditions so useful route information could plausibly reach Davian.
 - Prose gate remains closed.
 
-## Open Questions for Author Review
+## Author Decisions Applied
 
-1. Should Harvick physically hand Davian a sword in this chapter, or should the scene stay to advice/awkward hug only?
-2. What is the cleanest trigger for Davian splitting off: Karra's message, Jalen/Aldira route intel, an Archeon leak, captured/interrogated personnel, or a combination?
-3. Should Chapter 40 end exactly on the split, or include the first short beat of Davian entering the Kelyra-rescue path alone?
+1. Harvick should not hand Davian a sword here. The sword/Paradox handoff belongs to Niall at the end of the book.
+2. Davian's split trigger is a combination of Jalen/Aldira's broad underground intel and a dying Archeon soldier who gives Davian the specific entrance after shooting at Maya.
+3. Chapter 40 should extend past the split far enough for Davian to find the underground entrance and begin following it before Chapter 41 starts.
+
+## Approval Status
+
+Approved as the working detailed Chapter 40 outline on 2026-06-30. Prose drafting remains unauthorized.

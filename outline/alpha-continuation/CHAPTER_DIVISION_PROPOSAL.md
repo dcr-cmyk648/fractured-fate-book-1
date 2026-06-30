@@ -99,65 +99,51 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
   - Davian's attack should be protective/jealous/impulsive without making him look strategically clean.
   - This scene follows the prior Spire/public-provocation sequence. It should continue that political trap rather than replace it.
 
-### Chapter 40 - Counterattack Planning and Commitment to Archeon
+### Chapter 40 - Departure Through the Wedge and the Archeon Split
 
-- Primary POV: Maya or Davian; likely Maya if Niall's command logic is central.
-- Main job: turn Niall's rage into an actionable Archeon-first plan.
+- Primary POV: Davian.
+- Main job: move from the approved Archeon target decision into physical departure, neglected-wedge approach, breach, and Davian's underground split.
 - Major beats:
-  - Niall wants to kill them.
-  - Aldira and Jalen shape that impulse into a strategic target choice.
-  - Jalen funnels Niall toward Archeon: Drakhal's collaborator, weaker/easier first target, and public lesson.
-  - Maya recognizes problems but experiences Niall including her as trust.
-  - Maya pushes against disposable-soldier logic and wants to avoid using troops or scouts as expendable bodies.
-  - Niall's "trust" is double-edged: partly real reliance on Maya, partly his attempt to prove High Clade magi can still decide power alone.
-  - Davian is desperate to get Kelyra.
-  - Harvick may give Davian a sword or otherwise hand off support because he cannot join the final assault.
-  - Scouts/forerunners/death-money questions can appear here if useful.
-  - Davian tries again, or almost tries, to say something to Maya before the raid and fails or is interrupted.
-- Ends with: assault party committed and moving.
+  - Assault party straps up after Chapter 39's target decision.
+  - Niall lets Davian come dismissively, as someone who can distract a few Archeon magi.
+  - Harvick tries to stop Niall, fails, then gives Davian practical advice and awkward affection.
+  - No Harvick sword handoff; Niall/Paradox owns the end-book sword handoff.
+  - Maya/Erynn farewell pressure mirrors Davian/Harvick.
+  - Stealthier route through the neglected city-wedge rather than a soldier-heavy formal march.
+  - Concise Archeon counter-plan while in motion: Archeon is powerful but narrow, drilled, and brittle when forced off script.
+  - Archeon outer approach and breach.
+  - Davian has broad Jalen/Aldira intel that Kelyra is likely underground, but no exact route.
+  - A random Archeon soldier shoots an arrow at Maya; Davian blocks it, rams the soldier into a wall with his knife, and gets the underground entrance location before the soldier dies.
+  - The soldier is not a plant, but Serathis arranged conditions so useful route information could plausibly reach Davian.
+  - Davian splits off, finds the underground entrance, and begins descending.
+- Ends with: Davian committed to the underground Kelyra-rescue front while Maya/Niall continue toward the central tower.
 - Watchpoints:
   - Make clear this is Archeon, not Drakhal, because of strategic prioritization.
   - Keep Niall's reasoning morally mixed: tactical sense plus regression into deterrent violence.
-
-### Chapter 41 - Neglected Wedge Approach and Archeon Breach
-
-- Primary POV: Maya, with possible brief Davian pressure.
-- Main job: move physically from Rezin into Archeon and show the world beneath High Clade strategy.
-- Major beats:
-  - Aboveground approach through neglected wedge/slum boundary.
-  - Maya sees survival-level poverty while carrying high-level magic/war problems.
-  - Niall's hierarchy worldview surfaces.
-  - Breach through Archeon gates/towers/wards.
-  - Resistance is oddly weak because Serathis is holding back valuable magi.
-  - Davian may attempt technical bypass; Maya/Niall may choose overwhelming force.
-  - Information/leak points Davian toward Kelyra.
-- Ends with: Davian splits off to rescue Kelyra while Maya/Niall push toward the central tower.
-- Watchpoints:
-  - The split needs emotional and tactical justification.
-  - Maya should feel the cost of letting Davian go and continuing with Niall.
   - The neglected-wedge approach should make High Clade rule feel socially visible, not just provide scenery.
 
-### Chapter 42 - Split Assault Begins: Davian to Kelyra, Maya to the Trap
+### Chapter 41 - The Tower Trap and Split Fronts
 
-- POV: alternating Davian/Maya; Niall's situation appears through Maya/Niall sequences.
-- Main job: establish simultaneous pressure fronts.
+- Primary POV: starts Maya, then can alternate Maya/Davian in larger readable sections.
+- Main job: begin the split-front sequence after Davian has entered the underground, move Maya/Niall into Serathis's central-tower trap, and lock the simultaneous battles into place.
 - Major beats:
-  - Davian tracks Kelyra through leaked/forced information.
-  - Davian fights through Archeon interior resistance or a prepared trap.
-  - Maya and Niall enter the central tower/throne-room path.
-  - Niall kills apparent defenders or breaks through resistance in a way that feels too easy.
-  - Maya notices signs that Serathis has held back valuable force.
-  - Throne-room/stained-glass Creator-worship remnants.
+  - Maya registers Davian leaving for the underground route and continues with Niall.
+  - Maya/Niall press toward the central tower; resistance is oddly easy or misallocated.
+  - Davian follows the underground route and notices it is credible but wrong.
+  - Central tower/throne-room path uses Creator-worship remnants and inherited High Clade architecture.
   - Serathis needles Niall around godhood, death, weakness, Creator imagery, and what High Clades pretend to be.
-  - Serathis triggers the collapsing-floor trap.
+  - Niall overcommits.
+  - Serathis triggers the floor/collapse trap.
   - Niall drops toward Vorren.
-  - Maya is pinned above by Serathis/held-back Archeon magi.
-- Ends with: Davian still trying to reach Kelyra; Maya separated from Niall and under attrition pressure.
+  - Maya is pinned above by Serathis and held-back Archeon magi.
+  - Davian is deep enough underground that the next Davian-side beat naturally becomes the Kelyra rescue/front.
+- Ends with: Niall below, Maya pinned above, and Davian on the underground rescue front.
 - Watchpoints:
-  - Start intercutting cleanly here.
+  - Start intercutting cleanly here, but do not accelerate into rapid climax pacing yet.
   - Keep spatial logic readable.
+  - Do not resolve Kelyra's Shroud, Serathis's death, Vorren's defeat, or Davian's death here.
 
-### Chapter 43 - Kelyra's Shroud and Maya's Attrition
+### Chapter 42 - Kelyra's Shroud and Maya's Attrition
 
 - POV: alternating Davian/Kelyra-side and Maya-side.
 - Main job: escalate both simultaneous fronts and get Davian/Kelyra positioned to relieve Maya.
@@ -174,7 +160,7 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
   - Kelyra should not become suddenly healed/clean; this is breakthrough under trauma.
   - Maya's fight should feel costly even if she is enormously powerful.
 
-### Chapter 44 - Serathis, Vorren, and the Rapid-Climax Intercut
+### Chapter 43 - Serathis, Vorren, and the Rapid-Climax Intercut
 
 - POV: rapid alternating Davian/Maya, with Niall through the Vorren fight.
 - Main job: resolve the physical fights.
@@ -197,7 +183,7 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
   - Davian's role is support/protection, not solo victory.
   - Vorren's end should feel appetite-frustrated rather than philosophical: not enough life, experience, freedom, or domination.
 
-### Chapter 45 - Elric, the Skein, and Resurrection
+### Chapter 44 - Elric, the Skein, and Resurrection
 
 - Primary POV: Maya.
 - Main job: reveal the real endgame after physical victory and execute Davian's death/resurrection.
@@ -215,7 +201,7 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
   - This is Maya POV.
   - Do not overexplain cosmology beyond the scene's needs.
 
-### Chapter 46 - Exit, Kelyra's Choice, and Davian's Ending
+### Chapter 45 - Exit, Kelyra's Choice, and Davian's Ending
 
 - Primary POV: starts Maya or neutral aftermath if needed, ends Davian.
 - Main job: land the immediate aftermath and end Book 1 on Davian choosing the Rezins.
@@ -240,7 +226,7 @@ The Drakhal proposal is not a replacement for the prior Spire public-provocation
 1. Is Chapter 37 too large if it contains the dining-hall scene, Jalen interruption, healing, and first intelligence? If so, split after Jalen's arrival.
 2. Does Chapter 39 become too overloaded with intelligence/training plus Drakhal arrival? If so, Drakhal arrival can become Chapter 40 and push assault planning forward.
 3. Does the final battle need three chapters instead of two before the Skein chapter? If spatial choreography becomes confusing, split Chapter 44 into Serathis resolution and Vorren resolution.
-4. Should Chapter 46 include both Kelyra's exit confrontation and Paradox, or should Paradox be a short epilogue-style Chapter 47?
+4. Should Chapter 45 include both Kelyra's exit confrontation and Paradox, or should Paradox be a short epilogue-style Chapter 46?
 
 ## Recommended next action
 
