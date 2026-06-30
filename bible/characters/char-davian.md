@@ -69,6 +69,8 @@ Davian is not yet a competent High Clade-style magus. His Shroud is weak and uns
 
 His broad Book 1 ability progression is: strong martial arts, then Ink, then Shroud, then later kinesis. The full Archeon-style combat stack is martial arts + Ink + Shroud + kinesis. Chapter 31 should mainly show him getting Shroud and martial arts to work together while Ink-altered movement/perception remains part of his body; kinesis integration comes later.
 
+By Chapter 36, Davian should already have the basic faster/right movement ability provided by Ink. Harvick's prototype Ink reveal is useful because it proves Harvick has an older Elric prototype Pact, not because it grants Davian a new movement category.
+
 Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink / being forced along Elric's intended path, not a separate accepted Pact ability. Ink influence does not erase his agency.
 
 Davian's initial Ink Pact is delivered through the Harbinger chamber ritual, with Ink running across the ground, grabbing him, and burning into him, but Elric / the Harbinger leader's direct touch or direct attention is the decisive transfer. The later underground Ink-spectre lair can echo this as a prototype or related delivery system.
@@ -148,6 +150,8 @@ Davian's promotion is real even though his identity is false: he receives it for
 Selwin:
 
 After the Heart theft, Davian tells Selwin that his name is Davian, not Arrek, apologizes for lying, and says he wants to help make things right.
+
+In Chapter 36, Selwin's response that Davian is "not as sad" because Davian cares about what he said is acceptable for now as part of the Davian-Selwin mirror: Selwin reads Davian's sadness/care and responds with openness rather than enemy-category abstraction.
 
 Accepted Selwin record: [Selwin Rezin](char-selwin.md)
 
@@ -231,6 +235,7 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
+- Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
 
 ## Canonical Uncertainties
 

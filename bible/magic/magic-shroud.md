@@ -47,6 +47,8 @@ High Clade magi generally try to keep their Shrouds up whenever they are not com
 
 A magus fighting properly blocks with the Shroud rather than with hands, weapons, or ordinary flinching reflexes. Keeping the body open allows the mind to form the appropriate countering schema.
 
+Chapter 36's broad training model is accepted: body-awareness/proprioception, openness under pressure, roughly similar baseline capacity, and throughput/sublimation as practical Shroud strength.
+
 ## Social Role
 
 High Clade culture treats Shroud manifestation as central to magus legitimacy, Presentation, bloodline status, and battlefield usefulness.
@@ -114,6 +116,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 - Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
+- Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
 
 ## Canonical Uncertainties
 

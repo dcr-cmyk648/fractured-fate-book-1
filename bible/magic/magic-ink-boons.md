@@ -88,13 +88,19 @@ Harvick:
 
 Harvick has a hidden prototypical Elric Ink Pact from early experiments. It gives bursts of unnatural speed and precision and a sense of faster or more correct movement. It does not give him Davian-style voice pressure.
 
+Davian already has faster/right movement as a basic Ink ability by the time Harvick reveals his Pact. Harvick's reveal matters because Harvick has a prototype Ink Pact at all. The prototype can differ from Davian's and Kelyra's newer Pacts because it may be designed for a normal human without a Shroud: safer and less body-ruining if used appropriately, but weaker/slower and less expansive.
+
 Kelyra:
 
 Kelyra received an Ink Pact that helped her kill the prior Concord leader in a Trial of Dominion and become Concord leader. She uses Ink-linked speed, force, and perception, but she does not have deeper forced-restructuring healing.
 
+Kelyra can use newer Ink-Pact movement by experience and control, running close to the edge of what would ruin her body.
+
 Karra:
 
 Karra receives an Ink Pact from the Harbinger leader / Elric to challenge Kelyra. Karra has deeper forced-restructuring healing, personally granted by the leader / Elric, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing and has no reason to anticipate it beyond having just seen Davian's unexplained healing. The current chapter's Ink-running-out / transfer-to-Davian explanation for Kelyra's defeat is not accepted.
+
+Karra can be injured by newer Ink-Pact movement and then healed by her deeper healing Pact.
 
 Serathis and Archeon:
 
@@ -155,6 +161,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
+- Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
 
 ## Provenance
 
