@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-16";
+const APP_VERSION = "review-interface-v0-sync-17";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -10,6 +10,7 @@ const STORAGE_KEYS = {
   chapter: "ffReview.chapterId",
   layer: "ffReview.layer",
   file: "ffReview.filePath",
+  ticket: "ffReview.ticketId",
   scratchpadTab: "ffReview.scratchpadTab",
   scratchpadContentDraft: "ffReview.scratchpad.contentDraft",
   scratchpadTechDraft: "ffReview.scratchpad.techDraft",
@@ -21,6 +22,7 @@ const STORAGE_KEYS = {
   readerCode: "ffReview.readerCode",
   readerCodeValidatedAt: "ffReview.readerCode.validatedAt",
   readerCodeDisplayName: "ffReview.readerCode.displayName",
+  readerCodeRole: "ffReview.readerCode.role",
   lastSyncAt: "ffReview.lastSync.generatedAt",
   lastSyncCount: "ffReview.lastSync.commentCount",
   lastSyncLatestCreatedAt: "ffReview.lastSync.latestCommentCreatedAt"
@@ -34,6 +36,7 @@ let currentMode = "reader";
 let currentChapterId = null;
 let currentLayer = "prose";
 let currentFilePath = null;
+let currentTicketId = null;
 let currentScratchpadTab = "content";
 let browserTreeOpen = false;
 let readerControlsOpen = false;
@@ -148,25 +151,30 @@ async function loadData() {
 
 function setView(view) {
   if (view === "repo-browser" && currentMode === "reader") view = "book-reader";
+  if (view === "ticket-review" && currentMode === "reader") view = "book-reader";
   if (view === "scratchpad" && currentMode === "reader") view = "book-reader";
   currentView = view;
   localStorage.setItem(STORAGE_KEYS.view, view);
   document.body.classList.toggle("view-reader", view === "book-reader");
   document.body.classList.toggle("view-browser", view === "repo-browser");
+  document.body.classList.toggle("view-ticket-review", view === "ticket-review");
   document.body.classList.toggle("view-export", view === "export");
   document.body.classList.toggle("view-scratchpad", view === "scratchpad");
   $("bookReaderView").classList.toggle("active", view === "book-reader");
   $("repoBrowserView").classList.toggle("active", view === "repo-browser");
+  $("ticketReviewView").classList.toggle("active", view === "ticket-review");
   $("exportView").classList.toggle("active", view === "export");
   $("scratchpadView").classList.toggle("active", view === "scratchpad");
   $("readerNavBtn").classList.toggle("active", view === "book-reader");
   $("browserNavBtn").classList.toggle("active", view === "repo-browser");
+  $("ticketsNavBtn").classList.toggle("active", view === "ticket-review");
   $("scratchpadNavBtn").classList.toggle("active", view === "scratchpad");
   $("exportNavBtn").classList.toggle("active", view === "export");
   updateTargetDisplay();
   if (view === "book-reader") syncMobileReaderUi();
   if (view === "export") renderCommentList();
   if (view === "repo-browser") syncMobileBrowserUi();
+  if (view === "ticket-review") renderTicketReview();
   if (view === "scratchpad") renderScratchpadUi();
 }
 
@@ -184,6 +192,7 @@ function setMode(mode) {
   $("readerModeBtn").classList.toggle("active", mode === "reader");
   $("authorModeBtn").classList.toggle("active", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
+  $("ticketsNavBtn").disabled = mode === "reader";
   $("scratchpadNavBtn").disabled = mode === "reader";
   $("modeStatus").textContent = mode === "reader"
     ? "Reader Mode active: repository browser is hidden."
@@ -192,7 +201,7 @@ function setMode(mode) {
     currentLayer = "prose";
     localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
   }
-  if (mode === "reader" && (currentView === "repo-browser" || currentView === "scratchpad")) {
+  if (mode === "reader" && (currentView === "repo-browser" || currentView === "ticket-review" || currentView === "scratchpad")) {
     setView("book-reader");
   }
   if (!appIndex) return;
@@ -577,8 +586,101 @@ function renderFile(path) {
   updateTargetDisplay();
 }
 
+function ticketSortRank(ticket) {
+  const statusRank = {
+    proposed: 0,
+    "needs-author-decision": 1,
+    "accepted-for-workflow": 3,
+    rejected: 4
+  };
+  const priorityRank = {
+    blocking: 0,
+    high: 1,
+    medium: 2,
+    low: 3
+  };
+  return [
+    statusRank[ticket.status] ?? 2,
+    priorityRank[ticket.priority] ?? 4,
+    ticket.ticket_id || ""
+  ];
+}
+
+function filteredTickets() {
+  const filter = $("ticketStatusFilter")?.value || "current";
+  const tickets = appIndex.tickets || [];
+  return tickets
+    .filter((ticket) => {
+      if (filter === "all") return true;
+      if (filter === "current") return !["accepted-for-workflow", "rejected", "superseded"].includes(ticket.status);
+      return ticket.status === filter;
+    })
+    .sort((a, b) => {
+      const ar = ticketSortRank(a);
+      const br = ticketSortRank(b);
+      return String(ar[0]).localeCompare(String(br[0])) ||
+        String(ar[1]).localeCompare(String(br[1])) ||
+        String(ar[2]).localeCompare(String(br[2]));
+    });
+}
+
+function currentTicket() {
+  return (appIndex.tickets || []).find((ticket) => ticket.ticket_id === currentTicketId) || null;
+}
+
+function ticketTitle(ticket) {
+  return ticket ? `${ticket.ticket_id}: ${ticket.target || ticket.ticket_type || "Ticket"}` : "No ticket selected";
+}
+
+function renderTicketList() {
+  const list = $("ticketList");
+  if (!list) return;
+  const tickets = filteredTickets();
+  if (!tickets.length) {
+    list.innerHTML = "<p>No tickets match this filter.</p>";
+    return;
+  }
+  if (!tickets.some((ticket) => ticket.ticket_id === currentTicketId)) {
+    currentTicketId = tickets[0].ticket_id;
+    localStorage.setItem(STORAGE_KEYS.ticket, currentTicketId);
+  }
+  list.innerHTML = tickets.map((ticket) => `
+    <button type="button" class="ticket-item ${ticket.ticket_id === currentTicketId ? "active" : ""}" data-ticket-id="${escapeHtml(ticket.ticket_id)}">
+      <strong>${escapeHtml(ticket.ticket_id)}</strong>
+      <span>${escapeHtml(ticket.target || "")}</span>
+      <small>${escapeHtml(ticket.status || "")} · ${escapeHtml(ticket.priority || "")} · ${escapeHtml(ticket.ticket_type || "")}</small>
+    </button>
+  `).join("");
+}
+
+function renderTicketReview() {
+  if (!$("ticketList")) return;
+  renderTicketList();
+  const ticket = currentTicket();
+  const panel = $("ticketContent");
+  if (!ticket) {
+    $("ticketPath").textContent = "No ticket selected";
+    $("ticketBadge").textContent = "";
+    panel.innerHTML = "<p>No ticket selected.</p>";
+    updateTargetDisplay();
+    return;
+  }
+  localStorage.setItem(STORAGE_KEYS.ticket, ticket.ticket_id);
+  currentLayer = "ticket-review";
+  currentFilePath = ticket.source_file || "feedback/webapp/tickets/index.md";
+  $("ticketPath").textContent = `${ticket.ticket_id} · ${ticket.source_file || "ticket index"}`;
+  $("ticketBadge").textContent = `${ticket.status} · ${ticket.priority}`;
+  $("ticketBadge").className = `badge ${ticket.status === "proposed" ? "review" : ""}`;
+  const text = ticket.source_file && appContent.files?.[ticket.source_file]
+    ? appContent.files[ticket.source_file].content
+    : `# ${ticket.ticket_id}\n\n${ticket.summary || ticket.target || "No detail available."}\n`;
+  panel.innerHTML = basicMarkdownToHtml(text);
+  enhanceReadableTables(panel);
+  updateTargetDisplay();
+}
+
 function approximateScrollPercent() {
-  if (currentView === "book-reader" || currentView === "repo-browser") {
+  if (currentView === "book-reader" || currentView === "repo-browser" || currentView === "ticket-review") {
     const max = document.documentElement.scrollHeight - window.innerHeight;
     if (max <= 0) return 0;
     return Math.round((window.scrollY / max) * 100);
@@ -592,6 +694,10 @@ function approximateScrollPercent() {
 function currentHeading() {
   if (currentView === "scratchpad") {
     return currentScratchpadTab === "technical-processing" ? "Technical / Processing" : "Content";
+  }
+  if (currentView === "ticket-review") {
+    const ticket = currentTicket();
+    return ticket ? ticketTitle(ticket) : "Ticket Review";
   }
   if (currentView === "repo-browser" && currentFilePath) {
     return visibleContentAnchor("fileContent") || appContent.files?.[currentFilePath]?.headings?.[0]?.text || null;
@@ -673,6 +779,28 @@ function abbreviate(value, max = 120) {
 function currentReference() {
   const chapter = currentView === "book-reader" ? currentChapter() : null;
   const meta = appIndex.metadata || {};
+  if (currentView === "ticket-review") {
+    const ticket = currentTicket();
+    return {
+      repo_commit: meta.commit_hash || null,
+      repo_branch: meta.branch || null,
+      app_version: APP_VERSION,
+      view_mode: "ticket-review",
+      current_layer: "ticket-review",
+      current_file_path: ticket?.source_file || "feedback/webapp/tickets/index.md",
+      chapter_id: null,
+      chapter_title: null,
+      source_line_start: visibleRenderedLineRange("ticketContent").source_line_start || null,
+      source_line_end: visibleRenderedLineRange("ticketContent").source_line_end || null,
+      current_heading: currentHeading(),
+      ticket_id: ticket?.ticket_id || null,
+      ticket_title: ticket ? ticketTitle(ticket) : null,
+      ticket_status: ticket?.status || null,
+      ticket_type: ticket?.ticket_type || null,
+      selected_text: selectedText(),
+      approximate_scroll_percent: approximateScrollPercent()
+    };
+  }
   if (currentView === "scratchpad") {
     return {
       repo_commit: meta.commit_hash || null,
@@ -715,6 +843,8 @@ function updateTargetDisplay() {
   const ref = currentReference();
   const target = ref.view_mode === "scratchpad"
     ? `Author Scratchpad · ${ref.current_heading}`
+    : ref.view_mode === "ticket-review"
+    ? `Ticket · ${ref.ticket_id || ref.current_heading}`
     : ref.chapter_title
     ? `${ref.chapter_title} · ${ref.current_layer}`
     : ref.current_file_path || "No target";
@@ -734,6 +864,8 @@ function renderReferenceDetails(ref = currentReference()) {
     ["View", ref.view_mode],
     ["Layer", ref.current_layer],
     ["Chapter", ref.chapter_title || ref.chapter_id || ""],
+    ["Ticket", ref.ticket_id || ""],
+    ["Status", ref.ticket_status || ""],
     ["File", file],
     ["Lines", lines],
     ["Heading", ref.current_heading || ""],
@@ -753,12 +885,10 @@ function renderCommentCount() {
 function submitComment() {
   const text = $("commentText").value.trim();
   if (!text) return;
-  const commenter = getCommenterName() || "Reader";
   const record = {
     id: `comment-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     created_at: new Date().toISOString(),
-    commenter_name: commenter,
-    reviewer_session_id: getSessionId(),
+    ...commentIdentityFields(),
     ...currentReference(),
     comment_text: text,
     status: "inbox"
@@ -800,12 +930,10 @@ function setScratchpadTab(tab) {
 function submitScratchpad() {
   const text = $("scratchpadText").value.trim();
   if (!text) return;
-  const commenter = getCommenterName() || "Reader";
   const record = {
     id: `scratchpad-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     created_at: new Date().toISOString(),
-    commenter_name: commenter,
-    reviewer_session_id: getSessionId(),
+    ...commentIdentityFields(),
     ...currentReference(),
     scratchpad_type: currentScratchpadTab,
     comment_text: text,
@@ -845,10 +973,13 @@ function renderScratchpadUi() {
 }
 
 function exportMetadata() {
+  const identity = localVerifiedRole();
   return {
     exported_at: new Date().toISOString(),
     app_version: APP_VERSION,
     commenter_name: getCommenterName() || "Reader",
+    commenter_role: identity.commenter_role,
+    commenter_role_verified: identity.commenter_role_verified,
     reviewer_session_id: getSessionId(),
     repo_branch: appIndex.metadata?.branch || null,
     repo_commit: appIndex.metadata?.commit_hash || null,
@@ -898,6 +1029,31 @@ function getReaderCode() {
   return localStorage.getItem(STORAGE_KEYS.readerCode) || "";
 }
 
+function localVerifiedRole() {
+  const validatedAt = localStorage.getItem(STORAGE_KEYS.readerCodeValidatedAt);
+  const role = localStorage.getItem(STORAGE_KEYS.readerCodeRole);
+  if (!validatedAt || !["author", "reader"].includes(role)) {
+    return {
+      commenter_role: "unverified",
+      commenter_role_verified: false,
+      reader_id: null
+    };
+  }
+  return {
+    commenter_role: role,
+    commenter_role_verified: true,
+    reader_id: null
+  };
+}
+
+function commentIdentityFields() {
+  return {
+    commenter_name: getCommenterName() || "Reader",
+    reviewer_session_id: getSessionId(),
+    ...localVerifiedRole()
+  };
+}
+
 function saveReaderCode() {
   const code = $("readerCodeInput").value.trim();
   if (!code) {
@@ -907,6 +1063,7 @@ function saveReaderCode() {
   localStorage.setItem(STORAGE_KEYS.readerCode, code);
   localStorage.removeItem(STORAGE_KEYS.readerCodeValidatedAt);
   localStorage.removeItem(STORAGE_KEYS.readerCodeDisplayName);
+  localStorage.removeItem(STORAGE_KEYS.readerCodeRole);
   $("readerCodeInput").value = "";
   renderExportStatus();
 }
@@ -918,6 +1075,9 @@ function markSyncGenerated(result, records) {
   localStorage.setItem(STORAGE_KEYS.lastSyncLatestCreatedAt, latestCommentCreatedAt(comments) || "");
   if (result?.reader?.display_name) {
     localStorage.setItem(STORAGE_KEYS.readerCodeDisplayName, result.reader.display_name);
+  }
+  if (result?.reader?.role) {
+    localStorage.setItem(STORAGE_KEYS.readerCodeRole, result.reader.role === "author" ? "author" : "reader");
   }
   localStorage.setItem(STORAGE_KEYS.readerCodeValidatedAt, now);
   renderExportStatus();
@@ -1132,9 +1292,10 @@ function renderExportStatus() {
   const lastSyncAt = localStorage.getItem(STORAGE_KEYS.lastSyncAt);
   const validatedAt = localStorage.getItem(STORAGE_KEYS.readerCodeValidatedAt);
   const readerDisplayName = localStorage.getItem(STORAGE_KEYS.readerCodeDisplayName);
+  const readerRole = localStorage.getItem(STORAGE_KEYS.readerCodeRole);
   const readerCode = getReaderCode();
   $("readerCodeStatus").textContent = readerCode
-    ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}` : "Saved, not yet validated"}`
+    ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}${readerRole ? ` · ${readerRole}` : ""}` : "Saved, not yet validated"}`
     : "Reader code: Not saved";
   $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
   $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
@@ -1275,12 +1436,17 @@ function renderCommentList() {
       const target = comment.chapter_title || comment.current_file_path || "No target";
       const label = comment.view_mode === "scratchpad"
         ? `Scratchpad: ${scratchpadLabel(comment.scratchpad_type)}`
+        : comment.view_mode === "ticket-review"
+        ? `Ticket: ${comment.ticket_id || comment.current_heading || "ticket"}`
         : target;
+      const role = comment.commenter_role_verified
+        ? `${comment.commenter_role || "verified"} verified`
+        : (comment.commenter_role || "unverified");
       return `<article class="comment-card">
         <strong>${escapeHtml(label)}</strong>
         <div class="content-meta">
           <span>${escapeHtml(comment.commenter_name)} · ${escapeHtml(comment.created_at)}</span>
-          <span>${escapeHtml(comment.current_layer || "")}</span>
+          <span>${escapeHtml(comment.current_layer || "")} · ${escapeHtml(role)}</span>
         </div>
         <p>${escapeHtml(comment.comment_text)}</p>
       </article>`;
@@ -1293,6 +1459,7 @@ function wireEvents() {
   $("changeNameBtn").addEventListener("click", () => promptForName(true));
   $("readerNavBtn").addEventListener("click", () => setView("book-reader"));
   $("browserNavBtn").addEventListener("click", () => setView("repo-browser"));
+  $("ticketsNavBtn").addEventListener("click", () => setView("ticket-review"));
   $("scratchpadNavBtn").addEventListener("click", () => setView("scratchpad"));
   $("exportNavBtn").addEventListener("click", () => setView("export"));
   $("readerModeBtn").addEventListener("click", () => setMode("reader"));
@@ -1355,6 +1522,15 @@ function wireEvents() {
       renderFile(button.dataset.path);
     }
   });
+  $("ticketStatusFilter").addEventListener("change", renderTicketReview);
+  $("ticketList").addEventListener("click", (event) => {
+    const button = event.target.closest(".ticket-item");
+    if (!button?.dataset.ticketId) return;
+    currentTicketId = button.dataset.ticketId;
+    localStorage.setItem(STORAGE_KEYS.ticket, currentTicketId);
+    renderTicketReview();
+    if (isMobileLayout()) $("ticketContent")?.scrollIntoView({ block: "start" });
+  });
   document.addEventListener("selectionchange", updateTargetDisplay);
   window.addEventListener("scroll", () => {
     updateTargetDisplay();
@@ -1391,8 +1567,14 @@ async function init() {
   renderFileTree();
   const savedView = localStorage.getItem(STORAGE_KEYS.view);
   const savedFile = localStorage.getItem(STORAGE_KEYS.file);
+  const savedTicket = localStorage.getItem(STORAGE_KEYS.ticket);
+  if (savedTicket && (appIndex.tickets || []).some((ticket) => ticket.ticket_id === savedTicket)) {
+    currentTicketId = savedTicket;
+  }
   if (currentMode === "author" && savedView === "scratchpad") {
     setView("scratchpad");
+  } else if (currentMode === "author" && savedView === "ticket-review") {
+    setView("ticket-review");
   } else if (currentMode === "author" && savedView === "repo-browser" && savedFile && appContent.files?.[savedFile]) {
     renderFile(savedFile);
   } else {
