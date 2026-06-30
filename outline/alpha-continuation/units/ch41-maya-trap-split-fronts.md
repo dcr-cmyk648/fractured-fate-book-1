@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 41
 - Working title: The Tower Trap and Split Fronts
-- Current status: author-review packet
+- Current status: approved working detailed outline
 - Prior unit: `ch40-counterattack-commitment-archeon.md`
 - Prose drafting: not authorized
 
@@ -119,7 +119,8 @@ Purpose:
 - Serathis goads him further.
 - Maya puts together too late that the "magi" Niall killed were decoys without Shrouds.
 - Niall moves forward screaming and blasting lightning.
-- He triggers a zä/za circle that explodes and drops him through the floor.
+- He triggers a circle of zä etched on the floor, hidden within the other intricate floor patterns, that illuminates and detonates when he enters it.
+- Technically this is likely a lattice etched in a circular way, but Maya should experience and describe it as a circle of zä in the moment rather than as a circuit diagram.
 - Numerous other explosions go off underground as he falls; Maya can hear them but not see them.
 - The presumed function is to weaken, bury, and isolate Niall before Vorren.
 
@@ -192,7 +193,7 @@ Preferred ending: Maya stands above the collapsed floor with Niall gone below, S
 ### Character Goals
 
 - Maya: loses another unfinished Davian conversation, sees the cost of staying with Niall's front, notices the decoy/Shroud issue too late, and is forced into time-pressure attrition instead of clean victory.
-- Niall: destroys the decoys with overwhelming lightning, but the exertion winds him and his authority-by-killing pattern leaves him vulnerable to the zä-circle trap.
+- Niall: destroys the decoys with overwhelming lightning, but the exertion winds him and his authority-by-killing pattern leaves him vulnerable to the floor's hidden zä-circle trap.
 - Davian: chooses Kelyra's rescue with agency, reaches her holding area, and is confronted by Drosin's resentment/defiance of Serathis's capture order.
 - Serathis: becomes the visible architect of the split, decoys, bait, and delay.
 - Drosin: functions as the live Archeon obstacle on Davian's front; Brann is already dead in the mapped material.
@@ -240,11 +241,12 @@ Preferred ending: Maya stands above the collapsed floor with Niall gone below, S
 3. Davian's first underground beat should end with him seeing the holding area where Kelyra is likely held.
 4. The throne-room approach and Serathis goading should be condensed into one major Maya sequence.
 5. Niall kills the decoy non-Shrouded apparent magi with lightning through the windows; Serathis survives via grounding pillars.
-6. Niall triggers the zä/za circle and falls through the floor with additional underground explosions.
+6. Niall triggers a circle of zä hidden within the floor pattern and falls through the floor with additional underground explosions.
 7. Davian finds Kelyra in Scene 6 and is blocked by Drosin, who intends to kill him despite Serathis's capture-alive order.
 8. The chapter ends from Maya's POV as Serathis reveals numerous unPresented but Shrouded Archeon magi entering from front and back.
+9. Drosin is confirmed as the live named Archeon opponent near Kelyra.
+10. The trap should be described from Maya's perspective as a circle of zä etched on the floor and hidden within intricate floor patterns, even though technically it is likely a lattice etched in a circular way.
 
-## Required Author Questions
+## Approval Status
 
-1. Confirm Drosin as the live named Archeon opponent near Kelyra, since Brann is already dead in the mapped Chapter 31 material.
-2. Should the zä/za circle term be rendered as `zä circle`, `za circle`, or a more general `zän circle/lattice` in this outline and later prose?
+Approved as the working detailed Chapter 41 outline on 2026-06-30. Prose drafting remains unauthorized.

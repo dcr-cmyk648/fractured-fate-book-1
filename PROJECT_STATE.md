@@ -6,7 +6,7 @@ Last updated: 2026-06-30
 
 - Current branch: beta
 - Current migration phase: Phase 7 alpha-continuation architecture
-- Current block: alpha-continuation detailed Chapter 41 outline
+- Current block: alpha-continuation detailed Chapter 42 outline
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
@@ -16,12 +16,12 @@ Last updated: 2026-06-30
 
 ## Block status
 
-- Current block: alpha-continuation detailed Chapter 41 outline
-- Block scope: current cutoff, approved remaining alpha sequence architecture, approved working chapter division, approved detailed Chapter 37, Chapter 38, Chapter 39, and Chapter 40 unit outlines, and detailed Chapter 41 unit outline under `REVISION_WORKFLOW.md`
+- Current block: alpha-continuation detailed Chapter 42 outline
+- Block scope: current cutoff, approved remaining alpha sequence architecture, approved working chapter division, approved detailed Chapter 37, Chapter 38, Chapter 39, Chapter 40, and Chapter 41 unit outlines, and detailed Chapter 42 unit outline under `REVISION_WORKFLOW.md`
 - Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
 - Last consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
 - Last chapter-map consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
-- Consistency review due: no; detailed Chapter 41 outline packet is ready for author review
+- Consistency review due: no; detailed Chapter 42 outline packet is ready for author review
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md` were approved as the working alpha-continuation structure, with flexible Chapter 37/38 boundary management and with the Spire provocation followed by the Rezin-citadel Drakhal proposal as sequential political trap beats. The detailed Chapter 37 outline at `outline/alpha-continuation/units/ch37-dining-jalen-intelligence.md`, Chapter 38 outline at `outline/alpha-continuation/units/ch38-davian-night-unresolved-want.md`, Chapter 39 outline at `outline/alpha-continuation/units/ch39-intelligence-drakhal-proposal.md`, and Chapter 40 outline at `outline/alpha-continuation/units/ch40-counterattack-commitment-archeon.md` were approved as working detailed outlines. The active author-review packet is the detailed Chapter 41 outline at `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md`.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md` were approved as the working alpha-continuation structure, with flexible Chapter 37/38 boundary management and with the Spire provocation followed by the Rezin-citadel Drakhal proposal as sequential political trap beats. The detailed Chapter 37 outline at `outline/alpha-continuation/units/ch37-dining-jalen-intelligence.md`, Chapter 38 outline at `outline/alpha-continuation/units/ch38-davian-night-unresolved-want.md`, Chapter 39 outline at `outline/alpha-continuation/units/ch39-intelligence-drakhal-proposal.md`, Chapter 40 outline at `outline/alpha-continuation/units/ch40-counterattack-commitment-archeon.md`, and Chapter 41 outline at `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md` were approved as working detailed outlines. The active author-review packet is the detailed Chapter 42 outline at `outline/alpha-continuation/units/ch42-kelyra-shroud-maya-attrition.md`.
 
 ## Next action
 
-Author reviews `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md`, answers the Chapter 41 outline questions, and then Codex revises or finalizes the Chapter 41 outline. No prose drafting is authorized until explicitly requested.
+Author reviews `outline/alpha-continuation/units/ch42-kelyra-shroud-maya-attrition.md`, answers the Chapter 42 outline questions, and then Codex revises or finalizes the Chapter 42 outline. No prose drafting is authorized until explicitly requested.
 
 ## Awaiting author input
 
-Detailed Chapter 41 outline packet is awaiting author review. No current web-app comment ticket blocks that packet.
+Detailed Chapter 42 outline packet is awaiting author review. No current web-app comment ticket blocks that packet.
 
 ## Workflow policy note
 
