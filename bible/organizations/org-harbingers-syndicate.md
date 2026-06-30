@@ -34,7 +34,11 @@ The Harbingers operate through hidden meeting places, underground routes, guides
 
 They use Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence.
 
+The Harbinger leader is the visible arbiter and purveyor of Book 1 Ink Pacts, with Elric as the hidden actor inside or behind him. Major Pacts route through the leader / Elric's direct touch or direct attention. Harbinger chambers, zä, pooled Ink, and tendrils can serve as delivery infrastructure, but they should not read as independent machines that any Harbinger can operate without Elric's authority.
+
 One accepted use of Harbinger/Elric Ink is Davian's Registry bypass: he adds Arrek's name and relies on the Ink Pact to maintain the aura/name match under extremely specific conditions made plausible by Elric's knowledge of the Rezin Registry.
+
+Elric's later Rezin-citadel visit reinforces Davian's Arrek-aura mimicry rather than granting Davian's deeper healing. The visit also shows that Elric can enter and leave the citadel despite the Registry, while still needing to avoid Niall's attention.
 
 The five hooded figures from the early Syndicate meeting can remain part of the current canon. Elric has many allies whose identities he might want to conceal, including Archeon, Vorren, and Drakhal-aligned figures, so the figures could be any number of people. Their exact identities and structural role remain unresolved.
 
@@ -95,6 +99,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 ## Canonical Uncertainties
 
 - Exact transfer, failure, depletion, and derivative/later-book Ink Pact mechanics remain unresolved.
+- Major Book 1 Ink Pacts route through Elric / the Harbinger leader, but the exact limits of direct touch versus direct attention remain flexible.
 - Exact leader name and pre-Ink personal history remain unresolved.
 - Exact identities and authority of the five hooded figures remain unresolved.
 - Exact detailed Trial of Dominion mechanics and the current chapter's Ink-running-out / transfer-to-Davian explanation remain for `org-concord`, Ink, and later revision/character reviews.

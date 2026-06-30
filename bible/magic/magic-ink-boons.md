@@ -43,7 +43,11 @@ Davian's intrusive pressure to kill Niall is a psychotic side effect of receivin
 
 Davian can resist Ink pressure. The Ink Pact increases pressure and distorts cognition, but it does not erase his agency.
 
-Davian receives the deeper healing Pact when Elric visits him in the Rezin citadel after Davian saves Selwin and is promoted.
+Davian's initial Heart-theft Pact is granted through the Harbinger chamber ritual, but Elric / the Harbinger leader is the decisive arbiter of the Pact rather than the chamber acting as an independent machine. The chamber can still visibly run Ink along the ground, form zä / ritual infrastructure, and grab Davian with tendrils while Elric approaches and touches him to complete or direct the transfer.
+
+Elric later visits Davian in the Rezin citadel after Davian saves Selwin and is promoted. That visit reinforces the Ink that lets Davian mimic Arrek's aura and shows that Elric can come in and out of the citadel despite the Registry while still wanting to stay hidden from Niall.
+
+Davian's deeper forced-restructuring healing comes later, when Elric has almost completely taken over the Harbinger leader's body and touches Davian on the head. That final reinforcement pushes Davian into near-psychotic Ink levels: he sees dark threads, hears the Ink whispering to him, and is forced along a path/thread strongly enough that the healing manifests as the Ink not letting him die before reaching the intended endpoint.
 
 Antithesis transformation is no longer canon. Antithesis is a knife throughout Book 1. How Davian conceals it inside the Rezin citadel before he is searched belongs to later revision planning.
 
@@ -76,7 +80,7 @@ The Harbinger/Syndicate leader represents the deepest known level. Elric gave th
 
 Davian:
 
-Davian receives Harbinger/Elric Ink for the Heart theft and Registry bypass. His accepted Pact effects are aura absorption/mimicry while killing Arrek, rapid Skein-related movement, and later forced-restructuring healing.
+Davian receives Harbinger/Elric Ink for the Heart theft and Registry bypass. His accepted Pact effects are aura absorption/mimicry while killing Arrek, rapid Skein-related movement, and later forced-restructuring healing. The initial Pact uses Harbinger chamber infrastructure, but Elric / the Harbinger leader's direct touch or direct attention is what truly grants and shapes the Pact. The later Rezin-citadel contact reinforces Arrek-aura mimicry; the final head-touch reinforcement grants or unlocks the deeper healing and near-psychotic dark-thread pressure.
 
 Harvick:
 
@@ -88,7 +92,7 @@ Kelyra received an Ink Pact that helped her kill the prior Concord leader in a T
 
 Karra:
 
-Karra receives an Ink Pact from the Harbinger leader to challenge Kelyra. Karra has deeper forced-restructuring healing, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing. The current chapter's Ink-running-out / transfer-to-Davian explanation for Kelyra's defeat remains candidate material.
+Karra receives an Ink Pact from the Harbinger leader / Elric to challenge Kelyra. Karra has deeper forced-restructuring healing, personally granted by the leader / Elric, which allows her to rise whole after Kelyra apparently kills her during the Trial of Dominion. Kelyra does not have this healing and has no reason to anticipate it beyond having just seen Davian's unexplained healing. The current chapter's Ink-running-out / transfer-to-Davian explanation for Kelyra's defeat is not accepted.
 
 Serathis and Archeon:
 
@@ -96,7 +100,7 @@ Elric gave Serathis Archeon's first Ink Pact before Serathis's Shroud was formed
 
 Harbinger/Syndicate leader:
 
-The leader's Ink Pact is Elric's route to long-term possession and puppet-like control.
+The leader's Ink Pact is Elric's route to long-term possession and puppet-like control. By Book 1, the leader is also the visible arbiter and purveyor of Book 1 Ink Pacts, though the hidden actor is Elric.
 
 Vorren:
 
@@ -115,11 +119,12 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 ## Canonical Uncertainties
 
 - Exact Ink-before-Shroud timing remains tentative. Current author direction is that Ink may need to be received before Shroud manifestation, but this is not finalized.
+- Exact line between direct touch and direct attention remains flexible, but major Book 1 Pacts should route through Elric / the Harbinger leader as arbiter rather than functioning as independent transferable magic.
 - Whether Ink-adjacent abilities interrupt or destabilize Shrouds remains unresolved.
 - Exact mechanics of Elric's Harbinger-leader possession remain for later Elric, Harbinger, and fate/Skein reviews.
 - Exact Ink/fate-thread visibility remains unresolved.
 - Exact relationship between Ink Pact movement, fate-thread visibility, and the Fateweaving/Skein structure remains unresolved.
-- Transfer between users or relatives remains candidate and is likely too confusing for the Book 1 plot unless later re-approved.
+- Transfer between users or relatives remains candidate for later stories and is not the accepted Book 1 explanation for Davian, Kelyra, or Karra.
 - Derivative or mass-produced Ink Pacts are later-book or later-story material, not Book 1 accepted canon.
 - Exact mechanics linking Ink Pact rapid movement with Archeon kinesis, Shrouds, and martial technique remain for later magic reviews.
 

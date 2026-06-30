@@ -23,6 +23,8 @@ His arc moves toward values: valuing Maya, protecting people and things he value
 
 Davian's agency remains central. He is pressured by family danger, Harbingers/Elric, Ink/dark-thread compulsion, dissociation, and Kelyra's ideology, but he still chooses and persists.
 
+The Ink pressure is now structurally tied to staged Elric interventions: Davian's initial Pact comes through Harbinger chamber infrastructure and the leader / Elric's decisive touch or attention; the later Rezin-citadel visit reinforces Arrek-aura mimicry and proves Elric can bypass the Registry while hiding from Niall; and the later head-touch reinforcement pushes Davian into near-psychotic dark-thread pressure and forced-restructuring healing.
+
 His culpability includes Arrek's murder, the Heart theft, lying to Maya, harming Harvick, and nearly killing Niall.
 
 The author specifically notes that absolving Davian from culpability for bad decisions would also absolve him from having any real agency to make good or bad decisions. The arc should preserve the fact that his choices matter.
@@ -63,7 +65,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Arrek-family restitution or cousin consequences.
 - Whether Davian explicitly tells Maya he has loved her since the wall, or whether that remains subtext/near-confession.
 - Exact Paradox handoff / Niall-Davian sword beat.
-- Exact mechanics of Elric's Ink/fate manipulation of Davian.
+- Exact low-level mechanics of Elric's Ink/fate manipulation of Davian, beyond the accepted staged intervention structure.
 - Exact late Shroud/kinesis/Ink integration.
 
 ## Related Files

@@ -10,7 +10,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | yes |
 | WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | yes |
 | WC-2026-06-30-006 | accepted-for-workflow | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
-| WC-2026-06-30-007 | in-review | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
+| WC-2026-06-30-007 | accepted-for-workflow | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
 | WC-2026-06-30-008 | accepted-for-workflow | medium | revision-suggestion | future manuscript snapshot workflow | yes |
 
 ## WC-2026-06-30-001: Resolve Endgame Fight Architecture and Character Agency
@@ -173,7 +173,7 @@ Rationale: This should be checked against existing Harbingers/Syndicate records 
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-001`
-- Status: in-review
+- Status: accepted-for-workflow; applied
 - Priority: high
 - Ticket type: story-bible-review
 - Source comment IDs: `comment-1782783152000-qcjtx7`
@@ -194,6 +194,8 @@ Rationale: This should be checked against existing Harbingers/Syndicate records 
 Summary: Consider changing earlier material so Davian receives Ink through direct touch from the Harbinger/Elric figure in Chapter 29, making that figure the arbiter and purveyor of Ink.
 
 Rationale: This could materially alter Ink Pact mechanics, Davian's history, Harbinger authority, Elric's role, and earlier setup. It should be addressed before higher-level chapter/outlining work treats the existing Ink delivery sequence as stable.
+
+Disposition: Accepted by author on 2026-06-30 and applied to owner files. See decision record `decisions/0076-elric-ink-arbiter-and-davian-reinforcement.md`.
 
 ## WC-2026-06-30-008: Define Future Alpha/Beta Manuscript Snapshot Workflow
 

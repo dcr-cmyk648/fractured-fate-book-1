@@ -63,11 +63,15 @@ Davian's current abilities include:
 - exposure to Harbinger/Syndicate Ink Pact
 - aura absorption/mimicry through Ink Pact after killing a target
 - rapid movement related to moving through a wrinkle-in-space manner through the Skein
-- deeper Ink Pact healing through forced restructuring after Elric visits him in the Rezin citadel
+- deeper Ink Pact healing through forced restructuring after Elric's later head-touch reinforcement pushes him into near-psychotic Ink pressure
 
 Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, kinesis, and Ink exposure without being controlled by the Ink's pressure.
 
-Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink, not a separate accepted Pact ability. Ink influence does not erase his agency.
+Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink / being forced along Elric's intended path, not a separate accepted Pact ability. Ink influence does not erase his agency.
+
+Davian's initial Ink Pact is delivered through the Harbinger chamber ritual, with Ink running across the ground, grabbing him, and burning into him, but Elric / the Harbinger leader's direct touch or direct attention is the decisive transfer. The later underground Ink-spectre lair can echo this as a prototype or related delivery system.
+
+Elric's Rezin-citadel visit after Davian saves Selwin and is promoted does not grant Davian's healing. Its accepted function is to show that Elric can enter and leave the citadel despite the Registry, that he wants to remain hidden from Niall, and that he is reinforcing the Ink that lets Davian mimic Arrek's aura. Davian's forced-restructuring healing comes later, when Elric has almost fully taken over the Harbinger leader's body and touches Davian on the head. That final contact flips Davian into near-psychotic Ink levels: dark-thread perception, whispered pressure, and the sense that "he" will not let Davian die before the intended endpoint.
 
 Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
@@ -161,7 +165,7 @@ Davian's original start-book mask is not Selina's. The later Nizän-marked mask 
 
 In the prologue, Davian operates with the Twilight Concord under Jalen, fights the Sorevin Head Magus at Sorevin manor with Antithesis, and sees Maya on the wall after her destructive magic affects the battle.
 
-In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact.
+In Chapter 2, the Harbingers/Syndicate turn the job from document theft into Heart theft. Davian volunteers after the Concord is threatened and receives an Ink Pact through the Harbinger chamber ritual and the leader / Elric's decisive contact or attention.
 
 Later manuscript material establishes Davian's post-theft exposure, interrogation, and training: he admits the aura theft, describes Subversion, manifests a weak Shroud, trains with Maya/Harvick/Selwin, and tries to make things right while still carrying guilt and defensive anger.
 
@@ -226,7 +230,7 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 
 - The Harbingers/Syndicate name transition is settled at the organization level: Syndicate is the earlier/former name and Harbingers is the current Ink-powered identity.
 - Broader Ink/Shroud/kinesis interaction mechanics remain unresolved, especially tentative Ink-before-Shroud timing and interruption questions.
-- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews.
+- Exact mechanics of Elric's Ink/fate manipulation of Davian remain for later `magic-fateweaving-skein` and Harbinger/Syndicate reviews, but the accepted high-level sequence now distinguishes Davian's initial Pact, the Rezin-citadel aura-mimic reinforcement, and the later head-touch healing / near-psychotic pressure escalation.
 - Arrek-family restitution or cousin consequences remain candidate material in `char-arrek`.
 - Late death/return/confession beats remain candidate material.
 
