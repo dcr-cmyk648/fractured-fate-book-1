@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-29
+Last updated: 2026-06-30
 
 ## Repository state
 
@@ -10,15 +10,15 @@ Last updated: 2026-06-29
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: approve Chapter 29 map and consistency review`
-- Working tree expected to be clean: yes, after the Chapter 30 map commit is pushed
+- Latest relevant commit message: `revision: approve Chapter 31 map`
+- Working tree expected to be clean: no; local Apps Script configuration may remain modified and should not be committed unless explicitly requested
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 1
+- Approved current-draft maps since last chapter-map consistency review: 2
 - Last consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
 - Last chapter-map consistency review: reports/consistency/2026-06-28-current-draft-map-through-ch29.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,11 +30,11 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-30` current-draft map packet has been approved by the author. No manuscript prose has been changed.
+The `d1-ch-31` current-draft map packet was approved by the author with Ink/Shroud/Davian progression clarifications. No manuscript prose has been changed.
 
 ## Next action
 
-Validate, commit, and push the approved Chapter 30 map. After that, prepare the `d1-ch-31` current-draft map packet unless a blocker appears.
+Prepare the `d1-ch-32` current-draft map packet unless a blocker or new higher-priority ticket appears.
 
 ## Awaiting author input
 

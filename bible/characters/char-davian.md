@@ -62,16 +62,20 @@ Davian's current abilities include:
 - kinesis, called Subversion by Kelyra and Davian's family
 - exposure to Harbinger/Syndicate Ink Pact
 - aura absorption/mimicry through Ink Pact after killing a target
-- rapid movement related to moving through a wrinkle-in-space manner through the Skein
+- rapid movement related to perceiving or taking shorter paths through the Skein/reality
 - deeper Ink Pact healing through forced restructuring after Elric's later head-touch reinforcement pushes him into near-psychotic Ink pressure
 
-Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Shroud, kinesis, and Ink exposure without being controlled by the Ink's pressure.
+Davian is not yet a competent High Clade-style magus. His Shroud is weak and unstable, his sword and magic skills require training, and he needs to learn how to combine martial training, Ink exposure, Shroud, and eventually kinesis without being controlled by the Ink's pressure.
+
+His broad Book 1 ability progression is: strong martial arts, then Ink, then Shroud, then later kinesis. The full Archeon-style combat stack is martial arts + Ink + Shroud + kinesis. Chapter 31 should mainly show him getting Shroud and martial arts to work together while Ink-altered movement/perception remains part of his body; kinesis integration comes later.
 
 Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink / being forced along Elric's intended path, not a separate accepted Pact ability. Ink influence does not erase his agency.
 
 Davian's initial Ink Pact is delivered through the Harbinger chamber ritual, with Ink running across the ground, grabbing him, and burning into him, but Elric / the Harbinger leader's direct touch or direct attention is the decisive transfer. The later underground Ink-spectre lair can echo this as a prototype or related delivery system.
 
 Elric's Rezin-citadel visit after Davian saves Selwin and is promoted does not grant Davian's healing. Its accepted function is to show that Elric can enter and leave the citadel despite the Registry, that he wants to remain hidden from Niall, and that he is reinforcing the Ink that lets Davian mimic Arrek's aura. Davian's forced-restructuring healing comes later, when Elric has almost fully taken over the Harbinger leader's body and touches Davian on the head. That final contact flips Davian into near-psychotic Ink levels: dark-thread perception, whispered pressure, and the sense that "he" will not let Davian die before the intended endpoint.
+
+Davian's Ink effects should not be treated as a fuel meter. Healing works as a forcing-to-a-thread function when he is following Elric's intended dark-thread path rather than as a consumable resource. Ink movement is less a discrete power than a brain/perception change that lets him perceive or take shorter paths through reality, manifesting as speed that looks strange to observers while he remains fully present in observed reality.
 
 Antithesis transformation is no longer canon. Antithesis is a dagger throughout Book 1. Alra helps Davian hide it before he is searched inside the Rezin citadel, after Harbingers/Elric exploit her grief over her brother's death; Davian later retrieves it.
 
@@ -225,6 +229,7 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
 
 ## Canonical Uncertainties
 

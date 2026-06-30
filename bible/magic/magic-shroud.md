@@ -67,6 +67,8 @@ Davian:
 
 Davian can form a weak but real Shroud. His practical weakness is not a smaller baseline capacity, but poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under combat pressure. Improving his Shroud is the near-term path that lets his martial arts matter against magi.
 
+Davian's Chapter 31-level Shroud development should focus on integrating the Shroud with his existing martial arts and Ink-altered movement/perception. Do not route that chapter through complicated localized-Shroud mechanics. His broader Archeon-style progression is martial arts first, then Ink, then Shroud, then later kinesis.
+
 Kelyra:
 
 Kelyra's Shroud is trauma-blocked. Externally, she never manifested a Shroud; internally, she knows it is there but suppresses it because she associates Shroud manifestation with Archeon captivity and child loss.
@@ -111,6 +113,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Decision record: [Kinesis Terminology and Mechanics](../../decisions/0020-kinesis-terminology-and-mechanics.md)
 - Decision record: [Fateweaving, Skein, and Fate-Thread Mechanics](../../decisions/0021-fateweaving-skein-and-fate-thread-mechanics.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
+- Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
 
 ## Canonical Uncertainties
 

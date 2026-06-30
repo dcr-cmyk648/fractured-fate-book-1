@@ -22,21 +22,21 @@ Ink Pacts can grant physical or magical effects, but not every Pact grants every
 
 Known accepted effects include:
 
-- rapid movement related to moving through a wrinkle-in-space manner through the Skein
+- rapid movement related to perceiving or taking shorter paths through the Skein/reality
 - speed, precision, perception, and force enhancements in some users
 - aura absorption or mimicry after killing a target
 - deeper forced-restructuring healing in specific users
 - pressure, psychotic symptoms, or compulsion
 - deep possession or puppet-like control in extreme cases
 
-The rapid movement effect is used by Davian, Archeon-linked users, Harvick, Serathis, and others. It can combine with kinesis to allow more outward or aggressive manifestations, though exact Shroud interaction remains for later reviews.
+The rapid movement effect is used by Davian, Archeon-linked users, Harvick, Serathis, and others. It is less a discrete "speed power" than a brain/perception change that lets the user see or take shorter paths through the Skein/reality. To outside observers it can manifest as speed that looks strange to the eye while the user remains fully present in observed reality. It can combine with kinesis to allow more outward or aggressive manifestations, though exact Shroud interaction remains for later reviews.
 
 ## Davian
 
 Davian's canonical Book 1 Ink Pact abilities are:
 
 - absorbing the aura of a target when the target is killed
-- rapid movement through a wrinkle-in-space / Skein-related mechanism
+- rapid movement through a shorter-path / Skein-related perception mechanism
 - healing through very unpleasant forced restructuring of his body when it is broken
 
 Davian's intrusive pressure to kill Niall is a psychotic side effect of receiving all of the Ink. It is not a separate accepted Pact ability.
@@ -49,13 +49,15 @@ Elric later visits Davian in the Rezin citadel after Davian saves Selwin and is 
 
 Davian's deeper forced-restructuring healing comes later, when Elric has almost completely taken over the Harbinger leader's body and touches Davian on the head. That final reinforcement pushes Davian into near-psychotic Ink levels: he sees dark threads, hears the Ink whispering to him, and is forced along a path/thread strongly enough that the healing manifests as the Ink not letting him die before reaching the intended endpoint.
 
+Davian's Ink should not be treated as a fuel meter. Some effects, especially deeper healing, work when he is following Elric's dark thread / intended path and do not reliably work when he is not. Healing is a forcing-to-a-thread function rather than a consumable resource.
+
 Antithesis transformation is no longer canon. Antithesis is a knife throughout Book 1. How Davian conceals it inside the Rezin citadel before he is searched belongs to later revision planning.
 
 ## Healing
 
 Ink healing is a deeper Pact case, not a universal Ink Pact property.
 
-When present, it heals by forced restructuring of the damaged body. The process is unpleasant and invasive rather than gentle restoration.
+When present, it heals by forced restructuring of the damaged body. The process is unpleasant and invasive rather than gentle restoration. In Davian's case, it works as a forcing-to-a-thread function aligned with Elric's intended path rather than as a consumable reserve he can spend at will.
 
 Accepted users or future users:
 
@@ -152,6 +154,7 @@ These are accepted story-bible facts, but manuscript revision has not begun.
 - Decision record: [Karra Concord Challenge and Evacuation Role](../../decisions/0053-karra-concord-challenge-and-evacuation-role.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
 
 ## Provenance
 
