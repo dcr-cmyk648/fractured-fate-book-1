@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 37
 - Working title: Dining Hall, Jalen's Return, and First Intelligence
-- Current status: revised after author feedback
+- Current status: approved working detailed outline
 - Source fragment: `revision/current-draft-map/d1-ch-37-preposed.md`
 - Prose drafting: not authorized
 
@@ -279,6 +279,6 @@ Reader should not yet learn:
 - Jalen knows only limited Harbinger information, broadly overlapping with Kelyra's earlier information.
 - Aldira recognizes Jalen's intelligence value because of his Twilight Concord intelligence role and his partly legible notes, which may open underworld contacts.
 
-## Remaining Author Review Question
+## Approval Status
 
-1. Approve this revised Chapter 37 outline as the working detailed outline, with the flexible option to move healing/intelligence into Davian POV if the chapter runs long?
+Approved on 2026-06-30 as the working detailed outline, with the flexible option to move healing/intelligence into Davian POV if the chapter runs long.
