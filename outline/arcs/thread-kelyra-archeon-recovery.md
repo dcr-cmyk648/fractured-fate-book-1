@@ -49,13 +49,18 @@ This sets up Kelyra as a possible later antagonist toward Maya and preserves the
 
 ## Accepted Endgame Role
 
-The accepted high-level endgame sequence remains:
+The accepted high-level endgame sequence is:
 
-1. Davian fights the remaining Presented Archeon magus to free Kelyra.
-2. Kelyra manifests a Shroud to break out and help him.
-3. Davian and Kelyra together fight and kill Serathis.
-4. Kelyra stays to handle the remaining Archeon forces.
-5. Davian goes to help Maya and Niall against Vorren.
+1. Jalen is left for dead during Kelyra's capture. Archeon assumes he is dead or irrelevant. He reaches the Rezin citadel essentially dying, is pulled inside, receives painful gold strike-line healing, and becomes a late support/logistics/intelligence bridge rather than a physical participant in the final assault.
+2. Jalen's information confirms Harbinger/Archeon collaboration, Heart delivery, and criminal-network context. Davian already knows Archeon has Kelyra through Karra's message, but Jalen and Aldira can help turn that into usable assault intelligence.
+3. Niall, Maya, and Davian attack Archeon violently from aboveground through the neglected city-wedge/slum boundary and into the citadel.
+4. Davian splits off under time pressure to rescue Kelyra, fearing Serathis may execute or use her before the main objective can be completed.
+5. Davian fights the remaining valuable Archeon heir/Presented-magis threat positioned near Kelyra. Kelyra manifests a Shroud and helps him.
+6. Maya and Niall proceed to the central tower/throne room, where Niall kills the apparent/fake opposition before Serathis triggers the floor trap and drops him toward Vorren.
+7. Serathis and held-back Archeon magi pin Maya in an attrition fight to keep her from reaching Niall. Maya kills many of them but cannot quickly end the fight or reach Niall alone.
+8. Davian and Kelyra enter after the rescue and relieve pressure on Maya. Maya goes down to help Niall.
+9. Maya and Niall fight Vorren together while Davian and Kelyra fight Serathis. After Serathis is killed, Kelyra does not want Davian to leave, but Davian goes to help Maya and Niall anyway.
+10. Davian cannot defeat Vorren alone; his role is to reduce pressure, block Vorren's attack, and sacrifice/ruin Antithesis protecting Maya and Niall. Maya opens the ceiling, Niall brings lightning through the opening, and the three of them together defeat Vorren.
 
 Exact choreography, mechanics, and dialogue remain deferred.
 
@@ -85,6 +90,8 @@ Jalen remains important as support, planning, logistics, temperament, and family
 - Do not let Kelyra's possible later antagonism toward Maya erase her love for Davian or the genuine protective basis of her Book 1 arc.
 - Do not resolve Lethira parentage unless later outline work needs it.
 - Do not overdefine exact kinesis/Shroud mechanics before the relevant magic/combat review.
+- Do not make Jalen a physical participant in the final Archeon assault; his severe injuries and healing route him into support/logistics/intelligence.
+- Do not let Kelyra and Davian killing Serathis erase Maya's agency in the endgame. Maya's role includes surviving the held-back Archeon-magis attrition trap, choosing to reach Niall, and helping defeat Vorren.
 
 ## Related Files
 
@@ -103,6 +110,7 @@ Jalen remains important as support, planning, logistics, temperament, and family
 - Related magic: [Kinesis](../../bible/magic/magic-subversion.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 - Decision record: [Web-App Scratchpad Story Directions](../../decisions/0075-webapp-scratchpad-story-directions.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Canonical Uncertainties
 

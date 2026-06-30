@@ -41,7 +41,9 @@ Niall's reputation is the Rezin political deterrent. Other High Clades fear that
 
 Niall's power has been waning before Book 1, but he hides this and Maya does not understand the full truth during key political moments.
 
-Niall's endgame recovery should involve accepting help from Maya and, structurally, joining Maya and Davian against Vorren. Exact mechanics and choreography remain deferred.
+Niall's endgame recovery should involve accepting help from Maya and, structurally, joining Maya and Davian against Vorren.
+
+In the accepted endgame assault direction, Niall and Maya proceed toward Archeon's central tower/throne room after Davian splits off to rescue Kelyra. Niall kills the apparent/fake opposition there before Serathis triggers the floor trap and drops him into the subterranean Vorren fight. Maya later reaches him after Davian and Kelyra relieve her pressure. The final Vorren defeat uses all three: Maya opens the ceiling, Niall brings lightning through the opening, and Davian reduces pressure/blockades Vorren long enough for Maya and Niall to act. Exact mechanics and choreography remain deferred.
 
 ## Continuity Constraints
 
@@ -52,6 +54,7 @@ Niall's endgame recovery should involve accepting help from Maya and, structural
 - Do not use Niall's silver conduits as a separate innate ability; they are technology/modifiers for his lightning.
 - Do not resolve exact Alara death/higher-plane mechanics here.
 - Do not lock exact Vorren fight choreography or experiential brine imagery before chapter/endgame outline work.
+- Do not make Niall's final Vorren defeat solitary; his recovery arc requires accepting help from Maya and Davian.
 
 ## Deferred
 
@@ -78,6 +81,7 @@ Niall's endgame recovery should involve accepting help from Maya and, structural
 - Related arc: [Demi-human mercenary forces and death payments](thread-demi-human-mercenary-forces.md)
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Niall Grief Recovery and Committed Action](../../decisions/0070-niall-grief-recovery-committed-action.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Provenance
 

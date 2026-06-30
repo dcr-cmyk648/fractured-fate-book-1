@@ -136,6 +136,8 @@ Accepted future object direction: Maya names and designs Paradox, the normal swo
 
 Maya's broader end-arc is not fully approved. Accepted high-level Vorren direction: Vorren is a dark mirror for what Maya could become if power under abuse and impossible expectation were severed from care, responsibility, and chosen values. Maya, Niall, and Davian together kill Vorren, with exact choreography deferred.
 
+Accepted endgame architecture: Maya's final Archeon role is not passive or simply losing to Serathis. After Davian splits off to rescue Kelyra and Niall is dropped into the throne-room trap, Maya is pinned by Serathis and held-back Archeon magi in a close-pressure attrition fight designed to keep her from reaching Niall. Maya can kill many Archeon magi but cannot quickly end the fight or reach Niall while Serathis buys time for Vorren. Once Davian and Kelyra relieve the pressure, Maya goes to Niall, fights Vorren with him, opens the ceiling, and helps create the opening that allows Niall's lightning to matter.
+
 During the Spire provocation, Maya misreads Niall's refusal to kill Evana publicly as lack of confidence in Maya's abilities. She does not know Niall's power has been waning or that he believes killing Evana would likely leave both him and Maya dead against the gathered High Clade pressure.
 
 Current candidate direction is that Maya becomes more flexible and less perfectionistic, possibly shown by using Davian-taught martial arts against Vorren rather than trying to win as a perfect High Clade magus through pure magical force. Do not treat the exact Vorren resolution choreography as approved final canon until later plot review.
@@ -187,6 +189,7 @@ Current candidate direction is that Maya becomes more flexible and less perfecti
 - Related event: [Heart theft / Treasury breach](../events/event-heart-theft.md)
 - Decision: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision: [Convergence Heat Transfer Model](../../decisions/0064-convergence-heat-transfer-model.md)
+- Decision: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 - Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
 - Decision: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
 

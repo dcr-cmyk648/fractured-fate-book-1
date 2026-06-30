@@ -12,7 +12,7 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-29-002 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | comment export UI | app update applied | no |
 | WC-2026-06-29-003 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | reader-code comment sync | app and Apps Script update applied | no |
 | WC-2026-06-29-004 | 2026-06-29-001 | accepted-for-workflow | chapter-architecture | high | Kelyra/Davian/Maya; Sorevin; Presentation fallout | accepted owner files updated | no |
-| WC-2026-06-30-001 | 2026-06-30-001 | accepted-for-workflow | chapter-architecture | high | endgame Archeon citadel fight sequence | future chapter architecture / next-draft outline | yes |
+| WC-2026-06-30-001 | 2026-06-30-001 | accepted-for-workflow | chapter-architecture | high | endgame Archeon citadel fight sequence | accepted future endgame architecture / owner files updated | no |
 | WC-2026-06-30-002 | 2026-06-30-001 | accepted-for-workflow | prose-preservation | medium | `d1-ch-29` dialogue and quotes | future prose-preservation review / Chapter 29 map | no |
 | WC-2026-06-30-003 | 2026-06-30-001 | accepted-for-workflow | revision-suggestion | medium | `d1-prologue` exposition style | accepted prose-phase guidance / Prologue map | no |
 | WC-2026-06-30-004 | 2026-06-30-001 | accepted-for-workflow | style-line-edit | medium | `d1-ch-29` sign-language formatting/style | accepted prose-phase guidance | no |

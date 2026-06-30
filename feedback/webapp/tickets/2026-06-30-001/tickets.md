@@ -4,14 +4,14 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
-| WC-2026-06-30-001 | accepted-for-workflow | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | yes |
+| WC-2026-06-30-001 | accepted-for-workflow | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | no |
 | WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | no |
 | WC-2026-06-30-003 | accepted-for-workflow | medium | revision-suggestion | `d1-prologue` exposition style | no |
 | WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | no |
 | WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | no |
 | WC-2026-06-30-006 | accepted-for-workflow | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
 | WC-2026-06-30-007 | accepted-for-workflow | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
-| WC-2026-06-30-008 | accepted-for-workflow | medium | revision-suggestion | future manuscript snapshot workflow | yes |
+| WC-2026-06-30-008 | accepted-for-workflow | medium | revision-suggestion | future manuscript snapshot workflow | no |
 
 ## WC-2026-06-30-001: Resolve Endgame Fight Architecture and Character Agency
 
@@ -38,6 +38,8 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 Summary: The endgame fight sequence may currently over-center Davian and leave Maya with too little meaningful action. The sequence needs options that preserve Davian freeing Kelyra, Maya's agency against Serathis, Niall's trap/Vorren conflict, and plausible Archeon resource use.
 
 Rationale: This affects final outline architecture, character agency, combat sequencing, Archeon force logic, and potential future continuity if Serathis commits or loses many Archeon children/heirs.
+
+Disposition: Accepted by author on 2026-06-30 and applied as high-level future endgame architecture. The accepted direction routes Jalen into severe-injury support/logistics, lets Davian split off under Kelyra time pressure, gives Maya an active attrition-trap and Vorren-fight role, preserves Niall's trap/recovery arc, and keeps exact choreography deferred. See decision record `decisions/0083-endgame-archeon-assault-character-agency.md`.
 
 ## WC-2026-06-30-002: Preserve Chapter 29 Dialogue/Quotes as Prose-Preservation Candidates
 

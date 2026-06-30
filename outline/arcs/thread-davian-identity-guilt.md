@@ -43,6 +43,10 @@ Davian resolves enough of the Kelyra/Serathis origin-family wound to go help May
 
 His endgame role is not to prove he is the sole decisive threat. He must support the people and values he wants to preserve.
 
+In the accepted endgame assault direction, Davian splits off inside Archeon to rescue Kelyra under time pressure, likely fearing that Serathis will execute or use her before the main objective can be completed. After Davian and Kelyra relieve Maya's pressure and kill Serathis, Davian chooses to leave Kelyra and help Maya and Niall anyway.
+
+Against Vorren, Davian recognizes that he does not have the strength to kill Vorren alone. His meaningful choice is protective: he reduces pressure on Maya and Niall, blocks Vorren's attack, and ruins Antithesis in defense of them. This redirects Antithesis from assassination/revenge toward protection before its destruction.
+
 Davian's death/resurrection remains accepted future emotional architecture, with exact mechanics and final relationship status deferred.
 
 ## Continuity Constraints
@@ -54,6 +58,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Do not turn Antithesis into a sword during Book 1; it remains a dagger until ruined.
 - Preserve Davian's weak/unstable Shroud as poor throughput/anchoring/training, not inherently tiny capacity.
 - Preserve that Davian helps Maya and Niall against Vorren rather than being the sole decisive threat in the final fight.
+- Preserve Davian's final support role as chosen protection, not tactical irrelevance.
 - Keep resurrection mechanics, final confession, final relationship status, and exact Paradox beat deferred.
 
 ## Deferred
@@ -89,6 +94,7 @@ Davian's death/resurrection remains accepted future emotional architecture, with
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Davian Identity, Guilt, and Agency Arc](../../decisions/0071-davian-identity-guilt-agency.md)
+- Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
 
 ## Provenance
 
