@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Chapter 39 should switch back to Maya POV as private emotional tension becomes public political crisis. It opens with Jalen/Aldira's intelligence work already moving, lets Maya and Davian carry unresolved awkwardness from the night scene, and then stages Drakhal's Rezin-citadel parlay as the follow-up to the earlier Spire provocation.
+Chapter 39 should switch back to Maya POV as private emotional tension becomes public political crisis. It starts with Maya on the way to the throne room after the runner's summons, while the Jalen/Aldira intelligence and Maya/Davian almost-conversation remain at the end of Chapter 38 from Davian's POV.
 
 The chapter's job is to make the political trap visible and personal: Drakhal is not only testing Niall's weakness, but trying to claim Rezin legitimacy through Maya, Caius, and Niall's banishment.
 
@@ -37,56 +37,43 @@ This scene follows the prior Central Spire public-provocation sequence:
 
 ## Working Chapter Shape
 
-### Scene 1 - Maya Arrives at Jalen's Room
+### Scene 1 - Maya on the Way to the Throne Room
 
 - POV: Maya.
-- Maya arrives carrying the unresolved night scene with Davian.
-- Davian is already there or arrives with her, but their attempted conversation is immediately crowded by the crisis.
-- Jalen is badly injured, not remotely combat-capable, but mentally trying to work.
-- Aldira is already organizing signs, notes, names, contacts, routes, payoffs, and anything that can be translated from Jalen's materials.
-- Aldira recognizes that Jalen's Twilight Concord intelligence work can open underworld contacts Rezin cannot reach cleanly.
-- Jalen is impressed by Rezin resources, money, manpower, and institutional reach, even while too injured to do much physically.
+- Start with Maya already on the way to the throne room after the runner's summons.
+- She is trying to shift into public Rezin role despite the unresolved night with Davian and the interrupted morning almost-conversation.
+- She notes that a runner came instead of a Registry alert.
+- This strongly suggests Drakhal knows, or at least suspects, that the Registry has been compromised.
+- Davian follows, but he has been told not to show himself during the parlay.
+- Maya is aware that if Davian is seen, it can create political danger.
+- The hall movement should carry pressure: guards, staff, protocol, sudden preparation, and Maya forcing herself into composure.
 
 Purpose:
 
-- Show that the intelligence machine is already forming.
-- Give Aldira active competence.
-- Keep Jalen useful without making him recovered.
-- Keep Maya/Davian tension present but interrupted.
+- Start from Maya's perspective, not by replaying the end of Chapter 38.
+- Show Maya's public-mask reflex under emotional strain.
+- Seed Registry-compromise implications.
+- Position Davian as a hidden/forbidden presence before his later impulsive attack.
 
-### Scene 2 - Almost a Conversation
+### Scene 2 - Public Role Settles Over Maya
 
-- Maya and Davian have a brief chance to acknowledge the night before.
-- Neither gets far.
-- Maya may want to say something that is not forgiveness but not rejection.
-- Davian is guarded because he believes he already failed the conversation.
-- Their unresolved state should be visible to the reader without stopping the plot.
-- The runner's parlay announcement cuts them off.
-
-Purpose:
-
-- Preserve the emotional cost of Chapter 38.
-- Make the public crisis interrupt private repair.
-
-### Scene 3 - Summons to the Throne Room
-
-- The runner says Drakhal has arrived to parlay.
-- Maya is needed in the throne room.
-- Davian follows Maya.
-- There should be a question of whether he is allowed to follow, told to stay hidden, or simply does not stop.
-- Rezin staff/guards prepare quickly; this should feel like a hostile diplomatic intrusion.
-- Maya shifts into public role before she has emotionally recovered.
+- Maya prepares to stand beside or near Niall as heir/magus, not as the person Davian saw the night before.
+- She may think about how quickly private uncertainty becomes public posture.
+- She can register that Niall is controlled but intense.
+- She may already sense that his restraint is not peace.
+- She should not yet understand the full danger of his coming decision.
 
 Purpose:
 
-- Transition to the political trap.
-- Show Maya's public-mask reflex.
-- Position Davian for the Caius confrontation.
+- Keep the Maya/Davian emotional cost present through Maya's internal state.
+- Prepare Maya's later susceptibility to interpreting Niall's inclusion as trust.
 
-### Scene 4 - Drakhal Enters Rezin Space
+### Scene 3 - Drakhal Enters Rezin Space
 
 - Evana arrives with Caius and allied/supporting High Clade representation.
-- Archeon may be represented directly or through implication, but do not overpopulate the scene beyond readability.
+- Archeon is physically represented, including Serathis and her heir.
+- Other powerful backup High Clades are physically present as "witnesses." Source notes identify Archeon, Drakhal, Lyranth, and possibly a neutral fourth Clade as the kind of coalition/backup Evana wants.
+- These witnesses are there ostensibly for legitimacy, but really because Evana wants to guarantee a win if Niall attacks.
 - Their presence in Rezin space should feel deliberately invasive.
 - Evana should frame the parlay as reasonable, lawful, stabilizing, or necessary after Rezin's failures.
 - Underneath, the move is an attempted public humiliation and provocation.
@@ -97,7 +84,7 @@ Purpose:
 - Make this the second-stage trap after the Spire.
 - Show Drakhal's confidence rising after Niall refused to attack at the Spire.
 
-### Scene 5 - The Proposal
+### Scene 4 - The Proposal
 
 Core proposal elements:
 
@@ -114,7 +101,7 @@ Purpose:
 - Force Niall to choose between public violence, public humiliation, and tactical delay.
 - Make Davian's reaction plausible and volatile.
 
-### Scene 6 - Caius Moves Toward Maya
+### Scene 5 - Caius Moves Toward Maya
 
 - Caius makes some move toward Maya.
 - This can be verbal, spatial, ceremonial, or a hand/gesture framed as entitlement.
@@ -127,88 +114,108 @@ Purpose:
 - Turn abstract proposal into immediate personal violation.
 - Trigger Davian without making him strategically clean.
 
-### Scene 7 - Davian Attacks / Standoff
+### Scene 6 - Davian Attacks / Standoff
 
-- Davian comes in hard at Caius or otherwise attacks before the room can settle.
+- Davian has definitely been told not to show himself.
+- He disobeys impulsively when Caius makes the move toward Maya.
+- Davian comes in hard at Caius before the room can settle.
+- This attack is much more powerful than Davian's earlier attack on Caius: backed by Shroud, higher speed, and some kinesis.
+- Davian and Caius lock in confrontation for a moment before being thrown back or separated.
 - This is protective, jealous, impulsive, and personally understandable.
 - It is politically dangerous.
-- Caius, Evana, and/or allied High Clades can use the reaction as proof that Rezin shelters the Shade/assassin/low-born violence, depending on what they know and how much is public.
+- Evana does not get the leverage she wanted because Davian attacks instead of Niall.
+- Caius, Evana, and/or allied High Clades can still use the reaction as proof that Rezin shelters the Shade/assassin/low-born violence, depending on what they know and how much is public.
 - Maya has to react as both person and Rezin authority.
-- Niall smooths the scene over, not because he is calm or accepting, but because he needs Drakhal to leave so he can plan retaliation.
+- Serathis notices Davian and starts considering what his presence/abilities imply.
 
 Purpose:
 
 - Keep Davian's agency messy.
 - Give Maya a public-pressure moment around Davian.
-- Show Niall choosing tactical delay.
+- Show the difference between Davian's current competence and earlier helplessness against Caius.
 
-### Scene 8 - Niall's Composure
+### Scene 7 - Niall's Composure
 
-- Niall pretends consideration, smooths over the standoff, or otherwise refuses to give Evana the immediate public violence she wants.
+- Niall quickly takes control and smooths over the standoff.
+- He pretends he is going to agree to the deal, or at least that he needs time to think.
+- He does this to remove the visitors without giving Evana the public Niall-attack she wants.
 - He should feel frighteningly controlled.
 - Maya may misread his inclusion of her afterward as trust, but in this scene she should be aware he is holding something back.
-- Evana can leave believing she gained another data point: Niall did not strike.
-- Drakhal does not need definitive proof of weakness; they are stacking probability, witnesses, and pressure.
+- Evana can take Niall's concession/consideration as a "win."
+- She does not get enough leverage to make anyone beyond Drakhal and Archeon attack immediately, because Niall did not attack and Davian's attack is easier to contain politically.
+- She also knows, or expects, that her Archeon backup plan is likely to work.
 
 Purpose:
 
 - Continue the Spire pattern.
 - Show Niall refusing the immediate bait while preparing a more violent answer.
 
-### Scene 9 - After They Leave
+### Scene 8 - After They Leave: Niall Drops the Mask
 
 - Once Drakhal and allies leave, Niall drops the diplomatic mask.
 - He goes to Aldira and Jalen or sends for them immediately.
 - He says, in effect, that they are going to kill them/end this.
-- The chapter can end on that turn, or continue just enough for Aldira/Jalen to begin steering the target toward Archeon.
+- Maya can tell, at least partly, that this is bad/toxic and not simply righteous strategy.
+- Niall's intensity is desperate. He wants to lash out and kill his enemies.
 
 Purpose:
 
 - Launch Chapter 40's counterattack planning.
 - Show that Niall's public restraint did not mean de-escalation.
 
-## Ending Options
+### Scene 9 - Initial Planning: Archeon as Target
 
-### Preferred Ending
+- Keep this initial planning in Maya POV.
+- Niall wants retaliation and is receptive to any plan that turns that desire into action.
+- Aldira and Jalen can steer him toward Archeon because it is strategically coherent: Archeon is Drakhal's collaborator, weaker/easier to remove, and where Kelyra is.
+- Aldira/Jalen do not know about the trap.
+- Maya sees problems with Niall's thinking and the moral/political danger of "making an example."
+- She still desperately wants to be trusted and treated as Niall's equal.
+- Niall can frame the Archeon attack as trusting Maya to have his back.
+- This makes Maya go along with it, despite the toxic undercurrent.
 
-End with Niall calling for Aldira and Jalen after Drakhal leaves, making clear that the next chapter is planning retaliation. The final beat should feel like the room temperature drops: Niall did not accept the proposal; he delayed the killing.
+Purpose:
 
-### Alternative Ending
+- Show why Maya supports Niall's attack on Archeon.
+- Keep the target choice in Maya's emotional logic, not only operational logic.
+- Hand Chapter 40 to either continued planning or Davian POV as they move toward action.
 
-End one step later, with Jalen or Aldira naming Archeon as the better first target. Use this only if Chapter 40 needs to begin already committed to Archeon rather than with the target decision.
+## Ending
+
+End after the initial planning has steered toward Archeon and Maya has accepted, at least for now, the role Niall gives her. The ending should feel like Maya knows something is off but chooses the feeling of being trusted/equal over stopping the momentum.
 
 ## What to Move or Defer
 
-- Full Archeon assault planning belongs Chapter 40.
-- The "Archeon is predictable/easy to beat" plan beat belongs Chapter 40.
+- Full Archeon assault logistics can continue in Chapter 40.
+- The "Archeon is predictable/easy to beat" plan beat can land in Chapter 39's planning tail if concise, or Chapter 40 if it needs more room.
 - Forerunner/scout ethics belong Chapter 40 or the approach chapter.
-- Detailed Drakhal coalition membership can remain broad unless needed for scene clarity.
 - Vorren/Serathis trap details should remain hidden.
 
 ## Chapter Goals
 
 ### Plot Goals
 
-- Move Jalen/Aldira intelligence from possibility into active system.
 - Bring Drakhal to Rezin with allied support.
 - Present the Maya/Caius marriage and Niall-banishment trap.
-- Trigger Davian's impulsive attack on Caius.
-- Let Niall defer public violence and then pivot privately toward retaliation.
+- Trigger Davian's disobedient, more powerful attack on Caius.
+- Let Niall defer public violence, then pivot privately toward retaliation.
+- Have Aldira/Jalen steer the first target toward Archeon.
 
 ### Character Goals
 
 - Maya: must perform public control while personally threatened and emotionally unresolved with Davian.
 - Davian: fails to stay strategically controlled when Caius claims or approaches Maya.
-- Niall: refuses immediate bait but regresses toward lethal deterrent logic.
+- Niall: refuses immediate bait but regresses toward lethal deterrent logic; frames the Archeon attack as trusting Maya.
 - Aldira: continues intelligence competence.
 - Jalen: remains injured but useful.
 - Evana: escalates pressure by making the proposal look lawful/strategic.
 - Caius: embodies entitlement, jealousy, and threat toward Maya.
+- Serathis: notices Davian and begins considering his significance.
 
 ### Relationship Goals
 
 - Maya/Davian: private unresolved tension becomes public complication.
-- Maya/Niall: Maya sees Niall's restraint but may later interpret his inclusion in retaliation as trust.
+- Maya/Niall: Maya sees Niall's restraint, then experiences his inclusion in retaliation planning as trust/equality despite recognizing the toxic undercurrent.
 - Niall/Drakhal: public restraint, private lethal intent.
 - Aldira/Jalen: operational partnership grows.
 
@@ -218,6 +225,7 @@ End one step later, with Jalen or Aldira naming Archeon as the better first targ
 - Show High Clade legitimacy theater through marriage, banishment, witnesses, and accusations.
 - Keep the Heart theft politically submerged rather than openly announced.
 - Show why Drakhal wants Niall to either attack publicly or reveal weakness through delay.
+- Show that Drakhal brought enough backup witnesses/power to make a Niall attack unwinnable or politically useful.
 
 ### Information-Flow Goals
 
@@ -227,6 +235,8 @@ Reader learns:
 - Marriage to Maya is being used as a legitimacy weapon.
 - Drakhal has allied/supporting High Clade witnesses.
 - Niall's public control is strategic, not surrender.
+- Davian is now much more dangerous than in his earlier Caius encounter.
+- Niall is choosing Archeon partly through strategy and partly through desperate deterrent logic.
 
 Reader should not yet learn:
 
@@ -241,12 +251,26 @@ Reader should not yet learn:
 - Caius should not appear in the final Archeon/Vorren fight.
 - Drakhal should preserve plausible deniability for the final trap.
 - Davian's attack should be impulsive and costly, not framed as tactically wise.
+- Davian has been told not to show himself and disobeys.
 - Niall should not reveal the Heart secret publicly.
 - Jalen remains injured and noncombatant.
+- Archeon is physically present in the delegation, including Serathis and heir.
+- Multiple powerful backup High Clades should be present as witnesses/backup.
 - Prose gate remains closed.
 
-## Open Questions for Author Review
+## Author Decisions Applied
 
-1. Should Chapter 39 end with Niall demanding retaliation, or continue through Aldira/Jalen steering him toward Archeon?
-2. Should Davian be explicitly told to hide before the parlay and disobey, or should he simply follow Maya and react when Caius moves toward her?
-3. How visible should Archeon be in the parlay delegation: physically present representative, named allied support, or only implied through Drakhal's known collaboration?
+- Chapter 39 begins with Maya on the way to the throne room; the Jalen/Aldira and Maya/Davian almost-conversation material belongs at the end of Chapter 38.
+- Maya notices that the runner summons, rather than Registry alert, suggests Drakhal likely knows or suspects the Registry is compromised.
+- Archeon is physically present in the parlay delegation, including Serathis and heir, with several powerful allied/backup High Clades as witnesses.
+- Davian was explicitly told not to show himself and disobeys when Caius moves toward Maya.
+- Davian's attack on Caius is more powerful than the first fight because he now has Shroud, higher speed, and some kinesis.
+- Niall smooths things over by pretending to consider or agree to the deal because he wants the visitors gone.
+- Serathis notices Davian.
+- Niall's retaliation planning continues in this chapter from Maya POV, including Aldira/Jalen steering him toward Archeon.
+- Maya supports the Archeon attack partly because she recognizes the toxic danger but desperately wants Niall's trust and equality.
+
+## Remaining Author Review Questions
+
+1. Which non-Drakhal/non-Archeon High Clades should be physically present as Evana's witnesses/backup: Lyranth plus one neutral fourth Clade, or a different set?
+2. Should Chapter 39 end once Archeon is chosen as the target, or include the first concise version of the "Archeon magi are predictable/easy to beat" plan?

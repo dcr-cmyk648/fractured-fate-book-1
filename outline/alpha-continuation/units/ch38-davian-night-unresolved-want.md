@@ -168,6 +168,7 @@ Purpose:
 - A runner interrupts: the Drakhals have arrived to "parlay," and Maya is needed in the throne room.
 - Davian follows her.
 - End from Davian's perspective as he follows Maya toward the next public crisis.
+- This owns the Jalen/Aldira intelligence handoff and the interrupted Maya/Davian almost-conversation; Chapter 39 should start with Maya already on the way to the throne room.
 
 Purpose:
 
