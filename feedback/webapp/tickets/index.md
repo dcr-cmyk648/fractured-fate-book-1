@@ -20,6 +20,6 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-30-006 | 2026-06-30-001 | accepted-for-workflow | story-bible-review | medium | Syndicate-to-Harbingers transition lore | accepted owner files updated | no |
 | WC-2026-06-30-007 | 2026-06-30-001 | accepted-for-workflow | story-bible-review | high | Ink delivery / arbiter mechanics | accepted owner files updated | yes |
 | WC-2026-06-30-008 | 2026-06-30-001 | accepted-for-workflow | revision-suggestion | medium | future manuscript snapshot workflow | accepted future prose-phase workflow guidance | no |
-| WC-2026-06-30-009 | 2026-06-30-002 | accepted-for-workflow | workflow | high | web-app comment authority / intake workflow | workflow documentation updated | yes |
-| WC-2026-06-30-010 | 2026-06-30-002 | proposed | app-bug | medium | review-app comment anchoring | app-maintenance queue | no |
-| WC-2026-06-30-011 | 2026-06-30-002 | proposed | app-bug | low | mobile pull-up sync button status | app-maintenance queue | no |
+| WC-2026-06-30-009 | 2026-06-30-002 | accepted-for-workflow | workflow | high | web-app comment authority / intake workflow | verified-role comment intake updated | yes |
+| WC-2026-06-30-010 | 2026-06-30-002 | accepted-for-workflow | app-bug | medium | review-app comment anchoring | app update applied | no |
+| WC-2026-06-30-011 | 2026-06-30-002 | accepted-for-workflow | app-bug | low | mobile pull-up sync button status | app update applied | no |

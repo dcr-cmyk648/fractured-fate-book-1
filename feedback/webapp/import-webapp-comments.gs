@@ -27,11 +27,14 @@ const CONFIG = {
 
   // Optional setup helper input. Edit this in Apps Script, run
   // installReaderAccountsFromConfig(), then remove the plaintext codes here.
+  // role is optional and defaults to "reader". Use role: "author" only for
+  // trusted author codes; the role is stamped after code validation.
   readerAccounts: [
     // {
     //   reader_id: "reader-a",
     //   display_name: "Reader A",
     //   code: "PASTE_PRIVATE_READER_CODE_HERE",
+    //   role: "reader",
     //   active: true
     // }
   ]
@@ -59,7 +62,10 @@ const COMMENT_COLUMNS = [
   "selected_text",
   "approximate_scroll_percent",
   "comment_text",
-  "status"
+  "status",
+  "commenter_role",
+  "commenter_role_verified",
+  "reader_id"
 ];
 
 function doPost(e) {
@@ -188,9 +194,10 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
       duplicateCount += 1;
       continue;
     }
-    rows.push(commentToRow_(comment, { getName: () => "direct-sync", getId: () => "" }, importedAt));
+    const stampedComment = stampVerifiedComment_(comment, reader);
+    rows.push(commentToRow_(stampedComment, { getName: () => "direct-sync", getId: () => "" }, importedAt));
     seenIds.add(comment.id);
-    newComments.push(comment);
+    newComments.push(stampedComment);
   }
 
   if (rows.length) {
@@ -230,7 +237,8 @@ function submitComments_(reader, exportPayload, comments, submissionId) {
   return {
     reader: {
       reader_id: reader.reader_id,
-      display_name: reader.display_name
+      display_name: reader.display_name,
+      role: reader.role
     },
     new_comments: newComments.length,
     duplicate_comments: duplicateCount,
@@ -344,6 +352,7 @@ function installReaderAccountsFromConfig() {
     accounts[account.reader_id] = {
       reader_id: account.reader_id,
       display_name: account.display_name,
+      role: normalizedReaderRole_(account.role),
       token_hash: hashReaderCode_(account.code),
       active: account.active !== false
     };
@@ -367,11 +376,24 @@ function validateReaderCode_(code) {
     if (account && account.active !== false && account.token_hash === tokenHash) {
       return {
         reader_id: account.reader_id || readerId,
-        display_name: account.display_name || readerId
+        display_name: account.display_name || readerId,
+        role: normalizedReaderRole_(account.role)
       };
     }
   }
   throw new Error("Reader code is not valid.");
+}
+
+function normalizedReaderRole_(role) {
+  return String(role || "reader").toLowerCase() === "author" ? "author" : "reader";
+}
+
+function stampVerifiedComment_(comment, reader) {
+  return Object.assign({}, comment, {
+    commenter_role: normalizedReaderRole_(reader.role),
+    commenter_role_verified: true,
+    reader_id: reader.reader_id || ""
+  });
 }
 
 function hashReaderCode_(code) {
@@ -439,10 +461,15 @@ function ensureHeader_(sheet) {
     return;
   }
 
-  const existing = sheet.getRange(1, 1, 1, COMMENT_COLUMNS.length).getValues()[0];
-  const mismatch = COMMENT_COLUMNS.some((name, index) => existing[index] !== name);
-  if (mismatch) {
+  const existingWidth = Math.max(sheet.getLastColumn(), COMMENT_COLUMNS.length);
+  const existing = sheet.getRange(1, 1, 1, existingWidth).getValues()[0].filter((value) => value !== "");
+  const prefixMatches = existing.every((name, index) => COMMENT_COLUMNS[index] === name);
+  if (!prefixMatches) {
     throw new Error("Sheet header does not match expected web-app comment schema.");
+  }
+  if (existing.length < COMMENT_COLUMNS.length) {
+    const missing = COMMENT_COLUMNS.slice(existing.length);
+    sheet.getRange(1, existing.length + 1, 1, missing.length).setValues([missing]);
   }
 }
 
@@ -513,7 +540,10 @@ function commentToRow_(comment, file, importedAt) {
     selected_text: comment.selected_text || "",
     approximate_scroll_percent: comment.approximate_scroll_percent ?? "",
     comment_text: comment.comment_text || "",
-    status: comment.status || "inbox"
+    status: comment.status || "inbox",
+    commenter_role: comment.commenter_role || "",
+    commenter_role_verified: comment.commenter_role_verified === true ? "true" : "",
+    reader_id: comment.reader_id || ""
   };
 
   return COMMENT_COLUMNS.map((column) => record[column]);

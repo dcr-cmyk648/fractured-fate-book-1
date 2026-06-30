@@ -5,8 +5,8 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
 | WC-2026-06-30-009 | accepted-for-workflow | high | workflow | web-app comment authority / intake workflow | yes |
-| WC-2026-06-30-010 | proposed | medium | app-bug | review-app comment anchoring | no |
-| WC-2026-06-30-011 | proposed | low | app-bug | mobile pull-up sync button status | no |
+| WC-2026-06-30-010 | accepted-for-workflow | medium | app-bug | review-app comment anchoring | no |
+| WC-2026-06-30-011 | accepted-for-workflow | low | app-bug | mobile pull-up sync button status | no |
 
 ## WC-2026-06-30-009: Define Author vs Reader Comment Authority
 
@@ -34,13 +34,13 @@ Summary: The workflow should distinguish author-origin comments from outside-rea
 
 Rationale: This affects how Codex synthesizes future beta-reader feedback and prevents non-author comments from being treated as author-approved direction.
 
-Disposition: Accepted and applied during the immediate workflow/pathway clarification pass. `WORKFLOW.md`, `REVISION_WORKFLOW.md`, and `AGENTS.md` now distinguish author-origin comments from outside-reader comments while preserving the rule that no web-app comment directly changes durable book files without appropriate approval. See decision record `decisions/0091-alpha-completion-and-comment-authority-workflow.md`.
+Disposition: Accepted and applied during the immediate workflow/pathway clarification pass. `WORKFLOW.md`, `REVISION_WORKFLOW.md`, and `AGENTS.md` now distinguish author-origin comments from outside-reader comments while preserving the rule that no web-app comment directly changes durable book files without appropriate approval. The app/comment intake path now preserves server-verified `commenter_role` data when Apps Script validates a private reader code; manual exports remain unverified. See decision record `decisions/0091-alpha-completion-and-comment-authority-workflow.md`.
 
 ## WC-2026-06-30-010: Improve General Scene/Region Anchoring for Comments
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-002`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: app-bug
 - Source comment IDs: `scratchpad-1782835204674-6gp88o`
@@ -62,13 +62,13 @@ Summary: Comment metadata should capture at least the general part of the chapte
 
 Rationale: Current anchoring by chapter/file/scroll percent is useful but may be insufficient for later synthesis, especially if many beta readers comment on long chapters.
 
-Proposed disposition: queue for app work. A likely V1 improvement is to add generated scene/heading anchors to chapter data and capture the nearest visible section/scene label during comment submission.
+Disposition: Accepted and applied in the review app. Comments now capture a visible content anchor when possible and approximate the visible source-line region for book-reader comments instead of recording only the whole chapter range. This remains approximate, not line-perfect inline annotation.
 
 ## WC-2026-06-30-011: Match Pull-Up Sync Button Status Behavior
 
 - Source: webapp-comments
 - Batch ID: `2026-06-30-002`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: low
 - Ticket type: app-bug
 - Source comment IDs: `scratchpad-1782835255140-7tbzg5`
@@ -90,4 +90,4 @@ Summary: When syncing comments from the mobile/comment pull-up dialog, the butto
 
 Rationale: This is a small usability consistency issue. It helps readers understand that sync is actively running.
 
-Proposed disposition: queue for the next app-maintenance pass.
+Disposition: Accepted and applied in the review app. The fixed/pull-up comment action and the full export-page sync button now share the same disabled `Syncing...` state while direct sync is in progress.

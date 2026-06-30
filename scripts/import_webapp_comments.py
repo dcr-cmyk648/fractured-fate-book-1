@@ -32,6 +32,9 @@ RAW_FIELDS = [
     "id",
     "created_at",
     "commenter_name",
+    "commenter_role",
+    "commenter_role_verified",
+    "reader_id",
     "reviewer_session_id",
     "repo_commit",
     "repo_branch",
@@ -186,6 +189,8 @@ def normalize_comment(record: dict[str, Any], source_file: str, batch_id: str) -
     normalized["likely_target_type"] = likely_type
     normalized["likely_target_id"] = likely_id
     normalized["initial_classification"] = classify_comment(normalized)
+    normalized["commenter_role"] = normalized_commenter_role(normalized)
+    normalized["commenter_role_verified"] = normalized_commenter_role_verified(normalized)
     normalized["processing_status"] = "imported"
     normalized["imported_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     normalized["importer_version"] = APP_VERSION
@@ -198,6 +203,20 @@ def as_text(value: Any) -> str:
     if isinstance(value, str):
         return value
     return str(value)
+
+
+def normalized_commenter_role(comment: dict[str, Any]) -> str:
+    role = as_text(comment.get("commenter_role")).strip().lower()
+    if role in {"author", "reader"}:
+        return role
+    return "unverified"
+
+
+def normalized_commenter_role_verified(comment: dict[str, Any]) -> bool:
+    value = comment.get("commenter_role_verified")
+    if isinstance(value, bool):
+        return value
+    return as_text(value).strip().lower() in {"true", "yes", "1", "verified"}
 
 
 def likely_target(comment: dict[str, Any]) -> tuple[str, str]:

@@ -24,6 +24,8 @@ This is the preposed working chapter fragment that appeared at the top of the no
 
 Author review note, 2026-06-30: this is not a full chapter draft unit. Treat it as a partially complete working fragment whose useful material should feed later alpha-continuation architecture. Do not evaluate it as a complete Chapter 37 with a finished endpoint.
 
+Follow-up author approval, 2026-06-30: this fragment is the opening of the next alpha-continuation unit.
+
 ## Scene Divisions
 
 | Scene | Source lines | POV / focus | What is written now |
@@ -233,4 +235,5 @@ No formal Prose Preservation Notes are created in this packet. Candidate wording
 ## Next Routing
 
 - Preserve this packet as a reviewed partial source unit for alpha-continuation planning.
+- Use this packet as the opening source for the next alpha-continuation unit unless later architecture deliberately redistributes beats.
 - Do not start another chapter-map unit until the current comment intake, ticket queue, consistency/validation pass, and alpha-continuation workflow check are complete.

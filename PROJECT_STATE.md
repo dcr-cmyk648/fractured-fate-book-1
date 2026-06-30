@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` remain queued app-maintenance items. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture.
 
 ## Next action
 
-Present the alpha-continuation kickoff packet: current cutoff, likely next alpha sequence, use/distribution of the Chapter 37 partial fragment, remaining Book 1 sequence list, and any decisions needed before outlining the next unwritten alpha unit.
+Present the alpha-continuation kickoff packet: current cutoff, Chapter 37 partial fragment as the approved opening, likely next alpha sequence, remaining Book 1 sequence list, and any decisions needed before outlining the next unwritten alpha unit.
 
 ## Awaiting author input
 
-No chapter-map author packet is currently pending. Next review item should be the alpha-continuation kickoff packet. App-maintenance tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` are queued but not story blockers.
+No chapter-map author packet is currently pending. Next review item should be the alpha-continuation kickoff packet. No current web-app comment ticket blocks that packet.
 
 ## Workflow policy note
 

@@ -20,8 +20,8 @@ The repository is caught up to the existing alpha prose for planning purposes:
 - The preposed Chapter 37 material is preserved as a reviewed partial fragment, not a complete chapter draft unit.
 - Latest web-app comments were imported as batch `2026-06-30-002`.
 - New tickets were created.
-- Ticket `WC-2026-06-30-009` was resolved into workflow policy.
-- Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` remain queued app-maintenance items.
+- Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake.
+- Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app.
 
 ## Blocking Status
 
@@ -37,8 +37,6 @@ Blocking before alpha prose drafting:
 
 Nonblocking before alpha-continuation architecture:
 
-- `WC-2026-06-30-010`: improve app comment anchoring with visible scene/region capture.
-- `WC-2026-06-30-011`: make mobile pull-up sync button show the same syncing behavior as the export page.
 - Existing deferred consistency queue items that are already known and not required to understand the next alpha sequence.
 
 ## Major Known Deferred Issues
@@ -76,7 +74,7 @@ Batch `2026-06-30-002`:
 - imported 3 comments;
 - created 3 tickets;
 - resolved `WC-2026-06-30-009` as workflow policy;
-- left `WC-2026-06-30-010` and `WC-2026-06-30-011` queued for app maintenance.
+- resolved `WC-2026-06-30-010` and `WC-2026-06-30-011` in the review app.
 
 No comment-derived story ticket currently blocks alpha-continuation planning.
 
@@ -101,7 +99,7 @@ The kickoff packet should identify:
 
 - the current manuscript cutoff;
 - the likely next alpha chapter/sequence starting point;
-- whether the Chapter 37 partial fragment should be used as the opening of the next alpha unit or redistributed;
+- the Chapter 37 partial fragment as the approved opening of the next alpha unit;
 - the remaining major Book 1 sequences from this point to the accepted ending;
 - any unresolved lower-level issues that must be decided before outlining the next sequence.
 

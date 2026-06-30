@@ -22,10 +22,12 @@ Maya's anti-Archeon schema direction is broadly useful: anchored containment, he
 
 Because the fragment is incomplete, its current meal/dining-hall turn should not be evaluated as a finished chapter endpoint.
 
+Follow-up author clarification, 2026-06-30: this fragment is approved as the opening of the next alpha-continuation unit. It should anchor the next unwritten alpha sequence unless later architecture deliberately redistributes some beats.
+
 ## Routing
 
 - Preserve `revision/current-draft-map/d1-ch-37-preposed.md` as a reviewed partial fragment.
-- Use the fragment during alpha-continuation planning rather than treating it as an approved complete Chapter 37 map.
+- Use the fragment as the opening source for alpha-continuation planning rather than treating it as an approved complete Chapter 37 map.
 - Do not modify manuscript prose as part of this decision.
 
 ## Related Files

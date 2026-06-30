@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-12";
+const APP_VERSION = "review-interface-v0-sync-13";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -572,11 +572,44 @@ function currentHeading() {
     return currentScratchpadTab === "technical-processing" ? "Technical / Processing" : "Content";
   }
   if (currentView === "repo-browser" && currentFilePath) {
-    const file = appContent.files?.[currentFilePath];
-    return file?.headings?.[0]?.text || null;
+    return visibleContentAnchor("fileContent") || appContent.files?.[currentFilePath]?.headings?.[0]?.text || null;
   }
   const chapter = currentChapter();
-  return chapter?.display_title || null;
+  const visible = visibleContentAnchor("readerContent");
+  return visible ? `${chapter?.display_title || "Chapter"} · ${visible}` : chapter?.display_title || null;
+}
+
+function visibleContentAnchor(containerId) {
+  const container = $(containerId);
+  if (!container) return null;
+  const viewportTop = 0;
+  const viewportBottom = window.innerHeight || document.documentElement.clientHeight;
+  const candidates = Array.from(container.querySelectorAll("h1,h2,h3,h4,p,li"));
+  for (const node of candidates) {
+    const rect = node.getBoundingClientRect();
+    if (rect.bottom < viewportTop + 72 || rect.top > viewportBottom - 72) continue;
+    const text = node.textContent?.replace(/\s+/g, " ").trim();
+    if (text && text.length > 8) return abbreviate(text, 96);
+  }
+  return null;
+}
+
+function visibleSourceLineRange(chapter) {
+  const start = Number(chapter?.source_line_start);
+  const end = Number(chapter?.source_line_end);
+  if (!Number.isFinite(start) || !Number.isFinite(end) || end < start) {
+    return {
+      source_line_start: chapter?.source_line_start || null,
+      source_line_end: chapter?.source_line_end || null
+    };
+  }
+  const total = end - start + 1;
+  const center = start + Math.round((approximateScrollPercent() / 100) * total);
+  const windowSize = Math.max(8, Math.round(total * 0.08));
+  return {
+    source_line_start: Math.max(start, center - windowSize),
+    source_line_end: Math.min(end, center + windowSize)
+  };
 }
 
 function selectedText() {
@@ -611,6 +644,7 @@ function currentReference() {
       approximate_scroll_percent: null
     };
   }
+  const visibleLines = currentView === "book-reader" ? visibleSourceLineRange(chapter) : {};
   return {
     repo_commit: meta.commit_hash || null,
     repo_branch: meta.branch || null,
@@ -620,8 +654,8 @@ function currentReference() {
     current_file_path: currentFilePath,
     chapter_id: chapter?.chapter_id || null,
     chapter_title: chapter?.display_title || null,
-    source_line_start: chapter?.source_line_start || null,
-    source_line_end: chapter?.source_line_end || null,
+    source_line_start: visibleLines.source_line_start || chapter?.source_line_start || null,
+    source_line_end: visibleLines.source_line_end || chapter?.source_line_end || null,
     current_heading: currentHeading(),
     selected_text: selectedText(),
     approximate_scroll_percent: approximateScrollPercent()
@@ -913,8 +947,7 @@ async function syncComments() {
     window.alert("Comment sync is not configured. Use Download Backup JSON instead.");
     return;
   }
-  $("syncCommentsBtn").disabled = true;
-  $("syncCommentsBtn").textContent = "Syncing...";
+  setSyncButtonsBusy(true);
   try {
     const submissionId = `submission-${crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`}`;
     const form = new URLSearchParams();
@@ -946,8 +979,22 @@ async function syncComments() {
   } catch (error) {
     window.alert(`Sync failed: ${error.message}. Use Download Backup JSON instead.`);
   } finally {
-    $("syncCommentsBtn").disabled = false;
-    $("syncCommentsBtn").textContent = "Sync Comments";
+    setSyncButtonsBusy(false);
+  }
+}
+
+function setSyncButtonsBusy(isBusy) {
+  const syncButton = $("syncCommentsBtn");
+  const quickButton = $("quickExportBtn");
+  if (syncButton) {
+    syncButton.disabled = isBusy;
+    syncButton.textContent = isBusy ? "Syncing..." : "Sync Comments";
+    syncButton.classList.toggle("is-syncing", isBusy);
+  }
+  if (quickButton) {
+    quickButton.disabled = isBusy;
+    quickButton.textContent = isBusy ? "Syncing..." : (getReaderCode() ? "Sync Comments" : "Comment Sync");
+    quickButton.classList.toggle("is-syncing", isBusy);
   }
 }
 
