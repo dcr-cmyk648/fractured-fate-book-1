@@ -230,10 +230,22 @@ def chapter_id_for(title: str) -> str:
     return f"d1-{safe or 'chapter'}"
 
 
+def alpha_unit_for_chapter(chapter_id: str) -> str | None:
+    match = re.fullmatch(r"d1-ch-(\d{2})", chapter_id)
+    if not match:
+        return None
+    units_dir = ROOT / "outline" / "alpha-continuation" / "units"
+    if not units_dir.exists():
+        return None
+    matches = sorted(units_dir.glob(f"ch{match.group(1)}-*.md"))
+    return rel(matches[0]) if matches else None
+
+
 def find_layer_file(chapter_id: str, layer: str) -> str | None:
     candidates: dict[str, list[str]] = {
         "current_map": [
             f"revision/current-draft-map/{chapter_id}.md",
+            f"revision/current-draft-map/{chapter_id}-preposed.md",
         ],
         "current_summary": [
             f"summaries/current-draft/{chapter_id}.md",
@@ -248,6 +260,7 @@ def find_layer_file(chapter_id: str, layer: str) -> str | None:
             f"revision/{chapter_id}.md",
         ],
         "next_draft_outline": [
+            alpha_unit_for_chapter(chapter_id) or "",
             f"outline/next-draft/{chapter_id}.md",
             f"outline/chapters/{chapter_id}.md",
         ],
@@ -264,6 +277,8 @@ def find_layer_file(chapter_id: str, layer: str) -> str | None:
         ],
     }
     for relative in candidates.get(layer, []):
+        if not relative:
+            continue
         if (ROOT / relative).exists():
             return relative
     return None
@@ -371,11 +386,75 @@ def chapters_from_normalized_manuscript() -> tuple[list[dict[str, Any]], dict[st
     return chapters, content, warning
 
 
+def title_from_alpha_unit(path: Path) -> str:
+    lines = read_file_lines(path)
+    chapter_number = None
+    match = re.match(r"ch(\d+)-", path.name)
+    if match:
+        chapter_number = int(match.group(1))
+
+    working_title = None
+    for line in lines[:40]:
+        title_match = re.match(r"-\s*Working title:\s*(.+?)\s*$", line)
+        if title_match:
+            working_title = title_match.group(1).strip()
+            break
+
+    if chapter_number and working_title:
+        return f"Chapter {chapter_number}: {working_title}"
+    if chapter_number:
+        return f"Chapter {chapter_number}"
+    return display_name_for(rel(path), detect_headings("\n".join(lines)))
+
+
+def append_outline_only_chapters(
+    chapters: list[dict[str, Any]], content: dict[str, Any]
+) -> None:
+    existing_ids = {chapter["chapter_id"] for chapter in chapters}
+    units_dir = ROOT / "outline" / "alpha-continuation" / "units"
+    if not units_dir.exists():
+        return
+    for path in sorted(units_dir.glob("ch*.md")):
+        match = re.match(r"ch(\d+)-", path.name)
+        if not match:
+            continue
+        chapter_id = f"d1-ch-{int(match.group(1)):02d}"
+        if chapter_id in existing_ids:
+            continue
+        relative = rel(path)
+        line_count = len(read_file_lines(path))
+        chapter = {
+            "chapter_id": chapter_id,
+            "display_title": title_from_alpha_unit(path),
+            "source_file": relative,
+            "source_line_start": 1,
+            "source_line_end": line_count,
+            "available_layers": available_layers(chapter_id, False),
+        }
+        chapters.append(chapter)
+        content[chapter_id] = {}
+        existing_ids.add(chapter_id)
+
+
+def chapter_sort_key(chapter: dict[str, Any]) -> tuple[int, int]:
+    chapter_id = chapter.get("chapter_id", "")
+    if chapter_id == "d1-prologue":
+        return (0, 0)
+    match = re.fullmatch(r"d1-ch-(\d{2})", chapter_id)
+    if match:
+        return (1, int(match.group(1)))
+    return (2, 0)
+
+
 def build_chapters() -> tuple[list[dict[str, Any]], dict[str, Any], list[str]]:
     chapters, content = chapters_from_manuscript_folder()
     if chapters:
+        append_outline_only_chapters(chapters, content)
+        chapters.sort(key=chapter_sort_key)
         return chapters, content, []
     chapters, content, warning = chapters_from_normalized_manuscript()
+    append_outline_only_chapters(chapters, content)
+    chapters.sort(key=chapter_sort_key)
     warnings = [warning] if warning else []
     return chapters, content, warnings
 
