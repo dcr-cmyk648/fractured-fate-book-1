@@ -387,23 +387,10 @@ def chapters_from_normalized_manuscript() -> tuple[list[dict[str, Any]], dict[st
 
 
 def title_from_alpha_unit(path: Path) -> str:
-    lines = read_file_lines(path)
-    chapter_number = None
     match = re.match(r"ch(\d+)-", path.name)
     if match:
-        chapter_number = int(match.group(1))
-
-    working_title = None
-    for line in lines[:40]:
-        title_match = re.match(r"-\s*Working title:\s*(.+?)\s*$", line)
-        if title_match:
-            working_title = title_match.group(1).strip()
-            break
-
-    if chapter_number and working_title:
-        return f"Chapter {chapter_number}: {working_title}"
-    if chapter_number:
-        return f"Chapter {chapter_number}"
+        return f"Chapter {int(match.group(1))}"
+    lines = read_file_lines(path)
     return display_name_for(rel(path), detect_headings("\n".join(lines)))
 
 

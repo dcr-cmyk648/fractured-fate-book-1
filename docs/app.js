@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-15";
+const APP_VERSION = "review-interface-v0-sync-16";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
