@@ -326,7 +326,21 @@ When applying approved prose:
 4. note any new canon decision that still needs to be recorded
 5. do not commit without authorization
 
-## 11. Durable scene state
+## 11. Future manuscript snapshots
+
+When prose work eventually opens, establish a durable snapshot convention before producing or finalizing new chapter drafts. Do not create snapshot directories or archive copies during story-bible review, chapter mapping, Chapter Goal Cards, or outline work.
+
+The future convention should preserve:
+
+- first/alpha chapter versions once the author accepts them as durable draft records
+- finalized beta rewrites once the author accepts them as durable rewrite records
+- enough metadata to identify source chapter, draft stage, date, and related outline/prose-preservation records
+
+Snapshots are historical records, not the live manuscript. Codex must not silently restore text from a snapshot, overwrite manual edits, or treat a snapshot as newer authority than the current manuscript on disk.
+
+Later prose phases may also mark protected passages, lines, exchanges, or sections that should not be changed without explicit author permission. Protected status is not created by ordinary reader feedback or candidate notes; it requires author approval and should be tracked in the future prose/prose-preservation workflow.
+
+## 12. Durable scene state
 
 When active prose work eventually begins, create:
 

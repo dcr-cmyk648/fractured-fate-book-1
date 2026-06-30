@@ -19,4 +19,4 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-30-005 | 2026-06-30-001 | accepted-for-workflow | story-bible-review | medium | `d1-ch-29` lineage assignments | accepted owner files updated | no |
 | WC-2026-06-30-006 | 2026-06-30-001 | accepted-for-workflow | story-bible-review | medium | Syndicate-to-Harbingers transition lore | accepted owner files updated | no |
 | WC-2026-06-30-007 | 2026-06-30-001 | accepted-for-workflow | story-bible-review | high | Ink delivery / arbiter mechanics | accepted owner files updated | yes |
-| WC-2026-06-30-008 | 2026-06-30-001 | accepted-for-workflow | revision-suggestion | medium | future manuscript snapshot workflow | workflow-update ticket before prose drafting | yes |
+| WC-2026-06-30-008 | 2026-06-30-001 | accepted-for-workflow | revision-suggestion | medium | future manuscript snapshot workflow | accepted future prose-phase workflow guidance | no |

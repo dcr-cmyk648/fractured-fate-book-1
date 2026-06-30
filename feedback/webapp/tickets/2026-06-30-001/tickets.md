@@ -221,9 +221,9 @@ Disposition: Accepted by author on 2026-06-30 and applied to owner files. See de
 - Target chapter IDs: none
 - Target layer: technical-processing
 - Relevant selected text: none
-- Proposed destination: workflow-update ticket before prose drafting/rewrite phases open
+- Proposed destination: accepted future prose-phase workflow guidance
 - Blocking: no for current chapter mapping; yes before durable prose rewrite production begins
-- Requires author decision: yes
+- Requires author decision: no
 - Created at: 2026-06-30
 - Related consistency queue IDs: none
 - Related prose preservation IDs: none
@@ -232,3 +232,5 @@ Disposition: Accepted by author on 2026-06-30 and applied to owner files. See de
 Summary: Future first/alpha chapter versions and finalized beta rewrites should receive permanent record snapshots, comparable to how older original chapter versions are preserved. Later rewrite phases may also need a way to mark parts that should not change without explicit permission.
 
 Rationale: This is a repository/workflow policy issue for future prose work. It should not be implemented ad hoc during chapter mapping, but it should be resolved before prose production creates new manuscript versions.
+
+Disposition: Accepted by author on 2026-06-30 and routed to future prose-phase workflow guidance. No manuscript snapshots, archive directories, protected prose records, or manuscript edits were created during this ticket. See decision record `decisions/0082-future-manuscript-snapshot-workflow.md`.

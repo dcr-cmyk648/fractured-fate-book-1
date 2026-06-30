@@ -379,6 +379,8 @@ Every major phase and meaningful block should re-check prior accepted documents 
 
 Prose-preservation checks should also verify that preservation notes are not orphaned; approved-near-quote or approved-exact-quote items are not lost during outlining; `do-not-reuse-prose` items are not accidentally treated as keepers; exact/near-exact reuse still fits changed canon and chapter structure; preserved lines still make sense after later story-bible or outline changes; preserved imagery or motifs are not duplicated awkwardly; notes linked to removed or merged chapters are remapped or marked `superseded`; and feedback-derived preservation notes are not silently ignored. When in doubt, queue the issue in `CONSISTENCY_QUEUE.md`.
 
+Before prose work creates durable new chapter drafts, establish the manuscript snapshot convention described in `AUTHORING.md`. Chapter mapping, Chapter Goal Cards, and outline work may identify future snapshot or protected-passage needs, but they must not create manuscript snapshots or protected prose sections before the prose phase is explicitly opened.
+
 ## Future and Unwritten Chapters
 
 The same blocking-story-bible mechanism applies to future chapters and unwritten sequences.
@@ -410,3 +412,5 @@ Prose work begins only after:
 - the author explicitly opens prose work under `AUTHORING.md`
 
 When prose work is eventually opened, manual edits on disk remain authoritative. Codex must not restore a removed line merely because it appears in a Prose Preservation Note. Before using a preservation note in actual prose work, reload the current manuscript file from disk, check whether the source text still exists, check whether the author has removed or changed it, treat author-edited text as newer authority, and ask before restoring text that has been manually removed.
+
+When the author accepts future first/alpha chapter versions or finalized beta rewrites, preserve durable snapshots according to the future prose-phase convention before further revision risks obscuring what was accepted. Protected passages or sections require explicit author approval and should be checked before any later rewrite, polish, or structural merge changes them.
