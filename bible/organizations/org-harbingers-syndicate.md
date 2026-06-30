@@ -32,6 +32,8 @@ The leader's exact original name and pre-takeover history remain unresolved.
 
 The Harbingers operate through hidden meeting places, underground routes, guides, dead drops, codes, masks, intimidation, bargains, and reputation.
 
+The recurring Harbinger guide who escorts Davian and Jalen to the early meeting and later reappears to escort Kelyra, Jalen, and Karra to the Heart handoff is clearly of Thaleni heritage: unnaturally large even beside Karra, with boulder-like features. His presence fits the accepted broader rule that a few Thaleni serve the Harbingers in the catacombs beneath the city.
+
 They use Ink Pacts to grant power, bind contracts, manipulate trauma, control bodies or choices, and create dependence.
 
 The Harbinger leader is the visible arbiter and purveyor of Book 1 Ink Pacts, with Elric as the hidden actor inside or behind him. Major Pacts route through the leader / Elric's direct touch or direct attention. Harbinger chambers, zä, pooled Ink, and tendrils can serve as delivery infrastructure, but they should not read as independent machines that any Harbinger can operate without Elric's authority.
@@ -84,6 +86,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Related organization: [Archeon](org-archeon.md)
 - Related organization: [Twilight Concord / Concord](org-concord.md)
 - Related organization: [Registry](org-registry.md)
+- Related culture: [Demi-human peoples, origins, and social roles](../cultures/culture-demi-human-peoples.md)
 - Related object: [Antithesis](../objects/object-antithesis.md)
 - Related magic: [Ink Pact](../magic/magic-ink-boons.md)
 - Decision record: [Harbingers Name, Elric Takeover, and Coordination](../../decisions/0015-harbingers-name-elric-takeover-and-coordination.md)
@@ -95,6 +98,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Related event: [Harbinger betrayal / Trial of Dominion and Kelyra capture](../events/event-harbinger-raid.md)
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
+- Decision record: [Karra and Harbinger Guide Lineage Assignments](../../decisions/0077-karra-and-harbinger-guide-lineages.md)
 
 ## Canonical Uncertainties
 

@@ -8,7 +8,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | yes |
 | WC-2026-06-30-003 | accepted-for-workflow | medium | revision-suggestion | `d1-prologue` exposition style | no |
 | WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | yes |
-| WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | yes |
+| WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | no |
 | WC-2026-06-30-006 | accepted-for-workflow | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
 | WC-2026-06-30-007 | accepted-for-workflow | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
 | WC-2026-06-30-008 | accepted-for-workflow | medium | revision-suggestion | future manuscript snapshot workflow | yes |
@@ -29,7 +29,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 - Relevant selected text: none
 - Proposed destination: future chapter architecture / next-draft outline ticket queue
 - Blocking: unknown for current chapter mapping; likely yes for final endgame outline approval
-- Requires author decision: yes
+- Requires author decision: no
 - Created at: 2026-06-30
 - Related consistency queue IDs: none
 - Related prose preservation IDs: none
@@ -142,6 +142,8 @@ Rationale: This may be a global manuscript convention, not just a local Chapter 
 Summary: Karra should have the orc-like lineage, now likely Ghorreni. A separate massive figure in Chapter 29 should be changed to the giant/troll-like lineage, now likely Thaleni, and may stay in the shadows while still reading as physically massive.
 
 Rationale: These notes affect character/worldbuilding continuity and should be routed through the lineage framework. The second figure is currently ambiguous from the comment alone and needs identification before durable application.
+
+Disposition: Accepted by author on 2026-06-30 and applied to owner files. Karra has Ghorreni lineage with a significant visible contribution despite likely low overall non-human percentage by Six Cities standards. The massive Thaleni figure is the recurring Harbinger guide who escorts Davian/Jalen to the early meeting and later escorts Kelyra/Jalen/Karra to the Heart handoff.
 
 ## WC-2026-06-30-006: Preserve Canonical Syndicate-to-Harbingers Transition Lore
 
