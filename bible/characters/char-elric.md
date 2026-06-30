@@ -111,6 +111,8 @@ Current manuscript material establishes:
 - Elric's hidden tie to Harvick's Ink Pact.
 - Fate/Skein visions showing Elric's role in Niall's death and Niall's killing of Elric's original body.
 
+Chapter 32 establishes an Ink simulacrum/remnant under the Rezin citadel whose hope is to be destroyed. This desire belongs to the remnant specifically and should not be generalized into full Elric's endgame goal. The remnant's "blood in the water," "arrow of fate," and "third coffin" language is intentional future-book setup and should remain cryptic in Book 1.
+
 ## Intended Arc Links
 
 - Approved arc seed: [thread-elric-reality-skein](../../outline/arcs/thread-elric-reality-skein.md)
@@ -136,6 +138,7 @@ Current manuscript material establishes:
 - Related event: [Alara's apparent death](../events/event-alara-death-war-memory.md)
 - Decision record: [Alara Apparent Death Boundary and Elric Timing](../../decisions/0062-alara-apparent-death-boundary-and-elric-timing.md)
 - Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
+- Decision record: [Chapter 32 Map, Maya Violence Boundary, and Elric Remnant Clues](../../decisions/0085-chapter-32-map-elric-remnant-clues.md)
 
 ## Canonical Uncertainties
 

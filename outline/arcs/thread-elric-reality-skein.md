@@ -58,6 +58,14 @@ Elric's tampering with Alara's auratic codex is part of this pressure system. Th
 
 Elric likely did not want Alara to die, because she was a potential fateweaver tool for damaging the Skein and summoning the extraplanar deity to consume existence. During Alara's decline and apparent death, Elric was already dead in his original body and still recrystallizing / taking over the Syndicate through the Ink Pact route. His accepted role in Alara's apparent-death aftermath is exploitation through the codex trap and fate/trauma pressure, not causing the death.
 
+Chapter 32's underground Ink remnant wants Maya to destroy it. That is the remnant's hope, not full Elric's. The remnant's cryptic future-book setup should preserve the phrases `blood in the water`, `arrow of fate`, and `third coffin` without overexplaining them in Book 1.
+
+Planning meanings for those phrases:
+
+- `blood in the water`: damage to the Skein draws the attention of the extraplanar deity.
+- `arrow of fate`: Selwin's forward-only entropic powers and their possible future-book potential to kill the extraplanar deity; this is what Elric originally sought before psychotic depression shifted his plan toward destroying reality.
+- `third coffin`: a three-caskets / psychological-symbol reference to Elric's failure to accept imperfection and the inevitable horrors and difficulties of existence.
+
 ## A Cord of Six Strands
 
 `A Cord of Six Strands` is the title-level frame for two intertwined triads:
@@ -93,6 +101,7 @@ This framing should be revealed very late, when Maya is about to resurrect Davia
 - Decision record: [Auratic Codex Memory Mechanics](../../decisions/0024-auratic-codex-memory-mechanics.md)
 - Decision record: [Elric Reality/Skein Arc and Trauma Determinism](../../decisions/0072-elric-reality-skein-arc-trauma-determinism.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
+- Decision record: [Chapter 32 Map, Maya Violence Boundary, and Elric Remnant Clues](../../decisions/0085-chapter-32-map-elric-remnant-clues.md)
 - Related accepted character: [Davian](../../bible/characters/char-davian.md)
 - Related accepted character: [Niall Rezin](../../bible/characters/char-niall.md)
 - Related accepted character: [Kelyra](../../bible/characters/char-kelyra.md)
