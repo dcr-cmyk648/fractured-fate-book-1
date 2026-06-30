@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-14";
+const APP_VERSION = "review-interface-v0-sync-15";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -38,6 +38,7 @@ let currentScratchpadTab = "content";
 let browserTreeOpen = false;
 let readerControlsOpen = false;
 let scrollSaveTimer = null;
+let viewportResizeTimer = null;
 
 const $ = (id) => document.getElementById(id);
 
@@ -255,7 +256,8 @@ function renderLayerSelect() {
   }
   const prose = chapter.available_layers.find((layer) => layer.key === "prose" && layer.available);
   if (!visibleLayers.some((layer) => layer.key === currentLayer && layer.available)) {
-    currentLayer = prose ? "prose" : chapter.available_layers[0]?.key || "prose";
+    const firstAvailable = visibleLayers.find((layer) => layer.available);
+    currentLayer = prose ? "prose" : firstAvailable?.key || chapter.available_layers[0]?.key || "prose";
   }
   select.value = currentLayer;
   saveReaderState();
@@ -388,6 +390,23 @@ function tableCellsFor(line) {
   return cells.length > 1 ? cells : null;
 }
 
+function enhanceReadableTables(container) {
+  if (!container) return;
+  for (const table of container.querySelectorAll("table")) {
+    const rows = Array.from(table.querySelectorAll("tr"));
+    const headerCells = rows[0]?.querySelectorAll("td") || [];
+    const hasHeader = headerCells.length > 1 && Array.from(headerCells).every((cell) => cell.textContent.trim());
+    if (!hasHeader) continue;
+    const labels = Array.from(headerCells).map((cell) => cell.textContent.trim());
+    table.classList.add("responsive-table");
+    rows.slice(1).forEach((row) => {
+      Array.from(row.querySelectorAll("td")).forEach((cell, index) => {
+        cell.dataset.label = labels[index] || "";
+      });
+    });
+  }
+}
+
 function inlineMarkdown(value) {
   return escapeHtml(value)
     .replace(/`([^`]+)`/g, "<code>$1</code>")
@@ -424,6 +443,7 @@ function renderChapter() {
     currentFilePath = layer.source_file;
   }
   contentPanel.innerHTML = currentLayer === "prose" ? basicMarkdownToHtml(text, { prose: true }) : basicMarkdownToHtml(text);
+  enhanceReadableTables(contentPanel);
   saveReaderState();
   updateTargetDisplay();
   syncMobileReaderUi();
@@ -545,6 +565,7 @@ function renderFile(path) {
   $("fileContent").classList.remove("code-like");
   $("fileContent").classList.add("repo-readable");
   $("fileContent").innerHTML = basicMarkdownToHtml(file.content);
+  enhanceReadableTables($("fileContent"));
   document.querySelectorAll(".tree-file").forEach((button) => {
     button.classList.toggle("active", button.dataset.path === path);
   });
@@ -1153,6 +1174,29 @@ function isMobileLayout() {
   return window.matchMedia("(max-width: 820px)").matches;
 }
 
+function updateViewportMetrics() {
+  const height = window.visualViewport?.height || window.innerHeight || document.documentElement.clientHeight;
+  document.documentElement.style.setProperty("--app-vvh", `${Math.round(height)}px`);
+}
+
+function handleViewportResize() {
+  updateViewportMetrics();
+  window.clearTimeout(viewportResizeTimer);
+  viewportResizeTimer = window.setTimeout(() => {
+    if (isMobileLayout()) {
+      readerControlsOpen = false;
+      browserTreeOpen = false;
+      setReaderControlsOpen(false);
+      setBrowserTreeOpen(false);
+      setCommentDrawer(false);
+    }
+    syncMobileCommentUi();
+    syncMobileReaderUi();
+    syncMobileBrowserUi();
+    updateTargetDisplay();
+  }, 120);
+}
+
 function setCommentDrawer(open) {
   const box = $("commentBox");
   const toggle = $("commentDrawerToggle");
@@ -1245,6 +1289,7 @@ function renderCommentList() {
 }
 
 function wireEvents() {
+  updateViewportMetrics();
   $("changeNameBtn").addEventListener("click", () => promptForName(true));
   $("readerNavBtn").addEventListener("click", () => setView("book-reader"));
   $("browserNavBtn").addEventListener("click", () => setView("repo-browser"));
@@ -1318,9 +1363,9 @@ function wireEvents() {
       localStorage.setItem(STORAGE_KEYS.scroll, String(approximateScrollPercent()));
     }, 150);
   }, { passive: true });
-  window.addEventListener("resize", syncMobileCommentUi, { passive: true });
-  window.addEventListener("resize", syncMobileReaderUi, { passive: true });
-  window.addEventListener("resize", syncMobileBrowserUi, { passive: true });
+  window.addEventListener("resize", handleViewportResize, { passive: true });
+  window.addEventListener("orientationchange", handleViewportResize, { passive: true });
+  window.visualViewport?.addEventListener("resize", handleViewportResize, { passive: true });
 }
 
 async function init() {

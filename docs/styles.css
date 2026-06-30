@@ -758,7 +758,7 @@ select {
     right: 0;
     bottom: 0;
     width: auto;
-    max-height: min(78vh, 620px);
+    max-height: min(calc(var(--app-vvh, 100vh) * 0.78), 620px);
     overflow: auto;
     padding: 0;
     gap: 0;
@@ -849,7 +849,7 @@ select {
   }
 
   .reader-sidebar.is-reader-controls-open {
-    max-height: min(72vh, 520px);
+    max-height: min(calc(var(--app-vvh, 100vh) * 0.72), 520px);
     overflow: auto;
   }
 
@@ -954,7 +954,7 @@ select {
 
   .browser-sidebar .file-tree {
     display: none;
-    max-height: min(42vh, 360px);
+    max-height: min(calc(var(--app-vvh, 100vh) * 0.42), 360px);
     margin-top: 0.2rem;
     padding-top: 0.7rem;
     border-top: 1px solid var(--line);
@@ -1068,5 +1068,48 @@ select {
 
   .document-content.repo-readable table {
     font-size: 0.82rem;
+  }
+
+  .document-content.repo-readable table.responsive-table,
+  .document-content.repo-readable table.responsive-table tbody,
+  .document-content.repo-readable table.responsive-table tr,
+  .document-content.repo-readable table.responsive-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .document-content.repo-readable table.responsive-table {
+    overflow: visible;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+
+  .document-content.repo-readable table.responsive-table tr:first-child {
+    display: none;
+  }
+
+  .document-content.repo-readable table.responsive-table tr {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .document-content.repo-readable table.responsive-table tr:last-child {
+    border-bottom: 0;
+  }
+
+  .document-content.repo-readable table.responsive-table td {
+    min-width: 0;
+    padding: 0.32rem 0.65rem;
+    border: 0;
+  }
+
+  .document-content.repo-readable table.responsive-table td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 0.12rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
