@@ -12,3 +12,11 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-29-002 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | comment export UI | app update applied | no |
 | WC-2026-06-29-003 | 2026-06-29-001 | accepted-for-workflow | app-bug | medium | reader-code comment sync | app and Apps Script update applied | no |
 | WC-2026-06-29-004 | 2026-06-29-001 | accepted-for-workflow | chapter-architecture | high | Kelyra/Davian/Maya; Sorevin; Presentation fallout | accepted owner files updated | no |
+| WC-2026-06-30-001 | 2026-06-30-001 | proposed | chapter-architecture | high | endgame Archeon citadel fight sequence | future chapter architecture / next-draft outline | yes |
+| WC-2026-06-30-002 | 2026-06-30-001 | proposed | prose-preservation | medium | `d1-ch-29` dialogue and quotes | prose-preservation candidate queue | yes |
+| WC-2026-06-30-003 | 2026-06-30-001 | proposed | revision-suggestion | medium | `d1-prologue` exposition style | current-draft chapter map / later prose revision | no |
+| WC-2026-06-30-004 | 2026-06-30-001 | proposed | style-line-edit | medium | `d1-ch-29` sign-language formatting/style | style/revision ticket queue | yes |
+| WC-2026-06-30-005 | 2026-06-30-001 | proposed | story-bible-review | medium | `d1-ch-29` lineage assignments | story-bible review / lineage consistency pass | yes |
+| WC-2026-06-30-006 | 2026-06-30-001 | proposed | story-bible-review | medium | Syndicate-to-Harbingers transition lore | organization story-bible / chapter architecture dependency | no |
+| WC-2026-06-30-007 | 2026-06-30-001 | proposed | story-bible-review | high | Ink delivery / arbiter mechanics | lower-level story-bible mechanics discussion | yes |
+| WC-2026-06-30-008 | 2026-06-30-001 | proposed | revision-suggestion | medium | future manuscript snapshot workflow | workflow-update ticket before prose drafting | yes |
