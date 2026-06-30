@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 39
 - Working title: Intelligence Machine, Awkward Training, and the Drakhal Proposal
-- Current status: author-review packet
+- Current status: approved working detailed outline
 - Prior unit: `ch38-davian-night-unresolved-want.md`
 - Prose drafting: not authorized
 
@@ -72,8 +72,12 @@ Purpose:
 
 - Evana arrives with Caius and allied/supporting High Clade representation.
 - Archeon is physically represented, including Serathis and her heir.
-- Other powerful backup High Clades are physically present as "witnesses." Source notes identify Archeon, Drakhal, Lyranth, and possibly a neutral fourth Clade as the kind of coalition/backup Evana wants.
+- Lyranth is present because Niall killed the prior Lyranth Head Magus and others; the current Head Magus is the young daughter of the one Niall killed.
+- Cryndor is present because they were historically allied with Rezin, but Evana knows they are committed to justice and dislike Niall's takeover. They look almost friendly to Rezin while still being willing to fight Niall if he acts out.
+- Archeon is present because of its back-door dealings with Drakhal, but this should not be made openly obvious to everyone in the room.
+- The delegation must look neutral or balanced enough to avoid the taboo/political scandal of several High Clades openly ganging up on another High Clade.
 - These witnesses are there ostensibly for legitimacy, but really because Evana wants to guarantee a win if Niall attacks.
+- The delegation is powerful: Cryndor and Lyranth bring other Presented magi; Drakhal brings its Head Magus, Caius, and another Presented female Drakhal magus; Serathis brings her heir.
 - Their presence in Rezin space should feel deliberately invasive.
 - Evana should frame the parlay as reasonable, lawful, stabilizing, or necessary after Rezin's failures.
 - Underneath, the move is an attempted public humiliation and provocation.
@@ -144,6 +148,7 @@ Purpose:
 - Evana can take Niall's concession/consideration as a "win."
 - She does not get enough leverage to make anyone beyond Drakhal and Archeon attack immediately, because Niall did not attack and Davian's attack is easier to contain politically.
 - She also knows, or expects, that her Archeon backup plan is likely to work.
+- Niall can notice Cryndor's presence with a mix of regret and anger, because their historical friendliness toward Rezin makes their participation feel like a meaningful political loss.
 
 Purpose:
 
@@ -187,7 +192,7 @@ End after the initial planning has steered toward Archeon and Maya has accepted,
 ## What to Move or Defer
 
 - Full Archeon assault logistics can continue in Chapter 40.
-- The "Archeon is predictable/easy to beat" plan beat can land in Chapter 39's planning tail if concise, or Chapter 40 if it needs more room.
+- The "Archeon is predictable/easy to beat" plan beat should be discussed later, likely on the way to Archeon, to avoid bogging down Chapter 39.
 - Forerunner/scout ethics belong Chapter 40 or the approach chapter.
 - Vorren/Serathis trap details should remain hidden.
 
@@ -234,6 +239,7 @@ Reader learns:
 - Drakhal is escalating after the Spire.
 - Marriage to Maya is being used as a legitimacy weapon.
 - Drakhal has allied/supporting High Clade witnesses.
+- Lyranth and Cryndor are part of Evana's witness/backup delegation.
 - Niall's public control is strategic, not surrender.
 - Davian is now much more dangerous than in his earlier Caius encounter.
 - Niall is choosing Archeon partly through strategy and partly through desperate deterrent logic.
@@ -255,7 +261,9 @@ Reader should not yet learn:
 - Niall should not reveal the Heart secret publicly.
 - Jalen remains injured and noncombatant.
 - Archeon is physically present in the delegation, including Serathis and heir.
-- Multiple powerful backup High Clades should be present as witnesses/backup.
+- Lyranth and Cryndor are physically present as witnesses/backup.
+- Cryndor's presence should read as politically meaningful because of prior Rezin friendliness and justice orientation.
+- The delegation should look plausibly neutral/balanced, not like an openly illicit gang-up.
 - Prose gate remains closed.
 
 ## Author Decisions Applied
@@ -269,8 +277,11 @@ Reader should not yet learn:
 - Serathis notices Davian.
 - Niall's retaliation planning continues in this chapter from Maya POV, including Aldira/Jalen steering him toward Archeon.
 - Maya supports the Archeon attack partly because she recognizes the toxic danger but desperately wants Niall's trust and equality.
+- Evana's witness/backup delegation includes Lyranth and Cryndor. Lyranth is obvious because Niall killed their former Head Magus; Cryndor is valuable because they once leaned friendly toward Rezin but are justice-oriented and disapprove of Niall's takeover.
+- Cryndor and Lyranth bring other Presented magi; Drakhal brings its Head Magus, Caius, and another Presented female Drakhal magus; Serathis brings her heir.
+- The delegation needs plausible neutral/balanced optics because open gang-up politics between High Clades are taboo.
+- The "Archeon magi are predictable/easy to beat" plan beat should happen later, likely on the way to Archeon, not in Chapter 39.
 
-## Remaining Author Review Questions
+## Approval Status
 
-1. Which non-Drakhal/non-Archeon High Clades should be physically present as Evana's witnesses/backup: Lyranth plus one neutral fourth Clade, or a different set?
-2. Should Chapter 39 end once Archeon is chosen as the target, or include the first concise version of the "Archeon magi are predictable/easy to beat" plan?
+Approved on 2026-06-30 as the working detailed outline, with Lyranth and Cryndor added as Evana's key non-Drakhal/non-Archeon witnesses/backup and the Archeon tactical-plan beat deferred to the journey/approach.
