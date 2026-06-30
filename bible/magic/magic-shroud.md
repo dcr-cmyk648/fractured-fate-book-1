@@ -71,6 +71,8 @@ Davian can form a weak but real Shroud. His practical weakness is not a smaller 
 
 Davian's Chapter 31-level Shroud development should focus on integrating the Shroud with his existing martial arts and Ink-altered movement/perception. Do not route that chapter through complicated localized-Shroud mechanics. His broader Archeon-style progression is martial arts first, then Ink, then Shroud, then later kinesis.
 
+The reviewed Chapter 37 working fragment should not establish a local-forearm Shroud mechanic. If Davian blocks with his arms during training, treat that as an ordinary martial habit Maya can criticize because a proper Shroud defense is full-body and does not depend on putting a limb between the body and the strike.
+
 Kelyra:
 
 Kelyra's Shroud is trauma-blocked. Externally, she never manifested a Shroud; internally, she knows it is there but suppresses it because she associates Shroud manifestation with Archeon captivity and child loss.
@@ -117,6 +119,7 @@ Archeon's actual combat power depends on a stack of short-range kinesis, Ink Pac
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
 - Decision record: [Chapter 31 Map and Davian Ability Progression](../../decisions/0084-chapter-31-map-davian-ability-progression.md)
 - Decision record: [Chapter 36 Map, Harvick Prototype Ink, and Selwin Training](../../decisions/0089-chapter-36-map-harvick-selwin-training.md)
+- Decision record: [Chapter 37 Fragment Boundary and Shroud Simplification](../../decisions/0090-chapter-37-fragment-boundary.md)
 
 ## Canonical Uncertainties
 

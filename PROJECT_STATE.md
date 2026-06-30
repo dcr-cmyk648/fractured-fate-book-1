@@ -11,14 +11,14 @@ Last updated: 2026-06-30
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
 - Latest relevant commit message: `revision: approve Chapter 36 map`
-- Working tree expected to be clean: no; local Apps Script configuration may remain modified; `d1-ch-37-preposed` packet may be prepared next
+- Working tree expected to be clean: no; local Apps Script configuration may remain modified while comment-sync setup remains local
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 2
+- Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
 - Last consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
 - Last chapter-map consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-36` current-draft map was approved by the author with clarifications on Harvick's prototype Ink Pact, Davian's baseline Ink movement, revised non-fuel Ink language, broad Shroud training model, and Selwin apology beat. No manuscript prose has been changed.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. No manuscript prose has been changed.
 
 ## Next action
 
-Finalize, validate, commit, and push the approved Chapter 36 map, then prepare `d1-ch-37-preposed` unless a blocker or higher-priority ticket appears.
+Pull and process latest web-app comments, queue any outstanding tickets, then run a full consistency/validation pass before continuing book work.
 
 ## Awaiting author input
 
-None after Chapter 36 finalization. The next author-facing item should be the `d1-ch-37-preposed` current-draft map packet or a completion checkpoint if the preposed fragment should be deferred.
+No chapter-map author packet is currently pending. Next required work is comment intake/ticket routing followed by consistency validation and an alpha-continuation workflow check.
 
 ## Workflow policy note
 

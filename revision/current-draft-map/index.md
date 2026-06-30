@@ -20,7 +20,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 
 | Source ID | Current heading | Source lines | Map file | Status |
 |---|---|---:|---|---|
-| d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | pending | later-working-fragment |
+| d1-ch-37-preposed | Chapter 37 working fragment | 18-197 | [d1-ch-37-preposed.md](d1-ch-37-preposed.md) | reviewed partial fragment |
 | d1-prologue | Prologue | 228-674 | [d1-prologue.md](d1-prologue.md) | approved |
 | d1-ch-01 | Chapter 1 | 678-923 | [d1-ch-01.md](d1-ch-01.md) | approved |
 | d1-ch-02 | Chapter 2 | 927-1262 | [d1-ch-02.md](d1-ch-02.md) | approved |
@@ -67,4 +67,4 @@ Current packet awaiting author review:
 
 Next review unit:
 
-- `d1-ch-37-preposed`
+- Pull and process latest web-app comments, queue any outstanding tickets, then run a full consistency/validation pass before continuing book work.
