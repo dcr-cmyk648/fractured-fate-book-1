@@ -7,7 +7,7 @@ Tickets are proposed work items derived from web-app comments. They are not cano
 | WC-2026-06-30-001 | accepted-for-workflow | high | chapter-architecture | endgame Archeon citadel / Serathis-Niall-Maya-Davian-Kelyra sequence | yes |
 | WC-2026-06-30-002 | accepted-for-workflow | medium | prose-preservation | `d1-ch-29` dialogue and quotes | yes |
 | WC-2026-06-30-003 | accepted-for-workflow | medium | revision-suggestion | `d1-prologue` exposition style | no |
-| WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | yes |
+| WC-2026-06-30-004 | accepted-for-workflow | medium | style-line-edit | `d1-ch-29` sign-language formatting/style | no |
 | WC-2026-06-30-005 | accepted-for-workflow | medium | story-bible-review | `d1-ch-29` lineage assignments | no |
 | WC-2026-06-30-006 | accepted-for-workflow | medium | story-bible-review | Syndicate-to-Harbingers transition lore | no |
 | WC-2026-06-30-007 | accepted-for-workflow | high | story-bible-review | Ink delivery / arbiter mechanics | yes |
@@ -105,9 +105,9 @@ Rationale: This is a clear author note for later chapter architecture and prose 
 - Target chapter IDs: `d1-ch-29`
 - Target layer: prose
 - Relevant selected text: none captured
-- Proposed destination: style/revision ticket queue; future prose phase
-- Blocking: unknown
-- Requires author decision: yes
+- Proposed destination: accepted prose-phase guidance / future prose revision
+- Blocking: no
+- Requires author decision: no
 - Created at: 2026-06-30
 - Related consistency queue IDs: none
 - Related prose preservation IDs: none
@@ -116,6 +116,8 @@ Rationale: This is a clear author note for later chapter architecture and prose 
 Summary: Sign language in Chapter 29 should be italicized and rewritten to read more like an awkward ASL-like construction.
 
 Rationale: This may be a global manuscript convention, not just a local Chapter 29 line edit. It should be approved as a style/communication convention before broad application.
+
+Disposition: Accepted by author on 2026-06-30 and applied as future prose-phase guidance. Concord / Masked Clade sign language should be italicized. Its style should reflect that common words have signs while the rest is phonetically rendered through zän/sign components, producing a slightly ASL-like, compressed, awkward quality. No manuscript prose was edited.
 
 ## WC-2026-06-30-005: Route Chapter 29 Lineage Notes for Karra and Massive Shadowed Figure
 

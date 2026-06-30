@@ -98,6 +98,7 @@ A six-day week may be called a `hexday`.
 - Decision record: [Zän Number System, Nizän, and Script Terminology](../../decisions/0042-zan-number-system-nizan-and-script-terminology.md)
 - Decision record: [Zän Spelling Convention Correction](../../decisions/0051-zan-spelling-convention-correction.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
+- Decision record: [Concord Sign Language Rendering Convention](../../decisions/0079-concord-sign-language-rendering.md)
 
 ## Provenance
 

@@ -258,6 +258,14 @@ When magic is important, show relevant elements such as:
 - sensory effects
 - backlash
 - loss of precision as exhaustion increases
+
+### Sign Language and Concord Hand Sign
+
+When future prose work renders Concord / Masked Clade sign language, use italics for signed dialogue.
+
+The signed language should not read exactly like clean spoken English. It should have a slightly ASL-like, foreign, compressed quality. The underlying convention is that some common words have established signs, while the rest is rendered through phonetic zän/sign components. In prose, this can appear as a mixture of direct common-word signs and more awkward phonetic or component-based phrasing.
+
+Do not apply this convention to manuscript files until prose revision is explicitly authorized.
 - how trained reflexes differ from consciously constructed techniques
 
 Technical details must remain consistent with approved magic-system files.
