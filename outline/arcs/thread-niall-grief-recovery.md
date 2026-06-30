@@ -27,6 +27,8 @@ His arc should move toward accepting help, living with Maya and Selwin, and prot
 
 The author specifically approves framing this as committed action toward what Niall still does have, especially Maya and Selwin, instead of remaining focused on the past and things he cannot change.
 
+Chapter 34 is a key pressure point for this arc. Niall tries to kill Davian after Maya frees him against orders, forcing Maya to interpose. Niall also frames Maya's defiance as an implicit High Clade authority challenge because High Clades decide rule through killing and strength. The scene should show Niall's frightened, rigid "I can only make people die" model of power rather than make him a flat villain. Maya challenges whether he can be a leader instead of only a killer who rules by fear. He agrees to try her way for now, but this is not a permanent recovery; he later regresses when he decides to go kill Archeon.
+
 ## Alara, Maya, and Selwin
 
 Niall believes Alara is unrecoverably dead/lost after her postpartum/fateweaving decline and apparent death. He does not know the hidden higher-plane truth.
@@ -82,6 +84,7 @@ In the accepted endgame assault direction, Niall and Maya proceed toward Archeon
 - Decision record: [Niall Grief Arc and Lightning Conduits](../../decisions/0005-niall-grief-arc-and-lightning-conduits.md)
 - Decision record: [Niall Grief Recovery and Committed Action](../../decisions/0070-niall-grief-recovery-committed-action.md)
 - Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
 
 ## Provenance
 

@@ -90,6 +90,8 @@ Serathis claims Kelyra as daughter, granddaughter, and descendant. Kelyra is dir
 
 Serathis intentionally allowed Kelyra's escape and later uses the parallel to Serathis's own release to gaslight Kelyra. There is a gray area around whether Serathis is partly right that this helped produce who Kelyra became, but that does not make Serathis's methods morally defensible. Serathis's value for Kelyra and Davian is recent and conditional on their results; if they had disappointed her, she would not have cared about them.
 
+Chapter 34's Aldira inference that Archeon may have let Kelyra go is true at the author/outline level, though Aldira cannot know it for certain in-scene. The implication should support later Archeon/Kelyra planning without making Kelyra knowingly loyal to Archeon.
+
 Serathis sees Kelyra as one of the closest realized heirs to her project and is desperate to bring her back to Archeon's side.
 
 Accepted future direction: Davian fights the remaining Presented Archeon magus to free Kelyra; Kelyra manifests a Shroud to break out and help him; Davian and Kelyra together fight and kill Serathis; Kelyra stays to handle the remaining Archeon forces while Davian goes to help Maya and Niall against Vorren. Serathis shares her desire to kill all High Clade magi and burn down the Clade system with Kelyra as Serathis dies.
@@ -147,6 +149,7 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
 
 ## Canonical Uncertainties
 

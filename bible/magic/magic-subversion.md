@@ -18,6 +18,8 @@ candidate_file: planning/candidates/magic/magic-subversion.md
 
 Kinesis is short-range, primarily kinetic redirection of energy. It does not primarily create force from nothing; its goal is diversion, because energy has to go somewhere.
 
+Chapter 34 current-draft training direction is broadly compatible with this model: Shroud handling converts incoming energy toward hereditary alignment, while Davian's Archeon kinesis benefits from anchors, tools, physical frameworks, and deeply trained body patterns rather than refined long-range projection. Future prose and outline work should streamline the explanation so mechanics remain fight-relevant without becoming overly technical.
+
 ## Technical Model
 
 Kinesis redirects kinetic energy at short range.
@@ -108,6 +110,7 @@ Paradox is the normal sword made from ruined Antithesis at the end of Book 1. It
 - Decision record: [Antithesis Boundary and Paradox Future Plan](../../decisions/0023-antithesis-boundary-and-paradox-future-plan.md)
 - Decision record: [Antithesis Dagger, Schema Sink, and Concealment](../../decisions/0033-antithesis-dagger-schema-sink-and-concealment.md)
 - Decision record: [Paradox Name, Maker, Form, and Symbolism](../../decisions/0034-paradox-name-maker-form-and-symbolism.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
 
 ## Provenance
 

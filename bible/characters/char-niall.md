@@ -93,6 +93,8 @@ In Chapter 1, Niall responds to the wall commanders' failure with cold fury. He 
 
 Later current manuscript material shows Niall attacking Davian after the Heart theft while Maya interposes her Shroud. The scene frames Niall's power as terrifying and also weakened after the Heart theft.
 
+In Chapter 34, after Maya frees Davian against Niall's orders and returns with him from Zirene, Niall tries to kill Davian with lightning and forces Maya to interpose. Niall knows Maya is a powerful High Clade magus and can hold back enough that he is not likely to kill her, but the action is still dangerous, rigid, and bad. He frames Maya's defiance as an implicit High Clade authority challenge because High Clades decide rule through killing and strength. The point is not to make Niall a flat villain; it shows his frightened belief that his power can only make people die and that leadership is rule by fear. Maya challenges that model by asking whether he can let her help and lead toward a different kind of world. Niall yields temporarily, but later regresses when he decides to go kill Archeon.
+
 During the Treasury confrontation, Niall revives Harvick with lightning after Davian stops Harvick's heart with blunt force trauma.
 
 During the accepted Heart theft event, Niall stretches his diminished power to its limits to protect both himself and Harvick after Davian launches the Treasury sphere at him. This leaves Niall unconscious, injured, and exposed. Davian and the reader do not need to clearly understand Harvick's revival in the moment.
@@ -151,6 +153,7 @@ In the opening attack, Niall's arrival is qualitatively different from Maya's fi
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Related arc: [Demi-human mercenary forces and death payments](../../outline/arcs/thread-demi-human-mercenary-forces.md)
 - Decision record: [Demi-Human Mercenary Forces and Death Payments](../../decisions/0065-demi-human-mercenary-forces-and-death-payments.md)
+- Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
 
 ## Canonical Uncertainties
 
