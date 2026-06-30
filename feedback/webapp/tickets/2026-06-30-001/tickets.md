@@ -159,7 +159,7 @@ Disposition: Accepted by author on 2026-06-30 and applied to owner files. Karra 
 - Target chapter IDs: `d1-ch-29`
 - Target layer: prose
 - Relevant selected text: none captured
-- Proposed destination: organization story-bible update or Chapter 29 architecture dependency
+- Proposed destination: accepted owner files updated
 - Blocking: no
 - Requires author decision: no
 - Created at: 2026-06-30
@@ -170,6 +170,8 @@ Disposition: Accepted by author on 2026-06-30 and applied to owner files. Karra 
 Summary: Chapter 29 contains lore about the transition from Syndicate to Harbingers, and the comment marks that lore as canonical.
 
 Rationale: This should be checked against existing Harbingers/Syndicate records before higher-level outline work depends on it. The comment is clear, but durable routing still needs a ticket because comments do not directly alter canon files.
+
+Disposition: Accepted by author on 2026-06-30 and applied as a lightweight traceability update. See decision record `decisions/0078-syndicate-to-harbingers-transition-evidence.md`.
 
 ## WC-2026-06-30-007: Evaluate Direct-Touch Ink Delivery and Harbinger Arbiter Role
 

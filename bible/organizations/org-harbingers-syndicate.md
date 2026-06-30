@@ -18,6 +18,8 @@ The Syndicate-to-Harbingers name change is a proxy measure for Elric's takeover 
 
 The organization should remain one combined entity record unless later review requires splitting the earlier Syndicate from the later Harbingers.
 
+Chapter 29's Kelyra POV / underworld lore about the Syndicate becoming the Harbingers is canonical evidence for this transition, even though the exact leader name and pre-takeover organizational history remain unresolved.
+
 ## Origin and Leadership
 
 Before Elric's intervention, the leader was much more minor than he is now, but already up-and-coming because of tactical genius and an ability to make bargains.
@@ -99,6 +101,7 @@ Drakhal is already working with the Harbingers in the background before the Hear
 - Decision record: [Heart Theft Event Architecture](../../decisions/0060-heart-theft-event-architecture.md)
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Karra and Harbinger Guide Lineage Assignments](../../decisions/0077-karra-and-harbinger-guide-lineages.md)
+- Decision record: [Syndicate to Harbingers Transition Evidence](../../decisions/0078-syndicate-to-harbingers-transition-evidence.md)
 
 ## Canonical Uncertainties
 
