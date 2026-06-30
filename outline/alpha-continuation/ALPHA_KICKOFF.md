@@ -1,5 +1,7 @@
 # Alpha-Continuation Kickoff
 
+> Revision note, 2026-06-30: the initial high-level sequence list in this packet compressed too much material between the current Chapter 37 fragment and the Archeon assault. Use the expanded source-backed map in [ALPHA_SOURCE_SEQUENCE_MAP.md](ALPHA_SOURCE_SEQUENCE_MAP.md) for the current planning checkpoint. This packet remains as the first kickoff record and cutoff summary.
+
 ## Purpose
 
 The immediate goal is to finish the current alpha draft from the present written-prose cutoff through the accepted Book 1 ending. This is not the beta-draft re-outline and not a full front-to-back rewrite pass.

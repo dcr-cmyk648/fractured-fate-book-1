@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The alpha-continuation kickoff packet has been created at `outline/alpha-continuation/ALPHA_KICKOFF.md`.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The initial alpha-continuation kickoff packet was created at `outline/alpha-continuation/ALPHA_KICKOFF.md`; after author feedback that it skipped too much remaining material, the current author-review packet is the expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md`.
 
 ## Next action
 
-Author reviews `outline/alpha-continuation/ALPHA_KICKOFF.md`, answers kickoff questions, and then Codex prepares the first detailed alpha-continuation unit outline. No prose drafting is authorized.
+Author reviews `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md`, answers the sequence-map questions, and then Codex prepares the first detailed alpha-continuation unit outline. No prose drafting is authorized.
 
 ## Awaiting author input
 
-Alpha-continuation kickoff packet is awaiting author review. No current web-app comment ticket blocks that packet.
+Expanded alpha-continuation source sequence map is awaiting author review. No current web-app comment ticket blocks that packet.
 
 ## Workflow policy note
 
