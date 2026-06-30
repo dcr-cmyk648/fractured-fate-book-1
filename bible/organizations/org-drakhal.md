@@ -69,6 +69,8 @@ These records connect Drakhal to broader High Clade practices where producing a 
 
 Current manuscript material shows Evana and Caius entering Archeon space during Kelyra's captivity, criticizing Serathis after Archeon fails to recover the Rezin Heart thief, and treating Archeon as a less-fortunate ally while still being wary of what fighting Serathis inside her own citadel would mean.
 
+Their Chapter 35 intrusion is not primarily a clean test of Archeon's weakness. Evana and Caius are throwing Drakhal's weight around, reminding Archeon that Drakhal is supposedly in charge, and seeing what is going on after the Heart theft. Their main concern is Niall's uncertain level of weakness, but they probe this indirectly by blaming Archeon and assessing enemy strength by proxy while trying not to reveal how concerned they are. This matches Drakhal's broader strategy of stacking the deck, avoiding exposure, and politically/psychologically maneuvering both allies and enemies.
+
 Caius displays force-magic or distortion around his hands when angered.
 
 ## Related Files
@@ -89,6 +91,7 @@ Caius displays force-magic or distortion around his hands when angered.
 - Decision record: [Caius Drakhal Heir Role and Narcissistic Provocation](../../decisions/0048-caius-drakhal-heir-role-and-provocation.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Decision record: [Maya Presentation Event Architecture](../../decisions/0059-maya-presentation-event-architecture.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 

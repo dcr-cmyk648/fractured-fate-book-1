@@ -108,6 +108,8 @@ Later manuscript material establishes Kelyra's claimed Archeon lineage, her lack
 
 Chapter 35 material shows Kelyra fighting effectively in an Archeon arena, being recognized by Serathis as a genius for martial combat, confronting Lethira, and being pressed toward the Shroud she has suppressed.
 
+The Chapter 35 Archeon healing beat should later be updated toward the newer painful gold strike-line healing model while preserving that Archeon can only maintain one expensive healer. Under the newer Ink system, Kelyra can still have some rapid-movement ability during this captivity sequence rather than being completely depowered. Kelyra does not have Davian/Karra-style deeper forced-restructuring Ink healing; psychotic or compulsive old-Ink symptoms can come from long-term exposure without implying that healing case.
+
 Kelyra canonically fights in the Trial of Dominion. Jalen talks with her beforehand, gives advice, and supports her, but does not participate.
 
 Kelyra's defeat in that event should preserve her competence: she effectively wins the surface fight against Karra, but loses the hidden/rigged system after Karra's deeper Ink healing and Harbinger/Elric-weighted conditions make victory essentially impossible.
@@ -150,6 +152,7 @@ Kelyra's defeat in that event should preserve her competence: she effectively wi
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 - Decision record: [Chapter 34 Map, Niall Confrontation, and Kelyra Release](../../decisions/0087-chapter-34-map-niall-kelyra-training.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 

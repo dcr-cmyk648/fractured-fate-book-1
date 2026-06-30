@@ -10,15 +10,15 @@ Last updated: 2026-06-30
 - Active or paused entity ID: none
 - Latest completed entity: thread-elric-reality-skein
 - Latest relevant commit: HEAD
-- Latest relevant commit message: `revision: review current-draft maps through Chapter 34`
-- Working tree expected to be clean: no; local Apps Script configuration may remain modified; `d1-ch-35` packet may be prepared next
+- Latest relevant commit message: `revision: approve Chapter 35 map`
+- Working tree expected to be clean: no; local Apps Script configuration may remain modified; `d1-ch-36` packet may be prepared next
 - Remote synchronized: yes
 
 ## Block status
 
 - Current block: current-draft-map
 - Block scope: descriptive current-draft chapter mapping under `REVISION_WORKFLOW.md`
-- Approved current-draft maps since last chapter-map consistency review: 0
+- Approved current-draft maps since last chapter-map consistency review: 1
 - Last consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
 - Last chapter-map consistency review: reports/consistency/2026-06-30-current-draft-map-through-ch34.md
 - Consistency review due: no; next significant current-draft map review due after five more approved maps or sooner if a broad issue appears
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The required current-draft map consistency review through `d1-ch-34` is complete. No blocker prevents preparing `d1-ch-35`. No manuscript prose has been changed.
+The `d1-ch-35` current-draft map was approved by the author with clarifications on Archeon healing, Lethira's function, old-Ink symptoms, Drakhal's intrusion motive, and the Vorren breeding-contract implication. No manuscript prose has been changed.
 
 ## Next action
 
-Prepare the `d1-ch-35` current-draft map packet unless a blocker or higher-priority ticket appears.
+Finalize, validate, commit, and push the approved Chapter 35 map, then prepare the `d1-ch-36` current-draft map packet unless a blocker or higher-priority ticket appears.
 
 ## Awaiting author input
 
-None after the consistency review. The next author-facing item should be the `d1-ch-35` current-draft map packet.
+None after Chapter 35 finalization. The next author-facing item should be the `d1-ch-36` current-draft map packet.
 
 ## Workflow policy note
 

@@ -50,6 +50,8 @@ Vorren is involved in Harbinger/underground coordination and may wear a mask whe
 
 The Drakhal/Archeon breeding-contract deal involving Kelyra and Vorren is accepted as a verbal agreement between the parties, but Vorren's knowledge, consent, and actual execution remain unresolved.
 
+The Chapter 35 breeding-contract implication points toward Vorren rather than Caius. This is horrifying not only because of Vorren's violent nature, but because Vorren killed Kelyra's daughter Selina.
+
 ## Endgame Function
 
 Vorren waits below the Archeon throne-room trap for Niall.
@@ -94,6 +96,7 @@ He is a useful dark mirror for Maya because he shows what power under abuse and 
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [High Clade Political Sequence and Archeon Trap](../../decisions/0058-high-clade-politics-archeon-trap.md)
 - Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 

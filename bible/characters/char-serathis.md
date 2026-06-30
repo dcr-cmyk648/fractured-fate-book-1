@@ -64,6 +64,8 @@ Serathis collaborates with Drakhal after the Heart theft while resenting Drakhal
 
 The Kelyra/Vorren breeding-contract deal is accepted as a verbal agreement between Drakhal and Archeon. Vorren's knowledge, consent, and whether the deal would ever be executed remain unresolved.
 
+In Chapter 35, Serathis uses Lethira as a Serathis-controlled emotional manipulation cameo against Kelyra, violently discarding her after she fails to produce the desired result. Exact Lethira death/survival wording remains flexible, but the functional point is that Serathis treats obedience and children as disposable project material. The same chapter accepts Serathis's "he found you" language and Kelyra's old-Ink crawl / "kill her" whisper as subtle Elric/Ink connection cues without making Kelyra a deeper-healing Ink case.
+
 ## Accepted Future Direction
 
 Serathis participates in the final Archeon trap and throne-room conflict against Niall and the other protagonists.
@@ -111,6 +113,7 @@ She is not lying when she says Kelyra is her favorite. The danger is that "favor
 - Decision record: [Harbinger Betrayal, Trial, and Kelyra Capture](../../decisions/0061-harbinger-betrayal-trial-and-kelyra-capture.md)
 - Decision record: [Kelyra Archeon Recovery and Family-Protection Arc](../../decisions/0066-kelyra-archeon-recovery-and-family-protection.md)
 - Decision record: [Endgame Archeon Assault and Character Agency](../../decisions/0083-endgame-archeon-assault-character-agency.md)
+- Decision record: [Chapter 35 Map, Kelyra Captivity, and Drakhal Pressure](../../decisions/0088-chapter-35-map-kelyra-drakhal-pressure.md)
 
 ## Canonical Uncertainties
 
