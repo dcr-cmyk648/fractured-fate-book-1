@@ -54,7 +54,7 @@ Default current-draft mapping order should therefore proceed through the prologu
 | d1-ch-30 | Chapter 30 | 16912-17790 | [d1-ch-30.md](d1-ch-30.md) | approved |
 | d1-ch-31 | Chapter 31 | 17794-18588 | [d1-ch-31.md](d1-ch-31.md) | approved |
 | d1-ch-32 | Chapter 32 | 18592-19323 | [d1-ch-32.md](d1-ch-32.md) | approved |
-| d1-ch-33 | Chapter 33 | 19327-20004 | pending | discovered |
+| d1-ch-33 | Chapter 33 | 19327-20004 | [d1-ch-33.md](d1-ch-33.md) | approved |
 | d1-ch-34 | Chapter 34 | 20008-20640 | pending | discovered |
 | d1-ch-35 | Chapter 35 | 20644-21155 | pending | discovered |
 | d1-ch-36 | Chapter 36 | 21159-21694 | pending | discovered |
@@ -67,4 +67,4 @@ Current packet awaiting author review:
 
 Next review unit:
 
-- `d1-ch-33`
+- `d1-ch-34`

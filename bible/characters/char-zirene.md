@@ -66,9 +66,9 @@ Exact silver conduit mechanics, Heart overcharge, charge routing, and maintenanc
 
 Zirene definitely makes Davian's black iron bands.
 
-The bands are anchored to Davian's skin similarly to Niall's metals, are difficult to remove, and serve as a lethal trust/control device activated by Niall or Maya through electricity or rapid cooling.
+The bands are black iron upper-arm bands with circuits etched into Davian's skin beneath/through the metal, conceptually adjacent to painful gold strike-line healing and Ink Pact body inscription. They are difficult to remove and serve as a lethal trust/control device activated by Niall or Maya through electricity or rapid cooling.
 
-The exact function and design remain subject to later review. Zirene may use an engrave-on-flesh-with-metal technique similar to newest-draft healing abilities that put strike-lines directly onto flesh.
+Zirene privately checks Davian's consent in Concord/Masked sign before installing them. Exact low-level heart-kill mechanics remain subject to later review.
 
 ### Archeon Gauntlets
 
@@ -128,6 +128,7 @@ She does not know or approve Elric's full plan.
 - Related organization: [Archeon](../organizations/org-archeon.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
 - Decision record: [Source Intake Lore and Web-App Ticket Routing](../../decisions/0074-source-intake-lore-and-webapp-ticket-routing.md)
+- Decision record: [Chapter 33 Map, Davian Bands, and Agency Boundary](../../decisions/0086-chapter-33-map-davian-bands-agency.md)
 
 ## Canonical Uncertainties
 

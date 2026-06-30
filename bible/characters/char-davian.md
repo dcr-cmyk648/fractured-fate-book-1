@@ -81,7 +81,7 @@ Antithesis transformation is no longer canon. Antithesis is a dagger throughout 
 
 Accepted future object direction: Paradox is the normal sword made from ruined Antithesis after Davian blocks Vorren's attack. Niall gives Paradox to Davian in the end-book courtyard scene. It is not bound to Davian's aura.
 
-Zirene makes Davian's black iron bands after the Heart theft. They are a lethal trust/control device activated by Niall or Maya, but exact function/design remains subject to later review. Zirene may use an engrave-on-flesh-with-metal technique related to strike-lines directly on flesh.
+Zirene makes Davian's black iron upper-arm bands after the Heart theft. They are a lethal trust/control device with circuits etched into Davian's skin beneath/through the metal, conceptually adjacent to painful gold strike-line healing and Ink Pact body inscription. They are sensitive to Niall's electricity and Maya's rapid cooling. Exact low-level heart-kill mechanics remain subject to later review.
 
 In the accepted Shroud model, Davian's weak Shroud means poor throughput/anchoring, instability, lack of training, and difficulty maintaining the Shroud under pressure rather than a fundamentally smaller baseline Shroud capacity.
 
@@ -221,6 +221,7 @@ After Kelyra is captured in the Harbinger betrayal / Trial of Dominion event and
 - Decision record: [Tanelle Zänwright Competence and Worker-Space Function](../../decisions/0049-tanelle-zanwright-competence-and-worker-function.md)
 - Decision record: [Marek Supervisor Role and Davian Tutoring Function](../../decisions/0050-marek-supervisor-role-and-davian-tutoring.md)
 - Decision record: [Zirene Technical Neutrality and Device Boundaries](../../decisions/0052-zirene-technical-neutrality-and-device-boundaries.md)
+- Decision record: [Chapter 33 Map, Davian Bands, and Agency Boundary](../../decisions/0086-chapter-33-map-davian-bands-agency.md)
 - Decision record: [Arrek Identity, Murder, and Debt-Family Context](../../decisions/0054-arrek-identity-murder-and-debt-family-context.md)
 - Decision record: [Selina Death, Family Myth, and Object Links](../../decisions/0055-selina-death-family-myth-and-object-links.md)
 - Decision record: [Kael Brief Role and Davian-Selwin Mirror](../../decisions/0056-kael-brief-role-and-davian-selwin-mirror.md)

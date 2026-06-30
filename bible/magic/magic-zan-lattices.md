@@ -76,7 +76,7 @@ Exact gauntlet mechanics, low-level Antithesis/Paradox circuitry, force-buffer l
 
 ## Language and Signs
 
-Modern writing systems and masked/Concord hand signs derive from older zän/zä principles.
+Modern writing systems and masked/Concord hand signs derive from older zän/zä principles and forms. Exact historical derivation, old names, and archetypal zä labels remain looser than the high-level relationship.
 
 Davian's mask uses zän marks as object symbolism in the accepted object record: equality/equilibrium at the start of Book 1, later the Nizän of zero/negation/void. The Nizän is described for that object as two sets of overlapping parallel lines leaving a diamond-shaped empty center.
 
