@@ -79,7 +79,7 @@ Rationale: This should become prose-preservation candidate material later. It do
 - Target chapter IDs: `d1-prologue`
 - Target layer: prose
 - Relevant selected text: "a necessity given her responsibilities"
-- Proposed destination: current-draft chapter map / Chapter Goal Card / later prose revision notes
+- Proposed destination: accepted prose-phase guidance / Prologue map
 - Blocking: no
 - Requires author decision: no
 - Created at: 2026-06-30
@@ -90,6 +90,8 @@ Rationale: This should become prose-preservation candidate material later. It do
 Summary: The Prologue should avoid extra explanatory bloat such as explicitly explaining why Maya's clothing allows movement. The preferred approach is organic worldbuilding: show freedom of movement or let the reader infer implications.
 
 Rationale: This is a clear author note for later chapter architecture and prose revision. It should not trigger manuscript editing now.
+
+Disposition: Accepted by author on 2026-06-30 and applied as future prose-revision guidance. Functional worldbuilding details such as Maya's clothing/movement should be shown through POV-relevant action or perception rather than explanatory aside. No manuscript prose was edited.
 
 ## WC-2026-06-30-004: Establish Sign-Language Formatting and Awkward ASL-Like Style
 

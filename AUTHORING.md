@@ -307,6 +307,7 @@ Explain only what the POV character would perceive or understand in that moment.
 - Do not pause the scene for encyclopedia exposition.
 - Do not insert lore simply because it exists in the repository.
 - For social, political, moral, or cultural worldbuilding, avoid reader-facing moral explanation unless the scene specifically calls for it. Filter the material through what the POV character would naturally think, normalize, resent, question, or fail to notice as someone who lives in the world.
+- Functional details such as clothing, equipment, room layout, or social custom should usually be shown through POV-relevant action or perception rather than explanatory aside. For example, if Maya's formal clothing allows movement, later prose should show her testing, using, or noticing that freedom rather than explaining that it is "a necessity given her responsibilities."
 
 ## 10. Preview before application
 

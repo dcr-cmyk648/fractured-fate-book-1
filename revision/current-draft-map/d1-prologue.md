@@ -207,6 +207,7 @@ Candidate-worthy material for later review:
 - Reassign Jalen-centered field leadership and pressure functions according to accepted Kelyra/Jalen canon.
 - Bring Davian's mask mark into line with accepted zän symbolism.
 - Keep Antithesis as a dagger.
+- Avoid over-explanatory worldbuilding around Maya's clothing and responsibilities. Later prose should show freedom of movement through Maya testing, using, or noticing the garment in action rather than adding an explanatory aside such as "a necessity given her responsibilities."
 - Decide how much of the Prologue should remain Prologue versus become Chapter 1 or be redistributed.
 - Clarify the Sorevin manor objective and link it cleanly to the later contractor infiltration.
 - Preserve Maya's first-combat horror while aligning magic description with accepted Convergence heat-transfer model.
