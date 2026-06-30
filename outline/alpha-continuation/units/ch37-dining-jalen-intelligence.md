@@ -4,7 +4,7 @@
 
 - Unit: proposed Chapter 37
 - Working title: Dining Hall, Jalen's Return, and First Intelligence
-- Current status: author-review packet
+- Current status: revised after author feedback
 - Source fragment: `revision/current-draft-map/d1-ch-37-preposed.md`
 - Prose drafting: not authorized
 
@@ -51,8 +51,8 @@ Purpose:
 - Maya asks for whatever Davian is eating, or otherwise tries to participate without knowing the rules.
 - Davian understands crowd dynamics, how to deflect questions, how not to make Maya's presence too ceremonial.
 - Tanelle or another zänwright tries to figure out whether this is training, politics, romance, or all of it.
-- A tray/clatter/noise beat can trigger Davian's protective reflex.
-- Maya should read the reflex as both endearing and concerning: if he reacts to a harmless noise this way, what will he do when Archeon or Caius appears?
+- Do not use the tray/clatter protective-reflex beat here; that function already occurred in an earlier dining-hall scene.
+- Expand Maya/Davian conversation instead: more warmth, romantic tension, mutual noticing, and subtle miscommunication.
 - Maya notices Davian's Ink/tattoos looking faded, rough, or altered after recent strain.
 - If she teases him about it, it should be privileged, curious, and a little intimate.
 - Maya may accidentally mention Registry awareness of his movement/trips, landing as surveillance to Davian.
@@ -63,39 +63,43 @@ Purpose:
 - Put the class/status gulf in the same scene as attraction.
 - Preserve the small wound: Maya means "I notice you"; Davian hears "the system watches you."
 
-### Scene 3 - Selwin as Pressure and Mirror
+### Scene 3 - Extended Maya/Davian Dining Conversation
 
-- Selwin may arrive restless and trying to seem grown.
-- Maya stiffens into protective-sister mode.
-- Selwin resents being managed.
-- Davian treats him as someone with a practical problem rather than a fragile object.
-- Selwin can mention Shroud/body-awareness language in a simple way, but this should not become a full lesson unless the chapter has room.
-- Davian's seriousness with Selwin lets Maya see that Davian can reach people she over-manages.
-
-Purpose:
-
-- Keep Selwin's Shroud thread active.
-- Show Davian's empathy under the defensive mask.
-- Reinforce Maya's difficulty distinguishing protection from control.
-
-### Scene 4 - First Archeon Pivot, But Not the Full Workshop
-
-- The conversation can briefly touch Archeon because everyone is carrying that pressure.
-- Maya may observe that Archeon fighters behave like drilled answers, not adaptive magi.
-- Davian can contribute from fighter instinct: drilled forms, one answer repeated until it becomes automatic.
-- Harvick can connect this to the idea that getting hit carefully is often more educational than talking.
-- Do not run the full captured-gauntlet/focus-myth/Elric-experiment workshop here unless the chapter unexpectedly has room.
+- Selwin should not appear in this chapter unless a later revision needs him. Hold his material for Chapter 38/39 training.
+- Use the freed space for Maya and Davian.
+- Let them talk around the threshold they are both standing on: Davian is becoming part of the magus world he hated; Maya is trying to be more than the symbol that world requires.
+- Davian can be honest or dry in a way that makes Maya feel like a person rather than a title.
+- Maya can be visibly unused to ordinary banter, teasing, shared food, and non-deferential attention.
+- Romantic tension should build through proximity, attention, discomfort, and the sense that each of them sees something the other usually hides.
+- The conversation should stay unresolved. Jalen's summons should interrupt before they can settle into clarity.
 
 Purpose:
 
-- Preserve the source-note function that Archeon is predictable and brittle.
-- Seed later detailed research/training without stealing the Jalen interruption's weight.
+- Deepen the Maya/Davian relationship before the interruption.
+- Let the reader feel what is being taken away when the crisis intrudes.
+- Keep the scene focused: Maya, Davian, class/status, surveillance, attraction, and unresolved trust.
+
+### Scene 4 - Defer the Archeon Pivot
+
+- Do not spend Chapter 37 on the Archeon plan beat.
+- The source-note idea that Archeon magi are predictable, brittle, and beatable through forced adaptation should move later, probably into the planning-to-attack-Archeon sequence.
+- That later use can let the characters reassure themselves that they have a plan to beat Archeon magi "easily," which will become complicated by Serathis's trap and held-back forces.
+- If Archeon comes up here, keep it emotionally minimal: Davian wants to act; Maya insists they do not yet have enough actionable information.
+
+Purpose:
+
+- Keep Chapter 37 centered on dining warmth and Jalen's return.
+- Preserve the Archeon predictability material for a place where it directly shapes the raid plan.
+- Avoid giving the chapter too many functions.
 
 ### Scene 5 - Jalen's Arrival Interrupts
 
-- Jalen arrives or collapses at/near Rezin in essentially dying condition.
+- Jalen's arrival should be announced by someone coming to get Davian and Maya rather than by Jalen physically interrupting the dining hall.
+- The summons may be because Rezin personnel need Davian to read something Jalen has, or because Jalen arrived with a Masked Clades mask or other underworld/Concord-linked object in his bag.
 - The interruption should cut off the fragile warmth before it resolves.
 - He should be delirious, badly injured, and clearly not combat-capable.
+- He is completely down and out: dehydrated, delirious, barely conscious, maybe mumbling something about Archeon.
+- He barely made it to the citadel at all.
 - His survival can be attributed later to criminal-underworld route knowledge, stubbornness, and skills, but he should not look fine.
 - Davian's reaction should be intense and hard to control.
 - Maya has to shift immediately from person-at-table to Rezin decision-maker.
@@ -140,7 +144,10 @@ Jalen should provide enough to change the strategic state, but not everything:
 - Archeon left him for dead during Kelyra's capture.
 - Kelyra is in Archeon's hands or effectively under Archeon control.
 - The Harbingers/leader betrayed the expected bargain.
-- The Heart went to a masked or hidden receiving figure, or at least was passed onward through the Harbinger-Archeon-Drakhal chain.
+- The person who received the Heart was a magus; Jalen saw the faint glimmer of a Shroud.
+- He can describe the receiver only in limited terms because of injury, exhaustion, panic, distance, and/or incomplete observation.
+- Rezin likely asks for more details about the Harbingers.
+- Jalen can tell them what little he knows, broadly overlapping with what Kelyra has already revealed a few chapters earlier, but he should not suddenly become an expert on the Harbingers' full structure or Elric's plan.
 - Jalen has knowledge of routes, signs, contacts, and Masked Clade/criminal networks Rezin would not normally access.
 - Jalen does not need to know Kelyra's exact holding location.
 - Davian's knowledge from Karra's message remains important for locating Kelyra later.
@@ -154,7 +161,9 @@ Purpose:
 ### Scene 9 - Aldira Takes Over
 
 - Aldira arrives or asserts control once Jalen has given enough.
-- She recognizes the intelligence value and prevents Maya/Davian/Niall from draining Jalen immediately.
+- She recognizes the intelligence value because Jalen used to gather intelligence for the Twilight Concord.
+- She may see his notes, even if she can read only a little of them, and realize they could provide valuable access to underworld contacts.
+- She prevents Maya/Davian/Niall from draining Jalen immediately.
 - She can force rest, triage, and structured questioning.
 - Davian may hate being pushed out, which feeds Chapter 38.
 - Maya may recognize that Aldira is doing exactly what a competent spymaster/support figure should do: protecting the source and the information flow.
@@ -182,11 +191,12 @@ This is approved as a flexible boundary. Chapter 38 has room, and Davian's persp
 ## What to Move or Defer
 
 - Full Archeon gauntlet workshop.
+- The "Archeon magi are beatable because they are predictable" plan beat; use it later during Archeon-assault planning, where it can become a partly overconfident plan.
 - Elric focus experiment recap.
 - Detailed Shroud-versus-hereditary-magic theory.
 - Extended cognition/splitting-focus mythbust.
 - Full Naeroth breathing/forms research.
-- Major Davian/Selwin Shroud lesson.
+- Major Davian/Selwin Shroud lesson and Selwin dining-hall involvement.
 
 These can be redistributed into Chapter 38, Chapter 39 training material, or later detailed outline packets if still useful.
 
@@ -206,7 +216,6 @@ These can be redistributed into Chapter 38, Chapter 39 training material, or lat
 - Jalen: returns as a damaged but useful support figure, not a combat participant.
 - Niall: shows cold utility and fear-driven rigidity without becoming a simple villain.
 - Aldira: acts as practical intelligence manager and protects the information source.
-- Selwin: remains a mirror for protection/control if used.
 
 ### Relationship Goals
 
@@ -229,6 +238,7 @@ Reader learns:
 - Jalen is alive but badly injured.
 - Archeon is a confirmed actionable target.
 - Harbinger/Archeon/Heart information is now reaching Rezin.
+- the Heart receiver was a magus, based on Jalen seeing a faint Shroud glimmer.
 - Jalen can open networks Rezin lacks.
 
 Reader should not yet learn:
@@ -253,11 +263,22 @@ Reader should not yet learn:
 - Jalen does not need exact knowledge of where Kelyra is being held.
 - Davian's Kelyra-location pressure can later come from Karra's message and/or leaked Archeon route.
 - Shrouds should remain full-body; do not introduce local-Shroud mechanics.
+- Do not repeat the tray-clatter protective-reflex beat from the earlier dining-hall material.
+- Do not put Selwin in this dining-hall scene by default.
 - Use `zän`, not unaccented `zan`, in new planning/prose references.
 - Comments/feedback and older outline notes remain source material, not automatic canon.
 
-## Open Questions for Author Review
+## Author Decisions Applied
 
-1. Should Chapter 37 end after Aldira takes control of Jalen's healing/intelligence room, or should it end earlier on Jalen's collapse if the chapter feels too long?
-2. Should the tray/clatter protective-reflex beat remain in Chapter 37, or should it be cut to keep focus tighter on Maya/Davian/Jalen?
-3. Should Selwin appear in the dining hall before Jalen arrives, or should he be held for Chapter 38/39 training material?
+- Remove the tray/clatter protective-reflex beat from Chapter 37 because it already happened earlier.
+- Remove Selwin from the Chapter 37 dining-hall scene and use the space for more Maya/Davian conversation and romantic tension.
+- Move the Archeon predictability/"easy plan" material to later Archeon-attack planning.
+- Announce Jalen's arrival through someone coming to get Davian and Maya.
+- Jalen is fully down and out: dehydrated, delirious, barely conscious, and only mumbling fragments such as Archeon.
+- Jalen can identify the Heart receiver as a magus because he saw a faint glimmer of a Shroud.
+- Jalen knows only limited Harbinger information, broadly overlapping with Kelyra's earlier information.
+- Aldira recognizes Jalen's intelligence value because of his Twilight Concord intelligence role and his partly legible notes, which may open underworld contacts.
+
+## Remaining Author Review Question
+
+1. Approve this revised Chapter 37 outline as the working detailed outline, with the flexible option to move healing/intelligence into Davian POV if the chapter runs long?
