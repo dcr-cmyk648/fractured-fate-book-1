@@ -208,6 +208,7 @@ Candidate-worthy material for later review:
 - Bring Davian's mask mark into line with accepted zän symbolism.
 - Keep Antithesis as a dagger.
 - Avoid over-explanatory worldbuilding around Maya's clothing and responsibilities. Later prose should show freedom of movement through Maya testing, using, or noticing the garment in action rather than adding an explanatory aside such as "a necessity given her responsibilities."
+- Consider giving the Sorevin manor back gateway a protective or alarm zän lattice that Kelyra disables or drains during the raid. This is accepted future Prologue architecture guidance, not a locked exact scene beat; the function is to give Kelyra meaningful technical/combat-adjacent work, justify Davian's concern about keeping her out of direct combat, and show practical zän infrastructure organically.
 - Decide how much of the Prologue should remain Prologue versus become Chapter 1 or be redistributed.
 - Clarify the Sorevin manor objective and link it cleanly to the later contractor infiltration.
 - Preserve Maya's first-combat horror while aligning magic description with accepted Convergence heat-transfer model.

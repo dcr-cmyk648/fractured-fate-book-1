@@ -1,6 +1,6 @@
 # Author-Question Tickets: Lore (running addended version)
 
-Status: lower-level tickets routed by author decision on 2026-06-28. Higher-level chapter/candidate tickets remain deferred.
+Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` is reopened for nonblocking author decision; remaining higher-level chapter/candidate tickets remain deferred.
 
 These tickets are derived from `imports/raw/Lore (running addended version).txt`. The source document is useful but outdated. Nothing here is canon or an accepted revision until approved through the normal workflow.
 
@@ -11,7 +11,7 @@ These tickets are derived from `imports/raw/Lore (running addended version).txt`
 | LORE-2026-06-28-003 | high | story-bible-review | Magic origins / Shroud / Kinesis | resolved; narrow high-level boundary stored; old taxonomy rejected |
 | LORE-2026-06-28-004 | medium | story-bible-review | Abyssal / Unwoven / Eclipsed / Threadblights | resolved; candidate-only |
 | LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | resolved; accepted constraints and candidate taxonomy stored |
-| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | deferred |
+| LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | needs-author-decision |
 | LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | deferred |
 | LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | deferred |
 | LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | deferred |
@@ -115,12 +115,15 @@ Why it matters: This can support Treasury work, Zirene's uniqueness, Archeon kno
 - Proposed routing: `char-kelyra`, `char-davian`, `char-harvick`, `org-archeon`, future combat/chapter architecture
 - Blocking: no
 - Requires author decision: yes
+- Status: needs-author-decision
 
 Question: Should the combat systems be retained as named/unnamed disciplines?
 
 Candidate material: Kelyra/Davian use an unnamed anti-magus discipline; Harvick has grounding/regulation Flow Forms with Naeroth-adjacent roots; Archeon militarizes Shroud/body mechanics into burst-power combat.
 
 Why it matters: This could make fights more distinctive and make Harvick/Kelyra/Archeon combat philosophies visibly different.
+
+Review packet: `feedback/source-intake/lore-running-addended-version-2026-06-28/LORE-2026-06-28-006-review.md`
 
 ## LORE-2026-06-28-007: Six Cities Geography and Neutral Market Model
 
