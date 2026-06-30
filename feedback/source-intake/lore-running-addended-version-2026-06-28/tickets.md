@@ -1,6 +1,6 @@
 # Author-Question Tickets: Lore (running addended version)
 
-Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. `LORE-2026-06-28-007` is the active nonblocking author-review ticket; remaining higher-level chapter/candidate tickets remain deferred.
+Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. `LORE-2026-06-28-007` was preserved as candidate-only until geography details become directly relevant. Remaining higher-level chapter/candidate tickets remain deferred.
 
 These tickets are derived from `imports/raw/Lore (running addended version).txt`. The source document is useful but outdated. Nothing here is canon or an accepted revision until approved through the normal workflow.
 
@@ -12,7 +12,7 @@ These tickets are derived from `imports/raw/Lore (running addended version).txt`
 | LORE-2026-06-28-004 | medium | story-bible-review | Abyssal / Unwoven / Eclipsed / Threadblights | resolved; candidate-only |
 | LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | resolved; accepted constraints and candidate taxonomy stored |
 | LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | rejected |
-| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | needs-author-decision |
+| LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | resolved; candidate-only |
 | LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | deferred |
 | LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | deferred |
 | LORE-2026-06-28-010 | medium | consistency-check | Obsolete terminology and stale lore quarantine | resolved; quarantine rule preserved |
@@ -134,8 +134,8 @@ Disposition: Rejected on 2026-06-30 because newer combat/magic guidance supersed
 - Type: chapter-architecture
 - Proposed routing: `loc-spire`, `loc-archeon`, `loc-rezin-citadel`, `thread-high-clade-politics`, future map/geography review
 - Blocking: no
-- Requires author decision: yes
-- Status: needs-author-decision
+- Requires author decision: resolved
+- Status: resolved; candidate-only
 - Review packet: `feedback/source-intake/lore-running-addended-version-2026-06-28/LORE-2026-06-28-007-review.md`
 
 Question: Should the Six Cities be treated as six citadel-centered city-state wedges with guild rings/slum quarters and a central neutral market/amphitheater?
@@ -143,6 +143,8 @@ Question: Should the Six Cities be treated as six citadel-centered city-state we
 Candidate material: Each High Clade citadel is a political core; outer districts are neglected belts where attacks pass through; the central Spire/amphitheater/market may be jointly maintained by neutral administrators or equivalent functionaries.
 
 Why it matters: This can clarify the final attack route, the politics of the central Spire, and how "city" language should work in chapter maps.
+
+Disposition: Preserve as candidate-only until the Six Cities geography, neutral market, guild-ring, or city-wedge details become directly relevant to chapter architecture, mapping, or prose planning.
 
 ## LORE-2026-06-28-008: High Clade Attire Details
 
