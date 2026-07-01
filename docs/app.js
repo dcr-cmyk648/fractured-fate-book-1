@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-20";
+const APP_VERSION = "review-interface-v0-sync-21";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -1069,7 +1069,7 @@ function commentIdentityFields() {
   };
 }
 
-function saveReaderCode() {
+async function saveReaderCode() {
   const code = $("readerCodeInput").value.trim();
   if (!code) {
     window.alert("Enter a reader code before saving.");
@@ -1081,6 +1081,7 @@ function saveReaderCode() {
   localStorage.removeItem(STORAGE_KEYS.readerCodeRole);
   $("readerCodeInput").value = "";
   renderExportStatus();
+  await syncComments({ allowEmpty: true, validationOnly: !commentsForExport().length });
 }
 
 function markSyncGenerated(result, records) {
@@ -1156,7 +1157,35 @@ async function waitForSyncConfirmation(submissionId) {
   return null;
 }
 
-async function syncComments() {
+function syncConfirmationMessage(confirmation, options = {}) {
+  const role = confirmation?.reader?.role || "reader";
+  const displayName = confirmation?.reader?.display_name || "reader";
+  const accepted = confirmation?.new_comments || 0;
+  const duplicates = confirmation?.duplicate_comments || 0;
+  const rowCount = confirmation?.sheet_last_row || 0;
+  const lines = [];
+
+  lines.push(`Code confirmed for ${displayName}.`);
+  lines.push(role === "author" ? "Access: Author." : "Access: Reader.");
+
+  if (options.validationOnly) {
+    lines.push("No comments were submitted because there were no local entries to sync.");
+  } else {
+    lines.push(`${accepted} new ${accepted === 1 ? "entry was" : "entries were"} submitted.`);
+    if (duplicates) lines.push(`${duplicates} duplicate ${duplicates === 1 ? "entry was" : "entries were"} skipped.`);
+  }
+
+  if (rowCount) lines.push(`Inbox sheet now has ${rowCount} ${rowCount === 1 ? "row" : "rows"}.`);
+  if (confirmation?.archive_status === "failed") {
+    lines.push("Drive archive file was not created, but the Sheet received the submission.");
+  } else if (confirmation?.archive_status === "disabled") {
+    lines.push("Drive archive file creation is disabled; the Sheet is the sync inbox.");
+  }
+
+  return lines.join("\n");
+}
+
+async function syncComments(options = {}) {
   const readerCode = getReaderCode();
   if (!readerCode) {
     setView("export");
@@ -1164,7 +1193,7 @@ async function syncComments() {
     return;
   }
   const records = commentsForExport();
-  if (!records.length) {
+  if (!records.length && !options.allowEmpty) {
     window.alert("No comments or scratchpad entries to sync for the selected scope.");
     return;
   }
@@ -1188,15 +1217,7 @@ async function syncComments() {
     const confirmation = await waitForSyncConfirmation(submissionId);
     if (confirmation) {
       markSyncGenerated(confirmation, records);
-      const archiveNote = confirmation.archive_status === "failed"
-        ? " Drive archive file was not created, but the Sheet received the comments."
-        : confirmation.archive_status === "disabled"
-          ? " Drive archive file creation is disabled; the Sheet is the sync inbox."
-        : "";
-      const sheetNote = confirmation.sheet_last_row
-        ? ` Sheet now has ${confirmation.sheet_last_row} row${confirmation.sheet_last_row === 1 ? "" : "s"}.`
-        : "";
-      window.alert(`Sync confirmed: ${confirmation.new_comments} new comment${confirmation.new_comments === 1 ? "" : "s"} accepted; ${confirmation.duplicate_comments} duplicate${confirmation.duplicate_comments === 1 ? "" : "s"} skipped.${sheetNote}${archiveNote}`);
+      window.alert(syncConfirmationMessage(confirmation, options));
     } else {
       markSyncSubmitted();
       window.alert("Sync request submitted, but confirmation was not available yet. Check the Drive folder or use Download Backup JSON if needed.");
@@ -1215,6 +1236,10 @@ function setSyncButtonsBusy(isBusy) {
     syncButton.disabled = isBusy;
     syncButton.textContent = isBusy ? "Syncing..." : "Sync Comments";
     syncButton.classList.toggle("is-syncing", isBusy);
+  }
+  if ($("saveReaderCodeBtn")) {
+    $("saveReaderCodeBtn").disabled = isBusy;
+    $("saveReaderCodeBtn").textContent = isBusy ? "Validating..." : "Save and Validate Code";
   }
   if (quickButton) {
     quickButton.disabled = isBusy;
@@ -1321,6 +1346,10 @@ function renderExportStatus() {
   $("appVersionStatus").textContent = `App version: ${APP_VERSION}`;
   if ($("quickExportBtn")) {
     $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
+  }
+  if ($("accessSyncBtn")) {
+    $("accessSyncBtn").hidden = Boolean(readerCode);
+    $("accessSyncBtn").textContent = readerCode && !validatedAt ? "Validate Code" : "Enter Code / Sync";
   }
 }
 
@@ -1509,7 +1538,7 @@ function wireEvents() {
     if (getReaderCode()) syncComments();
     else setView("export");
   });
-  $("saveReaderCodeBtn").addEventListener("click", saveReaderCode);
+  $("saveReaderCodeBtn").addEventListener("click", () => saveReaderCode());
   $("syncCommentsBtn").addEventListener("click", syncComments);
   $("reloadAppBtn").addEventListener("click", reloadApp);
   $("exportJsonBtn").addEventListener("click", exportJson);
