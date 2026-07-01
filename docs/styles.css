@@ -81,6 +81,10 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.access-strip #accessStatus {
+  display: inline;
+}
+
 .access-actions {
   display: flex;
   gap: 0.5rem;
@@ -823,7 +827,7 @@ select {
 
   .access-actions {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     width: 100%;
   }
 

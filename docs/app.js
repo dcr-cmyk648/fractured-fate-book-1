@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-19";
+const APP_VERSION = "review-interface-v0-sync-20";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -189,7 +189,6 @@ function setMode(mode) {
     currentMode = "reader";
     localStorage.setItem(STORAGE_KEYS.mode, "reader");
     setView("export");
-    window.alert("Author Mode requires a saved reader code that has been validated as an author code. Save the code and sync a test comment first.");
     renderExportStatus();
     return;
   }
@@ -197,14 +196,17 @@ function setMode(mode) {
   localStorage.setItem(STORAGE_KEYS.mode, mode);
   document.body.classList.toggle("mode-reader", mode === "reader");
   document.body.classList.toggle("mode-author", mode === "author");
-  $("readerModeBtn").classList.toggle("active", mode === "reader");
-  $("authorModeBtn").classList.toggle("active", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
   $("ticketsNavBtn").disabled = mode === "reader";
   $("scratchpadNavBtn").disabled = mode === "reader";
   $("modeStatus").textContent = mode === "reader"
     ? "Reader Mode active: repository browser is hidden."
     : "Author Mode active: repository browser and spoiler layers are available.";
+  if ($("accessStatus")) {
+    $("accessStatus").textContent = mode === "reader"
+      ? "Reader access: repository browsing is hidden."
+      : "Author access: repository browser and spoiler layers are available.";
+  }
   if (mode === "reader" && currentLayer !== "prose") {
     currentLayer = "prose";
     localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
@@ -1093,10 +1095,8 @@ function markSyncGenerated(result, records) {
     localStorage.setItem(STORAGE_KEYS.readerCodeRole, result.reader.role === "author" ? "author" : "reader");
   }
   localStorage.setItem(STORAGE_KEYS.readerCodeValidatedAt, now);
+  setMode(hasVerifiedAuthorCode() ? "author" : "reader");
   renderExportStatus();
-  if (currentMode === "reader") {
-    setMode("reader");
-  }
 }
 
 function markSyncSubmitted() {
@@ -1313,11 +1313,6 @@ function renderExportStatus() {
   $("readerCodeStatus").textContent = readerCode
     ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}${readerRole ? ` · ${readerRole}` : ""}` : "Saved, not yet validated"}`
     : "Reader code: Not saved";
-  if ($("authorModeBtn")) {
-    $("authorModeBtn").title = hasVerifiedAuthorCode()
-      ? "Author Mode available"
-      : "Author Mode requires a validated author reader code. Click to enter or sync a code.";
-  }
   $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
   $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
   $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
@@ -1484,8 +1479,6 @@ function wireEvents() {
   $("scratchpadNavBtn").addEventListener("click", () => setView("scratchpad"));
   $("exportNavBtn").addEventListener("click", () => setView("export"));
   $("accessSyncBtn").addEventListener("click", () => setView("export"));
-  $("readerModeBtn").addEventListener("click", () => setMode("reader"));
-  $("authorModeBtn").addEventListener("click", () => setMode("author"));
   $("chapterSelect").addEventListener("change", (event) => {
     currentChapterId = event.target.value;
     renderLayerSelect();
@@ -1580,11 +1573,10 @@ async function init() {
     return;
   }
   renderMetadata();
-  const savedMode = localStorage.getItem(STORAGE_KEYS.mode);
   currentScratchpadTab = localStorage.getItem(STORAGE_KEYS.scratchpadTab) === "technical-processing"
     ? "technical-processing"
     : "content";
-  setMode(savedMode === "author" && hasVerifiedAuthorCode() ? "author" : "reader");
+  setMode(hasVerifiedAuthorCode() ? "author" : "reader");
   renderChapters();
   renderFileTree();
   const savedView = localStorage.getItem(STORAGE_KEYS.view);
