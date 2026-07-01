@@ -77,6 +77,7 @@ The Heart will be present for Davian's accepted end-book resurrection and will i
 - Exact Nizän relationship remains unresolved.
 - Exact zän/armature mechanics around containment remain unresolved.
 - Exact Heart-to-Registry power path remains unresolved.
+- Exact relationship between Heart overcharge, Niall's hidden silver conduit lattice, charge storage, and lightning amplification remains unresolved and should stay aligned with `char-niall` and `magic-zan-lattices`.
 - Exact Heart/Skein/reality effect remains unresolved beyond the accepted fact that the Heart does something to the Skein.
 - Exact mechanics of Elric's Heart exposure and fate sight remain unresolved beyond the accepted link.
 - Exact role in Davian's resurrection remains unresolved beyond accepted presence and interplay.

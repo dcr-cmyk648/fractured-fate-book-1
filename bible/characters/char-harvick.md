@@ -38,7 +38,7 @@ Harvick becomes one of Davian's most important mentors and friends. He sees Davi
 
 Harvick teaches Davian body-focused attention that is meant to support values-based action. Davian can misread or misuse that focus as void, negation, or dissociation, which becomes part of the Treasury confrontation.
 
-During the Treasury confrontation, Harvick tries to stop Davian. Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning by shocking him out of ventricular fibrillation, though characters do not know those medical terms. From Davian's perspective, the event may only register as Niall shooting lightning through Harvick.
+During the Treasury confrontation, Harvick tries to stop Davian. Davian stops Harvick's heart with blunt force trauma while overtaken by Ink. Niall revives Harvick with lightning by forcing his stopped or chaotic heart back into motion, though characters should describe this in in-world terms rather than modern medical language. From Davian's perspective, the event may only register as Niall shooting lightning through Harvick.
 
 In the accepted Heart theft event, Davian and the reader do not need to clearly see Harvick's revival in the moment. Niall protects both himself and Harvick when Davian launches the Treasury sphere, stretching his diminished power to its limits and ending unconscious, injured, and exposed.
 
