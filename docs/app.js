@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-21";
+const APP_VERSION = "review-interface-v0-sync-22";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -202,11 +202,6 @@ function setMode(mode) {
   $("modeStatus").textContent = mode === "reader"
     ? "Reader Mode active: repository browser is hidden."
     : "Author Mode active: repository browser and spoiler layers are available.";
-  if ($("accessStatus")) {
-    $("accessStatus").textContent = mode === "reader"
-      ? "Reader access: repository browsing is hidden."
-      : "Author access: repository browser and spoiler layers are available.";
-  }
   if (mode === "reader" && currentLayer !== "prose") {
     currentLayer = "prose";
     localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
@@ -1347,10 +1342,6 @@ function renderExportStatus() {
   if ($("quickExportBtn")) {
     $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
   }
-  if ($("accessSyncBtn")) {
-    $("accessSyncBtn").hidden = Boolean(readerCode);
-    $("accessSyncBtn").textContent = readerCode && !validatedAt ? "Validate Code" : "Enter Code / Sync";
-  }
 }
 
 async function reloadApp() {
@@ -1507,7 +1498,6 @@ function wireEvents() {
   $("ticketsNavBtn").addEventListener("click", () => setView("ticket-review"));
   $("scratchpadNavBtn").addEventListener("click", () => setView("scratchpad"));
   $("exportNavBtn").addEventListener("click", () => setView("export"));
-  $("accessSyncBtn").addEventListener("click", () => setView("export"));
   $("chapterSelect").addEventListener("change", (event) => {
     currentChapterId = event.target.value;
     renderLayerSelect();

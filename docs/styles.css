@@ -64,45 +64,6 @@ button:disabled {
   color: var(--danger);
 }
 
-.access-strip {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.65rem 1.25rem;
-  background: #1f2528;
-  color: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-}
-
-.access-strip span {
-  color: #d6ddde;
-  margin-left: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.access-strip #accessStatus {
-  display: inline;
-}
-
-.access-actions {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.access-actions button {
-  border-color: #5d696d;
-  background: #2d373b;
-  color: white;
-}
-
-.access-actions button.active {
-  background: #d8fff8;
-  border-color: #d8fff8;
-  color: #182225;
-}
-
 .app-header {
   display: flex;
   gap: 1.5rem;
@@ -120,10 +81,10 @@ button:disabled {
   letter-spacing: 0;
 }
 
-.spoiler-note {
+.app-note {
   max-width: 760px;
   margin: 0.35rem 0 0;
-  color: var(--warning);
+  color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.4;
 }
@@ -813,28 +774,6 @@ select {
   body {
     max-width: 100%;
     overflow-x: hidden;
-  }
-
-  .access-strip {
-    position: static;
-    display: grid;
-  }
-
-  .access-strip span {
-    display: block;
-    margin: 0.25rem 0 0;
-  }
-
-  .access-actions {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    width: 100%;
-  }
-
-  .access-actions button {
-    min-width: 0;
-    padding: 0.5rem 0.35rem;
-    font-size: 0.82rem;
   }
 
   .app-header {
