@@ -7,7 +7,7 @@ Tickets are not canon, accepted revisions, manuscript-edit authorization, or pro
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
 | `WC-2026-06-30-013` | accepted-for-workflow | high | app-bug | mobile comment box / keyboard viewport | no |
-| `WC-2026-06-30-014` | proposed | medium | revision-suggestion | early chapters; `d1-ch-01`; beta rewrite style guidance | yes |
+| `WC-2026-06-30-014` | accepted-for-workflow | medium | revision-suggestion | early chapters; `d1-ch-01`; beta rewrite style guidance | no |
 
 ## WC-2026-06-30-013: Mobile Keyboard Obscures Comment Entry
 
@@ -45,7 +45,7 @@ Disposition: app update applied in `review-interface-v0-sync-28` as a mechanical
 - Ticket ID: `WC-2026-06-30-014`
 - Source: webapp-comments
 - Batch ID: `2026-06-30-006`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: medium
 - Ticket type: revision-suggestion
 - Source comment IDs: `comment-1782864955713-hsteq0`
@@ -59,7 +59,7 @@ Disposition: app update applied in `review-interface-v0-sync-28` as a mechanical
 - Relevant selected text: none
 - Proposed destination: beta rewrite style guidance / future prose revision
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
 - Created at: 2026-06-30
 - Related consistency queue IDs: none
 - Related prose preservation IDs: none
@@ -69,8 +69,4 @@ Summary: Early chapters may have a more generic or "AI voice" quality than later
 
 Rationale: This is useful beta-rewrite guidance, especially for the early-book pass, but it does not authorize immediate manuscript prose changes. It should be retained as a style concern to check against Chapter 1 and nearby early chapters when the rewrite/prose phase opens.
 
-Recommended disposition: accept as future revision guidance and review early chapters for generic phrasing, over-smoothed sentence texture, and insufficient author-specific direction during the beta rewrite.
-
-Required author question:
-
-1. Should `WC-2026-06-30-014` be accepted as future beta-rewrite style guidance for early chapters?
+Disposition: accepted as future beta-rewrite/prose-revision guidance. During the beta pass, compare early chapters against later written chapters to identify the specific voice delta, reduce generic or over-smoothed phrasing, and preserve enough density, specificity, interiority, and scene purpose that the rewrite does not become underwritten.

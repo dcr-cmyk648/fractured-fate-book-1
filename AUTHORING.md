@@ -234,6 +234,20 @@ Match the current manuscript rather than producing generic fantasy prose.
 - Match the scale requested by the author.
 - Do not expand a small beat into an oversized scene.
 
+### Voice Calibration for the Beta Pass
+
+During the future beta rewrite, compare early written chapters against later written chapters in the current draft to identify the specific "voice" delta before rewriting. The goal is not merely to shorten or strip prose down. The goal is to reduce generic or over-smoothed phrasing while preserving enough density, specificity, interiority, sensory texture, and author-directed scene purpose that the prose does not become underwritten.
+
+For early chapters, especially Chapter 1 and nearby opening material, watch for:
+
+- broad, generic emotional labels where the later chapters use more specific perception, action, or contradiction
+- polished but interchangeable fantasy phrasing
+- summary that tells the reader what a moment means before the POV has earned it
+- repeated sentence rhythms that smooth away character-specific pressure
+- exposition that explains instead of being filtered through what the POV character notices, resents, fears, misunderstands, or tries not to know
+
+Use later written chapters as a calibration source for stronger author direction: more concrete scene function, sharper POV bias, more character-specific social and psychological pressure, and less generic atmospheric padding. Do not apply this by editing manuscript files until prose revision is explicitly authorized.
+
 ### Psychology
 
 - Integrate psychological ideas through behavior, perception, conflict, metaphor, and dialogue.
