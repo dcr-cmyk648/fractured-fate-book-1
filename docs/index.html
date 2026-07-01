@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=sync-24">
+    <link rel="stylesheet" href="styles.css?v=sync-25">
   </head>
   <body>
     <header class="app-header">
@@ -59,7 +59,7 @@
               <button id="prevChapterBtn" type="button">Previous</button>
               <button id="nextChapterBtn" type="button">Next</button>
             </div>
-            <label>
+            <label id="layerControl">
               Layer
               <select id="layerSelect"></select>
             </label>
@@ -199,7 +199,6 @@
         <strong id="mobileCommentTarget">Loading...</strong>
       </button>
       <div class="target-row">
-        <span>Target:</span>
         <strong id="commentTarget">Loading...</strong>
         <span id="commentCount">0 comments</span>
       </div>
@@ -208,20 +207,17 @@
         <button id="submitCommentBtn" type="button">Submit Comment</button>
         <button id="quickExportBtn" type="button">Sync Comments</button>
       </div>
-      <details id="bookmarkCard" class="bookmark-card" aria-label="Bookmark tools">
-        <summary>Bookmark</summary>
-        <div class="bookmark-row">
-          <span id="bookmarkStatus">No bookmark</span>
-          <button id="saveBookmarkBtn" type="button">Save</button>
-          <button id="resumeBookmarkBtn" type="button">Resume</button>
-        </div>
-      </details>
-      <details id="referenceCard" class="reference-card" aria-label="Current comment reference" open>
+      <div id="bookmarkCard" class="bookmark-card" aria-label="Bookmark tools">
+        <span id="bookmarkStatus">No bookmark</span>
+        <button id="saveBookmarkBtn" type="button">Save Bookmark</button>
+        <button id="resumeBookmarkBtn" type="button">Resume</button>
+      </div>
+      <details id="referenceCard" class="reference-card" aria-label="Current comment reference">
         <summary>Currently Seeing</summary>
         <dl id="referenceDetails"></dl>
       </details>
     </aside>
 
-    <script src="app.js?v=sync-24"></script>
+    <script src="app.js?v=sync-25"></script>
   </body>
 </html>

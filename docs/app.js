@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-24";
+const APP_VERSION = "review-interface-v0-sync-25";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -266,6 +266,7 @@ function currentChapter() {
 function renderLayerSelect() {
   const chapter = currentChapter();
   const select = $("layerSelect");
+  $("layerControl").hidden = currentMode === "reader";
   select.innerHTML = "";
   if (!chapter) return;
   const visibleLayers = currentMode === "reader"
@@ -1439,7 +1440,7 @@ function syncMobileCommentUi() {
     referenceCard.removeAttribute("open");
     setCommentDrawer(false);
   } else {
-    referenceCard.setAttribute("open", "");
+    referenceCard.removeAttribute("open");
     setCommentDrawer(true);
   }
 }
