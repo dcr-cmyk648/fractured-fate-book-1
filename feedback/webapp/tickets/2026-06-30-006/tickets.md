@@ -6,7 +6,7 @@ Tickets are not canon, accepted revisions, manuscript-edit authorization, or pro
 
 | Ticket ID | Status | Priority | Type | Target | Requires author decision |
 |---|---|---|---|---|---|
-| `WC-2026-06-30-013` | proposed | high | app-bug | mobile comment box / keyboard viewport | no |
+| `WC-2026-06-30-013` | accepted-for-workflow | high | app-bug | mobile comment box / keyboard viewport | no |
 | `WC-2026-06-30-014` | proposed | medium | revision-suggestion | early chapters; `d1-ch-01`; beta rewrite style guidance | yes |
 
 ## WC-2026-06-30-013: Mobile Keyboard Obscures Comment Entry
@@ -14,7 +14,7 @@ Tickets are not canon, accepted revisions, manuscript-edit authorization, or pro
 - Ticket ID: `WC-2026-06-30-013`
 - Source: webapp-comments
 - Batch ID: `2026-06-30-006`
-- Status: proposed
+- Status: accepted-for-workflow
 - Priority: high
 - Ticket type: app-bug
 - Source comment IDs: `comment-1782864955713-hsteq0`
@@ -38,7 +38,7 @@ Summary: Mobile comment entry still has a keyboard/viewport problem; when typing
 
 Rationale: The app is intended to collect mobile feedback through comments and scratchpad entries. If the keyboard hides the textarea, mobile comment collection is unreliable even if sync works.
 
-Recommended disposition: fix before depending on mobile review sessions for substantial comment collection.
+Disposition: app update applied in `review-interface-v0-sync-28`.
 
 ## WC-2026-06-30-014: Early Chapters Need Later Style/Voice Review
 

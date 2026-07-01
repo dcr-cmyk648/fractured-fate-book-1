@@ -24,5 +24,5 @@ Tickets are proposed work items derived from web-app comments. They are not auto
 | WC-2026-06-30-010 | 2026-06-30-002 | accepted-for-workflow | app-bug | medium | review-app comment anchoring | app update applied | no |
 | WC-2026-06-30-011 | 2026-06-30-002 | accepted-for-workflow | app-bug | low | mobile pull-up sync button status | app update applied | no |
 | WC-2026-06-30-012 | 2026-06-30-003 | proposed | chapter-architecture | high | `d1-ch-42` Drosin/Kelyra outline guidance | Chapter 42 detailed alpha outline revision | yes |
-| WC-2026-06-30-013 | 2026-06-30-006 | proposed | app-bug | high | mobile comment box / keyboard viewport | app maintenance | no |
+| WC-2026-06-30-013 | 2026-06-30-006 | accepted-for-workflow | app-bug | high | mobile comment box / keyboard viewport | app update applied | no |
 | WC-2026-06-30-014 | 2026-06-30-006 | proposed | revision-suggestion | medium | early chapters; `d1-ch-01`; beta rewrite style guidance | future beta rewrite / prose revision | yes |

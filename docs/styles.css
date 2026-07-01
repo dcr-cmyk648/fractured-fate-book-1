@@ -774,7 +774,7 @@ select {
     top: auto;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: var(--keyboard-inset, 0);
     width: auto;
     max-height: min(calc(var(--app-vvh, 100vh) * 0.78), 620px);
     overflow: auto;
@@ -787,6 +787,11 @@ select {
 
   .comment-box.is-open {
     transform: translateY(0);
+  }
+
+  .comment-box.is-keyboard-active {
+    max-height: calc(var(--app-vvh, 100vh) - 8px);
+    overscroll-behavior: contain;
   }
 
   .mobile-comment-toggle {
@@ -831,6 +836,11 @@ select {
 
   .comment-box textarea {
     min-height: 90px;
+    scroll-margin-bottom: 1rem;
+  }
+
+  .comment-box.is-keyboard-active textarea {
+    min-height: 118px;
   }
 
   .reference-card {

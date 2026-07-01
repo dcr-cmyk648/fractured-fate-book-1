@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-27";
+const APP_VERSION = "review-interface-v0-sync-28";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -40,6 +40,7 @@ let currentTicketId = null;
 let currentScratchpadTab = "content";
 let browserTreeOpen = false;
 let readerControlsOpen = false;
+let commentInputFocused = false;
 let scrollSaveTimer = null;
 let viewportResizeTimer = null;
 
@@ -1391,8 +1392,13 @@ function isMobileLayout() {
 }
 
 function updateViewportMetrics() {
-  const height = window.visualViewport?.height || window.innerHeight || document.documentElement.clientHeight;
+  const viewport = window.visualViewport;
+  const height = viewport?.height || window.innerHeight || document.documentElement.clientHeight;
+  const keyboardInset = viewport
+    ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop)
+    : 0;
   document.documentElement.style.setProperty("--app-vvh", `${Math.round(height)}px`);
+  document.documentElement.style.setProperty("--keyboard-inset", `${Math.round(keyboardInset)}px`);
 }
 
 function handleViewportResize() {
@@ -1404,7 +1410,12 @@ function handleViewportResize() {
       browserTreeOpen = false;
       setReaderControlsOpen(false);
       setBrowserTreeOpen(false);
-      setCommentDrawer(false);
+      if (commentInputFocused) {
+        setCommentDrawer(true);
+        ensureCommentInputVisible();
+      } else {
+        setCommentDrawer(false);
+      }
     }
     syncMobileCommentUi();
     syncMobileReaderUi();
@@ -1446,10 +1457,20 @@ function syncMobileReaderUi() {
 
 function syncMobileCommentUi() {
   if (isMobileLayout()) {
-    setCommentDrawer(false);
+    setCommentDrawer(commentInputFocused || $("commentBox").classList.contains("is-open"));
   } else {
     setCommentDrawer(true);
   }
+}
+
+function ensureCommentInputVisible() {
+  const box = $("commentBox");
+  const textarea = $("commentText");
+  if (!box || !textarea || !isMobileLayout()) return;
+  window.setTimeout(() => {
+    textarea.scrollIntoView({ block: "nearest" });
+    box.scrollTop = Math.max(0, textarea.offsetTop - 64);
+  }, 60);
 }
 
 function setBrowserTreeOpen(open) {
@@ -1547,6 +1568,18 @@ function wireEvents() {
     }
   });
   $("submitCommentBtn").addEventListener("click", submitComment);
+  $("commentText").addEventListener("focus", () => {
+    commentInputFocused = true;
+    $("commentBox").classList.add("is-keyboard-active");
+    if (isMobileLayout()) setCommentDrawer(true);
+    updateViewportMetrics();
+    ensureCommentInputVisible();
+  });
+  $("commentText").addEventListener("blur", () => {
+    commentInputFocused = false;
+    $("commentBox").classList.remove("is-keyboard-active");
+    updateViewportMetrics();
+  });
   $("quickExportBtn").addEventListener("click", () => {
     if (getReaderCode()) syncComments();
     else setView("export");
