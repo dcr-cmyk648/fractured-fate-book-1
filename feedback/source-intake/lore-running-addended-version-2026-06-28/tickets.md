@@ -1,6 +1,6 @@
 # Author-Question Tickets: Lore (running addended version)
 
-Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. `LORE-2026-06-28-007` was preserved as candidate-only until geography details become directly relevant. Remaining higher-level chapter/candidate tickets remain deferred.
+Status: lower-level tickets routed by author decision on 2026-06-28. `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. `LORE-2026-06-28-007` was preserved as candidate-only until geography details become directly relevant. `LORE-2026-06-28-008` was preserved as tentative/backup visual texture. `LORE-2026-06-28-009` was preserved as background Elric/gnostic-viewpoint material with no planned Book 1 placement.
 
 These tickets are derived from `imports/raw/Lore (running addended version).txt`. The source document is useful but outdated. Nothing here is canon or an accepted revision until approved through the normal workflow.
 
@@ -13,8 +13,8 @@ These tickets are derived from `imports/raw/Lore (running addended version).txt`
 | LORE-2026-06-28-005 | medium | story-bible-review | Zän technology | resolved; accepted constraints and candidate taxonomy stored |
 | LORE-2026-06-28-006 | medium | chapter-architecture | Martial arts / Shroud arts | rejected |
 | LORE-2026-06-28-007 | medium | chapter-architecture | Six Cities geography / neutral market | resolved; candidate-only |
-| LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | deferred |
-| LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | deferred |
+| LORE-2026-06-28-008 | low | candidate-idea | High Clade attire | resolved; tentative/backup texture |
+| LORE-2026-06-28-009 | low | candidate-idea | Myth fragments / parables | resolved; background material |
 | LORE-2026-06-28-010 | medium | consistency-check | Obsolete terminology and stale lore quarantine | resolved; quarantine rule preserved |
 
 ## LORE-2026-06-28-001: Naeroth as Suppressed Fateweaving Source
@@ -153,13 +153,16 @@ Disposition: Preserve as candidate-only until the Six Cities geography, neutral 
 - Type: candidate-idea
 - Proposed routing: `culture-magus-presentation`, future style/visual candidate file
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; tentative/backup texture
 
 Question: Are terms like `corvan` and `riven skirts` worth preserving for later prose, or should the clothing material remain visual candidate texture?
 
 Candidate material: bare arms as lineage/self-reliance signal; sleeveless tailored vest/corvan; divided skirt/trouser silhouette; weighted hems; house palettes.
 
 Why it matters: Useful for prose texture, but not structurally blocking.
+
+Disposition: Preserve as tentative/backup visual texture only. Later prose will likely use normal descriptive terms for outfits rather than special clothing terminology such as `corvan` or `riven skirts`, unless a later scene specifically benefits from the old terms.
 
 ## LORE-2026-06-28-009: Myth Fragments and the Softling Parable
 
@@ -168,13 +171,16 @@ Why it matters: Useful for prose texture, but not structurally blocking.
 - Type: candidate-idea
 - Proposed routing: future prose-preservation or myth/culture candidate file
 - Blocking: no
-- Requires author decision: yes
+- Requires author decision: no
+- Status: resolved; background material
 
 Question: Should the Softling/ink-sea parable or short Loom/Testament fragments be preserved as possible in-world myth excerpts?
 
 Candidate material: A parable about pain, oblivion, and the ink sea; short fragments about First Light, Deep, Weavers, and Eclipsed false choice.
 
 Why it matters: These could become epigraphs, codex fragments, or Elric/Naeroth lore texture, but should not be promoted automatically.
+
+Disposition: Preserve as background material that typifies Elric's gnostic viewpoint. There is no currently planned Book 1 placement for these as in-world myth excerpts.
 
 ## LORE-2026-06-28-010: Stale Lore Quarantine
 

@@ -1,10 +1,10 @@
 # Project State
 
-Last updated: 2026-06-30
+Last updated: 2026-07-01
 
 ## Repository state
 
-- Current branch: beta
+- Current branch: main
 - Current migration phase: Phase 7 alpha-continuation architecture
 - Current block: nonblocking ticket review
 - Active or paused entity ID: none
@@ -21,7 +21,7 @@ Last updated: 2026-06-30
 - Approved current-draft maps since last chapter-map consistency review: 2 complete maps plus one reviewed partial fragment
 - Last consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
 - Last chapter-map consistency review: reports/consistency/2026-06-30-alpha-catchup-readiness.md
-- Consistency review due: no; nonblocking ticket `LORE-2026-06-28-008` is the next deferred source-intake ticket if nonblocking ticket review continues
+- Consistency review due: no; nonblocking source-intake tickets `LORE-2026-06-28-008` and `LORE-2026-06-28-009` have been routed as tentative/background material
 - Remote synchronized: yes
 
 ## Last completed work
@@ -30,15 +30,15 @@ The story-bible completion gate was approved by the author. Current-draft chapte
 
 ## Current work
 
-The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-002`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010` and `WC-2026-06-30-011` were resolved in the review app. Nonblocking ticket `WC-2026-06-28-003` was accepted as future Prologue architecture guidance and recorded in `decisions/0092-sorevin-gateway-zan-prologue-guidance.md`. Ticket `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. Ticket `LORE-2026-06-28-007` was preserved as candidate-only until Six Cities geography details become directly relevant. The permanent workflow was updated to require a short in-chat summary whenever Codex asks for author decision or feedback. The review app was updated to include approximate visible rendered line ranges for repository-browser files and non-prose book-reader layers, improving comment anchors for outlines and maps. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md` were approved as the working alpha-continuation structure, with flexible Chapter 37/38 boundary management and with the Spire provocation followed by the Rezin-citadel Drakhal proposal as sequential political trap beats. The detailed Chapter 37 outline at `outline/alpha-continuation/units/ch37-dining-jalen-intelligence.md`, Chapter 38 outline at `outline/alpha-continuation/units/ch38-davian-night-unresolved-want.md`, Chapter 39 outline at `outline/alpha-continuation/units/ch39-intelligence-drakhal-proposal.md`, Chapter 40 outline at `outline/alpha-continuation/units/ch40-counterattack-commitment-archeon.md`, and Chapter 41 outline at `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md` were approved as working detailed outlines. The detailed Chapter 42 outline packet remains available at `outline/alpha-continuation/units/ch42-kelyra-shroud-maya-attrition.md`; if nonblocking ticket review continues, the next deferred source-intake ticket is `LORE-2026-06-28-008`.
+The `d1-ch-37-preposed` working-fragment current-draft map packet has been reviewed and preserved as a partial fragment, not a complete chapter draft unit. Follow-up author clarification approved it as the opening of the next alpha-continuation unit. Latest web-app comments were imported as batch `2026-06-30-006`. Ticket `WC-2026-06-30-009` was resolved into workflow policy and verified-role comment intake. Tickets `WC-2026-06-30-010`, `WC-2026-06-30-011`, and `WC-2026-06-30-013` were resolved in the review app. Ticket `WC-2026-06-30-014` was accepted as future beta voice-calibration guidance in `AUTHORING.md`. Nonblocking ticket `WC-2026-06-28-003` was accepted as future Prologue architecture guidance and recorded in `decisions/0092-sorevin-gateway-zan-prologue-guidance.md`. Ticket `WC-2026-06-30-012` was accepted and applied to the Chapter 42 outline. Ticket `LORE-2026-06-28-006` was rejected as superseded by newer combat/magic guidance. Ticket `LORE-2026-06-28-007` was preserved as candidate-only until Six Cities geography details become directly relevant. Tickets `LORE-2026-06-28-008` and `LORE-2026-06-28-009` were preserved as tentative/backup visual texture and background Elric/gnostic-viewpoint material, respectively. The permanent workflow was updated to require a short in-chat summary whenever Codex asks for author decision or feedback and to clarify verified-author versus reader-origin comment authority. The review app was updated to include approximate visible rendered line ranges for repository-browser files and non-prose book-reader layers, improving comment anchors for outlines and maps. The alpha catch-up consistency/readiness report found no immediate story blocker to alpha-continuation architecture. The expanded source-backed map at `outline/alpha-continuation/ALPHA_SOURCE_SEQUENCE_MAP.md` and proposed chapter division at `outline/alpha-continuation/CHAPTER_DIVISION_PROPOSAL.md` were approved as the working alpha-continuation structure, with flexible Chapter 37/38 boundary management and with the Spire provocation followed by the Rezin-citadel Drakhal proposal as sequential political trap beats. The detailed Chapter 37 outline at `outline/alpha-continuation/units/ch37-dining-jalen-intelligence.md`, Chapter 38 outline at `outline/alpha-continuation/units/ch38-davian-night-unresolved-want.md`, Chapter 39 outline at `outline/alpha-continuation/units/ch39-intelligence-drakhal-proposal.md`, Chapter 40 outline at `outline/alpha-continuation/units/ch40-counterattack-commitment-archeon.md`, Chapter 41 outline at `outline/alpha-continuation/units/ch41-maya-trap-split-fronts.md`, and Chapter 42 outline at `outline/alpha-continuation/units/ch42-kelyra-shroud-maya-attrition.md` are approved as working detailed outlines.
 
 ## Next action
 
-Either continue nonblocking ticket review with `LORE-2026-06-28-008` or return to the paused Chapter 42 outline packet, depending on author direction. No prose drafting is authorized until explicitly requested.
+Review the consistency queue with the author, then return to alpha-continuation outlining unless the author chooses a consistency item to resolve first. No prose drafting is authorized until explicitly requested.
 
 ## Awaiting author input
 
-No active ticket is awaiting author decision after `LORE-2026-06-28-007` was preserved as candidate-only. Detailed Chapter 42 outline packet remains paused and ready; no current web-app comment ticket blocks that packet.
+No active ticket is awaiting author decision. No current web-app comment or source-intake ticket blocks alpha-continuation outlining.
 
 ## Workflow policy note
 
@@ -55,7 +55,7 @@ No active ticket is awaiting author decision after `LORE-2026-06-28-007` was pre
 ## Known blockers or risks
 
 - Comments have only been confirmed in `imports/raw/melissa-copy.docx`; `book-1-outline.docx` and `bullet-notes.docx` do not contain `word/comments.xml`.
-- Local branch should remain synchronized with `origin/beta` during ongoing work.
+- Local branch should remain synchronized with `origin/main` during ongoing documentation/app/source-intake work.
 - Niall's Heart/silver conduit/charge mechanics are not yet reviewed; see `CONSISTENCY_QUEUE.md`.
 - Exact Alara apparent-death choreography, higher-plane state, and remaining cosmology mechanics remain deferred for later Fateweaving/Skein, endgame, and chapter review.
 - Kelyra's hereditary kinesis/Subversion terminology, future Shroud manifestation scene, Lirien spelling, and Lethira parentage need later consistency review; see `CONSISTENCY_QUEUE.md`.
