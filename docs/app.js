@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-22";
+const APP_VERSION = "review-interface-v0-sync-23";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -74,7 +74,16 @@ function getCommenterName() {
 
 function setCommenterName(name) {
   localStorage.setItem(STORAGE_KEYS.commenter, name.trim());
+  const commenter = $("commenterName")?.closest(".commenter");
+  if (commenter) commenter.hidden = !name.trim();
   $("commenterName").textContent = name.trim() || "Unset";
+}
+
+function renderCommenterName() {
+  const name = getCommenterName();
+  const commenter = $("commenterName")?.closest(".commenter");
+  if (commenter) commenter.hidden = !name;
+  $("commenterName").textContent = name;
 }
 
 function getSessionId() {
@@ -123,18 +132,15 @@ function renderBookmarkStatus() {
   $("bookmarkStatus").textContent = bookmarkLabel();
 }
 
-function promptForName(force = false) {
+function promptForBackupName() {
   const existing = getCommenterName();
-  if (existing && !force) {
-    setCommenterName(existing);
-    return;
-  }
-  const name = window.prompt("Enter commenter name", existing || "");
+  if (existing) return existing;
+  const name = window.prompt("Enter commenter name for this backup export", "");
   if (name && name.trim()) {
     setCommenterName(name);
-  } else if (!existing) {
-    setCommenterName("Reader");
+    return name.trim();
   }
+  return "Reader";
 }
 
 async function loadData() {
@@ -1074,6 +1080,8 @@ async function saveReaderCode() {
   localStorage.removeItem(STORAGE_KEYS.readerCodeValidatedAt);
   localStorage.removeItem(STORAGE_KEYS.readerCodeDisplayName);
   localStorage.removeItem(STORAGE_KEYS.readerCodeRole);
+  localStorage.removeItem(STORAGE_KEYS.commenter);
+  renderCommenterName();
   $("readerCodeInput").value = "";
   renderExportStatus();
   await syncComments({ allowEmpty: true, validationOnly: !commentsForExport().length });
@@ -1086,6 +1094,7 @@ function markSyncGenerated(result, records) {
   localStorage.setItem(STORAGE_KEYS.lastSyncLatestCreatedAt, latestCommentCreatedAt(comments) || "");
   if (result?.reader?.display_name) {
     localStorage.setItem(STORAGE_KEYS.readerCodeDisplayName, result.reader.display_name);
+    setCommenterName(result.reader.display_name);
   }
   if (result?.reader?.role) {
     localStorage.setItem(STORAGE_KEYS.readerCodeRole, result.reader.role === "author" ? "author" : "reader");
@@ -1269,7 +1278,8 @@ function download(filename, mimeType, body) {
 }
 
 function exportJson() {
-  const name = slugName(getCommenterName());
+  const commenterName = getCommenterName() || promptForBackupName();
+  const name = slugName(commenterName);
   const records = commentsForExport();
   download(
     `fractured-fate-comments-${name}-${timestampForFile()}.json`,
@@ -1492,7 +1502,6 @@ function renderCommentList() {
 
 function wireEvents() {
   updateViewportMetrics();
-  $("changeNameBtn").addEventListener("click", () => promptForName(true));
   $("readerNavBtn").addEventListener("click", () => setView("book-reader"));
   $("browserNavBtn").addEventListener("click", () => setView("repo-browser"));
   $("ticketsNavBtn").addEventListener("click", () => setView("ticket-review"));
@@ -1580,7 +1589,7 @@ function wireEvents() {
 
 async function init() {
   registerServiceWorker();
-  promptForName();
+  renderCommenterName();
   getSessionId();
   loadComments();
   wireEvents();
