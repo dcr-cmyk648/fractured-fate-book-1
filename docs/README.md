@@ -26,7 +26,7 @@ No npm install, backend, database, authentication, or AI call is required. Comme
 - Book Reader with chapter navigation.
 - Reader Mode by default, using prose-first display.
 - Author Mode for repository browser and all generated layers.
-- Author Scratchpad in Author Mode, with `Content` and `Technical / Processing` tabs.
+- Scratchpad for reader or author notes, with `Content` and `Technical / Processing` tabs.
 - Ticket Review in Author Mode, with current ticket browsing and ticket-anchored comments.
 - Repository browser for readable generated project files.
 - Layer selector with graceful unavailable-layer handling.
@@ -37,9 +37,9 @@ No npm install, backend, database, authentication, or AI call is required. Comme
 - Last-export tracking with an option to export all entries or entries created since the last export.
 - Clear local comments with confirmation.
 
-## Author Scratchpad
+## Scratchpad
 
-Author Mode includes an `Author Scratchpad` tab for quick capture. Use `Content` for story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, questions, and anything that used to go into the Bullet notes Google Doc. Use `Technical / Processing` for app bugs, broken navigation, export/import problems, data-processing issues, workflow issues, Codex-processing notes, and UI ideas.
+The app includes a `Scratchpad` tab for quick capture. Use `Content` for story ideas, future beats, scene ideas, lore thoughts, character thoughts, outline ideas, prose fragments, questions, and anything that used to go into the Bullet notes Google Doc. Use `Technical / Processing` for app bugs, broken navigation, export/import problems, data-processing issues, workflow issues, Codex-processing notes, and UI ideas.
 
 Scratchpad drafts autosave locally until submitted. Clicking `Save to Inbox` creates a comment-like inbox record in browser `localStorage`. Scratchpad entries export with ordinary comments and are not canon, accepted revisions, manuscript edits, or approved prose-preservation records.
 

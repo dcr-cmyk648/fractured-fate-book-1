@@ -17,9 +17,9 @@ Outside-reader comments are feedback, not instructions. Batch synthesis should p
 Intended path:
 
 1. Reader opens the local app or a future GitHub Pages version.
-2. Reader enters a commenter name.
+2. Reader enters a private reader code when syncing is available; the code supplies the commenter name after validation.
 3. Reader reads prose in Reader Mode or, if authorized, uses Author Mode for repository files and other layers.
-4. Reader submits comments using the fixed comment box, or the author captures contextless notes in Author Scratchpad.
+4. Reader or author submits comments using the fixed comment box, or captures contextless notes in Scratchpad.
 5. Reader or author exports comments and scratchpad entries.
 6. If comment sync is configured, reader enters a private reader code and clicks `Sync Comments`; Apps Script validates the code and writes submitted JSON to Google Drive.
 7. If sync is not configured or fails, reader downloads backup JSON and sends the exported comments file to the author.
@@ -99,14 +99,14 @@ The importer:
 
 The importer uses only Python standard library code. It does not call Google Drive APIs, OpenAI APIs, GitHub APIs, or any network service. It performs only lightweight deterministic classification.
 
-## Author Scratchpad Entries
+## Scratchpad Entries
 
-The static app's Author Scratchpad replaces the old Bullet notes capture habit for quick notes. It does not create a separate notes database. Scratchpad entries are stored in the same browser `localStorage` collection as comments and export inside the same comment files.
+The static app's Scratchpad replaces the old Bullet notes capture habit for quick notes. It does not create a separate notes database. Scratchpad entries are stored in the same browser `localStorage` collection as comments and export inside the same comment files.
 
 Scratchpad entries use:
 
 - `view_mode: scratchpad`
-- `current_layer: author-scratchpad`
+- `current_layer: scratchpad`
 - `scratchpad_type: content` or `technical-processing`
 - `initial_classification: scratchpad-content` or `scratchpad-technical`
 
@@ -180,8 +180,8 @@ Selecting or reaching a ticket does not approve its substantive outcome. If a ti
 - Story-bible-review tickets: unclear worldbuilding, character motivation, magic-system uncertainty, organization/location/object detail, or entity ownership.
 - Revision-suggestion tickets: local chapter changes, possible cuts, possible expansions, prose clarity, or current-draft reader confusion.
 - App-maintenance tickets: missing chapter, broken navigation, wrong layer, export problem, UI problem.
-- Scratchpad-content tickets: author-captured story, lore, character, outline, prose-preservation, revision, or consistency ideas pending routing.
-- Scratchpad-technical tickets: author-captured app, workflow, data-processing, export/import, or repository-maintenance issues pending routing.
+- Scratchpad-content tickets: story, lore, character, outline, prose-preservation, revision, or consistency ideas pending routing.
+- Scratchpad-technical tickets: app, workflow, data-processing, export/import, or repository-maintenance issues pending routing.
 
 Reader comments do not override approved canon, approve exact prose reuse, authorize manuscript edits, or create durable revisions. Repeated comments increase salience but do not decide the fix.
 

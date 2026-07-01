@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-23";
+const APP_VERSION = "review-interface-v0-sync-24";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -158,7 +158,6 @@ async function loadData() {
 function setView(view) {
   if (view === "repo-browser" && currentMode === "reader") view = "book-reader";
   if (view === "ticket-review" && currentMode === "reader") view = "book-reader";
-  if (view === "scratchpad" && currentMode === "reader") view = "book-reader";
   currentView = view;
   localStorage.setItem(STORAGE_KEYS.view, view);
   document.body.classList.toggle("view-reader", view === "book-reader");
@@ -204,15 +203,14 @@ function setMode(mode) {
   document.body.classList.toggle("mode-author", mode === "author");
   $("browserNavBtn").disabled = mode === "reader";
   $("ticketsNavBtn").disabled = mode === "reader";
-  $("scratchpadNavBtn").disabled = mode === "reader";
   $("modeStatus").textContent = mode === "reader"
-    ? "Reader Mode active: repository browser is hidden."
-    : "Author Mode active: repository browser and spoiler layers are available.";
+    ? "Reader access active."
+    : "Author access active.";
   if (mode === "reader" && currentLayer !== "prose") {
     currentLayer = "prose";
     localStorage.setItem(STORAGE_KEYS.layer, currentLayer);
   }
-  if (mode === "reader" && (currentView === "repo-browser" || currentView === "ticket-review" || currentView === "scratchpad")) {
+  if (mode === "reader" && (currentView === "repo-browser" || currentView === "ticket-review")) {
     setView("book-reader");
   }
   if (!appIndex) return;
@@ -823,7 +821,7 @@ function currentReference() {
       repo_branch: meta.branch || null,
       app_version: APP_VERSION,
       view_mode: "scratchpad",
-      current_layer: "author-scratchpad",
+      current_layer: "scratchpad",
       scratchpad_type: currentScratchpadTab,
       current_file_path: null,
       chapter_id: null,
@@ -858,7 +856,7 @@ function currentReference() {
 function updateTargetDisplay() {
   const ref = currentReference();
   const target = ref.view_mode === "scratchpad"
-    ? `Author Scratchpad · ${ref.current_heading}`
+    ? `Scratchpad · ${ref.current_heading}`
     : ref.view_mode === "ticket-review"
     ? `Ticket · ${ref.ticket_id || ref.current_heading}`
     : ref.chapter_title
@@ -1615,7 +1613,7 @@ async function init() {
   }
   if (savedView === "export") {
     setView("export");
-  } else if (currentMode === "author" && savedView === "scratchpad") {
+  } else if (savedView === "scratchpad") {
     setView("scratchpad");
   } else if (currentMode === "author" && savedView === "ticket-review") {
     setView("ticket-review");

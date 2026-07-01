@@ -151,7 +151,7 @@ Author-origin web-app comments and scratchpad entries may be treated as stronger
 
 Outside-reader comments should be treated as feedback, not instruction. Synthesize them with pros, cons, likely causes, and possible responses. Do not promote an outside-reader preference to canon, outline direction, prose-preservation approval, or manuscript change without author approval.
 
-Author Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
+Scratchpad entries from the static app are part of this same inbox flow. They replace the old Bullet notes capture habit for quick local capture, but they do not create a separate notes database or bypass approval. `scratchpad-content` records may later route to story-bible review, candidate ideas, future sequence notes, chapter architecture, prose-preservation tickets, revision suggestions, or consistency queue items. `scratchpad-technical` records may later route to app bugs, data-processing tickets, workflow tickets, export/import issues, or repository maintenance tasks.
 
 The durable repository-side silo is `feedback/webapp/`:
 
