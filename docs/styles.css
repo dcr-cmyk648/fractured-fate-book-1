@@ -821,6 +821,18 @@ select {
     margin: 0.25rem 0 0;
   }
 
+  .access-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .access-actions button {
+    min-width: 0;
+    padding: 0.5rem 0.35rem;
+    font-size: 0.82rem;
+  }
+
   .app-header {
     top: 0;
     display: grid;

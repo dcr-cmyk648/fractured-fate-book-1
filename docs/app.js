@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-18";
+const APP_VERSION = "review-interface-v0-sync-19";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -1314,10 +1314,9 @@ function renderExportStatus() {
     ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}${readerRole ? ` · ${readerRole}` : ""}` : "Saved, not yet validated"}`
     : "Reader code: Not saved";
   if ($("authorModeBtn")) {
-    $("authorModeBtn").disabled = !hasVerifiedAuthorCode();
     $("authorModeBtn").title = hasVerifiedAuthorCode()
       ? "Author Mode available"
-      : "Author Mode requires a validated author reader code.";
+      : "Author Mode requires a validated author reader code. Click to enter or sync a code.";
   }
   $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
   $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
@@ -1484,6 +1483,7 @@ function wireEvents() {
   $("ticketsNavBtn").addEventListener("click", () => setView("ticket-review"));
   $("scratchpadNavBtn").addEventListener("click", () => setView("scratchpad"));
   $("exportNavBtn").addEventListener("click", () => setView("export"));
+  $("accessSyncBtn").addEventListener("click", () => setView("export"));
   $("readerModeBtn").addEventListener("click", () => setMode("reader"));
   $("authorModeBtn").addEventListener("click", () => setMode("author"));
   $("chapterSelect").addEventListener("change", (event) => {
@@ -1593,7 +1593,9 @@ async function init() {
   if (savedTicket && (appIndex.tickets || []).some((ticket) => ticket.ticket_id === savedTicket)) {
     currentTicketId = savedTicket;
   }
-  if (currentMode === "author" && savedView === "scratchpad") {
+  if (savedView === "export") {
+    setView("export");
+  } else if (currentMode === "author" && savedView === "scratchpad") {
     setView("scratchpad");
   } else if (currentMode === "author" && savedView === "ticket-review") {
     setView("ticket-review");
