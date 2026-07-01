@@ -12,6 +12,8 @@
 
 Chapter 42 should open from Davian's perspective with Kelyra found and Drosin blocking him, then intercut with Maya's attrition fight above the collapsed throne-room floor. The chapter's job is to resolve enough of the Kelyra rescue front for Davian and Kelyra to become available to affect the Maya/Serathis/Niall fronts, without yet resolving Serathis, Vorren, Davian's death, or Maya's resurrection.
 
+Approved ticket guidance from `WC-2026-06-30-012`: Drosin should read as a near-High-Clade-level Archeon combatant and Davian's most dangerous direct Book 1 fight. Kelyra's initial inability to help should come from active restraint plus her Shroud block, not from passive helplessness or simple physical incapacitation. Her Shroud manifestation should be the practical mechanism that lets her break free and help defeat Drosin.
+
 The core movement is:
 
 > Davian asks for help/protection instead of becoming the sole threat; Kelyra manifests her Shroud by choosing protection/action under her own values; Maya kills and survives but cannot end the attrition fight quickly enough alone.
@@ -47,11 +49,12 @@ Recommended pattern:
 
 - POV: Davian.
 - Open immediately from Chapter 41's hook: Davian has found Kelyra, and Drosin is between them.
-- Drosin should be a credible Archeon heir/magus threat, not just a guard.
+- Drosin should be a near-High-Clade-level Archeon heir/magus threat, not just a guard.
+- This should be Davian's most dangerous direct Book 1 fight: he can survive and matter because of martial skill, Ink movement/pathing, Shroud, emerging kinesis, and stubbornness, but Drosin should expose how incomplete Davian's stack still is.
 - Drosin makes clear that Serathis wanted Davian captured alive, but Drosin intends to kill him.
 - Davian recognizes the recurring Archeon pattern: Serathis shapes people as assets, then those assets resent, rebel, or lash out inside the same violent logic.
 - Drosin's attitude can be that this is just how Archeon works.
-- Kelyra is present but not yet able to simply walk out or solve the fight.
+- Kelyra is present but not yet able to simply walk out or solve the fight because she is actively restrained and still Shroud-blocked.
 
 Purpose:
 
@@ -63,7 +66,8 @@ Purpose:
 
 - Davian sees Kelyra's condition.
 - She should be affected by captivity, Serathis's pressure, and Archeon trauma, but not reduced to helplessness.
-- Kelyra may be restrained, injured, exhausted, psychologically pressured, or positioned so that acting risks making things worse.
+- Kelyra should be physically restrained or bound in a way that matters, while the deeper lock is her Shroud block and Archeon trauma.
+- Injury, exhaustion, or psychological pressure can complicate the scene, but they should not be the primary reason she cannot help.
 - Davian tries to reach her as family rather than as a mission objective.
 - Kelyra may resist being helped if help feels like weakness or if she believes acting will trigger Serathis's old scripts.
 - The scene should not make Kelyra's Shroud "finally Serathis was right." Her breakthrough should come from protecting/helping Davian, not fulfilling Serathis's proof-of-concept.
@@ -122,7 +126,7 @@ Purpose:
 - Kelyra manifests a Shroud to protect/help Davian.
 - Do not frame this as "Serathis was right"; the causal ambiguity can remain, but the chapter should land on Kelyra choosing action under her own values.
 - The manifestation can be messy, violent, partial at first, or emotionally raw.
-- It should meaningfully change the fight with Drosin.
+- It should meaningfully change the fight with Drosin by letting Kelyra break restraint and enter the fight as an active participant.
 - Kelyra may use Archeon-derived movement, kinesis/Subversion, and Shroud together in a way that shows why Serathis valued her and Davian, but the moral frame belongs to Kelyra's choice.
 
 Purpose:
@@ -203,6 +207,8 @@ Alternative ending if the Drosin/Kelyra fight needs more room: end on Kelyra's S
 
 - Davian's stack is strong but incomplete: martial arts, Ink movement/pathing, Shroud, and some kinesis.
 - Kelyra's Shroud manifests under protection/action pressure.
+- Kelyra's Shroud manifestation is the practical escape mechanism from restraint, not only an emotional revelation.
+- Drosin should be strong enough that Davian alone plausibly loses; the victory requires Kelyra's active help.
 - Archeon fighters are dangerous because of drilled forms, Shrouds, force-transfer/gauntlet systems, and timing, not because they are generically stronger than Maya.
 - Maya can exploit Archeon predictability but cannot ignore numbers, positioning, and time pressure.
 - Do not treat Ink as a fuel meter.
@@ -210,7 +216,9 @@ Alternative ending if the Drosin/Kelyra fight needs more room: end on Kelyra's S
 ## Consistency Checks
 
 - Drosin is the live named Archeon opponent near Kelyra; Brann is dead in the current mapped material.
+- Drosin is Davian's most dangerous direct Book 1 fight and should not be undercut as a disposable guard.
 - Kelyra's Shroud was trauma-blocked, not absent.
+- Kelyra's initial inability to help is restraint plus Shroud block, not simple injury/passivity.
 - Kelyra's Shroud breakthrough should not morally vindicate Serathis.
 - Davian should not solo the Drosin fight as the decisive threat.
 - Maya remains extremely powerful; the attrition problem is time, positioning, and separation.
