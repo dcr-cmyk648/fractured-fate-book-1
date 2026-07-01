@@ -2,7 +2,7 @@
 
 Web-app comments are inbox material. They are not canon, accepted revisions, manuscript-edit authorization, or prose-preservation approval.
 
-- Total normalized comments: 35
+- Total normalized comments: 39
 - Duplicate records archived: 4
 - Rejected/unparsed records archived: 0
 
@@ -15,12 +15,14 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 | `2026-06-28-001` | 4 |
 | `2026-06-30-002` | 3 |
 | `2026-06-30-003` | 3 |
+| `2026-06-30-004` | 3 |
+| `2026-06-30-005` | 1 |
 
 ## Commenters
 
 | Commenter | Comments |
 |---|---:|
-| `DustinR` | 31 |
+| `DustinR` | 35 |
 | `Dustin` | 4 |
 
 ## Comments by Target
@@ -29,13 +31,14 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 |---|---:|
 | `d1-ch-29` | 8 |
 | `scratchpad` | 7 |
+| `technical-processing` | 7 |
 | `imports/normalized/melissa-copy.md` | 6 |
-| `technical-processing` | 5 |
 | `d1-ch-42` | 3 |
 | `bible/cultures/culture-number-system-zan-script.md` | 2 |
+| `content` | 2 |
+| `LORE-2026-06-28-007` | 1 |
 | `bible/locations/loc-sorevin-redbridge.md` | 1 |
 | `bible/magic/magic-zan-lattices.md` | 1 |
-| `content` | 1 |
 | `d1-prologue` | 1 |
 
 ## Comments by Classification
@@ -43,8 +46,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 | Classification | Comments |
 |---|---:|
 | `unclear` | 12 |
-| `scratchpad-content` | 8 |
+| `scratchpad-content` | 9 |
+| `scratchpad-technical` | 7 |
 | `story-bible-question` | 7 |
-| `scratchpad-technical` | 5 |
+| `app-bug` | 2 |
 | `continuity-question` | 2 |
-| `app-bug` | 1 |
