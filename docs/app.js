@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-17";
+const APP_VERSION = "review-interface-v0-sync-18";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -185,6 +185,14 @@ function saveReaderState() {
 }
 
 function setMode(mode) {
+  if (mode === "author" && !hasVerifiedAuthorCode()) {
+    currentMode = "reader";
+    localStorage.setItem(STORAGE_KEYS.mode, "reader");
+    setView("export");
+    window.alert("Author Mode requires a saved reader code that has been validated as an author code. Save the code and sync a test comment first.");
+    renderExportStatus();
+    return;
+  }
   currentMode = mode;
   localStorage.setItem(STORAGE_KEYS.mode, mode);
   document.body.classList.toggle("mode-reader", mode === "reader");
@@ -209,6 +217,11 @@ function setMode(mode) {
     renderLayerSelect();
     renderChapter();
   }
+}
+
+function hasVerifiedAuthorCode() {
+  return Boolean(localStorage.getItem(STORAGE_KEYS.readerCodeValidatedAt)) &&
+    localStorage.getItem(STORAGE_KEYS.readerCodeRole) === "author";
 }
 
 function renderMetadata() {
@@ -1081,6 +1094,9 @@ function markSyncGenerated(result, records) {
   }
   localStorage.setItem(STORAGE_KEYS.readerCodeValidatedAt, now);
   renderExportStatus();
+  if (currentMode === "reader") {
+    setMode("reader");
+  }
 }
 
 function markSyncSubmitted() {
@@ -1297,6 +1313,12 @@ function renderExportStatus() {
   $("readerCodeStatus").textContent = readerCode
     ? `Reader code: ${validatedAt ? `Validated${readerDisplayName ? ` for ${readerDisplayName}` : ""}${readerRole ? ` · ${readerRole}` : ""}` : "Saved, not yet validated"}`
     : "Reader code: Not saved";
+  if ($("authorModeBtn")) {
+    $("authorModeBtn").disabled = !hasVerifiedAuthorCode();
+    $("authorModeBtn").title = hasVerifiedAuthorCode()
+      ? "Author Mode available"
+      : "Author Mode requires a validated author reader code.";
+  }
   $("lastSyncStatus").textContent = `Last sync: ${formatExportTimestamp(lastSyncAt)}`;
   $("commentsSinceSync").textContent = `Entries since last sync: ${entriesSinceLastSync()}`;
   $("lastExportStatus").textContent = `Last export generated: ${formatExportTimestamp(lastAt)}`;
@@ -1562,7 +1584,7 @@ async function init() {
   currentScratchpadTab = localStorage.getItem(STORAGE_KEYS.scratchpadTab) === "technical-processing"
     ? "technical-processing"
     : "content";
-  setMode(savedMode === "author" ? "author" : "reader");
+  setMode(savedMode === "author" && hasVerifiedAuthorCode() ? "author" : "reader");
   renderChapters();
   renderFileTree();
   const savedView = localStorage.getItem(STORAGE_KEYS.view);

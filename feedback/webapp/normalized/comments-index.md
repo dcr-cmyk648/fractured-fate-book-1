@@ -2,7 +2,7 @@
 
 Web-app comments are inbox material. They are not canon, accepted revisions, manuscript-edit authorization, or prose-preservation approval.
 
-- Total normalized comments: 38
+- Total normalized comments: 39
 - Duplicate records archived: 4
 - Rejected/unparsed records archived: 0
 
@@ -16,12 +16,13 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 | `2026-06-30-002` | 3 |
 | `2026-06-30-003` | 3 |
 | `2026-06-30-004` | 3 |
+| `2026-06-30-005` | 1 |
 
 ## Commenters
 
 | Commenter | Comments |
 |---|---:|
-| `DustinR` | 34 |
+| `DustinR` | 35 |
 | `Dustin` | 4 |
 
 ## Comments by Target
@@ -30,8 +31,8 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 |---|---:|
 | `d1-ch-29` | 8 |
 | `scratchpad` | 7 |
+| `technical-processing` | 7 |
 | `imports/normalized/melissa-copy.md` | 6 |
-| `technical-processing` | 6 |
 | `d1-ch-42` | 3 |
 | `bible/cultures/culture-number-system-zan-script.md` | 2 |
 | `content` | 2 |
@@ -46,7 +47,7 @@ Web-app comments are inbox material. They are not canon, accepted revisions, man
 |---|---:|
 | `unclear` | 12 |
 | `scratchpad-content` | 9 |
+| `scratchpad-technical` | 7 |
 | `story-bible-question` | 7 |
-| `scratchpad-technical` | 6 |
 | `app-bug` | 2 |
 | `continuity-question` | 2 |

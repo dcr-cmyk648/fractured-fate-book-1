@@ -52,6 +52,7 @@ The Comment Sync page supports a submit-only sync path for beta readers with pri
 - Sync sends comments and scratchpad entries to the configured Apps Script endpoint.
 - Apps Script validates the reader code privately and writes submitted comments to Google Drive / Sheets for later Codex import.
 - A code configured as `role: "author"` in Apps Script is stamped as verified author input during sync. Other verified reader codes are treated as provisional outside-reader feedback.
+- Author Mode is available only after the saved code has been validated as `role: "author"` by a successful sync confirmation. This is a UI gate, not cryptographic protection for published repository data.
 - `Download Backup JSON` remains available if sync fails or a reader does not have a code.
 
 Sync is submit-only. The app does not read prior comments back from Google Drive and does not provide cross-device comment history.

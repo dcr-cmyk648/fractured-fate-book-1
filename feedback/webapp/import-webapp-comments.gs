@@ -459,6 +459,13 @@ function getOrCreateSheet_() {
 }
 
 function ensureHeader_(sheet) {
+  if (sheet.getMaxColumns() < COMMENT_COLUMNS.length) {
+    sheet.insertColumnsAfter(
+      sheet.getMaxColumns(),
+      COMMENT_COLUMNS.length - sheet.getMaxColumns()
+    );
+  }
+
   if (sheet.getLastRow() === 0) {
     sheet.appendRow(COMMENT_COLUMNS);
     sheet.setFrozenRows(1);
