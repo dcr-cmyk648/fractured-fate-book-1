@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ff-review-sync-25";
+const CACHE_VERSION = "ff-review-sync-26";
 const APP_SHELL = [
   "./",
   "./index.html",

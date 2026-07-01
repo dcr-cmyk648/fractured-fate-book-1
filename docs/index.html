@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=sync-25">
+    <link rel="stylesheet" href="styles.css?v=sync-26">
   </head>
   <body>
     <header class="app-header">
@@ -29,7 +29,7 @@
           <button id="browserNavBtn" type="button">Repository Browser</button>
           <button id="ticketsNavBtn" type="button">Ticket Review</button>
           <button id="scratchpadNavBtn" type="button">Scratchpad</button>
-          <button id="exportNavBtn" type="button">Comment Sync</button>
+          <button id="exportNavBtn" type="button">Sync</button>
         </nav>
       </div>
     </header>
@@ -101,7 +101,7 @@
 
       <section id="exportView" class="view" aria-labelledby="exportHeading">
         <div class="section-heading">
-          <h2 id="exportHeading">Comment Sync</h2>
+          <h2 id="exportHeading">Sync</h2>
           <p>Comments and scratchpad entries stay local until synced or downloaded.</p>
         </div>
         <div class="export-status" aria-label="Export status">
@@ -126,7 +126,7 @@
               <option value="since-last">Only entries since last sync/export</option>
             </select>
           </label>
-          <button id="syncCommentsBtn" type="button">Sync Comments</button>
+          <button id="syncCommentsBtn" type="button">Sync</button>
           <button id="exportJsonBtn" type="button">Download Backup JSON</button>
           <label class="import-label">
             Import JSON
@@ -198,19 +198,17 @@
         <span>Comments</span>
         <strong id="mobileCommentTarget">Loading...</strong>
       </button>
-      <div class="target-row">
+      <div class="comment-rail-header">
         <strong id="commentTarget">Loading...</strong>
-        <span id="commentCount">0 comments</span>
+        <span id="commentCount">0</span>
+        <button id="saveBookmarkBtn" type="button" title="Save bookmark">Save</button>
+        <button id="resumeBookmarkBtn" type="button" title="Resume bookmark">Resume</button>
+        <button id="debugReferenceBtn" type="button" title="Show current comment reference">Debug</button>
       </div>
       <textarea id="commentText" rows="3" placeholder="Write a comment about the current chapter, layer, or file."></textarea>
       <div class="comment-actions">
         <button id="submitCommentBtn" type="button">Submit Comment</button>
-        <button id="quickExportBtn" type="button">Sync Comments</button>
-      </div>
-      <div id="bookmarkCard" class="bookmark-card" aria-label="Bookmark tools">
-        <span id="bookmarkStatus">No bookmark</span>
-        <button id="saveBookmarkBtn" type="button">Save Bookmark</button>
-        <button id="resumeBookmarkBtn" type="button">Resume</button>
+        <button id="quickExportBtn" type="button">Sync</button>
       </div>
       <details id="referenceCard" class="reference-card" aria-label="Current comment reference">
         <summary>Currently Seeing</summary>
@@ -218,6 +216,6 @@
       </details>
     </aside>
 
-    <script src="app.js?v=sync-25"></script>
+    <script src="app.js?v=sync-26"></script>
   </body>
 </html>

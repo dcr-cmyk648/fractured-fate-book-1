@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-25";
+const APP_VERSION = "review-interface-v0-sync-26";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -129,7 +129,7 @@ function bookmarkLabel(bookmark = loadBookmark()) {
 }
 
 function renderBookmarkStatus() {
-  $("bookmarkStatus").textContent = bookmarkLabel();
+  $("resumeBookmarkBtn").title = bookmarkLabel();
 }
 
 function promptForBackupName() {
@@ -894,7 +894,7 @@ function renderReferenceDetails(ref = currentReference()) {
 
 function renderCommentCount() {
   const count = comments.length;
-  $("commentCount").textContent = `${count} entr${count === 1 ? "y" : "ies"}`;
+  $("commentCount").textContent = String(count);
 }
 
 function submitComment() {
@@ -1235,9 +1235,10 @@ async function syncComments(options = {}) {
 function setSyncButtonsBusy(isBusy) {
   const syncButton = $("syncCommentsBtn");
   const quickButton = $("quickExportBtn");
+  const syncLabel = `Sync (${entriesSinceLastSync()})`;
   if (syncButton) {
     syncButton.disabled = isBusy;
-    syncButton.textContent = isBusy ? "Syncing..." : "Sync Comments";
+    syncButton.textContent = isBusy ? "Syncing..." : syncLabel;
     syncButton.classList.toggle("is-syncing", isBusy);
   }
   if ($("saveReaderCodeBtn")) {
@@ -1246,7 +1247,7 @@ function setSyncButtonsBusy(isBusy) {
   }
   if (quickButton) {
     quickButton.disabled = isBusy;
-    quickButton.textContent = isBusy ? "Syncing..." : (getReaderCode() ? "Sync Comments" : "Comment Sync");
+    quickButton.textContent = isBusy ? "Syncing..." : syncLabel;
     quickButton.classList.toggle("is-syncing", isBusy);
   }
 }
@@ -1348,9 +1349,9 @@ function renderExportStatus() {
   $("commentsSinceExport").textContent = `Entries since last export: ${entriesSinceLastExport()}`;
   $("totalCommentStatus").textContent = `Total local entries: ${comments.length}`;
   $("appVersionStatus").textContent = `App version: ${APP_VERSION}`;
-  if ($("quickExportBtn")) {
-    $("quickExportBtn").textContent = readerCode ? "Sync Comments" : "Comment Sync";
-  }
+  const syncLabel = `Sync (${entriesSinceLastSync()})`;
+  if ($("quickExportBtn")) $("quickExportBtn").textContent = syncLabel;
+  if ($("syncCommentsBtn")) $("syncCommentsBtn").textContent = syncLabel;
 }
 
 async function reloadApp() {
@@ -1531,6 +1532,10 @@ function wireEvents() {
   });
   $("saveBookmarkBtn").addEventListener("click", saveBookmark);
   $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
+  $("debugReferenceBtn").addEventListener("click", () => {
+    const card = $("referenceCard");
+    card.open = !card.open;
+  });
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", () => {
     if (getReaderCode()) syncComments();
