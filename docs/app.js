@@ -1,4 +1,4 @@
-const APP_VERSION = "review-interface-v0-sync-26";
+const APP_VERSION = "review-interface-v0-sync-27";
 const COMMENT_SYNC_ENDPOINT = "https://script.google.com/macros/s/AKfycbyoyiKDqVWZC07BHVmj-XRL3DRXAUYdYRqQpNI1bPi1sUD3ijzSQyTPHWzdnPm5022z/exec";
 const STORAGE_KEYS = {
   commenter: "ffReview.commenterName",
@@ -865,12 +865,21 @@ function updateTargetDisplay() {
     : ref.current_file_path || "No target";
   $("commentTarget").textContent = target;
   $("mobileCommentTarget").textContent = abbreviate(target, 72);
-  renderReferenceDetails(ref);
+  if ($("referenceDetails")) renderReferenceDetails(ref);
 }
 
 function renderReferenceDetails(ref = currentReference()) {
-  const details = $("referenceDetails");
-  if (!details) return;
+  let details = $("referenceDetails");
+  if (!details) {
+    const card = document.createElement("div");
+    card.id = "referenceCard";
+    card.className = "reference-card";
+    card.setAttribute("aria-label", "Current comment reference");
+    details = document.createElement("dl");
+    details.id = "referenceDetails";
+    card.appendChild(details);
+    $("commentBox").appendChild(card);
+  }
   const file = ref.current_file_path || "";
   const lines = ref.source_line_start
     ? `${ref.source_line_start}-${ref.source_line_end || "?"}`
@@ -1436,12 +1445,9 @@ function syncMobileReaderUi() {
 }
 
 function syncMobileCommentUi() {
-  const referenceCard = $("referenceCard");
   if (isMobileLayout()) {
-    referenceCard.removeAttribute("open");
     setCommentDrawer(false);
   } else {
-    referenceCard.removeAttribute("open");
     setCommentDrawer(true);
   }
 }
@@ -1534,7 +1540,11 @@ function wireEvents() {
   $("resumeBookmarkBtn").addEventListener("click", resumeBookmark);
   $("debugReferenceBtn").addEventListener("click", () => {
     const card = $("referenceCard");
-    card.open = !card.open;
+    if (card) {
+      card.remove();
+    } else {
+      renderReferenceDetails();
+    }
   });
   $("submitCommentBtn").addEventListener("click", submitComment);
   $("quickExportBtn").addEventListener("click", () => {
