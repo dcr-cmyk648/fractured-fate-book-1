@@ -1,0 +1,59 @@
+{
+  "export_metadata": {
+    "exported_at": "2026-07-01T00:16:00.760Z",
+    "source": "google-sheet-webapp-comments",
+    "source_sheet": "webapp-comments",
+    "pulled_by_codex_at": "2026-06-30T20:59:00-0400",
+    "comment_count": 2
+  },
+  "comments": [
+    {
+      "id": "comment-1782767636939-fvu3nj",
+      "created_at": "2026-06-29T21:13:56.939Z",
+      "commenter_name": "Dustin",
+      "commenter_role": "reader",
+      "commenter_role_verified": true,
+      "reader_id": "dustincr",
+      "reviewer_session_id": "session-28958383-93f2-49d2-932f-876a8269b6d8",
+      "repo_branch": "main",
+      "repo_commit": "f7f082b805a806b585814b0a0c88d4d72ae42060",
+      "app_version": "review-interface-v0-sync-5",
+      "view_mode": "export",
+      "current_layer": "prose",
+      "current_file_path": "imports/normalized/melissa-copy.md",
+      "chapter_id": "",
+      "chapter_title": "",
+      "source_line_start": "",
+      "source_line_end": "",
+      "current_heading": "Prologue",
+      "selected_text": "",
+      "approximate_scroll_percent": 0,
+      "comment_text": "test",
+      "status": "inbox"
+    },
+    {
+      "id": "comment-1782864955713-hsteq0",
+      "created_at": "2026-07-01T00:15:55.713Z",
+      "commenter_name": "DustinR",
+      "commenter_role": "reader",
+      "commenter_role_verified": true,
+      "reader_id": "dustincr",
+      "reviewer_session_id": "session-8b9d2c61-af54-4a7c-bad1-8036737a3553",
+      "repo_branch": "main",
+      "repo_commit": "042becf1a591a5db5c4682d22227f98001d9bbf2",
+      "app_version": "review-interface-v0-sync-18",
+      "view_mode": "book-reader",
+      "current_layer": "prose",
+      "current_file_path": "imports/normalized/melissa-copy.md",
+      "chapter_id": "d1-ch-01",
+      "chapter_title": "Chapter 1",
+      "source_line_start": 678,
+      "source_line_end": 705,
+      "current_heading": "Chapter 1 \u00b7 The air was still thick with the acrid scent of charred wood and flesh. It clung to Maya\u2019s sens\u2026",
+      "selected_text": "",
+      "approximate_scroll_percent": 3,
+      "comment_text": "I\u2019m noticing that the early chapters have a lot more \u201cAI voice\u201d which I find grating, and the later chapters are better. Maybe it\u2019s just because I gave more direction later. Also, the keyboard is still messed up and I can\u2019t see what I\u2019m typing right now",
+      "status": "inbox"
+    }
+  ]
+}
