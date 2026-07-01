@@ -366,6 +366,68 @@ function installReaderAccountsFromConfig() {
   return Object.keys(accounts);
 }
 
+function addOrUpdateReaderAccountsFromConfig() {
+  const accounts = getReaderAccounts();
+  let changedCount = 0;
+  for (const account of CONFIG.readerAccounts || []) {
+    if (!account.reader_id || !account.display_name || !account.code) {
+      throw new Error("Every reader account needs reader_id, display_name, and code.");
+    }
+    accounts[account.reader_id] = {
+      reader_id: account.reader_id,
+      display_name: account.display_name,
+      role: normalizedReaderRole_(account.role),
+      token_hash: hashReaderCode_(account.code),
+      active: account.active !== false
+    };
+    changedCount += 1;
+  }
+  PropertiesService.getScriptProperties().setProperty("reader_accounts_json", JSON.stringify(accounts));
+  Logger.log("Added/updated %s reader account(s). Total installed accounts: %s.", changedCount, Object.keys(accounts).length);
+  Logger.log("Remove plaintext codes from CONFIG.readerAccounts after confirming setup.");
+  return listReaderAccounts();
+}
+
+function listReaderAccounts() {
+  const accounts = getReaderAccounts();
+  const rows = Object.keys(accounts).sort().map((readerId) => {
+    const account = accounts[readerId] || {};
+    return {
+      reader_id: account.reader_id || readerId,
+      display_name: account.display_name || "",
+      role: normalizedReaderRole_(account.role),
+      active: account.active !== false,
+      token_hash_prefix: account.token_hash ? String(account.token_hash).slice(0, 12) : "",
+      token_hash_length: account.token_hash ? String(account.token_hash).length : 0
+    };
+  });
+  Logger.log(JSON.stringify(rows, null, 2));
+  return rows;
+}
+
+function checkConfiguredReaderCodes() {
+  const installed = getReaderAccounts();
+  const rows = (CONFIG.readerAccounts || []).map((account) => {
+    const installedAccount = account.reader_id ? installed[account.reader_id] : null;
+    const configuredHash = account.code ? hashReaderCode_(account.code) : "";
+    return {
+      reader_id: account.reader_id || "",
+      display_name: account.display_name || "",
+      configured_role: normalizedReaderRole_(account.role),
+      configured_active: account.active !== false,
+      configured_code_trimmed_length: account.code ? String(account.code).trim().length : 0,
+      installed: !!installedAccount,
+      installed_role: installedAccount ? normalizedReaderRole_(installedAccount.role) : "",
+      installed_active: installedAccount ? installedAccount.active !== false : false,
+      hash_matches_installed: !!installedAccount && installedAccount.token_hash === configuredHash,
+      configured_hash_prefix: configuredHash ? configuredHash.slice(0, 12) : "",
+      installed_hash_prefix: installedAccount && installedAccount.token_hash ? String(installedAccount.token_hash).slice(0, 12) : ""
+    };
+  });
+  Logger.log(JSON.stringify(rows, null, 2));
+  return rows;
+}
+
 function getReaderAccounts() {
   const raw = PropertiesService.getScriptProperties().getProperty("reader_accounts_json");
   return raw ? JSON.parse(raw) : {};

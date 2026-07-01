@@ -237,11 +237,16 @@ readerAccounts: [
 
 Use `role: "author"` only for trusted author codes. Apps Script stores only the role and code hash in Script Properties, then stamps synced comments with the verified role after validation.
 
-5. Run `installReaderAccountsFromConfig()` in Apps Script.
-6. Confirm the execution log says the accounts were installed.
-7. Remove plaintext `code` values from `CONFIG.readerAccounts` in Apps Script after installation.
-8. Deploy a new web app version.
-9. Give each reader their private code.
+5. Run `addOrUpdateReaderAccountsFromConfig()` in Apps Script.
+6. Run `listReaderAccounts()` and confirm the expected reader IDs, roles, and active states are present. The log shows hash prefixes only, not plaintext codes.
+7. If checking a newly typed account, run `checkConfiguredReaderCodes()` before removing the plaintext code and confirm `hash_matches_installed: true`.
+8. Remove plaintext `code` values from `CONFIG.readerAccounts` in Apps Script after installation.
+9. Deploy a new web app version only if the script code changed. Script Properties account updates do not by themselves require redeploying code.
+10. Give each reader their private code.
+
+Use `addOrUpdateReaderAccountsFromConfig()` for normal account maintenance. It merges the listed accounts into the existing Script Properties account list and preserves accounts that are not currently shown in `CONFIG.readerAccounts`.
+
+Use `installReaderAccountsFromConfig()` only when intentionally replacing the entire installed account list with exactly the accounts currently listed in `CONFIG.readerAccounts`.
 
 When the app calls the endpoint with `action: submit-comments`, Apps Script:
 
