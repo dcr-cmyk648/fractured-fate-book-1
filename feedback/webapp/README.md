@@ -208,10 +208,13 @@ The static app can submit comments directly to Apps Script when a reader has a p
 Security model:
 
 - No reader code, account list, token hash, or private Sheet ID belongs in GitHub.
+- No private Drive folder ID, submitted-comments folder ID, import token, or Apps Script deployment setting belongs in GitHub.
 - The public app may contain the Apps Script web app URL.
 - The reader code is a bearer invite code stored in that reader's browser `localStorage`.
 - Apps Script validates the reader code against private Script Properties.
 - Sync is submit-only. The endpoint writes comments; it does not return prior comments or cross-device history.
+
+Private Apps Script configuration is local deployment state, not repository state. The repository template should keep private `CONFIG.folderId`, `CONFIG.submittedCommentsFolderId`, `CONFIG.spreadsheetId`, reader codes, account lists, token values, and similar settings blank or placeholder-only. When copying an updated `import-webapp-comments.gs` template into the deployed Apps Script project, preserve the deployed script's existing private `CONFIG` values unless the author explicitly intends to rotate or replace them. Codex should call this out before asking the author to paste updated script code.
 
 Setup:
 

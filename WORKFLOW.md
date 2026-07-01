@@ -233,6 +233,8 @@ After the relevant tickets are handled, re-present the preserved approval packet
 
 The repository does not depend on Google Drive APIs for this workflow. If the author uses a local Google Drive-synced folder, copy exported files from that folder into `feedback/webapp/incoming/` before running the import script. Do not read arbitrary Google Drive folders unless the author explicitly provides a local path and authorizes it.
 
+Private Apps Script configuration is local deployment state and must be preserved locally without being synced to GitHub. Real Drive folder IDs, submitted-comments folder IDs, Sheet IDs, reader codes, reader account lists, token values, and deployment settings should remain in the deployed Apps Script project or the author's private notes, not in repository files. The repository `feedback/webapp/import-webapp-comments.gs` file is a template and should use blank or placeholder private config values. When updating the Apps Script template, Codex must warn the author to preserve existing deployed `CONFIG` values instead of pasting over them blindly, unless the author explicitly says to rotate or replace those values.
+
 ## Book-Improvement Test
 
 Before deepening an entity or asking the author to settle another detail, Codex should ask whether the work could plausibly do at least one of the following:
