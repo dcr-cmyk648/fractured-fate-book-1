@@ -38,7 +38,7 @@ Summary: Mobile comment entry still has a keyboard/viewport problem; when typing
 
 Rationale: The app is intended to collect mobile feedback through comments and scratchpad entries. If the keyboard hides the textarea, mobile comment collection is unreliable even if sync works.
 
-Disposition: app update applied in `review-interface-v0-sync-28`.
+Disposition: app update applied in `review-interface-v0-sync-28` as a mechanical mobile-usability fix consistent with prior direct author feedback. The source comment was imported as verified `reader` feedback, not as verified author approval.
 
 ## WC-2026-06-30-014: Early Chapters Need Later Style/Voice Review
 

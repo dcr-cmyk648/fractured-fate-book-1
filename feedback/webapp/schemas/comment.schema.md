@@ -53,7 +53,9 @@ Scratchpad entries intentionally do not require a file or chapter anchor. For sc
 - `reader`
 - `unverified`
 
-`commenter_role_verified` should be true only when a private reader code has been validated by the configured Apps Script sync endpoint. The local importer preserves verified role fields from synced/archived records, but it does not infer author status from `commenter_name`.
+`commenter_role_verified` should be true only when a private reader code has been validated by the configured Apps Script sync endpoint. The local importer preserves verified role fields from synced/archived records, but it does not infer author status from `commenter_name`, `reader_id`, device/session identifiers, or familiar wording.
+
+A record is author-origin only when `commenter_role: author` and `commenter_role_verified: true`. A verified `reader` record remains outside-reader feedback. It may increase salience and produce tickets, but it does not authorize accepted canon, outline direction, prose edits, prose-preservation approval, or global creative/revision guidance.
 
 Manual JSON/JSONL/Markdown exports without a verified role are treated as `unverified` for synthesis. They remain inbox material and do not bypass ticketing, approval, or prose/canon gates.
 
