@@ -81,6 +81,10 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.access-strip #accessStatus {
+  display: inline;
+}
+
 .access-actions {
   display: flex;
   gap: 0.5rem;
@@ -819,6 +823,18 @@ select {
   .access-strip span {
     display: block;
     margin: 0.25rem 0 0;
+  }
+
+  .access-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .access-actions button {
+    min-width: 0;
+    padding: 0.5rem 0.35rem;
+    font-size: 0.82rem;
   }
 
   .app-header {

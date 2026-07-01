@@ -11,17 +11,16 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" href="icons/app-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=sync-18">
+    <link rel="stylesheet" href="styles.css?v=sync-20">
   </head>
   <body>
     <section class="access-strip" aria-label="Access mode">
       <div>
         <strong>Access mode</strong>
-        <span>Reader Mode hides repository browsing. Author Mode exposes spoilers and project files.</span>
+        <span id="accessStatus">Reader access: repository browsing is hidden.</span>
       </div>
       <div class="access-actions">
-        <button id="readerModeBtn" class="active" type="button">Reader Mode</button>
-        <button id="authorModeBtn" type="button">Author Mode</button>
+        <button id="accessSyncBtn" type="button">Enter Code / Sync</button>
       </div>
     </section>
 
@@ -238,6 +237,6 @@
       </details>
     </aside>
 
-    <script src="app.js?v=sync-18"></script>
+    <script src="app.js?v=sync-20"></script>
   </body>
 </html>
